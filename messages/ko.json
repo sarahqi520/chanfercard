@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "title": "CHANFER | 게임 카드 및 보드게임 자동 포장 솔루션",
+    "description": "CHANFER (광저우 찬퍼 스마트 장비 유한회사) — 게임 카드, 보드게임, 트레이딩 카드를 위한 원스톱 자동 포장 솔루션. 6가지 포장 방식, 25년 이상의 경험, 전 세계 8,000곳 이상의 고객사 서비스 제공.",
+    "keywords": "카드 포장 기계, 게임 카드 포장, 보드게임 포장, 트레이딩 카드 포장, 자동 카드 공급기, 카드 포장기, 카드 밴딩기, 카드 수축 포장, 사면 실링 포장, 캔디 포장 기계, 카드 포장 라인, CHANFER, CUKKE"
+  },
+  "nav": {
+    "home": "홈",
+    "solutions": "포장 솔루션",
+    "machines": "기계",
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "getQuote": "견적 요청"
+  },
+  "topBar": {
+    "tagline": "원스톱 계수 및 포장 자동화 솔루션"
+  },
+  "hero": {
+    "badge": "게임 카드 및 보드게임 포장 전문가",
+    "title1": "원스톱",
+    "titleHighlight": "카드 포장",
+    "title2": "자동화",
+    "description": "공급, 계수부터 포장, 박싱, 팔레타이징까지 — CHANFER는 게임 카드, 트레이딩 카드, 보드게임을 위한 완전 자동 포장 라인을 제공합니다.",
+    "highlight1": "6가지 포장 방식",
+    "highlight2": "25년 이상",
+    "highlight3": "8,000곳 이상 고객사",
+    "highlightSuffix": "의 경험,",
+    "highlightSuffix2": "전 세계 서비스 제공.",
+    "cta1": "솔루션 살펴보기",
+    "cta2": "견적 받기"
+  },
+  "stats": {
+    "clients": "고객사",
+    "patents": "특허",
+    "experience": "업계 경험",
+    "team": "팀 구성원"
+  },
+  "methods": {
+    "title": "게임 카드를 위한 6가지 포장 방식",
+    "description": "고속 캔디 포장부터 프리미엄 입체 박스까지 카드 제품에 가장 적합한 포장 형식을 선택하세요. 각 방식은 완전 통합 생산 라인으로 제공됩니다.",
+    "viewLine": "전체 라인 보기"
+  },
+  "whyUs": {
+    "title": "왜 CHANFER인가?",
+    "description": "단순한 기계 공급업체가 아닌, 제조 역량과 위탁 포장 서비스를 갖춘 엔드투엔드 포장 파트너입니다.",
+    "equipment": {
+      "title": "장비 제조사",
+      "desc": "직접 기계를 설계·제작합니다 — 중간 유통 없이 공장 직거래 가격과 완전한 기술 지원을 제공합니다."
+    },
+    "service": {
+      "title": "포장 서비스 제공업체",
+      "desc": "5,000m² 클린룸 시설에 자체 장비, 인력, 포장 필름을 갖추고 있습니다. 고객은 제품만 제공하시면 나머지는 저희가 처리합니다."
+    },
+    "smart": {
+      "title": "스마트 카드 배분",
+      "desc": "AI 비전 검사를 탑재한 컴퓨터 제어 카드 분류 시스템. 배치당 최대 25,000팩 처리, 100% 오류 감지."
+    },
+    "ai": {
+      "title": "AI 비전 검사",
+      "desc": "분당 400매 이상의 실시간 카드 검사. 잘못된 카드, 누락된 카드, 순서 오류를 즉시 감지합니다."
+    },
+    "integration": {
+      "title": "풀라인 통합",
+      "desc": "카드 공급부터 팔레타이징까지 — 협동 로봇과 스마트 제어 시스템을 갖춘 완전 턴키 생산 라인."
+    },
+    "quality": {
+      "title": "품질 보증",
+      "desc": "ISO9001 인증, 국가 하이테크 기업, 광동성 SRDI 인정. 100건 이상의 특허 및 CE 인증."
+    }
+  },
+  "smartSystem": {
+    "badge": "스마트 시스템",
+    "title": "컴퓨터 카드 배분 시스템",
+    "description": "당사의 지능형 카드 배분 시스템은 컴퓨터, 카드 분배기 및 다수의 카드 공급기를 사용하여 사전 설정된 레시피에 따라 카드를 자동으로 분류하고 포장합니다.",
+    "features": [
+      "Excel에서 카드 분류 프로세스 편집 — 간단하고 직관적",
+      "1,000개 이상의 프로세스 레시피 파일 저장 가능, 배치당 25,000팩",
+      "오류 방지 감지: 백카드 / 두께 / AI 비전 검사",
+      "오류 발생 시 자동 경보 및 정지, 문제 해결 후 빠른 재시작",
+      "6가지 포장 라인 구성 모두와 호환"
+    ],
+    "comparison": {
+      "title": "기존 방식 vs. CHANFER 스마트 라인",
+      "labels": {
+        "labor": "필요 인력",
+        "errorRate": "오류율",
+        "batchSize": "배치 크기",
+        "changeover": "교체 시간",
+        "qualityAssurance": "품질 보증"
+      },
+      "traditional": {
+        "labor": "다수 작업자",
+        "errorRate": "높음 (수동 계수)",
+        "batchSize": "소규모 데이터만",
+        "changeover": "30–60분",
+        "qualityAssurance": "수동 샘플링 검사"
+      },
+      "chanfer": {
+        "labor": "1–2명 작업자",
+        "errorRate": "0에 가까움 (AI 검사)",
+        "batchSize": "배치당 최대 25,000팩",
+        "changeover": "3–5분 (레시피 전환)",
+        "qualityAssurance": "100% 실시간 검사"
+      },
+      "traditionalLabel": "기존 방식",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "업계 리더들이 신뢰하는 기업",
+    "description": "CHANFER는 세계 최고의 인쇄 및 포장 기업을 포함하여 8,000곳 이상의 고객사에 서비스를 제공했습니다."
+  },
+  "timeline": {
+    "title": "회사 연혁",
+    "description": "단일 카드 공급기에서 풀 스펙트럼 포장 솔루션 제공업체로."
+  },
+  "solutions": {
+    "title1": "카드 포장",
+    "title2": "솔루션",
+    "description": "CHANFER는 게임 카드, 트레이딩 카드, 보드게임 구성품을 위한 6가지 검증된 포장 방식을 제공합니다. 각 방식은 자동 카드 공급부터 로봇 팔레타이징까지 완전 통합 생산 라인으로 이용 가능합니다.",
+    "specs": {
+      "speed": "속도",
+      "filmDia": "필름 롤 직경",
+      "filmWidth": "필름 폭",
+      "innerDia": "내경",
+      "voltage": "전압"
+    },
+    "keyFeatures": "주요 특징",
+    "idealFor": "적합 용도",
+    "watchInAction": "구동 영상 보기",
+    "videoComingSoon": "영상 준비 중",
+    "showLine": "생산 라인 및 공정 보기",
+    "hideLine": "생산 라인 및 공정 숨기기",
+    "completeLine": "완전 생산 라인",
+    "lineComponents": "생산 라인 구성 요소",
+    "process": "포장 공정",
+    "requestLine": "이 라인 문의하기",
+    "viewMachines": "개별 기계 보기",
+    "cta": {
+      "title": "어떤 포장 방식이 적합할지 고민되시나요?",
+      "description": "저희 엔지니어가 귀하의 카드 제품 사양을 분석하고 최적의 포장 방식과 라인 구성을 추천해 드립니다.",
+      "button": "무료 상담 받기"
+    }
+  },
+  "machines": {
+    "title1": "기계",
+    "title2": "카탈로그",
+    "description": "고속 마찰 공급기부터 AI 비전 검사 시스템까지 — 카드 제품을 위한 자동 포장 기계 전체 라인업.",
+    "search": "기계 검색...",
+    "showing": "{count}대의 기계 표시 중",
+    "noResults": "검색 조건에 맞는 기계가 없습니다.",
+    "clearFilters": "필터 초기화",
+    "specifications": "사양",
+    "moreSpecs": "+{count}개 추가 사양",
+    "inquire": "{model} 문의하기",
+    "categories": {
+      "all": "전체 기계",
+      "feeding": "카드 공급",
+      "packaging": "포장",
+      "boxing": "박싱 및 실링",
+      "palletizing": "팔레타이징",
+      "ai": "AI 비전"
+    },
+    "model": "모델"
+  },
+  "about": {
+    "title1": "CHANFER",
+    "title2": "소개",
+    "description": "장비 제조부터 위탁 포장 서비스까지 — 자동 카드 포장을 위한 원스톱 파트너.",
+    "overview": {
+      "title": "원스톱 포장 솔루션의 선구자",
+      "intro1": "<strong>광저우 찬퍼 스마트 장비 유한회사</strong>(구 동관 찬퍼 스마트 포장 기술 유한회사)는 2011년 설립되어 국가 하이테크 기업 및 광동성 SRDI(전문화, 정밀화, 차별화, 혁신) 인증 기업입니다.",
+      "intro2": "원스톱 계수 및 포장 솔루션 제공의 선구자로서, CHANFER는 두 개의 핵심 사업부를 운영하고 있습니다:",
+      "equipment": {
+        "title": "장비 제조 사업부",
+        "desc": "25년의 기술 경험과 지속적인 혁신 정신을 바탕으로, 생산 인건비를 효과적으로 절감하는 고부가가치 포장 장비를 적극적으로 제공합니다. 당사 제품의 가치는 고객에게 더 높은 부가가치를 창출하는 데 있습니다."
+      },
+      "contract": {
+        "title": "위탁 포장 사업부",
+        "desc": "5,000m² 클린룸 포장 시설에 자체 장비, 인력, 포장 필름을 갖추고 있습니다. 고객은 내부 제품만 제공하시면 그 외 모든 것을 저희가 처리합니다. 대규모 주문도 안심하고 맡길 수 있는 진정한 원스톱 포장 서비스입니다."
+      }
+    },
+    "stats": {
+      "patents": "특허",
+      "patentsSub": "발명 8건 · 실용신안 80건 · 디자인 13건 · 저작권 6건",
+      "clients": "고객사",
+      "clientsSub": "인쇄, 게임, 식품, 의료 산업 전반",
+      "experience": "업계 경험",
+      "experienceSub": "2011년부터 지속적인 혁신",
+      "team": "팀 구성원",
+      "teamSub": "10명 이상의 애프터서비스 엔지니어 포함",
+      "branches": "지사",
+      "branchesSub": "동관 본사 · 광저우 · 이우",
+      "certs": "인증",
+      "certsSub": "하이테크 · SRDI · ISO9001 · CE"
+    },
+    "milestones": {
+      "title": "발전 이정표"
+    },
+    "certifications": {
+      "title": "인증 및 수상",
+      "highTech": {
+        "title": "국가 하이테크 기업",
+        "desc": "중국 과학기술부 인정"
+      },
+      "srdi": {
+        "title": "SRDI 기업",
+        "desc": "광동성 전문화·정밀화·차별화·혁신 중소기업"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "품질경영시스템 인증"
+      },
+      "ce": {
+        "title": "CE 인증",
+        "desc": "기계류 유럽 적합성 마킹"
+      },
+      "since": "{year}년부터"
+    },
+    "facilities": {
+      "title": "시설 안내",
+      "guangzhou": {
+        "title": "광저우 본사",
+        "subtitle": "영업 및 관리 센터"
+      },
+      "dongguan": {
+        "title": "동관 공장",
+        "subtitle": "제조 및 포장 센터"
+      },
+      "address": "주소",
+      "phone": "전화",
+      "mobile": "휴대폰",
+      "email": "이메일",
+      "facility": "시설"
+    }
+  },
+  "contact": {
+    "title1": "문의",
+    "title2": "하기",
+    "description": "카드 포장 자동화를 준비하고 계신가요? 제품과 요구사항을 알려주시면 엔지니어가 맞춤형 솔루션을 설계해 드립니다.",
+    "directContact": "직접 연락",
+    "phoneWhatsApp": "전화 / WhatsApp",
+    "emailLabel": "이메일",
+    "guangzhouOffice": "광저우 사무소",
+    "dongguanFactory": "동관 공장",
+    "workingHours": "근무 시간",
+    "workingHoursValue": "월–토: 오전 8:30 – 오후 6:00 (GMT+8)",
+    "whatsapp": {
+      "title": "WhatsApp으로 상담",
+      "subtitle": "신속 응답 · 영업팀 직통"
+    },
+    "form": {
+      "title": "견적 요청",
+      "description": "아래 양식을 작성해 주시면 24시간 이내에 맞춤형 포장 솔루션으로 답변 드리겠습니다.",
+      "name": "성함",
+      "namePlaceholder": "이름을 입력하세요",
+      "company": "회사명",
+      "companyPlaceholder": "회사명을 입력하세요",
+      "email": "이메일",
+      "emailPlaceholder": "email@company.com",
+      "phone": "전화번호",
+      "phonePlaceholder": "+82 10 1234 5678",
+      "productType": "제품 유형",
+      "selectProduct": "제품 유형 선택",
+      "productTypes": {
+        "tradingCards": "트레이딩 카드 (TCG/CCG)",
+        "boardGameCards": "보드게임 카드",
+        "playingCards": "플레잉 카드",
+        "collectibleCards": "컬렉터블 카드",
+        "gameComponents": "보드게임 구성품",
+        "printedMaterials": "인쇄물",
+        "other": "기타"
+      },
+      "quantity": "월간 수량",
+      "selectQuantity": "수량 범위 선택",
+      "quantities": {
+        "under100k": "100,000팩 미만",
+        "100kTo500k": "100,000 – 500,000팩",
+        "500kTo1m": "500,000 – 1,000,000팩",
+        "over1m": "1,000,000팩 이상"
+      },
+      "projectDetails": "프로젝트 상세",
+      "projectPlaceholder": "카드 제품, 포장 요구사항, 선호하는 포장 방식 또는 특별 요청사항을 알려주세요...",
+      "submit": "문의 제출",
+      "thankYou": "감사합니다!",
+      "thankYouMessage": "문의가 접수되었습니다. 24시간 이내에 담당자가 연락 드리겠습니다."
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "카드 포장 자동화를 시작할 준비가 되셨나요?",
+      "description": "공급부터 팔레타이징까지 — 맞춤형 포장 라인 솔루션을 받아보세요.",
+      "button": "견적 요청"
+    },
+    "company": {
+      "description": "Everything Can Be Packed — 2011년부터 게임 카드, 보드게임, 트레이딩 카드를 위한 원스톱 자동 포장 솔루션.",
+      "intelligentEquipment": "스마트 장비"
+    },
+    "solutions": {
+      "title": "포장 솔루션",
+      "candy": "캔디 포장",
+      "selfAdhesive": "자착식 스트립",
+      "fourSides": "사면 실링",
+      "banding": "밴딩 포장",
+      "heatShrink": "열수축",
+      "threeDimensional": "입체 포장"
+    },
+    "quickLinks": {
+      "title": "바로가기",
+      "machineCatalog": "기계 카탈로그",
+      "aboutChanfer": "CHANFER 소개",
+      "contactUs": "문의하기",
+      "downloadBrochure": "브로슈어 다운로드"
+    },
+    "contactTitle": "연락처",
+    "copyright": "© {year} {company}. All rights reserved.",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "이용약관"
+  },
+  "common": {
+    "required": "*",
+    "address": "주소",
+    "phone": "전화",
+    "mobile": "휴대폰",
+    "email": "이메일"
+  }
+}

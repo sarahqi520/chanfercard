@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "title": "CHANFER | Soluciones Automatizadas de Envasado de Cartas de Juego y Juegos de Mesa",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Soluciones de envasado automatizado integrales para cartas de juego, juegos de mesa y cartas coleccionables. 6 métodos de envasado, más de 25 años de experiencia, más de 8000 clientes atendidos en todo el mundo.",
+    "keywords": "máquina de envasado de cartas, envasado de cartas de juego, envasado de juegos de mesa, envasado de cartas coleccionables, alimentador automático de cartas, máquina de embolsado de cartas, máquina de fajado de cartas, envasado termorretráctil de cartas, envasado de sellado cuatro lados, máquina de envasado tipo caramelo, línea de envasado de cartas, CHANFER, CUKKE"
+  },
+  "nav": {
+    "home": "Inicio",
+    "solutions": "Soluciones de Envasado",
+    "machines": "Máquinas",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "getQuote": "Solicitar Presupuesto"
+  },
+  "topBar": {
+    "tagline": "Soluciones Automatizadas Integrales de Conteo y Envasado"
+  },
+  "hero": {
+    "badge": "Experto en Envasado de Cartas de Juego y Juegos de Mesa",
+    "title1": "Automatización",
+    "titleHighlight": "de Envasado de Cartas",
+    "title2": "Integral",
+    "description": "Desde la alimentación y conteo hasta el envasado, encajado y paletizado — CHANFER ofrece líneas completas de envasado automatizado para cartas de juego, cartas coleccionables y juegos de mesa.",
+    "highlight1": "6 métodos de envasado",
+    "highlight2": "más de 25 años",
+    "highlight3": "8,000+ clientes",
+    "highlightSuffix": "de experiencia, y",
+    "highlightSuffix2": "atendidos en todo el mundo.",
+    "cta1": "Explorar Soluciones",
+    "cta2": "Solicitar Presupuesto"
+  },
+  "stats": {
+    "clients": "Clientes Atendidos",
+    "patents": "Patentes",
+    "experience": "Experiencia en la Industria",
+    "team": "Miembros del Equipo"
+  },
+  "methods": {
+    "title": "6 Métodos de Envasado para Cartas de Juego",
+    "description": "Elija el formato de envasado ideal para sus productos de cartas — desde el envoltorio tipo caramelo de alta velocidad hasta las cajas tridimensionales premium. Cada método está disponible como una línea de producción integrada completa.",
+    "viewLine": "Ver Línea Completa"
+  },
+  "whyUs": {
+    "title": "¿Por Qué Elegir CHANFER?",
+    "description": "No somos solo un proveedor de máquinas — somos su socio de envasado de principio a fin con capacidad de fabricación y servicios de envasado por contrato.",
+    "equipment": {
+      "title": "Fabricante de Equipos",
+      "desc": "Diseñamos y fabricamos nuestras propias máquinas — sin intermediarios, precios directos de fábrica y soporte técnico completo."
+    },
+    "service": {
+      "title": "Proveedor de Servicios de Envasado",
+      "desc": "Instalación de sala limpia de 5,000m² con nuestro propio equipo, personal y película de envasado. Usted solo proporciona el producto — nosotros nos encargamos del resto."
+    },
+    "smart": {
+      "title": "Distribución Inteligente de Cartas",
+      "desc": "Sistema de clasificación de cartas controlado por computadora con inspección visual por IA. Hasta 25,000 paquetes por lote con detección de errores del 100%."
+    },
+    "ai": {
+      "title": "Inspección Visual por IA",
+      "desc": "Inspección de cartas en tiempo real a más de 400 láminas/min. Detecta cartas incorrectas, cartas faltantes y problemas de secuencia al instante."
+    },
+    "integration": {
+      "title": "Integración de Línea Completa",
+      "desc": "Desde la alimentación de cartas hasta el paletizado — líneas de producción llave en mano completas con robots colaborativos y sistemas de control inteligente."
+    },
+    "quality": {
+      "title": "Calidad Garantizada",
+      "desc": "Certificado ISO9001, Empresa Nacional de Alta Tecnología y reconocida como Empresa SRDI de la provincia de Guangdong. Más de 100 patentes y certificado CE."
+    }
+  },
+  "smartSystem": {
+    "badge": "Sistema Inteligente",
+    "title": "Sistema de Distribución de Cartas por Computadora",
+    "description": "Nuestro sistema inteligente de distribución de cartas utiliza una computadora, máquinas dispensadoras de cartas y múltiples alimentadores de cartas para clasificar y empaquetar automáticamente las cartas según las recetas preestablecidas.",
+    "features": [
+      "Edite el proceso de clasificación de cartas en Excel — simple e intuitivo",
+      "Más de 1,000 archivos de recetas de proceso almacenables; 25,000 paquetes por lote",
+      "Detección anti-errores: carta blanca / espesor / inspección visual por IA",
+      "Alarma automática y parada ante errores; reinicio rápido tras solucionar problemas",
+      "Compatible con las 6 configuraciones de líneas de envasado"
+    ],
+    "comparison": {
+      "title": "Línea Tradicional vs. Línea Inteligente CHANFER",
+      "labels": {
+        "labor": "Mano de Obra Requerida",
+        "errorRate": "Tasa de Error",
+        "batchSize": "Tamaño de Lote",
+        "changeover": "Tiempo de Cambio",
+        "qualityAssurance": "Aseguramiento de Calidad"
+      },
+      "traditional": {
+        "labor": "Múltiples operadores",
+        "errorRate": "Alta (conteo manual)",
+        "batchSize": "Solo datos pequeños",
+        "changeover": "30–60 min",
+        "qualityAssurance": "Inspección visual manual"
+      },
+      "chanfer": {
+        "labor": "1–2 operadores",
+        "errorRate": "Casi cero (inspección por IA)",
+        "batchSize": "Hasta 25,000 paquetes/lote",
+        "changeover": "3–5 min (cambio de receta)",
+        "qualityAssurance": "Inspección en tiempo real al 100%"
+      },
+      "traditionalLabel": "Tradicional",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "Confianza de los Líderes de la Industria",
+    "description": "CHANFER ha atendido a más de 8,000 clientes, incluidas las principales empresas de impresión y envasado del mundo."
+  },
+  "timeline": {
+    "title": "Nuestra Trayectoria",
+    "description": "Desde un único alimentador de cartas hasta un proveedor de soluciones de envasado de espectro completo."
+  },
+  "solutions": {
+    "title1": "Soluciones de",
+    "title2": "Envasado de Cartas",
+    "description": "CHANFER ofrece 6 métodos de envasado probados para cartas de juego, cartas coleccionables y componentes de juegos de mesa. Cada método está disponible como una línea de producción integrada completa — desde la alimentación automática de cartas hasta el paletizado robótico.",
+    "specs": {
+      "speed": "Velocidad",
+      "filmDia": "Diámetro del Rollo de Película",
+      "filmWidth": "Ancho de Película",
+      "innerDia": "Diámetro Interior",
+      "voltage": "Voltaje"
+    },
+    "keyFeatures": "Características Clave",
+    "idealFor": "Ideal Para",
+    "watchInAction": "Ver en Acción",
+    "videoComingSoon": "Video Próximamente",
+    "showLine": "Mostrar Línea de Producción y Proceso",
+    "hideLine": "Ocultar Línea de Producción y Proceso",
+    "completeLine": "Línea de Producción Completa",
+    "lineComponents": "Componentes de la Línea de Producción",
+    "process": "Proceso de Envasado",
+    "requestLine": "Solicitar Esta Línea",
+    "viewMachines": "Ver Máquinas Individuales",
+    "cta": {
+      "title": "¿No Está Seguro de Qué Método de Envasado Se Ajusta a Sus Necesidades?",
+      "description": "Nuestros ingenieros analizarán las especificaciones de su producto de cartas y le recomendarán el método de envasado óptimo y la configuración de línea.",
+      "button": "Obtener Consulta Gratuita"
+    }
+  },
+  "machines": {
+    "title1": "Catálogo de",
+    "title2": "Máquinas",
+    "description": "Gama completa de máquinas de envasado automatizado para productos de cartas — desde alimentadores de fricción de alta velocidad hasta sistemas de inspección visual por IA.",
+    "search": "Buscar máquinas...",
+    "showing": "Mostrando {count} máquina{plural}",
+    "noResults": "No se encontraron máquinas que coincidan con sus criterios.",
+    "clearFilters": "Limpiar filtros",
+    "specifications": "Especificaciones",
+    "moreSpecs": "+{count} especificaciones más",
+    "inquire": "Consultar sobre {model}",
+    "categories": {
+      "all": "Todas las Máquinas",
+      "feeding": "Alimentación de Cartas",
+      "packaging": "Envasado",
+      "boxing": "Encajado y Sellado",
+      "palletizing": "Paletizado",
+      "ai": "Visión por IA"
+    },
+    "model": "Modelo"
+  },
+  "about": {
+    "title1": "Sobre",
+    "title2": "CHANFER",
+    "description": "Su socio integral para el envasado automatizado de cartas — desde la fabricación de equipos hasta los servicios de envasado por contrato.",
+    "overview": {
+      "title": "Pionero en Soluciones de Envasado Integrales",
+      "intro1": "<strong>Guangzhou Chanfer Intelligent Equipment Co., Ltd</strong> (anteriormente Dongguan Chanfer Intelligent Packing Technology Co., Ltd), fundada en 2011, es una Empresa Nacional de Alta Tecnología y empresa certificada SRDI (Especializada, Refinada, Diferenciada, Innovadora) de la provincia de Guangdong.",
+      "intro2": "Como pionero en ofrecer soluciones integrales de conteo y envasado, CHANFER opera dos divisiones principales:",
+      "equipment": {
+        "title": "División de Fabricación de Equipos",
+        "desc": "Con 25 años de experiencia técnica y un espíritu de innovación continua, proporcionamos activamente equipos de envasado de alto valor que reducen efectivamente los costos de mano de obra en producción. El valor de nuestros productos radica en crear mayor valor añadido para los clientes."
+      },
+      "contract": {
+        "title": "División de Envasado por Contrato",
+        "desc": "Instalación de envasado en sala limpia de 5,000m² con nuestro propio equipo, personal y película de envasado. Los clientes solo necesitan proporcionar el producto interior — nosotros nos encargamos de todo lo demás. Servicios de envasado verdaderamente integrales que le permiten asumir pedidos grandes con confianza."
+      }
+    },
+    "stats": {
+      "patents": "Patentes",
+      "patentsSub": "8 Invención · 80 Modelo de Utilidad · 13 Diseño · 6 Derechos de Autor",
+      "clients": "Clientes Atendidos",
+      "clientsSub": "En las industrias de impresión, juegos, alimentación, médica",
+      "experience": "Experiencia en la Industria",
+      "experienceSub": "Desde 2011, innovando continuamente",
+      "team": "Miembros del Equipo",
+      "teamSub": "Incluyendo más de 10 ingenieros de servicio postventa",
+      "branches": "Sucursales",
+      "branchesSub": "Sede Dongguan · Guangzhou · Yiwu",
+      "certs": "Certificaciones",
+      "certsSub": "Alta Tecnología · SRDI · ISO9001 · CE"
+    },
+    "milestones": {
+      "title": "Hitos de Desarrollo"
+    },
+    "certifications": {
+      "title": "Certificaciones y Reconocimientos",
+      "highTech": {
+        "title": "Empresa Nacional de Alta Tecnología",
+        "desc": "Reconocida por el Ministerio de Ciencia y Tecnología de China"
+      },
+      "srdi": {
+        "title": "Empresa SRDI",
+        "desc": "PYME Especializada, Refinada, Diferenciada e Innovadora de Guangdong"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "Sistema de Gestión de la Calidad certificado"
+      },
+      "ce": {
+        "title": "Certificado CE",
+        "desc": "Marcado de conformidad europea para maquinaria"
+      },
+      "since": "Desde {year}"
+    },
+    "facilities": {
+      "title": "Nuestras Instalaciones",
+      "guangzhou": {
+        "title": "Sede Guangzhou",
+        "subtitle": "Centro de Ventas y Administración"
+      },
+      "dongguan": {
+        "title": "Fábrica Dongguan",
+        "subtitle": "Centro de Fabricación y Envasado"
+      },
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "mobile": "Móvil",
+      "email": "Correo Electrónico",
+      "facility": "Instalación"
+    }
+  },
+  "contact": {
+    "title1": "Póngase en",
+    "title2": "Contacto",
+    "description": "¿Listo para automatizar su envasado de cartas? Cuéntenos sobre su producto y requisitos — nuestros ingenieros diseñarán una solución personalizada para usted.",
+    "directContact": "Contacto Directo",
+    "phoneWhatsApp": "Teléfono / WhatsApp",
+    "emailLabel": "Correo Electrónico",
+    "guangzhouOffice": "Oficina Guangzhou",
+    "dongguanFactory": "Fábrica Dongguan",
+    "workingHours": "Horario de Trabajo",
+    "workingHoursValue": "Lun–Sáb: 8:30 AM – 6:00 PM (GMT+8)",
+    "whatsapp": {
+      "title": "Chatear por WhatsApp",
+      "subtitle": "Respuesta rápida · Directo al equipo de ventas"
+    },
+    "form": {
+      "title": "Solicitar Presupuesto",
+      "description": "Complete el formulario a continuación y nuestro equipo le responderá dentro de 24 horas con una solución de envasado personalizada.",
+      "name": "Nombre Completo",
+      "namePlaceholder": "Su nombre",
+      "company": "Empresa",
+      "companyPlaceholder": "Nombre de la empresa",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "correo@empresa.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+34 123 456 789",
+      "productType": "Tipo de Producto",
+      "selectProduct": "Seleccione tipo de producto",
+      "productTypes": {
+        "tradingCards": "Cartas Coleccionables (TCG/CCG)",
+        "boardGameCards": "Cartas de Juegos de Mesa",
+        "playingCards": "Cartas de Jugar",
+        "collectibleCards": "Cartas de Colección",
+        "gameComponents": "Componentes de Juegos de Mesa",
+        "printedMaterials": "Materiales Impresos",
+        "other": "Otro"
+      },
+      "quantity": "Cantidad Mensual",
+      "selectQuantity": "Seleccione rango de cantidad",
+      "quantities": {
+        "under100k": "Menos de 100,000 paquetes",
+        "100kTo500k": "100,000 – 500,000 paquetes",
+        "500kTo1m": "500,000 – 1,000,000 paquetes",
+        "over1m": "Más de 1,000,000 paquetes"
+      },
+      "projectDetails": "Detalles del Proyecto",
+      "projectPlaceholder": "Cuéntenos sobre su producto de cartas, requisitos de envasado, método de envasado preferido, o cualquier necesidad especial...",
+      "submit": "Enviar Consulta",
+      "thankYou": "¡Gracias!",
+      "thankYouMessage": "Su consulta ha sido recibida. Nuestro equipo se pondrá en contacto con usted dentro de 24 horas."
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "¿Listo Para Automatizar Su Envasado de Cartas?",
+      "description": "Obtenga una solución de línea de envasado personalizada — desde la alimentación hasta el paletizado.",
+      "button": "Solicitar Presupuesto"
+    },
+    "company": {
+      "description": "Todo Puede Ser Envasado — Soluciones de envasado automatizado integrales para cartas de juego, juegos de mesa y cartas coleccionables desde 2011.",
+      "intelligentEquipment": "Equipos Inteligentes"
+    },
+    "solutions": {
+      "title": "Soluciones de Envasado",
+      "candy": "Envasado Tipo Caramelo",
+      "selfAdhesive": "Tira Autoadhesiva",
+      "fourSides": "Sellado Cuatro Lados",
+      "banding": "Envasado con Faja",
+      "heatShrink": "Termorretráctil",
+      "threeDimensional": "Tridimensional"
+    },
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "machineCatalog": "Catálogo de Máquinas",
+      "aboutChanfer": "Sobre CHANFER",
+      "contactUs": "Contáctenos",
+      "downloadBrochure": "Descargar Folleto"
+    },
+    "contactTitle": "Contacto",
+    "copyright": "© {year} {company}. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  },
+  "common": {
+    "required": "*",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "mobile": "Móvil",
+    "email": "Correo Electrónico"
+  }
+}

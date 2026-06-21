@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "title": "CHANFER | Game Card & Board Game Automated Packaging Solutions",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — One-stop automated packaging solutions for game cards, board games, and trading cards. 6 packaging methods, 25+ years experience, 8000+ clients served worldwide.",
+    "keywords": "card packaging machine, game card packaging, board game packaging, trading card packaging, automatic card feeder, card bagging machine, card banding machine, card shrink wrapping, four side sealing packaging, candy packaging machine, card packaging line, CHANFER, CUKKE",
+    "solutionsTitle": "Card Packaging Solutions | CHANFER",
+    "solutionsDescription": "Explore 6 proven automated packaging methods for game cards, trading cards, and board games. Complete production lines from card feeding to palletizing.",
+    "machinesTitle": "Machine Catalog | Card Packaging Equipment | CHANFER",
+    "machinesDescription": "Complete range of automated packaging machines: card feeders, wrapping machines, cartoning systems, palletizers, and AI visual inspection equipment.",
+    "aboutTitle": "About CHANFER | 25+ Years of Packaging Innovation",
+    "aboutDescription": "Learn about Guangzhou Chanfer Intelligent Equipment Co., Ltd. — National High-Tech Enterprise serving 8000+ clients worldwide with automated card packaging solutions since 2011.",
+    "contactTitle": "Contact CHANFER | Get a Free Packaging Consultation",
+    "contactDescription": "Ready to automate your card packaging? Contact our team for a custom solution. WhatsApp: +86 130 6098 5132. Email: sarah@gzchanfer.com"
+  },
+  "nav": {
+    "home": "Home",
+    "solutions": "Packaging Solutions",
+    "machines": "Machines",
+    "about": "About Us",
+    "contact": "Contact",
+    "getQuote": "Get Quote"
+  },
+  "topBar": {
+    "tagline": "One-Stop Count & Packaging Automatic Solutions"
+  },
+  "hero": {
+    "badge": "Game Cards & Board Game Packaging Expert",
+    "title1": "One-Stop",
+    "titleHighlight": "Card Packaging",
+    "title2": "Automation",
+    "description": "From feeding and counting to packaging, cartoning, and palletizing — CHANFER delivers complete automated packaging lines for game cards, trading cards, and board games.",
+    "highlight1": "6 packaging methods",
+    "highlight2": "25+ years",
+    "highlight3": "8,000+ clients",
+    "highlightSuffix": "of experience, and",
+    "highlightSuffix2": "served worldwide.",
+    "cta1": "Explore Solutions",
+    "cta2": "Get a Quote"
+  },
+  "stats": {
+    "clients": "Clients Served",
+    "patents": "Patents",
+    "experience": "Industry Experience",
+    "team": "Team Members"
+  },
+  "methods": {
+    "title": "6 Packaging Methods for Game Cards",
+    "description": "Choose the ideal packaging format for your card products — from high-speed candy wrapping to premium three-dimensional boxes. Each method is available as a complete integrated production line.",
+    "viewLine": "View Full Line"
+  },
+  "whyUs": {
+    "title": "Why Choose CHANFER?",
+    "description": "We're not just a machine supplier — we're your end-to-end packaging partner with manufacturing capability and contract packaging services.",
+    "equipment": {
+      "title": "Equipment Manufacturer",
+      "desc": "We design and build our own machines — no middlemen, direct factory pricing and full technical support."
+    },
+    "service": {
+      "title": "Packaging Service Provider",
+      "desc": "5,000m² cleanroom facility with our own equipment, staff, and packaging film. You just provide the product — we do the rest."
+    },
+    "smart": {
+      "title": "Smart Card Dispatching",
+      "desc": "Computer-controlled card sorting system with AI visual inspection. Up to 25,000 packs per batch with 100% error detection."
+    },
+    "ai": {
+      "title": "AI Visual Inspection",
+      "desc": "Real-time card inspection at 400+ sheets/min. Detects wrong cards, missing cards, and out-of-sequence issues instantly."
+    },
+    "integration": {
+      "title": "Full Line Integration",
+      "desc": "From card feeding to palletizing — complete turnkey production lines with collaborative robots and smart control systems."
+    },
+    "quality": {
+      "title": "Quality Guaranteed",
+      "desc": "ISO9001 certified, National High-Tech Enterprise, and Guangdong Province SRDI recognized. 100+ patents and CE certified."
+    }
+  },
+  "smartSystem": {
+    "badge": "Smart System",
+    "title": "Computer Card Dispatching System",
+    "description": "Our intelligent card dispatching system uses a computer, card dispensing machines, and multiple card feeders to automatically sort and package cards according to pre-set recipes.",
+    "features": [
+      "Edit card sorting process in Excel — simple and intuitive",
+      "1,000+ process recipe files storable; 25,000 packs per batch",
+      "Anti-error detection: white card / thickness / AI visual inspection",
+      "Auto alarm & shutdown on errors; quick restart after troubleshooting",
+      "Compatible with all 6 packaging line configurations"
+    ],
+    "comparison": {
+      "title": "Traditional vs. CHANFER Smart Line",
+      "labels": {
+        "labor": "Labor Required",
+        "errorRate": "Error Rate",
+        "batchSize": "Batch Size",
+        "changeover": "Changeover Time",
+        "qualityAssurance": "Quality Assurance"
+      },
+      "traditional": {
+        "labor": "Multiple operators",
+        "errorRate": "High (manual counting)",
+        "batchSize": "Small data only",
+        "changeover": "30–60 min",
+        "qualityAssurance": "Manual spot check"
+      },
+      "chanfer": {
+        "labor": "1–2 operators",
+        "errorRate": "Near zero (AI inspection)",
+        "batchSize": "Up to 25,000 packs/batch",
+        "changeover": "3–5 min (recipe switch)",
+        "qualityAssurance": "100% real-time inspection"
+      },
+      "traditionalLabel": "Traditional",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "Trusted by Industry Leaders",
+    "description": "CHANFER has served 8,000+ clients including the world's top printing and packaging companies."
+  },
+  "timeline": {
+    "title": "Our Journey",
+    "description": "From a single card feeder to a full-spectrum packaging solutions provider."
+  },
+  "solutions": {
+    "title1": "Card Packaging",
+    "title2": "Solutions",
+    "description": "CHANFER offers 6 proven packaging methods for game cards, trading cards, and board game components. Each method is available as a complete integrated production line — from automatic card feeding to robotic palletizing.",
+    "specs": {
+      "speed": "Speed",
+      "filmDia": "Film Roll Dia.",
+      "filmWidth": "Film Width",
+      "innerDia": "Inner Dia.",
+      "voltage": "Voltage"
+    },
+    "keyFeatures": "Key Features",
+    "idealFor": "Ideal For",
+    "watchInAction": "Watch in Action",
+    "videoComingSoon": "Video Coming Soon",
+    "showLine": "Show Production Line & Process",
+    "hideLine": "Hide Production Line & Process",
+    "completeLine": "Complete Production Line",
+    "lineComponents": "Production Line Components",
+    "process": "Packaging Process",
+    "requestLine": "Request This Line",
+    "viewMachines": "View Individual Machines",
+    "cta": {
+      "title": "Not Sure Which Packaging Method Fits?",
+      "description": "Our engineers will analyze your card product specifications and recommend the optimal packaging method and line configuration.",
+      "button": "Get Free Consultation"
+    }
+  },
+  "machines": {
+    "title1": "Machine",
+    "title2": "Catalog",
+    "description": "Complete range of automated packaging machines for card products — from high-speed friction feeders to AI visual inspection systems.",
+    "search": "Search machines...",
+    "showing": "Showing {count} machine{plural}",
+    "noResults": "No machines found matching your criteria.",
+    "clearFilters": "Clear filters",
+    "specifications": "Specifications",
+    "moreSpecs": "+{count} more specs",
+    "inquire": "Inquire About {model}",
+    "categories": {
+      "all": "All Machines",
+      "feeding": "Card Feeding",
+      "packaging": "Packaging",
+      "boxing": "Boxing & Sealing",
+      "palletizing": "Palletizing",
+      "ai": "AI Vision"
+    },
+    "model": "Model"
+  },
+  "about": {
+    "title1": "About",
+    "title2": "CHANFER",
+    "description": "Your one-stop partner for automated card packaging — from equipment manufacturing to contract packaging services.",
+    "overview": {
+      "title": "Pioneer in One-Stop Packaging Solutions",
+      "intro1": "<strong>Guangzhou Chanfer Intelligent Equipment Co., Ltd</strong> (formerly Dongguan Chanfer Intelligent Packing Technology Co., Ltd), founded in 2011, is a National High-Tech Enterprise and Guangdong Province SRDI (Specialized, Refined, Differentiated, Innovative) certified company.",
+      "intro2": "As a pioneer in providing one-stop count-and-packaging solutions, CHANFER operates two core divisions:",
+      "equipment": {
+        "title": "Equipment Manufacturing Division",
+        "desc": "With 25 years of technical experience and a spirit of continuous innovation, we actively provide high-value packaging equipment that effectively reduces labor costs in production. Our product value lies in creating higher added value for customers."
+      },
+      "contract": {
+        "title": "Contract Packaging Division",
+        "desc": "5,000m² cleanroom packaging facility with our own equipment, staff, and packaging film. Clients only need to provide the inner product — we handle everything else. Truly one-stop packaging services that let you take on large orders with confidence."
+      }
+    },
+    "stats": {
+      "patents": "Patents",
+      "patentsSub": "8 Invention · 80 Utility Model · 13 Design · 6 Copyright",
+      "clients": "Clients Served",
+      "clientsSub": "Across printing, gaming, food, medical industries",
+      "experience": "Industry Experience",
+      "experienceSub": "Since 2011, continuously innovating",
+      "team": "Team Members",
+      "teamSub": "Including 10+ after-sales service engineers",
+      "branches": "Branch Offices",
+      "branchesSub": "Dongguan HQ · Guangzhou · Yiwu",
+      "certs": "Certifications",
+      "certsSub": "High-Tech · SRDI · ISO9001 · CE"
+    },
+    "milestones": {
+      "title": "Development Milestones"
+    },
+    "certifications": {
+      "title": "Certifications & Honors",
+      "highTech": {
+        "title": "National High-Tech Enterprise",
+        "desc": "Recognized by the Chinese Ministry of Science and Technology"
+      },
+      "srdi": {
+        "title": "SRDI Enterprise",
+        "desc": "Specialized, Refined, Differentiated, Innovative SME in Guangdong"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "Quality Management System certified"
+      },
+      "ce": {
+        "title": "CE Certified",
+        "desc": "European conformity marking for machinery"
+      },
+      "since": "Since {year}"
+    },
+    "facilities": {
+      "title": "Our Facilities",
+      "guangzhou": {
+        "title": "Guangzhou HQ",
+        "subtitle": "Sales & Administration Center"
+      },
+      "dongguan": {
+        "title": "Dongguan Factory",
+        "subtitle": "Manufacturing & Packaging Center"
+      },
+      "address": "Address",
+      "phone": "Phone",
+      "mobile": "Mobile",
+      "email": "Email",
+      "facility": "Facility"
+    }
+  },
+  "contact": {
+    "title1": "Get in",
+    "title2": "Touch",
+    "description": "Ready to automate your card packaging? Tell us about your product and requirements — our engineers will design a custom solution for you.",
+    "directContact": "Direct Contact",
+    "phoneWhatsApp": "Phone / WhatsApp",
+    "emailLabel": "Email",
+    "guangzhouOffice": "Guangzhou Office",
+    "dongguanFactory": "Dongguan Factory",
+    "workingHours": "Working Hours",
+    "workingHoursValue": "Mon–Sat: 8:30 AM – 6:00 PM (GMT+8)",
+    "whatsapp": {
+      "title": "Chat on WhatsApp",
+      "subtitle": "Quick response · Direct to sales team"
+    },
+    "form": {
+      "title": "Request a Quote",
+      "description": "Fill out the form below and our team will respond within 24 hours with a custom packaging solution.",
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "email": "Email",
+      "emailPlaceholder": "email@company.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 234 567 8900",
+      "productType": "Product Type",
+      "selectProduct": "Select product type",
+      "productTypes": {
+        "tradingCards": "Trading Cards (TCG/CCG)",
+        "boardGameCards": "Board Game Cards",
+        "playingCards": "Playing Cards",
+        "collectibleCards": "Collectible Cards",
+        "gameComponents": "Board Game Components",
+        "printedMaterials": "Printed Materials",
+        "other": "Other"
+      },
+      "quantity": "Monthly Quantity",
+      "selectQuantity": "Select quantity range",
+      "quantities": {
+        "under100k": "Under 100,000 packs",
+        "100kTo500k": "100,000 – 500,000 packs",
+        "500kTo1m": "500,000 – 1,000,000 packs",
+        "over1m": "Over 1,000,000 packs"
+      },
+      "projectDetails": "Project Details",
+      "projectPlaceholder": "Tell us about your card product, packaging requirements, preferred packaging method, or any special needs...",
+      "submit": "Submit Inquiry",
+      "thankYou": "Thank You!",
+      "thankYouMessage": "Your inquiry has been received. Our team will contact you within 24 hours."
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Ready to Automate Your Card Packaging?",
+      "description": "Get a custom packaging line solution — from feeding to palletizing.",
+      "button": "Request a Quote"
+    },
+    "company": {
+      "description": "Everything Can Be Packed — One-stop automated packaging solutions for game cards, board games, and trading cards since 2011.",
+      "intelligentEquipment": "Intelligent Equipment"
+    },
+    "solutions": {
+      "title": "Packaging Solutions",
+      "candy": "Candy Packaging",
+      "selfAdhesive": "Self-Adhesive Strip",
+      "fourSides": "Four-Sides Sealed",
+      "banding": "Banding Packaging",
+      "heatShrink": "Heat Shrink",
+      "threeDimensional": "Three-Dimensional"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "machineCatalog": "Machine Catalog",
+      "aboutChanfer": "About CHANFER",
+      "contactUs": "Contact Us",
+      "downloadBrochure": "Download Brochure"
+    },
+    "contactTitle": "Contact",
+    "copyright": "© {year} {company}. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "common": {
+    "required": "*",
+    "address": "Address",
+    "phone": "Phone",
+    "mobile": "Mobile",
+    "email": "Email"
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "What are the 6 packaging methods for game cards?",
+        "answer": "The 6 main packaging methods for game cards are: Candy Packaging (pillow-style flow wrap), Self-Adhesive Strip Packaging (reclosable strip bag), Four-Sides Sealed Packaging (sealed on all edges), Banding Packaging (paper band bundling), Heat Shrink Packaging (shrink film wrapping), and Three-Dimensional Packaging (3D box-style wrap)."
+      },
+      {
+        "question": "What is the production speed of card packaging machines?",
+        "answer": "Production speeds vary by packaging method: Candy Packaging 20-220 bags/min, Self-Adhesive Strip 30-90 packs/min, Four-Sides Sealed 50-150 packs/min, Banding 5-20 packs/min, Heat Shrink 20-100 bags/min, and Three-Dimensional 40-80 bags/min."
+      },
+      {
+        "question": "Does CHANFER provide complete packaging production lines?",
+        "answer": "Yes, CHANFER provides complete turnkey packaging lines including automatic card feeding, counting, packaging, cartoning, case packing, sealing, and robotic palletizing. We also offer a computer card dispatching system for intelligent card sorting."
+      },
+      {
+        "question": "What industries does CHANFER serve?",
+        "answer": "CHANFER primarily serves the game card, board game, trading card, and paper printing industries. We also provide packaging solutions for food, medical, daily chemical, and hardware sectors."
+      }
+    ]
+  }
+}

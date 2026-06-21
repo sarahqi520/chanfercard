@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "title": "CHANFER | Automatisierte Verpackungslösungen für Spielkarten & Brettspiele",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Komplettanbieter für automatisierte Verpackungslösungen für Spielkarten, Brettspiele und Sammelkarten. 6 Verpackungsmethoden, über 25 Jahre Erfahrung, mehr als 8.000 Kunden weltweit betreut.",
+    "keywords": "Kartenverpackungsmaschine, Spielkartenverpackung, Brettspielverpackung, Sammelkartenverpackung, automatischer Kartenzuführer, Kartenbeutelmaschine, Kartenbanderoliermaschine, Kartenschrumpffolienverpackung, Vierseiten-Siegelverpackung, Süßwarenverpackungsmaschine, Kartenverpackungslinie, CHANFER, CUKKE"
+  },
+  "nav": {
+    "home": "Startseite",
+    "solutions": "Verpackungslösungen",
+    "machines": "Maschinen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "getQuote": "Angebot anfordern"
+  },
+  "topBar": {
+    "tagline": "Komplettlösungen für Zähl- & Verpackungsautomatisierung"
+  },
+  "hero": {
+    "badge": "Experte für Spielkarten- & Brettspielverpackung",
+    "title1": "Komplettlösungen für",
+    "titleHighlight": "Kartenverpackung",
+    "title2": "Automatisierung",
+    "description": "Vom Zuführen und Zählen über das Verpacken und Kartonieren bis zur Palettierung — CHANFER liefert komplette automatisierte Verpackungslinien für Spielkarten, Sammelkarten und Brettspiele.",
+    "highlight1": "6 Verpackungsmethoden",
+    "highlight2": "25+ Jahre",
+    "highlight3": "8.000+ Kunden",
+    "highlightSuffix": "Erfahrung und",
+    "highlightSuffix2": "weltweit betreut.",
+    "cta1": "Lösungen entdecken",
+    "cta2": "Angebot anfordern"
+  },
+  "stats": {
+    "clients": "Betreute Kunden",
+    "patents": "Patente",
+    "experience": "Branchenerfahrung",
+    "team": "Teammitglieder"
+  },
+  "methods": {
+    "title": "6 Verpackungsmethoden für Spielkarten",
+    "description": "Wählen Sie das ideale Verpackungsformat für Ihre Kartenprodukte — von der Hochgeschwindigkeits-Süßwarenverpackung bis zur hochwertigen dreidimensionalen Verpackung. Jede Methode ist als komplette integrierte Produktionslinie verfügbar.",
+    "viewLine": "Komplette Linie anzeigen"
+  },
+  "whyUs": {
+    "title": "Warum CHANFER?",
+    "description": "Wir sind nicht nur ein Maschinenlieferant — wir sind Ihr Komplettanbieter für Verpackungslösungen mit eigener Fertigungskapazität und Lohnverpackungsdiensten.",
+    "equipment": {
+      "title": "Gerätehersteller",
+      "desc": "Wir entwickeln und bauen unsere eigenen Maschinen — keine Zwischenhändler, direkte Fabrikpreise und umfassender technischer Support."
+    },
+    "service": {
+      "title": "Verpackungsdienstleister",
+      "desc": "5.000 m² Reinraumanlage mit eigener Ausrüstung, Personal und Verpackungsfolie. Sie liefern nur das Produkt — wir erledigen den Rest."
+    },
+    "smart": {
+      "title": "Intelligente Kartenverteilung",
+      "desc": "Computergesteuertes Kartensortiersystem mit KI-Bildprüfung. Bis zu 25.000 Packungen pro Charge mit 100 % Fehlererkennung."
+    },
+    "ai": {
+      "title": "KI-Bildprüfung",
+      "desc": "Echtzeit-Kartenprüfung mit über 400 Blatt/Min. Erkennt falsche Karten, fehlende Karten und Reihenfolgefehler sofort."
+    },
+    "integration": {
+      "title": "Komplette Linienintegration",
+      "desc": "Vom Kartenzuführen bis zur Palettierung — schlüsselfertige Produktionslinien mit kollaborativen Robotern und intelligenten Steuerungssystemen."
+    },
+    "quality": {
+      "title": "Qualitätsgarantie",
+      "desc": "ISO9001-zertifiziert, Nationales Hightech-Unternehmen und als SRDI-Unternehmen der Provinz Guangdong anerkannt. Über 100 Patente und CE-zertifiziert."
+    }
+  },
+  "smartSystem": {
+    "badge": "Intelligentes System",
+    "title": "Computergestütztes Kartenverteilungssystem",
+    "description": "Unser intelligentes Kartenverteilungssystem verwendet einen Computer, Kartenausgabegeräte und mehrere Kartenzuführer, um Karten automatisch nach voreingestellten Rezepten zu sortieren und zu verpacken.",
+    "features": [
+      "Kartensortierprozess in Excel bearbeiten — einfach und intuitiv",
+      "Über 1.000 Prozessrezeptdateien speicherbar; 25.000 Packungen pro Charge",
+      "Fehlererkennung: Weißkarte / Dicke / KI-Bildprüfung",
+      "Automatischer Alarm und Abschaltung bei Fehlern; schneller Neustart nach Fehlerbehebung",
+      "Kompatibel mit allen 6 Verpackungslinienkonfigurationen"
+    ],
+    "comparison": {
+      "title": "Traditionell vs. CHANFER Intelligente Linie",
+      "labels": {
+        "labor": "Benötigtes Personal",
+        "errorRate": "Fehlerquote",
+        "batchSize": "Chargengröße",
+        "changeover": "Umrüstzeit",
+        "qualityAssurance": "Qualitätssicherung"
+      },
+      "traditional": {
+        "labor": "Mehrere Bediener",
+        "errorRate": "Hoch (manuelle Zählung)",
+        "batchSize": "Nur kleine Datenmengen",
+        "changeover": "30–60 Min.",
+        "qualityAssurance": "Manuelle Stichprobe"
+      },
+      "chanfer": {
+        "labor": "1–2 Bediener",
+        "errorRate": "Nahe Null (KI-Prüfung)",
+        "batchSize": "Bis zu 25.000 Packungen/Charge",
+        "changeover": "3–5 Min. (Rezeptwechsel)",
+        "qualityAssurance": "100 % Echtzeitprüfung"
+      },
+      "traditionalLabel": "Traditionell",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "Vertrauen von Branchenführern",
+    "description": "CHANFER hat mehr als 8.000 Kunden betreut, darunter die weltweit führenden Druck- und Verpackungsunternehmen."
+  },
+  "timeline": {
+    "title": "Unsere Reise",
+    "description": "Vom einfachen Kartenzuführer zum Komplettanbieter für Verpackungslösungen."
+  },
+  "solutions": {
+    "title1": "Kartenverpackungs-",
+    "title2": "Lösungen",
+    "description": "CHANFER bietet 6 bewährte Verpackungsmethoden für Spielkarten, Sammelkarten und Brettspielkomponenten. Jede Methode ist als komplette integrierte Produktionslinie verfügbar — vom automatischen Kartenzuführen bis zur robotergestützten Palettierung.",
+    "specs": {
+      "speed": "Geschwindigkeit",
+      "filmDia": "Folienrollen-Ø",
+      "filmWidth": "Folienbreite",
+      "innerDia": "Innen-Ø",
+      "voltage": "Spannung"
+    },
+    "keyFeatures": "Hauptmerkmale",
+    "idealFor": "Ideal für",
+    "watchInAction": "In Aktion ansehen",
+    "videoComingSoon": "Video in Kürze",
+    "showLine": "Produktionslinie & Prozess anzeigen",
+    "hideLine": "Produktionslinie & Prozess ausblenden",
+    "completeLine": "Komplette Produktionslinie",
+    "lineComponents": "Produktionslinienkomponenten",
+    "process": "Verpackungsprozess",
+    "requestLine": "Diese Linie anfragen",
+    "viewMachines": "Einzelmaschinen anzeigen",
+    "cta": {
+      "title": "Unklar, welche Verpackungsmethode passt?",
+      "description": "Unsere Ingenieure analysieren Ihre Kartenproduktspezifikationen und empfehlen die optimale Verpackungsmethode und Linienkonfiguration.",
+      "button": "Kostenlose Beratung anfordern"
+    }
+  },
+  "machines": {
+    "title1": "Maschinen-",
+    "title2": "Katalog",
+    "description": "Komplettes Sortiment an automatisierten Verpackungsmaschinen für Kartenprodukte — von Hochgeschwindigkeits-Reibungszuführern bis zu KI-Bildprüfsystemen.",
+    "search": "Maschinen suchen...",
+    "showing": "{count} Maschine{plural} angezeigt",
+    "noResults": "Keine Maschinen gefunden, die Ihren Kriterien entsprechen.",
+    "clearFilters": "Filter löschen",
+    "specifications": "Technische Daten",
+    "moreSpecs": "+{count} weitere Daten",
+    "inquire": "Anfrage zu {model}",
+    "categories": {
+      "all": "Alle Maschinen",
+      "feeding": "Kartenzuführung",
+      "packaging": "Verpackung",
+      "boxing": "Kartonieren & Verschließen",
+      "palletizing": "Palettierung",
+      "ai": "KI-Bildprüfung"
+    },
+    "model": "Modell"
+  },
+  "about": {
+    "title1": "Über",
+    "title2": "CHANFER",
+    "description": "Ihr Komplettanbieter für automatisierte Kartenverpackung — von der Geräteherstellung bis zu Lohnverpackungsdiensten.",
+    "overview": {
+      "title": "Pionier für Komplettlösungen in der Verpackungstechnik",
+      "intro1": "<strong>Guangzhou Chanfer Intelligent Equipment Co., Ltd</strong> (ehemals Dongguan Chanfer Intelligent Packing Technology Co., Ltd), gegründet 2011, ist ein Nationales Hightech-Unternehmen und ein als SRDI (Spezialisiert, Fokussiert, Differenziert, Innovativ) zertifiziertes Unternehmen der Provinz Guangdong.",
+      "intro2": "Als Pionier für Komplettlösungen in der Zähl- und Verpackungstechnik betreibt CHANFER zwei Kernbereiche:",
+      "equipment": {
+        "title": "Geschäftsbereich Geräteherstellung",
+        "desc": "Mit 25 Jahren technischer Erfahrung und kontinuierlichem Innovationsgeist bieten wir leistungsstarke Verpackungsanlagen, die die Arbeitskosten in der Produktion effektiv senken. Unser Produktwert liegt darin, höhere Mehrwerte für unsere Kunden zu schaffen."
+      },
+      "contract": {
+        "title": "Geschäftsbereich Lohnverpackung",
+        "desc": "5.000 m² Reinraum-Verpackungsanlage mit eigener Ausrüstung, Personal und Verpackungsfolie. Kunden müssen nur das Innenprodukt bereitstellen — wir kümmern uns um alles Weitere. Echte Komplettverpackungsdienste, mit denen Sie große Aufträge mit Zuversicht annehmen können."
+      }
+    },
+    "stats": {
+      "patents": "Patente",
+      "patentsSub": "8 Erfindungspatente · 80 Gebrauchsmuster · 13 Designpatente · 6 Urheberrechte",
+      "clients": "Betreute Kunden",
+      "clientsSub": "Aus den Branchen Druck, Spiele, Lebensmittel, Medizin",
+      "experience": "Branchenerfahrung",
+      "experienceSub": "Seit 2011 kontinuierlich innovativ",
+      "team": "Teammitglieder",
+      "teamSub": "Darunter über 10 Kundendienstingenieure",
+      "branches": "Niederlassungen",
+      "branchesSub": "Hauptsitz Dongguan · Guangzhou · Yiwu",
+      "certs": "Zertifizierungen",
+      "certsSub": "Hightech · SRDI · ISO9001 · CE"
+    },
+    "milestones": {
+      "title": "Entwicklungsmeilensteine"
+    },
+    "certifications": {
+      "title": "Zertifizierungen & Auszeichnungen",
+      "highTech": {
+        "title": "Nationales Hightech-Unternehmen",
+        "desc": "Anerkannt vom chinesischen Ministerium für Wissenschaft und Technologie"
+      },
+      "srdi": {
+        "title": "SRDI-Unternehmen",
+        "desc": "Spezialisiertes, fokussiertes, differenziertes und innovatives KMU in Guangdong"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "Qualitätsmanagementsystem zertifiziert"
+      },
+      "ce": {
+        "title": "CE-zertifiziert",
+        "desc": "Europäische Konformitätskennzeichnung für Maschinen"
+      },
+      "since": "Seit {year}"
+    },
+    "facilities": {
+      "title": "Unsere Standorte",
+      "guangzhou": {
+        "title": "Hauptsitz Guangzhou",
+        "subtitle": "Vertriebs- & Verwaltungszentrum"
+      },
+      "dongguan": {
+        "title": "Werk Dongguan",
+        "subtitle": "Fertigungs- & Verpackungszentrum"
+      },
+      "address": "Adresse",
+      "phone": "Telefon",
+      "mobile": "Mobil",
+      "email": "E-Mail",
+      "facility": "Anlage"
+    }
+  },
+  "contact": {
+    "title1": "Kontakt-",
+    "title2": "Aufnahme",
+    "description": "Bereit, Ihre Kartenverpackung zu automatisieren? Teilen Sie uns Ihre Produkt- und Anforderungsdetails mit — unsere Ingenieure entwickeln eine maßgeschneiderte Lösung für Sie.",
+    "directContact": "Direkter Kontakt",
+    "phoneWhatsApp": "Telefon / WhatsApp",
+    "emailLabel": "E-Mail",
+    "guangzhouOffice": "Büro Guangzhou",
+    "dongguanFactory": "Werk Dongguan",
+    "workingHours": "Arbeitszeiten",
+    "workingHoursValue": "Mo–Sa: 8:30 – 18:00 Uhr (GMT+8)",
+    "whatsapp": {
+      "title": "Chat per WhatsApp",
+      "subtitle": "Schnelle Antwort · Direkt zum Vertriebsteam"
+    },
+    "form": {
+      "title": "Angebot anfordern",
+      "description": "Füllen Sie das untenstehende Formular aus und unser Team antwortet innerhalb von 24 Stunden mit einer maßgeschneiderten Verpackungslösung.",
+      "name": "Vollständiger Name",
+      "namePlaceholder": "Ihr Name",
+      "company": "Unternehmen",
+      "companyPlaceholder": "Firmenname",
+      "email": "E-Mail",
+      "emailPlaceholder": "email@firma.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+49 123 4567890",
+      "productType": "Produkttyp",
+      "selectProduct": "Produkttyp auswählen",
+      "productTypes": {
+        "tradingCards": "Sammelkarten (TCG/CCG)",
+        "boardGameCards": "Brettspielkarten",
+        "playingCards": "Spielkarten",
+        "collectibleCards": "Sammelkarten",
+        "gameComponents": "Brettspielkomponenten",
+        "printedMaterials": "Druckerzeugnisse",
+        "other": "Sonstiges"
+      },
+      "quantity": "Monatliche Menge",
+      "selectQuantity": "Mengenbereich auswählen",
+      "quantities": {
+        "under100k": "Unter 100.000 Packungen",
+        "100kTo500k": "100.000 – 500.000 Packungen",
+        "500kTo1m": "500.000 – 1.000.000 Packungen",
+        "over1m": "Über 1.000.000 Packungen"
+      },
+      "projectDetails": "Projektdetails",
+      "projectPlaceholder": "Beschreiben Sie Ihr Kartenprodukt, Ihre Verpackungsanforderungen, bevorzugte Verpackungsmethode oder besondere Anforderungen...",
+      "submit": "Anfrage absenden",
+      "thankYou": "Vielen Dank!",
+      "thankYouMessage": "Ihre Anfrage ist eingegangen. Unser Team wird Sie innerhalb von 24 Stunden kontaktieren."
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Bereit, Ihre Kartenverpackung zu automatisieren?",
+      "description": "Erhalten Sie eine maßgeschneiderte Verpackungslösung — vom Zuführen bis zur Palettierung.",
+      "button": "Angebot anfordern"
+    },
+    "company": {
+      "description": "Everything Can Be Packed — Komplettanbieter für automatisierte Verpackungslösungen für Spielkarten, Brettspiele und Sammelkarten seit 2011.",
+      "intelligentEquipment": "Intelligente Ausrüstung"
+    },
+    "solutions": {
+      "title": "Verpackungslösungen",
+      "candy": "Süßwarenverpackung",
+      "selfAdhesive": "Selbstklebender Streifen",
+      "fourSides": "Vierseiten-Siegelverpackung",
+      "banding": "Banderolierverpackung",
+      "heatShrink": "Schrumpfverpackung",
+      "threeDimensional": "Dreidimensionale Verpackung"
+    },
+    "quickLinks": {
+      "title": "Schnellzugriff",
+      "machineCatalog": "Maschinenkatalog",
+      "aboutChanfer": "Über CHANFER",
+      "contactUs": "Kontakt",
+      "downloadBrochure": "Broschüre herunterladen"
+    },
+    "contactTitle": "Kontakt",
+    "copyright": "© {year} {company}. Alle Rechte vorbehalten.",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  },
+  "common": {
+    "required": "*",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "mobile": "Mobil",
+    "email": "E-Mail"
+  }
+}

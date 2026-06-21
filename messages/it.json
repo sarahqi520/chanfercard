@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "title": "CHANFER | Soluzioni di Confezionamento Automatico per Carte da Gioco e Giochi da Tavolo",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Soluzioni complete di confezionamento automatico per carte da gioco, giochi da tavolo e carte collezionabili. 6 metodi di confezionamento, oltre 25 anni di esperienza, più di 8.000 clienti serviti nel mondo.",
+    "keywords": "macchina confezionatrice carte, confezionamento carte da gioco, confezionamento giochi da tavolo, confezionamento carte collezionabili, alimentatore automatico carte, insaccatrice per carte, fasciatrice per carte, termoretraibile per carte, confezionamento quattro lati sigillati, macchina confezionatrice caramelle, linea confezionamento carte, CHANFER, CUKKE"
+  },
+  "nav": {
+    "home": "Home",
+    "solutions": "Soluzioni",
+    "machines": "Macchinari",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "getQuote": "Richiedi Preventivo"
+  },
+  "topBar": {
+    "tagline": "Soluzioni Automatiche Complete di Conteggio e Confezionamento"
+  },
+  "hero": {
+    "badge": "Specialisti in Confezionamento di Carte da Gioco e Giochi da Tavolo",
+    "title1": "Automazione",
+    "titleHighlight": "Confezionamento Carte",
+    "title2": "Chiavi in Mano",
+    "description": "Dall'alimentazione e conteggio al confezionamento, incartonamento e pallettizzazione — CHANFER realizza linee complete di confezionamento automatico per carte da gioco, carte collezionabili e giochi da tavolo.",
+    "highlight1": "6 metodi di confezionamento",
+    "highlight2": "oltre 25 anni",
+    "highlight3": "oltre 8.000 clienti",
+    "highlightSuffix": "di esperienza e",
+    "highlightSuffix2": "serviti nel mondo.",
+    "cta1": "Esplora le Soluzioni",
+    "cta2": "Richiedi Preventivo"
+  },
+  "stats": {
+    "clients": "Clienti Serviti",
+    "patents": "Brevetti",
+    "experience": "Esperienza nel Settore",
+    "team": "Membri del Team"
+  },
+  "methods": {
+    "title": "6 Metodi di Confezionamento per Carte da Gioco",
+    "description": "Scegli il formato di confezionamento ideale per i tuoi prodotti di carte — dall'avvolgimento ad alta velocità stile caramella alle confezioni tridimensionali premium. Ogni metodo è disponibile come linea di produzione integrata completa.",
+    "viewLine": "Vedi Linea Completa"
+  },
+  "whyUs": {
+    "title": "Perché Scegliere CHANFER?",
+    "description": "Non siamo solo un fornitore di macchinari — siamo il tuo partner di confezionamento a 360° con capacità produttiva e servizi di conto lavorazione.",
+    "equipment": {
+      "title": "Produttore di Apparecchiature",
+      "desc": "Progettiamo e costruiamo i nostri macchinari — nessun intermediario, prezzi diretti di fabbrica e supporto tecnico completo."
+    },
+    "service": {
+      "title": "Fornitore di Servizi di Confezionamento",
+      "desc": "Struttura in camera bianca di 5.000 m² con nostre apparecchiature, personale e film di confezionamento. Tu fornisci solo il prodotto — noi facciamo il resto."
+    },
+    "smart": {
+      "title": "Smistamento Carte Intelligente",
+      "desc": "Sistema di smistamento carte controllato da computer con ispezione visiva AI. Fino a 25.000 lotti per batch con rilevamento errori al 100%."
+    },
+    "ai": {
+      "title": "Ispezione Visiva AI",
+      "desc": "Ispezione carte in tempo reale a oltre 400 fogli/min. Rileva istantaneamente carte errate, carte mancanti e problemi di sequenza."
+    },
+    "integration": {
+      "title": "Integrazione Linea Completa",
+      "desc": "Dall'alimentazione carte alla pallettizzazione — linee di produzione complete chiavi in mano con robot collaborativi e sistemi di controllo intelligenti."
+    },
+    "quality": {
+      "title": "Qualità Garantita",
+      "desc": "Certificato ISO9001, Impresa Nazionale ad Alta Tecnologia e riconosciuta come SRDI nella provincia del Guangdong. Oltre 100 brevetti e certificazione CE."
+    }
+  },
+  "smartSystem": {
+    "badge": "Sistema Intelligente",
+    "title": "Sistema Computerizzato di Smistamento Carte",
+    "description": "Il nostro sistema intelligente di smistamento carte utilizza un computer, macchine dispensatrici di carte e alimentatori multipli per smistare e confezionare automaticamente le carte secondo ricette preimpostate.",
+    "features": [
+      "Modifica il processo di smistamento carte in Excel — semplice e intuitivo",
+      "Oltre 1.000 file di ricette di processo memorizzabili; 25.000 lotti per batch",
+      "Rilevamento anti-errore: carta bianca / spessore / ispezione visiva AI",
+      "Allarme automatico e arresto su errori; riavvio rapido dopo la risoluzione",
+      "Compatibile con tutte le 6 configurazioni di linea di confezionamento"
+    ],
+    "comparison": {
+      "title": "Linea Tradizionale vs. Linea Intelligente CHANFER",
+      "labels": {
+        "labor": "Manodopera Necessaria",
+        "errorRate": "Tasso di Errore",
+        "batchSize": "Dimensione Lotto",
+        "changeover": "Tempo di Cambio Formato",
+        "qualityAssurance": "Garanzia di Qualità"
+      },
+      "traditional": {
+        "labor": "Più operatori",
+        "errorRate": "Elevato (conteggio manuale)",
+        "batchSize": "Solo piccoli dati",
+        "changeover": "30–60 min",
+        "qualityAssurance": "Controllo manuale a campione"
+      },
+      "chanfer": {
+        "labor": "1–2 operatori",
+        "errorRate": "Quasi zero (ispezione AI)",
+        "batchSize": "Fino a 25.000 lotti/batch",
+        "changeover": "3–5 min (cambio ricetta)",
+        "qualityAssurance": "Ispezione in tempo reale al 100%"
+      },
+      "traditionalLabel": "Tradizionale",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "La Scelta dei Leader del Settore",
+    "description": "CHANFER ha servito oltre 8.000 clienti, incluse le migliori aziende mondiali di stampa e confezionamento."
+  },
+  "timeline": {
+    "title": "Il Nostro Percorso",
+    "description": "Da un singolo alimentatore di carte a un fornitore completo di soluzioni di confezionamento."
+  },
+  "solutions": {
+    "title1": "Soluzioni di",
+    "title2": "Confezionamento Carte",
+    "description": "CHANFER offre 6 metodi di confezionamento collaudati per carte da gioco, carte collezionabili e componenti per giochi da tavolo. Ogni metodo è disponibile come linea di produzione integrata completa — dall'alimentazione automatica delle carte alla pallettizzazione robotizzata.",
+    "specs": {
+      "speed": "Velocità",
+      "filmDia": "Diam. Bobina Film",
+      "filmWidth": "Larghezza Film",
+      "innerDia": "Diam. Interno",
+      "voltage": "Tensione"
+    },
+    "keyFeatures": "Caratteristiche Principali",
+    "idealFor": "Ideale Per",
+    "watchInAction": "Guarda in Azione",
+    "videoComingSoon": "Video in Arrivo",
+    "showLine": "Mostra Linea e Processo di Produzione",
+    "hideLine": "Nascondi Linea e Processo di Produzione",
+    "completeLine": "Linea di Produzione Completa",
+    "lineComponents": "Componenti della Linea di Produzione",
+    "process": "Processo di Confezionamento",
+    "requestLine": "Richiedi Questa Linea",
+    "viewMachines": "Vedi Macchinari Singoli",
+    "cta": {
+      "title": "Non Sai Quale Metodo di Confezionamento Scegliere?",
+      "description": "I nostri ingegneri analizzeranno le specifiche del tuo prodotto di carte e consiglieranno il metodo di confezionamento e la configurazione della linea ottimali.",
+      "button": "Richiedi Consulenza Gratuita"
+    }
+  },
+  "machines": {
+    "title1": "Catalogo",
+    "title2": "Macchinari",
+    "description": "Gamma completa di macchine per confezionamento automatico per prodotti di carte — dagli alimentatori a frizione ad alta velocità ai sistemi di ispezione visiva AI.",
+    "search": "Cerca macchinari...",
+    "showing": "Mostrando {count} macchinario{plural}",
+    "noResults": "Nessun macchinario trovato con i criteri selezionati.",
+    "clearFilters": "Cancella filtri",
+    "specifications": "Specifiche",
+    "moreSpecs": "+{count} altre specifiche",
+    "inquire": "Richiedi Informazioni su {model}",
+    "categories": {
+      "all": "Tutti i Macchinari",
+      "feeding": "Alimentazione Carte",
+      "packaging": "Confezionamento",
+      "boxing": "Incartonamento e Sigillatura",
+      "palletizing": "Pallettizzazione",
+      "ai": "Visione AI"
+    },
+    "model": "Modello"
+  },
+  "about": {
+    "title1": "Chi",
+    "title2": "Siamo",
+    "description": "Il tuo partner unico per il confezionamento automatico di carte — dalla produzione di apparecchiature ai servizi di conto lavorazione.",
+    "overview": {
+      "title": "Pionieri nelle Soluzioni di Confezionamento Chiavi in Mano",
+      "intro1": "<strong>Guangzhou Chanfer Intelligent Equipment Co., Ltd</strong> (precedentemente Dongguan Chanfer Intelligent Packing Technology Co., Ltd), fondata nel 2011, è un'Impresa Nazionale ad Alta Tecnologia e azienda certificata SRDI (Specializzata, Raffinata, Differenziata, Innovativa) della provincia del Guangdong.",
+      "intro2": "Come pioniere nella fornitura di soluzioni complete di conteggio e confezionamento, CHANFER opera attraverso due divisioni principali:",
+      "equipment": {
+        "title": "Divisione Produzione Apparecchiature",
+        "desc": "Con 25 anni di esperienza tecnica e uno spirito di innovazione continua, forniamo attivamente apparecchiature di confezionamento ad alto valore che riducono efficacemente i costi di manodopera nella produzione. Il valore dei nostri prodotti risiede nel creare un valore aggiunto superiore per i clienti."
+      },
+      "contract": {
+        "title": "Divisione Conto Lavorazione",
+        "desc": "Struttura di confezionamento in camera bianca di 5.000 m² con nostre apparecchiature, personale e film di confezionamento. I clienti devono solo fornire il prodotto interno — noi gestiamo tutto il resto. Servizi di confezionamento veramente completi che ti permettono di accettare grandi ordini con fiducia."
+      }
+    },
+    "stats": {
+      "patents": "Brevetti",
+      "patentsSub": "8 Invenzione · 80 Modello di Utilità · 13 Design · 6 Copyright",
+      "clients": "Clienti Serviti",
+      "clientsSub": "Nei settori stampa, giochi, alimentare, medicale",
+      "experience": "Esperienza nel Settore",
+      "experienceSub": "Dal 2011, in continua innovazione",
+      "team": "Membri del Team",
+      "teamSub": "Inclusi oltre 10 ingegneri di assistenza post-vendita",
+      "branches": "Sedi",
+      "branchesSub": "Sede Dongguan · Guangzhou · Yiwu",
+      "certs": "Certificazioni",
+      "certsSub": "Alta Tecnologia · SRDI · ISO9001 · CE"
+    },
+    "milestones": {
+      "title": "Pietre Miliari dello Sviluppo"
+    },
+    "certifications": {
+      "title": "Certificazioni e Riconoscimenti",
+      "highTech": {
+        "title": "Impresa Nazionale ad Alta Tecnologia",
+        "desc": "Riconosciuta dal Ministero Cinese della Scienza e Tecnologia"
+      },
+      "srdi": {
+        "title": "Impresa SRDI",
+        "desc": "PMI Specializzata, Raffinata, Differenziata, Innovativa del Guangdong"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "Sistema di Gestione Qualità certificato"
+      },
+      "ce": {
+        "title": "Certificazione CE",
+        "desc": "Marcatura di conformità europea per macchinari"
+      },
+      "since": "Dal {year}"
+    },
+    "facilities": {
+      "title": "Le Nostre Strutture",
+      "guangzhou": {
+        "title": "Sede di Guangzhou",
+        "subtitle": "Centro Commerciale e Amministrativo"
+      },
+      "dongguan": {
+        "title": "Stabilimento di Dongguan",
+        "subtitle": "Centro di Produzione e Confezionamento"
+      },
+      "address": "Indirizzo",
+      "phone": "Telefono",
+      "mobile": "Cellulare",
+      "email": "Email",
+      "facility": "Struttura"
+    }
+  },
+  "contact": {
+    "title1": "Mettiti in",
+    "title2": "Contatto",
+    "description": "Pronto ad automatizzare il tuo confezionamento di carte? Raccontaci del tuo prodotto e delle tue esigenze — i nostri ingegneri progetteranno una soluzione personalizzata per te.",
+    "directContact": "Contatto Diretto",
+    "phoneWhatsApp": "Telefono / WhatsApp",
+    "emailLabel": "Email",
+    "guangzhouOffice": "Ufficio di Guangzhou",
+    "dongguanFactory": "Stabilimento di Dongguan",
+    "workingHours": "Orari di Lavoro",
+    "workingHoursValue": "Lun–Sab: 8:30 – 18:00 (GMT+8)",
+    "whatsapp": {
+      "title": "Chatta su WhatsApp",
+      "subtitle": "Risposta rapida · Direttamente al team commerciale"
+    },
+    "form": {
+      "title": "Richiedi un Preventivo",
+      "description": "Compila il modulo sottostante e il nostro team risponderà entro 24 ore con una soluzione di confezionamento personalizzata.",
+      "name": "Nome Completo",
+      "namePlaceholder": "Il tuo nome",
+      "company": "Azienda",
+      "companyPlaceholder": "Nome azienda",
+      "email": "Email",
+      "emailPlaceholder": "email@azienda.com",
+      "phone": "Telefono",
+      "phonePlaceholder": "+39 123 456 7890",
+      "productType": "Tipo di Prodotto",
+      "selectProduct": "Seleziona tipo di prodotto",
+      "productTypes": {
+        "tradingCards": "Carte Collezionabili (TCG/CCG)",
+        "boardGameCards": "Carte per Giochi da Tavolo",
+        "playingCards": "Carte da Gioco",
+        "collectibleCards": "Carte da Collezione",
+        "gameComponents": "Componenti per Giochi da Tavolo",
+        "printedMaterials": "Materiali Stampati",
+        "other": "Altro"
+      },
+      "quantity": "Quantità Mensile",
+      "selectQuantity": "Seleziona fascia di quantità",
+      "quantities": {
+        "under100k": "Meno di 100.000 lotti",
+        "100kTo500k": "100.000 – 500.000 lotti",
+        "500kTo1m": "500.000 – 1.000.000 lotti",
+        "over1m": "Oltre 1.000.000 lotti"
+      },
+      "projectDetails": "Dettagli del Progetto",
+      "projectPlaceholder": "Raccontaci del tuo prodotto di carte, requisiti di confezionamento, metodo di confezionamento preferito o qualsiasi esigenza particolare...",
+      "submit": "Invia Richiesta",
+      "thankYou": "Grazie!",
+      "thankYouMessage": "La tua richiesta è stata ricevuta. Il nostro team ti contatterà entro 24 ore."
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Pronto ad Automatizzare il Tuo Confezionamento di Carte?",
+      "description": "Ottieni una soluzione di linea di confezionamento personalizzata — dall'alimentazione alla pallettizzazione.",
+      "button": "Richiedi un Preventivo"
+    },
+    "company": {
+      "description": "Tutto Può Essere Confezionato — Soluzioni complete di confezionamento automatico per carte da gioco, giochi da tavolo e carte collezionabili dal 2011.",
+      "intelligentEquipment": "Apparecchiature Intelligenti"
+    },
+    "solutions": {
+      "title": "Soluzioni di Confezionamento",
+      "candy": "Confezionamento Caramella",
+      "selfAdhesive": "Fascetta Autoadesiva",
+      "fourSides": "Quattro Lati Sigillati",
+      "banding": "Confezionamento a Fascetta",
+      "heatShrink": "Termoretraibile",
+      "threeDimensional": "Tridimensionale"
+    },
+    "quickLinks": {
+      "title": "Link Rapidi",
+      "machineCatalog": "Catalogo Macchinari",
+      "aboutChanfer": "Chi è CHANFER",
+      "contactUs": "Contattaci",
+      "downloadBrochure": "Scarica Brochure"
+    },
+    "contactTitle": "Contatti",
+    "copyright": "© {year} {company}. Tutti i diritti riservati.",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "termsOfService": "Termini di Servizio"
+  },
+  "common": {
+    "required": "*",
+    "address": "Indirizzo",
+    "phone": "Telefono",
+    "mobile": "Cellulare",
+    "email": "Email"
+  }
+}

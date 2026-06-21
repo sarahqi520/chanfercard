@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "title": "CHANFER | 游戏卡牌及桌游自动包装解决方案",
+    "description": "CHANFER（广州长发智能装备有限公司）—— 游戏卡牌、桌游、集换式卡牌一站式自动包装解决方案。6种包装方式，25年+行业经验，服务全球8000+客户。",
+    "keywords": "卡牌包装机, 游戏卡包装, 桌游包装, 集换式卡牌包装, 自动卡牌给料机, 卡牌装袋机, 卡牌束带机, 卡牌热收缩包装, 四边封包装, 糖果包装机, 卡牌包装生产线, CHANFER, CUKKE"
+  },
+  "nav": {
+    "home": "首页",
+    "solutions": "包装方案",
+    "machines": "设备目录",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "topBar": {
+    "tagline": "一站式计数与包装自动化解决方案"
+  },
+  "hero": {
+    "badge": "游戏卡牌及桌游包装专家",
+    "title1": "一站式",
+    "titleHighlight": "卡牌包装",
+    "title2": "自动化",
+    "description": "从给料、计数到包装、装盒、码垛——CHANFER为游戏卡牌、集换式卡牌和桌游提供完整的自动化包装生产线。",
+    "highlight1": "6种包装方式",
+    "highlight2": "25年+",
+    "highlight3": "8000+",
+    "highlightSuffix": "行业经验，",
+    "highlightSuffix2": "客户遍布全球。",
+    "cta1": "查看方案",
+    "cta2": "获取报价"
+  },
+  "stats": {
+    "clients": "服务客户",
+    "patents": "专利数量",
+    "experience": "行业经验",
+    "team": "团队规模"
+  },
+  "methods": {
+    "title": "游戏卡牌6大包装方式",
+    "description": "为您的卡牌产品选择理想的包装形式——从高速糖果包装到高端立体盒装。每种方式均可提供完整的集成生产线。",
+    "viewLine": "查看完整生产线"
+  },
+  "whyUs": {
+    "title": "为什么选择CHANFER？",
+    "description": "我们不仅是设备供应商，更是您从制造到合同包装的端到端包装合作伙伴。",
+    "equipment": {
+      "title": "设备制造商",
+      "desc": "我们自主设计制造设备——无中间商，工厂直供价格，全程技术支持。"
+    },
+    "service": {
+      "title": "合同包装服务商",
+      "desc": "5000㎡洁净车间，自有设备、员工和包装膜。您只需提供产品——其余交给我们。"
+    },
+    "smart": {
+      "title": "智能发卡系统",
+      "desc": "计算机控制的卡牌分拣系统，配备AI视觉检测。单批次最高25,000包，100%错误检测。"
+    },
+    "ai": {
+      "title": "AI视觉检测",
+      "desc": "实时卡牌检测，速度400+张/分钟。即时检测错卡、漏卡、序号错误等问题。"
+    },
+    "integration": {
+      "title": "整线集成",
+      "desc": "从卡牌给料到码垛——完整的交钥匙生产线，配备协作机器人和智能控制系统。"
+    },
+    "quality": {
+      "title": "品质保障",
+      "desc": "ISO9001认证，国家高新技术企业，广东省专精特新企业。100+专利，CE认证。"
+    }
+  },
+  "smartSystem": {
+    "badge": "智能系统",
+    "title": "计算机发卡调度系统",
+    "description": "我们的智能发卡调度系统采用计算机、发卡机和多台卡牌给料机，根据预设方案自动完成卡牌分拣和包装。",
+    "features": [
+      "在Excel中编辑卡牌分拣流程——简单直观",
+      "可存储1000+工艺配方文件；单批次25,000包",
+      "防错检测：白卡/厚度/AI视觉检测",
+      "错误自动报警并停机；故障排除后快速重启",
+      "兼容所有6种包装线配置"
+    ],
+    "comparison": {
+      "title": "传统方式 vs. CHANFER智能生产线",
+      "labels": {
+        "labor": "所需人力",
+        "errorRate": "错误率",
+        "batchSize": "批次规模",
+        "changeover": "换线时间",
+        "qualityAssurance": "品质保障"
+      },
+      "traditional": {
+        "labor": "多名操作工",
+        "errorRate": "高（人工计数）",
+        "batchSize": "仅小批量数据",
+        "changeover": "30–60分钟",
+        "qualityAssurance": "人工抽检"
+      },
+      "chanfer": {
+        "labor": "1–2名操作工",
+        "errorRate": "接近零（AI检测）",
+        "batchSize": "最高25,000包/批次",
+        "changeover": "3–5分钟（配方切换）",
+        "qualityAssurance": "100%实时检测"
+      },
+      "traditionalLabel": "传统方式",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "行业领军企业的信赖之选",
+    "description": "CHANFER已服务8000+客户，包括全球顶尖的印刷和包装企业。"
+  },
+  "timeline": {
+    "title": "发展历程",
+    "description": "从单一发卡机到全谱系包装解决方案提供商。"
+  },
+  "solutions": {
+    "title1": "卡牌包装",
+    "title2": "解决方案",
+    "description": "CHANFER提供6种成熟的游戏卡牌、集换式卡牌和桌游组件包装方式。每种方式均可提供完整的集成生产线——从自动卡牌给料到机器人码垛。",
+    "specs": {
+      "speed": "速度",
+      "filmDia": "膜卷直径",
+      "filmWidth": "膜宽",
+      "innerDia": "内径",
+      "voltage": "电压"
+    },
+    "keyFeatures": "核心特点",
+    "idealFor": "适用场景",
+    "watchInAction": "观看实操视频",
+    "videoComingSoon": "视频即将上线",
+    "showLine": "显示生产线及工艺流程",
+    "hideLine": "隐藏生产线及工艺流程",
+    "completeLine": "完整生产线",
+    "lineComponents": "生产线组成设备",
+    "process": "包装工艺流程",
+    "requestLine": "咨询此生产线",
+    "viewMachines": "查看单机设备",
+    "cta": {
+      "title": "不确定哪种包装方式适合？",
+      "description": "我们的工程师将分析您的卡牌产品规格，推荐最优的包装方式和生产线配置。",
+      "button": "获取免费咨询"
+    }
+  },
+  "machines": {
+    "title1": "设备",
+    "title2": "目录",
+    "description": "卡牌产品自动化包装设备全系列——从高速摩擦给料机到AI视觉检测系统。",
+    "search": "搜索设备...",
+    "showing": "显示{count}台设备{plural}",
+    "noResults": "未找到符合条件的设备。",
+    "clearFilters": "清除筛选",
+    "specifications": "规格参数",
+    "moreSpecs": "还有{count}项规格",
+    "inquire": "咨询{model}",
+    "categories": {
+      "all": "全部设备",
+      "feeding": "卡牌给料",
+      "packaging": "包装设备",
+      "boxing": "装盒封箱",
+      "palletizing": "码垛设备",
+      "ai": "AI视觉"
+    },
+    "model": "型号"
+  },
+  "about": {
+    "title1": "关于",
+    "title2": "CHANFER",
+    "description": "您的一站式卡牌包装自动化合作伙伴——从设备制造到合同包装服务。",
+    "overview": {
+      "title": "一站式包装解决方案的先行者",
+      "intro1": "<strong>广州长发智能装备有限公司</strong>（原东莞市长发智能包装科技有限公司）成立于2011年，是国家高新技术企业和广东省专精特新认证企业。",
+      "intro2": "作为一站式计数包装解决方案的先行者，CHANFER运营两大核心事业部：",
+      "equipment": {
+        "title": "设备制造事业部",
+        "desc": "拥有25年技术经验和持续创新精神，我们积极提供高价值的包装设备，有效降低生产中的人工成本。我们的产品价值在于为客户创造更高的附加值。"
+      },
+      "contract": {
+        "title": "合同包装事业部",
+        "desc": "5000㎡洁净车间包装设施，配备自有设备、员工和包装膜。客户只需提供内装产品——其余全部由我们处理。真正的一站式包装服务，让您放心承接大订单。"
+      }
+    },
+    "stats": {
+      "patents": "专利数量",
+      "patentsSub": "8项发明专利 · 80项实用新型 · 13项外观设计 · 6项软件著作权",
+      "clients": "服务客户",
+      "clientsSub": "覆盖印刷、游戏、食品、医疗等行业",
+      "experience": "行业经验",
+      "experienceSub": "自2011年以来，持续创新",
+      "team": "团队规模",
+      "teamSub": "含10+名售后服务工程师",
+      "branches": "分公司",
+      "branchesSub": "东莞总部 · 广州 · 义乌",
+      "certs": "资质认证",
+      "certsSub": "高新技术企业 · 专精特新 · ISO9001 · CE"
+    },
+    "milestones": {
+      "title": "发展历程"
+    },
+    "certifications": {
+      "title": "资质认证与荣誉",
+      "highTech": {
+        "title": "国家高新技术企业",
+        "desc": "中国科学技术部认定"
+      },
+      "srdi": {
+        "title": "专精特新企业",
+        "desc": "广东省专精特新中小企业认定"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "质量管理体系认证"
+      },
+      "ce": {
+        "title": "CE认证",
+        "desc": "欧盟机械产品合规认证"
+      },
+      "since": "自{year}年起"
+    },
+    "facilities": {
+      "title": "我们的设施",
+      "guangzhou": {
+        "title": "广州总部",
+        "subtitle": "销售与行政中心"
+      },
+      "dongguan": {
+        "title": "东莞工厂",
+        "subtitle": "制造与包装中心"
+      },
+      "address": "地址",
+      "phone": "电话",
+      "mobile": "手机",
+      "email": "邮箱",
+      "facility": "设施"
+    }
+  },
+  "contact": {
+    "title1": "联系",
+    "title2": "我们",
+    "description": "准备让您的卡牌包装实现自动化？告诉我们您的产品和要求——我们的工程师将为您设计定制方案。",
+    "directContact": "直接联系方式",
+    "phoneWhatsApp": "电话 / WhatsApp",
+    "emailLabel": "邮箱",
+    "guangzhouOffice": "广州办公室",
+    "dongguanFactory": "东莞工厂",
+    "workingHours": "工作时间",
+    "workingHoursValue": "周一至周六：上午8:30 – 下午6:00（GMT+8）",
+    "whatsapp": {
+      "title": "WhatsApp在线咨询",
+      "subtitle": "快速响应 · 直连销售团队"
+    },
+    "form": {
+      "title": "获取报价",
+      "description": "填写以下表格，我们的团队将在24小时内回复，并提供定制包装方案。",
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "company": "公司名称",
+      "companyPlaceholder": "公司名称",
+      "email": "邮箱",
+      "emailPlaceholder": "email@company.com",
+      "phone": "电话",
+      "phonePlaceholder": "+86 130 6098 5132",
+      "productType": "产品类型",
+      "selectProduct": "选择产品类型",
+      "productTypes": {
+        "tradingCards": "集换式卡牌（TCG/CCG）",
+        "boardGameCards": "桌游卡牌",
+        "playingCards": "扑克牌",
+        "collectibleCards": "收藏卡牌",
+        "gameComponents": "桌游组件",
+        "printedMaterials": "印刷品",
+        "other": "其他"
+      },
+      "quantity": "月产量",
+      "selectQuantity": "选择产量范围",
+      "quantities": {
+        "under100k": "10万包以下",
+        "100kTo500k": "10万 – 50万包",
+        "500kTo1m": "50万 – 100万包",
+        "over1m": "100万包以上"
+      },
+      "projectDetails": "项目详情",
+      "projectPlaceholder": "请告诉我们您的卡牌产品、包装要求、首选包装方式或任何特殊需求...",
+      "submit": "提交咨询",
+      "thankYou": "感谢您！",
+      "thankYouMessage": "您的咨询已收到。我们的团队将在24小时内与您联系。"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "准备让卡牌包装实现自动化？",
+      "description": "获取定制包装线解决方案——从给料到码垛。",
+      "button": "获取报价"
+    },
+    "company": {
+      "description": "万事皆可包——自2011年起，为游戏卡牌、桌游和集换式卡牌提供一站式自动化包装解决方案。",
+      "intelligentEquipment": "智能装备"
+    },
+    "solutions": {
+      "title": "包装方案",
+      "candy": "糖果包装",
+      "selfAdhesive": "自粘条包装",
+      "fourSides": "四边封包装",
+      "banding": "束带包装",
+      "heatShrink": "热收缩包装",
+      "threeDimensional": "立体包装"
+    },
+    "quickLinks": {
+      "title": "快速链接",
+      "machineCatalog": "设备目录",
+      "aboutChanfer": "关于CHANFER",
+      "contactUs": "联系我们",
+      "downloadBrochure": "下载宣传册"
+    },
+    "contactTitle": "联系方式",
+    "copyright": "© {year} {company}. 保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  },
+  "common": {
+    "required": "*",
+    "address": "地址",
+    "phone": "电话",
+    "mobile": "手机",
+    "email": "邮箱"
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "游戏卡牌有哪6种包装方式？",
+        "answer": "游戏卡牌的6种主要包装方式为：糖果包装（枕式流延包装）、自粘条包装（可反复粘贴条袋）、四边封包装（四边密封）、束带包装（纸带捆扎）、热收缩包装（收缩膜包裹）和立体包装（3D盒式包裹）。"
+      },
+      {
+        "question": "卡牌包装机的生产速度是多少？",
+        "answer": "生产速度因包装方式而异：糖果包装20-220包/分钟，自粘条包装30-90包/分钟，四边封包装50-150包/分钟，束带包装5-20包/分钟，热收缩包装20-100包/分钟，立体包装40-80包/分钟。"
+      },
+      {
+        "question": "CHANFER是否提供完整的包装生产线？",
+        "answer": "是的，CHANFER提供完整的交钥匙包装线，包括自动卡牌给料、计数、包装、装盒、装箱、封箱和机器人码垛。我们还提供计算机发卡调度系统，用于智能卡牌分拣。"
+      },
+      {
+        "question": "CHANFER服务于哪些行业？",
+        "answer": "CHANFER主要服务于游戏卡牌、桌游、集换式卡牌和纸品印刷行业。我们也提供食品、医疗、日化和五金行业的包装解决方案。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "title": "CHANFER | Solutions d'emballage automatisé pour cartes de jeu et jeux de société",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Solutions d'emballage automatisé clés en main pour cartes de jeu, jeux de société et cartes à collectionner. 6 méthodes d'emballage, plus de 25 ans d'expérience, plus de 8 000 clients servis dans le monde entier.",
+    "keywords": "machine d'emballage de cartes, emballage de cartes de jeu, emballage de jeux de société, emballage de cartes à collectionner, distributeur automatique de cartes, machine de mise en sachet de cartes, machine de cerclage de cartes, rétractation de cartes, scellage quatre côtés, machine d'emballage de bonbons, ligne d'emballage de cartes, CHANFER, CUKKE"
+  },
+  "nav": {
+    "home": "Accueil",
+    "solutions": "Solutions d'emballage",
+    "machines": "Machines",
+    "about": "À propos",
+    "contact": "Contact",
+    "getQuote": "Demander un devis"
+  },
+  "topBar": {
+    "tagline": "Solutions automatiques de comptage et d'emballage clés en main"
+  },
+  "hero": {
+    "badge": "Expert en emballage de cartes de jeu et jeux de société",
+    "title1": "Automation",
+    "titleHighlight": "d'emballage de cartes",
+    "title2": "clés en main",
+    "description": "De l'alimentation et du comptage à l'emballage, la mise en carton et la palettisation — CHANFER fournit des lignes d'emballage automatisées complètes pour les cartes de jeu, cartes à collectionner et jeux de société.",
+    "highlight1": "6 méthodes d'emballage",
+    "highlight2": "plus de 25 ans",
+    "highlight3": "8 000+ clients",
+    "highlightSuffix": "d'expérience, et",
+    "highlightSuffix2": "servis dans le monde entier.",
+    "cta1": "Découvrir les solutions",
+    "cta2": "Demander un devis"
+  },
+  "stats": {
+    "clients": "Clients servis",
+    "patents": "Brevets",
+    "experience": "Expérience industrielle",
+    "team": "Membres de l'équipe"
+  },
+  "methods": {
+    "title": "6 méthodes d'emballage pour cartes de jeu",
+    "description": "Choisissez le format d'emballage idéal pour vos produits de cartes — de l'emballage de bonbons à haute vitesse aux boîtes premium en trois dimensions. Chaque méthode est disponible sous forme de ligne de production intégrée complète.",
+    "viewLine": "Voir la ligne complète"
+  },
+  "whyUs": {
+    "title": "Pourquoi choisir CHANFER ?",
+    "description": "Nous ne sommes pas seulement un fournisseur de machines — nous sommes votre partenaire d'emballage de bout en bout avec une capacité de fabrication et des services de conditionnement à façon.",
+    "equipment": {
+      "title": "Fabricant d'équipements",
+      "desc": "Nous concevons et fabriquons nos propres machines — pas d'intermédiaires, prix usine direct et support technique complet."
+    },
+    "service": {
+      "title": "Prestataire de services d'emballage",
+      "desc": "Installation de salle blanche de 5 000 m² avec notre propre équipement, personnel et film d'emballage. Vous fournissez simplement le produit — nous faisons le reste."
+    },
+    "smart": {
+      "title": "Distribution intelligente de cartes",
+      "desc": "Système de tri de cartes contrôlé par ordinateur avec inspection visuelle par IA. Jusqu'à 25 000 poches par lot avec détection d'erreurs à 100 %."
+    },
+    "ai": {
+      "title": "Inspection visuelle par IA",
+      "desc": "Inspection de cartes en temps réel à plus de 400 feuilles/min. Détecte instantanément les cartes erronées, les cartes manquantes et les problèmes de séquence."
+    },
+    "integration": {
+      "title": "Intégration de ligne complète",
+      "desc": "De l'alimentation des cartes à la palettisation — lignes de production clés en main complètes avec robots collaboratifs et systèmes de contrôle intelligent."
+    },
+    "quality": {
+      "title": "Qualité garantie",
+      "desc": "Certifié ISO9001, Entreprise Nationale de Haute Technologie, et reconnue PME SRDI de la province du Guangdong. Plus de 100 brevets et certification CE."
+    }
+  },
+  "smartSystem": {
+    "badge": "Système intelligent",
+    "title": "Système informatique de distribution de cartes",
+    "description": "Notre système intelligent de distribution de cartes utilise un ordinateur, des machines de distribution de cartes et plusieurs distributeurs de cartes pour trier et emballer automatiquement les cartes selon des recettes préétablies.",
+    "features": [
+      "Modification du processus de tri des cartes dans Excel — simple et intuitif",
+      "Plus de 1 000 fichiers de recettes de processus stockables ; 25 000 poches par lot",
+      "Détection anti-erreur : carte blanche / épaisseur / inspection visuelle par IA",
+      "Alarme automatique et arrêt en cas d'erreur ; redémarrage rapide après dépannage",
+      "Compatible avec les 6 configurations de ligne d'emballage"
+    ],
+    "comparison": {
+      "title": "Ligne traditionnelle vs. Ligne intelligente CHANFER",
+      "labels": {
+        "labor": "Main-d'œuvre requise",
+        "errorRate": "Taux d'erreur",
+        "batchSize": "Taille de lot",
+        "changeover": "Temps de changement de format",
+        "qualityAssurance": "Assurance qualité"
+      },
+      "traditional": {
+        "labor": "Plusieurs opérateurs",
+        "errorRate": "Élevé (comptage manuel)",
+        "batchSize": "Petites quantités uniquement",
+        "changeover": "30–60 min",
+        "qualityAssurance": "Contrôle par échantillonnage manuel"
+      },
+      "chanfer": {
+        "labor": "1–2 opérateurs",
+        "errorRate": "Quasi nul (inspection par IA)",
+        "batchSize": "Jusqu'à 25 000 poches/lot",
+        "changeover": "3–5 min (changement de recette)",
+        "qualityAssurance": "Inspection en temps réel à 100 %"
+      },
+      "traditionalLabel": "Traditionnel",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "Approuvé par les leaders de l'industrie",
+    "description": "CHANFER a servi plus de 8 000 clients, dont les plus grandes entreprises d'impression et d'emballage du monde."
+  },
+  "timeline": {
+    "title": "Notre parcours",
+    "description": "D'un simple distributeur de cartes à un fournisseur complet de solutions d'emballage."
+  },
+  "solutions": {
+    "title1": "Solutions",
+    "title2": "d'emballage de cartes",
+    "description": "CHANFER propose 6 méthodes d'emballage éprouvées pour les cartes de jeu, cartes à collectionner et composants de jeux de société. Chaque méthode est disponible sous forme de ligne de production intégrée complète — de l'alimentation automatique des cartes à la palettisation robotisée.",
+    "specs": {
+      "speed": "Vitesse",
+      "filmDia": "Diamètre de rouleau de film",
+      "filmWidth": "Largeur du film",
+      "innerDia": "Diamètre intérieur",
+      "voltage": "Tension"
+    },
+    "keyFeatures": "Caractéristiques principales",
+    "idealFor": "Idéal pour",
+    "watchInAction": "Voir en action",
+    "videoComingSoon": "Vidéo à venir",
+    "showLine": "Afficher la ligne de production et le processus",
+    "hideLine": "Masquer la ligne de production et le processus",
+    "completeLine": "Ligne de production complète",
+    "lineComponents": "Composants de la ligne de production",
+    "process": "Processus d'emballage",
+    "requestLine": "Demander cette ligne",
+    "viewMachines": "Voir les machines individuelles",
+    "cta": {
+      "title": "Vous ne savez pas quelle méthode d'emballage vous convient ?",
+      "description": "Nos ingénieurs analyseront les spécifications de vos produits de cartes et vous recommanderont la méthode d'emballage et la configuration de ligne optimales.",
+      "button": "Obtenir une consultation gratuite"
+    }
+  },
+  "machines": {
+    "title1": "Catalogue",
+    "title2": "des machines",
+    "description": "Gamme complète de machines d'emballage automatisées pour produits de cartes — des distributeurs à friction à haute vitesse aux systèmes d'inspection visuelle par IA.",
+    "search": "Rechercher des machines...",
+    "showing": "Affichage de {count} machine{plural}",
+    "noResults": "Aucune machine ne correspond à vos critères.",
+    "clearFilters": "Effacer les filtres",
+    "specifications": "Spécifications",
+    "moreSpecs": "+{count} autres spécifications",
+    "inquire": "Demander des informations sur {model}",
+    "categories": {
+      "all": "Toutes les machines",
+      "feeding": "Alimentation de cartes",
+      "packaging": "Emballage",
+      "boxing": "Mise en carton et scellage",
+      "palletizing": "Palettisation",
+      "ai": "Vision par IA"
+    },
+    "model": "Modèle"
+  },
+  "about": {
+    "title1": "À propos de",
+    "title2": "CHANFER",
+    "description": "Votre partenaire clés en main pour l'emballage automatisé de cartes — de la fabrication d'équipements aux services de conditionnement à façon.",
+    "overview": {
+      "title": "Pionnier des solutions d'emballage clés en main",
+      "intro1": "<strong>Guangzhou Chanfer Intelligent Equipment Co., Ltd</strong> (anciennement Dongguan Chanfer Intelligent Packing Technology Co., Ltd), fondée en 2011, est une Entreprise Nationale de Haute Technologie et une entreprise certifiée SRDI (Spécialisée, Raffinée, Différenciée, Innovante) de la province du Guangdong.",
+      "intro2": "En tant que pionnier des solutions de comptage et d'emballage clés en main, CHANFER exploite deux divisions principales :",
+      "equipment": {
+        "title": "Division de fabrication d'équipements",
+        "desc": "Avec 25 ans d'expérience technique et un esprit d'innovation continue, nous fournissons activement des équipements d'emballage à forte valeur ajoutée qui réduisent efficacement les coûts de main-d'œuvre en production. Notre valeur réside dans la création d'une valeur ajoutée supérieure pour nos clients."
+      },
+      "contract": {
+        "title": "Division de conditionnement à façon",
+        "desc": "Installation d'emballage en salle blanche de 5 000 m² avec notre propre équipement, personnel et film d'emballage. Les clients n'ont qu'à fournir le produit intérieur — nous gérons tout le reste. De véritables services d'emballage clés en main qui vous permettent d'accepter de grandes commandes en toute confiance."
+      }
+    },
+    "stats": {
+      "patents": "Brevets",
+      "patentsSub": "8 Invention · 80 Modèle d'utilité · 13 Design · 6 Droits d'auteur",
+      "clients": "Clients servis",
+      "clientsSub": "Dans les secteurs de l'impression, du jeu, de l'alimentaire et du médical",
+      "experience": "Expérience industrielle",
+      "experienceSub": "Depuis 2011, en constante innovation",
+      "team": "Membres de l'équipe",
+      "teamSub": "Dont plus de 10 ingénieurs de service après-vente",
+      "branches": "Bureaux",
+      "branchesSub": "Siège Dongguan · Guangzhou · Yiwu",
+      "certs": "Certifications",
+      "certsSub": "Haute Technologie · SRDI · ISO9001 · CE"
+    },
+    "milestones": {
+      "title": "Étapes de développement"
+    },
+    "certifications": {
+      "title": "Certifications et distinctions",
+      "highTech": {
+        "title": "Entreprise Nationale de Haute Technologie",
+        "desc": "Reconnue par le Ministère chinois des Sciences et Technologies"
+      },
+      "srdi": {
+        "title": "Entreprise SRDI",
+        "desc": "PME Spécialisée, Raffinée, Différenciée et Innovante au Guangdong"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "Système de Management de la Qualité certifié"
+      },
+      "ce": {
+        "title": "Certifié CE",
+        "desc": "Marquage de conformité européenne pour les machines"
+      },
+      "since": "Depuis {year}"
+    },
+    "facilities": {
+      "title": "Nos installations",
+      "guangzhou": {
+        "title": "Siège de Guangzhou",
+        "subtitle": "Centre des ventes et administration"
+      },
+      "dongguan": {
+        "title": "Usine de Dongguan",
+        "subtitle": "Centre de fabrication et d'emballage"
+      },
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "mobile": "Mobile",
+      "email": "Email",
+      "facility": "Installation"
+    }
+  },
+  "contact": {
+    "title1": "Contactez-",
+    "title2": "nous",
+    "description": "Prêt à automatiser votre emballage de cartes ? Parlez-nous de votre produit et de vos besoins — nos ingénieurs concevront une solution sur mesure pour vous.",
+    "directContact": "Contact direct",
+    "phoneWhatsApp": "Téléphone / WhatsApp",
+    "emailLabel": "Email",
+    "guangzhouOffice": "Bureau de Guangzhou",
+    "dongguanFactory": "Usine de Dongguan",
+    "workingHours": "Heures d'ouverture",
+    "workingHoursValue": "Lun–Sam : 8h30 – 18h00 (GMT+8)",
+    "whatsapp": {
+      "title": "Discuter sur WhatsApp",
+      "subtitle": "Réponse rapide · Contact direct avec l'équipe commerciale"
+    },
+    "form": {
+      "title": "Demander un devis",
+      "description": "Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les 24 heures avec une solution d'emballage sur mesure.",
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "company": "Entreprise",
+      "companyPlaceholder": "Nom de l'entreprise",
+      "email": "Email",
+      "emailPlaceholder": "email@entreprise.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+1 234 567 8900",
+      "productType": "Type de produit",
+      "selectProduct": "Sélectionner le type de produit",
+      "productTypes": {
+        "tradingCards": "Cartes à collectionner (TCG/CCG)",
+        "boardGameCards": "Cartes de jeux de société",
+        "playingCards": "Cartes à jouer",
+        "collectibleCards": "Cartes de collection",
+        "gameComponents": "Composants de jeux de société",
+        "printedMaterials": "Matériaux imprimés",
+        "other": "Autre"
+      },
+      "quantity": "Quantité mensuelle",
+      "selectQuantity": "Sélectionner la gamme de quantité",
+      "quantities": {
+        "under100k": "Moins de 100 000 pochettes",
+        "100kTo500k": "100 000 – 500 000 pochettes",
+        "500kTo1m": "500 000 – 1 000 000 pochettes",
+        "over1m": "Plus de 1 000 000 pochettes"
+      },
+      "projectDetails": "Détails du projet",
+      "projectPlaceholder": "Parlez-nous de votre produit de cartes, de vos besoins en emballage, de votre méthode d'emballage préférée, ou de toute exigence particulière...",
+      "submit": "Envoyer la demande",
+      "thankYou": "Merci !",
+      "thankYouMessage": "Votre demande a bien été reçue. Notre équipe vous contactera dans les 24 heures."
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Prêt à automatiser votre emballage de cartes ?",
+      "description": "Obtenez une solution de ligne d'emballage sur mesure — de l'alimentation à la palettisation.",
+      "button": "Demander un devis"
+    },
+    "company": {
+      "description": "Tout peut être emballé — Solutions d'emballage automatisé clés en main pour cartes de jeu, jeux de société et cartes à collectionner depuis 2011.",
+      "intelligentEquipment": "Équipement intelligent"
+    },
+    "solutions": {
+      "title": "Solutions d'emballage",
+      "candy": "Emballage de bonbons",
+      "selfAdhesive": "Bande auto-adhésive",
+      "fourSides": "Scellage quatre côtés",
+      "banding": "Cerclage",
+      "heatShrink": "Rétractation à chaud",
+      "threeDimensional": "Trois dimensions"
+    },
+    "quickLinks": {
+      "title": "Liens rapides",
+      "machineCatalog": "Catalogue des machines",
+      "aboutChanfer": "À propos de CHANFER",
+      "contactUs": "Nous contacter",
+      "downloadBrochure": "Télécharger la brochure"
+    },
+    "contactTitle": "Contact",
+    "copyright": "© {year} {company}. Tous droits réservés.",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  },
+  "common": {
+    "required": "*",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "mobile": "Mobile",
+    "email": "Email"
+  }
+}

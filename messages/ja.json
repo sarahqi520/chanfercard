@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "title": "CHANFER | ゲームカード・ボードゲーム自動包装ソリューション",
+    "description": "CHANFER（Guangzhou Chanfer Intelligent Equipment Co., Ltd.）— ゲームカード、ボードゲーム、トレーディングカード向けのワンストップ自動包装ソリューション。6種類の包装方法、25年以上の経験、世界中で8,000社以上のお客様にご利用いただいています。",
+    "keywords": "カード包装機, ゲームカード包装, ボードゲーム包装, トレーディングカード包装, 自動カードフィーダー, カード袋詰め機, カード結束機, カードシュリンク包装, 四方シール包装, キャンディ包装機, カード包装ライン, CHANFER, CUKKE"
+  },
+  "nav": {
+    "home": "ホーム",
+    "solutions": "包装ソリューション",
+    "machines": "機械",
+    "about": "会社情報",
+    "contact": "お問い合わせ",
+    "getQuote": "見積もりを依頼"
+  },
+  "topBar": {
+    "tagline": "カウント・包装自動化ワンストップソリューション"
+  },
+  "hero": {
+    "badge": "ゲームカード・ボードゲーム包装のエキスパート",
+    "title1": "ワンストップ",
+    "titleHighlight": "カード包装",
+    "title2": "自動化",
+    "description": "供給・計数から包装、箱詰め、パレタイジングまで — CHANFERはゲームカード、トレーディングカード、ボードゲーム向けの完全な自動包装ラインを提供します。",
+    "highlight1": "6種類の包装方法",
+    "highlight2": "25年以上",
+    "highlight3": "8,000社以上",
+    "highlightSuffix": "の経験と、",
+    "highlightSuffix2": "世界中のお客様にご利用いただいています。",
+    "cta1": "ソリューションを見る",
+    "cta2": "見積もりを依頼"
+  },
+  "stats": {
+    "clients": "取引実績",
+    "patents": "特許",
+    "experience": "業界経験",
+    "team": "チームメンバー"
+  },
+  "methods": {
+    "title": "ゲームカード向け6種類の包装方法",
+    "description": "高速キャンディ包装からプレミアム立体箱まで、カード製品に最適な包装フォーマットをお選びください。各方法は完全な統合生産ラインとしてご利用いただけます。",
+    "viewLine": "全ラインを見る"
+  },
+  "whyUs": {
+    "title": "なぜCHANFERを選ぶのか？",
+    "description": "私たちは単なる機械サプライヤーではありません — 製造能力と包装受託サービスを備えた、エンドツーエンドの包装パートナーです。",
+    "equipment": {
+      "title": "機器メーカー",
+      "desc": "自社で機械を設計・製造 — 中間業者なし、工場直接価格、充実した技術サポート。"
+    },
+    "service": {
+      "title": "包装サービスプロバイダー",
+      "desc": "5,000m²のクリーンルーム施設、自社設備、スタッフ、包装フィルムを完備。製品を提供するだけで、あとはすべてお任せください。"
+    },
+    "smart": {
+      "title": "スマートカード仕分け",
+      "desc": "AI画像検査を備えたコンピュータ制御のカード仕分けシステム。1バッチ最大25,000パック、エラー検出率100%。"
+    },
+    "ai": {
+      "title": "AI画像検査",
+      "desc": "毎分400枚以上のリアルタイムカード検査。カードの間違い、欠品、順序違いを即座に検出します。"
+    },
+    "integration": {
+      "title": "フルライン統合",
+      "desc": "カード供給からパレタイジングまで — 協働ロボットとスマート制御システムを備えた完全なターンキープロダクションライン。"
+    },
+    "quality": {
+      "title": "品質保証",
+      "desc": "ISO9001認証、国家ハイテク企業、Guangdong省SRDI認定。100件以上の特許取得、CE認証取得済み。"
+    }
+  },
+  "smartSystem": {
+    "badge": "スマートシステム",
+    "title": "コンピュータカード仕分けシステム",
+    "description": "当社のインテリジェントカード仕分けシステムは、コンピュータ、カード供給機、複数のカードフィーダーを使用し、事前設定されたレシピに従ってカードを自動的に仕分け・包装します。",
+    "features": [
+      "Excelでカード仕分け工程を編集 — シンプルで直感的",
+      "1,000以上の工程レシピファイルを保存可能、1バッチ25,000パック",
+      "エラー防止検出：白カード / 厚み / AI画像検査",
+      "エラー時の自動アラーム・停止、トラブルシューティング後の迅速な再起動",
+      "6種類すべての包装ライン構成に対応"
+    ],
+    "comparison": {
+      "title": "従来方式 vs. CHANFERスマートライン",
+      "labels": {
+        "labor": "必要人員",
+        "errorRate": "エラー率",
+        "batchSize": "バッチサイズ",
+        "changeover": "段取り替え時間",
+        "qualityAssurance": "品質保証"
+      },
+      "traditional": {
+        "labor": "複数の作業員",
+        "errorRate": "高い（手作業計数）",
+        "batchSize": "少量データのみ",
+        "changeover": "30〜60分",
+        "qualityAssurance": "手作業の抜き取り検査"
+      },
+      "chanfer": {
+        "labor": "1〜2名の作業員",
+        "errorRate": "ほぼゼロ（AI検査）",
+        "batchSize": "最大25,000パック/バッチ",
+        "changeover": "3〜5分（レシピ切替）",
+        "qualityAssurance": "100%リアルタイム検査"
+      },
+      "traditionalLabel": "従来方式",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "業界のリーダー企業に信頼されています",
+    "description": "CHANFERは世界のトップ印刷・包装企業を含む8,000社以上のお客様にご利用いただいています。"
+  },
+  "timeline": {
+    "title": "私たちの歩み",
+    "description": "単一のカードフィーダーから、フルスペックの包装ソリューションプロバイダーまで。"
+  },
+  "solutions": {
+    "title1": "カード包装",
+    "title2": "ソリューション",
+    "description": "CHANFERはゲームカード、トレーディングカード、ボードゲーム部品向けに6つの実証済みの包装方法を提供します。各方法は、自動カード供給からロボットパレタイジングまで、完全な統合生産ラインとしてご利用いただけます。",
+    "specs": {
+      "speed": "速度",
+      "filmDia": "フィルムロール径",
+      "filmWidth": "フィルム幅",
+      "innerDia": "内径",
+      "voltage": "電圧"
+    },
+    "keyFeatures": "主な特徴",
+    "idealFor": "最適用途",
+    "watchInAction": "動作を見る",
+    "videoComingSoon": "動画近日公開",
+    "showLine": "生産ラインと工程を表示",
+    "hideLine": "生産ラインと工程を隠す",
+    "completeLine": "完全な生産ライン",
+    "lineComponents": "生産ライン構成",
+    "process": "包装工程",
+    "requestLine": "このラインをリクエスト",
+    "viewMachines": "個別機械を見る",
+    "cta": {
+      "title": "どの包装方法が適合するかわかりませんか？",
+      "description": "当社のエンジニアがお客様のカード製品仕様を分析し、最適な包装方法とライン構成をご提案します。",
+      "button": "無料相談を申し込む"
+    }
+  },
+  "machines": {
+    "title1": "機械",
+    "title2": "カタログ",
+    "description": "高速フリクションフィーダーからAI画像検査システムまで、カード製品向け自動包装機械のフルラインナップ。",
+    "search": "機械を検索...",
+    "showing": "{count}台の機械を表示中",
+    "noResults": "条件に一致する機械が見つかりません。",
+    "clearFilters": "フィルターをクリア",
+    "specifications": "仕様",
+    "moreSpecs": "他{count}件の仕様",
+    "inquire": "{model}について問い合わせる",
+    "categories": {
+      "all": "全機械",
+      "feeding": "カード供給",
+      "packaging": "包装",
+      "boxing": "箱詰め・封緘",
+      "palletizing": "パレタイジング",
+      "ai": "AIビジョン"
+    },
+    "model": "型番"
+  },
+  "about": {
+    "title1": "CHANFER",
+    "title2": "について",
+    "description": "機器製造から包装受託サービスまで、自動カード包装のワンストップパートナー。",
+    "overview": {
+      "title": "ワンストップ包装ソリューションのパイオニア",
+      "intro1": "<strong>Guangzhou Chanfer Intelligent Equipment Co., Ltd</strong>（旧 Dongguan Chanfer Intelligent Packing Technology Co., Ltd）は、2011年設立の国家ハイテク企業、およびGuangdong省SRDI（専門化、精緻化、差別化、革新）認証企業です。",
+      "intro2": "ワンストップのカウント＆包装ソリューション提供のパイオニアとして、CHANFERは2つのコア事業を展開しています：",
+      "equipment": {
+        "title": "機器製造部門",
+        "desc": "25年の技術経験と継続的な革新の精神により、生産における人件費を効果的に削減する高付加価値包装設備を積極的に提供しています。私たちの製品価値は、お客様により高い付加価値を創出することにあります。"
+      },
+      "contract": {
+        "title": "包装受託部門",
+        "desc": "5,000m²のクリーンルーム包装施設、自社の設備、スタッフ、包装フィルムを完備。客户提供は内容物のみ — あとはすべて当社が対応します。大規模注文にも安心して対応できる、真のワンストップ包装サービスです。"
+      }
+    },
+    "stats": {
+      "patents": "特許",
+      "patentsSub": "発明8件・実用新案80件・意匠13件・著作権6件",
+      "clients": "取引実績",
+      "clientsSub": "印刷、ゲーム、食品、医療業界にわたる",
+      "experience": "業界経験",
+      "experienceSub": "2011年から継続的に革新",
+      "team": "チームメンバー",
+      "teamSub": "10名以上のアフターサービスエンジニアを含む",
+      "branches": "支店",
+      "branchesSub": "Dongguan本社・Guangzhou・Yiwu",
+      "certs": "認証",
+      "certsSub": "ハイテク・SRDI・ISO9001・CE"
+    },
+    "milestones": {
+      "title": "開発の歩み"
+    },
+    "certifications": {
+      "title": "認証と表彰",
+      "highTech": {
+        "title": "国家ハイテク企業",
+        "desc": "中国科学技術省に認定"
+      },
+      "srdi": {
+        "title": "SRDI企業",
+        "desc": "Guangdong省の専門化、精緻化、差別化、革新中小企業"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "品質マネジメントシステム認証取得"
+      },
+      "ce": {
+        "title": "CE認証",
+        "desc": "機械に関する欧州適合性マーキング"
+      },
+      "since": "{year}年より"
+    },
+    "facilities": {
+      "title": "当社の施設",
+      "guangzhou": {
+        "title": "Guangzhou本社",
+        "subtitle": "営業・管理センター"
+      },
+      "dongguan": {
+        "title": "Dongguan工場",
+        "subtitle": "製造・包装センター"
+      },
+      "address": "住所",
+      "phone": "電話",
+      "mobile": "携帯電話",
+      "email": "メール",
+      "facility": "施設"
+    }
+  },
+  "contact": {
+    "title1": "お問い合わせ",
+    "title2": "",
+    "description": "カード包装の自動化をご検討ですか？お客様の製品と要件をお知らせください — 当社のエンジニアがカスタムソリューションを設計します。",
+    "directContact": "直接お問い合わせ",
+    "phoneWhatsApp": "電話 / WhatsApp",
+    "emailLabel": "メール",
+    "guangzhouOffice": "Guangzhouオフィス",
+    "dongguanFactory": "Dongguan工場",
+    "workingHours": "営業時間",
+    "workingHoursValue": "月〜土：8:30 AM – 6:00 PM (GMT+8)",
+    "whatsapp": {
+      "title": "WhatsAppでチャット",
+      "subtitle": "迅速対応・営業チーム直通"
+    },
+    "form": {
+      "title": "見積もりをリクエスト",
+      "description": "以下のフォームにご記入ください。当社チームより24時間以内にカスタム包装ソリューションをご返信します。",
+      "name": "氏名",
+      "namePlaceholder": "お名前",
+      "company": "会社名",
+      "companyPlaceholder": "会社名",
+      "email": "メール",
+      "emailPlaceholder": "email@company.com",
+      "phone": "電話",
+      "phonePlaceholder": "+1 234 567 8900",
+      "productType": "製品タイプ",
+      "selectProduct": "製品タイプを選択",
+      "productTypes": {
+        "tradingCards": "トレーディングカード（TCG/CCG）",
+        "boardGameCards": "ボードゲームカード",
+        "playingCards": "トランプ",
+        "collectibleCards": "コレクタブルカード",
+        "gameComponents": "ボードゲーム部品",
+        "printedMaterials": "印刷物",
+        "other": "その他"
+      },
+      "quantity": "月間数量",
+      "selectQuantity": "数量範囲を選択",
+      "quantities": {
+        "under100k": "100,000パック未満",
+        "100kTo500k": "100,000 – 500,000パック",
+        "500kTo1m": "500,000 – 1,000,000パック",
+        "over1m": "1,000,000パック以上"
+      },
+      "projectDetails": "プロジェクト詳細",
+      "projectPlaceholder": "カード製品、包装要件、希望される包装方法、特別なご要望などをお聞かせください...",
+      "submit": "問い合わせを送信",
+      "thankYou": "ありがとうございます！",
+      "thankYouMessage": "お問い合わせを受け付けました。当社チームより24時間以内にご連絡いたします。"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "カード包装の自動化を始めませんか？",
+      "description": "供給からパレタイジングまで、カスタム包装ラインソリューションをご提案します。",
+      "button": "見積もりをリクエスト"
+    },
+    "company": {
+      "description": "Everything Can Be Packed — 2011年以来、ゲームカード、ボードゲーム、トレーディングカード向けのワンストップ自動包装ソリューション。",
+      "intelligentEquipment": "インテリジェント機器"
+    },
+    "solutions": {
+      "title": "包装ソリューション",
+      "candy": "キャンディ包装",
+      "selfAdhesive": "粘着テープ包装",
+      "fourSides": "四方シール包装",
+      "banding": "バンド包装",
+      "heatShrink": "熱収縮包装",
+      "threeDimensional": "立体包装"
+    },
+    "quickLinks": {
+      "title": "クイックリンク",
+      "machineCatalog": "機械カタログ",
+      "aboutChanfer": "CHANFERについて",
+      "contactUs": "お問い合わせ",
+      "downloadBrochure": "パンフレットをダウンロード"
+    },
+    "contactTitle": "お問い合わせ",
+    "copyright": "© {year} {company}. All rights reserved.",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  },
+  "common": {
+    "required": "*",
+    "address": "住所",
+    "phone": "電話",
+    "mobile": "携帯電話",
+    "email": "メール"
+  }
+}
