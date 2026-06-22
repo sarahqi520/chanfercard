@@ -532,7 +532,12 @@
     "contactTitle": "Contatti",
     "copyright": "© {year} {company}. Tutti i diritti riservati.",
     "privacyPolicy": "Informativa sulla Privacy",
-    "termsOfService": "Termini di Servizio"
+    "termsOfService": "Termini di Servizio",
+    "friendLinks": {
+      "title": "Link Utili",
+      "mainSite": "CHANFER Sito Principale (Guangzhou Chanfer)",
+      "detergentLine": "Linea Confezionamento Turnkey per Detersivo Liquido"
+    }
   },
   "common": {
     "required": "*",
