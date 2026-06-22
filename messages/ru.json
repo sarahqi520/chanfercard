@@ -532,7 +532,12 @@
     "contactTitle": "Контакты",
     "copyright": "© {year} {company}. Все права защищены.",
     "privacyPolicy": "Политика конфиденциальности",
-    "termsOfService": "Условия использования"
+    "termsOfService": "Условия использования",
+    "friendLinks": {
+      "title": "Партнёрские ссылки",
+      "mainSite": "CHANFER Основной сайт (Guangzhou Chanfer)",
+      "detergentLine": "Автоматическая линия упаковки жидких моющих средств"
+    }
   },
   "common": {
     "required": "*",
