@@ -22,17 +22,17 @@ function buildFaqSchema(faqItems: Array<{ question: string; answer: string }>) {
 
 // Helper: build WebSite schema with SearchAction
 function buildWebsiteSchema(locale: string) {
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "CHANFER - Card Packaging Solutions",
-    url: baseUrl,
+    url: `${baseUrl}/${locale}`,
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: `${baseUrl}/en/machines?q={search_term_string}`,
+        urlTemplate: `${baseUrl}/${locale}/machines?q={search_term_string}`,
       },
       "query-input": "required name=search_term_string",
     },
@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
   const meta = dict.meta as Record<string, string>;
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   const ogImage = `${baseUrl}/images/og/og-image-${locale}.jpg`;
 
   // Build hreflang alternates for SEO
@@ -108,6 +108,10 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
         "max-video-preview": -1,
       },
     },
+    verification: {
+      google: "google-site-verification-code-placeholder",
+      yandex: "yandex-verification-code-placeholder",
+    },
   };
 }
 
@@ -125,10 +129,10 @@ export default async function LangLayout({ children, params }: Props) {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Guangzhou Chanfer Intelligent Equipment Co., Ltd",
-    alternateName: ["CHANFER", "CUKKE", "广州长发智能装备有限公司"],
-    url: "https://www.gzchanfer.com",
-    logo: "https://www.gzchanfer.com/logo.png",
-    image: "https://www.gzchanfer.com/images/og/og-image-en.jpg",
+    alternateName: ["CHANFER", "CUKKE", "广州长发智能装备有限公司", "Guangzhou Changfa Intelligent Equipment Co., Ltd"],
+    url: "https://chanfercard.com",
+    logo: "https://chanfercard.com/logo.png",
+    image: "https://chanfercard.com/images/og/og-image-en.jpg",
     description: (dict.meta as Record<string, string>)?.description,
     address: {
       "@type": "PostalAddress",
@@ -170,6 +174,21 @@ export default async function LangLayout({ children, params }: Props) {
     sameAs: [
       "https://www.youtube.com/@CHANFER",
       "https://www.facebook.com/CHANFER",
+      "https://www.linkedin.com/company/chanfer-card-packaging",
+    ],
+  };
+
+  // BreadcrumbList schema - built from pathname
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: `https://chanfercard.com/${lang}`,
+      },
     ],
   };
 
@@ -197,6 +216,12 @@ export default async function LangLayout({ children, params }: Props) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+
+      {/* Structured data - BreadcrumbList (base) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <div lang={lang}>{children}</div>
     </>

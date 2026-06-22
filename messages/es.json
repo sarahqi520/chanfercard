@@ -140,6 +140,223 @@
       "title": "¿No Está Seguro de Qué Método de Envasado Se Ajusta a Sus Necesidades?",
       "description": "Nuestros ingenieros analizarán las especificaciones de su producto de cartas y le recomendarán el método de envasado óptimo y la configuración de línea.",
       "button": "Obtener Consulta Gratuita"
+    },
+    "solutionsData": {
+      "candy": {
+        "name": "Embalaje Caramelo",
+        "subtitle": "Embalaje Caramelo Tarjetas",
+        "description": "Embalaje flujo tipo almohada de alta velocidad — el método más popular para los boosters de juegos de cartas coleccionables (TCG) y fundas protectoras de tarjetas. Produce un envoltorio sellado tipo caramelo hasta 220 bolsas/min.",
+        "features": [
+          "Longitud de bolsa controlada por servomotor — ajustar y cortar sin recorrido vacío",
+          "Sensor fotoeléctrico de alta sensibilidad para sellado preciso",
+          "Hasta 60 preajustes de parámetros de embalaje en IHM",
+          "Protección contra errores: inversión automática al cambiar producto",
+          "Parada automática sin película para evitar desperdicio"
+        ],
+        "processSteps": {
+          "1": "Conteo por alimentación por fricción",
+          "2": "Máquina embalaje flujo",
+          "3": "Control de peso (rechazo NG)",
+          "4": "Embalaje manual en cajas",
+          "5": "Embalaje en casos",
+          "6": "Termorretracción",
+          "7": "Sellador de cajas tipo H",
+          "8": "Robot colaborativo paletizado"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentador por fricción",
+          "Flow Packing Machine": "Máquina embalaje flujo",
+          "Sealing & Cutting Shrinkage Machine": "Máquina sellado y corte retráctil",
+          "Unpacking Machine": "Desembaladora",
+          "H-Type Carton Sealer": "Sellador de cajas tipo H",
+          "Collaborative Palletizing Robot": "Robot colaborativo paletizado"
+        },
+        "idealFor": [
+          "Boosters TCG",
+          "Fundas protectoras de tarjetas",
+          "Multipacks de tarjetas de juego",
+          "Lotes promocionales"
+        ]
+      },
+      "self-adhesive": {
+        "name": "Embalaje con Banda Autoadhesiva",
+        "subtitle": "Embalaje con Banda Autoadhesiva Tarjetas",
+        "description": "Bolsas recerrables con banda autoadhesiva — ideales para productos de tarjetas premium que requieren re-sellabilidad. Cada bolsa cuenta con una tira despegable-pegar para apertura y cierre repetidos.",
+        "features": [
+          "Tres métodos de sellado: autoadhesivo, corte caliente o prensa caliente",
+          "Corrección automática para reducir pérdidas de embalaje",
+          "Detección de bolsas vacías — sin material, sin pérdida de película",
+          "Anchura de bolsa libremente ajustable para productos multi-spec",
+          "Reset de un clic y control de posición bidireccional",
+          "Memoria de puntos para conteo preciso y embalaje por lotes"
+        ],
+        "processSteps": {
+          "1": "Conteo por alimentación por fricción",
+          "2": "Máquina ensacado",
+          "3": "Embalaje manual en cajas",
+          "4": "Sellado y corte retráctil",
+          "5": "Embalaje en casos",
+          "6": "Sellador de cajas tipo H",
+          "7": "Robot colaborativo paletizado"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentador por fricción",
+          "Bagging Machine": "Máquina ensacado",
+          "Sealing & Cutting Shrinkage Machine": "Máquina sellado y corte retráctil",
+          "Unpacking Machine": "Desembaladora",
+          "H-Type Carton Sealer": "Sellador de cajas tipo H",
+          "Collaborative Palletizing Robot": "Robot colaborativo paletizado"
+        },
+        "idealFor": [
+          "Sets de colección premium",
+          "Bolsas de almacenamiento re-cerrables",
+          "Packs de exhibición en venta",
+          "Ediciones limitadas"
+        ]
+      },
+      "four-sides": {
+        "name": "Embalaje Cuatro Lados Sellado",
+        "subtitle": "Embalaje Cuatro Lados Sellado Tarjetas",
+        "description": "Sellado térmico de los cuatro bordes — presentación premium anti-manipulación. Los bordes completamente sellados protegen contra humedad y contaminación.",
+        "features": [
+          "Siete servomotores para operación ultraestable",
+          "Ojo eléctrico tricolor para alineación precisa texto/imagen",
+          "Tecnología única de corte y soldadura recíproca",
+          "Sellado de alta velocidad — firme y estable a 150 bolsas/min",
+          "Control PLC programable con pantalla táctil IHM"
+        ],
+        "processSteps": {
+          "1": "Conteo por alimentación por fricción",
+          "2": "Máquina sellado cuatro lados",
+          "3": "Máquina encajonado",
+          "4": "Ensacado y encajonado",
+          "5": "Desembaladora",
+          "6": "Sellador de cajas tipo H",
+          "7": "Robot colaborativo paletizado"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentador por fricción",
+          "Four-Side Sealing Packing Machine": "Máquina sellado cuatro lados",
+          "Cartoning Machine": "Máquina encajonado",
+          "Unpacking Machine": "Desembaladora",
+          "H-Type Carton Sealer": "Sellador de cajas tipo H",
+          "Collaborative Palletizing Robot": "Robot colaborativo paletizado"
+        },
+        "idealFor": [
+          "Tarjetas de alto valor",
+          "Tarjetas selladas anti-manipulación",
+          "Packs premium de colección",
+          "Productos de tarjetas sensibles a humedad"
+        ]
+      },
+      "banding": {
+        "name": "Embalaje con Fleje",
+        "subtitle": "Embalaje con Fleje Tarjetas",
+        "description": "Flejado ecológico con papel — método más sostenible para mazos de tarjetas. Usa mínimo material manteniendo flejado seguro.",
+        "features": [
+          "Acción de servomotor con control PLC y pantalla táctil",
+          "Emisión automática de tarjetas + flejado con cinta en una operación",
+          "Control fotoeléctrico para emisión y flejado automáticos",
+          "Ajustes múltiples: cantidad tarjetas, material, alarma cinta",
+          "Rango espesor producto: 0,1–3 mm",
+          "Tamaño máximo producto: 100×150 mm"
+        ],
+        "processSteps": {
+          "1": "Conteo por alimentación por fricción",
+          "2": "Máquina flejado",
+          "3": "Embalaje manual",
+          "4": "Máquina encajonado",
+          "5": "Desembaladora",
+          "6": "Sellador de cajas tipo H",
+          "7": "Robot colaborativo paletizado"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentador por fricción",
+          "Banding Machine": "Máquina flejado",
+          "Cartoning Machine": "Máquina encajonado",
+          "Unpacking Machine": "Desembaladora",
+          "H-Type Carton Sealer": "Sellador de cajas tipo H",
+          "Collaborative Palletizing Robot": "Robot colaborativo paletizado"
+        },
+        "idealFor": [
+          "Mazos de juegos de mesa",
+          "Barajas estándar",
+          "Embalaje ecológico de tarjetas",
+          "Lotes multi-baraja"
+        ]
+      },
+      "heat-shrink": {
+        "name": "Embalaje Termorretráctil",
+        "subtitle": "Embalaje Termorretráctil Tarjetas",
+        "description": "Envoltorio ajustado con película termorretráctil — ofrece visibilidad 360° del producto con excelente protección. La película se ajusta firmemente al contorno del producto.",
+        "features": [
+          "Detector fotoeléctrico importado para embalajes pequeños/delgados",
+          "Alimentación automática con ojo eléctrico + ajuste longitud temporizador",
+          "Protección automática de cuchillo de soldado contra cortes accidentales",
+          "Mecanismo de sincronización película arriba/abajo corrige desviación",
+          "Dirección aire caliente ajustable para líneas de soldado hermosas"
+        ],
+        "processSteps": {
+          "1": "Conteo por alimentación por fricción",
+          "2": "Máquina embalaje flujo",
+          "3": "Horno termorretracción",
+          "4": "Embalaje manual en cajas",
+          "5": "Embalaje en casos",
+          "6": "Desembaladora",
+          "7": "Sellador de cajas tipo H",
+          "8": "Robot colaborativo paletizado"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentador por fricción",
+          "Flow Packing Machine": "Máquina embalaje flujo",
+          "Shrinking Machine": "Horno termorretracción",
+          "Cartoning Machine": "Máquina encajonado",
+          "Unpacking Machine": "Desembaladora",
+          "H-Type Carton Sealer": "Sellador de cajas tipo H",
+          "Collaborative Palletizing Robot": "Robot colaborativo paletizado"
+        },
+        "idealFor": [
+          "Multipacks de cajas de tarjetas",
+          "Presentaciones listas para venta",
+          "Embalaje transparente exhibición",
+          "Productos listos para estantería"
+        ]
+      },
+      "three-dimensional": {
+        "name": "Embalaje 3D",
+        "subtitle": "Embalaje 3D Tarjetas",
+        "description": "Envoltorio 3D estilo caja — crea un empaque rígido similar a caja desde una sola hoja de película. Presentación premium con bordes definidos y sensación sólida.",
+        "features": [
+          "Crea empaque rígido similar a caja desde película plana",
+          "Bordes definidos y presentación premium",
+          "Adecuado para productos gruesos (hasta 65 mm altura)",
+          "Control servomotor para calidad constante",
+          "PLC programable con interfaz pantalla táctil"
+        ],
+        "processSteps": {
+          "1": "Conteo por alimentación por fricción",
+          "2": "Máquina embalaje 3D",
+          "3": "Embalaje manual en cajas",
+          "4": "Embalaje en casos",
+          "5": "Desembaladora",
+          "6": "Sellador de cajas tipo H",
+          "7": "Robot colaborativo paletizado"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentador por fricción",
+          "Three-Dimensional Packaging Machine": "Máquina embalaje 3D",
+          "Cartoning Machine": "Máquina encajonado",
+          "Unpacking Machine": "Desembaladora",
+          "H-Type Carton Sealer": "Sellador de cajas tipo H",
+          "Collaborative Palletizing Robot": "Robot colaborativo paletizado"
+        },
+        "idealFor": [
+          "Cajas de colección premium",
+          "Sets regalo empaque tarjetas",
+          "Presentación productos alta gama",
+          "Ediciones limitadas"
+        ]
+      }
     }
   },
   "machines": {

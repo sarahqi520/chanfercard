@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
   const meta = dict.meta as Record<string, string>;
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   const title = meta.aboutTitle ?? "About CHANFER | 25+ Years of Packaging Innovation";
   const description = meta.aboutDescription ?? "";
 
@@ -153,7 +153,7 @@ export default async function AboutPage({ params }: Props) {
     ];
   }
 
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   const aboutTitle = (dict.meta as Record<string, string>).aboutTitle ?? "About CHANFER";
   const breadcrumbSchema = {
     "@context": "https://schema.org",

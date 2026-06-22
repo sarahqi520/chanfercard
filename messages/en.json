@@ -148,6 +148,223 @@
       "title": "Not Sure Which Packaging Method Fits?",
       "description": "Our engineers will analyze your card product specifications and recommend the optimal packaging method and line configuration.",
       "button": "Get Free Consultation"
+    },
+    "solutionsData": {
+      "candy": {
+        "name": "Candy Packaging",
+        "subtitle": "Card Candy Packaging",
+        "description": "High-speed pillow-style flow wrapping — the most popular method for trading card game (TCG) booster packs and collectible card sleeves. Produces a sealed candy-style wrapper at speeds up to 220 bags/min.",
+        "features": [
+          "Servo-controlled bag length — set and cut, no empty travel",
+          "High-sensitivity photoelectric sensor tracking for precise sealing",
+          "Up to 60 packaging parameter presets stored on HMI",
+          "Anti-misoperation: auto-reverse when product switches",
+          "No-film auto-stop to prevent waste"
+        ],
+        "processSteps": {
+          "1": "Friction Feeder Count",
+          "2": "Flow Packing Machine",
+          "3": "Checkweigher (NG Rejection)",
+          "4": "Manual Cartoning",
+          "5": "Case Packing",
+          "6": "Shrink Wrapper",
+          "7": "H-Type Carton Sealer",
+          "8": "Collaborative Palletizing Robot"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Friction Feeder",
+          "Flow Packing Machine": "Flow Packing Machine",
+          "Sealing & Cutting Shrinkage Machine": "Sealing & Cutting Shrinkage Machine",
+          "Unpacking Machine": "Unpacking Machine",
+          "H-Type Carton Sealer": "H-Type Carton Sealer",
+          "Collaborative Palletizing Robot": "Collaborative Palletizing Robot"
+        },
+        "idealFor": [
+          "Trading card booster packs",
+          "Collectible card sleeves",
+          "Game card multi-packs",
+          "Promotional card bundles"
+        ]
+      },
+      "self-adhesive": {
+        "name": "Self-Adhesive Strip Packaging",
+        "subtitle": "Card Self-Adhesive Strip Packaging",
+        "description": "Reclosable self-adhesive strip bags — ideal for premium card products requiring re-sealability. Each bag features a peel-and-seal strip for repeated opening and closing, protecting card quality during retail display and consumer use.",
+        "features": [
+          "Three sealing methods: self-adhesive, hot-cut, or hot-press",
+          "Automatic correction to reduce packaging loss",
+          "Anti-air-bag detection — no material, no film wasted",
+          "Freely adjustable bag width for multi-spec products",
+          "One-click reset and bidirectional position control",
+          "Point memory for accurate counting and batch packing"
+        ],
+        "processSteps": {
+          "1": "Friction Feeder Count",
+          "2": "Bagging Machine",
+          "3": "Manual Cartoning",
+          "4": "Sealing & Cutting Shrinkage",
+          "5": "Case Packing",
+          "6": "H-Type Carton Sealer",
+          "7": "Collaborative Palletizing Robot"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Friction Feeder",
+          "Bagging Machine": "Bagging Machine",
+          "Sealing & Cutting Shrinkage Machine": "Sealing & Cutting Shrinkage Machine",
+          "Unpacking Machine": "Unpacking Machine",
+          "H-Type Carton Sealer": "H-Type Carton Sealer",
+          "Collaborative Palletizing Robot": "Collaborative Palletizing Robot"
+        },
+        "idealFor": [
+          "Premium card collector sets",
+          "Re-sealable card storage bags",
+          "Retail-display card packs",
+          "Limited edition card bundles"
+        ]
+      },
+      "four-sides": {
+        "name": "Four-Sides Sealed Packaging",
+        "subtitle": "Card Four Sides Sealed Packaging",
+        "description": "All-four-edges heat-sealed packaging — delivers a premium, tamper-evident presentation. The fully sealed edges protect against moisture and contamination, making it the preferred choice for high-value trading cards and collectible products.",
+        "features": [
+          "Seven servo motors for ultra-stable operation",
+          "Three-color electric eye tracking for precise text/image alignment",
+          "Unique reciprocating cutting & heat-sealing technology",
+          "High-speed sealing — firm and stable at 150 packs/min",
+          "PLC programmable control with touch-screen HMI"
+        ],
+        "processSteps": {
+          "1": "Friction Feeder Count",
+          "2": "Four-Side Sealing Machine",
+          "3": "Cartoning Machine",
+          "4": "Bagging & Boxing",
+          "5": "Unpacking Machine",
+          "6": "H-Type Carton Sealer",
+          "7": "Collaborative Palletizing Robot"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Friction Feeder",
+          "Four-Side Sealing Packing Machine": "Four-Side Sealing Packing Machine",
+          "Cartoning Machine": "Cartoning Machine",
+          "Unpacking Machine": "Unpacking Machine",
+          "H-Type Carton Sealer": "H-Type Carton Sealer",
+          "Collaborative Palletizing Robot": "Collaborative Palletizing Robot"
+        },
+        "idealFor": [
+          "High-value trading cards",
+          "Tamper-evident sealed cards",
+          "Collectible card premium packs",
+          "Moisture-sensitive card products"
+        ]
+      },
+      "banding": {
+        "name": "Banding Packaging",
+        "subtitle": "Card Banding Packaging",
+        "description": "Eco-friendly paper band bundling — the most sustainable packaging method for card decks. Uses minimal material while maintaining secure bundling, ideal for board game card decks and standard playing card sets.",
+        "features": [
+          "Servo motor drive with PLC control and touch screen",
+          "Automatic card issuing + belt tying in one operation",
+          "Photoelectric control for automatic dispensing & bundling",
+          "Multiple function settings: card quantity, material, belt alarm",
+          "Product thickness range: 0.1–3mm",
+          "Max product size: 100×150mm"
+        ],
+        "processSteps": {
+          "1": "Friction Feeder Count",
+          "2": "Banding Machine",
+          "3": "Manual Packing",
+          "4": "Cartoning Machine",
+          "5": "Unpacking Machine",
+          "6": "H-Type Carton Sealer",
+          "7": "Collaborative Palletizing Robot"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Friction Feeder",
+          "Banding Machine": "Banding Machine",
+          "Cartoning Machine": "Cartoning Machine",
+          "Unpacking Machine": "Unpacking Machine",
+          "H-Type Carton Sealer": "H-Type Carton Sealer",
+          "Collaborative Palletizing Robot": "Collaborative Palletizing Robot"
+        },
+        "idealFor": [
+          "Board game card decks",
+          "Standard playing card sets",
+          "Eco-friendly card packaging",
+          "Multi-deck card bundles"
+        ]
+      },
+      "heat-shrink": {
+        "name": "Heat Shrink Packaging",
+        "subtitle": "Card Heat Shrink Packaging",
+        "description": "Tight-fitting shrink film wrapping — provides 360° product visibility while offering excellent protection. The shrink film conforms tightly to the product contour, creating a professional retail-ready presentation for card boxes and bundled products.",
+        "features": [
+          "Imported detection photoelectric for thin/small packaging",
+          "Automatic feeding with electric eye + timer length adjustment",
+          "Sealing knife auto-protection prevents accidental cuts",
+          "Film up-down synchronization mechanism corrects deviation",
+          "Adjustable hot air direction for beautiful sealing lines"
+        ],
+        "processSteps": {
+          "1": "Friction Feeder Count",
+          "2": "Flow Packing Machine",
+          "3": "Shrinking Machine",
+          "4": "Manual Cartoning",
+          "5": "Case Packing",
+          "6": "Unpacking Machine",
+          "7": "H-Type Carton Sealer",
+          "8": "Collaborative Palletizing Robot"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Friction Feeder",
+          "Flow Packing Machine": "Flow Packing Machine",
+          "Shrinking Machine": "Shrinking Machine",
+          "Cartoning Machine": "Cartoning Machine",
+          "Unpacking Machine": "Unpacking Machine",
+          "H-Type Carton Sealer": "H-Type Carton Sealer",
+          "Collaborative Palletizing Robot": "Collaborative Palletizing Robot"
+        },
+        "idealFor": [
+          "Card box multi-pack bundling",
+          "Retail-ready card presentations",
+          "Transparent display packaging",
+          "Shelf-ready card products"
+        ]
+      },
+      "three-dimensional": {
+        "name": "Three-Dimensional Packaging",
+        "subtitle": "Card Three-Dimensional Packaging",
+        "description": "Box-style 3D wrapping — creates a rigid, box-like package from a single sheet of film. This method delivers a premium presentation with sharp edges and a solid feel, perfect for high-end collector products and gift sets.",
+        "features": [
+          "Creates rigid, box-like packaging from flat film",
+          "Sharp edges and premium presentation",
+          "Suitable for thick products (up to 65mm height)",
+          "Servo-controlled for consistent quality",
+          "PLC programmable with touch-screen interface"
+        ],
+        "processSteps": {
+          "1": "Friction Feeder Count",
+          "2": "Three-Dimensional Packaging Machine",
+          "3": "Manual Cartoning",
+          "4": "Case Packing",
+          "5": "Unpacking Machine",
+          "6": "H-Type Carton Sealer",
+          "7": "Collaborative Palletizing Robot"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Friction Feeder",
+          "Three-Dimensional Packaging Machine": "Three-Dimensional Packaging Machine",
+          "Cartoning Machine": "Cartoning Machine",
+          "Unpacking Machine": "Unpacking Machine",
+          "H-Type Carton Sealer": "H-Type Carton Sealer",
+          "Collaborative Palletizing Robot": "Collaborative Palletizing Robot"
+        },
+        "idealFor": [
+          "Premium collector card boxes",
+          "Gift set card packaging",
+          "High-end product presentation",
+          "Limited edition card bundles"
+        ]
+      }
     }
   },
   "machines": {

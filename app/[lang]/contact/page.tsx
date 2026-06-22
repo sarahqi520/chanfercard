@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
   const meta = dict.meta as Record<string, string>;
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   const title = meta.contactTitle ?? "Contact CHANFER | Get a Free Packaging Consultation";
   const description = meta.contactDescription ?? "";
 
@@ -50,7 +50,7 @@ export default async function ContactPage({ params }: Props) {
   const { lang } = await params;
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   const contactTitle = (dict.meta as Record<string, string>).contactTitle ?? "Contact CHANFER";
 
   const breadcrumbSchema = {

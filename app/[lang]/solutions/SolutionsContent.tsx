@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { type Dictionary } from "@/lib/i18n/dictionaries";
-import { packagingSolutions } from "@/lib/data";
+import { packagingSolutions, type PackagingSolution } from "@/lib/data";
 import {
   Package,
   Layers,
@@ -62,6 +62,66 @@ export default function SolutionsContent({ dict, locale }: Props) {
   const solutionsDict = (dict.solutions as Record<string, unknown>) ?? {};
   const specsDict = (solutionsDict.specs as Record<string, string>) ?? {};
   const ctaDict = (solutionsDict.cta as Record<string, string>) ?? {};
+  // Get translated solution data
+  const solutionsData = (solutionsDict.solutionsData as Record<string, Record<string, unknown>>) ?? {};
+
+  // Helper: get localized text for a solution field
+  const t = (solId: string, field: string): string | undefined => {
+    const sd = solutionsData[solId];
+    if (!sd) return undefined;
+    const val = sd[field];
+    return typeof val === 'string' ? val : undefined;
+  };
+
+  // Helper: get localized array for a solution field
+  const ta = (solId: string, field: string): string[] | undefined => {
+    const sd = solutionsData[solId];
+    if (!sd) return undefined;
+    const val = sd[field];
+    if (Array.isArray(val)) return val as string[];
+    return undefined;
+  };
+
+  // Helper: get localized process steps
+  const tp = (solId: string): Record<string, string> | undefined => {
+    const sd = solutionsData[solId];
+    if (!sd) return undefined;
+    const val = sd['processSteps'];
+    if (val && typeof val === 'object' && !Array.isArray(val)) return val as Record<string, string>;
+    return undefined;
+  };
+
+  // Helper: translate line component names
+  const tlcMap = (solId: string): Record<string, string> | undefined => {
+    const sd = solutionsData[solId];
+    if (!sd) return undefined;
+    const val = sd['lineComponents'];
+    if (val && typeof val === 'object' && !Array.isArray(val)) return val as Record<string, string>;
+    return undefined;
+  };
+
+  // Localize a single packaging solution
+  const localizeSol = (sol: PackagingSolution) => {
+    const solId = sol.id;
+    const lcMap = tlcMap(solId);
+    const ps = tp(solId);
+    return {
+      ...sol,
+      name: t(solId, 'name') ?? sol.name,
+      subtitle: t(solId, 'subtitle') ?? sol.subtitle,
+      description: t(solId, 'description') ?? sol.description,
+      features: ta(solId, 'features') ?? sol.features,
+      processSteps: sol.processSteps.map((step) => ({
+        ...step,
+        label: (ps?.[step.step] as string) ?? step.label,
+      })),
+      lineComponents: sol.lineComponents.map((comp) => ({
+        ...comp,
+        name: (lcMap?.[comp.name] as string) ?? comp.name,
+      })),
+      idealFor: ta(solId, 'idealFor') ?? sol.idealFor,
+    };
+  };
 
   const [expandedSolution, setExpandedSolution] = useState<string | null>(null);
 
@@ -86,7 +146,7 @@ export default function SolutionsContent({ dict, locale }: Props) {
 
           {/* Quick nav */}
           <div className="mt-8 flex flex-wrap gap-2">
-            {packagingSolutions.map((sol, i) => (
+            {packagingSolutions.map(localizeSol).map((sol, i) => (
               <a
                 key={sol.id}
                 href={`#${sol.id}`}
@@ -103,7 +163,7 @@ export default function SolutionsContent({ dict, locale }: Props) {
       {/* Solutions detail */}
       <section className="py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-6 space-y-16">
-          {packagingSolutions.map((sol, i) => {
+          {packagingSolutions.map(localizeSol).map((sol, i) => {
             const isExpanded = expandedSolution === sol.id;
             return (
               <div

@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
   const meta = dict.meta as Record<string, string>;
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   const title = meta.solutionsTitle ?? "Card Packaging Solutions | CHANFER";
   const description = meta.solutionsDescription ?? "";
 
@@ -51,7 +51,7 @@ export default async function Page({ params }: Props) {
   const { lang } = await params;
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
 
   const solutionsTitle = (dict.meta as Record<string, string>).solutionsTitle ?? "Card Packaging Solutions";
   const breadcrumbSchema = {

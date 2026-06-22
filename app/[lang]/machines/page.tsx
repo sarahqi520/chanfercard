@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
   const meta = dict.meta as Record<string, string>;
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   const title = meta.machinesTitle ?? "Machine Catalog | CHANFER";
   const description = meta.machinesDescription ?? "";
 
@@ -52,7 +52,7 @@ export default async function MachinesPage({ params }: Props) {
   const { lang } = await params;
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
-  const baseUrl = "https://www.gzchanfer.com";
+  const baseUrl = "https://chanfercard.com";
   const machinesTitle = (dict.meta as Record<string, string>).machinesTitle ?? "Machine Catalog";
 
   // BreadcrumbList schema

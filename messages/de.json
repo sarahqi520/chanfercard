@@ -140,6 +140,223 @@
       "title": "Unklar, welche Verpackungsmethode passt?",
       "description": "Unsere Ingenieure analysieren Ihre Kartenproduktspezifikationen und empfehlen die optimale Verpackungsmethode und Linienkonfiguration.",
       "button": "Kostenlose Beratung anfordern"
+    },
+    "solutionsData": {
+      "candy": {
+        "name": "Bonbonverpackung",
+        "subtitle": "Karten-Bonbonverpackung",
+        "description": "Hochgeschwindigkeits-Kissenflussverpackung — die beliebteste Methode für Trading Card Game (TCG)-Booster Packs und Sammelkartenhüllen. Erzeugt eine versiegelte Bonbonverpackung mit bis zu 220 Beuteln/min.",
+        "features": [
+          "Servogesteuerte Beutelänge — einstellen und schneiden, kein Leerlauf",
+          "Hochempfindlicher Fotoelektrischer Sensor für präzises Versiegeln",
+          "Bis zu 60 Verpackungsparametervoreinstellungen am HMI",
+          "Fehlbedienungsschutz: automatische Umkehr bei Produktwechsel",
+          "Automatischer Stopp ohne Folie zur Vermeidung von Verschwendung"
+        ],
+        "processSteps": {
+          "1": "Reibungs-Zählvorgabe",
+          "2": "Flussverpackungsmaschine",
+          "3": "Wägekontrolle (NG-Aussortierung)",
+          "4": "Manuelle Kartonierung",
+          "5": "Fallenverpackung",
+          "6": "Schrumpffolie",
+          "7": "H-förmiger Kartonversiegelung",
+          "8": "Kollaborativer Palettierroboter"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Reibungsförderer",
+          "Flow Packing Machine": "Flussverpackungsmaschine",
+          "Sealing & Cutting Shrinkage Machine": "Versiegelungs- und Schneidschrumpfmaschine",
+          "Unpacking Machine": "Entpackungsmaschine",
+          "H-Type Carton Sealer": "H-förmiger Kartonversiegeler",
+          "Collaborative Palletizing Robot": "Kollaborativer Palettierroboter"
+        },
+        "idealFor": [
+          "TCG-Booster-Packs",
+          "Sammelkartenhüllen",
+          "Spielkarten-Multipacks",
+          "Promotionale Kartenbündel"
+        ]
+      },
+      "self-adhesive": {
+        "name": "Selbstklebeband-Verpackung",
+        "subtitle": "Karten-Selbstklebeband-Verpackung",
+        "description": "Wiederverschließbare Selbstklebeband-Beutel — ideal für Premium-Kartenprodukte mit Wiederverschließbarkeit. Jeder Beutel verfügt über eine Abzieh-Streifen für wiederholtes Öffnen und Schließen.",
+        "features": [
+          "Drei Versiegelungsmethoden: selbstklebend, Heißschnitt oder Heißpresse",
+          "Automatische Korrektur zur Reduzierung von Verpackungsverlusten",
+          "Leerbeutel-Erkennung — kein Material, kein Folienverschwendung",
+          "Freie Einstellung der Beutelbreite für Multi-Spez-Produkte",
+          "Ein-Klick-Reset und bidirektionale Positionssteuerung",
+          "Punktgedächtnis für genaues Zählen und Batch-Verpackung"
+        ],
+        "processSteps": {
+          "1": "Reibungs-Zählvorgabe",
+          "2": "Beutelverfüllungsmaschine",
+          "3": "Manuelle Kartonierung",
+          "4": "Versiegelung und Schrumpfschnitt",
+          "5": "Fallenverpackung",
+          "6": "H-förmiger Kartonversiegelung",
+          "7": "Kollaborativer Palettierroboter"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Reibungsförderer",
+          "Bagging Machine": "Beutelverfüllungsmaschine",
+          "Sealing & Cutting Shrinkage Machine": "Versiegelungs- und Schneidschrumpfmaschine",
+          "Unpacking Machine": "Entpackungsmaschine",
+          "H-Type Carton Sealer": "H-förmiger Kartonversiegeler",
+          "Collaborative Palletizing Robot": "Kollaborativer Palettierroboter"
+        },
+        "idealFor": [
+          "Premium-Sammlersätze",
+          "Wiederverschließbare Lagerbeutel für Karten",
+          "Verkaufsanzeige-Kartenpacks",
+          "Limitierte Edition Kartenbündel"
+        ]
+      },
+      "four-sides": {
+        "name": "Vierseitige Versiegelungsverpackung",
+        "subtitle": "Karten-Vierseitige Versiegelungsverpackung",
+        "description": "Allseitige thermische Randversiegelung — Premium-Darstellung gegen Manipulation. Die vollständig versiegelten Ränder schützen vor Feuchtigkeit und Kontamination.",
+        "features": [
+          "Sieben Servomotoren für ultra-stabilen Betrieb",
+          "Dreifarbiges elektrisches Auge für präzise Text/Bild-Ausrichtung",
+          "Eindechniges hin-und her gehendes Schneiden und Thermoschweißen",
+          "Hochgeschwindigkeitsversiegelung — fest und stabil bei 150 Beuteln/min",
+          "Programmierbare PLC-Steuerung mit Touchscreen-HMI"
+        ],
+        "processSteps": {
+          "1": "Reibungs-Zählvorgabe",
+          "2": "Vierseitige Versiegelungsmaschine",
+          "3": "Kartoniervorrichtung",
+          "4": "Beutel- und Kastenverpackung",
+          "5": "Entpackungsmaschine",
+          "6": "H-förmiger Kartonversiegeler",
+          "7": "Kollaborativer Palettierroboter"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Reibungsförderer",
+          "Four-Side Sealing Packing Machine": "Vierseitige Versiegelungsmaschine",
+          "Cartoning Machine": "Kartoniervorrichtung",
+          "Unpacking Machine": "Entpackungsmaschine",
+          "H-Type Carton Sealer": "H-förmiger Kartonversiegeler",
+          "Collaborative Palletizing Robot": "Kollaborativer Palettierroboter"
+        },
+        "idealFor": [
+          "Hochwertige Handelskarten",
+          "Manipulationsgesicherte versiegelte Karten",
+          "Premium-Sammlerkartenpakete",
+          "Feuchtigkeitsempfindliche Kartenprodukte"
+        ]
+      },
+      "banding": {
+        "name": "Bandverpackung",
+        "subtitle": "Karten-Bandverpackung",
+        "description": "Umweltfreundliches Papierband-Bündeln — nachhaltigste Verpackungsmethode für Kartenspiele. Verwendet minimales Material bei sicherem Bündeln.",
+        "features": [
+          "Servomotorantrieb mit PLC-Steuerung und Touchscreen",
+          "Automatische Kartenausgabe + Bandbindung in einem Vorgang",
+          "Fotoelektrische Steuerung für automatische Ausgabe und Bündeln",
+          "Vielfache Funktionseinstellungen: Kartenzahl, Material, Bandalarm",
+          "Produktdickenbereich: 0,1–3 mm",
+          "Max Produktgröße: 100×150 mm"
+        ],
+        "processSteps": {
+          "1": "Reibungs-Zählvorgabe",
+          "2": "Bindemaschine",
+          "3": "Manuelle Packung",
+          "4": "Kartoniervorrichtung",
+          "5": "Entpackungsmaschine",
+          "6": "H-förmiger Kartonversiegeler",
+          "7": "Kollaborativer Palettierroboter"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Reibungsförderer",
+          "Banding Machine": "Bindemaschine",
+          "Cartoning Machine": "Kartoniervorrichtung",
+          "Unpacking Machine": "Entpackungsmaschine",
+          "H-Type Carton Sealer": "H-förmiger Kartonversiegeler",
+          "Collaborative Palletizing Robot": "Kollaborativer Palettierroboter"
+        },
+        "idealFor": [
+          "Brettspielkartenspiele",
+          "Standard-Spielkarten",
+          "Umweltfreundliche Kartenverpackung",
+          "Mehrdeck-Kartenbündel"
+        ]
+      },
+      "heat-shrink": {
+        "name": "Schrumpfverpackung",
+        "subtitle": "Karten-Schrumpfverpackung",
+        "description": "Eng anliegende Schrumpfolien-Umhüllung — bietet 360° Produktsichtbarkeit bei hervorragendem Schutz. Die Folie passt sich eng dem Produktprofil an.",
+        "features": [
+          "Importierter Fotoelektrischer Detektor für dünne/kleine Verpackungen",
+          "Automatische Zufuhr mit Elektroauge + Timer-Längeneinstellung",
+          "Automatischer Messerschutz vor versehentlichen Schnitten",
+          "Folien-Synchronisationsmechanismus oben/unten korrigiert Abweichung",
+          "Einstellbare heiße Luft-Richtung für schöne Schweißnähte"
+        ],
+        "processSteps": {
+          "1": "Reibungs-Zählvorgabe",
+          "2": "Flussverpackungsmaschine",
+          "3": "Schrumpfofen",
+          "4": "Manuelle Kartonierung",
+          "5": "Fallenverpackung",
+          "6": "Entpackungsmaschine",
+          "7": "H-förmiger Kartonversiegeler",
+          "8": "Kollaborativer Palettierroboter"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Reibungsförderer",
+          "Flow Packing Machine": "Flussverpackungsmaschine",
+          "Shrinking Machine": "Schrumpfofen",
+          "Cartoning Machine": "Kartoniervorrichtung",
+          "Unpacking Machine": "Entpackungsmaschine",
+          "H-Type Carton Sealer": "H-förmiger Kartonversiegeler",
+          "Collaborative Palletizing Robot": "Kollaborativer Palettierroboter"
+        },
+        "idealFor": [
+          "Kartenschachtel-Multipack-Bündel",
+          "Einzelhandelsfertige Präsentationen",
+          "Transparente Displayverpackung",
+          "Regalbereite Kartenprodukte"
+        ]
+      },
+      "three-dimensional": {
+        "name": "3D-Verpackung",
+        "subtitle": "Karten-3D-Verpackung",
+        "description": "Kastenförmiges 3D-Umschlagen — erstellt eine steife kastenähnliche Verpackung aus einem einzelnen Folienblatt. Premium-Präsentation mit scharfen Kanten und festem Gefühl.",
+        "features": [
+          "Erzeugt steife kastenähnliche Verpackung aus flacher Folie",
+          "Scharfe Kanten und Premium-Präsentation",
+          "Geeignet für dicke Produkte (bis 65 mm Höhe)",
+          "Servogesteuert für konsistente Qualität",
+          "Programmierbar PLC mit Touchscreen-Oberfläche"
+        ],
+        "processSteps": {
+          "1": "Reibungs-Zählvorgabe",
+          "2": "3D-Verpackungsmaschine",
+          "3": "Manuelle Kartonierung",
+          "4": "Fallenverpackung",
+          "5": "Entpackungsmaschine",
+          "6": "H-förmiger Kartonversiegeler",
+          "7": "Kollaborativer Palettierroboter"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Reibungsförderer",
+          "Three-Dimensional Packaging Machine": "3D-Verpackungsmaschine",
+          "Cartoning Machine": "Kartoniervorrichtung",
+          "Unpacking Machine": "Entpackungsmaschine",
+          "H-Type Carton Sealer": "H-förmiger Kartonversiegeler",
+          "Collaborative Palletizing Robot": "Kollaborativer Palettierroboter"
+        },
+        "idealFor": [
+          "Premium-Sammlerkartonschateln",
+          "Geschenkset-Kartenverpackung",
+          "High-End-Produktpräsentation",
+          "Limitierte Edition Kartenbündel"
+        ]
+      }
     }
   },
   "machines": {

@@ -140,6 +140,223 @@
       "title": "不确定哪种包装方式适合？",
       "description": "我们的工程师将分析您的卡牌产品规格，推荐最优的包装方式和生产线配置。",
       "button": "获取免费咨询"
+    },
+    "solutionsData": {
+      "candy": {
+        "name": "糖果包装",
+        "subtitle": "卡牌糖果包装",
+        "description": "高速枕式流延包装——集换式卡牌游戏（TCG）补充包和收藏卡套最流行的包装方式。可生产密封式糖果包装袋，速度高达220包/分钟。",
+        "features": [
+          "伺服控制制袋长度——设定即切割，无空行程",
+          "高灵敏度光电传感器跟踪，确保精确封口",
+          "HMI上可存储多达60个包装参数预设",
+          "防误操作：产品切换时自动反转",
+          "缺膜自动停机，避免浪费"
+        ],
+        "processSteps": {
+          "1": "摩擦给料计数",
+          "2": "枕式包装机",
+          "3": "检重剔除（NG品排出）",
+          "4": "人工装盒",
+          "5": "装箱打包",
+          "6": "热收缩包装",
+          "7": "H型封箱机",
+          "8": "协作码垛机器人"
+        },
+        "lineComponents": {
+          "Friction Feeder": "摩擦给料机",
+          "Flow Packing Machine": "枕式包装机",
+          "Sealing & Cutting Shrinkage Machine": "封切收缩机",
+          "Unpacking Machine": "开箱机",
+          "H-Type Carton Sealer": "H型封箱机",
+          "Collaborative Palletizing Robot": "协作码垛机器人"
+        },
+        "idealFor": [
+          "集换式卡牌补充包",
+          "收藏卡套",
+          "游戏卡多包组合",
+          "促销卡组合装"
+        ]
+      },
+      "self-adhesive": {
+        "name": "自粘条包装",
+        "subtitle": "卡牌自粘条包装",
+        "description": "可反复粘贴的自粘条袋——适用于需要重复封口的高端卡牌产品。每只袋子配有撕开即贴的自粘条，可反复开关，保护零售展示和消费者使用期间的卡品质。",
+        "features": [
+          "三种封口方式：自粘、热切或热压",
+          "自动纠偏功能减少包装损耗",
+          "防空袋检测——无料不浪费薄膜",
+          "袋宽自由调节适配多规格产品",
+          "一键复位及双向位置控制",
+          "点位记忆功能实现精准计数与批量包装"
+        ],
+        "processSteps": {
+          "1": "摩擦给料计数",
+          "2": "制袋包装机",
+          "3": "人工装盒",
+          "4": "封切收缩处理",
+          "5": "装箱打包",
+          "6": "H型封箱机",
+          "7": "协作码垛机器人"
+        },
+        "lineComponents": {
+          "Friction Feeder": "摩擦给料机",
+          "Bagging Machine": "自粘条制袋机",
+          "Sealing & Cutting Shrinkage Machine": "封切收缩机",
+          "Unpacking Machine": "开箱机",
+          "H-Type Carton Sealer": "H型封箱机",
+          "Collaborative Palletizing Robot": "协作码垛机器人"
+        },
+        "idealFor": [
+          "高端卡牌收藏套装",
+          "可反复封口的卡牌存储袋",
+          "零售展示卡包装",
+          "限量版卡组合装"
+        ]
+      },
+      "four-sides": {
+        "name": "四边封包装",
+        "subtitle": "卡牌四边封包装",
+        "description": "四面全封口热封包装——呈现高端防篡改外观。全封边设计防潮防污，是高价值集换式卡牌和收藏产品的首选。",
+        "features": [
+          "七台伺服电机驱动超稳定运行",
+          "三色电眼追踪实现图文精准对位",
+          "独特的往复切割+热封技术",
+          "高速封口——150包/分钟依然牢固稳定",
+          "PLC可编程控制配触摸屏人机界面"
+        ],
+        "processSteps": {
+          "1": "摩擦给料计数",
+          "2": "四边封包装机",
+          "3": "自动装盒机",
+          "4": "制袋装箱",
+          "5": "开箱机",
+          "6": "H型封箱机",
+          "7": "协作码垛机器人"
+        },
+        "lineComponents": {
+          "Friction Feeder": "摩擦给料机",
+          "Four-Side Sealing Packing Machine": "四边封包装机",
+          "Cartoning Machine": "自动装盒机",
+          "Unpacking Machine": "开箱机",
+          "H-Type Carton Sealer": "H型封箱机",
+          "Collaborative Palletizing Robot": "协作码垛机器人"
+        },
+        "idealFor": [
+          "高价值集换式卡牌",
+          "防篡改密封卡",
+          "收藏卡高端包装",
+          "对潮湿敏感的卡产品"
+        ]
+      },
+      "banding": {
+        "name": "束带包装",
+        "subtitle": "卡牌束带包装",
+        "description": "环保纸带捆扎——最可持续的卡牌包装方式。用最少材料实现稳固捆扎，是桌游卡组和标准扑克牌的理想选择。",
+        "features": [
+          "伺服电机驱动，PLC控制配触摸屏",
+          "自动发卡+皮带捆扎一步完成",
+          "光电控制自动分拣与捆扎",
+          "多种功能设置：卡数量、材质、纸带报警",
+          "产品厚度范围0.1–3mm",
+          "最大产品尺寸100×150mm"
+        ],
+        "processSteps": {
+          "1": "摩擦给料计数",
+          "2": "束带机",
+          "3": "人工整理",
+          "4": "自动装盒机",
+          "5": "开箱机",
+          "6": "H型封箱机",
+          "7": "协作码垛机器人"
+        },
+        "lineComponents": {
+          "Friction Feeder": "摩擦给料机",
+          "Banding Machine": "束带机",
+          "Cartoning Machine": "自动装盒机",
+          "Unpacking Machine": "开箱机",
+          "H-Type Carton Sealer": "H型封箱机",
+          "Collaborative Palletizing Robot": "协作码垛机器人"
+        },
+        "idealFor": [
+          "桌游卡组",
+          "标准扑克牌套装",
+          "环保卡牌包装",
+          "多副卡组合装"
+        ]
+      },
+      "heat-shrink": {
+        "name": "热收缩包装",
+        "subtitle": "卡牌热收缩包装",
+        "description": "紧贴式收缩膜包裹——提供360°产品可视性同时具备优异保护性。收缩膜紧密贴合产品轮廓，为卡盒和组合装产品打造专业级零售展示效果。",
+        "features": [
+          "进口检测光电传感器适用于薄小包装",
+          "电眼自动给料+定时长度调节",
+          "封刀自动防护防止意外割伤",
+          "薄膜上下同步纠偏机构修正偏差",
+          "可调热风方向打造美观封线"
+        ],
+        "processSteps": {
+          "1": "摩擦给料计数",
+          "2": "枕式包装机",
+          "3": "收缩炉",
+          "4": "人工装盒",
+          "5": "装箱打包",
+          "6": "开箱机",
+          "7": "H型封箱机",
+          "8": "协作码垛机器人"
+        },
+        "lineComponents": {
+          "Friction Feeder": "摩擦给料机",
+          "Flow Packing Machine": "枕式包装机",
+          "Shrinking Machine": "收缩炉",
+          "Cartoning Machine": "自动装盒机",
+          "Unpacking Machine": "开箱机",
+          "H-Type Carton Sealer": "H型封箱机",
+          "Collaborative Palletizing Robot": "协作码垛机器人"
+        },
+        "idealFor": [
+          "卡盒多包捆绑",
+          "零售级卡产品展示",
+          "透明展示包装",
+          "货架就绪卡产品"
+        ]
+      },
+      "three-dimensional": {
+        "name": "立体包装",
+        "subtitle": "卡牌立体包装",
+        "description": "盒式3D包裹——用单张平膜制作出坚硬盒状包装。呈现锐利边缘和坚实手感的高端效果，非常适合高端收藏产品和礼品套装。",
+        "features": [
+          "用平膜制造坚硬盒状包装",
+          "边缘锐利，呈现高端质感",
+          "适用于厚产品（最大高度65mm）",
+          "伺服控制确保质量一致性",
+          "PLC可编程配触摸屏操作界面"
+        ],
+        "processSteps": {
+          "1": "摩擦给料计数",
+          "2": "三维包装机",
+          "3": "人工装盒",
+          "4": "装箱打包",
+          "5": "开箱机",
+          "6": "H型封箱机",
+          "7": "协作码垛机器人"
+        },
+        "lineComponents": {
+          "Friction Feeder": "摩擦给料机",
+          "Three-Dimensional Packaging Machine": "三维包装机",
+          "Cartoning Machine": "自动装盒机",
+          "Unpacking Machine": "开箱机",
+          "H-Type Carton Sealer": "H型封箱机",
+          "Collaborative Palletizing Robot": "协作码垛机器人"
+        },
+        "idealFor": [
+          "高档收藏卡盒",
+          "礼品套装卡包装",
+          "高端产品展示",
+          "限量版卡组合装"
+        ]
+      }
     }
   },
   "machines": {

@@ -140,6 +140,223 @@
       "title": "Non Sai Quale Metodo di Confezionamento Scegliere?",
       "description": "I nostri ingegneri analizzeranno le specifiche del tuo prodotto di carte e consiglieranno il metodo di confezionamento e la configurazione della linea ottimali.",
       "button": "Richiedi Consulenza Gratuita"
+    },
+    "solutionsData": {
+      "candy": {
+        "name": "Imballaggio Caramella",
+        "subtitle": "Imballaggio Caramella Carte",
+        "description": "Incarto flow ad alta velocità — il metodo più popolare per i pacchetti booster di giochi di carte collezionabili (TCG) e le bustine protettive. Produce una confezione sigillata tipo caramella fino a 220 sacchetti/min.",
+        "features": [
+          "Lunghezza sacchetto controllata da servomotore — imposta e taglia, nessun vuoto di corsa",
+          "Sensore fotoelettrico ad alta sensibilità per saldatura precisa",
+          "Fino a 60 preimpostazioni parametri imballaggio su HMI",
+          "Protezione contro errori: inversione automatica al cambio prodotto",
+          "Arresto automatico senza film per evitare sprechi"
+        ],
+        "processSteps": {
+          "1": "Conteggio alimentatore a frizione",
+          "2": "Macchina incarto flow",
+          "3": "Pesatura (scarto NG)",
+          "4": "Confezionamento manuale in scatole",
+          "5": "Imballaggio in casi",
+          "6": "Ricciolo termico",
+          "7": "Sigillascatola a H",
+          "8": "Robot collaborativo pallettizzazione"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentatore a frizione",
+          "Flow Packing Machine": "Macchina incarto flow",
+          "Sealing & Cutting Shrinkage Machine": "Macchina sigillatura e taglio ricciolo",
+          "Unpacking Machine": "Disimballatrice",
+          "H-Type Carton Sealer": "Sigillascatola a H",
+          "Collaborative Palletizing Robot": "Robot collaborativo pallettizzazione"
+        },
+        "idealFor": [
+          "Pacchi booster di carte collezionabili",
+          "Bustine protettive carte",
+          "Multipack di carte gioco",
+          "Bundle promozionali"
+        ]
+      },
+      "self-adhesive": {
+        "name": "Imballaggio a Striscia Autoadesiva",
+        "subtitle": "Imballaggio a Striscia Autoadesiva Carte",
+        "description": "Sacchetti richiudibili con striscia autoadesiva — ideali per prodotti carte premium che richiedono risigillabilità. Ogni sacchetto presenta una striscia stacca-sigilla per apertura e chiusura ripetuta.",
+        "features": [
+          "Tre metodi di sigillatura: autoadesiva, taglio caldo o pressa calda",
+          "Correzione automatica per ridurre perdite di imballaggio",
+          "Rilevamento sacchetti vuoti — nessun materiale, nessuno spreco film",
+          "Larghezza sacchetto liberamente regolabile per prodotti multiformato",
+          "Reset con un clic e controllo posizione bidirezionale",
+          "Memoria punto per conteggio preciso e imballo batch"
+        ],
+        "processSteps": {
+          "1": "Conteggio alimentatore a frizione",
+          "2": "Macchina imbustamento",
+          "3": "Confezionamento manuale in scatole",
+          "4": "Sigillatura e taglio ricciolo",
+          "5": "Imballaggio in casi",
+          "6": "Sigillascatola a H",
+          "7": "Robot collaborativo pallettizzazione"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentatore a frizione",
+          "Bagging Machine": "Macchina imbustamento",
+          "Sealing & Cutting Shrinkage Machine": "Macchina sigillatura e taglio ricciolo",
+          "Unpacking Machine": "Disimballatrice",
+          "H-Type Carton Sealer": "Sigillascatola a H",
+          "Collaborative Palletizing Robot": "Robot collaborativo pallettizzazione"
+        },
+        "idealFor": [
+          "Set collezione carte premium",
+          "Sacchetti stoccaggio carte richiudibili",
+          "Pacchetti esposizione vendita",
+          "Bundle edizione limitata"
+        ]
+      },
+      "four-sides": {
+        "name": "Imballaggio Quattro Lati Sigillati",
+        "subtitle": "Imballaggio Quattro Lati Sigillati Carte",
+        "description": "Sigillatura termica tutti e quattro lati — presentazione premium anti-manomissione. I bordi completamente sigillati proteggono da umidità e contaminazione.",
+        "features": [
+          "Sette servomotori per funzionamento ultrastabile",
+          "Occhio elettrico tricolore per allineamento testo/immagine",
+          "Tecnologia unica di taglio e saldatura reciproca",
+          "Sigillatura ad alta velocità — solida e stabile a 150 sacchetti/min",
+          "Controllo PLC programmabile con schermo tattile"
+        ],
+        "processSteps": {
+          "1": "Conteggio alimentatore a frizione",
+          "2": "Macchina sigillatura quattro lati",
+          "3": "Macchina confezionamento scatole",
+          "4": "Imbustamento e inscatolamento",
+          "5": "Disimballatrice",
+          "6": "Sigillascatola a H",
+          "7": "Robot collaborativo pallettizzazione"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentatore a frizione",
+          "Four-Side Sealing Packing Machine": "Macchina sigillatura quattro lati",
+          "Cartoning Machine": "Macchina confezionamento scatole",
+          "Unpacking Machine": "Disimballatrice",
+          "H-Type Carton Sealer": "Sigillascatola a H",
+          "Collaborative Palletizing Robot": "Robot collaborativo pallettizzazione"
+        },
+        "idealFor": [
+          "Carte alto valore",
+          "Carte sigillate anti-manomissione",
+          "Pacco premium carte collezione",
+          "Prodotti carte sensibili umidità"
+        ]
+      },
+      "banding": {
+        "name": "Imballaggio con Fascette",
+        "subtitle": "Imballaggio con Fascette Carte",
+        "description": "Legatura ecologica con nastro carta — metodo più sostenibile per mazzi di carte. Usa materiale minimo mantenendo legatura sicura.",
+        "features": [
+          "Guida servomotore con controllo PLC e schermo tattile",
+          "Emissione automatica carte + legatura cintura in un'operazione",
+          "Controllo fotoelettrico per erogazione e legatura automatica",
+          "Impostazioni multiple: quantità carte, materiale, allarme cintura",
+          "Spessore prodotto: 0,1–3 mm",
+          "Dimensione max prodotto: 100×150 mm"
+        ],
+        "processSteps": {
+          "1": "Conteggio alimentatore a frizione",
+          "2": "Macchina fascettatura",
+          "3": "Imballaggio manuale",
+          "4": "Macchina confezionamento scatole",
+          "5": "Disimballatrice",
+          "6": "Sigillascatola a H",
+          "7": "Robot collaborativo pallettizzazione"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentatore a frizione",
+          "Banding Machine": "Macchina fascettatura",
+          "Cartoning Machine": "Macchina confezionamento scatole",
+          "Unpacking Machine": "Disimballatrice",
+          "H-Type Carton Sealer": "Sigillascatola a H",
+          "Collaborative Palletizing Robot": "Robot collaborativo pallettizzazione"
+        },
+        "idealFor": [
+          "Mazzi carte da tavolo",
+          "Mazzi carte da gioco standard",
+          "Imballaggio carte ecologico",
+          "Bundle multimaglia"
+        ]
+      },
+      "heat-shrink": {
+        "name": "Imballaggio Termocontrazione",
+        "subtitle": "Imballaggio Termocontrazione Carte",
+        "description": "Avvolgimento con pellicola termocontratta aderente — offre visibilità 360° del prodotto con eccellente protezione. La pellicola aderisce stretta al profilo del prodotto.",
+        "features": [
+          "Fotoelettrico importato rilevamento per piccoli/piccoli imballaggi",
+          "Alimentazione automatica con occhio elettrico +调节lunghezza timer",
+          "Protezione automatica lama saldatura da tagli accidentali",
+          "Meccanismo sincronizzazione pellicola sopra/sotto corregge deviazione",
+          "Regolabile direzione aria calda per belle linee di saldatura"
+        ],
+        "processSteps": {
+          "1": "Conteggio alimentatore a frizione",
+          "2": "Macchina incarto flow",
+          "3": "Forno termocontrazione",
+          "4": "Confezionamento manuale scatole",
+          "5": "Imballaggio in casi",
+          "6": "Disimballatrice",
+          "7": "Sigillascatola a H",
+          "8": "Robot collaborativo pallettizzazione"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentatore a frizione",
+          "Flow Packing Machine": "Macchina incarto flow",
+          "Shrinking Machine": "Forno termocontrazione",
+          "Cartoning Machine": "Macchina confezionamento scatole",
+          "Unpacking Machine": "Disimballatrice",
+          "H-Type Carton Sealer": "Sigillascatola a H",
+          "Collaborative Palletizing Robot": "Robot collaborativo pallettizzazione"
+        },
+        "idealFor": [
+          "Bundle multipack scatole carte",
+          "Presentazioni pronte vendita",
+          "Imballaggio trasparente esposizione",
+          "Prodotti pronti scaffale"
+        ]
+      },
+      "three-dimensional": {
+        "name": "Imballaggio Tridimensionale",
+        "subtitle": "Imballaggio Tridimensionale Carte",
+        "description": "Avvolgimento 3D stile scatola — crea una confezione rigida simile a una scatola da un singolo foglio di film. Presentazione premium con bordi netti e sensazione solida.",
+        "features": [
+          "Crea imballaggio rigido simile a scatola da film piatto",
+          "Bordi netti e presentazione premium",
+          "Adatto a prodotti spessi (fino a 65 mm altezza)",
+          "Controllo servomotore per qualità costante",
+          "PLC programmabile con interfaccia schermo tattile"
+        ],
+        "processSteps": {
+          "1": "Conteggio alimentatore a frizione",
+          "2": "Macchina imballaggio tridimensionale",
+          "3": "Confezionamento manuale scatole",
+          "4": "Imballaggio in casi",
+          "5": "Disimballatrice",
+          "6": "Sigillascatola a H",
+          "7": "Robot collaborativo pallettizzazione"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentatore a frizione",
+          "Three-Dimensional Packaging Machine": "Macchina imballaggio tridimensionale",
+          "Cartoning Machine": "Macchina confezionamento scatole",
+          "Unpacking Machine": "Disimballatrice",
+          "H-Type Carton Sealer": "Sigillascatola a H",
+          "Collaborative Palletizing Robot": "Robot collaborativo pallettizzazione"
+        },
+        "idealFor": [
+          "Scatole collezione premium",
+          "Set regalo imballaggio carte",
+          "Presentazione prodotti alta gamma",
+          "Bundle edizione limitata"
+        ]
+      }
     }
   },
   "machines": {

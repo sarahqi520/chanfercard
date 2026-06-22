@@ -140,6 +140,223 @@
       "title": "Vous ne savez pas quelle méthode d'emballage vous convient ?",
       "description": "Nos ingénieurs analyseront les spécifications de vos produits de cartes et vous recommanderont la méthode d'emballage et la configuration de ligne optimales.",
       "button": "Obtenir une consultation gratuite"
+    },
+    "solutionsData": {
+      "candy": {
+        "name": "Emballage Bonbon",
+        "subtitle": "Emballage Bonbon Cartes",
+        "description": "Emballage par flux à coussin haute vitesse — la méthode la plus populaire pour les boosters de jeux de cartes à collectionner (TCG) et les housses de protection de cartes. Produit un emballage scellé type bonbon jusqu'à 220 sachets/min.",
+        "features": [
+          "Longueur de sachet contrôlée par servomoteur — régler et couper, pas de course à vide",
+          "Capteur photoélectrique haute sensibilité pour un scellage précis",
+          "Jusqu'à 60 préréglages de paramètres d'emballage sur IHM",
+          "Protection contre les erreurs : inversion automatique au changement de produit",
+          "Arrêt automatique sans film pour éviter le gaspillage"
+        ],
+        "processSteps": {
+          "1": "Comptage par alimentation friction",
+          "2": "Machine d'emballage flux",
+          "3": "Contrôle poids (rejet NG)",
+          "4": "Mise en cartons manuelle",
+          "5": "Mise en caisses",
+          "6": "Thermo-rétraction",
+          "7": "Ferme-carton en H",
+          "8": "Robot collaboratif palettisation"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentateur friction",
+          "Flow Packing Machine": "Machine emballage flux",
+          "Sealing & Cutting Shrinkage Machine": "Machine scellage et découpe rétractable",
+          "Unpacking Machine": "Désemballeuse",
+          "H-Type Carton Sealer": "Ferme-carton H",
+          "Collaborative Palletizing Robot": "Robot collaboratif palettisation"
+        },
+        "idealFor": [
+          "Boosters TCG",
+          "Housses protection cartes",
+          "Multipacks cartes jeu",
+          "Lots promotionnels"
+        ]
+      },
+      "self-adhesive": {
+        "name": "Emballage Bande Auto-adhésive",
+        "subtitle": "Emballage Bande Auto-adhésive Cartes",
+        "description": "Sachets refermables avec bande auto-adhésive — idéaux pour produits cartes premium nécessitant référmabilité. Chaque sachet dispose d'une bande à décoller-refermer pour ouverture et fermeture répétée.",
+        "features": [
+          "Trois méthodes de scellage : auto-adhésif, coupe chaude ou presse chaude",
+          "Correction automatique pour réduire pertes d'emballage",
+          "Détection sachets vides — pas de matériel, pas de perte film",
+          "Largeur de sachet librement ajustable pour produits multi-spec",
+          "Reset en un clic et contrôle position bidirectionnel",
+          "Mémoire point pour comptage précis et conditionnement lot"
+        ],
+        "processSteps": {
+          "1": "Comptage par alimentation friction",
+          "2": "Machine mise en sachets",
+          "3": "Mise en cartons manuelle",
+          "4": "Scellage et découpe rétractable",
+          "5": "Mise en caisses",
+          "6": "Ferme-carton en H",
+          "7": "Robot collaboratif palettisation"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentateur friction",
+          "Bagging Machine": "Machine mise en sachets",
+          "Sealing & Cutting Shrinkage Machine": "Machine scellage et découpe rétractable",
+          "Unpacking Machine": "Désemballeuse",
+          "H-Type Carton Sealer": "Ferme-carton H",
+          "Collaborative Palletizing Robot": "Robot collaboratif palettisation"
+        },
+        "idealFor": [
+          "Sets collection premium",
+          "Sachets stockage refermables cartes",
+          "Packs affichage vente",
+          "Éditions limitées lots"
+        ]
+      },
+      "four-sides": {
+        "name": "Emballage Quatre Côtés Scellés",
+        "subtitle": "Emballage Quatre Côtés Scellés Cartes",
+        "description": "Scellage thermique des quatre bords — présentation premium anti-effraction. Les bords complètement scellés protègent contre humidité et contamination.",
+        "features": [
+          "Sept servomoteurs pour fonctionnement ultra-stable",
+          "Oeil électrique tricolore pour alignement texte/image précis",
+          "Technologie unique de découpe et soudure thermique alternante",
+          "Scellage haute vitesse — ferme et stable à 150 sachets/min",
+          "Contrôle PLC programmable avec écran tactile IHM"
+        ],
+        "processSteps": {
+          "1": "Comptage par alimentation friction",
+          "2": "Machine scellage quatre côtés",
+          "3": "Machine cartonnage",
+          "4": "Mise en sachets et cartons",
+          "5": "Désemballeuse",
+          "6": "Ferme-carton en H",
+          "7": "Robot collaboratif palettisation"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentateur friction",
+          "Four-Side Sealing Packing Machine": "Machine scellage quatre côtés",
+          "Cartoning Machine": "Machine cartonnage",
+          "Unpacking Machine": "Désemballeuse",
+          "H-Type Carton Sealer": "Ferme-carton H",
+          "Collaborative Palletizing Robot": "Robot collaboratif palettisation"
+        },
+        "idealFor": [
+          "Cartes haute valeur",
+          "Cartes scellées anti-effraction",
+          "Packs premium collection cartes",
+          "Produits cartes sensibles humidité"
+        ]
+      },
+      "banding": {
+        "name": "Emballage Cerclage",
+        "subtitle": "Emballage Cerclage Cartes",
+        "description": "Cerclage écologique en papier — méthode la plus durable pour jeux de cartes. Utilise un minimum de matériau tout en maintenant un cerclage sécurisé.",
+        "features": [
+          "Entraînement servomoteur avec contrôle PLC et écran tactile",
+          "Distribution automatique cartes + ceinturage en une opération",
+          "Contrôle photoélectrique pour distribution et cerclage automatiques",
+          "Paramètres multiples : quantité cartes, matériau, alarme bande",
+          "Gamme épaisseur produit : 0,1–3 mm",
+          "Taille max produit : 100×150 mm"
+        ],
+        "processSteps": {
+          "1": "Comptage par alimentation friction",
+          "2": "Machine ceinturage",
+          "3": "Conditionnement manuel",
+          "4": "Machine cartonnage",
+          "5": "Désemballeuse",
+          "6": "Ferme-carton en H",
+          "7": "Robot collaboratif palettisation"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentateur friction",
+          "Banding Machine": "Machine ceinturage",
+          "Cartoning Machine": "Machine cartonnage",
+          "Unpacking Machine": "Désemballeuse",
+          "H-Type Carton Sealer": "Ferme-carton H",
+          "Collaborative Palletizing Robot": "Robot collaboratif palettisation"
+        },
+        "idealFor": [
+          "Jeux de cartes plateau",
+          "Jeux de cartes standard",
+          "Emballage cartes écologique",
+          "Paquets multi-jeux"
+        ]
+      },
+      "heat-shrink": {
+        "name": "Emballage Thermo-rétractable",
+        "subtitle": "Emballage Thermo-rétractable Cartes",
+        "description": "Enroulement serré en film thermo-rétractable — offre une visibilité à 360° du produit avec excellente protection. Le film se moule étroitement au contour du produit.",
+        "features": [
+          "Capteur photoélectrique importé pour petits/emballages fins",
+          "Alimentation automatique avec oeil électrique + réglage longueur minuterie",
+          "Protection automatique lame de scellage contre coupures accidentelles",
+          "Mécanisme synchronisation film haut/bas corrige déviation",
+          "Réglable direction air chaud pour belles lignes de soudure"
+        ],
+        "processSteps": {
+          "1": "Comptage par alimentation friction",
+          "2": "Machine emballage flux",
+          "3": "Four thermo-rétraction",
+          "4": "Mise en cartons manuelle",
+          "5": "Mise en caisses",
+          "6": "Désemballeuse",
+          "7": "Ferme-carton en H",
+          "8": "Robot collaboratif palettisation"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentateur friction",
+          "Flow Packing Machine": "Machine emballage flux",
+          "Shrinking Machine": "Four thermo-rétraction",
+          "Cartoning Machine": "Machine cartonnage",
+          "Unpacking Machine": "Désemballeuse",
+          "H-Type Carton Sealer": "Ferme-carton H",
+          "Collaborative Palletizing Robot": "Robot collaboratif palettisation"
+        },
+        "idealFor": [
+          "Multipacks boîtes cartes",
+          "Présentations prêtes vente",
+          "Emballage transparent exposition",
+          "Produits prêts rayon"
+        ]
+      },
+      "three-dimensional": {
+        "name": "Emballage 3D",
+        "subtitle": "Emballage 3D Cartes",
+        "description": "Enroulement 3D style boîte — crée un emballage rigide semblable à une boîte à partir d'une seule feuille de film. Présentation premium avec bords nets et sensation solide.",
+        "features": [
+          "Crée un emballage rigide style boîte à partir de film plat",
+          "Bords nets et présentation premium",
+          "Adapté aux produits épais (jusqu'à 65 mm hauteur)",
+          "Contrôle servomoteur pour qualité constante",
+          "PLC programmable avec interface écran tactile"
+        ],
+        "processSteps": {
+          "1": "Comptage par alimentation friction",
+          "2": "Machine emballage 3D",
+          "3": "Mise en cartons manuelle",
+          "4": "Mise en caisses",
+          "5": "Désemballeuse",
+          "6": "Ferme-carton en H",
+          "7": "Robot collaboratif palettisation"
+        },
+        "lineComponents": {
+          "Friction Feeder": "Alimentateur friction",
+          "Three-Dimensional Packaging Machine": "Machine emballage 3D",
+          "Cartoning Machine": "Machine cartonnage",
+          "Unpacking Machine": "Désemballeuse",
+          "H-Type Carton Sealer": "Ferme-carton H",
+          "Collaborative Palletizing Robot": "Robot collaboratif palettisation"
+        },
+        "idealFor": [
+          "Boîtes collection premium",
+          "Sets cadeau cartes emballage",
+          "Présentation produits haut de gamme",
+          "Éditions limitées"
+        ]
+      }
     }
   },
   "machines": {

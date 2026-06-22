@@ -22,6 +22,7 @@ import {
 import { packagingSolutions, companyInfo } from "@/lib/data";
 import { getDictionary, t, type Dictionary } from "@/lib/i18n/dictionaries";
 import { type Locale } from "@/lib/i18n/config";
+import type { PackagingSolution } from "@/lib/data";
 
 const packagingIcons = [
   <Package key="candy" className="w-6 h-6" />,
@@ -59,6 +60,15 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   const compChanfer = smartComparison.chanfer as Record<string, string>;
   const certsDict = dict.certifications as Record<string, string>;
   const timelineDict = dict.timeline as Record<string, string>;
+
+  // Localize packaging solutions for homepage cards
+  const solData = (dict.solutions as Record<string, unknown>)?.solutionsData as
+    Record<string, { name: string; description: string }> | undefined;
+  const localizedSolutions: PackagingSolution[] = packagingSolutions.map((sol) => {
+    const t = solData?.[sol.id];
+    if (t) return { ...sol, name: t.name, description: t.description };
+    return sol;
+  });
 
   const whyUsItems = [
     "equipment", "service", "smart", "ai", "integration", "quality"
@@ -184,7 +194,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {packagingSolutions.map((sol, i) => (
+              {localizedSolutions.map((sol, i) => (
                 <Link
                   key={sol.id}
                   href={`/${locale}/solutions#${sol.id}`}
@@ -193,7 +203,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                   <div className="relative h-48 bg-muted overflow-hidden">
                     <Image
                       src={methodImages[i]}
-                      alt={`${sol.name} - Card Packaging Method`}
+                      alt={sol.name}
                       width={400}
                       height={300}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

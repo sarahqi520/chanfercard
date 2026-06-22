@@ -1,0 +1,68 @@
+# CHANFER Card Packaging Website
+
+> CHANFER is a leading manufacturer of automated card packaging machinery for game cards, trading cards (TCG), and board games. We provide complete packaging production lines from feeding and counting to packaging, cartoning, and palletizing.
+
+## Website Structure
+
+- Homepage: https://chanfercard.com/en
+- Solutions (6 packaging methods): https://chanfercard.com/en/solutions
+- Machines (equipment catalog): https://chanfercard.com/en/machines
+- About (company profile): https://chanfercard.com/en/about
+- Contact: https://chanfercard.com/en/contact
+
+## 6 Packaging Methods
+
+### 1. Candy Packaging (Flow Wrap)
+High-speed pillow-style flow wrapping — most popular for TCG booster packs and collectible card sleeves. Speed: 20–220 bags/min.
+
+### 2. Self-Adhesive Strip Packaging
+Reclosable self-adhesive strip bags — ideal for premium card products requiring re-sealability. Speed: 30–90 packs/min.
+
+### 3. Four-Sides Sealed Packaging
+All-four-edges heat-sealed packaging — premium tamper-evident presentation. Speed: 50–150 packs/min.
+
+### 4. Banding Packaging
+Eco-friendly paper band bundling — most sustainable method for card decks. Speed: 5–20 packs/min.
+
+### 5. Heat Shrink Packaging
+Tight-fitting shrink film wrapping — 360° product visibility with excellent protection. Speed: 20–100 bags/min.
+
+### 6. Three-Dimensional Packaging
+Box-style 3D wrapping — rigid box-like package from single sheet of film. Speed: 40–80 bags/min.
+
+## Company Information
+
+- Founded: 2011
+- Location: Guangzhou, China (HQ) + Dongguan, China (factory)
+- Factory Area: 10,000+ m²
+- Team Size: 100+
+- Patents: 100+
+- Clients Served: 8,000+
+- Certifications: ISO9001, CE, National High-Tech Enterprise, Guangdong SRDI Enterprise
+
+## Two Business Divisions
+
+### 1. Equipment Manufacturing
+We design and build our own machines — no middlemen, direct factory pricing and full technical support.
+
+### 2. Contract Packaging Services
+5,000m² cleanroom facility with our own equipment, staff, and packaging film. You just provide the product — we do the rest.
+
+## Smart Systems
+
+### AI Visual Inspection
+Real-time card inspection at 400+ sheets/min. Detects wrong cards, missing cards, and out-of-sequence issues instantly.
+
+### Computer Card Dispatching System
+Computer-controlled card sorting system with AI visual inspection. Up to 25,000 packs per batch with 100% error detection.
+
+## Contact
+
+- Email: sarah@gzchanfer.com
+- Phone/WhatsApp: +86 13060985132
+- Website: https://chanfercard.com
+- Address: No. 5 Yongfeng Road, Shawan Street, Panyu District, Guangzhou, China
+
+## Languages
+
+This website is available in 9 languages: English (en), Chinese (zh), Russian (ru), Italian (it), German (de), French (fr), Spanish (es), Korean (ko), Japanese (ja).
