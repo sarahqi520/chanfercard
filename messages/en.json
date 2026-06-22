@@ -540,7 +540,12 @@
     "contactTitle": "Contact",
     "copyright": "© {year} {company}. All rights reserved.",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "friendLinks": {
+      "title": "Friend Links",
+      "mainSite": "CHANFER Main Site (Guangzhou Chanfer)",
+      "detergentLine": "Turnkey Liquid Detergent Packaging Line"
+    }
   },
   "common": {
     "required": "*",
