@@ -532,7 +532,12 @@
     "contactTitle": "联系方式",
     "copyright": "© {year} {company}. 保留所有权利。",
     "privacyPolicy": "隐私政策",
-    "termsOfService": "服务条款"
+    "termsOfService": "服务条款",
+    "friendLinks": {
+      "title": "友情链接",
+      "mainSite": "CHANFER 主站（广州长发）",
+      "detergentLine": "洗护用品全自动包装产线"
+    }
   },
   "common": {
     "required": "*",
