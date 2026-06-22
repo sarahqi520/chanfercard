@@ -5,6 +5,7 @@ import {
   MapPin,
   Video,
   Globe,
+  Link2,
 } from "lucide-react";
 import { companyInfo } from "@/lib/data";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
@@ -16,6 +17,7 @@ export default function Footer({ dict, locale }: { dict: Dictionary; locale: Loc
   const footerCompany = footer.company as Record<string, string>;
   const footerSolutions = footer.solutions as Record<string, string>;
   const footerQuickLinks = footer.quickLinks as Record<string, string>;
+  const footerFriendLinks = footer.friendLinks as Record<string, string>;
   const nav = dict.nav as Record<string, string>;
 
   return (
@@ -200,8 +202,37 @@ export default function Footer({ dict, locale }: { dict: Dictionary; locale: Loc
           </div>
         </div>
 
+        {/* Friend Links */}
+        <div className="mt-10 pt-6 border-t border-background/10">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-3 md:gap-4">
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-background/50 shrink-0">
+              <Link2 size={14} className="text-accent" />
+              {footerFriendLinks.title}
+            </div>
+            <div className="flex flex-wrap gap-x-5 gap-y-2 text-xs text-background/50">
+              <a
+                href="https://gzchanfer.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent transition-colors"
+              >
+                {footerFriendLinks.mainSite}
+              </a>
+              <span className="text-background/20">|</span>
+              <a
+                href="https://chanferpack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent transition-colors"
+              >
+                {footerFriendLinks.detergentLine}
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-12 pt-6 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-background/40">
+        <div className="mt-6 pt-6 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-background/40">
           <p>
             © {new Date().getFullYear()} {companyInfo.name}. All rights reserved.
           </p>
