@@ -532,7 +532,12 @@
     "contactTitle": "お問い合わせ",
     "copyright": "© {year} {company}. All rights reserved.",
     "privacyPolicy": "プライバシーポリシー",
-    "termsOfService": "利用規約"
+    "termsOfService": "利用規約",
+    "friendLinks": {
+      "title": "パートナーリンク",
+      "mainSite": "CHANFER メインサイト (Guangzhou Chanfer)",
+      "detergentLine": "ターンキー液体洗剤包装ライン"
+    }
   },
   "common": {
     "required": "*",
