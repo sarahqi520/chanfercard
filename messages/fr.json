@@ -532,7 +532,12 @@
     "contactTitle": "Contact",
     "copyright": "© {year} {company}. Tous droits réservés.",
     "privacyPolicy": "Politique de confidentialité",
-    "termsOfService": "Conditions d'utilisation"
+    "termsOfService": "Conditions d'utilisation",
+    "friendLinks": {
+      "title": "Liens Partenaires",
+      "mainSite": "CHANFER Site Principal (Guangzhou Chanfer)",
+      "detergentLine": "Ligne d'Emballage Clé en Main pour Détergent Liquide"
+    }
   },
   "common": {
     "required": "*",
