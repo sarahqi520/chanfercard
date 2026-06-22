@@ -532,7 +532,12 @@
     "contactTitle": "Kontakt",
     "copyright": "© {year} {company}. Alle Rechte vorbehalten.",
     "privacyPolicy": "Datenschutzerklärung",
-    "termsOfService": "Nutzungsbedingungen"
+    "termsOfService": "Nutzungsbedingungen",
+    "friendLinks": {
+      "title": "Partner-Links",
+      "mainSite": "CHANFER Hauptwebsite (Guangzhou Chanfer)",
+      "detergentLine": "Schlüsselfertige Verpackungslinie für Flüssigwaschmittel"
+    }
   },
   "common": {
     "required": "*",
