@@ -532,7 +532,12 @@
     "contactTitle": "연락처",
     "copyright": "© {year} {company}. All rights reserved.",
     "privacyPolicy": "개인정보 처리방침",
-    "termsOfService": "이용약관"
+    "termsOfService": "이용약관",
+    "friendLinks": {
+      "title": "파트너 링크",
+      "mainSite": "CHANFER 메인 사이트 (Guangzhou Chanfer)",
+      "detergentLine": "턴키 액체 세제 포장 라인"
+    }
   },
   "common": {
     "required": "*",
