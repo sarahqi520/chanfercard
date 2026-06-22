@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CHANFER Card Packaging Website
 
-## Getting Started
+Card packaging automation solutions by Guangzhou Chanfer Intelligent Equipment Co., Ltd.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework**: Next.js 16 (static export)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React
+- **Deployment**: Cloudflare Pages
+- **CI/CD**: GitHub Actions
+
+## Project Structure
+
+```
+app/[lang]/          # Route-based i18n pages (9 languages)
+  page.tsx           # Homepage with 6 packaging methods
+  solutions/         # Packaging solution detail pages
+  machines/          # Machine catalog
+  about/             # Company profile
+  contact/           # Contact form + info
+components/          # React components
+lib/                 # Utilities, data, i18n config
+messages/            # Translation files (en, zh, ru, it, de, fr, es, ko, ja)
+public/              # Static assets, robots.txt, sitemap.xml
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Content Management
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Edit text content in `messages/{locale}.json` — changes auto-deploy on push.
+See `内容管理指南.md` for full instructions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Development
 
-## Learn More
+```bash
+npm install
+npm run dev     # Start dev server at localhost:3000
+npm run build   # Build to static out/ directory
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Auto-Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pushing to `main` branch triggers GitHub Actions → builds → deploys to chanfercard.com
