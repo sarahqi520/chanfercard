@@ -10,7 +10,8 @@
     "machines": "Máquinas",
     "about": "Sobre Nosotros",
     "contact": "Contacto",
-    "getQuote": "Solicitar Presupuesto"
+    "getQuote": "Solicitar Presupuesto",
+    "faq": "FAQ"
   },
   "topBar": {
     "tagline": "Soluciones Automatizadas Integrales de Conteo y Envasado"
@@ -545,5 +546,202 @@
     "phone": "Teléfono",
     "mobile": "Móvil",
     "email": "Correo Electrónico"
+  },
+  "faqPage": {
+    "hero": {
+      "badge": "Centro de Conocimiento",
+      "title": "Preguntas Frecuentes",
+      "description": "Todo lo que necesita saber sobre métodos de embalaje de cartas, máquinas, líneas de producción y servicios de CHANFER.",
+      "searchPlaceholder": "Buscar preguntas...",
+      "noResults": "No se encontraron preguntas. Intente otra búsqueda.",
+      "allCategories": "Todas",
+      "questionsLabel": "preguntas respondidas",
+      "metaTitle": "FAQ Embalaje de Cartas | CHANFER",
+      "metaDescription": "Respuestas sobre métodos de embalaje, máquinas, velocidades, inspección IA y líneas completas."
+    },
+    "categories": [
+      {
+        "id": "packaging-methods",
+        "title": "Métodos de Embalaje",
+        "items": [
+          {
+            "question": "¿Cuáles son los 6 métodos principales de embalaje?",
+            "answer": "Los 6 métodos: envoltura caramelo (flow wrap), tira autoadhesiva (bolsa recerrable), sellado cuatro lados, flejado (banda de papel), termorretráctil y tridimensional (3D). Cada método se adapta a diferentes tipos de cartas y volúmenes."
+          },
+          {
+            "question": "¿Cómo elegir el método correcto?",
+            "answer": "Depende de: 1) tipo de carta, 2) velocidad, 3) recerrabilidad, 4) presentación retail, 5) presupuesto, 6) sostenibilidad. Para boosters TCG, flow wrap es el más popular. Para cartas premium, sellado cuatro lados o 3D."
+          },
+          {
+            "question": "¿Qué es la envoltura caramelo?",
+            "answer": "Envoltura caramelo (flow wrap) — el método más popular para boosters TCG. Película continua que envuelve el producto sellando ambos extremos. Hasta 220 bolsas/min."
+          },
+          {
+            "question": "¿Qué es la tira autoadhesiva?",
+            "answer": "Crea bolsas recerrables con tira pelable para apertura y cierre repetidos. Ideal para cartas premium. Velocidad: 30-90 paquetes/min."
+          },
+          {
+            "question": "¿Qué es el sellado cuatro lados?",
+            "answer": "Sella térmicamente los cuatro bordes para presentación premium a prueba de manipulación. Velocidad: 50-150 paquetes/min."
+          },
+          {
+            "question": "¿Qué es el flejado?",
+            "answer": "Usa bandas de papel ecológicas para atar mazos de cartas. Material mínimo, fijación segura. Velocidad: 5-20 paquetes/min."
+          },
+          {
+            "question": "¿Qué es el embalaje termorretráctil?",
+            "answer": "Película que se contrae con calor ajustándose al producto. Visibilidad 360° y excelente protección. Velocidad: 20-100 bolsas/min."
+          },
+          {
+            "question": "¿Qué es el embalaje tridimensional?",
+            "answer": "Crea un paquete rígido tipo caja de una sola hoja de película. Presentación premium. Velocidad: 40-80 bolsas/min."
+          }
+        ]
+      },
+      {
+        "id": "machines-equipment",
+        "title": "Máquinas & Equipos",
+        "items": [
+          {
+            "question": "¿Qué tipos de máquinas existen?",
+            "answer": "CHANFER ofrece: alimentadores, contadores, dispensadores, máquinas flow wrap, de tira autoadhesiva, sellado cuatro lados, flejado, termorretráctil, 3D, cartonadoras, encajadoras, robots de paletizado y sistemas de inspección IA."
+          },
+          {
+            "question": "¿Cuál es la velocidad de producción?",
+            "answer": "Velocidades: caramelo 20-220, tira 30-90, cuatro lados 50-150, flejado 5-20, termo 20-100, 3D 40-80 paquetes/min."
+          },
+          {
+            "question": "¿Cómo funciona un alimentador de cartas?",
+            "answer": "Separa y alimenta cartas individuales desde una pila con control servo. Sensores de doble alimentación."
+          },
+          {
+            "question": "¿Cómo funciona un contador de cartas?",
+            "answer": "Sensores ópticos y conteo mecánico para conteo preciso. 100% de precisión con monitoreo en tiempo real."
+          },
+          {
+            "question": "¿Qué es el sistema de distribución computarizado?",
+            "answer": "El sistema CHANFER usa computadora, dispensadores y alimentadores para clasificar cartas según recetas. Editable en Excel, 1000+ recetas, 25000 paquetes por lote, inspección IA."
+          },
+          {
+            "question": "¿Manejan diferentes tamaños de cartas?",
+            "answer": "Sí, tamaños estándar: póker (63x88mm), bridge (56x88mm), mini, tarot y personalizados. Cambio en 3-5 min."
+          }
+        ]
+      },
+      {
+        "id": "production-line",
+        "title": "Línea de Producción",
+        "items": [
+          {
+            "question": "¿CHANFER proporciona líneas completas?",
+            "answer": "Sí, CHANFER proporciona líneas llave en mano: alimentación, conteo, embalaje, cartonado, encajado, sellado, paletizado robotizado y sistema de distribución."
+          },
+          {
+            "question": "¿Qué incluye una línea completa?",
+            "answer": "1) Estaciones de alimentación y conteo, 2) sistema de distribución, 3) máquina embaladora, 4) cartonadora, 5) encajadora, 6) selladora, 7) robot paletizador, 8) inspección IA, 9) sistema de control."
+          },
+          {
+            "question": "¿Qué es el cartonado?",
+            "answer": "Coloca productos embalados en cajas de cartón. Las cartonadoras CHANFER manejan varios formatos hasta 120 cajas/min."
+          },
+          {
+            "question": "¿Qué es el encajado y paletizado?",
+            "answer": "El encajado agrupa cajas en cajas de envío, el paletizado apila cajas en palés. CHANFER usa cobots."
+          },
+          {
+            "question": "¿Cuánto tarda la instalación?",
+            "answer": "Línea completa: 2-4 semanas, incluyendo instalación, integración, pruebas y formación."
+          }
+        ]
+      },
+      {
+        "id": "quality-inspection",
+        "title": "Calidad & Inspección IA",
+        "items": [
+          {
+            "question": "¿Cómo funciona la inspección visual IA?",
+            "answer": "El sistema IA de CHANFER usa cámaras de alta velocidad y machine learning para inspeccionar en tiempo real a 400+ hojas/min. Detecta cartas erróneas, faltantes y defectos. Parada automática ante errores."
+          },
+          {
+            "question": "¿Cuál es la tasa de error?",
+            "answer": "La línea smart alcanza casi cero errores gracias a inspección IA y control de calidad automatizado. Inspección 100% en tiempo real."
+          },
+          {
+            "question": "¿Qué certificaciones tiene CHANFER?",
+            "answer": "ISO9001, National High-Tech Enterprise, SRDI Guangdong. 100+ patentes y certificación CE."
+          },
+          {
+            "question": "¿Cómo garantizar la calidad del embalaje?",
+            "answer": "Mediante: 1) inspección IA 400+ hojas/min, 2) detección anti-error, 3) conteo automático 100%, 4) monitoreo en tiempo real, 5) trazabilidad, 6) procesos ISO9001."
+          },
+          {
+            "question": "¿Tiempo de cambio de receta?",
+            "answer": "3-5 minutos con el sistema CHANFER (vs 30-60 min manual). 1000+ archivos de recetas."
+          }
+        ]
+      },
+      {
+        "id": "industry-applications",
+        "title": "Industrias & Aplicaciones",
+        "items": [
+          {
+            "question": "¿Qué industries sirve CHANFER?",
+            "answer": "Cartas de juego, juegos de mesa, cartas coleccionables y impresión. También alimentaria, médica, química y ferretería. 8000+ clientes."
+          },
+          {
+            "question": "¿Pueden empaquetar boosters TCG?",
+            "answer": "Sí, los boosters TCG son una aplicación principal. Flow wrap es el más popular, hasta 220 bolsas/min. Clasificación multi-carta disponible."
+          },
+          {
+            "question": "¿Pueden empaquetar cartas deportivas?",
+            "answer": "Sí, para cartas premium recomendamos sellado cuatro lados o 3D. La inspección IA garantiza la secuencia correcta."
+          },
+          {
+            "question": "¿Pueden empaquetar cartas anime?",
+            "answer": "Por supuesto. Tira autoadhesiva y 3D son populares. El sistema IA maneja recetas complejas de clasificación."
+          },
+          {
+            "question": "¿Soluciones para componentes de juegos?",
+            "answer": "Sí, CHANFER ofrece embalaje para cartas, fichas y componentes. El flejado es ideal para mazos."
+          }
+        ]
+      },
+      {
+        "id": "ordering-service",
+        "title": "Pedidos & Servicio",
+        "items": [
+          {
+            "question": "¿Cómo pedir una máquina?",
+            "answer": "1) Contacto vía WhatsApp (+86 13060985132) o email (sarah@gzchanfer.com), 2) comunique requisitos, 3) reciba solución y cotización, 4) producción 4-8 semanas, 5) instalación y formación incluidas."
+          },
+          {
+            "question": "¿Proporcionan instalación y formación?",
+            "answer": "Sí, CHANFER proporciona instalación in situ, puesta en marcha y formación de operadores. Soporte remoto disponible."
+          },
+          {
+            "question": "¿Cuáles son los plazos de entrega?",
+            "answer": "Máquinas estándar: 4-6 semanas. Líneas completas: 6-8 semanas. Soluciones personalizadas: 8-12 semanas."
+          },
+          {
+            "question": "¿Servicio postventa y repuestos?",
+            "answer": "Sí, soporte remoto, diagnóstico por video, visitas in situ y repuestos. Envío en 24-48h."
+          },
+          {
+            "question": "¿Podemos visitar su fábrica?",
+            "answer": "Por supuesto. Visite nuestra fábrica en Dongguan y oficina en Guangzhou. Contáctenos para una cita."
+          },
+          {
+            "question": "¿Ofrecen servicios de embalaje por contrato?",
+            "answer": "Sí, CHANFER opera una sala limpia de 5000 m² para embalaje por contrato. Usted proporciona el producto, nosotros hacemos el resto."
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "¿Más Preguntas?",
+      "description": "Nuestro equipo está listo para ayudarle.",
+      "button1": "Contáctenos",
+      "button2": "Ver Soluciones"
+    }
   }
 }
