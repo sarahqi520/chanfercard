@@ -18,7 +18,8 @@
     "machines": "Machines",
     "about": "About Us",
     "contact": "Contact",
-    "getQuote": "Get Quote"
+    "getQuote": "Get Quote",
+    "faq": "FAQ"
   },
   "topBar": {
     "tagline": "One-Stop Count & Packaging Automatic Solutions"
@@ -573,5 +574,202 @@
         "answer": "CHANFER primarily serves the game card, board game, trading card, and paper printing industries. We also provide packaging solutions for food, medical, daily chemical, and hardware sectors."
       }
     ]
+  },
+  "faqPage": {
+    "hero": {
+      "badge": "Knowledge Center",
+      "title": "Frequently Asked Questions",
+      "description": "Everything you need to know about card packaging methods, machines, production lines, and CHANFER's services.",
+      "searchPlaceholder": "Search questions...",
+      "noResults": "No questions found. Try a different search.",
+      "allCategories": "All",
+      "questionsLabel": "questions answered",
+      "metaTitle": "Card Packaging FAQ | CHANFER - Answers to Common Questions",
+      "metaDescription": "Find answers to common questions about card packaging methods, machines, production speeds, AI inspection, and complete packaging lines for trading cards and board games."
+    },
+    "categories": [
+      {
+        "id": "packaging-methods",
+        "title": "Packaging Methods",
+        "items": [
+          {
+            "question": "What are the 6 main packaging methods for game cards?",
+            "answer": "The 6 main packaging methods for game cards are: Candy Packaging (pillow-style flow wrap), Self-Adhesive Strip Packaging (reclosable strip bag), Four-Sides Sealed Packaging (sealed on all edges), Banding Packaging (paper band bundling), Heat Shrink Packaging (shrink film wrapping), and Three-Dimensional Packaging (3D box-style wrap). Each method suits different card types, production volumes, and retail presentation requirements."
+          },
+          {
+            "question": "How to choose the right card packaging method?",
+            "answer": "Choosing the right packaging method depends on: 1) Card type (trading cards, board game cards, collector cards), 2) Required production speed, 3) Whether resealability is needed, 4) Retail presentation requirements, 5) Budget, and 6) Sustainability goals. For TCG booster packs, candy wrapping is most popular. For premium collector cards, four-sides sealed or three-dimensional packaging is preferred. For eco-conscious brands, banding uses minimal material."
+          },
+          {
+            "question": "What is candy packaging for trading cards?",
+            "answer": "Candy packaging, also known as pillow-style flow wrapping, is the most popular method for TCG booster packs and collectible card sleeves. It uses a continuous film that wraps around the product and seals both ends, creating a sealed candy-style wrapper at speeds up to 220 bags/min. This method is fast, cost-effective, and ideal for high-volume production."
+          },
+          {
+            "question": "What is self-adhesive strip packaging?",
+            "answer": "Self-adhesive strip packaging creates reclosable bags with a peel-and-seal strip that allows repeated opening and closing. This method is ideal for premium card products requiring re-sealability, protecting card quality during retail display and consumer use. Production speed ranges from 30-90 packs/min."
+          },
+          {
+            "question": "What is four-sides sealed packaging?",
+            "answer": "Four-sides sealed packaging heat-seals all four edges of the package, delivering a premium, tamper-evident presentation. The fully sealed edges protect against moisture and contamination, making it the preferred choice for high-value trading cards and collectible products. Speed: 50-150 packs/min."
+          },
+          {
+            "question": "What is banding packaging for cards?",
+            "answer": "Banding packaging uses eco-friendly paper bands to bundle card decks together. It uses minimal material while maintaining secure bundling, making it the most sustainable packaging method. Ideal for board game card decks and standard playing card sets. Speed: 5-20 packs/min."
+          },
+          {
+            "question": "What is heat shrink packaging?",
+            "answer": "Heat shrink packaging uses shrink film that conforms tightly to the product when heat is applied, providing 360-degree product visibility with excellent protection. It creates a professional retail-ready presentation for card boxes and bundled products. Speed: 20-100 bags/min."
+          },
+          {
+            "question": "What is three-dimensional packaging?",
+            "answer": "Three-dimensional packaging creates a rigid, box-like package from a single sheet of film. It delivers a premium presentation with sharp edges and a solid feel, perfect for high-end collector products and gift sets. Speed: 40-80 bags/min."
+          }
+        ]
+      },
+      {
+        "id": "machines-equipment",
+        "title": "Machines & Equipment",
+        "items": [
+          {
+            "question": "What types of card packaging machines are available?",
+            "answer": "CHANFER offers a full range of card packaging machines including: card feeding machines, card counting machines, card dispensing machines, pillow packaging machines, self-adhesive strip bagging machines, four-sides sealing machines, banding machines, heat shrink machines, 3D packaging machines, cartoning machines, case packing machines, sealing machines, robotic palletizing systems, and AI visual inspection systems."
+          },
+          {
+            "question": "What is the production speed of card packaging machines?",
+            "answer": "Production speeds vary by packaging method: Candy Packaging 20-220 bags/min, Self-Adhesive Strip 30-90 packs/min, Four-Sides Sealed 50-150 packs/min, Banding 5-20 packs/min, Heat Shrink 20-100 bags/min, and Three-Dimensional 40-80 bags/min. Actual speed depends on card size, material, and line configuration."
+          },
+          {
+            "question": "How does a card feeding machine work?",
+            "answer": "A card feeding machine automatically separates and feeds individual cards from a stack into the packaging line. It uses precision mechanical separation with servo-controlled feeding to ensure one-card-at-a-time delivery at high speeds, with sensors to detect double-feed or missing cards."
+          },
+          {
+            "question": "How does a card counting machine work?",
+            "answer": "A card counting machine uses optical sensors and mechanical counting to accurately count cards as they pass through. It ensures each package contains the exact number of cards required, with 100% accuracy and real-time monitoring. Multiple counting stations can run simultaneously for multi-card packs."
+          },
+          {
+            "question": "What is a computer card dispatching system?",
+            "answer": "CHANFER's computer card dispatching system uses a computer, card dispensing machines, and multiple card feeders to automatically sort and package cards according to pre-set recipes. You can edit sorting processes in Excel, store 1,000+ recipe files, handle 25,000 packs per batch, and it includes anti-error detection with AI visual inspection."
+          },
+          {
+            "question": "Can your machines handle different card sizes?",
+            "answer": "Yes, CHANFER's machines are designed to handle a wide range of card sizes. Standard sizes include poker size (63x88mm), bridge size (56x88mm), mini cards, tarot cards, and custom sizes. Changeover between sizes typically takes 3-5 minutes with recipe-based switching."
+          }
+        ]
+      },
+      {
+        "id": "production-line",
+        "title": "Production Line & Integration",
+        "items": [
+          {
+            "question": "Does CHANFER provide complete packaging production lines?",
+            "answer": "Yes, CHANFER provides complete turnkey packaging lines including automatic card feeding, counting, packaging, cartoning, case packing, sealing, and robotic palletizing. We also offer a computer card dispatching system for intelligent card sorting. All equipment is integrated with smart control systems."
+          },
+          {
+            "question": "What does a complete card packaging line include?",
+            "answer": "A complete card packaging line typically includes: 1) Card feeding and counting stations, 2) Card dispensing/sorting system, 3) Packaging machine (based on chosen method), 4) Cartoning machine, 5) Case packing machine, 6) Sealing machine, 7) Robotic palletizing, 8) AI visual inspection system, and 9) Smart control system with data tracking."
+          },
+          {
+            "question": "What is cartoning in card packaging?",
+            "answer": "Cartoning is the process of placing packaged card products into cartons or boxes. CHANFER's automatic cartoning machines can handle various carton styles and sizes, with speeds up to 120 cartons/min. They integrate seamlessly with upstream packaging machines for continuous production."
+          },
+          {
+            "question": "What is case packing and palletizing?",
+            "answer": "Case packing groups multiple cartons into shipping cases, while palletizing stacks cases onto pallets for transport. CHANFER uses collaborative robots (cobots) for safe, flexible palletizing that can handle different pallet patterns and heights, reducing labor and improving consistency."
+          },
+          {
+            "question": "How long does it take to set up a complete packaging line?",
+            "answer": "A complete packaging line installation typically takes 2-4 weeks, including equipment setup, integration, testing, and operator training. CHANFER provides on-site installation and commissioning services, with remote support available for troubleshooting after handover."
+          }
+        ]
+      },
+      {
+        "id": "quality-inspection",
+        "title": "Quality & AI Inspection",
+        "items": [
+          {
+            "question": "How does AI visual inspection work for card packaging?",
+            "answer": "CHANFER's AI visual inspection system uses high-speed cameras and machine learning algorithms to inspect cards in real-time at 400+ sheets/min. It detects wrong cards, missing cards, out-of-sequence cards, and quality defects. The system auto-alarms and shuts down on errors, ensuring 100% quality assurance."
+          },
+          {
+            "question": "What is the error rate of CHANFER's smart packaging line?",
+            "answer": "CHANFER's smart packaging line achieves near-zero error rate through AI visual inspection, anti-error detection (white card/thickness/AI), and automated quality control. Traditional manual counting has a high error rate, but our system provides 100% real-time inspection with instant error alerts."
+          },
+          {
+            "question": "What quality certifications does CHANFER have?",
+            "answer": "CHANFER holds ISO9001 Quality Management System certification, National High-Tech Enterprise certification, and Guangdong Province SRDI (Specialized, Refined, Unique & New) recognition. We have 100+ patents and CE certification for our equipment."
+          },
+          {
+            "question": "How to ensure packaging quality for trading cards?",
+            "answer": "Packaging quality for trading cards is ensured through: 1) AI visual inspection at 400+ sheets/min, 2) Anti-error detection (white card, thickness, visual), 3) Automated counting with 100% accuracy, 4) Real-time monitoring and auto-alarm, 5) Quality data tracking, and 6) ISO9001-certified processes."
+          },
+          {
+            "question": "What is the changeover time for different card recipes?",
+            "answer": "With CHANFER's smart card dispatching system, changeover between different card recipes takes only 3-5 minutes using recipe-based switching. The system can store 1,000+ process recipe files, compared to 30-60 minutes for traditional manual changeover."
+          }
+        ]
+      },
+      {
+        "id": "industry-applications",
+        "title": "Industry & Applications",
+        "items": [
+          {
+            "question": "What industries does CHANFER serve?",
+            "answer": "CHANFER primarily serves the game card, board game, trading card, and paper printing industries. We also provide packaging solutions for food, medical, daily chemical, and hardware sectors. Our 8,000+ clients include the world's top printing and packaging companies."
+          },
+          {
+            "question": "Can your machines package TCG booster packs?",
+            "answer": "Yes, TCG (Trading Card Game) booster packs are one of our primary applications. Candy packaging (flow wrapping) is the most popular method for TCG booster packs, with speeds up to 220 bags/min. We also provide multi-card sorting and dispatching for mixed-content booster packs."
+          },
+          {
+            "question": "Can your machines handle sports card packaging?",
+            "answer": "Yes, sports card packaging is well within our capabilities. For premium sports cards, we recommend four-sides sealed packaging or three-dimensional packaging for tamper-evident, premium retail presentation. Our AI inspection ensures correct card sequencing for limited edition sets."
+          },
+          {
+            "question": "Can your machines package anime and collectible cards?",
+            "answer": "Absolutely. Anime and collectible cards often require premium packaging for retail display. Our self-adhesive strip packaging (reclosable) and three-dimensional packaging are popular choices. The AI card dispatching system can handle complex card sorting recipes for collector sets."
+          },
+          {
+            "question": "Do you provide packaging solutions for board game components?",
+            "answer": "Yes, CHANFER provides packaging solutions for board game cards, tokens, and components. Banding packaging is ideal for bundling card decks, while our multi-station lines can handle various component types in a single production run."
+          }
+        ]
+      },
+      {
+        "id": "ordering-service",
+        "title": "Ordering & Service",
+        "items": [
+          {
+            "question": "How to order a card packaging machine from CHANFER?",
+            "answer": "To order a card packaging machine: 1) Contact us via WhatsApp (+86 13060985132) or email (sarah@gzchanfer.com), 2) Share your requirements (card type, size, speed, packaging method), 3) We provide a customized solution and quotation, 4) After order confirmation, production takes 4-8 weeks depending on line complexity, 5) Installation and training included."
+          },
+          {
+            "question": "Do you provide installation and training?",
+            "answer": "Yes, CHANFER provides on-site installation, commissioning, and operator training for all equipment. Our engineers travel to your facility to set up the machines, integrate the line, test performance, and train your operators. Remote support is also available for troubleshooting."
+          },
+          {
+            "question": "What is the lead time for card packaging machines?",
+            "answer": "Standard machine lead time is 4-6 weeks. Complete packaging lines take 6-8 weeks. Custom-engineered solutions may take 8-12 weeks. We maintain inventory of common components to expedite production. Contact us for current lead times."
+          },
+          {
+            "question": "Do you provide after-sales support and spare parts?",
+            "answer": "Yes, CHANFER provides comprehensive after-sales support including: remote technical assistance, video troubleshooting, on-site service visits, and spare parts supply. We maintain a spare parts inventory and can ship commonly needed parts within 24-48 hours."
+          },
+          {
+            "question": "Can I visit your factory before ordering?",
+            "answer": "Absolutely. We welcome factory visits at our Dongguan facility (Wanjin High-Tech Industrial Park) and Guangzhou office. You can see our machines in operation, discuss your requirements face-to-face, and meet our engineering team. Contact us to schedule a visit."
+          },
+          {
+            "question": "Do you provide contract packaging services?",
+            "answer": "Yes, in addition to equipment manufacturing, CHANFER operates a 5,000-square-meter cleanroom facility for contract packaging. You provide the product and we handle everything else — packaging, quality inspection, cartoning, and shipping preparation — using our own equipment, staff, and packaging film."
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "Our team is ready to help you find the perfect card packaging solution for your needs.",
+      "button1": "Contact Us",
+      "button2": "View Solutions"
+    }
   }
 }
