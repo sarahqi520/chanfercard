@@ -123,7 +123,26 @@ export default async function LangLayout({ children, params }: Props) {
   }
 
   const dict = await getDictionary(lang as Locale);
-  const faqItems = ((dict as Record<string, unknown>).faq as Record<string, unknown>)?.["items"] as Array<{ question: string; answer: string }> ?? [];
+
+  // Build FAQ items from faqPage data (expanded) with fallback to old faq data
+  const faqPageData = (dict as Record<string, unknown>).faqPage as
+    | Record<string, unknown>
+    | undefined;
+  let faqItems: Array<{ question: string; answer: string }> = [];
+  if (faqPageData?.categories) {
+    const categories = faqPageData.categories as Array<{
+      id: string;
+      title: string;
+      items: Array<{ question: string; answer: string }>;
+    }>;
+    for (const cat of categories) {
+      faqItems = faqItems.concat(cat.items);
+    }
+  }
+  // Fallback to old faq.items if faqPage is empty
+  if (faqItems.length === 0) {
+    faqItems = ((dict as Record<string, unknown>).faq as Record<string, unknown>)?.["items"] as Array<{ question: string; answer: string }> ?? [];
+  }
 
   const orgSchema = {
     "@context": "https://schema.org",
