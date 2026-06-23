@@ -10,7 +10,8 @@
     "machines": "Machines",
     "about": "À propos",
     "contact": "Contact",
-    "getQuote": "Demander un devis"
+    "getQuote": "Demander un devis",
+    "faq": "FAQ"
   },
   "topBar": {
     "tagline": "Solutions automatiques de comptage et d'emballage clés en main"
@@ -545,5 +546,202 @@
     "phone": "Téléphone",
     "mobile": "Mobile",
     "email": "Email"
+  },
+  "faqPage": {
+    "hero": {
+      "badge": "Centre de Connaissance",
+      "title": "Questions Fréquentes",
+      "description": "Tout ce que vous devez savoir sur les méthodes d'emballage de cartes, les machines, les lignes de production et les services CHANFER.",
+      "searchPlaceholder": "Rechercher...",
+      "noResults": "Aucune question trouvée. Essayez une autre recherche.",
+      "allCategories": "Toutes",
+      "questionsLabel": "questions répondues",
+      "metaTitle": "FAQ Emballage de Cartes | CHANFER",
+      "metaDescription": "Réponses aux questions sur les méthodes d'emballage, les machines, les vitesses de production, l'inspection IA et les lignes d'emballage complètes."
+    },
+    "categories": [
+      {
+        "id": "packaging-methods",
+        "title": "Méthodes d'Emballage",
+        "items": [
+          {
+            "question": "Quelles sont les 6 méthodes d'emballage pour cartes ?",
+            "answer": "Les 6 méthodes : emballage bonbon (flow wrap), bande auto-adhésive (sachet refermable), scellage quatre côtés, cerclage (bande papier), thermo-rétractable et tridimensionnel (3D). Chaque méthode convient à différents types de cartes et volumes."
+          },
+          {
+            "question": "Comment choisir la bonne méthode ?",
+            "answer": "Selon : 1) type de carte, 2) vitesse requise, 3) refermabilité, 4) présentation retail, 5) budget, 6) durabilité. Pour les boosters TCG, le flow wrap est le plus populaire. Pour les cartes premium, scellage quatre côtés ou 3D."
+          },
+          {
+            "question": "Qu'est-ce que l'emballage bonbon ?",
+            "answer": "Emballage bonbon (flow wrap) — la méthode la plus populaire pour les boosters TCG. Film continu enveloppant le produit avec scellage des deux extrémités. Jusqu'à 220 sachets/min."
+          },
+          {
+            "question": "Qu'est-ce que la bande auto-adhésive ?",
+            "answer": "Crée des sachets refermables avec bande pelable pour ouverture/fermeture répétée. Idéal pour les cartes premium. Vitesse : 30-90 paquets/min."
+          },
+          {
+            "question": "Qu'est-ce que le scellage quatre côtés ?",
+            "answer": "Scelle thermiquement les quatre bords pour une présentation premium inviolable. Protection contre l'humidité. Vitesse : 50-150 paquets/min."
+          },
+          {
+            "question": "Qu'est-ce que le cerclage ?",
+            "answer": "Utilise des bandes de papier écologiques pour lier les decks de cartes. Matière minimale, fixation sécurisée. Vitesse : 5-20 paquets/min."
+          },
+          {
+            "question": "Qu'est-ce que l'emballage thermo-rétractable ?",
+            "answer": "Film qui se rétracte au chaud, épousant le produit. Visibilité 360° et excellente protection. Vitesse : 20-100 sachets/min."
+          },
+          {
+            "question": "Qu'est-ce que l'emballage 3D ?",
+            "answer": "Crée un emballage rigide type boîte à partir d'une seule feuille de film. Présentation premium. Vitesse : 40-80 sachets/min."
+          }
+        ]
+      },
+      {
+        "id": "machines-equipment",
+        "title": "Machines & Équipements",
+        "items": [
+          {
+            "question": "Quels types de machines existe-t-il ?",
+            "answer": "CHANFER offre : alimentateurs, compteurs, distributeurs, machines flow wrap, bande auto-adhésive, scellage quatre côtés, cerclage, thermo-rétractable, 3D, cartonneuses, emballeuses, robots de palettisation et systèmes d'inspection IA."
+          },
+          {
+            "question": "Quelle est la vitesse de production ?",
+            "answer": "Vitesses : bonbon 20-220, bande 30-90, quatre côtés 50-150, cerclage 5-20, thermo 20-100, 3D 40-80 paquets/min."
+          },
+          {
+            "question": "Comment fonctionne un alimentateur de cartes ?",
+            "answer": "Sépare et alimente les cartes individuelles depuis une pile vers la ligne d'emballage avec contrôle servo. Capteurs de double alimentation."
+          },
+          {
+            "question": "Comment fonctionne un compteur de cartes ?",
+            "answer": "Capteurs optiques et comptage mécanique pour un comptage précis. 100% de précision avec surveillance en temps réel."
+          },
+          {
+            "question": "Qu'est-ce que le système de dispatching ?",
+            "answer": "Le système CHANFER utilise ordinateur, distributeurs et alimentateurs pour trier automatiquement selon des recettes. Modifiable dans Excel, 1000+ recettes, 25000 paquets par lot, inspection IA."
+          },
+          {
+            "question": "Vos machines gèrent-elles différentes tailles ?",
+            "answer": "Oui, tailles standard : poker (63x88mm), bridge (56x88mm), mini, tarot et sur mesure. Changement en 3-5 min."
+          }
+        ]
+      },
+      {
+        "id": "production-line",
+        "title": "Ligne de Production",
+        "items": [
+          {
+            "question": "CHANFER fournit-il des lignes complètes ?",
+            "answer": "Oui, CHANFER fournit des lignes clés en main : alimentation, comptage, emballage, cartonnage, mise en caisse, scellage, palettisation robotisée et système de dispatching."
+          },
+          {
+            "question": "Que comprend une ligne complète ?",
+            "answer": "1) Stations d'alimentation et comptage, 2) système de dispatching, 3) machine d'emballage, 4) cartonneuse, 5) mise en caisse, 6) scelleuse, 7) robot palettiseur, 8) inspection IA, 9) système de contrôle."
+          },
+          {
+            "question": "Qu'est-ce que le cartonnage ?",
+            "answer": "Place les produits emballés dans des cartons. Les cartonneuses CHANFER gèrent divers formats jusqu'à 120 cartons/min."
+          },
+          {
+            "question": "Qu'est-ce que la mise en caisse et palettisation ?",
+            "answer": "La mise en caisse groupe les cartons en caisses d'expédition, la palettisation empile les caisses sur palettes. CHANFER utilise des cobots."
+          },
+          {
+            "question": "Combien de temps pour l'installation ?",
+            "answer": "Ligne complète : 2-4 semaines, incluant installation, intégration, tests et formation."
+          }
+        ]
+      },
+      {
+        "id": "quality-inspection",
+        "title": "Qualité & Inspection IA",
+        "items": [
+          {
+            "question": "Comment fonctionne l'inspection visuelle IA ?",
+            "answer": "Le système IA CHANFER utilise des caméras haute vitesse et le machine learning pour inspecter en temps réel à 400+ feuilles/min. Détecte les cartes erronées, manquantes et défauts. Arrêt automatique en cas d'erreur."
+          },
+          {
+            "question": "Quel est le taux d'erreur ?",
+            "answer": "La ligne smart atteint un taux d'erreur quasi nul grâce à l'inspection IA et au contrôle qualité automatisé. Inspection 100% en temps réel."
+          },
+          {
+            "question": "Quelles certifications a CHANFER ?",
+            "answer": "ISO9001, National High-Tech Enterprise, SRDI Guangdong. 100+ brevets et certification CE."
+          },
+          {
+            "question": "Comment garantir la qualité d'emballage ?",
+            "answer": "Par : 1) inspection IA 400+ feuilles/min, 2) détection anti-erreur, 3) comptage automatique 100%, 4) surveillance temps réel, 5) traçabilité, 6) processus ISO9001."
+          },
+          {
+            "question": "Temps de changement de recette ?",
+            "answer": "3-5 minutes avec le système CHANFER (vs 30-60 min manuel). 1000+ fichiers de recettes."
+          }
+        ]
+      },
+      {
+        "id": "industry-applications",
+        "title": "Industries & Applications",
+        "items": [
+          {
+            "question": "Quelles industries CHANFER dessert-il ?",
+            "answer": "Cartes à jouer, jeux de société, cartes à collectionner et imprimerie. Aussi alimentaire, médical, chimie et quincaillerie. 8000+ clients."
+          },
+          {
+            "question": "Vos machines emballent-elles les boosters TCG ?",
+            "answer": "Oui, les boosters TCG sont une application principale. Flow wrap le plus populaire, jusqu'à 220 sachets/min. Tri multi-cartes disponible."
+          },
+          {
+            "question": "Pouvez-vous emballer des cartes sportives ?",
+            "answer": "Oui, pour les cartes sportives premium, nous recommandons scellage quatre côtés ou 3D. L'inspection IA garantit la bonne séquence."
+          },
+          {
+            "question": "Pouvez-vous emballer des cartes anime ?",
+            "answer": "Absolument. Bande auto-adhésive et 3D sont populaires. Le système IA gère les recettes de tri complexes."
+          },
+          {
+            "question": "Solutions pour les composants de jeux ?",
+            "answer": "Oui, CHANFER offre l'emballage pour cartes, jetons et composants. Le cerclage est idéal pour les decks."
+          }
+        ]
+      },
+      {
+        "id": "ordering-service",
+        "title": "Commande & Service",
+        "items": [
+          {
+            "question": "Comment commander une machine ?",
+            "answer": "1) Contact via WhatsApp (+86 13060985132) ou email (sarah@gzchanfer.com), 2) communiquez vos besoins, 3) recevez solution et devis, 4) production 4-8 semaines, 5) installation et formation incluses."
+          },
+          {
+            "question": "Fournissez-vous installation et formation ?",
+            "answer": "Oui, CHANFER fournit l'installation sur site, la mise en service et la formation des opérateurs. Support à distance disponible."
+          },
+          {
+            "question": "Quels sont les délais ?",
+            "answer": "Machines standard : 4-6 semaines. Lignes complètes : 6-8 semaines. Solutions sur mesure : 8-12 semaines."
+          },
+          {
+            "question": "Service après-vente et pièces ?",
+            "answer": "Oui, support à distance, diagnostic vidéo, visites sur site et pièces détachées. Expédition 24-48h."
+          },
+          {
+            "question": "Peut-on visiter votre usine ?",
+            "answer": "Bien sûr. Visitez notre usine à Dongguan et bureau à Guangzhou. Contactez-nous pour un rendez-vous."
+          },
+          {
+            "question": "Fournissez-vous l'emballage à façon ?",
+            "answer": "Oui, CHANFER opère une salle blanche de 5000 m² pour l'emballage à façon. Vous fournissez le produit, nous faisons le reste."
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "D'autres Questions ?",
+      "description": "Notre équipe est prête à vous aider.",
+      "button1": "Contactez-nous",
+      "button2": "Voir les Solutions"
+    }
   }
 }
