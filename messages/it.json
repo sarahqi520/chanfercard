@@ -10,7 +10,8 @@
     "machines": "Macchinari",
     "about": "Chi Siamo",
     "contact": "Contatti",
-    "getQuote": "Richiedi Preventivo"
+    "getQuote": "Richiedi Preventivo",
+    "faq": "FAQ"
   },
   "topBar": {
     "tagline": "Soluzioni Automatiche Complete di Conteggio e Confezionamento"
@@ -545,5 +546,202 @@
     "phone": "Telefono",
     "mobile": "Cellulare",
     "email": "Email"
+  },
+  "faqPage": {
+    "hero": {
+      "badge": "Centro Conoscenza",
+      "title": "Domande Frequenti",
+      "description": "Tutto ciò che devi sapere sui metodi di imballaggio delle carte, le macchine, le linee di produzione e i servizi CHANFER.",
+      "searchPlaceholder": "Cerca domande...",
+      "noResults": "Nessuna domanda trovata. Prova un'altra ricerca.",
+      "allCategories": "Tutte",
+      "questionsLabel": "domande con risposta",
+      "metaTitle": "FAQ Imballaggio Carte | CHANFER",
+      "metaDescription": "Risposte alle domande comuni sui metodi di imballaggio delle carte, le macchine, le velocità di produzione, l'ispezione AI e le linee di imballaggio complete."
+    },
+    "categories": [
+      {
+        "id": "packaging-methods",
+        "title": "Metodi di Imballaggio",
+        "items": [
+          {
+            "question": "Quali sono i 6 metodi principali di imballaggio per carte da gioco?",
+            "answer": "I 6 metodi principali sono: imballaggio caramella (flow wrap), striscia autoadesiva (sacchetto richiudibile), sigillatura quattro lati, fasciatura (nastro di carta), termoretraente e tridimensionale (3D box). Ogni metodo si adatta a diversi tipi di carte, volumi e requisiti di presentazione."
+          },
+          {
+            "question": "Come scegliere il metodo giusto di imballaggio?",
+            "answer": "Dipende da: 1) tipo di carta, 2) velocità richiesta, 3) necessità di richiudibilità, 4) presentazione retail, 5) budget, 6) sostenibilità. Per i booster TCG, il flow wrap è il più popolare. Per le carte premium, sigillatura quattro lati o 3D."
+          },
+          {
+            "question": "Cos'è l'imballaggio caramella per carte collezionabili?",
+            "answer": "L'imballaggio caramella (flow wrap) è il metodo più popolare per i booster TCG. Usa una pellicola continua che avvolge il prodotto sigillando entrambe le estremità, fino a 220 buste/min."
+          },
+          {
+            "question": "Cos'è l'imballaggio con striscia autoadesiva?",
+            "answer": "Crea sacchetti richiudibili con striscia pelabile per apertura e chiusura ripetuta. Ideale per prodotti premium che necessitano richiudibilità. Velocità: 30-90 pacchi/min."
+          },
+          {
+            "question": "Cos'è la sigillatura quattro lati?",
+            "answer": "Sigilla termicamente tutti e quattro i bordi, offrendo presentazione premium antimanomissione. I bordi sigillati proteggono da umidità e contaminazione. Velocità: 50-150 pacchi/min."
+          },
+          {
+            "question": "Cos'è la fasciatura per carte?",
+            "answer": "Usa nastri di carta ecologici per legare i mazzi di carte. Materiale minimo con fissaggio sicuro — il metodo più sostenibile. Velocità: 5-20 pacchi/min."
+          },
+          {
+            "question": "Cos'è l'imballaggio termoretraente?",
+            "answer": "Usa pellicola che si restringe aderendo al prodotto con il calore, fornendo visibilità a 360° e ottima protezione. Velocità: 20-100 buste/min."
+          },
+          {
+            "question": "Cos'è l'imballaggio tridimensionale?",
+            "answer": "Crea un pacchetto rigido simile a una scatola da un singolo foglio di pellicola. Presentazione premium con bordi netti, ideale per prodotti di lusso. Velocità: 40-80 buste/min."
+          }
+        ]
+      },
+      {
+        "id": "machines-equipment",
+        "title": "Macchine & Attrezzature",
+        "items": [
+          {
+            "question": "Quali tipi di macchine per imballaggio carte sono disponibili?",
+            "answer": "CHANFER offre: alimentatori, contatori, distributori, macchine flow wrap, striscia autoadesiva, sigillatrici quattro lati, fasciatrici, termoretraenti, 3D, cartonatrici, inscatolatrici, sigillatrici, robot per palletizzazione e sistemi di ispezione AI."
+          },
+          {
+            "question": "Qual è la velocità di produzione?",
+            "answer": "Velocità variabili: caramella 20-220, striscia 30-90, quattro lati 50-150, fasciatura 5-20, termoretraente 20-100, 3D 40-80 pacchi/min. Dipende da dimensioni e configurazione."
+          },
+          {
+            "question": "Come funziona l'alimentatore di carte?",
+            "answer": "Separa e alimenta singole carte da una pila nella linea di imballaggio con controllo servo, garantendo consegna una alla volta ad alta velocità con sensori per doppie carte."
+          },
+          {
+            "question": "Come funziona il contatore di carte?",
+            "answer": "Usa sensori ottici e conteggio meccanico per contare accuratamente le carte. Garantisce 100% di accuratezza con monitoraggio in tempo reale."
+          },
+          {
+            "question": "Cos'è il sistema di smistamento computerizzato?",
+            "answer": "Il sistema CHANFER usa computer, distributori e alimentatori per smistare le carte secondo ricette preimpostate. Modificabile in Excel, 1000+ ricette, 25000 pacchi per lotto, ispezione AI."
+          },
+          {
+            "question": "Le vostre macchine gestiscono diverse dimensioni di carte?",
+            "answer": "Sì, dimensioni standard: poker (63x88mm), bridge (56x88mm), mini, tarocchi e personalizzate. Cambio formato in 3-5 minuti."
+          }
+        ]
+      },
+      {
+        "id": "production-line",
+        "title": "Linea di Produzione",
+        "items": [
+          {
+            "question": "CHANFER fornisce linee complete?",
+            "answer": "Sì, CHANFER fornisce linee complete chiavi in mano: alimentazione, conteggio, imballaggio, cartonatura, inscatolamento, sigillatura, palletizzazione robotizzata e sistema di smistamento."
+          },
+          {
+            "question": "Cosa include una linea completa?",
+            "answer": "1) Stazioni di alimentazione e conteggio, 2) sistema di smistamento, 3) macchina imballatrice, 4) cartonatrice, 5) inscatolatrice, 6) sigillatrice, 7) robot palletizzatore, 8) ispezione AI, 9) sistema di controllo."
+          },
+          {
+            "question": "Cos'è la cartonatura?",
+            "answer": "La cartonatura posiziona i prodotti imballati in scatole di cartone. Le cartonatrici CHANFER gestiscono vari formati fino a 120 scatole/min."
+          },
+          {
+            "question": "Cos'è l'inscatolamento e la palletizzazione?",
+            "answer": "L'inscatolamento raggruppa più scatole in casse di spedizione, la palletizzazione impila le casse sui pallet. CHANFER usa cobot per palletizzazione sicura e flessibile."
+          },
+          {
+            "question": "Quanto tempo richiede l'installazione?",
+            "answer": "L'installazione di una linea completa richiede 2-4 settimane, inclusa installazione, integrazione, test e formazione operatori."
+          }
+        ]
+      },
+      {
+        "id": "quality-inspection",
+        "title": "Qualità & Ispezione AI",
+        "items": [
+          {
+            "question": "Come funziona l'ispezione visiva AI?",
+            "answer": "Il sistema AI CHANFER usa telecamere ad alta velocità e algoritmi di machine learning per ispezionare le carte in tempo reale a 400+ fogli/min. Rileva carte errate, mancanti e difetti. Arresto automatico in caso di errore."
+          },
+          {
+            "question": "Qual è il tasso di errore?",
+            "answer": "La linea smart CHANFER raggiunge un tasso di errore quasi zero grazie all'ispezione AI, al rilevamento anti-errore e al controllo qualità automatizzato. Ispezione 100% in tempo reale."
+          },
+          {
+            "question": "Quali certificazioni ha CHANFER?",
+            "answer": "ISO9001, National High-Tech Enterprise, SRDI Guangdong. 100+ brevetti e certificazione CE."
+          },
+          {
+            "question": "Come garantire la qualità dell'imballaggio?",
+            "answer": "Tramite: 1) ispezione AI 400+ fogli/min, 2) rilevamento anti-errore, 3) conteggio automatico 100%, 4) monitoraggio real-time, 5) tracciamento dati, 6) processi ISO9001."
+          },
+          {
+            "question": "Quanto dura il cambio formato?",
+            "answer": "Con il sistema CHANFER, il cambio tra ricette diverse richiede 3-5 minuti (vs 30-60 min tradizionali). 1000+ file di ricette."
+          }
+        ]
+      },
+      {
+        "id": "industry-applications",
+        "title": "Settori & Applicazioni",
+        "items": [
+          {
+            "question": "Quali settori serve CHANFER?",
+            "answer": "CHANFER serve principalmente carte da gioco, board game, carte collezionabili e stampa. Fornisce anche soluzioni per alimentare, medico, chimico e ferramenta. 8000+ clienti."
+          },
+          {
+            "question": "Le vostre macchine imballano booster TCG?",
+            "answer": "Sì, i booster TCG sono una delle applicazioni principali. Flow wrap è il metodo più popolare, fino a 220 buste/min. Smistamento multi-carta disponibile."
+          },
+          {
+            "question": "Potete imballare carte sportive?",
+            "answer": "Sì, per carte sportive premium consigliamo sigillatura quattro lati o 3D. L'ispezione AI garantisce la sequenza corretta per edizioni limitate."
+          },
+          {
+            "question": "Potete imballare carte anime e collezionabili?",
+            "answer": "Assolutamente. Per anime e collezionabili, striscia autoadesiva e 3D sono scelte popolari. Il sistema AI gestisce ricette di smistamento complesse."
+          },
+          {
+            "question": "Fornite soluzioni per componenti di board game?",
+            "answer": "Sì, CHANFER fornisce imballaggio per carte, gettoni e componenti. La fasciatura è ideale per mazzi, le linee multi-stazione gestiscono vari tipi di componenti."
+          }
+        ]
+      },
+      {
+        "id": "ordering-service",
+        "title": "Ordini & Servizio",
+        "items": [
+          {
+            "question": "Come ordinare una macchina?",
+            "answer": "1) Contattateci via WhatsApp (+86 13060985132) o email (sarah@gzchanfer.com), 2) comunicate i requisiti, 3) ricevete soluzione e preventivo, 4) produzione 4-8 settimane, 5) installazione e formazione incluse."
+          },
+          {
+            "question": "Fornite installazione e formazione?",
+            "answer": "Sì, CHANFER fornisce installazione in loco, messa in servizio e formazione operatori. Supporto remoto disponibile."
+          },
+          {
+            "question": "Quali sono i tempi di consegna?",
+            "answer": "Macchine standard: 4-6 settimane. Linee complete: 6-8 settimane. Soluzioni personalizzate: 8-12 settimane."
+          },
+          {
+            "question": "Fornite assistenza e ricambi?",
+            "answer": "Sì, supporto remoto, diagnosi video, visite in loco e ricambi. Spedizione ricambi comuni in 24-48 ore."
+          },
+          {
+            "question": "Possiamo visitare la vostra fabbrica?",
+            "answer": "Certo. Visitate il nostro stabilimento a Dongguan e l'ufficio a Guangzhou. Contattateci per prenotare."
+          },
+          {
+            "question": "Fornite servizi di imballaggio conto terzi?",
+            "answer": "Sì, CHANFER opera una clean room di 5000 mq per imballaggio conto terzi. Voi fornite il prodotto, noi facciamo il resto."
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Altre Domande?",
+      "description": "Il nostro team è pronto ad aiutarvi a trovare la soluzione perfetta.",
+      "button1": "Contattaci",
+      "button2": "Vedi Soluzioni"
+    }
   }
 }
