@@ -110,7 +110,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     },
     verification: {
       google: "FuXRl9gpad4P_QB5l2eViLoxW_4O86psl6n8xYK3z_U",
-      yandex: "yandex-verification-code-placeholder",
+      yandex: "6adabb4512b1b5bb",
     },
   };
 }
