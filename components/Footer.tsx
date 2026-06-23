@@ -148,6 +148,11 @@ export default function Footer({ dict, locale }: { dict: Dictionary; locale: Loc
                 </Link>
               </li>
               <li>
+                <Link href={`/${locale}/faq`} className="hover:text-accent transition-colors">
+                  {nav.faq || "FAQ"}
+                </Link>
+              </li>
+              <li>
                 <Link href={`/${locale}/about`} className="hover:text-accent transition-colors">
                   {footerQuickLinks.aboutChanfer}
                 </Link>
