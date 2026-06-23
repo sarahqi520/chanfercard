@@ -10,7 +10,8 @@
     "machines": "Maschinen",
     "about": "Über uns",
     "contact": "Kontakt",
-    "getQuote": "Angebot anfordern"
+    "getQuote": "Angebot anfordern",
+    "faq": "FAQ"
   },
   "topBar": {
     "tagline": "Komplettlösungen für Zähl- & Verpackungsautomatisierung"
@@ -545,5 +546,202 @@
     "phone": "Telefon",
     "mobile": "Mobil",
     "email": "E-Mail"
+  },
+  "faqPage": {
+    "hero": {
+      "badge": "Wissenszentrum",
+      "title": "Häufig gestellte Fragen",
+      "description": "Alles, was Sie über Kartenverpackungsmethoden, Maschinen, Produktionslinien und CHANFER-Dienste wissen müssen.",
+      "searchPlaceholder": "Fragen suchen...",
+      "noResults": "Keine Fragen gefunden. Andere Suche versuchen.",
+      "allCategories": "Alle",
+      "questionsLabel": "beantwortete Fragen",
+      "metaTitle": "Kartenverpackung FAQ | CHANFER",
+      "metaDescription": "Antworten zu Kartenverpackungsmethoden, Maschinen, Produktionsgeschwindigkeiten, KI-Inspektion und kompletten Verpackungslinien."
+    },
+    "categories": [
+      {
+        "id": "packaging-methods",
+        "title": "Verpackungsmethoden",
+        "items": [
+          {
+            "question": "Was sind die 6 Hauptverpackungsmethoden für Spielkarten?",
+            "answer": "Die 6 Methoden sind: Bonbonverpackung (Flow-Wrap), selbstklebender Streifen (wiederverschließbar), Vierseiten-Siegelung, Bänderung (Papierband), Schrumpffolie und 3D-Verpackung. Jede Methode eignet sich für verschiedene Kartentypen und Produktionsvolumina."
+          },
+          {
+            "question": "Wie wählt man die richtige Verpackungsmethode?",
+            "answer": "Abhängig von: 1) Kartentyp, 2) Produktionsgeschwindigkeit, 3) Wiederverschließbarkeit, 4) Retail-Präsentation, 5) Budget, 6) Nachhaltigkeit. Für TCG-Booster ist Flow-Wrap am beliebtesten. Für Premium-Karten Vierseiten-Siegelung oder 3D."
+          },
+          {
+            "question": "Was ist Bonbonverpackung für Sammelkarten?",
+            "answer": "Bonbonverpackung (Flow-Wrap) ist die beliebteste Methode für TCG-Booster. Verwendet durchgehende Folie, die das Produkt umwickelt und beide Enden versiegelt. Bis zu 220 Beutel/Min."
+          },
+          {
+            "question": "Was ist selbstklebende Streifenverpackung?",
+            "answer": "Erstellt wiederverschließbare Beutel mit Abzieh-/Siegelstreife für wiederholtes Öffnen und Schließen. Ideal für Premium-Karten. Geschwindigkeit: 30-90 Packungen/Min."
+          },
+          {
+            "question": "Was ist Vierseiten-Siegelung?",
+            "answer": "Versiegelt alle vier Kanten thermisch für Premium-Präsentation mit Manipulationsschutz. Vollständig versiegelte Kanten schützen vor Feuchtigkeit. Geschwindigkeit: 50-150 Packungen/Min."
+          },
+          {
+            "question": "Was ist Bänderung für Karten?",
+            "answer": "Verwendet umweltfreundliche Papierbänder zum Bündeln von Kartendecks. Minimaler Materialeinsatz bei sicherer Bündelung. Geschwindigkeit: 5-20 Packungen/Min."
+          },
+          {
+            "question": "Was ist Schrumpffolienverpackung?",
+            "answer": "Schrumpffolie legt sich bei Hitze eng an das Produkt, bietet 360°-Sicht und excellenten Schutz. Geschwindigkeit: 20-100 Beutel/Min."
+          },
+          {
+            "question": "Was ist 3D-Verpackung?",
+            "answer": "Erstellt eine starre, schachtelartige Verpackung aus einem Folienblatt. Premium-Präsentation mit scharfen Kanten. Geschwindigkeit: 40-80 Beutel/Min."
+          }
+        ]
+      },
+      {
+        "id": "machines-equipment",
+        "title": "Maschinen & Geräte",
+        "items": [
+          {
+            "question": "Welche Arten von Kartenverpackungsmaschinen gibt es?",
+            "answer": "CHANFER bietet: Kartenbeschicker, Zählmaschinen, Ausgabegeräte, Flow-Wrap-Maschinen, Streifenbeutelmaschinen, Vierseiten-Siegelmaschinen, Bänderungsmaschinen, Schrumpffolienmaschinen, 3D-Maschinen, Kartoniermaschinen, Verpackungsroboter und KI-Inspektionssysteme."
+          },
+          {
+            "question": "Wie hoch ist die Produktionsgeschwindigkeit?",
+            "answer": "Geschwindigkeiten: Bonbon 20-220, Streifen 30-90, Vierseiten 50-150, Bänderung 5-20, Schrumpf 20-100, 3D 40-90 Packungen/Min. Abhängig von Kartengröße und Konfiguration."
+          },
+          {
+            "question": "Wie funktioniert ein Kartenbeschicker?",
+            "answer": "Trennt und zuführt einzelne Karten aus einem Stapel in die Verpackungslinie mit Servosteuerung. Sensoren erkennen Doppelzulagen."
+          },
+          {
+            "question": "Wie funktioniert eine KartenZählmaschine?",
+            "answer": "Verwendet optische Sensoren und mechanische Zählung für genaue Kartenzählung. 100% Genauigkeit mit Echtzeitüberwachung."
+          },
+          {
+            "question": "Was ist ein Computer-Kartendispositionssystem?",
+            "answer": "Das CHANFER-System verwendet Computer, Ausgabegeräte und Beschicker zum automatischen Sortieren nach Rezepten. In Excel bearbeitbar, 1000+ Rezepte, 25000 Packungen pro Charge, KI-Inspektion."
+          },
+          {
+            "question": "Können Ihre Maschinen verschiedene Kartengrößen verarbeiten?",
+            "answer": "Ja, Standardgrößen: Poker (63x88mm), Bridge (56x88mm), Mini, Tarot und Sondergrößen. Formatwechsel in 3-5 Minuten."
+          }
+        ]
+      },
+      {
+        "id": "production-line",
+        "title": "Produktionslinie",
+        "items": [
+          {
+            "question": "Bietet CHANFER komplette Produktionslinien an?",
+            "answer": "Ja, CHANFER bietet komplette Turnkey-Linien: Beschickung, Zählung, Verpackung, Kartonierung, Verpackung, Siegelung, Roboterpalletisierung und Kartendispositionssystem."
+          },
+          {
+            "question": "Was umfasst eine komplette Linie?",
+            "answer": "1) Beschick- und Zählstationen, 2) Dispositionssystem, 3) Verpackungsmaschine, 4) Kartonierer, 5) Verpackungsmaschine, 6) Siegelgerät, 7) Palettierroboter, 8) KI-Inspektion, 9) Steuerungssystem."
+          },
+          {
+            "question": "Was ist Kartonierung?",
+            "answer": "Kartonierung platziert verpackte Kartenprodukte in Kartons. CHANFER-Kartonierer verarbeiten verschiedene Formate bis 120 Kartons/Min."
+          },
+          {
+            "question": "Was ist Verpackung und Palettierung?",
+            "answer": "Verpackung gruppiert Kartons in Versandkisten, Palettierung stapelt Kisten auf Paletten. CHANFER verwendet kollaborative Roboter."
+          },
+          {
+            "question": "Wie lange dauert die Installation?",
+            "answer": "Komplette Linie: 2-4 Wochen inklusive Installation, Integration, Test und Schulung."
+          }
+        ]
+      },
+      {
+        "id": "quality-inspection",
+        "title": "Qualität & KI-Inspektion",
+        "items": [
+          {
+            "question": "Wie funktioniert die KI-Bildinspektion?",
+            "answer": "Das CHANFER-KI-System verwendet Hochgeschwindigkeitskameras und Machine-Learning-Algorithmen zur Echtzeitinspektion bei 400+ Blättern/Min. Erkennt falsche, fehlende Karten und Defekte. Automatischer Stopp bei Fehlern."
+          },
+          {
+            "question": "Wie hoch ist die Fehlerrate?",
+            "answer": "Die Smart-Line erreicht nahezu null Fehler durch KI-Inspektion und automatisierte Qualitätskontrolle. 100% Echtzeitprüfung."
+          },
+          {
+            "question": "Welche Zertifizierungen hat CHANFER?",
+            "answer": "ISO9001, National High-Tech Enterprise, SRDI Guangdong. 100+ Patente und CE-Zertifizierung."
+          },
+          {
+            "question": "Wie wird die Verpackungsqualität gesichert?",
+            "answer": "Durch: 1) KI-Inspektion 400+ Blätter/Min, 2) Fehlererkennung, 3) automatische Zählung 100%, 4) Echtzeitüberwachung, 5) Datenverfolgung, 6) ISO9001-Prozesse."
+          },
+          {
+            "question": "Wie lange dauert der Rezeptwechsel?",
+            "answer": "3-5 Minuten mit dem CHANFER-System (vs. 30-60 Min. manuell). 1000+ Rezeptdateien speicherbar."
+          }
+        ]
+      },
+      {
+        "id": "industry-applications",
+        "title": "Branchen & Anwendungen",
+        "items": [
+          {
+            "question": "Welche Branchen bedient CHANFER?",
+            "answer": "Spielkarten, Brettspiele, Sammelkarten und Druckindustrie. Auch Lebensmittel, Medizin, Chemie und Hardware. 8000+ Kunden."
+          },
+          {
+            "question": "Können Ihre Maschinen TCG-Booster verpacken?",
+            "answer": "Ja, TCG-Booster sind eine Hauptanwendung. Flow-Wrap am beliebtesten, bis 220 Beutel/Min. Multi-Karten-Sortierung verfügbar."
+          },
+          {
+            "question": "Können Sie Sportkarten verpacken?",
+            "answer": "Ja, für Premium-Sportkarten empfehlen wir Vierseiten-Siegelung oder 3D. KI-Inspektion sichert richtige Reihenfolge für Limitierte Editionen."
+          },
+          {
+            "question": "Können Sie Anime- und Sammelkarten verpacken?",
+            "answer": "Absolut. Selbstklebende Streifen und 3D-Verpackung sind beliebt. Das KI-System verarbeitet komplexe Sortierrezepte."
+          },
+          {
+            "question": "Bieten Sie Lösungen für Brettspiel-Komponenten?",
+            "answer": "Ja, CHANFER bietet Verpackung für Karten, Token und Komponenten. Bänderung ideal für Kartendecks."
+          }
+        ]
+      },
+      {
+        "id": "ordering-service",
+        "title": "Bestellung & Service",
+        "items": [
+          {
+            "question": "Wie bestellt man eine Maschine?",
+            "answer": "1) Kontakt via WhatsApp (+86 13060985132) oder E-Mail (sarah@gzchanfer.com), 2) Anforderungen mitteilen, 3) Lösung und Angebot erhalten, 4) Produktion 4-8 Wochen, 5) Installation und Schulung inklusive."
+          },
+          {
+            "question": "Bieten Sie Installation und Schulung?",
+            "answer": "Ja, CHANFER bietet Vor-Ort-Installation, Inbetriebnahme und Bedienerschulung. Fernsupport verfügbar."
+          },
+          {
+            "question": "Wie lang sind die Lieferzeiten?",
+            "answer": "Standardmaschinen: 4-6 Wochen. Komplette Linien: 6-8 Wochen. Sonderlösungen: 8-12 Wochen."
+          },
+          {
+            "question": "Bieten Sie Service und Ersatzteile?",
+            "answer": "Ja, Fernsupport, Videodiagnose, Vor-Ort-Service und Ersatzteile. Versand innerhalb 24-48 Stunden."
+          },
+          {
+            "question": "Können wir Ihre Fabrik besuchen?",
+            "answer": "Natürlich. Besuchen Sie unser Werk in Dongguan und Büro in Guangzhou. Kontaktieren Sie uns für einen Termin."
+          },
+          {
+            "question": "Bieten Sie Lohnverpackung?",
+            "answer": "Ja, CHANFER betreibt einen 5000 m² Reinraum für Lohnverpackung. Sie liefern das Produkt, wir machen den Rest."
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Noch Fragen?",
+      "description": "Unser Team hilft Ihnen, die perfekte Lösung zu finden.",
+      "button1": "Kontakt",
+      "button2": "Lösungen ansehen"
+    }
   }
 }
