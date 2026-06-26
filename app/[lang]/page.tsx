@@ -162,6 +162,34 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 </Link>
               </div>
 
+              {/* Expo Announcement */}
+              <div className="mt-6">
+                <a
+                  href="https://www.printingunited.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-white/12 backdrop-blur-md border border-white/20 hover:bg-white/20 hover:border-accent/50 transition-all text-sm"
+                >
+                  <Image
+                    src="/images/printing-united-expo-2026.jpg"
+                    alt={hero.expoAlt || "PRINTING United Expo 2026"}
+                    width={56}
+                    height={32}
+                    className="rounded-md object-cover"
+                    unoptimized
+                  />
+                  <div className="flex flex-col">
+                    <span className="font-bold text-white leading-tight">
+                      {hero.expoTitle || "PRINTING United Expo 2026"}
+                    </span>
+                    <span className="text-white/60 text-xs leading-tight mt-0.5">
+                      {hero.expoInfo || "Booth N7411 | Sept. 23–25, Las Vegas"}
+                    </span>
+                  </div>
+                  <ArrowRight size={14} className="text-white/40 group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
+                </a>
+              </div>
+
               {/* Stats strip */}
               <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {stats.map((stat, i) => (
@@ -178,45 +206,6 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 ))}
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Expo Banner — PRINTING United Expo 2026 */}
-        <section className="relative overflow-hidden">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 py-12 md:py-16">
-            <a
-              href="https://www.printingunited.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300"
-            >
-              <div className="relative aspect-[2.3/1] w-full">
-                <Image
-                  src="/images/printing-united-expo-2026.jpg"
-                  alt={hero.expoAlt || "PRINTING United Expo 2026 — CHANFER Booth N7411"}
-                  fill
-                  className="object-cover group-hover:scale-[1.01] transition-transform duration-500"
-                  unoptimized
-                />
-                {/* Gradient overlay for readability on any screen size */}
-                <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-transparent" />
-              </div>
-              {/* Floating info card (visible on mobile as overlay) */}
-              <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8 bg-white/95 backdrop-blur-md rounded-xl px-5 py-3 md:px-7 md:py-5 shadow-lg max-w-sm border border-white/20">
-                <div className="flex items-center gap-2 mb-1.5">
-                  <span className="text-xs font-bold text-accent uppercase tracking-wider">
-                    {hero.expoLabel || "Upcoming Event"}
-                  </span>
-                  <ArrowRight size={14} className="text-muted-foreground group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
-                </div>
-                <h3 className="text-lg md:text-xl font-bold text-foreground leading-tight">
-                  {hero.expoTitle || "PRINTING United Expo 2026"}
-                </h3>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  {hero.expoInfo || "Booth No.: North Halls N7411 | Sept. 23–25, Las Vegas"}
-                </p>
-              </div>
-            </a>
           </div>
         </section>
 
