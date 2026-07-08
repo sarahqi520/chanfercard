@@ -1415,5 +1415,17 @@
       "ctaTitle": "관심?",
       "ctaDescription": "사양 및 가격."
     }
+  },
+  "media": {
+    "customerVideosTitle": "실제 고객 구현 사례",
+    "customerVideosSubtitle": "실제 고객 생산 시설에서 운영되는 당사의 장비를 확인해 보세요.",
+    "trainingVideosTitle": "운영 및 교육 비디오",
+    "trainingVideosSubtitle": "상세한 교육 비디오를 통해 이 기계의 설치, 조작 및 유지보수 방법을 배워보세요.",
+    "equipmentActionTitle": "장비 실제 가동",
+    "equipmentActionSubtitle": "전 세계 고객 생산 시설의 실제 비디오.",
+    "globalCustomersTitle": "글로벌 고객",
+    "globalCustomersSubtitle": "전 세계 카드 및 보드게임 제조사의 신뢰를 받고 있습니다.",
+    "teamCultureTitle": "팀 문화",
+    "teamCultureSubtitle": "우리의 직원은 CHANFER의 심장입니다. 팀 빌딩부터 기술 교육까지, 우리는 고객에게 최고를 제공하기 위해 팀에 투자합니다."
   }
 }
