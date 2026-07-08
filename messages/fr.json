@@ -1415,5 +1415,17 @@
       "ctaTitle": "Intéressé?",
       "ctaDescription": "Spécifications et prix."
     }
+  },
+  "media": {
+    "customerVideosTitle": "Implémentations Réelles chez les Clients",
+    "customerVideosSubtitle": "Voyez nos équipements en fonctionnement dans les installations de production de nos clients.",
+    "trainingVideosTitle": "Vidéos de Formation et d'Exploitation",
+    "trainingVideosSubtitle": "Apprenez à configurer, utiliser et entretenir cette machine grâce à nos vidéos de formation détaillées.",
+    "equipmentActionTitle": "Équipements en Action",
+    "equipmentActionSubtitle": "Vidéos réelles des installations de production de clients du monde entier.",
+    "globalCustomersTitle": "Clients Mondiaux",
+    "globalCustomersSubtitle": "Adopté par les principaux fabricants de cartes et de jeux de société du monde entier.",
+    "teamCultureTitle": "Culture d'Équipe",
+    "teamCultureSubtitle": "Nos collaborateurs sont le cœur de CHANFER. Du team building à la formation technique, nous investissons dans notre équipe pour offrir le meilleur à nos clients."
   }
 }
