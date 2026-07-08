@@ -16,6 +16,8 @@ import {
   Cpu,
   Gauge,
 } from "lucide-react";
+import VideoGallery from "@/components/VideoGallery";
+import { getTrainingVideosByMachine, getVideosByMachine } from "@/lib/media";
 
 interface Props {
   dict: Dictionary;
@@ -230,6 +232,32 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
           </div>
         </div>
       </section>
+
+      {/* Training Videos */}
+      <VideoGallery
+        videos={getTrainingVideosByMachine(machineId)}
+        title={
+          ((dict.media as Record<string, string>)?.trainingVideosTitle) ??
+          "Operation & Training Videos"
+        }
+        subtitle={
+          ((dict.media as Record<string, string>)?.trainingVideosSubtitle) ??
+          "Learn how to set up, operate, and maintain this machine with our detailed training videos."
+        }
+      />
+
+      {/* Customer Site Videos for this machine */}
+      <VideoGallery
+        videos={getVideosByMachine(machineId)}
+        title={
+          ((dict.media as Record<string, string>)?.customerVideosTitle) ??
+          "See It in Action"
+        }
+        subtitle={
+          ((dict.media as Record<string, string>)?.customerVideosSubtitle) ??
+          "Real-world operation videos from customer production facilities."
+        }
+      />
 
       {/* Related solutions */}
       {relatedSolutions.length > 0 && (
