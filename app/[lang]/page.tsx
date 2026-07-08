@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import VideoGallery from "@/components/VideoGallery";
+import PhotoGallery from "@/components/PhotoGallery";
 import {
   ArrowRight,
   Package,
@@ -20,6 +22,7 @@ import {
   PlayCircle,
 } from "lucide-react";
 import { packagingSolutions, companyInfo } from "@/lib/data";
+import { getFeaturedVideos, getPortraitVideos, clientPhotos, mediaReady } from "@/lib/media";
 import { getDictionary, t, type Dictionary } from "@/lib/i18n/dictionaries";
 import { type Locale } from "@/lib/i18n/config";
 import type { PackagingSolution } from "@/lib/data";
@@ -297,6 +300,16 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
           </div>
         </section>
 
+        {/* Equipment in Action — Customer site videos */}
+        <VideoGallery
+          videos={[...getFeaturedVideos(), ...getPortraitVideos()]}
+          title={(dict.media as Record<string, string>)?.equipmentActionTitle ?? "Equipment in Action"}
+          subtitle={
+            (dict.media as Record<string, string>)?.equipmentActionSubtitle ??
+            "Real-world videos from customer production facilities around the world."
+          }
+        />
+
         {/* Smart Card Dispatching System */}
         <section className="py-16 md:py-24 bg-muted">
           <div className="max-w-7xl mx-auto px-4 md:px-6">
@@ -390,6 +403,19 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </div>
           </div>
         </section>
+
+        {/* Global Customers — Client photos */}
+        {mediaReady.clientPhotos && (
+          <PhotoGallery
+            photos={clientPhotos}
+            title={(dict.media as Record<string, string>)?.globalCustomersTitle ?? "Global Customers"}
+            subtitle={
+              (dict.media as Record<string, string>)?.globalCustomersSubtitle ??
+              "Trusted by leading card and board game manufacturers worldwide."
+            }
+            variant="clients"
+          />
+        )}
 
         {/* Timeline */}
         <section className="py-16 md:py-24 bg-muted">
