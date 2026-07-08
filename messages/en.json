@@ -370,7 +370,8 @@
           "Limited edition card bundles"
         ]
       }
-    }
+    },
+    "viewDetails": "View Details"
   },
   "machines": {
     "title1": "Machine",
@@ -391,7 +392,76 @@
       "palletizing": "Palletizing",
       "ai": "AI Vision"
     },
-    "model": "Model"
+    "model": "Model",
+    "machinesData": {
+      "fkj-100sl": {
+        "name": "Automatic Friction Feeder",
+        "description": "High-speed friction feeder for card dispensing. Servo motor driven with PLC control, capable of feeding up to 800 cards/min (CR80 standard). Automatic alarm for missing cards and overfeeding."
+      },
+      "fkj-200e": {
+        "name": "Automatic Friction Feeder",
+        "description": "Medium-format friction feeder for larger card sizes. Feeds up to 500 cards/min with reliable servo control."
+      },
+      "fkj-300e": {
+        "name": "Automatic Friction Feeder",
+        "description": "Large-format friction feeder for oversized cards and sheets. Handles products up to 300×300mm."
+      },
+      "fkj-420e": {
+        "name": "Automatic Friction Feeder",
+        "description": "Extra-wide friction feeder for products up to 420mm width. Designed for board game boards and large format materials."
+      },
+      "three-head-suction": {
+        "name": "Card Suction Machine",
+        "description": "Planetary suction cup card dispenser for delicate or thin cards. Three sets of suction cups rotate counterclockwise to pick and feed cards individually."
+      },
+      "four-head-suction": {
+        "name": "Card Suction Machine",
+        "description": "High-speed four-head planetary suction machine. Four suction stations operating simultaneously for maximum throughput up to 280 pcs/min."
+      },
+      "card-dispensing-matching": {
+        "name": "Card Dispensing Matching System",
+        "description": "Intelligent multi-station card dispensing system with computer control. Automatically sorts and dispatches cards according to pre-set recipes."
+      },
+      "zs-220x": {
+        "name": "High-Speed Servo Packaging Machine",
+        "description": "Compact high-speed pillow packaging machine. Servo controlled with up to 220 bags/min output, ideal for candy-style card wrapping."
+      },
+      "sbf-250": {
+        "name": "Four-Side Sealing Servo Packaging Machine",
+        "description": "High-speed four-side sealing machine. Seven servo motors drive stable operation at up to 150 packs/min."
+      },
+      "qdzd-2130": {
+        "name": "Automatic Bagging Machine",
+        "description": "Self-adhesive strip bagging machine for card products. Supports three sealing methods."
+      },
+      "pof-shrink": {
+        "name": "Automatic POF Film Wrapping & Sealing Machine",
+        "description": "POF shrink wrapping machine for professional retail packaging with imported detection photoelectric."
+      },
+      "cartoning": {
+        "name": "Fully Automatic Box Packing Machine",
+        "description": "Automatic cartoning machine for boxed card products. Handles feeding, opening, inserting, and sealing."
+      },
+      "carton-forming": {
+        "name": "Automatic Carton Forming & Sealing Machine",
+        "description": "Carton case former with automatic bottom tape sealing. Vertical storage design for non-stop production."
+      },
+      "h-type-sealer": {
+        "name": "Automatic H-Type Carton Sealing Machine",
+        "description": "H-type carton sealer for top, bottom, and corner taping with 90° turning mechanism."
+      },
+      "palletizing-robot": {
+        "name": "Intelligent Collaborative Palletizing Robot",
+        "description": "Collaborative palletizing robot with 30kg payload and 1800mm working radius. Safe for human cooperation."
+      },
+      "ai-visual": {
+        "name": "AI Card Visual Inspection System",
+        "description": "AI-powered card inspection system with OCR and mixed-order detection. 100% error detection rate at 400+ sheets/min."
+      }
+    },
+    "featuresTitle": "Key Features",
+    "applicationsTitle": "Applications",
+    "viewDetails": "View Details"
   },
   "about": {
     "title1": "About",
@@ -774,6 +844,619 @@
       "description": "Our team is ready to help you find the perfect card packaging solution for your needs.",
       "button1": "Contact Us",
       "button2": "View Solutions"
+    }
+  },
+  "solutionDetail": {
+    "candy": {
+      "seoTitle": "Candy Packaging Machine for Trading Cards | CHANFER",
+      "seoDescription": "High-speed candy packaging (flow wrapping) for TCG booster packs and collectible cards. Up to 220 bags/min with servo-controlled precision sealing. Complete production line available.",
+      "keywords": "candy packaging machine, card candy packaging, flow wrapping machine, TCG booster pack packaging, trading card packaging, pillow packaging, card flow wrap, collectible card packaging",
+      "longDescription": [
+        "Candy packaging — also known as pillow-style flow wrapping — is the most widely used packaging method for trading card game (TCG) booster packs, collectible card sleeves, and game card multi-packs. This method wraps a continuous film around the card stack and heat-seals both ends, creating a sealed candy-style package that is tamper-evident, cost-effective, and ideal for high-volume production.",
+        "CHANFER's candy packaging line is built around a servo-controlled flow wrapping machine capable of producing up to 220 bags per minute. The servo motor drive ensures precise bag length control — set the length on the HMI touch screen and the machine cuts exactly where programmed, with no empty travel or film waste. A high-sensitivity photoelectric sensor tracks film registration marks for precise sealing alignment, even at maximum speed.",
+        "This packaging method is particularly popular among TCG publishers (such as Pokemon, Magic: The Gathering, and Yu-Gi-Oh! card manufacturers) because it delivers consistent, professional-looking packs at the speeds required for mass production. The candy wrapper provides excellent protection against moisture, dust, and tampering while allowing full-color printed film for retail shelf appeal.",
+        "The complete candy packaging production line integrates seamlessly with CHANFER's friction feeders, checkweighers, cartoning machines, case packers, and collaborative palletizing robots. Cards are fed and counted automatically, wrapped at high speed, checked for correct count and weight, cartoned, case-packed, sealed, and palletized — all with minimal operator intervention.",
+        "With up to 60 packaging parameter presets stored on the HMI, changeover between different card sizes or pack configurations takes only 3-5 minutes. The system also includes anti-misoperation features (auto-reverse when product switches) and no-film auto-stop protection to prevent waste and ensure continuous quality."
+      ],
+      "benefits": [
+        "Highest production speed — up to 220 bags/min for maximum throughput",
+        "Lowest cost per pack — minimal film usage with servo-optimized cutting",
+        "Tamper-evident sealing — both ends heat-sealed for product integrity",
+        "Fast changeover — 60 preset recipes, 3-5 min switch between products",
+        "Full-color printed film support — retail-ready packaging with brand graphics",
+        "Seamless line integration — connects to feeding, cartoning, and palletizing"
+      ],
+      "benefitsTitle": "Why Choose Candy Packaging?",
+      "faqs": [
+        {
+          "question": "What is candy packaging for trading cards?",
+          "answer": "Candy packaging (pillow-style flow wrapping) wraps a continuous film around the card stack and heat-seals both ends, creating a sealed candy-style package. It is the industry standard for TCG booster packs because it is fast (up to 220 bags/min), cost-effective, and provides tamper-evident protection with full-color printed film for retail appeal."
+        },
+        {
+          "question": "How fast is the candy packaging machine?",
+          "answer": "CHANFER's candy packaging machine operates at 20-220 bags per minute, depending on card size, film type, and pack configuration. The servo-controlled system maintains precise sealing quality even at maximum speed."
+        },
+        {
+          "question": "What card sizes can the candy packaging machine handle?",
+          "answer": "The machine handles card widths up to 220mm and product heights of 5-35mm. This covers all standard card sizes including poker size (63x88mm), bridge size (56x88mm), tarot cards, and multi-card booster packs."
+        },
+        {
+          "question": "Can the candy packaging line be integrated with cartoning and palletizing?",
+          "answer": "Yes, the candy packaging line integrates seamlessly with CHANFER's cartoning machines, case packers, H-type carton sealers, and collaborative palletizing robots for a complete turnkey production line from card feeding to palletized shipping."
+        }
+      ],
+      "faqTitle": "Candy Packaging FAQ",
+      "relatedMachinesTitle": "Machines Used in Candy Packaging Lines",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "ctaTitle": "Ready to Automate Your Candy Packaging?",
+      "ctaDescription": "Get a custom candy packaging line solution — from card feeding to palletizing. Our engineers will design the optimal configuration for your TCG booster packs or collectible cards.",
+      "otherSolutionsTitle": "Other Packaging Methods",
+      "viewMachineDetails": "View Details"
+    },
+    "self-adhesive": {
+      "seoTitle": "Self-Adhesive Strip Packaging Machine for Cards | CHANFER",
+      "seoDescription": "Reclosable self-adhesive strip bagging machine for premium card products. Re-sealable bags with peel-and-seal strips. 30-90 packs/min. Three sealing methods available.",
+      "keywords": "self-adhesive strip packaging, reclosable card bag, re-sealable card packaging, card bagging machine, peel and seal packaging, premium card packaging, card strip bag, collectible card bag",
+      "longDescription": [
+        "Self-adhesive strip packaging creates reclosable bags with a peel-and-seal strip that allows repeated opening and closing. This method is ideal for premium card products requiring re-sealability — collectors can open and close the package multiple times while keeping their cards protected.",
+        "CHANFER's self-adhesive strip bagging machine supports three sealing methods: self-adhesive strip (reclosable), hot-cut (permanent seal), and hot-press (permanent seal with premium finish). This versatility allows manufacturers to use the same machine for different product lines — from reclosable collector sets to permanently sealed retail packs.",
+        "The machine features automatic correction technology to reduce packaging loss, anti-air-bag detection (no material, no film wasted), and freely adjustable bag width for multi-specification products. One-click reset and bidirectional position control make changeover between product sizes quick and intuitive.",
+        "For premium card products, the self-adhesive strip method provides a retail-ready presentation that communicates quality. The clear film allows full product visibility while the reclosable strip adds functionality that consumers appreciate. Production speeds of 30-90 packs per minute balance quality and throughput for mid-volume premium production.",
+        "The complete line integrates with friction feeders for automatic card counting, cartoning machines for secondary packaging, and palletizing robots for end-of-line automation. Point memory functionality enables accurate counting and batch packing for limited edition sets."
+      ],
+      "benefits": [
+        "Reclosable functionality — peel-and-seal strip for repeated opening",
+        "Three sealing methods in one machine — self-adhesive, hot-cut, hot-press",
+        "Premium retail presentation — clear film with quality strip closure",
+        "Anti-waste technology — no material, no film wasted",
+        "Flexible bag width — adjustable for multi-spec products",
+        "Point memory for accurate counting and batch packing"
+      ],
+      "benefitsTitle": "Why Choose Self-Adhesive Strip Packaging?",
+      "faqs": [
+        {
+          "question": "What is self-adhesive strip packaging for cards?",
+          "answer": "Self-adhesive strip packaging creates reclosable bags with a peel-and-seal strip. The bag can be opened and closed multiple times, making it ideal for premium card products where consumers want to access their cards while keeping them protected. Production speed: 30-90 packs/min."
+        },
+        {
+          "question": "What sealing methods does the self-adhesive strip machine support?",
+          "answer": "The machine supports three sealing methods: self-adhesive strip (reclosable), hot-cut (permanent seal), and hot-press (permanent seal with premium finish). This allows one machine to handle different product lines with different packaging requirements."
+        },
+        {
+          "question": "Is self-adhesive strip packaging suitable for retail display?",
+          "answer": "Yes, self-adhesive strip packaging is ideal for retail display. The clear film provides full product visibility, the reclosable strip adds consumer-friendly functionality, and the premium finish communicates quality — making it perfect for collector card sets and limited edition products."
+        }
+      ],
+      "faqTitle": "Self-Adhesive Strip Packaging FAQ",
+      "relatedMachinesTitle": "Machines Used in Self-Adhesive Packaging Lines",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "qdzd-2130",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "ctaTitle": "Ready to Automate Your Self-Adhesive Packaging?",
+      "ctaDescription": "Get a custom self-adhesive strip packaging line designed for your premium card products. Our engineers will configure the optimal sealing method and line layout for your needs.",
+      "otherSolutionsTitle": "Other Packaging Methods",
+      "viewMachineDetails": "View Details"
+    },
+    "four-sides": {
+      "seoTitle": "Four-Sides Sealed Packaging Machine for Cards | CHANFER",
+      "seoDescription": "Premium four-sides sealed card packaging with tamper-evident sealing on all edges. 7 servo motors, 50-150 packs/min. Ideal for high-value trading cards and collectibles.",
+      "keywords": "four sides sealed packaging, card sealing machine, tamper-evident card packaging, premium card packaging, four-side seal, collectible card sealing, card heat sealing, servo sealing machine",
+      "longDescription": [
+        "Four-sides sealed packaging heat-seals all four edges of the package, delivering a premium, tamper-evident presentation that is the preferred choice for high-value trading cards and collectible products. The fully sealed edges protect against moisture, dust, and contamination while creating a clean, professional look that communicates quality.",
+        "CHANFER's four-sides sealing machine is engineered with seven servo motors for ultra-stable operation at speeds up to 150 packs per minute. The seven-motor design distributes the mechanical load across multiple precision drives, ensuring consistent sealing pressure and temperature across all four edges — even during long production runs.",
+        "A key differentiator is the three-color electric eye tracking system, which provides precise text and image alignment on printed films. This ensures that graphics, barcodes, and text are perfectly positioned on every package — critical for brand consistency and retail compliance. The unique reciprocating cutting and heat-sealing technology produces firm, stable seals at high speed without compromising quality.",
+        "The PLC programmable control system with touch-screen HMI allows operators to store and recall multiple product configurations, making changeover between different card sizes and film types quick and error-free. The machine handles product sizes from 100x100mm to 200x250mm with thicknesses of 1-10mm — covering all standard card formats and multi-card packs.",
+        "For collectible card manufacturers, four-sides sealed packaging provides the ultimate combination of protection and presentation. The tamper-evident design gives consumers confidence in product authenticity, while the clean edge seal creates a premium look that stands out on retail shelves."
+      ],
+      "benefits": [
+        "Tamper-evident — all four edges sealed for product authenticity",
+        "Moisture and contamination protection — fully sealed perimeter",
+        "Premium presentation — clean edges communicate quality",
+        "Seven servo motors — ultra-stable at 150 packs/min",
+        "Three-color electric eye — precise graphics alignment",
+        "Reciprocating cutting technology — firm, stable seals at high speed"
+      ],
+      "benefitsTitle": "Why Choose Four-Sides Sealed Packaging?",
+      "faqs": [
+        {
+          "question": "What is four-sides sealed packaging?",
+          "answer": "Four-sides sealed packaging heat-seals all four edges of the package, creating a tamper-evident, fully enclosed wrap. It is the preferred choice for high-value trading cards and collectible products because it provides maximum protection against moisture and contamination while delivering a premium retail presentation."
+        },
+        {
+          "question": "How fast is the four-sides sealing machine?",
+          "answer": "CHANFER's four-sides sealing machine operates at 50-150 packs per minute, powered by seven servo motors that ensure consistent sealing quality even at maximum speed. The reciprocating cutting and heat-sealing technology maintains firm, stable seals throughout the production run."
+        },
+        {
+          "question": "What makes four-sides sealed packaging tamper-evident?",
+          "answer": "All four edges of the package are heat-sealed, creating a fully enclosed wrap that cannot be opened without visibly damaging the packaging. This tamper-evident feature gives consumers confidence in product authenticity — particularly important for high-value collectible cards."
+        }
+      ],
+      "faqTitle": "Four-Sides Sealed Packaging FAQ",
+      "relatedMachinesTitle": "Machines Used in Four-Sides Sealed Lines",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "ctaTitle": "Ready to Automate Your Four-Sides Sealed Packaging?",
+      "ctaDescription": "Get a custom four-sides sealing line for your premium card products. Our engineers will configure the optimal servo settings, film tracking, and line integration for your needs.",
+      "otherSolutionsTitle": "Other Packaging Methods",
+      "viewMachineDetails": "View Details"
+    },
+    "banding": {
+      "seoTitle": "Card Banding Machine for Board Game Cards | CHANFER",
+      "seoDescription": "Eco-friendly paper band bundling machine for card decks. Servo-driven with PLC control. Handles cards 0.1-3mm thick. Ideal for board game cards and playing card sets.",
+      "keywords": "card banding machine, paper band packaging, card bundling machine, board game card packaging, playing card bundling, eco-friendly card packaging, card deck banding, paper banding",
+      "longDescription": [
+        "Banding packaging uses eco-friendly paper bands to bundle card decks together — the most sustainable packaging method in CHANFER's portfolio. By using minimal material while maintaining secure bundling, banding reduces packaging waste and cost while providing a clean, professional presentation ideal for board game card decks and standard playing card sets.",
+        "CHANFER's banding machine combines servo motor drive with PLC control and touch-screen operation. The system performs automatic card issuing and belt tying in a single operation — cards are counted, stacked, and banded without manual intervention. Photoelectric control ensures accurate dispensing and bundling, with adjustable settings for card quantity, material type, and belt alarm thresholds.",
+        "The machine handles a wide range of product specifications: thickness from 0.1mm to 3mm and maximum product size of 100x150mm. This covers standard playing cards (0.3mm), multi-layer card decks (up to 3mm), and various board game card formats. Multiple function settings allow operators to quickly switch between different deck sizes and quantities.",
+        "For environmentally conscious brands, banding offers a significant sustainability advantage over plastic-based packaging methods. The paper bands are biodegradable, recyclable, and use a fraction of the material compared to flow wrapping or shrink packaging. This aligns with growing consumer demand for eco-friendly packaging in the board game and tabletop gaming industry.",
+        "While banding operates at a lower speed (5-20 packs/min) compared to flow wrapping, it excels in applications where sustainability, simplicity, and cost-effectiveness are prioritized over maximum throughput. The complete line integrates with cartoning machines and palletizing robots for end-to-end automation."
+      ],
+      "benefits": [
+        "Most eco-friendly option — biodegradable paper bands, minimal material",
+        "Lowest packaging cost — paper bands are economical vs. plastic film",
+        "Servo-driven precision — PLC control with touch-screen HMI",
+        "One-step operation — card issuing and banding in a single pass",
+        "Flexible thickness range — handles 0.1-3mm cards and multi-deck bundles",
+        "Sustainable branding — communicates environmental responsibility"
+      ],
+      "benefitsTitle": "Why Choose Banding Packaging?",
+      "faqs": [
+        {
+          "question": "What is banding packaging for cards?",
+          "answer": "Banding packaging uses paper bands to bundle card decks together. It is the most eco-friendly packaging method, using minimal biodegradable material. Ideal for board game card decks and standard playing card sets where sustainability and cost-effectiveness are priorities."
+        },
+        {
+          "question": "What card thickness can the banding machine handle?",
+          "answer": "CHANFER's banding machine handles card thicknesses from 0.1mm to 3mm and maximum product size of 100x150mm. This covers standard playing cards, multi-card decks, and various board game card formats."
+        },
+        {
+          "question": "Is banding packaging environmentally friendly?",
+          "answer": "Yes, banding is the most eco-friendly packaging method in our portfolio. Paper bands are biodegradable, recyclable, and use a fraction of the material compared to plastic film packaging. This makes it ideal for environmentally conscious board game and tabletop gaming brands."
+        }
+      ],
+      "faqTitle": "Banding Packaging FAQ",
+      "relatedMachinesTitle": "Machines Used in Banding Lines",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "ctaTitle": "Ready to Automate Your Banding Packaging?",
+      "ctaDescription": "Get a custom banding line for your board game cards or playing card sets. Our engineers will configure the optimal banding machine and line integration for your products.",
+      "otherSolutionsTitle": "Other Packaging Methods",
+      "viewMachineDetails": "View Details"
+    },
+    "heat-shrink": {
+      "seoTitle": "Heat Shrink Packaging Machine for Card Boxes | CHANFER",
+      "seoDescription": "Professional heat shrink wrapping for card boxes and bundled products. 360° product visibility with tight-fitting shrink film. 20-100 bags/min. Retail-ready presentation.",
+      "keywords": "heat shrink packaging, shrink wrap machine, card shrink wrapping, card box packaging, shrink film packaging, retail card packaging, POF shrink wrap, card bundle packaging",
+      "longDescription": [
+        "Heat shrink packaging uses shrink film that conforms tightly to the product when heat is applied, providing 360-degree product visibility with excellent protection. The shrink film creates a professional, retail-ready presentation that is ideal for card boxes, bundled products, and multi-pack configurations.",
+        "CHANFER's heat shrink line combines a flow packing machine with a shrinking tunnel. The flow wrapper first seals the product in film, then the shrinking tunnel applies controlled heat to shrink the film tightly around the product. The result is a smooth, wrinkle-free package that showcases the product while providing robust protection.",
+        "The system is equipped with an imported detection photoelectric sensor specifically designed for thin and small packaging — ensuring precise film feeding and cutting even for compact card products. The sealing knife features auto-protection to prevent accidental cuts and operator injury, while the film up-down synchronization mechanism corrects deviation for consistent packaging quality.",
+        "For retail display, heat shrink packaging offers several advantages. The transparent film provides full product visibility, allowing consumers to see the card box or product inside. The tight-fitting wrap communicates quality and newness, while the adjustable hot air direction creates beautiful, consistent sealing lines that enhance shelf appeal.",
+        "The complete heat shrink line integrates with friction feeders for automatic card counting, flow packing machines for initial wrapping, cartoning machines for secondary packaging, and collaborative palletizing robots for end-of-line automation. Production speeds of 20-100 bags per minute accommodate both mid-volume and high-volume production requirements."
+      ],
+      "benefits": [
+        "360° product visibility — transparent film for full product display",
+        "Tight-fitting protection — shrink film conforms to product contour",
+        "Retail-ready presentation — professional look for shelf display",
+        "Imported photoelectric sensor — precise for thin/small packaging",
+        "Sealing knife auto-protection — operator safety built-in",
+        "Adjustable hot air direction — beautiful, consistent sealing lines"
+      ],
+      "benefitsTitle": "Why Choose Heat Shrink Packaging?",
+      "faqs": [
+        {
+          "question": "What is heat shrink packaging for cards?",
+          "answer": "Heat shrink packaging wraps products in shrink film, then applies heat to shrink the film tightly around the product. It provides 360-degree visibility with excellent protection, making it ideal for card boxes, bundled products, and retail-ready presentations. Speed: 20-100 bags/min."
+        },
+        {
+          "question": "What products are suitable for heat shrink packaging?",
+          "answer": "Heat shrink packaging is ideal for card box multi-pack bundling, retail-ready card presentations, transparent display packaging, and shelf-ready card products. It works particularly well for products that benefit from full visibility combined with secure, professional wrapping."
+        },
+        {
+          "question": "How does the shrink wrapping process work?",
+          "answer": "The process has two stages: first, a flow packing machine seals the product in shrink film; second, a shrinking tunnel applies controlled heat to shrink the film tightly around the product. The result is a smooth, wrinkle-free package with professional sealing lines."
+        }
+      ],
+      "faqTitle": "Heat Shrink Packaging FAQ",
+      "relatedMachinesTitle": "Machines Used in Heat Shrink Lines",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "ctaTitle": "Ready to Automate Your Heat Shrink Packaging?",
+      "ctaDescription": "Get a custom heat shrink line for your card boxes or bundled products. Our engineers will design the optimal wrapping and shrinking configuration for your retail packaging needs.",
+      "otherSolutionsTitle": "Other Packaging Methods",
+      "viewMachineDetails": "View Details"
+    },
+    "three-dimensional": {
+      "seoTitle": "3D Packaging Machine for Premium Card Boxes | CHANFER",
+      "seoDescription": "Three-dimensional box-style wrapping for premium collector card products. Creates rigid, box-like packages with sharp edges. 40-80 bags/min. Servo-controlled precision.",
+      "keywords": "three-dimensional packaging, 3D card packaging, premium card box wrapping, collector card packaging, gift set packaging, rigid card packaging, box-style wrapping, high-end card packaging",
+      "longDescription": [
+        "Three-dimensional packaging creates a rigid, box-like package from a single sheet of film — delivering the most premium presentation in CHANFER's packaging portfolio. With sharp edges, a solid feel, and a structure that mimics a rigid box, this method is perfect for high-end collector products, gift sets, and limited edition card bundles.",
+        "CHANFER's three-dimensional packaging machine uses servo-controlled precision to transform flat film into a structured 3D package. The servo system ensures consistent fold lines, precise sealing, and uniform package dimensions — critical for premium products where presentation is as important as protection.",
+        "The machine handles products up to 65mm in height, making it suitable for thick multi-card sets, boxed collector editions, and gift packages that other packaging methods cannot accommodate. The PLC programmable control with touch-screen interface allows operators to store multiple product configurations and switch between them with minimal downtime.",
+        "For luxury card products, three-dimensional packaging communicates quality before the consumer even opens the package. The rigid structure, sharp edges, and premium feel differentiate high-end products from standard retail packs — making it the preferred choice for limited edition releases, premium collector sets, and gift packaging.",
+        "While operating at 40-80 bags per minute — slower than candy or four-sides sealed packaging — the three-dimensional method delivers unmatched presentation value. The complete line integrates with friction feeders, cartoning machines, and palletizing robots for full automation from card counting to shipping-ready pallets."
+      ],
+      "benefits": [
+        "Most premium presentation — rigid, box-like with sharp edges",
+        "Handles thick products — up to 65mm height for multi-card sets",
+        "Servo-controlled precision — consistent fold lines and sealing",
+        "Luxury feel — communicates high-end quality to consumers",
+        "PLC programmable — multiple product configurations stored",
+        "Gift-ready packaging — perfect for limited edition and gift sets"
+      ],
+      "benefitsTitle": "Why Choose Three-Dimensional Packaging?",
+      "faqs": [
+        {
+          "question": "What is three-dimensional packaging for cards?",
+          "answer": "Three-dimensional packaging creates a rigid, box-like package from a single sheet of film. It delivers the most premium presentation with sharp edges and a solid feel, perfect for high-end collector products, gift sets, and limited edition card bundles. Speed: 40-80 bags/min."
+        },
+        {
+          "question": "What product thickness can the 3D packaging machine handle?",
+          "answer": "The three-dimensional packaging machine handles products up to 65mm in height, making it suitable for thick multi-card sets, boxed collector editions, and gift packages that other packaging methods cannot accommodate."
+        },
+        {
+          "question": "Is 3D packaging suitable for gift sets?",
+          "answer": "Yes, three-dimensional packaging is ideal for gift sets and limited edition products. The rigid structure, sharp edges, and premium feel communicate quality and luxury — making it the preferred choice for high-end card products where presentation is as important as protection."
+        }
+      ],
+      "faqTitle": "Three-Dimensional Packaging FAQ",
+      "relatedMachinesTitle": "Machines Used in 3D Packaging Lines",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "ctaTitle": "Ready to Automate Your 3D Packaging?",
+      "ctaDescription": "Get a custom three-dimensional packaging line for your premium card products. Our engineers will configure the optimal servo settings and line integration for your luxury packaging needs.",
+      "otherSolutionsTitle": "Other Packaging Methods",
+      "viewMachineDetails": "View Details"
+    }
+  },
+  "machineDetail": {
+    "fkj-100sl": {
+      "seoTitle": "FKJ-100SL Automatic Friction Feeder for Cards | CHANFER",
+      "seoDescription": "High-speed servo-driven friction feeder for card dispensing. 800 cards/min (CR80). Handles 0.1-3mm thickness. PLC control with touch screen. Integrates with packaging lines.",
+      "keywords": "friction feeder, card feeder, automatic card feeder, FKJ-100SL, card dispensing machine, card feeding equipment, servo card feeder, card counting feeder",
+      "longDescription": [
+        "The FKJ-100SL is CHANFER's flagship automatic friction feeder, designed for high-speed card dispensing in automated packaging lines. Powered by a servo motor with PLC control and touch-screen HMI, it delivers precise single-card feeding at speeds up to 800 cards per minute (CR80 standard) — making it the workhorse of TCG and board game card production lines.",
+        "The feeder handles cards ranging from 0.1mm to 3mm in thickness and sizes from 40x30mm to 180x100mm, covering all standard card formats including poker size, bridge size, mini cards, and game tokens. The servo-driven mechanism provides consistent feeding pressure and timing, with automatic alarm for card leakage and absence to prevent production errors.",
+        "With a maximum linear speed of 60m/min, the FKJ-100SL supports single-card dispensing, multiple-card dispensing, and continuous card dispensing modes — giving production managers flexibility to configure the feeder for different packaging requirements. The feeder integrates seamlessly with CHANFER's flow wrapping machines, bagging machines, four-side sealers, and cartoning systems."
+      ],
+      "relatedMachineIds": [
+        "fkj-200e",
+        "zs-220x",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interested in the FKJ-100SL Friction Feeder?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-100SL in your packaging line."
+    },
+    "fkj-200e": {
+      "seoTitle": "FKJ-200E Medium-Format Friction Feeder | CHANFER",
+      "seoDescription": "Medium-format friction feeder for larger cards up to 300x200mm. 500 cards/min. Servo-driven with PLC control. Integrates with automated packaging lines.",
+      "keywords": "friction feeder, medium format card feeder, FKJ-200E, large card feeder, card dispensing, servo feeder, card feeding machine",
+      "longDescription": [
+        "The FKJ-200E is a medium-format friction feeder designed for larger card sizes and printed materials. With a feeding capacity of up to 500 cards per minute and a card size range of 50x61mm to 300x200mm, it bridges the gap between high-speed small-card feeding and large-format sheet handling.",
+        "Powered by the same reliable servo motor and PLC control system as the FKJ-100SL, the FKJ-200E provides consistent feeding performance for medium-sized products including larger game cards, manuals, promotional materials, and medium-sized sheet products. The automatic alarm functions ensure production quality by detecting card absence and feeding errors in real-time."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interested in the FKJ-200E Friction Feeder?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-200E in your packaging line."
+    },
+    "fkj-300e": {
+      "seoTitle": "FKJ-300E Large-Format Friction Feeder | CHANFER",
+      "seoDescription": "Large-format friction feeder for oversized cards and sheets up to 300x300mm. 300 cards/min. Servo-controlled precision with photoelectric sensing.",
+      "keywords": "large format friction feeder, FKJ-300E, oversized card feeder, board game card feeder, large sheet feeder, card feeding equipment",
+      "longDescription": [
+        "The FKJ-300E is a large-format friction feeder engineered for oversized cards and sheets up to 300x300mm. It handles products that standard feeders cannot accommodate — including large board game cards, oversized printed materials, and game boards — with reliable servo-controlled precision at 300 cards per minute."
+      ],
+      "relatedMachineIds": [
+        "fkj-200e",
+        "fkj-420e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interested in the FKJ-300E Friction Feeder?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-300E in your packaging line."
+    },
+    "fkj-420e": {
+      "seoTitle": "FKJ-420E Extra-Wide Friction Feeder | CHANFER",
+      "seoDescription": "Extra-wide friction feeder for products up to 420mm width. Designed for board game boards and large format materials. 200 cards/min. Servo-driven.",
+      "keywords": "extra wide friction feeder, FKJ-420E, board game board feeder, large format card feeder, wide sheet feeder, game board packaging",
+      "longDescription": [
+        "The FKJ-420E is an extra-wide friction feeder designed specifically for board game boards and large-format materials up to 420mm in width. Its robust construction handles thick materials (1-3mm) including folded game boards, multi-page book-type products, and extra-wide printed materials at 200 cards per minute."
+      ],
+      "relatedMachineIds": [
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "banding",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interested in the FKJ-420E Friction Feeder?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-420E in your packaging line."
+    },
+    "three-head-suction": {
+      "seoTitle": "Three-Head Planetary Card Suction Machine | CHANFER",
+      "seoDescription": "Planetary suction cup card dispenser for delicate cards. Three suction heads, 120 cards/min. Ideal for game cards and thin films that friction feeders may damage.",
+      "keywords": "card suction machine, planetary suction feeder, three-head suction, card dispensing machine, delicate card feeder, thin card feeder, suction cup card feeder",
+      "longDescription": [
+        "The Three-Head Planetary Card Suction Machine uses suction cups instead of friction to pick and feed cards individually — making it ideal for delicate cards, thin films, and deformable sheet products that friction feeders may damage. Three sets of suction cups rotate counterclockwise to pick cards one at a time, ensuring gentle handling at 120 cards per minute.",
+        "Equipped with a Panasonic pressure detection switch and no-card automatic alarm, the machine provides reliable operation with real-time monitoring. The servo motor with PLC control ensures precise timing and positioning, making it suitable for integration with high-quality card production lines where surface integrity is critical."
+      ],
+      "relatedMachineIds": [
+        "four-head-suction",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interested in the Three-Head Suction Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the Three-Head Planetary Suction Machine."
+    },
+    "four-head-suction": {
+      "seoTitle": "Four-Head Planetary Card Suction Machine | CHANFER",
+      "seoDescription": "High-speed four-head planetary suction machine. 280 cards/min with four simultaneous suction stations. Servo precision for high-volume card production lines.",
+      "keywords": "four-head suction machine, high-speed card suction, planetary suction feeder, card dispensing, high-volume card feeder, suction cup card machine",
+      "longDescription": [
+        "The Four-Head Planetary Card Suction Machine is the high-throughput version of our suction feeder lineup. Four suction stations operate simultaneously, delivering maximum throughput of up to 280 cards per minute — making it ideal for high-volume card production lines that require gentle handling of premium card products."
+      ],
+      "relatedMachineIds": [
+        "three-head-suction",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides"
+      ],
+      "ctaTitle": "Interested in the Four-Head Suction Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the Four-Head Planetary Suction Machine."
+    },
+    "card-dispensing-matching": {
+      "seoTitle": "CDM-100 Card Dispensing Matching System | CHANFER",
+      "seoDescription": "Intelligent multi-station card dispensing system with computer control. Sorts cards by pre-set recipes. 25,000 packs per batch. Excel recipe editing. AI visual inspection.",
+      "keywords": "card dispensing system, card matching machine, card sorting system, CDM-100, computer card dispatching, card recipe system, multi-station card feeder, intelligent card sorting",
+      "longDescription": [
+        "The CDM-100 Card Dispensing Matching System is CHANFER's intelligent multi-station card sorting and dispensing solution. Controlled by computer, it automatically sorts and dispatches cards according to pre-set recipes — supporting up to 25,000 packs per batch with 1,000+ storable recipe files.",
+        "This system is the core of CHANFER's Smart Card Dispatching technology. Cards are loaded into multiple stations, and the computer controls which cards are dispensed in what order to create each pack according to the recipe. Excel-based recipe editing makes it simple to create and modify sorting configurations, while ultrasonic dual-sheet detection, visual inspection, and thickness detection ensure 100% accuracy."
+      ],
+      "relatedMachineIds": [
+        "ai-visual",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interested in the CDM-100 Card Dispensing System?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the CDM-100 intelligent card sorting system."
+    },
+    "zs-220x": {
+      "seoTitle": "ZS-220X High-Speed Servo Packaging Machine | CHANFER",
+      "seoDescription": "Compact high-speed pillow packaging machine. Servo-controlled, 220 bags/min. 60 parameter presets. Photoelectric tracking. Ideal for candy-style card wrapping.",
+      "keywords": "servo packaging machine, ZS-220X, pillow packaging, flow wrapping machine, candy packaging machine, high-speed wrapping, card flow wrap, servo flow wrapper",
+      "longDescription": [
+        "The ZS-220X is a compact high-speed servo-driven pillow packaging machine — the core of CHANFER's candy packaging lines. With servo-controlled bag length (set and cut, no empty travel), it delivers up to 220 bags per minute with precise sealing quality, making it ideal for TCG booster packs and high-volume card wrapping.",
+        "The machine stores up to 60 packaging parameter presets on the HMI, allowing quick changeover between different product configurations. The high-sensitivity photoelectric sensor tracks film registration marks for precise sealing alignment, while anti-misoperation auto-reverse and no-film auto-stop protection prevent waste and ensure continuous quality."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "pof-shrink",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interested in the ZS-220X Packaging Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the ZS-220X servo packaging machine."
+    },
+    "sbf-250": {
+      "seoTitle": "SBF-250 Four-Side Sealing Servo Machine | CHANFER",
+      "seoDescription": "High-speed four-side sealing machine with 7 servo motors. 150 packs/min. Three-color electric eye tracking. Reciprocating cutting & heat-sealing technology.",
+      "keywords": "four-side sealing machine, SBF-250, servo sealing machine, card sealing equipment, four-side seal packaging, premium card sealing, heat sealing machine",
+      "longDescription": [
+        "The SBF-250 is a high-speed four-side sealing servo packaging machine powered by seven servo motors for ultra-stable operation at up to 150 packs per minute. The three-color electric eye tracking system provides precise text and image alignment on printed films, while the unique reciprocating cutting and heat-sealing technology ensures firm, stable seals."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "qdzd-2130"
+      ],
+      "relatedSolutionIds": [
+        "four-sides"
+      ],
+      "ctaTitle": "Interested in the SBF-250 Four-Side Sealer?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the SBF-250 four-side sealing machine."
+    },
+    "qdzd-2130": {
+      "seoTitle": "QDZD-2130 Automatic Bagging Machine | CHANFER",
+      "seoDescription": "Self-adhesive strip bagging machine for card products. Three sealing methods: self-adhesive, hot-cut, hot-press. 30-90 bags/min. Automatic correction.",
+      "keywords": "bagging machine, QDZD-2130, self-adhesive strip packaging, card bagging, reclosable bag machine, peel and seal packaging, automatic bagging",
+      "longDescription": [
+        "The QDZD-2130 is an automatic bagging machine designed for self-adhesive strip packaging of card products. It supports three sealing methods — self-adhesive (reclosable), hot-cut (permanent), and hot-press (premium permanent) — making it versatile enough to handle different product lines with a single machine."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive"
+      ],
+      "ctaTitle": "Interested in the QDZD-2130 Bagging Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the QDZD-2130 automatic bagging machine."
+    },
+    "pof-shrink": {
+      "seoTitle": "POF Film Wrapping & Sealing Machine | CHANFER",
+      "seoDescription": "POF shrink wrapping machine for professional retail packaging. Imported photoelectric sensor, Teflon-coated sealing knife. 15-30 bags/min. Auto-protection.",
+      "keywords": "POF shrink wrap, shrink wrapping machine, POF film packaging, card shrink wrapping, retail packaging machine, heat shrink equipment",
+      "longDescription": [
+        "The POF-Series is an automatic POF film wrapping and sealing machine designed for professional retail packaging. Equipped with an imported detection photoelectric sensor and a Teflon-coated high-temperature alloy sealing knife, it delivers consistent, high-quality shrink wrapping for card products at 15-30 bags per minute."
+      ],
+      "relatedMachineIds": [
+        "zs-220x",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interested in the POF Wrapping Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the POF-Series shrink wrapping machine."
+    },
+    "cartoning": {
+      "seoTitle": "BX-Series Automatic Box Packing Machine | CHANFER",
+      "seoDescription": "Fully automatic cartoning machine for card products. Feeding, opening, inserting, sealing at 20-45 boxes/min. Servo/stepper motor with PLC control.",
+      "keywords": "cartoning machine, box packing machine, automatic cartoner, BX-Series, card cartoning, box packaging machine, automatic boxing",
+      "longDescription": [
+        "The BX-Series is a fully automatic box packing machine that handles feeding, opening, inserting, and sealing in one continuous operation at 20-45 boxes per minute. With servo/stepper motor drive and PLC control, it provides reliable cartoning for card products with photoelectric detection that ensures empty bags are never boxed."
+      ],
+      "relatedMachineIds": [
+        "carton-forming",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interested in the BX-Series Cartoning Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the BX-Series automatic cartoning machine."
+    },
+    "carton-forming": {
+      "seoTitle": "CF-Series Carton Forming & Sealing Machine | CHANFER",
+      "seoDescription": "Automatic carton case former with bottom tape sealing. Vertical storage for non-stop production. 8-10 boxes/min. PLC & HMI touch screen control.",
+      "keywords": "carton forming machine, case former, CF-Series, carton erector, box forming machine, case sealing, automatic case erector",
+      "longDescription": [
+        "The CF-Series is an automatic carton forming and sealing machine that sucks, forms, and seals carton cases in one operation. Its vertical storage design allows carton replenishment without stopping production, maximizing uptime and throughput."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interested in the CF-Series Carton Former?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the CF-Series carton forming machine."
+    },
+    "h-type-sealer": {
+      "seoTitle": "HT-Series H-Type Carton Sealing Machine | CHANFER",
+      "seoDescription": "H-type carton sealer for top, bottom, and corner taping. 90° turning mechanism for four-corner edge sealing. 10-15 boxes/min. Precise structural design.",
+      "keywords": "H-type carton sealer, HT-Series, box sealing machine, carton sealer, four-corner sealing, tape sealing machine, case sealer",
+      "longDescription": [
+        "The HT-Series is an automatic H-type carton sealing machine that seals top, bottom, and corners of cartons with tape. Its 90° turning mechanism pushes cases into four-corner edge sealing, providing maximum closure security for shipping."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interested in the HT-Series Carton Sealer?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the HT-Series H-type carton sealer."
+    },
+    "palletizing-robot": {
+      "seoTitle": "KKMD-30L Collaborative Palletizing Robot | CHANFER",
+      "seoDescription": "Intelligent collaborative palletizing robot. 30kg payload, 1800mm radius. Safe for human cooperation. 100+ palletizing formulas. 3-hour installation.",
+      "keywords": "palletizing robot, KKMD-30L, collaborative robot, cobot, case palletizing, automatic palletizing, robotic palletizer, end-of-line automation",
+      "longDescription": [
+        "The KKMD-30L is an intelligent collaborative palletizing robot designed for safe, flexible end-of-line automation. With a 30kg payload and 1800mm working radius, it can stack cases up to 1600-2100mm high on standard 1200x1200mm pallets. The collaborative design means it stops immediately when personnel get too close — no safety cages required."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interested in the KKMD-30L Palletizing Robot?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the KKMD-30L collaborative palletizing robot."
+    },
+    "ai-visual": {
+      "seoTitle": "KKR-C02 AI Card Visual Inspection System | CHANFER",
+      "seoDescription": "AI-powered card inspection with OCR and mixed-order detection. 400+ sheets/min. 100% error detection. Detects wrong, missing, and out-of-sequence cards.",
+      "keywords": "AI visual inspection, card inspection system, KKR-C02, AI card sorting, OCR card inspection, card quality inspection, visual inspection machine, card error detection",
+      "longDescription": [
+        "The KKR-C02 is an AI-powered card visual inspection system that detects wrong cards, missing cards, and out-of-sequence cards at speeds over 400 sheets per minute with 100% error detection rate. Using high-speed cameras and machine learning algorithms, it inspects cards in real-time and can detect errors in regions as small as 5x5mm.",
+        "The system features OCR character detection (Chinese, English, numbers), mixed-order detection in 100ms, and AI self-training for new card templates — new batch training takes as little as 3 minutes. When an error is detected, the system auto-alarms and can trigger production line shutdown for immediate correction."
+      ],
+      "relatedMachineIds": [
+        "card-dispensing-matching",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interested in the KKR-C02 AI Inspection System?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the KKR-C02 AI visual inspection system."
     }
   }
 }
