@@ -1415,5 +1415,17 @@
       "ctaTitle": "興味？",
       "ctaDescription": "仕様と価格。"
     }
+  },
+  "media": {
+    "customerVideosTitle": "実際の顧客導入事例",
+    "customerVideosSubtitle": "実際の顧客生産施設で稼働する当社の設備をご覧ください。",
+    "trainingVideosTitle": "操作・トレーニング動画",
+    "trainingVideosSubtitle": "詳細なトレーニング動画で、この機械のセットアップ、操作、メンテナンス方法を学びましょう。",
+    "equipmentActionTitle": "設備稼働風景",
+    "equipmentActionSubtitle": "世界中の顧客生産施設からの実際の動画です。",
+    "globalCustomersTitle": "グローバル顧客",
+    "globalCustomersSubtitle": "世界中のカード・ボードゲームメーカーに信頼されています。",
+    "teamCultureTitle": "チーム文化",
+    "teamCultureSubtitle": "私たちの従業員はCHANFERの心です。チームビルディングから技術研修まで、お客様に最高のものを提供するためにチームに投資しています。"
   }
 }
