@@ -362,7 +362,8 @@
           "限定エディションバンドル"
         ]
       }
-    }
+    },
+    "viewDetails": "詳細を見る"
   },
   "machines": {
     "title1": "機械",
@@ -383,7 +384,76 @@
       "palletizing": "パレタイジング",
       "ai": "AIビジョン"
     },
-    "model": "型番"
+    "model": "型番",
+    "machinesData": {
+      "fkj-100sl": {
+        "name": "自動摩擦フィーダー",
+        "description": "サーボPLC、800カード/分(CR80)。自動アラーム。"
+      },
+      "fkj-200e": {
+        "name": "経済型摩擦フィーダー",
+        "description": "サーボ、500カード/分。小/中量生産。"
+      },
+      "fkj-300e": {
+        "name": "中速摩擦フィーダー",
+        "description": "サーボ、600カード/分。中量生産。"
+      },
+      "fkj-420e": {
+        "name": "大判摩擦フィーダー",
+        "description": "大判カードとボード。"
+      },
+      "three-head-suction": {
+        "name": "三頭吸引フィーダー",
+        "description": "真空、三局。滑らかなカード。"
+      },
+      "four-head-suction": {
+        "name": "四頭吸引フィーダー",
+        "description": "真空、四局。最高速度。"
+      },
+      "card-dispensing-matching": {
+        "name": "カード排出分類機",
+        "description": "排出分類、精密カウント。"
+      },
+      "zs-220x": {
+        "name": "フローラッピング機",
+        "description": "キャンディ、サーボ220袋/分。220mm。"
+      },
+      "sbf-250": {
+        "name": "四面シール機",
+        "description": "七サーボ、150パック/分。三色。"
+      },
+      "qdzd-2130": {
+        "name": "自己粘着機",
+        "description": "三方式。再封可能。"
+      },
+      "pof-shrink": {
+        "name": "POF熱収縮機",
+        "description": "360°。輸入センサー、刃保護。"
+      },
+      "cartoning": {
+        "name": "自動カートニング機",
+        "description": "サーボ、連続。カードをカートンに。"
+      },
+      "carton-forming": {
+        "name": "カートン成形機",
+        "description": "自動成形。サーボ。"
+      },
+      "h-type-sealer": {
+        "name": "H型封緘機",
+        "description": "H封緘。サーボ、連続。"
+      },
+      "palletizing-robot": {
+        "name": "協働パレタイジングロボット",
+        "description": "柵なし。柔軟なプログラミング。"
+      },
+      "ai-visual": {
+        "name": "AIビジョン検査システム",
+        "description": "リアルタイム。欠陥検出。"
+      }
+    },
+    "featuresTitle": "特徴",
+    "applicationsTitle": "応用分野",
+    "viewDetails": "詳細を見る"
   },
   "about": {
     "title1": "CHANFER",
@@ -746,6 +816,604 @@
       "description": "チームが完璧なソリューションを見つけるお手伝いをします。",
       "button1": "お問い合わせ",
       "button2": "ソリューションを見る"
+    }
+  },
+  "solutionDetail": {
+    "candy": {
+      "seoTitle": "カード用キャンディ包装機 | CHANFER",
+      "seoDescription": "TCGブースターパックとコレクションカード用高速キャンディ包装（フローラッピング）。最大220袋/分。",
+      "keywords": "キャンディ包装機, カードキャンディ包装, フローラッピング, TCGブースター包装, コレクションカード包装, ピロー包装",
+      "longDescription": [
+        "キャンディ包装—ピロースタイルフローラッピングとも呼ばれる—は、TCGブースターパック、コレクションカードスリーブ、ゲームカードマルチパックに最も広く使用される包装方法です。連続フィルムでカードの束を包み、両端を熱シールします。",
+        "CHANFERのキャンディ包装ラインは、毎分最大220袋を生産できるサーボ制御フローラッピング機械を中心に構築されています。",
+        "TCGパブリッシャー（ポケモン、マジック、遊戯王）に大量生産速度で一貫したプロフェッショナルな包装を提供するため、特に人気があります。",
+        "完全なラインはCHANFERの摩擦フィーダー、カートニング、封緘機、パレタイジングロボットと統合されます。",
+        "60プリセットでサイズ変更に3-5分のみです。"
+      ],
+      "benefits": [
+        "最高速度—220袋/分",
+        "パックあたり最低コスト",
+        "改ざん防止シール",
+        "高速切替—3-5分",
+        "フルカラー印刷フィルム",
+        "ライン統合"
+      ],
+      "benefitsTitle": "キャンディ包装を選ぶ理由？",
+      "faqs": [
+        {
+          "question": "キャンディ包装とは？",
+          "answer": "キャンディ包装（ピローフローラッピング）は連続フィルムでカードを包み、両端をシールします。TCGブースターパックの業界標準です。"
+        },
+        {
+          "question": "速度は？",
+          "answer": "カードサイズに応じ20-220袋/分。サーボシステムが最高速度でも精密なシール品質を維持します。"
+        },
+        {
+          "question": "カードサイズ？",
+          "answer": "幅220mmまで、高さ5-35mm。ポーカー、ブリッジ、タロット、マルチパック。"
+        }
+      ],
+      "faqTitle": "キャンディ包装FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "キャンディ包装ライン設備",
+      "ctaTitle": "キャンディ包装の自動化の準備はできましたか？",
+      "ctaDescription": "カード供給からパレタイジングまでカスタムキャンディ包装ラインをご入手ください。",
+      "otherSolutionsTitle": "他の包装方法",
+      "viewMachineDetails": "詳細を見る"
+    },
+    "self-adhesive": {
+      "seoTitle": "自己粘着テープ包装機 | CHANFER",
+      "seoDescription": "プレミアムコレクションカード用再封可能自己粘着テープ包装。1台で3つのシール方式。",
+      "keywords": "自己粘着テープ, 再封可能, プレミアムカード, シール",
+      "longDescription": [
+        "フィルムと再封可能自己粘着テープで包む多用途方式。プレミアムコレクションカードに理想的。",
+        "3方式: 自己粘着, 熱切断, 熱プレス。",
+        "アンチ無駄技術、ポイントカウント。"
+      ],
+      "benefits": [
+        "再封可能",
+        "1台で3方式",
+        "プレミアム提示",
+        "アンチ無駄",
+        "柔軟な幅",
+        "精密カウント"
+      ],
+      "benefitsTitle": "自己粘着テープを選ぶ理由？",
+      "faqs": [
+        {
+          "question": "再封可能？",
+          "answer": "はい、繰り返し開閉可能なピール＆シールテープ。"
+        },
+        {
+          "question": "方式数？",
+          "answer": "3つ: 自己粘着、熱切断、熱プレス。"
+        }
+      ],
+      "faqTitle": "自己粘着テープFAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "qdzd-2130",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "自己粘着包装ライン設備",
+      "ctaTitle": "自動化の準備はできましたか？",
+      "ctaDescription": "プレミアムカード用カスタムソリューション。",
+      "otherSolutionsTitle": "他の包装方法",
+      "viewMachineDetails": "詳細を見る"
+    },
+    "four-sides": {
+      "seoTitle": "四面シール包装機 | CHANFER",
+      "seoDescription": "四面シール、7サーボ、150パック/分。三色フォトセル、往復切断。",
+      "keywords": "四面シール, 完全シール, プレミアムカード, サーボ",
+      "longDescription": [
+        "プレミアム方式: 四面すべて熱シール。湿気と汚染から保護。",
+        "7サーボ、150パック/分安定性。三色フォトセル精密整列。",
+        "往復切断技術で高速でも確実なシール。"
+      ],
+      "benefits": [
+        "改ざん防止",
+        "湿気/汚染保護",
+        "プレミアム提示",
+        "7サーボ—150パック/分",
+        "三色フォトセル",
+        "往復切断"
+      ],
+      "benefitsTitle": "四面シールを選ぶ理由？",
+      "faqs": [
+        {
+          "question": "キャンディとの違い？",
+          "answer": "キャンディは端のみシール、四面は全周シールでより大きな保護。"
+        },
+        {
+          "question": "速度？",
+          "answer": "7サーボで150パック/分。"
+        }
+      ],
+      "faqTitle": "四面シールFAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "四面シールライン設備",
+      "ctaTitle": "自動化の準備はできましたか？",
+      "ctaDescription": "プレミアムカード用カスタムソリューション。",
+      "otherSolutionsTitle": "他の包装方法",
+      "viewMachineDetails": "詳細を見る"
+    },
+    "banding": {
+      "seoTitle": "カードバンディング包装機 | CHANFER",
+      "seoDescription": "生分解性紙バンド環境バンディング。サーボ、ワンパス。ゲームカードに適切。",
+      "keywords": "バンディング, 紙バンド, 環境, ゲームカード, サーボ",
+      "longDescription": [
+        "最も環境に優しい方式: 生分解性紙バンド。最小素材、リサイクル可能。",
+        "サーボPLCタッチスクリーン。排出とバンディングを一回で。",
+        "0.1-3mm、マルチパック。経済的で環境に優しい。"
+      ],
+      "benefits": [
+        "最も環境—生分解性",
+        "最低コスト",
+        "サーボ精度",
+        "ワンパス",
+        "厚さ0.1-3mm",
+        "持続可能ブランディング"
+      ],
+      "benefitsTitle": "バンディングを選ぶ理由？",
+      "faqs": [
+        {
+          "question": "環境の理由？",
+          "answer": "プラスチックフィルムの代わりに生分解性紙バンド、最小素材、リサイクル。"
+        },
+        {
+          "question": "厚さ？",
+          "answer": "0.1-3mm、マルチパック。"
+        }
+      ],
+      "faqTitle": "バンディングFAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "バンディングライン設備",
+      "ctaTitle": "自動化の準備はできましたか？",
+      "ctaDescription": "ゲームカード用カスタムソリューション。",
+      "otherSolutionsTitle": "他の包装方法",
+      "viewMachineDetails": "詳細を見る"
+    },
+    "heat-shrink": {
+      "seoTitle": "熱収縮包装機 | CHANFER",
+      "seoDescription": "360°透明熱収縮。輸入センサー、刃保護。カードボックス用。",
+      "keywords": "熱収縮, 収縮フィルム, 透明, POF, カード",
+      "longDescription": [
+        "透明収縮フィルム、360°視認性。カードボックスと束用。",
+        "輸入センサー精密検出。刃自動保護。",
+        "フィルム密着、保護と小売提示。"
+      ],
+      "benefits": [
+        "360°視認性",
+        "密着保護",
+        "小売提示",
+        "輸入センサー",
+        "刃保護",
+        "調整可能熱風"
+      ],
+      "benefitsTitle": "熱収縮を選ぶ理由？",
+      "faqs": [
+        {
+          "question": "透明？",
+          "answer": "はい、360°透明フィルム。"
+        },
+        {
+          "question": "どのような製品？",
+          "answer": "カードボックス、束、ギフトセット。"
+        }
+      ],
+      "faqTitle": "熱収縮FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "熱収縮ライン設備",
+      "ctaTitle": "自動化の準備はできましたか？",
+      "ctaDescription": "カードボックス用カスタムソリューション。",
+      "otherSolutionsTitle": "他の包装方法",
+      "viewMachineDetails": "詳細を見る"
+    },
+    "three-dimensional": {
+      "seoTitle": "3D立体包装機 | CHANFER",
+      "seoDescription": "プレミアム3D包装、硬質ボックス。65mmまで。サーボ。限定版に適切。",
+      "keywords": "3D, ボックス包装, プレミアム, ラグジュアリー, 限定版",
+      "longDescription": [
+        "最高プレミアム方式: 鋭い縁の硬質ボックス。ラグジュアリー、限定版に理想的。",
+        "65mmまで。サーボで一貫した折り目とシール。",
+        "PLCマルチ設定。"
+      ],
+      "benefits": [
+        "最高プレミアム",
+        "厚さ65mm",
+        "サーボ精度",
+        "ラグジュアリー",
+        "PLCプログラマブル",
+        "ギフト対応"
+      ],
+      "benefitsTitle": "3D包装を選ぶ理由？",
+      "faqs": [
+        {
+          "question": "厚さ？",
+          "answer": "65mmまで。"
+        },
+        {
+          "question": "どのような製品？",
+          "answer": "限定版、コレクターボックス、プレミアムアクセサリー。"
+        }
+      ],
+      "faqTitle": "3D包装FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "3D包装ライン設備",
+      "ctaTitle": "自動化の準備はできましたか？",
+      "ctaDescription": "プレミアムカード用カスタムソリューション。",
+      "otherSolutionsTitle": "他の包装方法",
+      "viewMachineDetails": "詳細を見る"
+    }
+  },
+  "machineDetail": {
+    "fkj-100sl": {
+      "seoTitle": "自動摩擦フィーダー FKJ-100SL | CHANFER",
+      "seoDescription": "サーボ高速フィーダー。800カード/分(CR80)。0.1-3mm。PLCタッチスクリーン。",
+      "keywords": "摩擦フィーダー, FKJ-100SL, カード, サーボ",
+      "longDescription": [
+        "CHANFER旗艦、サーボPLC、800カード/分。",
+        "0.1-3mm。自動アラーム。"
+      ],
+      "relatedMachineIds": [
+        "fkj-200e",
+        "zs-220x",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "FKJ-100SLに興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "fkj-200e": {
+      "seoTitle": "経済型摩擦フィーダー FKJ-200E | CHANFER",
+      "seoDescription": "経済型、サーボ、500カード/分。",
+      "keywords": "経済型, FKJ-200E, フィーダー",
+      "longDescription": [
+        "経済型、500カード/分。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "zs-220x"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "fkj-300e": {
+      "seoTitle": "中速摩擦フィーダー FKJ-300E | CHANFER",
+      "seoDescription": "中速、サーボ、600カード/分。",
+      "keywords": "中速, FKJ-300E, フィーダー",
+      "longDescription": [
+        "中速、600カード/分。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-420e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "fkj-420e": {
+      "seoTitle": "大判摩擦フィーダー FKJ-420E | CHANFER",
+      "seoDescription": "大判、カードとボード。",
+      "keywords": "大判, FKJ-420E",
+      "longDescription": [
+        "大判カードとボード用。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "three-head-suction": {
+      "seoTitle": "三頭吸引フィーダー | CHANFER",
+      "seoDescription": "真空三頭、三局。",
+      "keywords": "三頭, 真空, フィーダー",
+      "longDescription": [
+        "三局、滑らかなカード用真空。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "four-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "four-head-suction": {
+      "seoTitle": "四頭吸引フィーダー | CHANFER",
+      "seoDescription": "真空四頭、最高速度。",
+      "keywords": "四頭, 真空, 速度",
+      "longDescription": [
+        "四局、超高速。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "card-dispensing-matching": {
+      "seoTitle": "カード排出分類機 | CHANFER",
+      "seoDescription": "排出分類、精密カウント。",
+      "keywords": "排出, 分類, カウント, TCG",
+      "longDescription": [
+        "TCG用精密排出分類。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "four-head-suction"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "zs-220x": {
+      "seoTitle": "フローラッピング機 ZS-220X | CHANFER",
+      "seoDescription": "フローラッピング、220袋/分。サーボ、220mm。",
+      "keywords": "フローラッピング, ZS-220X, candy",
+      "longDescription": [
+        "フローラッピング、220袋/分。",
+        "60プリセット、3-5分。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "pof-shrink",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "heat-shrink"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "sbf-250": {
+      "seoTitle": "四面シール機 SBF-250 | CHANFER",
+      "seoDescription": "四面、七サーボ、150パック/分。",
+      "keywords": "四面, SBF-250, サーボ",
+      "longDescription": [
+        "七サーボ、150パック/分。三色。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "four-sides",
+        "self-adhesive"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "qdzd-2130": {
+      "seoTitle": "自己粘着機 QDZD-2130 | CHANFER",
+      "seoDescription": "三方式。再封可能。",
+      "keywords": "自己粘着, QDZD-2130, 再封",
+      "longDescription": [
+        "三方式、再封可能。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "pof-shrink": {
+      "seoTitle": "POF熱収縮機 | CHANFER",
+      "seoDescription": "POF、360°透明。輸入センサー。",
+      "keywords": "POF, 熱収縮, 透明",
+      "longDescription": [
+        "POF、360°。輸入センサー、刃保護。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "heat-shrink",
+        "candy"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "cartoning": {
+      "seoTitle": "自動カートニング機 | CHANFER",
+      "seoDescription": "高速カートニング、サーボ。",
+      "keywords": "カートニング, 自動, サーボ",
+      "longDescription": [
+        "自動カートニング、サーボ。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "carton-forming": {
+      "seoTitle": "カートン成形機 | CHANFER",
+      "seoDescription": "自動成形、サーボ。",
+      "keywords": "成形, カートン, 自動",
+      "longDescription": [
+        "平カートン成形、サーボ。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "h-type-sealer": {
+      "seoTitle": "H型封緘機 | CHANFER",
+      "seoDescription": "H封緘自動、サーボ。",
+      "keywords": "H封緘, 自動",
+      "longDescription": [
+        "H封緘、サーボ。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "palletizing-robot": {
+      "seoTitle": "協働パレタイジングロボット | CHANFER",
+      "seoDescription": "協働ロボット、柵なし。",
+      "keywords": "ロボット, パレタイジング, 協働",
+      "longDescription": [
+        "自動パレタイジング、柵なし。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "carton-forming"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
+    },
+    "ai-visual": {
+      "seoTitle": "AIビジョン検査システム | CHANFER",
+      "seoDescription": "AIリアルタイム検査。欠陥検出。",
+      "keywords": "AI, 検査, 品質, 欠陥",
+      "longDescription": [
+        "AIリアルタイム検査。ディープラーニング。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "興味？",
+      "ctaDescription": "仕様と価格。"
     }
   }
 }
