@@ -22,6 +22,8 @@ import {
   Wrench,
 } from "lucide-react";
 import { useState } from "react";
+import VideoGallery from "@/components/VideoGallery";
+import { getVideosBySolution } from "@/lib/media";
 
 interface Props {
   dict: Dictionary;
@@ -278,6 +280,19 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
           </div>
         </section>
       )}
+
+      {/* Customer Site Videos */}
+      <VideoGallery
+        videos={getVideosBySolution(solutionId)}
+        title={
+          ((dict.media as Record<string, string>)?.customerVideosTitle) ??
+          "Real Customer Implementations"
+        }
+        subtitle={
+          ((dict.media as Record<string, string>)?.customerVideosSubtitle) ??
+          "See our equipment running at actual customer production facilities."
+        }
+      />
 
       {/* Production line */}
       <section className="py-12 bg-muted/30">
