@@ -53,6 +53,13 @@ const categoryBadge: Record<string, string> = {
 export default function MachinesContent({ dict, locale }: Props) {
   const machinesDict = dict.machines as Record<string, unknown>;
   const categoriesDict = machinesDict.categories as Record<string, string>;
+  const machinesData = (machinesDict.machinesData as Record<string, Record<string, string>>) ?? {};
+
+  // Helper: get translated machine field
+  const tm = (machineId: string, field: string, fallback: string): string => {
+    const md = machinesData[machineId];
+    return md?.[field] ?? fallback;
+  };
 
   const [activeCategory, setActiveCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
@@ -171,7 +178,7 @@ export default function MachinesContent({ dict, locale }: Props) {
                     >
                       {categoryLabel[machine.category] || machine.category}
                     </span>
-                    <h3 className="font-bold text-lg">{machine.name}</h3>
+                    <h3 className="font-bold text-lg">{tm(machine.id, "name", machine.name)}</h3>
                     <p className="text-sm text-muted-foreground">
                       {machinesDict.model as string}: {machine.model}
                     </p>
@@ -179,7 +186,7 @@ export default function MachinesContent({ dict, locale }: Props) {
                 </div>
 
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-2">
-                  {machine.description}
+                  {tm(machine.id, "description", machine.description)}
                 </p>
 
                 {/* Specs */}
@@ -225,16 +232,24 @@ export default function MachinesContent({ dict, locale }: Props) {
                   ))}
                 </div>
 
-                {/* CTA */}
-                <Link
-                  href={`/${locale}/contact`}
-                  className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-primary hover:text-primary-dark transition-colors"
-                >
-                  {formatStr(machinesDict.inquire as string, {
-                    model: machine.model,
-                  })}{" "}
-                  <ArrowRight size={14} />
-                </Link>
+                {/* CTA: View Details + Inquire */}
+                <div className="mt-4 flex items-center justify-between gap-2">
+                  <Link
+                    href={`/${locale}/machines/${machine.id}`}
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark transition-colors"
+                  >
+                    {(machinesDict.viewDetails as string) ?? "View Details"}
+                    <ArrowRight size={14} />
+                  </Link>
+                  <Link
+                    href={`/${locale}/contact`}
+                    className="inline-flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {formatStr(machinesDict.inquire as string, {
+                      model: machine.model,
+                    })}
+                  </Link>
+                </div>
                 </div>
               </div>
             ))}
