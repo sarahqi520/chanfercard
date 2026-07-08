@@ -1427,5 +1427,17 @@
       "ctaTitle": "Interesse am AI-System?",
       "ctaDescription": "Spezifikationen und Preise."
     }
+  },
+  "media": {
+    "customerVideosTitle": "Echte Kundeneinsätze",
+    "customerVideosSubtitle": "Sehen Sie unsere Geräte im Einsatz in realen Produktionsstätten unserer Kunden.",
+    "trainingVideosTitle": "Bedienungs- und Schulungsvideos",
+    "trainingVideosSubtitle": "Lernen Sie mit unseren detaillierten Schulungsvideos, wie Sie diese Maschine einrichten, bedienen und warten.",
+    "equipmentActionTitle": "Geräte im Einsatz",
+    "equipmentActionSubtitle": "Echte Videos aus Kundenproduktionsstätten weltweit.",
+    "globalCustomersTitle": "Globale Kunden",
+    "globalCustomersSubtitle": "Vertraut von führenden Karten- und Brettspielherstellern weltweit.",
+    "teamCultureTitle": "Teamkultur",
+    "teamCultureSubtitle": "Unsere Mitarbeiter sind das Herz von CHANFER. Vom Teambuilding bis zur technischen Schulung investieren wir in unser Team, um das Beste für unsere Kunden zu liefern."
   }
 }
