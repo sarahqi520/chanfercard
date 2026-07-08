@@ -362,7 +362,8 @@
           "Bundle edizione limitata"
         ]
       }
-    }
+    },
+    "viewDetails": "Vedi Dettagli"
   },
   "machines": {
     "title1": "Catalogo",
@@ -383,7 +384,76 @@
       "palletizing": "Pallettizzazione",
       "ai": "Visione AI"
     },
-    "model": "Modello"
+    "model": "Modello",
+    "machinesData": {
+      "fkj-100sl": {
+        "name": "Alimentatore a Frizione Automatico",
+        "description": "Alimentatore ad alta velocità con servo e PLC, 800 carte/min (CR80). Allarme automatico per carte mancanti."
+      },
+      "fkj-200e": {
+        "name": "Alimentatore Economico",
+        "description": "Alimentatore economico servo-guidato, 500 carte/min. Per piccola e media produzione."
+      },
+      "fkj-300e": {
+        "name": "Alimentatore Media Velocità",
+        "description": "Alimentatore servo 600 carte/min. Per produzione media, multi-modalità."
+      },
+      "fkj-420e": {
+        "name": "Alimentatore Grande Formato",
+        "description": "Per carte di grande formato e board. Servo per stabilità."
+      },
+      "three-head-suction": {
+        "name": "Alimentatore a Tre Teste",
+        "description": "Vuoto tre teste, tre stazioni simultanee. Per carte lisce."
+      },
+      "four-head-suction": {
+        "name": "Alimentatore a Quattro Teste",
+        "description": "Vuoto quattro teste, altissima velocità. Per alto volume."
+      },
+      "card-dispensing-matching": {
+        "name": "Erogazione e Abbinamento Carte",
+        "description": "Erogazione e abbinamento automatico, conteggio preciso. Casuale e fisso."
+      },
+      "zs-220x": {
+        "name": "Macchina Flow Wrapping",
+        "description": "Flow wrapping (candy) alta velocità, servo 220 sacchi/min. Larghezza max 220mm."
+      },
+      "sbf-250": {
+        "name": "Macchina Quattro Lati Sigillati",
+        "description": "Quattro lati, sette servo 150 pacchi/min. Fotoocchio tricolore, taglio alternato."
+      },
+      "qdzd-2130": {
+        "name": "Macchina Striscia Autoadesiva",
+        "description": "Tre metodi: autoadesivo, taglio a caldo, pressione a caldo. Richiudibile."
+      },
+      "pof-shrink": {
+        "name": "Macchina Termoretraente POF",
+        "description": "Termoretraente POF, visibilità 360°. Sensore importato, protezione lama."
+      },
+      "cartoning": {
+        "name": "Cartonatrice Automatica",
+        "description": "Cartonaggio ad alta velocità, servo. Inserimento carte in scatole, linee continue."
+      },
+      "carton-forming": {
+        "name": "Formatrice di Scatole",
+        "description": "Formatrice automatica di scatole piatte. Servo, alta velocità."
+      },
+      "h-type-sealer": {
+        "name": "Sigillatrice a H",
+        "description": "Sigillatrice a H automatica. Servo, collegamento con robot."
+      },
+      "palletizing-robot": {
+        "name": "Robot di Pallettizzazione Collaborativo",
+        "description": "Robot collaborativo, pallettizzazione automatica. Sicuro senza recinzione."
+      },
+      "ai-visual": {
+        "name": "Sistema di Ispezione Visiva AI",
+        "description": "Ispezione AI in tempo reale. Rilevamento difetti, verifica conteggio, etichette."
+      }
+    },
+    "featuresTitle": "Caratteristiche",
+    "applicationsTitle": "Applicazioni",
+    "viewDetails": "Vedi Dettagli"
   },
   "about": {
     "title1": "Chi",
@@ -746,6 +816,654 @@
       "description": "Il nostro team è pronto ad aiutarvi a trovare la soluzione perfetta.",
       "button1": "Contattaci",
       "button2": "Vedi Soluzioni"
+    }
+  },
+  "solutionDetail": {
+    "candy": {
+      "seoTitle": "Macchina per Confezionamento Candy per Carte | CHANFER",
+      "seoDescription": "Confezionamento candy ad alta velocità (flow wrapping) per buste TCG e carte collezionabili. Fino a 220 sacchi/min con saldatura servo-controllata. Linea di produzione completa disponibile.",
+      "keywords": "macchina confezionamento candy, confezione carte candy, flow wrapping, confezione buste TCG, confezione carte collezionabili, confezione pillow, flow wrap carte",
+      "longDescription": [
+        "Il confezionamento candy — noto anche come flow wrapping stile pillow — è il metodo di confezionamento più diffuso per le buste dei giochi di carte collezionabili (TCG), le sleeve delle carte collezionabili e i multi-pack di carte da gioco. Questo metodo avvolge un film continuo attorno alla pila di carte e salda termicamente entrambe le estremità, creando una confezione sigillata stile caramella che è a prova di manomissione, economica e ideale per la produzione ad alto volume.",
+        "La linea di confezionamento candy di CHANFER è costruita attorno a una macchina flow wrapping servo-controllata capace di produrre fino a 220 sacchi al minuto. Il motore servo garantisce un controllo preciso della lunghezza del sacco — impostare la lunghezza sul touch screen HMI e la macchina taglia esattamente dove programmato, senza corsa a vuoto o spreco di film. Un sensore fotoelettrico ad alta sensibilità traccia i segni di registrazione del film per un allineamento preciso della saldatura, anche alla massima velocità.",
+        "Questo metodo di confezionamento è particolarmente popolare tra gli editori di TCG (come Pokemon, Magic: The Gathering e Yu-Gi-Oh!) perché consegna confezioni consistenti e professionali alle velocità richieste per la produzione di massa. La confezione candy offre un'eccellente protezione contro umidità, polvere e manomissione, permettendo al contempo l'uso di film stampato a colori per l'attrattiva sugli scaffali retail.",
+        "La linea di produzione candy completa si integra perfettamente con gli alimentatori a frizione, i checkweigher, le macchine di cartonaggio, gli incassatori e i robot di pallettizzazione collaborativi di CHANFER. Le carte vengono alimentate e contate automaticamente, avvolte ad alta velocità, verificate per quantità e peso corrette, cartonate, inscatolate, sigillate e pallettizzate — tutto con minimo intervento dell'operatore.",
+        "Con fino a 60 preset di parametri di confezionamento memorizzati sull'HMI, il cambio tra diverse dimensioni di carte o configurazioni di confezione richiede solo 3-5 minuti. Il sistema include anche funzioni anti-manomissione (inversione automatica al cambio prodotto) e protezione auto-stop in assenza di film per prevenire sprechi e garantire qualità continua."
+      ],
+      "benefits": [
+        "Massima velocità di produzione — fino a 220 sacchi/min per massimo rendimento",
+        "Minore costo per confezione — minimo uso di film con taglio servo-ottimizzato",
+        "Saldatura a prova di manomissione — entrambe le estremità saldate termicamente",
+        "Cambio rapido — 60 ricette preset, 3-5 min per cambio prodotto",
+        "Supporto film stampato a colori — confezione retail-ready con grafica brand",
+        "Integrazione linea senza soluzione di continuità — connessione ad alimentazione, cartonaggio e pallettizzazione"
+      ],
+      "benefitsTitle": "Perché Scegliere il Confezionamento Candy?",
+      "faqs": [
+        {
+          "question": "Cos'è il confezionamento candy per le carte?",
+          "answer": "Il confezionamento candy (flow wrapping stile pillow) avvolge un film continuo attorno alla pila di carte e salda termicamente entrambe le estremità, creando una confezione sigillata stile caramella. È lo standard del settore per le buste TCG perché è veloce (fino a 220 sacchi/min), economico e offre protezione a prova di manomissione con film stampato a colori."
+        },
+        {
+          "question": "Quanto è veloce la macchina per confezionamento candy?",
+          "answer": "La macchina per confezionamento candy di CHANFER opera a 20-220 sacchi al minuto, a seconda delle dimensioni delle carte, del tipo di film e della configurazione della confezione. Il sistema servo-controllato mantiene una qualità di saldatura precisa anche alla massima velocità."
+        },
+        {
+          "question": "Quali dimensioni di carte può gestire la macchina?",
+          "answer": "La macchina gestisce larghezze di carte fino a 220mm e altezze del prodotto di 5-35mm. Copre tutte le dimensioni standard包括 poker (63x88mm), bridge (56x88mm), tarocchi e buste multi-carta."
+        },
+        {
+          "question": "La linea candy può essere integrata con cartonaggio e pallettizzazione?",
+          "answer": "Sì, la linea di confezionamento candy si integra perfettamente con le macchine di cartonaggio, gli incassatori, le sigillatrici a H e i robot di pallettizzazione collaborativi di CHANFER per una linea di produzione turnkey completa."
+        }
+      ],
+      "faqTitle": "FAQ Confezionamento Candy",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Macchine Utilizzate nelle Linee Candy",
+      "ctaTitle": "Pronti ad Automatizzare il Vostro Confezionamento Candy?",
+      "ctaDescription": "Ottenete una soluzione personalizzata per linea candy — dall'alimentazione delle carte alla pallettizzazione. I nostri ingegneri designeranno la configurazione ottimale per le vostre buste TCG o carte collezionabili.",
+      "otherSolutionsTitle": "Altri Metodi di Confezionamento",
+      "viewMachineDetails": "Vedi Dettagli"
+    },
+    "self-adhesive": {
+      "seoTitle": "Macchina per Confezionamento con Striscia Autoadesiva | CHANFER",
+      "seoDescription": "Confezionamento con striscia autoadesiva richiudibile per carte collezionabili premium. Tre metodi di saldatura in una macchina. Tecnologia anti-spreco e conteggio a punti.",
+      "keywords": "macchina striscia autoadesiva, confezione autoadesiva carte, confezione richiudibile, striscia sigillante, confezione carte premium",
+      "longDescription": [
+        "Il confezionamento con striscia autoadesiva è un metodo versatile che avvolge le carte in film e le sigilla con una striscia autoadesiva, permettendo aperture e chiusure ripetute. È particolarmente adatto per prodotti di carte collezionabili premium dove i consumatori necessitano di aprire e chiudere la confezione più volte.",
+        "La macchina per striscia autoadesiva di CHANFER integra tre metodi di saldatura — autoadesivo, taglio a caldo e pressione a caldo — con cambio flessibile sulla stessa macchina. Questo permette ai produttori di soddisfare diverse esigenze di confezionamento con un'unica attrezzatura, riducendo drasticamente gli investimenti e i tempi di cambio.",
+        "La macchina è dotata di tecnologia anti-spreco: quando nessuna carta passa, il film non viene sprecato. La funzione di memoria dei punti garantisce conteggio preciso e confezionamento in lotti, con il numero esatto di carte per ogni confezione.",
+        "Il confezionamento con striscia autoadesiva offre una presentazione retail premium con film trasparente e striscia di chiusura di qualità. I consumatori possono vedere il prodotto attraverso il film trasparente mentre la striscia garantisce l'integrità e la riutilizzabilità della confezione.",
+        "La linea di produzione completa si integra con gli alimentatori a frizione, le macchine di cartonaggio, le sigillatrici e i robot di pallettizzazione di CHANFER."
+      ],
+      "benefits": [
+        "Funzione richiudibile — striscia pelabile e sigillabile per aperture ripetute",
+        "Tre metodi in una macchina — autoadesivo, taglio a caldo, pressione a caldo",
+        "Presentazione retail premium — film trasparente con chiusura di qualità",
+        "Tecnologia anti-spreco — nessuno spreco di film in assenza di carte",
+        "Larghezza sacco flessibile — regolabile per prodotti multi-spec",
+        "Memoria punti per conteggio preciso e confezionamento in lotti"
+      ],
+      "benefitsTitle": "Perché Scegliere il Confezionamento con Striscia Autoadesiva?",
+      "faqs": [
+        {
+          "question": "La confezione con striscia autoadesiva può essere riaperta?",
+          "answer": "Sì, la confezione utilizza una striscia pelabile e sigillabile che permette ai consumatori di aprire e chiudere la confezione più volte, ideale per carte collezionabili premium."
+        },
+        {
+          "question": "Quanti metodi di saldatura può fare una macchina?",
+          "answer": "La macchina di CHANFER integra tre metodi: autoadesivo, taglio a caldo e pressione a caldo, cambiabili flessibilmente sulla stessa attrezzatura."
+        },
+        {
+          "question": "Come funziona la tecnologia anti-spreco?",
+          "answer": "Quando non viene rilevata alcuna carta, la macchina ferma automaticamente l'erogazione del film, evitando sacchi vuoti e spreco di film. La memoria dei punti garantisce anche il conteggio esatto."
+        }
+      ],
+      "faqTitle": "FAQ Confezionamento con Striscia Autoadesiva",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "qdzd-2130",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Macchine Utilizzate nelle Linee Autoadesive",
+      "ctaTitle": "Pronti ad Automatizzare il Vostro Confezionamento Autoadesivo?",
+      "ctaDescription": "Ottenete una linea personalizzata per i vostri prodotti di carte premium. I nostri ingegneri configureranno il metodo di saldatura ottimale e il layout della linea.",
+      "otherSolutionsTitle": "Altri Metodi di Confezionamento",
+      "viewMachineDetails": "Vedi Dettagli"
+    },
+    "four-sides": {
+      "seoTitle": "Macchina per Confezionamento Quattro Lati Sigillati | CHANFER",
+      "seoDescription": "Confezionamento quattro lati sigillati con sigillatura completa. Sette motori servo, 150 pacchi/min. Fotoocchio tricolore, taglio alternato per sigillature solide.",
+      "keywords": "quattro lati sigillati, confezione sigillata, macchina quattro lati, confezione carte premium, servo quattro lati",
+      "longDescription": [
+        "Il confezionamento quattro lati sigillati è un metodo premium che avvolge le carte in film e sigilla termicamente tutti e quattro i lati. Questo design a sigillatura completa offre eccellente protezione contro umidità, contaminazione e manomissione, ideale per carte collezionabili premium e prodotti di carte di lusso.",
+        "La macchina quattro lati sigillati di CHANFER è equipaggiata con sette motori servo, mantenendo un funzionamento ultra-stabile a 150 pacchi/min. Il sistema fotoelettrico tricolore traccia con precisione i segni grafici sul film, garantendo allineamento preciso anche ad alta velocità.",
+        "La tecnologia di taglio alternato mantiene sigillature solide e stabili anche ad alta velocità. I bordi puliti comunicano qualità premium e si distinguono sugli scaffali retail.",
+        "Il confezionamento quattro lati sigillati offre protezione completa del prodotto e l'autenticità è immediatamente verificabile dal consumatore.",
+        "La linea completa si integra con alimentatori a frizione, cartonatrici e robot di pallettizzazione di CHANFER."
+      ],
+      "benefits": [
+        "A prova di manomissione — tutti e quattro i lati sigillati",
+        "Protezione da umidità e contaminazione — perimetro completamente sigillato",
+        "Presentazione premium — bordi puliti comunicano qualità",
+        "Sette motori servo — ultra-stabile a 150 pacchi/min",
+        "Fotoocchio tricolore — allineamento grafico preciso",
+        "Tecnologia taglio alternato — sigillature solide ad alta velocità"
+      ],
+      "benefitsTitle": "Perché Scegliere il Confezionamento Quattro Lati Sigillati?",
+      "faqs": [
+        {
+          "question": "Qual è la differenza tra quattro lati sigillati e candy?",
+          "answer": "Il confezionamento candy (pillow) sigilla solo le estremità, mentre il quattro lati sigillati sigilla tutti e quattro i lati, offrendo protezione più completa e presentazione di qualità superiore per carte premium."
+        },
+        {
+          "question": "Qual è la velocità della macchina quattro lati?",
+          "answer": "La macchina di CHANFER con sette motori servo raggiunge i 150 pacchi/min mantenendo qualità di sigillatura e allineamento grafico precisi."
+        },
+        {
+          "question": "A cosa serve il fotoocchio tricolore?",
+          "answer": "Il sistema traccia con precisione i segni grafici sul film stampato, garantendo allineamento preciso del colore anche ad alta velocità di confezionamento."
+        }
+      ],
+      "faqTitle": "FAQ Confezionamento Quattro Lati Sigillati",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Macchine Utilizzate nelle Linee Quattro Lati",
+      "ctaTitle": "Pronti ad Automatizzare il Vostro Confezionamento Quattro Lati?",
+      "ctaDescription": "Ottenete una linea personalizzata per i vostri prodotti di carte premium. I nostri ingegneri configureranno i parametri servo ottimali e l'integrazione di linea.",
+      "otherSolutionsTitle": "Altri Metodi di Confezionamento",
+      "viewMachineDetails": "Vedi Dettagli"
+    },
+    "banding": {
+      "seoTitle": "Macchina per Confezionamento con Fascette | CHANFER",
+      "seoDescription": "Confezionamento con fascette ecologico con nastro di carta biodegradabile. Servo-guidato PLC, operazione in un passo. Ideale per carte da gioco e mazzi.",
+      "keywords": "macchina fascette, confezione carta fascette, nastro carta, confezionamento ecologico, servo fascette, carte da gioco",
+      "longDescription": [
+        "Il confezionamento con fascette è il metodo più ecologico per le carte, usando nastri di carta biodegradabile per legare le carte insieme. Rispetto al film plastico, il nastro di carta usa meno materiale ed è riciclabile, la scelta ideale per brand attenti alla sostenibilità.",
+        "La macchina per fascette di CHANFER utilizza motore servo con controllo PLC e touch screen HMI per operazioni di fascettatura ad alta precisione. Completa emissione carte e fascettatura in un solo passo, con alta efficienza produttiva.",
+        "La macchina gestisce carte con spessore 0,1-3mm e fasci multi-mazzo. Il confezionamento con fascette non solo è economico ma comunica anche l'impegno ambientale del brand.",
+        "Particolarmente adatto per carte da gioco, mazzi di carte e accessori per giochi da tavolo. Il nastro di carta può essere stampato con logo del brand e informazioni sul prodotto.",
+        "La linea completa si integra con alimentatori a frizione, cartonatrici e robot di pallettizzazione di CHANFER."
+      ],
+      "benefits": [
+        "Opzione più ecologica — nastro carta biodegradabile, minimo materiale",
+        "Costo di confezionamento più basso — carta più economica del film plastico",
+        "Precisione servo — controllo PLC con touch screen HMI",
+        "Operazione in un passo — emissione e fascettatura in un solo passaggio",
+        "Gamma di spessori flessibile — 0,1-3mm e fasci multi-mazzo",
+        "Branding sostenibile — comunica responsabilità ambientale"
+      ],
+      "benefitsTitle": "Perché Scegliere il Confezionamento con Fascette?",
+      "faqs": [
+        {
+          "question": "In cosa il confezionamento con fascette è ecologico?",
+          "answer": "Usa nastro di carta biodegradabile al posto del film plastico, con minimo uso di materiale ed è riciclabile, il metodo più ecologico per carte, ideale per brand sostenibili."
+        },
+        {
+          "question": "Quale spessore di carte può gestire?",
+          "answer": "La macchina di CHANFER gestisce carte con spessore 0,1-3mm e supporta anche fasci multi-mazzo simultanei."
+        },
+        {
+          "question": "Qual è il costo del confezionamento con fascette?",
+          "answer": "È il metodo più economico: il nastro di carta costa meno del film plastico, e l'operazione in un passo garantisce alta efficienza produttiva."
+        }
+      ],
+      "faqTitle": "FAQ Confezionamento con Fascette",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Macchine Utilizzate nelle Linee Fascette",
+      "ctaTitle": "Pronti ad Automatizzare il Vostro Confezionamento con Fascette?",
+      "ctaDescription": "Ottenete una linea personalizzata per carte da gioco o mazzi. I nostri ingegneri configureranno la macchina e l'integrazione ottimali.",
+      "otherSolutionsTitle": "Altri Metodi di Confezionamento",
+      "viewMachineDetails": "Vedi Dettagli"
+    },
+    "heat-shrink": {
+      "seoTitle": "Macchina per Confezionamento Termoretraente | CHANFER",
+      "seoDescription": "Confezionamento termoretraente con visibilità 360°. Film trasparente che si ritira sul prodotto. Sensore fotoelettrico importato, protezione automatica lama.",
+      "keywords": "macchina termoretraente, confezione restringente, film POF, confezione trasparente, confezione retail carte",
+      "longDescription": [
+        "Il confezionamento termoretraente usa film trasparente che si restringe aderendo al contorno del prodotto tramite calore, offrendo visibilità 360°. Particolarmente adatto per scatole di carte, prodotti in fasci e prodotti che necessitano di esposizione retail.",
+        "La macchina termoretraente di CHANFER è equipaggiata con sensore fotoelettrico importato per rilevamento preciso anche di confezioni sottili. La protezione automatica della lama di sigillatura garantisce la sicurezza dell'operatore. La direzione dell'aria calda regolabile garantisce linee di sigillatura belle e consistenti.",
+        "Il film si restringe aderendo al prodotto, offrendo protezione contro spostamenti e danni durante il trasporto. Il film trasparente permette ai consumatori di vedere il prodotto a 360°.",
+        "Ideale per scatole di carte, fasci multi-prodotto e confezioni regalo. L'aspetto professionale è adatto per scaffali retail con protezione contro umidità e polvere.",
+        "La linea completa si integra con alimentatori a frizione, checkweigher, cartonatrici e robot di pallettizzazione di CHANFER."
+      ],
+      "benefits": [
+        "Visibilità prodotto 360° — film trasparente per esposizione completa",
+        "Protezione aderente — il film si modella sul contorno del prodotto",
+        "Presentazione retail-ready — aspetto professionale per scaffali",
+        "Sensore fotoelettrico importato — rilevamento preciso per confezioni sottili",
+        "Protezione automatica lama — sicurezza operatore integrata",
+        "Direzione aria calda regolabile — linee di sigillatura belle e consistenti"
+      ],
+      "benefitsTitle": "Perché Scegliere il Confezionamento Termoretraente?",
+      "faqs": [
+        {
+          "question": "Il confezionamento termoretraente è trasparente?",
+          "answer": "Sì, usa film trasparente che si restringe aderendo al prodotto, offrendo visibilità 360° per i consumatori sugli scaffali retail."
+        },
+        {
+          "question": "Per quali prodotti è adatto?",
+          "answer": "Particolarmente adatto per scatole di carte, fasci multi-prodotto e confezioni regalo. Il film trasparente offre esposizione retail professionale con protezione contro umidità e polvere."
+        },
+        {
+          "question": "Come funziona la protezione della lama?",
+          "answer": "La lama di sigillatura si ferma automaticamente quando rileva anomalie o mani dell'operatore vicine, garantendo sicurezza. La direzione dell'aria calda è regolabile per linee di sigillatura consistenti."
+        }
+      ],
+      "faqTitle": "FAQ Confezionamento Termoretraente",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Macchine Utilizzate nelle Linee Termoretraenti",
+      "ctaTitle": "Pronti ad Automatizzare il Vostro Confezionamento Termoretraente?",
+      "ctaDescription": "Ottenete una linea personalizzata per scatole di carte o prodotti in fasci. I nostri ingegneri designeranno la configurazione ottimale.",
+      "otherSolutionsTitle": "Altri Metodi di Confezionamento",
+      "viewMachineDetails": "Vedi Dettagli"
+    },
+    "three-dimensional": {
+      "seoTitle": "Macchina per Confezionamento Tridimensionale | CHANFER",
+      "seoDescription": "Confezionamento tridimensionale premium con bordi netti. Gestisce spessori fino a 65mm. Servo-controllato per pieghe precise. Ideale per edizioni limitate e cofanetti.",
+      "keywords": "confezionamento tridimensionale, confezione 3D carte, confezione box, confezione lusso carte, edizione limitata",
+      "longDescription": [
+        "Il confezionamento tridimensionale è il metodo più premium per carte, avvolgendo le carte in una confezione rigida stile scatola con bordi netti e effetto tridimensionale. Comunica qualità di lusso, ideale per edizioni limitate, da collezione e cofanetti regalo.",
+        "La macchina tridimensionale di CHANFER gestisce prodotti con altezza fino a 65mm, adatta per set multi-carta e prodotti spessi. Il controllo servo garantisce linee di piegatura e qualità di sigillatura consistenti.",
+        "Il sistema PLC programmabile memorizza multiple configurazioni di prodotto per cambio rapido. La confezione rigida offre protezione superiore del prodotto con un aspetto premium che si distingue sugli scaffali retail.",
+        "Particolarmente adatto per set di carte edizione limitata, cofanetti da collezione e accessori da gioco premium. I consumatori percepiscono la qualità premium attraverso la consistenza e l'aspetto della confezione.",
+        "La linea completa si integra con alimentatori a frizione, cartonatrici e robot di pallettizzazione di CHANFER."
+      ],
+      "benefits": [
+        "Presentazione più premium — scatola rigida con bordi netti",
+        "Gestisce prodotti spessi — fino a 65mm per set multi-carta",
+        "Precisione servo-controllata — linee di piegatura e sigillatura consistenti",
+        "Feel di lusso — comunica qualità premium ai consumatori",
+        "PLC programmabile — multiple configurazioni prodotto memorizzate",
+        "Confezione regalo-ready — perfetta per edizioni limitate e cofanetti"
+      ],
+      "benefitsTitle": "Perché Scegliere il Confezionamento Tridimensionale?",
+      "faqs": [
+        {
+          "question": "Quale spessore può gestire?",
+          "answer": "La macchina di CHANFER gestisce prodotti con altezza fino a 65mm, adatta per set multi-carta, prodotti spessi e cofanetti. Il controllo servo garantisce qualità di piegatura e sigillatura consistenti."
+        },
+        {
+          "question": "Per quali prodotti è adatto?",
+          "answer": "Particolarmente adatto per set di carte edizione limitata, cofanetti da collezione e accessori da gioco premium. La confezione rigida comunica lusso, la prima scelta per brand premium."
+        },
+        {
+          "question": "Si possono memorizzare multiple configurazioni?",
+          "answer": "Sì, il sistema PLC programmabile memorizza multiple configurazioni di prodotto per cambio rapido tra diverse specifiche."
+        }
+      ],
+      "faqTitle": "FAQ Confezionamento Tridimensionale",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Macchine Utilizzate nelle Linee 3D",
+      "ctaTitle": "Pronti ad Automatizzare il Vostro Confezionamento 3D?",
+      "ctaDescription": "Ottenete una linea personalizzata per i vostri prodotti di carte premium. I nostri ingegneri configureranno i parametri servo e l'integrazione di linea ottimali.",
+      "otherSolutionsTitle": "Altri Metodi di Confezionamento",
+      "viewMachineDetails": "Vedi Dettagli"
+    }
+  },
+  "machineDetail": {
+    "fkj-100sl": {
+      "seoTitle": "Alimentatore a Frizione Automatico FKJ-100SL | CHANFER",
+      "seoDescription": "Alimentatore a frizione servo-guidato ad alta velocità per carte. 800 carte/min (CR80). Spessore 0,1-3mm. Controllo PLC con touch screen. Integrazione con linee di confezionamento.",
+      "keywords": "alimentatore frizione, alimentatore carte, FKJ-100SL, macchina alimentazione carte, alimentatore servo, contatore carte",
+      "longDescription": [
+        "L'FKJ-100SL è l'alimentatore a frizione automatico di punta di CHANFER, progettato per l'erogazione ad alta velocità di carte in linee di confezionamento automatizzate. Motore servo con controllo PLC e touch screen HMI, erogazione precisa di singole carte fino a 800 carte/min (standard CR80).",
+        "Gestisce carte con spessore 0,1-3mm e dimensioni 40x30mm-180x100mm, coprendo tutti i formati standard. Meccanismo servo-guidato con allarme automatico per carte mancanti e sovralimentazione.",
+        "Velocità lineare massima 60m/min, supporta modalità erogazione singola, multipla e continua. Si integra con macchine flow wrapping, confezionatrici a sacco, sigillatrici quattro lati e sistemi di cartonaggio di CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-200e",
+        "zs-220x",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessati all'Alimentatore FKJ-100SL?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione per l'FKJ-100SL nella vostra linea di confezionamento."
+    },
+    "fkj-200e": {
+      "seoTitle": "Alimentatore a Frizione Economico FKJ-200E | CHANFER",
+      "seoDescription": "Alimentatore carte economico, servo-guidato, 500 carte/min. Per produzione piccola e media. Controllo PLC, multi-formati.",
+      "keywords": "alimentatore economico, FKJ-200E, alimentatore carte, frizione, media produzione",
+      "longDescription": [
+        "L'FKJ-200E è l'alimentatore economico di CHANFER per produzione carte piccola e media. Servo-guidato con PLC, 500 carte/min, ottimo equilibrio tra costo ed efficienza.",
+        "Supporta multi-formati e si integra con tutte le macchine di confezionamento CHANFER. Ideale per start-up e piccoli editori."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "zs-220x"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding"
+      ],
+      "ctaTitle": "Interessati all'Alimentatore FKJ-200E?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "fkj-300e": {
+      "seoTitle": "Alimentatore a Frizione Media Velocità FKJ-300E | CHANFER",
+      "seoDescription": "Alimentatore carte media velocità, servo-guidato, 600 carte/min. Per produzione media. PLC touch screen, multi-modalità.",
+      "keywords": "alimentatore media velocità, FKJ-300E, alimentatore carte, frizione, servo",
+      "longDescription": [
+        "L'FKJ-300E colma il divario tra modello economico e alto rendimento. Servo-guidato con PLC, 600 carte/min, per linee di carte di scala media.",
+        "Modalità singola, multipla e continua. Integrazione con tutte le macchine CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-420e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interessati all'Alimentatore FKJ-300E?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "fkj-420e": {
+      "seoTitle": "Alimentatore a Frizione Grande Formato FKJ-420E | CHANFER",
+      "seoDescription": "Alimentatore per carte di grande formato e board di gioco. Servo-guidato, PLC. Per formati oltre lo standard.",
+      "keywords": "alimentatore grande formato, FKJ-420E, carte grandi, board giochi, frizione",
+      "longDescription": [
+        "L'FKJ-420E è progettato per carte di grande formato e board di gioco. Gestisce dimensioni oltre lo standard con prestazioni servo stabili.",
+        "Per accessori da gioco grandi, board e carte di dimensioni speciali."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessati all'Alimentatore FKJ-420E?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "three-head-suction": {
+      "seoTitle": "Alimentatore a Tre Teste ad Aspirazione | CHANFER",
+      "seoDescription": "Alimentatore a vuoto tre teste, tre stazioni simultanee. Per carte con superficie liscia. Alta efficienza.",
+      "keywords": "alimentatore tre teste, aspirazione, vuoto, alimentatore carte, multi-stazione",
+      "longDescription": [
+        "L'alimentatore a tre teste usa tecnologia vuoto con tre stazioni simultanee, aumentando l'efficienza. Ideale per carte con superficie liscia, evita graffi.",
+        "Design multi-stazione raddoppia la velocità, il vuoto assicura una carta alla volta."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "four-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interessati all'Alimentatore a Tre Teste?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "four-head-suction": {
+      "seoTitle": "Alimentatore a Quattro Teste ad Aspirazione | CHANFER",
+      "seoDescription": "Alimentatore a vuoto quattro teste, altissima velocità. Quattro stazioni simultanee per massima produzione.",
+      "keywords": "alimentatore quattro teste, vuoto, alta velocità, alimentatore carte",
+      "longDescription": [
+        "Versione potenziata con quattro stazioni simultanee per produzione ultra-rapida. Tecnologia vuoto per carte lisce senza danni.",
+        "Per linee ad alto volume, abbinato alle macchine ad alta velocità CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interessati all'Alimentatore a Quattro Teste?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "card-dispensing-matching": {
+      "seoTitle": "Macchina Erogazione e Abbinamento Carte | CHANFER",
+      "seoDescription": "Erogazione e abbinamento automatico, conteggio preciso. Modalità casuale e fissa. Per buste TCG e set di carte.",
+      "keywords": "erogazione carte, abbinamento, conteggio, TCG, buste, set carte",
+      "longDescription": [
+        "Per buste TCG e set di carte, conteggio e abbinamento precisi. Modalità casuale e fissa per diverse esigenze.",
+        "Sensori ad alta precisione, rilevamento doppie/carte mancanti. Integrazione con macchine CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "four-head-suction"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interessati alla Macchina di Erogazione Carte?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "zs-220x": {
+      "seoTitle": "Macchina Flow Wrapping ZS-220X | CHANFER",
+      "seoDescription": "Flow wrapping alta velocità (candy), 220 sacchi/min. Servo, larghezza max 220mm. Per buste TCG e multi-pack.",
+      "keywords": "flow wrapping, ZS-220X, candy, macchina confezionamento, TCG",
+      "longDescription": [
+        "L'ZS-220X è la macchina flow wrapping (candy) ad alta velocità di CHANFER, servo-guidata, 220 sacchi/min. Larghezza max 220mm per buste TCG, sleeve e multi-pack.",
+        "Servo per taglio preciso, sensore fotoelettrico ad alta sensibilità. 60 preset, cambio 3-5 min.",
+        "Integrazione con alimentatori, checkweigher, cartonatrici e robot CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "pof-shrink",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interessati alla Macchina ZS-220X?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "sbf-250": {
+      "seoTitle": "Macchina Quattro Lati Sigillati SBF-250 | CHANFER",
+      "seoDescription": "Quattro lati sigillati, sette servo, 150 pacchi/min. Fotoocchio tricolore, taglio alternato. Sigillatura completa per carte premium.",
+      "keywords": "quattro lati, SBF-250, sigillatura completa, servo, carte premium",
+      "longDescription": [
+        "L'SBF-250 è la macchina quattro lati sigillati con sette motori servo, 150 pacchi/min. Fotoocchio tricolore e taglio alternato per sigillature solide.",
+        "Sigillatura completa per protezione contro umidità e manomissione. Integrazione con alimentatori e dispositivi CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "four-sides",
+        "self-adhesive"
+      ],
+      "ctaTitle": "Interessati alla Macchina SBF-250?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "qdzd-2130": {
+      "seoTitle": "Macchina Striscia Autoadesiva QDZD-2130 | CHANFER",
+      "seoDescription": "Striscia autoadesiva, tre metodi: autoadesivo, taglio a caldo, pressione a caldo. Richiudibile. Anti-spreco, memoria punti.",
+      "keywords": "striscia autoadesiva, QDZD-2130, richiudibile, autoadesivo, taglio caldo",
+      "longDescription": [
+        "L'QDZD-2130 integra tre metodi di saldatura: autoadesivo, taglio a caldo e pressione a caldo. Richiudibile per carte premium.",
+        "Anti-spreco, memoria punti per conteggio preciso. Larghezza regolabile."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interessati alla Macchina QDZD-2130?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "pof-shrink": {
+      "seoTitle": "Macchina Termoretraente POF | CHANFER",
+      "seoDescription": "Termoretraente POF, visibilità 360°. Sensore importato, protezione lama. Per scatole carte e fasci.",
+      "keywords": "POF, termoretraente, restringente, trasparente, carte",
+      "longDescription": [
+        "La termoretraente POF usa film trasparente che si restringe sul prodotto, visibilità 360°. Sensore importato per confezioni sottili, protezione lama.",
+        "Direzione aria calda regolabile. Per scatole carte, fasci e cofanetti. Integrazione con dispositivi CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "heat-shrink",
+        "candy"
+      ],
+      "ctaTitle": "Interessati alla Macchina Termoretraente POF?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "cartoning": {
+      "seoTitle": "Macchina di Cartonaggio Automatica | CHANFER",
+      "seoDescription": "Cartonaggio automatico ad alta velocità, inserimento carte in scatole. Servo, per linee continue.",
+      "keywords": "cartonaggio, automatico, carte, scatole, servo",
+      "longDescription": [
+        "La cartonatrice di CHANFER inserisce automaticamente le carte confezionate in scatole di cartone. Servo per precisione, per linee continue.",
+        "Rilevamento e scarto prodotti non conformi. Integrazione con macchine e robot CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessati alla Cartonatrice?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "carton-forming": {
+      "seoTitle": "Formatrice di Scatole | CHANFER",
+      "seoDescription": "Formatrice automatica di scatole piatte. Servo, alta velocità. Per fronte linea di packaging.",
+      "keywords": "formatrice scatole, cartone, automatico, servo",
+      "longDescription": [
+        "La formatrice di CHANFER forma scatole piatte per il cartonaggio. Servo per qualità stabile, alta velocità.",
+        "Integrazione con cartonatrice, sigillatrice e robot CHANFER."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessati alla Formatrice di Scatole?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "h-type-sealer": {
+      "seoTitle": "Sigillatrice a H | CHANFER",
+      "seoDescription": "Sigillatrice a H per chiusura scatole. Servo, per linee continue. Collegamento con robot pallettizzazione.",
+      "keywords": "sigillatrice H, chiusura scatole, automatico, sigillatura",
+      "longDescription": [
+        "La sigillatrice a H di CHANFER chiude le scatole con effetto H. Servo per qualità precisa, per linee continue.",
+        "Collegamento con cartonatrice e robot di pallettizzazione. Alta velocità con qualità."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessati alla Sigillatrice a H?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "palletizing-robot": {
+      "seoTitle": "Robot di Pallettizzazione Collaborativo | CHANFER",
+      "seoDescription": "Robot collaborativo per pallettizzazione automatica. Sicuro, senza recinzione. Per fine linea automatica.",
+      "keywords": "robot pallettizzazione, collaborativo, automatico, fine linea",
+      "longDescription": [
+        "Il robot collaborativo di CHANFER pallettizza automaticamente i prodotti sigillati, automatizzando la fine linea. Sicuro senza recinzione, condivide spazio con operatori.",
+        "Programmazione flessibile per diversi pattern. Integrazione con cartonatrice e sigillatrice."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "carton-forming"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessati al Robot di Pallettizzazione?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "ai-visual": {
+      "seoTitle": "Sistema di Ispezione Visiva AI | CHANFER",
+      "seoDescription": "Ispezione visiva AI per qualità confezionamento carte. Rilevamento difetti, verifica conteggio, ispezione etichette.",
+      "keywords": "AI visiva, ispezione, qualità, difetti, rilevamento",
+      "longDescription": [
+        "Il sistema AI di CHANFER ispeziona la qualità del confezionamento in tempo reale. Rileva difetti, verifica conteggio, ispeziona etichette e stampa.",
+        "Deep learning per precisione crescente, fotocamere ad alta velocità. Integrazione con macchine CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interessati al Sistema AI?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
     }
   }
 }
