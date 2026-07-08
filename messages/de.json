@@ -362,7 +362,8 @@
           "Limitierte Edition Kartenbündel"
         ]
       }
-    }
+    },
+    "viewDetails": "Details ansehen"
   },
   "machines": {
     "title1": "Maschinen-",
@@ -383,7 +384,76 @@
       "palletizing": "Palettierung",
       "ai": "KI-Bildprüfung"
     },
-    "model": "Modell"
+    "model": "Modell",
+    "machinesData": {
+      "fkj-100sl": {
+        "name": "Automatischer Reibungsfeeder",
+        "description": "Hochgeschwindigkeits-Reibungsfeeder, servo und PLC, 800 Karten/Min (CR80). Auto-Alarm bei fehlenden Karten."
+      },
+      "fkj-200e": {
+        "name": "Wirtschaftlicher Reibungsfeeder",
+        "description": "Servo, 500 Karten/Min. Für kleine/mittlere Produktion."
+      },
+      "fkj-300e": {
+        "name": "Mittelschneller Reibungsfeeder",
+        "description": "Servo, 600 Karten/Min. Für mittlere Produktion."
+      },
+      "fkj-420e": {
+        "name": "Großformatiger Reibungsfeeder",
+        "description": "Für großformatige Karten und Bretter."
+      },
+      "three-head-suction": {
+        "name": "Dreikopf-Saugfeeder",
+        "description": "Vakuum, drei Stationen. Für glatte Karten."
+      },
+      "four-head-suction": {
+        "name": "Vierkopf-Saugfeeder",
+        "description": "Vakuum, vier Stationen. Höchste Geschwindigkeit."
+      },
+      "card-dispensing-matching": {
+        "name": "Karten-Ausgabemaschine",
+        "description": "Automatische Ausgabe, präzise Zählung. Zufällig und fest."
+      },
+      "zs-220x": {
+        "name": "Flow-Wrapping-Maschine",
+        "description": "Sweets-Verpackung, servo 220 Beutel/Min. Max 220mm."
+      },
+      "sbf-250": {
+        "name": "Vier-Seiten-Siegel-Maschine",
+        "description": "Sieben Servos, 150 Pack/Min. Dreifarben-Photozelle."
+      },
+      "qdzd-2130": {
+        "name": "Selbstklebeband-Maschine",
+        "description": "Drei Methoden. Wiederverschließbar. Anti-Verschwendung."
+      },
+      "pof-shrink": {
+        "name": "POF-Schrumpffolienmaschine",
+        "description": "360°-Transparenz. Importierter Sensor, Klingenschutz."
+      },
+      "cartoning": {
+        "name": "Automatische Kartoniermaschine",
+        "description": "Servo, kontinuierlich. Karten in Kartons."
+      },
+      "carton-forming": {
+        "name": "Kartonformmaschine",
+        "description": "Automatische Formung flacher Kartons. Servo."
+      },
+      "h-type-sealer": {
+        "name": "H-Siegelmaschine",
+        "description": "Automatische H-Siegelung. Servo, kontinuierlich."
+      },
+      "palletizing-robot": {
+        "name": "Kollaborativer Palettierroboter",
+        "description": "Sicher ohne Zaun. Flexible Programmierung."
+      },
+      "ai-visual": {
+        "name": "AI-Bildinspektionssystem",
+        "description": "Echtzeit-Inspektion. Fehlererkennung, Zählverifikation."
+      }
+    },
+    "featuresTitle": "Eigenschaften",
+    "applicationsTitle": "Anwendungen",
+    "viewDetails": "Details ansehen"
   },
   "about": {
     "title1": "Über",
@@ -746,6 +816,616 @@
       "description": "Unser Team hilft Ihnen, die perfekte Lösung zu finden.",
       "button1": "Kontakt",
       "button2": "Lösungen ansehen"
+    }
+  },
+  "solutionDetail": {
+    "candy": {
+      "seoTitle": "Sweets-Verpackungsmaschine für Sammelkarten | CHANFER",
+      "seoDescription": "Hochgeschwindigkeits-Sweets-Verpackung (Flow Wrapping) für TCG Booster Packs und Sammelkarten. Bis zu 220 Beutel/Min mit servogesteuerter Präzisionssiegelung.",
+      "keywords": "Sweets-Verpackungsmaschine, Karten-Sweets-Verpackung, Flow-Wrapping-Maschine, TCG-Booster-Verpackung, Sammelkartenverpackung, Pillow-Verpackung",
+      "longDescription": [
+        "Sweets-Verpackung — auch bekannt als Pillow-Style Flow Wrapping — ist die am weitesten verbreitete Verpackungsmethode für TCG-Booster-Packs, Sammelkarten-Hüllen und Spielkarten-Multipacks. Diese Methode wickelt einen durchgehenden Film um den Kartenstapel und siegelt beide Enden thermisch, wodurch eine versiegelte Sweets-Verpackung entsteht, die manipulationssicher, kostengünstig und ideal für die Hochvolumenproduktion ist.",
+        "Die Sweets-Verpackungslinie von CHANFER basiert auf einer servogesteuerten Flow-Wrapping-Maschine, die bis zu 220 Beutel pro Minute produzieren kann. Der Servomotorantrieb sorgt für präzise Beutellängenkontrolle — Einstellung der Länge am HMI-Touchscreen, die Maschine schneidet genau programmgemäß, ohne Leerlauf oder Filmverschwendung.",
+        "Diese Verpackungsmethode ist besonders beliebt bei TCG-Verlagen (wie Pokemon, Magic: The Gathering und Yu-Gi-Oh!), da sie konsistente, professionelle Packungen in den für Massenproduktion erforderlichen Geschwindigkeiten liefert.",
+        "Die komplette Produktionslinie integriert sich nahtlos mit Reibungsfeederwaagen, Kartoniermaschinen, Verschließern und Palettierrobotern von CHANFER.",
+        "Mit bis zu 60 gespeicherten Verpackungsparametern am HMI dauert der Wechsel zwischen verschiedenen Kartengrößen nur 3-5 Minuten."
+      ],
+      "benefits": [
+        "Höchste Produktionsgeschwindigkeit — bis zu 220 Beutel/Min",
+        "Niedrigste Kosten pro Packung — minimaler Filmverbrauch",
+        "Manipulationssichere Siegelung — beide Enden thermisch gesiegelt",
+        "Schneller Produktwechsel — 60 Rezepte, 3-5 Min",
+        "Vollfarbiger Druckfilm — retail-fertige Verpackung",
+        "Nahtlose Linienintegration"
+      ],
+      "benefitsTitle": "Warum Sweets-Verpackung wählen?",
+      "faqs": [
+        {
+          "question": "Was ist Sweets-Verpackung für Karten?",
+          "answer": "Sweets-Verpackung (Pillow-Style Flow Wrapping) wickelt einen durchgehenden Film um den Kartenstapel und siegelt beide Enden. Es ist der Branchenstandard für TCG-Booster-Packs aufgrund der hohen Geschwindigkeit und Kosteneffizienz."
+        },
+        {
+          "question": "Wie schnell ist die Maschine?",
+          "answer": "20-220 Beutel pro Minute, je nach Kartengröße und Filmart. Das servogesteuerte System hält auch bei Höchstgeschwindigkeit präzise Siegelqualität."
+        },
+        {
+          "question": "Welche Kartengrößen werden unterstützt?",
+          "answer": "Kartenbreiten bis 220mm, Produkthöhen 5-35mm. Deckt alle Standardgrößen ab: Poker (63x88mm), Bridge (56x88mm), Tarot und Multipacks."
+        }
+      ],
+      "faqTitle": "Sweets-Verpackung FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Maschinen in Sweets-Verpackungslinien",
+      "ctaTitle": "Bereit, Ihre Sweets-Verpackung zu automatisieren?",
+      "ctaDescription": "Erhalten Sie eine maßgeschneiderte Sweets-Verpackungslinie — vom Karten-Zuführen bis zur Palettierung.",
+      "otherSolutionsTitle": "Andere Verpackungsmethoden",
+      "viewMachineDetails": "Details ansehen"
+    },
+    "self-adhesive": {
+      "seoTitle": "Selbstklebeband-Verpackungsmaschine für Karten | CHANFER",
+      "seoDescription": "Selbstklebeband-Verpackung mit wiederverschließbarer Funktion für Premium-Sammelkarten. Drei Siegelmethoden in einer Maschine.",
+      "keywords": "Selbstklebeband-Verpackung, wiederverschließbar, Kartenverpackung, Premium, Siegelstreifen",
+      "longDescription": [
+        "Die Selbstklebeband-Verpackung ist eine vielseitige Methode, die Karten in Film einwickelt und mit einem selbstklebenden Streifen versiegelt, der wiederholt geöffnet und geschlossen werden kann. Ideal für Premium-Sammelkarten.",
+        "Die Maschine von CHANFER integriert drei Siegelmethoden — selbstklebend, Heißschnitt und Heißpressung — mit flexiblem Wechsel auf derselben Maschine.",
+        "Anti-Verschwendung-Technologie stoppt die Filmzufuhr, wenn keine Karten vorhanden. Punktzählfunktion für präzise Zählung und Stapelverpackung."
+      ],
+      "benefits": [
+        "Wiederverschließbar — abziehbarer Siegelstreifen",
+        "Drei Methoden in einer Maschine",
+        "Premium-Präsentation — transparenter Film",
+        "Anti-Verschwendung-Technologie",
+        "Flexible Beutelbreite",
+        "Punktzählfunktion"
+      ],
+      "benefitsTitle": "Warum Selbstklebeband-Verpackung?",
+      "faqs": [
+        {
+          "question": "Ist die Verpackung wiederverschließbar?",
+          "answer": "Ja, der abziehbare Siegelstreifen ermöglicht mehrfaches Öffnen und Schließen, ideal für Premium-Sammelkarten."
+        },
+        {
+          "question": "Welche Siegelmethoden sind verfügbar?",
+          "answer": "Drei Methoden: selbstklebend, Heißschnitt und Heißpressung, flexibel auf derselben Maschine wechselbar."
+        }
+      ],
+      "faqTitle": "Selbstklebeband-Verpackung FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "qdzd-2130",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Maschinen in Selbstklebeband-Linien",
+      "ctaTitle": "Bereit, Ihre Selbstklebeband-Verpackung zu automatisieren?",
+      "ctaDescription": "Maßgeschneiderte Lösung für Ihre Premium-Kartenprodukte.",
+      "otherSolutionsTitle": "Andere Verpackungsmethoden",
+      "viewMachineDetails": "Details ansehen"
+    },
+    "four-sides": {
+      "seoTitle": "Vier-Seiten-Siegel-Verpackungsmaschine | CHANFER",
+      "seoDescription": "Vier-Seiten-Siegel mit vollständiger Versiegelung. Sieben Servomotoren, 150 Packungen/Min. Dreifarben-Photozelle, Präzisionsausrichtung.",
+      "keywords": "Vier-Seiten-Siegel, vollständig versiegelt, Premium-Kartenverpackung, Servo",
+      "longDescription": [
+        "Vier-Seiten-Siegel ist eine Premium-Methode, die Karten vollständig einwickelt und alle vier Seiten thermisch versiegelt. Bietet hervorragenden Schutz gegen Feuchtigkeit, Kontamination und Manipulation.",
+        "Die Maschine von CHANFER mit sieben Servomotoren, ultra-stabil bei 150 Packungen/Min. Dreifarben-Photozelle für präzise Grafikausrichtung.",
+        "Wechselschnitt-Technologie gewährleistet feste, stabile Siegel auch bei hoher Geschwindigkeit."
+      ],
+      "benefits": [
+        "Manipulationssicher — alle vier Seiten gesiegelt",
+        "Feuchtigkeits- und Kontaminationsschutz",
+        "Premium-Präsentation",
+        "Sieben Servomotoren — 150 Pack/Min",
+        "Dreifarben-Photozelle",
+        "Wechselschnitt-Technologie"
+      ],
+      "benefitsTitle": "Warum Vier-Seiten-Siegel?",
+      "faqs": [
+        {
+          "question": "Unterschied zu Sweets-Verpackung?",
+          "answer": "Sweets-Verpackung siegelt nur die Enden, Vier-Seiten-Siegel versiegelt alle vier Seiten für umfassenderen Schutz und höhere Qualität."
+        },
+        {
+          "question": "Wie schnell ist die Maschine?",
+          "answer": "Bis zu 150 Packungen/Min mit sieben Servomotoren bei präziser Siegelqualität."
+        }
+      ],
+      "faqTitle": "Vier-Seiten-Siegel FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Maschinen in Vier-Seiten-Siegel-Linien",
+      "ctaTitle": "Bereit, Ihre Vier-Seiten-Siegel-Verpackung zu automatisieren?",
+      "ctaDescription": "Maßgeschneiderte Lösung für Premium-Kartenprodukte.",
+      "otherSolutionsTitle": "Andere Verpackungsmethoden",
+      "viewMachineDetails": "Details ansehen"
+    },
+    "banding": {
+      "seoTitle": "Banderoliermaschine für Karten | CHANFER",
+      "seoDescription": "Umweltfreundliche Banderolierung mit biologisch abbaubarem Papierband. Servogesteuert, einstufig. Ideal für Spielkarten.",
+      "keywords": "Banderoliermaschine, Papierband, umweltfreundlich, Spielkarten, Servo",
+      "longDescription": [
+        "Banderolierung ist die umweltfreundlichste Kartenverpackungsmethode mit biologisch abbaubaren Papierbändern. Minimaler Materialverbrauch und recycelbar.",
+        "Servogesteuert mit PLC und Touchscreen-HMI. Einstufige Kartenausgabe und Banderolierung für hohe Effizienz.",
+        "Verarbeitet Karten 0,1-3mm und Mehrfachstapel. Wirtschaftlich und umweltfreundlich."
+      ],
+      "benefits": [
+        "Umweltfreundlichste Option — biologisch abbaubar",
+        "Niedrigste Verpackungskosten",
+        "Servo-Präzision mit PLC",
+        "Einstufige Operation",
+        "Flexible Dicke 0,1-3mm",
+        "Nachhaltiges Branding"
+      ],
+      "benefitsTitle": "Warum Banderolierung?",
+      "faqs": [
+        {
+          "question": "Worin ist Banderolierung umweltfreundlich?",
+          "answer": "Verwendet biologisch abbaubares Papierband statt Plastikfilm, minimaler Materialverbrauch, recycelbar."
+        },
+        {
+          "question": "Welche Dicke wird unterstützt?",
+          "answer": "0,1-3mm, auch Mehrfachstapel gleichzeitig."
+        }
+      ],
+      "faqTitle": "Banderolierung FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Maschinen in Banderolierlinien",
+      "ctaTitle": "Bereit, Ihre Banderolierung zu automatisieren?",
+      "ctaDescription": "Maßgeschneiderte Lösung für Spielkarten und Kartensets.",
+      "otherSolutionsTitle": "Andere Verpackungsmethoden",
+      "viewMachineDetails": "Details ansehen"
+    },
+    "heat-shrink": {
+      "seoTitle": "Schrumpffolien-Verpackungsmaschine | CHANFER",
+      "seoDescription": "Schrumpffolienverpackung mit 360°-Transparenz. Importierter Photosensor, automatischer Klingenschutz. Für Kartenboxen und Bündel.",
+      "keywords": "Schrumpffolienmaschine, Schrumpffolie, transparent, POF, Kartenverpackung",
+      "longDescription": [
+        "Schrumpffolienverpackung verwendet transparente Folie, die sich durch Hitze an die Produktkontur anpasst und 360°-Sichtbarkeit bietet. Ideal für Kartenboxen und Bündelprodukte.",
+        "Importierter Photosensor für präzise Erfassung auch dünner Verpackungen. Automatischer Klingenschutz für Bedienericherheit.",
+        "Die Folie schützt vor Verrutschen und Beschädigung beim Transport. Transparent für optimale Retail-Präsentation."
+      ],
+      "benefits": [
+        "360°-Produktsichtbarkeit",
+        "Anliegender Schutz",
+        "Retail-fertige Präsentation",
+        "Importierter Photosensor",
+        "Automatischer Klingenschutz",
+        "Regelbare Heißluft"
+      ],
+      "benefitsTitle": "Warum Schrumpffolienverpackung?",
+      "faqs": [
+        {
+          "question": "Ist die Verpackung transparent?",
+          "answer": "Ja, transparente Folie bietet 360°-Sichtbarkeit auf dem Retail-Regal."
+        },
+        {
+          "question": "Für welche Produkte geeignet?",
+          "answer": "Kartenboxen, Mehrfachbündel und Geschenkverpackungen."
+        }
+      ],
+      "faqTitle": "Schrumpffolienverpackung FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Maschinen in Schrumpffolien-Linien",
+      "ctaTitle": "Bereit, Ihre Schrumpffolienverpackung zu automatisieren?",
+      "ctaDescription": "Maßgeschneiderte Lösung für Kartenboxen und Bündel.",
+      "otherSolutionsTitle": "Andere Verpackungsmethoden",
+      "viewMachineDetails": "Details ansehen"
+    },
+    "three-dimensional": {
+      "seoTitle": "3D-Verpackungsmaschine für Karten | CHANFER",
+      "seoDescription": "Premium 3D-Verpackung mit steifer Boxform. Bis 65mm Dicke. Servogesteuert. Ideal für limitierte Editionen und Geschenksets.",
+      "keywords": "3D-Verpackung, Box-Verpackung, Premium, Luxus, limitierte Edition",
+      "longDescription": [
+        "3D-Verpackung ist die premiumste Methode — steife Boxform mit scharfen Kanten. Vermittelt Luxusqualität, ideal für limitierte Editionen und Geschenksets.",
+        "Verarbeitet Produkte bis 65mm Höhe für Mehrfachkarten-Sets. Servosteuerung für konsistente Falzlinien und Siegelung.",
+        "PLC speichert multiple Produktkonfigurationen für schnellen Wechsel."
+      ],
+      "benefits": [
+        "Premiumste Präsentation — steife Boxform",
+        "Dicke bis 65mm",
+        "Servo-Präzision",
+        "Luxusgefühl",
+        "PLC-programmierbar",
+        "Geschenk-fertig"
+      ],
+      "benefitsTitle": "Warum 3D-Verpackung?",
+      "faqs": [
+        {
+          "question": "Welche Dicke wird unterstützt?",
+          "answer": "Bis zu 65mm Höhe, geeignet für Mehrfachkarten-Sets und dicke Produkte."
+        },
+        {
+          "question": "Für welche Produkte?",
+          "answer": "Limitierte Editionen, Sammler-Geschenkboxen und Premium-Spielzubehör."
+        }
+      ],
+      "faqTitle": "3D-Verpackung FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Maschinen in 3D-Verpackungslinien",
+      "ctaTitle": "Bereit, Ihre 3D-Verpackung zu automatisieren?",
+      "ctaDescription": "Maßgeschneiderte Lösung für Premium-Kartenprodukte.",
+      "otherSolutionsTitle": "Andere Verpackungsmethoden",
+      "viewMachineDetails": "Details ansehen"
+    }
+  },
+  "machineDetail": {
+    "fkj-100sl": {
+      "seoTitle": "Automatischer Reibungsfeeder FKJ-100SL | CHANFER",
+      "seoDescription": "Servogesteuerter Hochgeschwindigkeits-Reibungsfeeder. 800 Karten/Min (CR80). 0,1-3mm. PLC mit Touchscreen.",
+      "keywords": "Reibungsfeeder, Kartenfeeder, FKJ-100SL, automatische Kartenzuführung, Servo",
+      "longDescription": [
+        "Der FKJ-100SL ist CHANFERs Flaggschiff-Reibungsfeeder für hochgeschwindigkeits-Kartenzuführung. Servomotor mit PLC, bis 800 Karten/Min (CR80).",
+        "Verarbeitet 0,1-3mm Dicke, 40x30mm-180x100mm. Auto-Alarm bei fehlenden Karten.",
+        "Bis 60m/min, ein-/mehr-/durchlaufmodus. Integration mit allen CHANFER-Maschinen."
+      ],
+      "relatedMachineIds": [
+        "fkj-200e",
+        "zs-220x",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse am FKJ-100SL?",
+      "ctaDescription": "Detaillierte Spezifikationen, Preise und Integrationsberatung."
+    },
+    "fkj-200e": {
+      "seoTitle": "Wirtschaftlicher Reibungsfeeder FKJ-200E | CHANFER",
+      "seoDescription": "Wirtschaftlicher Kartenfeeder, servogesteuert, 500 Karten/Min. Für kleine und mittlere Produktion.",
+      "keywords": "Wirtschaftlicher Feeder, FKJ-200E, Kartenfeeder",
+      "longDescription": [
+        "Wirtschaftlicher Feeder für kleine/mittlere Produktion. Servo, 500 Karten/Min.",
+        "Multi-Format, Integration mit allen CHANFER-Maschinen."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "zs-220x"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding"
+      ],
+      "ctaTitle": "Interesse am FKJ-200E?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "fkj-300e": {
+      "seoTitle": "Mittelschneller Reibungsfeeder FKJ-300E | CHANFER",
+      "seoDescription": "Mittelschneller Kartenfeeder, servogesteuert, 600 Karten/Min. Für mittlere Produktion.",
+      "keywords": "Mittelschneller Feeder, FKJ-300E, Kartenfeeder",
+      "longDescription": [
+        "Füllt die Lücke zwischen wirtschaftlich und hochleistung. Servo, 600 Karten/Min.",
+        "Ein-/mehr-/durchlaufmodus."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-420e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interesse am FKJ-300E?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "fkj-420e": {
+      "seoTitle": "Großformatiger Reibungsfeeder FKJ-420E | CHANFER",
+      "seoDescription": "Feeder für großformatige Karten und Spielbretter. Servogesteuert.",
+      "keywords": "Großformat, FKJ-420E, Spielbretter",
+      "longDescription": [
+        "Für großformatige Karten und Bretter. Servo für stabile Leistung."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse am FKJ-420E?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "three-head-suction": {
+      "seoTitle": "Dreikopf-Saugfeeder | CHANFER",
+      "seoDescription": "Vakuum-Saugfeeder mit drei Stationen. Für glatte Kartenoberflächen.",
+      "keywords": "Dreikopf, Saugfeeder, Vakuum, Karten",
+      "longDescription": [
+        "Drei Stationen gleichzeitig für hohe Effizienz. Vakuum für glatte Karten ohne Kratzer."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "four-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interesse am Dreikopf-Saugfeeder?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "four-head-suction": {
+      "seoTitle": "Vierkopf-Saugfeeder | CHANFER",
+      "seoDescription": "Vier Stationen, höchste Geschwindigkeit. Für Hochvolumenproduktion.",
+      "keywords": "Vierkopf, Saugfeeder, Hochgeschwindigkeit",
+      "longDescription": [
+        "Vier Stationen für ultraschnelle Produktion. Vakuum für glatte Karten."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interesse am Vierkopf-Saugfeeder?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "card-dispensing-matching": {
+      "seoTitle": "Karten-Ausgabe- und Sortiermaschine | CHANFER",
+      "seoDescription": "Automatische Ausgabe und Sortierung, präzise Zählung. Zufällig und fest.",
+      "keywords": "Ausgabe, Sortierung, Zählung, TCG",
+      "longDescription": [
+        "Für TCG-Booster und Kartensets. Präzise Zählung und Sortierung.",
+        "Hohe Präzisionssensoren, Doppel-/Fehlkartenerkennung."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "four-head-suction"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interesse an der Ausgabemaschine?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "zs-220x": {
+      "seoTitle": "Flow-Wrapping-Maschine ZS-220X | CHANFER",
+      "seoDescription": "Hochgeschwindigkeits-Flow-Wrapping (Sweets), 220 Beutel/Min. Servo, max 220mm. Für TCG.",
+      "keywords": "Flow-Wrapping, ZS-220X, Sweets, TCG",
+      "longDescription": [
+        "Hochgeschwindigkeits-Flow-Wrapping, servo, 220 Beutel/Min. Max 220mm.",
+        "60 Presets, 3-5 Min Wechsel. Integration mit CHANFER-Maschinen."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "pof-shrink",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interesse an der ZS-220X?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "sbf-250": {
+      "seoTitle": "Vier-Seiten-Siegel-Maschine SBF-250 | CHANFER",
+      "seoDescription": "Vier-Seiten-Siegel, sieben Servos, 150 Pack/Min. Dreifarben-Photozelle, Wechselschnitt.",
+      "keywords": "Vier-Seiten, SBF-250, Siegelung, Servo",
+      "longDescription": [
+        "Sieben Servos, 150 Pack/Min. Dreifarben-Photozelle, Wechselschnitt.",
+        "Vollständige Versiegelung für Premium-Karten."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "four-sides",
+        "self-adhesive"
+      ],
+      "ctaTitle": "Interesse an der SBF-250?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "qdzd-2130": {
+      "seoTitle": "Selbstklebeband-Maschine QDZD-2130 | CHANFER",
+      "seoDescription": "Drei Methoden: selbstklebend, Heißschnitt, Heißpressung. Wiederverschließbar.",
+      "keywords": "Selbstklebeband, QDZD-2130, wiederverschließbar",
+      "longDescription": [
+        "Drei Siegelmethoden in einer Maschine. Wiederverschließbar für Premium-Karten.",
+        "Anti-Verschwendung, Punktzählung."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interesse an der QDZD-2130?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "pof-shrink": {
+      "seoTitle": "POF-Schrumpffolienmaschine | CHANFER",
+      "seoDescription": "POF-Schrumpffolie, 360°-Transparenz. Importierter Sensor, Klingenschutz.",
+      "keywords": "POF, Schrumpffolie, transparent",
+      "longDescription": [
+        "Transparente Folie, 360°-Sicht. Importierter Sensor, Klingenschutz.",
+        "Regelbare Heißluft. Für Kartenboxen."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "heat-shrink",
+        "candy"
+      ],
+      "ctaTitle": "Interesse an der POF-Maschine?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "cartoning": {
+      "seoTitle": "Automatische Kartoniermaschine | CHANFER",
+      "seoDescription": "Hochgeschwindigkeits-Kartonierung, servogesteuert. Für kontinuierliche Linien.",
+      "keywords": "Kartonierung, automatisch, Servo",
+      "longDescription": [
+        "Automatische Kartonierung der verpackten Karten. Servo, kontinuierlich.",
+        "Integration mit CHANFER-Maschinen."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse an der Kartoniermaschine?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "carton-forming": {
+      "seoTitle": "Kartonformmaschine | CHANFER",
+      "seoDescription": "Automatische Formung flacher Kartons. Servo, hochgeschwindigkeits.",
+      "keywords": "Kartonformmaschine, automatisch, Servo",
+      "longDescription": [
+        "Formt flache Kartons für Kartonierung. Servo, stabil.",
+        "Integration mit CHANFER-Linien."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse an der Formmaschine?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "h-type-sealer": {
+      "seoTitle": "H-Siegelmaschine | CHANFER",
+      "seoDescription": "Automatische H-Siegelung. Servo, für kontinuierliche Linien.",
+      "keywords": "H-Siegelung, automatisch, Servo",
+      "longDescription": [
+        "H-Siegelung für Kartons. Servo, kontinuierlich.",
+        "Integration mit Palettierrobotern."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse an der H-Siegelmaschine?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "palletizing-robot": {
+      "seoTitle": "Kollaborativer Palettierroboter | CHANFER",
+      "seoDescription": "Kollaborativer Roboter für automatische Palettierung. Sicher ohne Zaun.",
+      "keywords": "Palettierroboter, kollaborativ, automatisch",
+      "longDescription": [
+        "Automatische Palettierung versiegelter Produkte. Sicher ohne Zaun.",
+        "Flexible Programmierung, Integration mit CHANFER."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "carton-forming"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse am Palettierroboter?",
+      "ctaDescription": "Spezifikationen und Preise."
+    },
+    "ai-visual": {
+      "seoTitle": "AI-Bildinspektionssystem | CHANFER",
+      "seoDescription": "AI-gestützte Echtzeit-Qualitätsprüfung. Fehlererkennung, Zählverifikation.",
+      "keywords": "AI-Inspektion, Bildprüfung, Qualität, Fehlererkennung",
+      "longDescription": [
+        "AI-gestützte Echtzeit-Inspektion der Verpackungsqualität. Tiefenlernen.",
+        "Hochgeschwindigkeitskameras. Integration mit CHANFER."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Interesse am AI-System?",
+      "ctaDescription": "Spezifikationen und Preise."
     }
   }
 }
