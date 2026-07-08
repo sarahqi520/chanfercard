@@ -362,7 +362,8 @@
           "Лимитированные комплекты карт"
         ]
       }
-    }
+    },
+    "viewDetails": "Подробнее"
   },
   "machines": {
     "title1": "Каталог",
@@ -383,7 +384,76 @@
       "palletizing": "Паллетирование",
       "ai": "ИИ-контроль"
     },
-    "model": "Модель"
+    "model": "Модель",
+    "machinesData": {
+      "fkj-100sl": {
+        "name": "Автоматический Фрикционный Питатель",
+        "description": "Серво и ПЛК, 800 карт/мин (CR80). Авто-сигнализация."
+      },
+      "fkj-200e": {
+        "name": "Экономичный Питатель",
+        "description": "Серво, 500 карт/мин. Малое/среднее производство."
+      },
+      "fkj-300e": {
+        "name": "Среднескоростной Питатель",
+        "description": "Серво, 600 карт/мин. Среднее производство."
+      },
+      "fkj-420e": {
+        "name": "Крупноформатный Питатель",
+        "description": "Крупные карты и доски."
+      },
+      "three-head-suction": {
+        "name": "Трёхголовочный Питатель",
+        "description": "Вакуум, три станции. Гладкие карты."
+      },
+      "four-head-suction": {
+        "name": "Четырёхголовочный Питатель",
+        "description": "Вакуум, четыре станции. Макс. скорость."
+      },
+      "card-dispensing-matching": {
+        "name": "Машина Выдачи Карт",
+        "description": "Выдача и сортировка, точный счёт."
+      },
+      "zs-220x": {
+        "name": "Машина Flow Wrapping",
+        "description": "Конфетная, серво 220 пакетов/мин. 220мм."
+      },
+      "sbf-250": {
+        "name": "Машина Четырёхсторонней Запайки",
+        "description": "Семь серво, 150 пач/мин. Трёхцветный."
+      },
+      "qdzd-2130": {
+        "name": "Машина Самоклеящейся Ленты",
+        "description": "Три метода. Повторное закрывание."
+      },
+      "pof-shrink": {
+        "name": "Термоусадочная Машина POF",
+        "description": "360°. Импортный датчик, защита ножа."
+      },
+      "cartoning": {
+        "name": "Картонажная Машина",
+        "description": "Серво, непрерывная. Карты в картоны."
+      },
+      "carton-forming": {
+        "name": "Формовочная Машина",
+        "description": "Автоформовка. Серво."
+      },
+      "h-type-sealer": {
+        "name": "Н-образный Запайщик",
+        "description": "Н-запайка. Серво, непрерывная."
+      },
+      "palletizing-robot": {
+        "name": "Кобот-Паллетайзер",
+        "description": "Без ограждений. Гибкое программирование."
+      },
+      "ai-visual": {
+        "name": "Система AI Инспекции",
+        "description": "Реальное время. Дефекты, счёт."
+      }
+    },
+    "featuresTitle": "Характеристики",
+    "applicationsTitle": "Применения",
+    "viewDetails": "Подробнее"
   },
   "about": {
     "title1": "О компании",
@@ -746,6 +816,604 @@
       "description": "Наша команда готова помочь вам найти идеальное решение для упаковки карт.",
       "button1": "Связаться с нами",
       "button2": "Посмотреть решения"
+    }
+  },
+  "solutionDetail": {
+    "candy": {
+      "seoTitle": "Машина Конфетной Упаковки для Карт | CHANFER",
+      "seoDescription": "Высокоскоростная конфетная упаковка (flow wrapping) для бустер-паков TCG и коллекционных карт. До 220 пакетов/мин.",
+      "keywords": "машина конфетной упаковки, упаковка карт, flow wrapping, упаковка TCG, коллекционные карты, pillow упаковка",
+      "longDescription": [
+        "Конфетная упаковка — также известная как flow wrapping в стиле pillow — наиболее широко используемый метод упаковки для бустер-паков TCG, рукавов коллекционных карт и мультипаков игровых карт. Этот метод оборачивает непрерывную плёнку вокруг стопки карт и термосваривает оба конца.",
+        "Линия конфетной упаковки CHANFER построена на базе сервоуправляемой машины flow wrapping, способной производить до 220 пакетов в минуту.",
+        "Этот метод особенно популярен среди издателей TCG (Pokemon, Magic: The Gathering, Yu-Gi-Oh!), так как обеспечивает стабильные, профессиональные упаковки на скоростях, необходимых для массового производства.",
+        "Полная линия интегрируется с фрикционными питателями, картонажными машинами, запайщиками и роботами-паллетайзерами CHANFER.",
+        "С 60 предустановками смена между размерами занимает всего 3-5 минут."
+      ],
+      "benefits": [
+        "Максимальная скорость — 220 пакетов/мин",
+        "Наименьшая стоимость за упаковку",
+        "Защита от вскрытия",
+        "Быстрая переналадка — 3-5 мин",
+        "Цветная печатная плёнка",
+        "Бесшовная интеграция линии"
+      ],
+      "benefitsTitle": "Почему Конфетная Упаковка?",
+      "faqs": [
+        {
+          "question": "Что такое конфетная упаковка?",
+          "answer": "Конфетная упаковка (pillow flow wrapping) оборачивает плёнку вокруг карт и запаивает концы. Стандарт отрасли для бустер-паков TCG."
+        },
+        {
+          "question": "Какая скорость?",
+          "answer": "20-220 пакетов/мин в зависимости от размера карт. Сервосистема поддерживает точное качество запайки."
+        },
+        {
+          "question": "Какие размеры карт?",
+          "answer": "Ширина до 220мм, высота 5-35мм. Покер, бридж, таро и мультипаки."
+        }
+      ],
+      "faqTitle": "FAQ Конфетная Упаковка",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Машины в Линиях Конфетной Упаковки",
+      "ctaTitle": "Готовы Автоматизировать Конфетную Упаковку?",
+      "ctaDescription": "Получите индивидуальную линию — от подачи карт до паллетирования.",
+      "otherSolutionsTitle": "Другие Методы Упаковки",
+      "viewMachineDetails": "Подробнее"
+    },
+    "self-adhesive": {
+      "seoTitle": "Машина Самоклеящейся Ленточной Упаковки | CHANFER",
+      "seoDescription": "Самоклеящаяся ленточная упаковка с повторным закрыванием для премиум-карт. Три метода запайки в одной машине.",
+      "keywords": "самоклеящаяся лента, повторное закрывание, премиум карты, запайка",
+      "longDescription": [
+        "Универсальный метод с плёнкой и самоклеящейся лентой для повторного открывания. Идеально для премиум-коллекционных карт.",
+        "Три метода: самоклеящийся, горячая резка, горячее прессование.",
+        "Анти-отходная технология и счёт по точкам."
+      ],
+      "benefits": [
+        "Повторное закрывание",
+        "Три метода в одной машине",
+        "Премиум-презентация",
+        "Анти-отходная технология",
+        "Гибкая ширина",
+        "Точный счёт"
+      ],
+      "benefitsTitle": "Почему Самоклеящаяся Лента?",
+      "faqs": [
+        {
+          "question": "Повторное закрывание?",
+          "answer": "Да, отрывная лента для многократного открытия."
+        },
+        {
+          "question": "Сколько методов?",
+          "answer": "Три: самоклеящийся, горячая резка, горячее прессование."
+        }
+      ],
+      "faqTitle": "FAQ Самоклеящаяся Лента",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "qdzd-2130",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Машины в Линиях Самоклеящейся Упаковки",
+      "ctaTitle": "Готовы Автоматизировать?",
+      "ctaDescription": "Индивидуальное решение для премиум-карт.",
+      "otherSolutionsTitle": "Другие Методы",
+      "viewMachineDetails": "Подробнее"
+    },
+    "four-sides": {
+      "seoTitle": "Машина Четырёхсторонней Запайки | CHANFER",
+      "seoDescription": "Четырёхсторонняя запайка, семь сервомоторов, 150 пач/мин. Трёхцветный фотоэлемент, альтернативная резка.",
+      "keywords": "четырёхсторонняя запайка, полная запайка, премиум карты, серво",
+      "longDescription": [
+        "Премиум-метод: полная запайка четырёх сторон. Защита от влаги и загрязнений.",
+        "Семь сервомоторов, стабильность 150 пач/мин. Трёхцветный фотоэлемент для точного выравнивания.",
+        "Альтернативная резка для надёжной запайки на высокой скорости."
+      ],
+      "benefits": [
+        "Защита от вскрытия",
+        "Защита от влаги/загрязнений",
+        "Премиум-презентация",
+        "Семь серво — 150 пач/мин",
+        "Трёхцветный фотоэлемент",
+        "Альтернативная резка"
+      ],
+      "benefitsTitle": "Почему Четырёхсторонняя Запайка?",
+      "faqs": [
+        {
+          "question": "Отличие от конфетной?",
+          "answer": "Конфетная запаивает концы, четырёхсторонняя — весь периметр для большей защиты."
+        },
+        {
+          "question": "Скорость?",
+          "answer": "150 пач/мин с семью серво."
+        }
+      ],
+      "faqTitle": "FAQ Четырёхсторонняя Запайка",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Машины в Линиях Четырёхсторонней Запайки",
+      "ctaTitle": "Готовы Автоматизировать?",
+      "ctaDescription": "Индивидуальное решение для премиум-карт.",
+      "otherSolutionsTitle": "Другие Методы",
+      "viewMachineDetails": "Подробнее"
+    },
+    "banding": {
+      "seoTitle": "Машина Бандеролирования Карт | CHANFER",
+      "seoDescription": "Экологичное бандеролирование биоразлагаемой бумажной лентой. Серво, одна операция. Для игральных карт.",
+      "keywords": "бандеролирование, бумажная лента, экологично, игральные карты, серво",
+      "longDescription": [
+        "Самый экологичный метод: биоразлагаемая бумажная лента. Минимум материала, перерабатываемая.",
+        "Серво с ПЛК и сенсорным экраном. Выдача и бандеролирование за одну операцию.",
+        "0,1-3мм, мульти-пачки. Экономично и экологично."
+      ],
+      "benefits": [
+        "Самый экологичный — биоразлагаемый",
+        "Наименьшая стоимость",
+        "Точность серво",
+        "Одна операция",
+        "Толщина 0,1-3мм",
+        "Экологичный брендинг"
+      ],
+      "benefitsTitle": "Почему Бандеролирование?",
+      "faqs": [
+        {
+          "question": "В чём экологичность?",
+          "answer": "Биоразлагаемая бумажная лента вместо пластиковой плёнки, минимум и переработка."
+        },
+        {
+          "question": "Какая толщина?",
+          "answer": "0,1-3мм, мульти-пачки."
+        }
+      ],
+      "faqTitle": "FAQ Бандеролирование",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Машины в Линиях Бандеролирования",
+      "ctaTitle": "Готовы Автоматизировать?",
+      "ctaDescription": "Индивидуальное решение для игральных карт.",
+      "otherSolutionsTitle": "Другие Методы",
+      "viewMachineDetails": "Подробнее"
+    },
+    "heat-shrink": {
+      "seoTitle": "Машина Термоусадочной Упаковки | CHANFER",
+      "seoDescription": "Термоусадочная упаковка 360° прозрачность. Импортный датчик, защита ножа. Для коробок карт.",
+      "keywords": "термоусадочная, усадочная плёнка, прозрачная, POF, карты",
+      "longDescription": [
+        "Прозрачная усадочная плёнка, видимость 360°. Для коробок карт и пачек.",
+        "Импортный фотоэлемент для точного определения. Защита ножа автоматическая.",
+        "Плёнка прилегает, защита и презентация для розницы."
+      ],
+      "benefits": [
+        "Видимость 360°",
+        "Прилегающая защита",
+        "Розничная презентация",
+        "Импортный датчик",
+        "Защита ножа",
+        "Регулируемый горячий воздух"
+      ],
+      "benefitsTitle": "Почему Термоусадочная Упаковка?",
+      "faqs": [
+        {
+          "question": "Прозрачная?",
+          "answer": "Да, прозрачная плёнка 360°."
+        },
+        {
+          "question": "Для каких продуктов?",
+          "answer": "Коробки карт, пачки, подарочные наборы."
+        }
+      ],
+      "faqTitle": "FAQ Термоусадочная Упаковка",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Машины в Линиях Термоусадки",
+      "ctaTitle": "Готовы Автоматизировать?",
+      "ctaDescription": "Индивидуальное решение для коробок карт.",
+      "otherSolutionsTitle": "Другие Методы",
+      "viewMachineDetails": "Подробнее"
+    },
+    "three-dimensional": {
+      "seoTitle": "Машина 3D-Упаковки для Карт | CHANFER",
+      "seoDescription": "Премиум 3D-упаковка, жёсткая коробка. До 65мм. Серво. Для лимитированных изданий.",
+      "keywords": "3D, коробочная упаковка, премиум, люкс, лимитированное издание",
+      "longDescription": [
+        "Самый премиум-метод: жёсткая коробка с чёткими краями. Люкс, для лимитированных изданий.",
+        "До 65мм. Серво для стабильных сгибов и запайки.",
+        "ПЛК с мульти-конфигурациями."
+      ],
+      "benefits": [
+        "Самая премиум",
+        "Толщина 65мм",
+        "Точность серво",
+        "Люкс",
+        "ПЛК-программируемая",
+        "Подарочная"
+      ],
+      "benefitsTitle": "Почему 3D-Упаковка?",
+      "faqs": [
+        {
+          "question": "Какая толщина?",
+          "answer": "До 65мм."
+        },
+        {
+          "question": "Для каких продуктов?",
+          "answer": "Лимитированные издания, подарочные наборы, премиум-аксессуары."
+        }
+      ],
+      "faqTitle": "FAQ 3D-Упаковка",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Машины в Линиях 3D-Упаковки",
+      "ctaTitle": "Готовы Автоматизировать?",
+      "ctaDescription": "Индивидуальное решение для премиум-карт.",
+      "otherSolutionsTitle": "Другие Методы",
+      "viewMachineDetails": "Подробнее"
+    }
+  },
+  "machineDetail": {
+    "fkj-100sl": {
+      "seoTitle": "Автоматический Фрикционный Питатель FKJ-100SL | CHANFER",
+      "seoDescription": "Сервопитатель высокой скорости. 800 карт/мин (CR80). 0,1-3мм. ПЛК сенсорный.",
+      "keywords": "фрикционный питатель, FKJ-100SL, карты, серво",
+      "longDescription": [
+        "Флагман CHANFER, серво и ПЛК, 800 карт/мин.",
+        "0,1-3мм. Авто-сигнализация."
+      ],
+      "relatedMachineIds": [
+        "fkj-200e",
+        "zs-220x",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Интересует FKJ-100SL?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "fkj-200e": {
+      "seoTitle": "Экономичный Фрикционный Питатель FKJ-200E | CHANFER",
+      "seoDescription": "Экономичный, серво, 500 карт/мин.",
+      "keywords": "экономичный, FKJ-200E, питатель",
+      "longDescription": [
+        "Экономичный, 500 карт/мин."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "zs-220x"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "fkj-300e": {
+      "seoTitle": "Среднескоростной Питатель FKJ-300E | CHANFER",
+      "seoDescription": "Средняя скорость, серво, 600 карт/мин.",
+      "keywords": "средний, FKJ-300E, питатель",
+      "longDescription": [
+        "Средняя скорость, 600 карт/мин."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-420e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "fkj-420e": {
+      "seoTitle": "Крупноформатный Питатель FKJ-420E | CHANFER",
+      "seoDescription": "Крупный формат, карты и доски.",
+      "keywords": "крупный формат, FKJ-420E",
+      "longDescription": [
+        "Крупный формат для карт и досок."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "three-head-suction": {
+      "seoTitle": "Трёхголовочный Вакуумный Питатель | CHANFER",
+      "seoDescription": "Вакуум три головы, три станции.",
+      "keywords": "три головы, вакуум, питатель",
+      "longDescription": [
+        "Три станции, вакуум для гладких карт."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "four-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "four-head-suction": {
+      "seoTitle": "Четырёхголовочный Вакуумный Питатель | CHANFER",
+      "seoDescription": "Вакуум четыре головы, макс. скорость.",
+      "keywords": "четыре головы, вакуум, скорость",
+      "longDescription": [
+        "Четыре станции, сверхбыстро."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "card-dispensing-matching": {
+      "seoTitle": "Машина Выдачи и Сортировки Карт | CHANFER",
+      "seoDescription": "Выдача и сортировка, точный счёт.",
+      "keywords": "выдача, сортировка, счёт, TCG",
+      "longDescription": [
+        "Точная выдача и сортировка для TCG."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "four-head-suction"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "zs-220x": {
+      "seoTitle": "Машина Flow Wrapping ZS-220X | CHANFER",
+      "seoDescription": "Flow wrapping, 220 пакетов/мин. Серво, 220мм.",
+      "keywords": "flow wrapping, ZS-220X, candy",
+      "longDescription": [
+        "Flow wrapping, 220 пакетов/мин.",
+        "60 пресетов, 3-5 мин."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "pof-shrink",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "sbf-250": {
+      "seoTitle": "Машина Четырёхсторонней Запайки SBF-250 | CHANFER",
+      "seoDescription": "Четыре стороны, семь серво, 150 пач/мин.",
+      "keywords": "четыре стороны, SBF-250, серво",
+      "longDescription": [
+        "Семь серво, 150 пач/мин. Трёхцветный."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "four-sides",
+        "self-adhesive"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "qdzd-2130": {
+      "seoTitle": "Машина Самоклеящейся Ленты QDZD-2130 | CHANFER",
+      "seoDescription": "Три метода. Повторное закрывание.",
+      "keywords": "самоклеящаяся, QDZD-2130, повторное",
+      "longDescription": [
+        "Три метода, повторное закрывание."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "pof-shrink": {
+      "seoTitle": "Термоусадочная Машина POF | CHANFER",
+      "seoDescription": "POF, 360° прозрачность. Импортный датчик.",
+      "keywords": "POF, термоусадочная, прозрачная",
+      "longDescription": [
+        "POF, 360°. Импортный датчик, защита ножа."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "heat-shrink",
+        "candy"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "cartoning": {
+      "seoTitle": "Автоматическая Картонажная Машина | CHANFER",
+      "seoDescription": "Картонаж высокая скорость, серво.",
+      "keywords": "картонаж, автомат, серво",
+      "longDescription": [
+        "Автоматический картонаж, серво."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "carton-forming": {
+      "seoTitle": "Машина Формовки Картонов | CHANFER",
+      "seoDescription": "Автоматическая формовка, серво.",
+      "keywords": "формовка, картоны, автомат",
+      "longDescription": [
+        "Формовка плоских картонов, серво."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "h-type-sealer": {
+      "seoTitle": "Н-образный Запайщик | CHANFER",
+      "seoDescription": "Н-запайщик автомат, серво.",
+      "keywords": "Н-запайщик, автомат",
+      "longDescription": [
+        "Н-запайка, серво."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "palletizing-robot": {
+      "seoTitle": "Кобот-Паллетайзер | CHANFER",
+      "seoDescription": "Кобот без ограждений.",
+      "keywords": "робот, паллетайзер, кобот",
+      "longDescription": [
+        "Автопаллетирование, без ограждений."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "carton-forming"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
+    },
+    "ai-visual": {
+      "seoTitle": "Система AI Виз inspection | CHANFER",
+      "seoDescription": "AI инспекция в реальном времени. Дефекты.",
+      "keywords": "AI, инспекция, качество, дефекты",
+      "longDescription": [
+        "AI инспекция. Deep learning."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Интересует?",
+      "ctaDescription": "Спецификации и цены."
     }
   }
 }
