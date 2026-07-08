@@ -323,22 +323,31 @@ export default function SolutionsContent({ dict, locale }: Props) {
                     )}
                   </div>
 
-                  {/* Expand button */}
-                  <button
-                    onClick={() => toggleExpand(sol.id)}
-                    className="mt-6 flex items-center gap-2 text-sm font-medium text-primary hover:text-primary-dark transition-colors"
-                  >
-                    {(isExpanded
-                      ? (solutionsDict.hideLine as string)
-                      : (solutionsDict.showLine as string)) ??
-                      (isExpanded
-                        ? "Hide Production Line & Process"
-                        : "Show Production Line & Process")}
-                    <ChevronDown
-                      size={16}
-                      className={`transition-transform ${isExpanded ? "rotate-180" : ""}`}
-                    />
-                  </button>
+                  {/* Detail page link + Expand button */}
+                  <div className="mt-6 flex items-center gap-4">
+                    <Link
+                      href={`/${locale}/solutions/${sol.id}`}
+                      className="flex items-center gap-2 px-4 py-2 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary-dark transition-colors"
+                    >
+                      {(solutionsDict.viewDetails as string) ?? "View Details"}
+                      <ArrowRight size={14} />
+                    </Link>
+                    <button
+                      onClick={() => toggleExpand(sol.id)}
+                      className="flex items-center gap-2 text-sm font-medium text-primary hover:text-primary-dark transition-colors"
+                    >
+                      {(isExpanded
+                        ? (solutionsDict.hideLine as string)
+                        : (solutionsDict.showLine as string)) ??
+                        (isExpanded
+                          ? "Hide Production Line & Process"
+                          : "Show Production Line & Process")}
+                      <ChevronDown
+                        size={16}
+                        className={`transition-transform ${isExpanded ? "rotate-180" : ""}`}
+                      />
+                    </button>
+                  </div>
                 </div>
 
                 {/* Expanded: Production line & process */}
