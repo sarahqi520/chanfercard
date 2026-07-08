@@ -15,6 +15,8 @@ import {
 import Image from "next/image";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { type Locale } from "@/lib/i18n/config";
+import PhotoGallery from "@/components/PhotoGallery";
+import { teamPhotos, clientPhotos, mediaReady } from "@/lib/media";
 import fs from "fs";
 import path from "path";
 
@@ -294,6 +296,19 @@ export default async function AboutPage({ params }: Props) {
           </div>
         </section>
 
+        {/* Team Culture — Team building photos */}
+        {mediaReady.teamPhotos && (
+          <PhotoGallery
+            photos={teamPhotos}
+            title={(dict.media as Record<string, string>)?.teamCultureTitle ?? "Team Culture"}
+            subtitle={
+              (dict.media as Record<string, string>)?.teamCultureSubtitle ??
+              "Our people are the heart of CHANFER. From team building to technical training, we invest in our team to deliver the best for our customers."
+            }
+            variant="team"
+          />
+        )}
+
         {/* Certifications */}
         <section className="py-12 md:py-20">
           <div className="max-w-7xl mx-auto px-4 md:px-6">
@@ -326,6 +341,19 @@ export default async function AboutPage({ params }: Props) {
             </div>
           </div>
         </section>
+
+        {/* Our Customers — Client photos */}
+        {mediaReady.clientPhotos && (
+          <PhotoGallery
+            photos={clientPhotos}
+            title={(dict.media as Record<string, string>)?.globalCustomersTitle ?? "Our Customers"}
+            subtitle={
+              (dict.media as Record<string, string>)?.globalCustomersSubtitle ??
+              "Meeting customers around the world — at trade shows, factory visits, and on-site installations."
+            }
+            variant="clients"
+          />
+        )}
 
         {/* Two locations */}
         <section className="py-12 md:py-20 bg-muted">
