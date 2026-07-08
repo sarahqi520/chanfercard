@@ -362,7 +362,8 @@
           "Éditions limitées"
         ]
       }
-    }
+    },
+    "viewDetails": "Voir Détails"
   },
   "machines": {
     "title1": "Catalogue",
@@ -383,7 +384,76 @@
       "palletizing": "Palettisation",
       "ai": "Vision par IA"
     },
-    "model": "Modèle"
+    "model": "Modèle",
+    "machinesData": {
+      "fkj-100sl": {
+        "name": "Distributeur à Friction Automatique",
+        "description": "Servo et PLC, 800 cartes/min (CR80). Alarme auto."
+      },
+      "fkj-200e": {
+        "name": "Distributeur Économique",
+        "description": "Servo, 500 cartes/min. Petite/moyenne production."
+      },
+      "fkj-300e": {
+        "name": "Distributeur Vitesse Moyenne",
+        "description": "Servo, 600 cartes/min. Production moyenne."
+      },
+      "fkj-420e": {
+        "name": "Distributeur Grand Format",
+        "description": "Grandes cartes et plateaux."
+      },
+      "three-head-suction": {
+        "name": "Distributeur à Trois Têtes",
+        "description": "Vide, trois stations. Cartes lisses."
+      },
+      "four-head-suction": {
+        "name": "Distributeur à Quatre Têtes",
+        "description": "Vide, quatre stations. Vitesse max."
+      },
+      "card-dispensing-matching": {
+        "name": "Machine de Distribution",
+        "description": "Distribution et tri, comptage précis."
+      },
+      "zs-220x": {
+        "name": "Machine Flow Wrapping",
+        "description": "Sweets, servo 220 sacs/min. 220mm."
+      },
+      "sbf-250": {
+        "name": "Machine Quatre Côtés",
+        "description": "Sept servo, 150 packs/min. Tricolore."
+      },
+      "qdzd-2130": {
+        "name": "Machine Bande Auto-adhésive",
+        "description": "Trois méthodes. Refermable."
+      },
+      "pof-shrink": {
+        "name": "Machine Thermorétractable POF",
+        "description": "360°. Capteur importé, protection lame."
+      },
+      "cartoning": {
+        "name": "Cartonneuse Automatique",
+        "description": "Servo, continu. Cartes en cartons."
+      },
+      "carton-forming": {
+        "name": "Formeuse de Cartons",
+        "description": "Formage automatique. Servo."
+      },
+      "h-type-sealer": {
+        "name": "Fermeuse en H",
+        "description": "Fermeuse H. Servo, continu."
+      },
+      "palletizing-robot": {
+        "name": "Robot de Palettisation Collaboratif",
+        "description": "Sans clôture. Programmation flexible."
+      },
+      "ai-visual": {
+        "name": "Système d'Inspection AI",
+        "description": "Temps réel. Détection défauts."
+      }
+    },
+    "featuresTitle": "Caractéristiques",
+    "applicationsTitle": "Applications",
+    "viewDetails": "Voir Détails"
   },
   "about": {
     "title1": "À propos de",
@@ -746,6 +816,604 @@
       "description": "Notre équipe est prête à vous aider.",
       "button1": "Contactez-nous",
       "button2": "Voir les Solutions"
+    }
+  },
+  "solutionDetail": {
+    "candy": {
+      "seoTitle": "Machine d'Emballage Candy pour Cartes | CHANFER",
+      "seoDescription": "Emballage candy haute vitesse (flow wrapping) pour booster packs TCG et cartes de collection. Jusqu'à 220 sacs/min.",
+      "keywords": "machine emballage candy, emballage cartes candy, flow wrapping, emballage TCG, cartes de collection, emballage pillow",
+      "longDescription": [
+        "L'emballage candy — également appelé flow wrapping style pillow — est la méthode d'emballage la plus répandue pour les booster packs TCG, les sleeves de cartes de collection et les multi-packs de cartes. Cette méthode enroule un film continu autour de la pile de cartes et scelle thermiquement les deux extrémités.",
+        "La ligne d'emballage candy de CHANFER est construite autour d'une machine flow wrapping servo-contrôlée capable de produire jusqu'à 220 sacs par minute.",
+        "Cette méthode est particulièrement populaire auprès des éditeurs TCG (Pokemon, Magic: The Gathering, Yu-Gi-Oh!) car elle livre des packs uniformes aux vitesses requises pour la production de masse.",
+        "La ligne complète s'intègre aux distributeurs à friction, cartonneuses, fermeuses et robots de palettisation CHANFER.",
+        "Avec 60 préréglages, le changement entre différentes tailles ne prend que 3-5 minutes."
+      ],
+      "benefits": [
+        "Vitesse de production maximale — 220 sacs/min",
+        "Coût par pack le plus bas",
+        "Scellage inviolable",
+        "Changement rapide — 3-5 min",
+        "Film imprimé couleur",
+        "Intégration ligne sans solution"
+      ],
+      "benefitsTitle": "Pourquoi Choisir l'Emballage Candy?",
+      "faqs": [
+        {
+          "question": "Qu'est-ce que l'emballage candy?",
+          "answer": "Emballage candy (flow wrapping pillow) enroule un film continu autour des cartes et scelle les extrémités. Standard de l'industrie pour les booster packs TCG."
+        },
+        {
+          "question": "Quelle est la vitesse?",
+          "answer": "20-220 sacs/min selon la taille des cartes. Le système servo maintient une qualité de scellage précise."
+        },
+        {
+          "question": "Quelles tailles de cartes?",
+          "answer": "Largeurs jusqu'à 220mm, hauteurs 5-35mm. Poker, bridge, tarot et multipacks."
+        }
+      ],
+      "faqTitle": "FAQ Emballage Candy",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Machines des Lignes Candy",
+      "ctaTitle": "Prêt à Automatiser Votre Emballage Candy?",
+      "ctaDescription": "Obtenez une ligne candy personnalisée — de l'alimentation à la palettisation.",
+      "otherSolutionsTitle": "Autres Méthodes d'Emballage",
+      "viewMachineDetails": "Voir Détails"
+    },
+    "self-adhesive": {
+      "seoTitle": "Machine d'Emballage Bande Auto-adhésive | CHANFER",
+      "seoDescription": "Emballage bande auto-adhésive refermable pour cartes premium. Trois méthodes de scellage en une machine.",
+      "keywords": "bande auto-adhésive, refermable, emballage cartes premium, scellage",
+      "longDescription": [
+        "Emballage polyvalent avec film et bande auto-adhésive refermable. Idéal pour cartes de collection premium.",
+        "Trois méthodes: auto-adhésif, coupe à chaud, pression à chaud sur une machine.",
+        "Technologie anti-gaspillage et comptage par points."
+      ],
+      "benefits": [
+        "Refermable",
+        "Trois méthodes en une machine",
+        "Présentation premium",
+        "Anti-gaspillage",
+        "Largeur flexible",
+        "Comptage précis"
+      ],
+      "benefitsTitle": "Pourquoi la Bande Auto-adhésive?",
+      "faqs": [
+        {
+          "question": "Refermable?",
+          "answer": "Oui, bande pelable et scellable pour ouvertures répétées."
+        },
+        {
+          "question": "Combien de méthodes?",
+          "answer": "Trois: auto-adhésif, coupe à chaud, pression à chaud."
+        }
+      ],
+      "faqTitle": "FAQ Bande Auto-adhésive",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "qdzd-2130",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Machines des Lignes Auto-adhésives",
+      "ctaTitle": "Prêt à Automatiser?",
+      "ctaDescription": "Solution personnalisée pour cartes premium.",
+      "otherSolutionsTitle": "Autres Méthodes",
+      "viewMachineDetails": "Voir Détails"
+    },
+    "four-sides": {
+      "seoTitle": "Machine d'Emballage Quatre Côtés Scellés | CHANFER",
+      "seoDescription": "Quatre côtés scellés, sept servo, 150 packs/min. Cellule tricolore, découpe alternative.",
+      "keywords": "quatre côtés scellés, scellage complet, cartes premium, servo",
+      "longDescription": [
+        "Méthode premium: film entièrement scellé sur quatre côtés. Protection contre humidité et contamination.",
+        "Sept servo, ultra-stable à 150 packs/min. Cellule tricolore pour alignement précis.",
+        "Découpe alternative pour scellages solides à haute vitesse."
+      ],
+      "benefits": [
+        "Inviolable",
+        "Protection humidité/contamination",
+        "Présentation premium",
+        "Sept servo — 150 packs/min",
+        "Cellule tricolore",
+        "Découpe alternative"
+      ],
+      "benefitsTitle": "Pourquoi Quatre Côtés Scellés?",
+      "faqs": [
+        {
+          "question": "Différence avec candy?",
+          "answer": "Candy scelle les extrémités, quatre côtés scelle tout le périmètre pour plus de protection."
+        },
+        {
+          "question": "Vitesse?",
+          "answer": "150 packs/min avec sept servo."
+        }
+      ],
+      "faqTitle": "FAQ Quatre Côtés Scellés",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Machines des Lignes Quatre Côtés",
+      "ctaTitle": "Prêt à Automatiser?",
+      "ctaDescription": "Solution personnalisée pour cartes premium.",
+      "otherSolutionsTitle": "Autres Méthodes",
+      "viewMachineDetails": "Voir Détails"
+    },
+    "banding": {
+      "seoTitle": "Machine de Cerclage pour Cartes | CHANFER",
+      "seoDescription": "Cerclage écologique avec bande papier biodégradable. Servo, une étape. Idéal pour cartes à jouer.",
+      "keywords": "cerclage, bande papier, écologique, cartes à jouer, servo",
+      "longDescription": [
+        "Méthode la plus écologique: bande papier biodégradable. Matière minimale, recyclable.",
+        "Servo avec PLC et écran tactile. Émission et cerclage en une étape.",
+        "0,1-3mm, multi-paquets. Économique et écologique."
+      ],
+      "benefits": [
+        "Plus écologique — biodégradable",
+        "Coût le plus bas",
+        "Précision servo",
+        "Une étape",
+        "Épaisseur 0,1-3mm",
+        "Branding durable"
+      ],
+      "benefitsTitle": "Pourquoi le Cerclage?",
+      "faqs": [
+        {
+          "question": "Écologique comment?",
+          "answer": "Bande papier biodégradable au lieu de film plastique, minimal et recyclable."
+        },
+        {
+          "question": "Quelle épaisseur?",
+          "answer": "0,1-3mm, multi-paquets."
+        }
+      ],
+      "faqTitle": "FAQ Cerclage",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Machines des Lignes Cerclage",
+      "ctaTitle": "Prêt à Automatiser?",
+      "ctaDescription": "Solution personnalisée pour cartes à jouer.",
+      "otherSolutionsTitle": "Autres Méthodes",
+      "viewMachineDetails": "Voir Détails"
+    },
+    "heat-shrink": {
+      "seoTitle": "Machine de Thermorétraction | CHANFER",
+      "seoDescription": "Thermorétraction 360° transparent. Capteur importé, protection lame. Pour boîtes de cartes.",
+      "keywords": "thermorétraction, rétractable, transparent, POF, cartes",
+      "longDescription": [
+        "Film transparent rétractable, visibilité 360°. Pour boîtes de cartes et faisceaux.",
+        "Capteur importé pour détection précise. Protection lame automatique.",
+        "Film ajusté, protection et présentation retail."
+      ],
+      "benefits": [
+        "Visibilité 360°",
+        "Protection ajustée",
+        "Présentation retail",
+        "Capteur importé",
+        "Protection lame",
+        "Air chaud réglable"
+      ],
+      "benefitsTitle": "Pourquoi la Thermorétraction?",
+      "faqs": [
+        {
+          "question": "Transparent?",
+          "answer": "Oui, film transparent 360°."
+        },
+        {
+          "question": "Pour quels produits?",
+          "answer": "Boîtes de cartes, faisceaux, coffrets cadeaux."
+        }
+      ],
+      "faqTitle": "FAQ Thermorétraction",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Machines des Lignes Thermorétraction",
+      "ctaTitle": "Prêt à Automatiser?",
+      "ctaDescription": "Solution personnalisée pour boîtes de cartes.",
+      "otherSolutionsTitle": "Autres Méthodes",
+      "viewMachineDetails": "Voir Détails"
+    },
+    "three-dimensional": {
+      "seoTitle": "Machine d'Emballage 3D pour Cartes | CHANFER",
+      "seoDescription": "Emballage 3D premium, boîte rigide. Jusqu'à 65mm. Servo. Idéal pour éditions limitées.",
+      "keywords": "3D, emballage boîte, premium, luxe, édition limitée",
+      "longDescription": [
+        "Méthode la plus premium: boîte rigide avec bords nets. Luxe, idéal pour éditions limitées.",
+        "Jusqu'à 65mm. Servo pour pliages et scellages consistants.",
+        "PLC multi-configurations."
+      ],
+      "benefits": [
+        "Plus premium",
+        "Épaisseur 65mm",
+        "Précision servo",
+        "Luxe",
+        "PLC programmable",
+        "Cadeau-ready"
+      ],
+      "benefitsTitle": "Pourquoi l'Emballage 3D?",
+      "faqs": [
+        {
+          "question": "Quelle épaisseur?",
+          "answer": "Jusqu'à 65mm."
+        },
+        {
+          "question": "Pour quels produits?",
+          "answer": "Éditions limitées, coffrets, accessoires premium."
+        }
+      ],
+      "faqTitle": "FAQ Emballage 3D",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "Machines des Lignes 3D",
+      "ctaTitle": "Prêt à Automatiser?",
+      "ctaDescription": "Solution personnalisée pour cartes premium.",
+      "otherSolutionsTitle": "Autres Méthodes",
+      "viewMachineDetails": "Voir Détails"
+    }
+  },
+  "machineDetail": {
+    "fkj-100sl": {
+      "seoTitle": "Distributeur à Friction Automatique FKJ-100SL | CHANFER",
+      "seoDescription": "Distributeur servo haute vitesse. 800 cartes/min (CR80). 0,1-3mm. PLC écran tactile.",
+      "keywords": "distributeur friction, FKJ-100SL, cartes, servo",
+      "longDescription": [
+        "Distributeur phare de CHANFER, servo et PLC, 800 cartes/min.",
+        "0,1-3mm, 40x30-180x100mm. Alarme auto."
+      ],
+      "relatedMachineIds": [
+        "fkj-200e",
+        "zs-220x",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé par le FKJ-100SL?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "fkj-200e": {
+      "seoTitle": "Distributeur Économique FKJ-200E | CHANFER",
+      "seoDescription": "Distributeur économique, servo, 500 cartes/min.",
+      "keywords": "économique, FKJ-200E, distributeur",
+      "longDescription": [
+        "Économique, 500 cartes/min."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "zs-220x"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "fkj-300e": {
+      "seoTitle": "Distributeur Vitesse Moyenne FKJ-300E | CHANFER",
+      "seoDescription": "Distributeur moyen, servo, 600 cartes/min.",
+      "keywords": "moyen, FKJ-300E, distributeur",
+      "longDescription": [
+        "Moyen, 600 cartes/min."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-420e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "fkj-420e": {
+      "seoTitle": "Distributeur Grand Format FKJ-420E | CHANFER",
+      "seoDescription": "Grand format, cartes et plateaux.",
+      "keywords": "grand format, FKJ-420E",
+      "longDescription": [
+        "Grand format pour cartes et plateaux."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "three-head-suction": {
+      "seoTitle": "Distributeur à Trois Têtes | CHANFER",
+      "seoDescription": "Vide trois têtes, trois stations.",
+      "keywords": "trois têtes, vide, distributeur",
+      "longDescription": [
+        "Trois stations, vide pour cartes lisses."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "four-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "four-head-suction": {
+      "seoTitle": "Distributeur à Quatre Têtes | CHANFER",
+      "seoDescription": "Vide quatre têtes, vitesse max.",
+      "keywords": "quatre têtes, vide, vitesse",
+      "longDescription": [
+        "Quatre stations, ultra-rapide."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "card-dispensing-matching": {
+      "seoTitle": "Machine de Distribution et Tri | CHANFER",
+      "seoDescription": "Distribution et tri automatiques, comptage précis.",
+      "keywords": "distribution, tri, comptage, TCG",
+      "longDescription": [
+        "Distribution et tri précis pour TCG."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "four-head-suction"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "zs-220x": {
+      "seoTitle": "Machine Flow Wrapping ZS-220X | CHANFER",
+      "seoDescription": "Flow wrapping, 220 sacs/min. Servo, 220mm.",
+      "keywords": "flow wrapping, ZS-220X, candy",
+      "longDescription": [
+        "Flow wrapping, 220 sacs/min.",
+        "60 préréglages, 3-5 min."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "pof-shrink",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "sbf-250": {
+      "seoTitle": "Machine Quatre Côtés SBF-250 | CHANFER",
+      "seoDescription": "Quatre côtés, sept servo, 150 packs/min.",
+      "keywords": "quatre côtés, SBF-250, servo",
+      "longDescription": [
+        "Sept servo, 150 packs/min. Cellule tricolore."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "four-sides",
+        "self-adhesive"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "qdzd-2130": {
+      "seoTitle": "Machine Bande Auto-adhésive QDZD-2130 | CHANFER",
+      "seoDescription": "Trois méthodes. Refermable.",
+      "keywords": "auto-adhésive, QDZD-2130, refermable",
+      "longDescription": [
+        "Trois méthodes, refermable."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "pof-shrink": {
+      "seoTitle": "Machine Thermorétractable POF | CHANFER",
+      "seoDescription": "POF, 360° transparent. Capteur importé.",
+      "keywords": "POF, thermorétractable, transparent",
+      "longDescription": [
+        "POF, 360°. Capteur importé, protection lame."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "heat-shrink",
+        "candy"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "cartoning": {
+      "seoTitle": "Cartonneuse Automatique | CHANFER",
+      "seoDescription": "Cartonnage haute vitesse, servo.",
+      "keywords": "cartonneuse, automatique, servo",
+      "longDescription": [
+        "Cartonnage automatique, servo."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "carton-forming": {
+      "seoTitle": "Formeuse de Cartons | CHANFER",
+      "seoDescription": "Formage automatique, servo.",
+      "keywords": "formeuse, cartons, automatique",
+      "longDescription": [
+        "Formage de cartons plats, servo."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "h-type-sealer": {
+      "seoTitle": "Fermeuse en H | CHANFER",
+      "seoDescription": "Fermeuse H automatique, servo.",
+      "keywords": "fermeuse H, automatique",
+      "longDescription": [
+        "Fermeuse H, servo."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "palletizing-robot": {
+      "seoTitle": "Robot de Palettisation Collaboratif | CHANFER",
+      "seoDescription": "Robot collaboratif, sans clôture.",
+      "keywords": "robot, palettisation, collaboratif",
+      "longDescription": [
+        "Palettisation automatique, sans clôture."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "carton-forming"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
+    },
+    "ai-visual": {
+      "seoTitle": "Système d'Inspection Visuelle AI | CHANFER",
+      "seoDescription": "Inspection AI temps réel. Détection défauts.",
+      "keywords": "AI, inspection, qualité, défauts",
+      "longDescription": [
+        "Inspection AI temps réel. Deep learning."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "Intéressé?",
+      "ctaDescription": "Spécifications et prix."
     }
   }
 }
