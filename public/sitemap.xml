@@ -16,8 +16,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en"/>
   </url>
-  
-  <!-- Solutions -->
+  <!-- solutions -->
   <url>
     <loc>https://chanfercard.com/en/solutions</loc>
     <changefreq>monthly</changefreq>
@@ -33,8 +32,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/solutions"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/solutions"/>
   </url>
-  
-  <!-- Machines -->
+  <!-- machines -->
   <url>
     <loc>https://chanfercard.com/en/machines</loc>
     <changefreq>monthly</changefreq>
@@ -50,8 +48,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines"/>
   </url>
-  
-  <!-- About -->
+  <!-- about -->
   <url>
     <loc>https://chanfercard.com/en/about</loc>
     <changefreq>monthly</changefreq>
@@ -67,8 +64,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/about"/>
   </url>
-  
-  <!-- Contact -->
+  <!-- contact -->
   <url>
     <loc>https://chanfercard.com/en/contact</loc>
     <changefreq>monthly</changefreq>
@@ -84,8 +80,7 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/contact"/>
   </url>
-
-  <!-- FAQ -->
+  <!-- faq -->
   <url>
     <loc>https://chanfercard.com/en/faq</loc>
     <changefreq>monthly</changefreq>
@@ -100,5 +95,361 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/faq"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/faq"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/faq"/>
+  </url>
+
+  <!-- Solution Detail Pages -->
+  <!-- candy solution -->
+  <url>
+    <loc>https://chanfercard.com/en/solutions/candy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/solutions/candy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/solutions/candy"/>
+  </url>
+  <!-- self-adhesive solution -->
+  <url>
+    <loc>https://chanfercard.com/en/solutions/self-adhesive</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/solutions/self-adhesive"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/solutions/self-adhesive"/>
+  </url>
+  <!-- four-sides solution -->
+  <url>
+    <loc>https://chanfercard.com/en/solutions/four-sides</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/solutions/four-sides"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/solutions/four-sides"/>
+  </url>
+  <!-- banding solution -->
+  <url>
+    <loc>https://chanfercard.com/en/solutions/banding</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/solutions/banding"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/solutions/banding"/>
+  </url>
+  <!-- heat-shrink solution -->
+  <url>
+    <loc>https://chanfercard.com/en/solutions/heat-shrink</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/solutions/heat-shrink"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/solutions/heat-shrink"/>
+  </url>
+  <!-- three-dimensional solution -->
+  <url>
+    <loc>https://chanfercard.com/en/solutions/three-dimensional</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/solutions/three-dimensional"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/solutions/three-dimensional"/>
+  </url>
+
+  <!-- Machine Detail Pages -->
+  <!-- fkj-100sl machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/fkj-100sl</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/fkj-100sl"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/fkj-100sl"/>
+  </url>
+  <!-- fkj-200e machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/fkj-200e</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/fkj-200e"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/fkj-200e"/>
+  </url>
+  <!-- fkj-300e machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/fkj-300e</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/fkj-300e"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/fkj-300e"/>
+  </url>
+  <!-- fkj-420e machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/fkj-420e</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/fkj-420e"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/fkj-420e"/>
+  </url>
+  <!-- three-head-suction machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/three-head-suction</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/three-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/three-head-suction"/>
+  </url>
+  <!-- four-head-suction machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/four-head-suction</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/four-head-suction"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/four-head-suction"/>
+  </url>
+  <!-- card-dispensing-matching machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/card-dispensing-matching</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/card-dispensing-matching"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/card-dispensing-matching"/>
+  </url>
+  <!-- zs-220x machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/zs-220x</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/zs-220x"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/zs-220x"/>
+  </url>
+  <!-- sbf-250 machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/sbf-250</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/sbf-250"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/sbf-250"/>
+  </url>
+  <!-- qdzd-2130 machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/qdzd-2130</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/qdzd-2130"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/qdzd-2130"/>
+  </url>
+  <!-- pof-shrink machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/pof-shrink</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/pof-shrink"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/pof-shrink"/>
+  </url>
+  <!-- cartoning machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/cartoning</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/cartoning"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/cartoning"/>
+  </url>
+  <!-- carton-forming machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/carton-forming</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/carton-forming"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/carton-forming"/>
+  </url>
+  <!-- h-type-sealer machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/h-type-sealer</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/h-type-sealer"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/h-type-sealer"/>
+  </url>
+  <!-- palletizing-robot machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/palletizing-robot</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/palletizing-robot"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/palletizing-robot"/>
+  </url>
+  <!-- ai-visual machine -->
+  <url>
+    <loc>https://chanfercard.com/en/machines/ai-visual</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/ai-visual"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/ai-visual"/>
   </url>
 </urlset>
