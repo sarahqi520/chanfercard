@@ -1485,5 +1485,17 @@
       "ctaTitle": "对AI视觉检测系统感兴趣？",
       "ctaDescription": "获取AI视觉检测系统的详细规格、价格和包装线集成指导。"
     }
+  },
+  "media": {
+    "customerVideosTitle": "客户现场实拍",
+    "customerVideosSubtitle": "来看看我们的设备在真实客户工厂中的运行情况。",
+    "trainingVideosTitle": "操作培训视频",
+    "trainingVideosSubtitle": "通过详细的培训视频，学习如何安装、操作和维护这款设备。",
+    "equipmentActionTitle": "设备实况",
+    "equipmentActionSubtitle": "来自全球客户生产现场的真实视频。",
+    "globalCustomersTitle": "全球客户",
+    "globalCustomersSubtitle": "全球知名卡牌和桌游制造商的共同选择。",
+    "teamCultureTitle": "团队文化",
+    "teamCultureSubtitle": "员工是长发智能的核心财富。从团建活动到技术培训，我们持续投入团队建设，为客户交付最好的产品和服务。"
   }
 }
