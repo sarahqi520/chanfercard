@@ -24,6 +24,7 @@ export default function Header({ dict, locale }: { dict: Dictionary; locale: Loc
     { href: `/${locale}/solutions`, label: nav.solutions },
     { href: `/${locale}/machines`, label: nav.machines },
     { href: `/${locale}/faq`, label: nav.faq || "FAQ" },
+    { href: `/${locale}/blog`, label: nav.blog || "Blog" },
     { href: `/${locale}/about`, label: nav.about },
     { href: `/${locale}/contact`, label: nav.contact },
   ];
