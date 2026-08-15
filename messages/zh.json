@@ -11,8 +11,7 @@
     "about": "关于我们",
     "contact": "联系我们",
     "getQuote": "获取报价",
-    "faq": "常见问题",
-    "blog": "博客"
+    "faq": "常见问题"
   },
   "topBar": {
     "tagline": "一站式计数与包装自动化解决方案"
@@ -1498,13 +1497,5 @@
     "globalCustomersSubtitle": "全球知名卡牌和桌游制造商的共同选择。",
     "teamCultureTitle": "团队文化",
     "teamCultureSubtitle": "员工是长发智能的核心财富。从团建活动到技术培训，我们持续投入团队建设，为客户交付最好的产品和服务。"
-  },
-  "blog": {
-    "heading": "卡牌包装博客",
-    "subheading": "关于卡牌包装机选型、运行与整线配置的实用指南，覆盖集换卡、桌游卡与收藏卡。",
-    "listTitle": "卡牌包装博客 | 长发 CHANFER",
-    "listDescription": "卡牌包装机、包装方式与整线选型的指南与洞察，覆盖集换卡、桌游卡与收藏卡。",
-    "readMore": "阅读全文 →",
-    "backToList": "← 返回博客"
   }
 }

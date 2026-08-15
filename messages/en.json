@@ -19,8 +19,7 @@
     "about": "About Us",
     "contact": "Contact",
     "getQuote": "Get Quote",
-    "faq": "FAQ",
-    "blog": "Blog"
+    "faq": "FAQ"
   },
   "topBar": {
     "tagline": "One-Stop Count & Packaging Automatic Solutions"
@@ -1471,13 +1470,5 @@
     "globalCustomersSubtitle": "Trusted by leading card and board game manufacturers worldwide.",
     "teamCultureTitle": "Team Culture",
     "teamCultureSubtitle": "Our people are the heart of CHANFER. From team building to technical training, we invest in our team to deliver the best for our customers."
-  },
-  "blog": {
-    "heading": "Card Packaging Blog",
-    "subheading": "Practical guides on choosing and running card packaging machines and production lines for TCG, board game, and collectible cards.",
-    "listTitle": "Card Packaging Blog | CHANFER",
-    "listDescription": "Guides and insights on card packaging machines, packaging methods, and production-line selection for TCG, board game, and collectible cards.",
-    "readMore": "Read more →",
-    "backToList": "← Back to Blog"
   }
 }
