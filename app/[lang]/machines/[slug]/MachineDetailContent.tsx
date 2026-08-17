@@ -117,9 +117,8 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
                 {categoryLabel}
               </span>
               <h1 className="text-3xl md:text-4xl font-bold">
-                {machine.model}
+                {machine.model} {machineName}
               </h1>
-              <p className="mt-1 text-xl text-muted-foreground">{machineName}</p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
                 {machineDesc}
               </p>
