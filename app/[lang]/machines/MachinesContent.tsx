@@ -181,7 +181,8 @@ export default function MachinesContent({ dict, locale }: Props) {
                     </span>
                     <h3 className="font-bold text-lg">{tm(machine.id, "name", machine.name)}</h3>
                     <p className="text-sm text-muted-foreground">
-                      {machinesDict.model as string}: {machine.model}
+                      {machinesDict.model as string}:{" "}
+                      <span className="font-semibold text-accent">{machine.model}</span>
                     </p>
                   </div>
                 </div>
