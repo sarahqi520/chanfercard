@@ -575,7 +575,10 @@
       "projectPlaceholder": "Parlez-nous de votre produit de cartes, de vos besoins en emballage, de votre méthode d'emballage préférée, ou de toute exigence particulière...",
       "submit": "Envoyer la demande",
       "thankYou": "Merci !",
-      "thankYouMessage": "Votre demande a bien été reçue. Notre équipe vous contactera dans les 24 heures."
+      "thankYouMessage": "Votre demande a bien été reçue. Notre équipe vous contactera dans les 24 heures.",
+      "sending": "Envoi en cours...",
+      "error": "Échec de l'envoi",
+      "errorMessage": "Une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer ou nous contacter directement."
     }
   },
   "footer": {

@@ -575,7 +575,10 @@
       "projectPlaceholder": "请告诉我们您的卡牌产品、包装要求、首选包装方式或任何特殊需求...",
       "submit": "提交咨询",
       "thankYou": "感谢您！",
-      "thankYouMessage": "您的咨询已收到。我们的团队将在24小时内与您联系。"
+      "thankYouMessage": "您的咨询已收到。我们的团队将在24小时内与您联系。",
+      "sending": "发送中...",
+      "error": "发送失败",
+      "errorMessage": "提交失败，请重试或直接联系我们：sarah@gzchanfer.com。"
     }
   },
   "footer": {

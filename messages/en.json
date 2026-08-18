@@ -583,7 +583,10 @@
       "projectPlaceholder": "Tell us about your card product, packaging requirements, preferred packaging method, or any special needs...",
       "submit": "Submit Inquiry",
       "thankYou": "Thank You!",
-      "thankYouMessage": "Your inquiry has been received. Our team will contact you within 24 hours."
+      "thankYouMessage": "Your inquiry has been received. Our team will contact you within 24 hours.",
+      "sending": "Sending...",
+      "error": "Failed to send",
+      "errorMessage": "Something went wrong while sending your inquiry. Please try again or contact us directly at sarah@gzchanfer.com."
     }
   },
   "footer": {

@@ -575,7 +575,10 @@
       "projectPlaceholder": "Cuéntenos sobre su producto de cartas, requisitos de envasado, método de envasado preferido, o cualquier necesidad especial...",
       "submit": "Enviar Consulta",
       "thankYou": "¡Gracias!",
-      "thankYouMessage": "Su consulta ha sido recibida. Nuestro equipo se pondrá en contacto con usted dentro de 24 horas."
+      "thankYouMessage": "Su consulta ha sido recibida. Nuestro equipo se pondrá en contacto con usted dentro de 24 horas.",
+      "sending": "Enviando...",
+      "error": "Error al enviar",
+      "errorMessage": "Algo salió mal al enviar su consulta. Inténtelo de nuevo o póngase en contacto con nosotros directamente."
     }
   },
   "footer": {

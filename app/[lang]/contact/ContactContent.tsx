@@ -15,6 +15,7 @@ import {
   Send,
   CheckCircle2,
   Factory,
+  Loader2,
 } from "lucide-react";
 
 type Props = {
@@ -24,6 +25,8 @@ type Props = {
 
 export default function ContactContent({ dict, locale }: Props) {
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     company: "",
@@ -34,10 +37,29 @@ export default function ContactContent({ dict, locale }: Props) {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In production, this would submit to an API
-    setFormSubmitted(true);
+    setIsSubmitting(true);
+    setSubmitError("");
+
+    try {
+      // Submit to Google Sheets backend via Apps Script web app
+      await fetch(
+        "https://script.google.com/macros/s/AKfycbzyhcTwNVh_kW4bpLAQ6B2fFM0vYRvMTZTdVZRdxatD4Xp-dF5I_Xw2jZD_ImI_Gr8/exec",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+          mode: "no-cors",
+        }
+      );
+
+      setFormSubmitted(true);
+    } catch {
+      setSubmitError(t(dict, "contact.form.errorMessage"));
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (
@@ -319,12 +341,28 @@ export default function ContactContent({ dict, locale }: Props) {
                         />
                       </div>
 
+                      {submitError && (
+                        <div className="rounded-lg border border-red-200 bg-red-50 p-3 text-sm text-red-700 dark:border-red-900 dark:bg-red-900/20 dark:text-red-200">
+                          {submitError}
+                        </div>
+                      )}
+
                       <button
                         type="submit"
-                        className="w-full md:w-auto px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors flex items-center justify-center gap-2"
+                        disabled={isSubmitting}
+                        className="w-full md:w-auto px-8 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
                       >
-                        <Send size={16} />
-                        {t(dict, "contact.form.submit")}
+                        {isSubmitting ? (
+                          <>
+                            <Loader2 size={16} className="animate-spin" />
+                            {t(dict, "contact.form.sending")}
+                          </>
+                        ) : (
+                          <>
+                            <Send size={16} />
+                            {t(dict, "contact.form.submit")}
+                          </>
+                        )}
                       </button>
                     </form>
                   )}

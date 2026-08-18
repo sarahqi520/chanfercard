@@ -575,7 +575,10 @@
       "projectPlaceholder": "Raccontaci del tuo prodotto di carte, requisiti di confezionamento, metodo di confezionamento preferito o qualsiasi esigenza particolare...",
       "submit": "Invia Richiesta",
       "thankYou": "Grazie!",
-      "thankYouMessage": "La tua richiesta è stata ricevuta. Il nostro team ti contatterà entro 24 ore."
+      "thankYouMessage": "La tua richiesta è stata ricevuta. Il nostro team ti contatterà entro 24 ore.",
+      "sending": "Invio in corso...",
+      "error": "Invio fallito",
+      "errorMessage": "Si è verificato un problema durante l'invio della richiesta. Riprova o contattaci direttamente."
     }
   },
   "footer": {

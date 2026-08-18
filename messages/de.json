@@ -575,7 +575,10 @@
       "projectPlaceholder": "Beschreiben Sie Ihr Kartenprodukt, Ihre Verpackungsanforderungen, bevorzugte Verpackungsmethode oder besondere Anforderungen...",
       "submit": "Anfrage absenden",
       "thankYou": "Vielen Dank!",
-      "thankYouMessage": "Ihre Anfrage ist eingegangen. Unser Team wird Sie innerhalb von 24 Stunden kontaktieren."
+      "thankYouMessage": "Ihre Anfrage ist eingegangen. Unser Team wird Sie innerhalb von 24 Stunden kontaktieren.",
+      "sending": "Wird gesendet...",
+      "error": "Fehler beim Senden",
+      "errorMessage": "Beim Senden Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
     }
   },
   "footer": {
