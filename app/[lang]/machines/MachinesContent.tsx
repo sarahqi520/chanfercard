@@ -152,9 +152,10 @@ export default function MachinesContent({ dict, locale }: Props) {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filtered.map((machine) => (
-              <div
+              <Link
                 key={machine.id}
-                className={`border-l-4 rounded-xl bg-card overflow-hidden card-hover border-border ${categoryColors[machine.category] || ""}`}
+                href={`/${locale}/machines/${machine.id}`}
+                className={`block border-l-4 rounded-xl bg-card overflow-hidden card-hover border-border cursor-pointer ${categoryColors[machine.category] || ""}`}
               >
                 {/* Product Image */}
                 <div className="relative w-full h-48 bg-muted/30">
@@ -180,7 +181,8 @@ export default function MachinesContent({ dict, locale }: Props) {
                     </span>
                     <h3 className="font-bold text-lg">{tm(machine.id, "name", machine.name)}</h3>
                     <p className="text-sm text-muted-foreground">
-                      {machinesDict.model as string}: {machine.model}
+                      {machinesDict.model as string}:{" "}
+                      <span className="font-semibold text-accent">{machine.model}</span>
                     </p>
                   </div>
                 </div>
@@ -234,15 +236,13 @@ export default function MachinesContent({ dict, locale }: Props) {
 
                 {/* CTA: View Details + Inquire */}
                 <div className="mt-4 flex items-center justify-between gap-2">
-                  <Link
-                    href={`/${locale}/machines/${machine.id}`}
-                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:text-primary-dark transition-colors"
-                  >
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary">
                     {(machinesDict.viewDetails as string) ?? "View Details"}
                     <ArrowRight size={14} />
-                  </Link>
+                  </span>
                   <Link
                     href={`/${locale}/contact`}
+                    onClick={(e) => e.stopPropagation()}
                     className="inline-flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-primary transition-colors"
                   >
                     {formatStr(machinesDict.inquire as string, {
@@ -251,7 +251,7 @@ export default function MachinesContent({ dict, locale }: Props) {
                   </Link>
                 </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 

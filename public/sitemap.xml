@@ -3780,4 +3780,275 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/machines/ai-visual" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/machines/ai-visual" />
   </url>
+  <url>
+    <loc>https://chanfercard.com/en/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/zh/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/ru/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/it/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/de/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/fr/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/es/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/ko/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/ja/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
+  <url>
+    <loc>https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://chanfercard.com/zh/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://chanfercard.com/ru/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://chanfercard.com/it/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://chanfercard.com/de/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://chanfercard.com/fr/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://chanfercard.com/es/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chanfercard.com/ko/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://chanfercard.com/ja/blog/how-to-choose-a-card-packaging-machine/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chanfercard.com/en/blog/how-to-choose-a-card-packaging-machine/" />
+  </url>
 </urlset>
+
