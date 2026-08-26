@@ -62,8 +62,28 @@ export default async function FAQPage({
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
 
+  // FAQPage structured data — built from the existing FAQ dictionary only.
+  // No FAQ text is changed; this only helps search engines render rich results.
+  const faqPageDict = dict.faqPage as Record<string, unknown>;
+  const faqCategories = (faqPageDict.categories as { items: { question: string; answer: string }[] }[]) || [];
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqCategories
+      .flatMap((cat) => cat.items || [])
+      .map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: { "@type": "Answer", text: item.answer },
+      })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Header dict={dict} locale={locale} />
       <FAQContent dict={dict} locale={locale} />
       <Footer dict={dict} locale={locale} />

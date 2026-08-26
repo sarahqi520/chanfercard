@@ -102,6 +102,22 @@ export default function BlogPostContent({
                     {t(block.text)} <ArrowRight size={16} />
                   </Link>
                 );
+              if (block.type === "video")
+                return (
+                  <figure key={i} className="my-8">
+                    <video
+                      src={block.src}
+                      controls
+                      preload="metadata"
+                      className="w-full rounded-xl border border-border"
+                    />
+                    {block.caption && (
+                      <figcaption className="mt-3 text-sm text-muted-foreground text-center">
+                        {t(block.caption)}
+                      </figcaption>
+                    )}
+                  </figure>
+                );
               if (block.type === "table")
                 return (
                   <div key={i} className="overflow-x-auto my-6">
