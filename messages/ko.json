@@ -549,9 +549,9 @@
       "company": "회사명",
       "companyPlaceholder": "회사명을 입력하세요",
       "email": "이메일",
-      "emailPlaceholder": "email@company.com",
+      "emailPlaceholder": "you@example.com",
       "phone": "전화번호",
-      "phonePlaceholder": "+82 10 1234 5678",
+      "phonePlaceholder": "+86 130 6098 5132",
       "productType": "제품 유형",
       "selectProduct": "제품 유형 선택",
       "productTypes": {
