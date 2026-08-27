@@ -549,9 +549,9 @@
       "company": "会社名",
       "companyPlaceholder": "会社名",
       "email": "メール",
-      "emailPlaceholder": "email@company.com",
+      "emailPlaceholder": "you@example.com",
       "phone": "電話",
-      "phonePlaceholder": "+1 234 567 8900",
+      "phonePlaceholder": "+86 130 6098 5132",
       "productType": "製品タイプ",
       "selectProduct": "製品タイプを選択",
       "productTypes": {

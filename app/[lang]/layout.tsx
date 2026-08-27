@@ -148,7 +148,7 @@ export default async function LangLayout({ children, params }: Props) {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Guangzhou Chanfer Intelligent Equipment Co., Ltd",
-    alternateName: ["CHANFER", "CUKKE", "广州长发智能装备有限公司", "Guangzhou Changfa Intelligent Equipment Co., Ltd"],
+    alternateName: ["CHANFER", "CUKKE", "广州长发智能包装有限公司", "Guangzhou Chanfer Intelligent Equipment Co., Ltd"],
     url: "https://chanfercard.com",
     logo: "https://chanfercard.com/logo.png",
     image: "https://chanfercard.com/images/og/og-image-en.jpg",
