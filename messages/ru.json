@@ -549,9 +549,9 @@
       "company": "Компания",
       "companyPlaceholder": "Название компании",
       "email": "Email",
-      "emailPlaceholder": "email@company.com",
+      "emailPlaceholder": "you@example.com",
       "phone": "Телефон",
-      "phonePlaceholder": "+1 234 567 8900",
+      "phonePlaceholder": "+86 130 6098 5132",
       "productType": "Тип продукта",
       "selectProduct": "Выберите тип продукта",
       "productTypes": {
