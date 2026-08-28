@@ -137,6 +137,147 @@ export const blogPosts: BlogPost[] = [
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
     ],
   },
+  {
+    slug: "printing-united-expo-2026",
+    date: "2026-08-27",
+    category: { zh: "展会预告", en: "Exhibition Preview" },
+    title: {
+      zh: "CHANFER 亮相 PRINTING United Expo 2026 — 展位 N7411，拉斯维加斯",
+      en: "CHANFER at PRINTING United Expo 2026 — Booth N7411, Las Vegas",
+    },
+    excerpt: {
+      zh: "我们将亮相 2026 年 9 月 23–25 日在拉斯维加斯举办的 PRINTING United Expo。欢迎莅临 N7411 展位，现场观看发卡、理料、装袋、封口与 AI 视觉检测一体化的卡牌自动化包装线实机演示。",
+      en: "We're exhibiting at PRINTING United Expo 2026 in Las Vegas, Sept. 23–25. Visit Booth N7411 for live demos of our one-stop card packaging automation — card feeding, collating, bagging, sealing and AI visual inspection.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "CHANFER 即将亮相 PRINTING United Expo 2026 —— 全球印刷与包装行业汇聚的年度盛会。欢迎莅临 N7411 展位，现场观看我们的一站式卡牌包装自动化方案实机演示，把你的卡片样品带来，我们一起找到最适合你产线的自动化配置。",
+          en: "CHANFER is heading to PRINTING United Expo 2026 — the global event where print and packaging professionals come together. Stop by Booth N7411 for live demonstrations of our one-stop card packaging automation, and bring your card samples so we can find the right setup for your line.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "现场展出内容", en: "What We'll Show" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "FKJ-100KP 自动发卡机 — 500 张/分钟，卡片厚度 0.1–3 mm，卡片尺寸 45–120 mm × 51–100 mm。",
+          en: "FKJ-100KP Automatic Card Feeder — 500 sheets/min, card thickness 0.1–3 mm, card size 45–120 mm × 51–100 mm.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "智能发卡系统 — 配方化设定，单批 25,000 包，100% AI 视觉检测。",
+          en: "Smart Card Dispatching System — recipe-based setup, 25,000 packs per batch, 100% AI visual inspection.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "六种包装方式 — 糖果枕式、自粘条、四边封、束带、热缩、三维包膜任意组合。",
+          en: "Six Packaging Methods — candy pillow, self-adhesive strip, four-side seal, banding, heat shrink and 3D box packaging.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "整线集成 — 从摩擦式给料到协作机器人码垛，配合智能控制无缝衔接。",
+          en: "Full Line Integration — from friction feeder to palletizing with collaborative robots and smart controls.",
+        },
+      },
+      {
+        type: "cta",
+        text: { zh: "查看卡牌包装方案", en: "See Our Card Packaging Solutions" },
+        href: "/solutions",
+      },
+      {
+        type: "h2",
+        text: { zh: "为什么选择 CHANFER", en: "Why CHANFER" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "全球 8,000+ 客户信赖",
+          en: "8,000+ clients served worldwide",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "100+ 项专利，设备通过 CE 认证",
+          en: "100+ patents and CE-certified equipment",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "25+ 年行业经验",
+          en: "25+ years of industry experience",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "100+ 名研发、制造与服务团队人员",
+          en: "100+ team members focused on R&D, manufacturing and service",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "ISO9001 认证 · 国家高新技术企业 · 广东省专精特新企业",
+          en: "ISO9001 certified · National High-Tech Enterprise · Guangdong SRDI recognized",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "展会信息", en: "Visit Us in Las Vegas" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "场馆：拉斯维加斯会展中心（Las Vegas Convention Center）",
+          en: "Venue: Las Vegas Convention Center",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "展位：北馆 N7411（North Halls, Booth N7411）",
+          en: "Booth: North Halls, Booth N7411",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "日期：2026 年 9 月 23–25 日",
+          en: "Dates: September 23–25, 2026",
+        },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "想与我们的工程师一对一演示？现在就联系我们，我们会在展会期间为你预留时间档。带上你的卡片样品，一起看看你的产线最适合哪种自动化配置。",
+          en: "Want a one-on-one demo with our engineers? Contact us now and we'll reserve a time slot during the show — bring your card samples and let's find the right automation for your line.",
+        },
+      },
+      {
+        type: "cta",
+        text: { zh: "预约展位演示", en: "Book a Demo at the Show" },
+        href: "/contact",
+      },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
 ];
 
 export function getPost(slug: string): BlogPost | undefined {

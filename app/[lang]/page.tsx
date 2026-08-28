@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import VideoGallery from "@/components/VideoGallery";
 import PhotoGallery from "@/components/PhotoGallery";
+import HeroCarousel from "@/components/HeroCarousel";
 import {
   ArrowRight,
   Package,
@@ -111,22 +112,15 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       <main className="flex-1">
         {/* Hero Section — Full-screen immersive banner */}
         <section className="relative min-h-[580px] md:min-h-[640px] lg:min-h-[700px] flex items-center overflow-hidden">
-          {/* Background: expo photo (clean version — no expo text) */}
-          <div className="absolute inset-0 z-0">
-            <Image
-              src="/images/hero-banner-clean.jpg"
-              alt="CHANFER Smart Card Packaging Line — Automated Packaging Equipment"
-              fill
-              className="object-cover object-center"
-              priority
-              unoptimized
-            />
-            {/* Overlay: dark left-to-right gradient so text is always legible */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0d1b3e]/92 via-[#0d1b3e]/65 to-transparent" />
-            {/* Bottom fade to page bg */}
-            <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
-          </div>
-
+          {/* Background carousel: rotates hero images every 5s */}
+          <HeroCarousel
+            images={[
+              "/images/hero-banner-clean.jpg",
+              "/images/hero-banner-expo.jpg",
+              "/images/hero-banner-expo-cropped.jpg",
+              "/images/company/factory-showcase.png",
+            ]}
+          />
           {/* Content */}
           <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 py-20 md:py-28">
             <div className="max-w-2xl">
