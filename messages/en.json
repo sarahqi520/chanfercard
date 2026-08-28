@@ -559,7 +559,7 @@
       "email": "Email",
       "emailPlaceholder": "you@example.com",
       "phone": "Phone",
-      "phonePlaceholder": "+86 130 6098 5132",
+      "phonePlaceholder": "+1 234 567 8900",
       "productType": "Product Type",
       "selectProduct": "Select product type",
       "productTypes": {
