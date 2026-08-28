@@ -136,30 +136,29 @@ export const blogPosts: BlogPost[] = [
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
     ],
-  },
-  {
+  },  {
     slug: "printing-united-expo-2026",
     date: "2026-08-27",
     category: { zh: "展会预告", en: "Exhibition Preview" },
     title: {
-      zh: "CHANFER 亮相 PRINTING United Expo 2026 — 展位 N7411，拉斯维加斯",
-      en: "CHANFER at PRINTING United Expo 2026 — Booth N7411, Las Vegas",
+      zh: "CHANFER 强势登陆 PRINTING United Expo 2026 —— 北美最大印刷包装展，美国拉斯维加斯 N7411 展位",
+      en: "CHANFER Heads to PRINTING United Expo 2026 — North America's Biggest Print & Packaging Show, Booth N7411, Las Vegas USA",
     },
     excerpt: {
-      zh: "我们将亮相 2026 年 9 月 23–25 日在拉斯维加斯举办的 PRINTING United Expo。欢迎莅临 N7411 展位，现场观看发卡、理料、装袋、封口与 AI 视觉检测一体化的卡牌自动化包装线实机演示。",
-      en: "We're exhibiting at PRINTING United Expo 2026 in Las Vegas, Sept. 23–25. Visit Booth N7411 for live demos of our one-stop card packaging automation — card feeding, collating, bagging, sealing and AI visual inspection.",
+      zh: "今年九月，CHANFER 远渡重洋亮相美国拉斯维加斯 PRINTING United Expo 2026 —— 北美规模最大的印刷与包装盛会。欢迎莅临 N7411 展位，现场体验一站式卡牌包装自动化实机演示。",
+      en: "This September, CHANFER crosses the Pacific to exhibit at PRINTING United Expo 2026 in Las Vegas, USA — North America's largest printing and packaging event. Visit Booth N7411 for live demos of our one-stop card packaging automation.",
     },
     body: [
       {
         type: "p",
         text: {
-          zh: "CHANFER 即将亮相 PRINTING United Expo 2026 —— 全球印刷与包装行业汇聚的年度盛会。欢迎莅临 N7411 展位，现场观看我们的一站式卡牌包装自动化方案实机演示，把你的卡片样品带来，我们一起找到最适合你产线的自动化配置。",
-          en: "CHANFER is heading to PRINTING United Expo 2026 — the global event where print and packaging professionals come together. Stop by Booth N7411 for live demonstrations of our one-stop card packaging automation, and bring your card samples so we can find the right setup for your line.",
+          zh: "倒计时开始！今年 9 月 23–25 日，CHANFER 将携全套卡牌包装自动化设备，远赴美国内华达州拉斯维加斯，亮相 PRINTING United Expo 2026 —— 这是北美规模最大的印刷与包装行业盛会，汇聚来自全美及全球数万名专业观众、600+ 家展商。我们在 N7411 展位，备好样机、等你来！",
+          en: "The countdown is on! This September 23–25, CHANFER is bringing our full card-packaging automation lineup to PRINTING United Expo 2026 in Las Vegas, Nevada, USA — North America's largest event for the printing and packaging industry, drawing tens of thousands of professionals and 600+ exhibitors from across the Americas and beyond. We can't wait to meet you at Booth N7411.",
         },
       },
       {
         type: "h2",
-        text: { zh: "现场展出内容", en: "What We'll Show" },
+        text: { zh: "N7411 展位，精彩抢先看", en: "What's Waiting for You at Booth N7411" },
       },
       {
         type: "li",
@@ -196,73 +195,73 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "h2",
-        text: { zh: "为什么选择 CHANFER", en: "Why CHANFER" },
+        text: { zh: "为什么一定要来美国展找 CHANFER", en: "Why Visit CHANFER in the USA" },
       },
       {
         type: "li",
         text: {
-          zh: "全球 8,000+ 客户信赖",
-          en: "8,000+ clients served worldwide",
+          zh: "全球 8,000+ 客户信赖，设备远销海外、久经实战。",
+          en: "8,000+ clients served worldwide — field-proven equipment shipped across the globe.",
         },
       },
       {
         type: "li",
         text: {
-          zh: "100+ 项专利，设备通过 CE 认证",
-          en: "100+ patents and CE-certified equipment",
+          zh: "100+ 项专利，设备通过 CE 认证。",
+          en: "100+ patents and CE-certified equipment.",
         },
       },
       {
         type: "li",
         text: {
-          zh: "25+ 年行业经验",
-          en: "25+ years of industry experience",
+          zh: "25+ 年行业经验，深耕卡牌自动化包装。",
+          en: "25+ years of industry experience in card packaging automation.",
         },
       },
       {
         type: "li",
         text: {
-          zh: "100+ 名研发、制造与服务团队人员",
-          en: "100+ team members focused on R&D, manufacturing and service",
+          zh: "100+ 名研发、制造与服务团队人员，全程护航。",
+          en: "100+ team members focused on R&D, manufacturing and service.",
         },
       },
       {
         type: "li",
         text: {
-          zh: "ISO9001 认证 · 国家高新技术企业 · 广东省专精特新企业",
-          en: "ISO9001 certified · National High-Tech Enterprise · Guangdong SRDI recognized",
+          zh: "ISO9001 认证 · 国家高新技术企业 · 广东省专精特新企业。",
+          en: "ISO9001 certified · National High-Tech Enterprise · Guangdong SRDI recognized.",
         },
       },
       {
         type: "h2",
-        text: { zh: "展会信息", en: "Visit Us in Las Vegas" },
+        text: { zh: "来拉斯维加斯，赴一场之约", en: "Plan Your Visit to Las Vegas" },
       },
       {
         type: "li",
         text: {
-          zh: "场馆：拉斯维加斯会展中心（Las Vegas Convention Center）",
-          en: "Venue: Las Vegas Convention Center",
+          zh: "场馆：美国内华达州 · 拉斯维加斯会展中心（Las Vegas Convention Center）。",
+          en: "Venue: Las Vegas Convention Center, Nevada, USA.",
         },
       },
       {
         type: "li",
         text: {
-          zh: "展位：北馆 N7411（North Halls, Booth N7411）",
-          en: "Booth: North Halls, Booth N7411",
+          zh: "展位：北馆 N7411（North Halls, Booth N7411）。",
+          en: "Booth: North Halls, Booth N7411.",
         },
       },
       {
         type: "li",
         text: {
-          zh: "日期：2026 年 9 月 23–25 日",
-          en: "Dates: September 23–25, 2026",
+          zh: "日期：2026 年 9 月 23–25 日。",
+          en: "Dates: September 23–25, 2026.",
         },
       },
       {
         type: "p",
         text: {
-          zh: "想与我们的工程师一对一演示？现在就联系我们，我们会在展会期间为你预留时间档。带上你的卡片样品，一起看看你的产线最适合哪种自动化配置。",
-          en: "Want a one-on-one demo with our engineers? Contact us now and we'll reserve a time slot during the show — bring your card samples and let's find the right automation for your line.",
+          zh: "别错过！这是你亲眼见证设备实机运转、带上卡片样品、敲定最适合产线自动化方案的最佳时机。现在就预约演示档期，我们为你留好前排座位。",
+          en: "Don't miss it — this is your chance to watch our machines run live, bring your card samples, and lock in the right automation for your line. Reserve a demo slot now and we'll save you a front-row seat.",
         },
       },
       {
