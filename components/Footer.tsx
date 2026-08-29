@@ -260,12 +260,12 @@ export default function Footer({ dict, locale }: { dict: Dictionary; locale: Loc
             © {new Date().getFullYear()} {companyInfo.name}. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-accent transition-colors">
+            <Link href={`/${locale}/privacy`} className="hover:text-accent transition-colors">
               {footer.privacyPolicy as string}
-            </a>
-            <a href="#" className="hover:text-accent transition-colors">
+            </Link>
+            <Link href={`/${locale}/terms`} className="hover:text-accent transition-colors">
               {footer.termsOfService as string}
-            </a>
+            </Link>
           </div>
         </div>
       </div>
