@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import VideoGallery from "@/components/VideoGallery";
 import PhotoGallery from "@/components/PhotoGallery";
+import HeroCarousel from "@/components/HeroCarousel";
 import {
   ArrowRight,
   Package,
@@ -111,13 +112,19 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       <main className="flex-1">
         {/* Hero Section — Full-screen immersive banner */}
         <section className="relative min-h-[580px] md:min-h-[640px] lg:min-h-[700px] flex items-center overflow-hidden">
-          {/* Static hero background (single image) */}
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/hero-banner.png')" }}
-            aria-hidden="true"
-          />
-          <div className="absolute inset-0 bg-black/40" aria-hidden="true" />
+          {/* Background: rotating hero carousel */}
+          <div className="absolute inset-0 z-0 overflow-hidden">
+            <HeroCarousel
+              images={[
+                "/images/hero-carousel-1.jpg",
+                "/images/hero-carousel-2.jpg",
+                "/images/hero-carousel-3.jpg",
+              ]}
+            />
+            {/* Dark left-to-right gradient so text stays legible */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#0d1b3e]/92 via-[#0d1b3e]/65 to-transparent pointer-events-none" />
+            <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent pointer-events-none" />
+          </div>
           {/* Content */}
           <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 py-20 md:py-28">
             <div className="max-w-2xl">
