@@ -341,6 +341,15 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 <h3 className="font-bold text-lg mb-6">
                   {smartComparison.title as string}
                 </h3>
+                <div className="grid grid-cols-3 gap-3 mb-4 text-xs font-bold text-muted-foreground">
+                  <div></div>
+                  <div className="text-center text-destructive/60">
+                    ❌ {smartComparison.traditionalLabel as string}
+                  </div>
+                  <div className="text-center text-accent">
+                    ✓ {smartComparison.chanferLabel as string}
+                  </div>
+                </div>
                 <div className="space-y-4">
                   {comparisonRows.map((row, i) => (
                     <div key={i} className="grid grid-cols-3 gap-3 text-sm">
@@ -355,13 +364,6 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                       </div>
                     </div>
                   ))}
-                </div>
-                <div className="grid grid-cols-3 gap-3 mt-4 pt-4 border-t border-border text-xs font-bold text-muted-foreground">
-                  <div></div>
-                  <div className="text-center text-destructive/60">
-                    ❌ {smartComparison.traditionalLabel as string}
-                  </div>
-                  <div className="text-center text-accent">✓ {smartComparison.chanferLabel as string}</div>
                 </div>
               </div>
             </div>
