@@ -116,6 +116,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
           <div className="absolute inset-0 z-0 overflow-hidden">
             <HeroCarousel
               images={[
+                "/images/hero-banner-clean.jpg",
                 "/images/hero-carousel-1.jpg",
                 "/images/hero-carousel-2.jpg",
                 "/images/hero-carousel-3.jpg",
