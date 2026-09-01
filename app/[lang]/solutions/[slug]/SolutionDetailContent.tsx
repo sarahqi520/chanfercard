@@ -32,9 +32,15 @@ interface Props {
 }
 
 const packagingIcons: Record<string, React.ReactNode> = {
-  candy: <Package className="w-6 h-6" />,
+  candy: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+    <rect x="7.5" y="3.5" width="9" height="17" rx="3" />
+    <path d="M7.5 8.5h-2.5M7.5 15.5h-2.5M16.5 8.5h2.5M16.5 15.5h2.5" />
+  </svg>,
   "self-adhesive": <Layers className="w-6 h-6" />,
-  "four-sides": <Boxes className="w-6 h-6" />,
+  "four-sides": <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+    <rect x="5.5" y="5.5" width="13" height="13" rx="1.5" />
+    <path d="M9 3.5v2M15 3.5v2M9 18.5v2M15 18.5v2M3.5 9h2M3.5 15h2M18.5 9h2M18.5 15h2" />
+  </svg>,
   banding: <Zap className="w-6 h-6" />,
   "heat-shrink": <Shield className="w-6 h-6" />,
   "three-dimensional": <Factory className="w-6 h-6" />,

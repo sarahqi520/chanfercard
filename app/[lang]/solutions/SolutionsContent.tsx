@@ -6,9 +6,7 @@ import Image from "next/image";
 import { type Dictionary } from "@/lib/i18n/dictionaries";
 import { packagingSolutions, type PackagingSolution } from "@/lib/data";
 import {
-  Package,
   Layers,
-  Boxes,
   Zap,
   Shield,
   Factory,
@@ -24,9 +22,15 @@ interface Props {
 }
 
 const packagingIcons = [
-  <Package key="candy" className="w-7 h-7" />,
+  <svg key="candy" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
+    <rect x="7.5" y="3.5" width="9" height="17" rx="3" />
+    <path d="M7.5 8.5h-2.5M7.5 15.5h-2.5M16.5 8.5h2.5M16.5 15.5h2.5" />
+  </svg>,
   <Layers key="self-adhesive" className="w-7 h-7" />,
-  <Boxes key="four-sides" className="w-7 h-7" />,
+  <svg key="four-sides" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
+    <rect x="5.5" y="5.5" width="13" height="13" rx="1.5" />
+    <path d="M9 3.5v2M15 3.5v2M9 18.5v2M15 18.5v2M3.5 9h2M3.5 15h2M18.5 9h2M18.5 15h2" />
+  </svg>,
   <Zap key="banding" className="w-7 h-7" />,
   <Shield key="heat-shrink" className="w-7 h-7" />,
   <Factory key="three-dimensional" className="w-7 h-7" />,

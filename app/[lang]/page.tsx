@@ -17,7 +17,6 @@ import {
   Cpu,
   Eye,
   Bot,
-  Boxes,
   Cog,
   Layers,
   PlayCircle,
@@ -29,9 +28,15 @@ import { type Locale } from "@/lib/i18n/config";
 import type { PackagingSolution } from "@/lib/data";
 
 const packagingIcons = [
-  <Package key="candy" className="w-6 h-6" />,
+  <svg key="candy" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+    <rect x="7.5" y="3.5" width="9" height="17" rx="3" />
+    <path d="M7.5 8.5h-2.5M7.5 15.5h-2.5M16.5 8.5h2.5M16.5 15.5h2.5" />
+  </svg>,
   <Layers key="self-adhesive" className="w-6 h-6" />,
-  <Boxes key="four-sides" className="w-6 h-6" />,
+  <svg key="four-sides" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.6} strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+    <rect x="5.5" y="5.5" width="13" height="13" rx="1.5" />
+    <path d="M9 3.5v2M15 3.5v2M9 18.5v2M15 18.5v2M3.5 9h2M3.5 15h2M18.5 9h2M18.5 15h2" />
+  </svg>,
   <Zap key="banding" className="w-6 h-6" />,
   <Shield key="heat-shrink" className="w-6 h-6" />,
   <Factory key="three-dimensional" className="w-6 h-6" />,
@@ -64,6 +69,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   const compChanfer = smartComparison.chanfer as Record<string, string>;
   const certsDict = dict.certifications as Record<string, string>;
   const timelineDict = dict.timeline as Record<string, string>;
+  const certList = locale === "zh" ? companyInfo.certificationsZh : companyInfo.certifications;
 
   // Localize packaging solutions for homepage cards
   const solData = (dict.solutions as Record<string, unknown>)?.solutionsData as
@@ -381,7 +387,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-              {companyInfo.certifications.map((cert, i) => (
+              {certList.map((cert, i) => (
                 <div
                   key={i}
                   className="flex items-center gap-2 px-5 py-2.5 bg-muted rounded-lg text-sm font-medium"

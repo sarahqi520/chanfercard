@@ -776,6 +776,12 @@ export const companyInfo = {
     "ISO9001 Quality Management System",
     "CE Certification",
   ],
+  certificationsZh: [
+    "国家高新技术企业",
+    "专精特新企业",
+    "ISO9001 质量管理体系认证",
+    "CE 认证",
+  ],
   address: {
     street: "701, No.5 Yongfeng Road, Shawan Street",
     district: "Panyu District",
@@ -822,8 +828,8 @@ export const companyInfo = {
     { year: "2025", event: "Established Guangzhou branch; Founded AI Visual Application Center" },
   ],
   partners: [
-    "CASELL", "RR DONNELLEY", "YUTO", "QP Group",
-    "姚記", "裕同科技", "当纳利印刷", "金光集团",
+    "CASELL", "YUTO", "QP Group",
+    "姚記", "裕同科技", "金光集团",
     "金杯印刷", "SINARMAS", "HUNG HING", "KINARY",
     "LEO PAPER GROUP", "LONG XING GROUP",
   ],
