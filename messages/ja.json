@@ -157,7 +157,8 @@
           "高感度光電センサー追跡で精密封締",
           "HMIに最大60個の包装パラメータプリセット保存",
           "誤動作防止：製品切替時自動逆回転",
-          "フィルム切れ自動停止で無駄防止"
+          "フィルム切れ自動停止で無駄防止",
+          "針孔式排気"
         ],
         "processSteps": {
           "1": "摩擦給紙計数",
@@ -229,7 +230,8 @@
           "3色電気アイで精密テキスト/画像位置合わせ",
           "独自の往復切断・熱溶接技術",
           "高速シール — 分間150袋でも堅牢で安定",
-          "タッチスクリーンHMI付きプログラム可能PLC制御"
+          "タッチスクリーンHMI付きプログラム可能PLC制御",
+          "スポンジ排気式封口"
         ],
         "processSteps": {
           "1": "摩擦給紙計数",
@@ -454,7 +456,32 @@
     },
     "featuresTitle": "特徴",
     "applicationsTitle": "応用分野",
-    "viewDetails": "詳細を見る"
+    "viewDetails": "詳細を見る",
+    "specLabels": {
+      "Card Thickness": "カード厚",
+      "Card Size": "カードサイズ",
+      "Feeding Speed": "給料速度",
+      "Power": "電源",
+      "Machine Size": "機械サイズ",
+      "Weight": "重量",
+      "Packaging Speed": "包装速度",
+      "Film Width": "フィルム幅",
+      "Bag Length": "袋長",
+      "Bag Width": "袋幅",
+      "Product Height": "製品高さ",
+      "Roll Film Diameter": "巻きフィルム径",
+      "Conveyor Speed": "コンベア速度",
+      "Sealing Knife Size": "シールナイフサイズ",
+      "Package Size": "包装サイズ",
+      "Encasing Speed": "箱詰め速度",
+      "Box Dimension": "箱寸法",
+      "Carton Size": "段ボールサイズ",
+      "Speed": "速度",
+      "Load": "積載量",
+      "Working Radius": "作業半径",
+      "Stacking Height": "積上げ高さ",
+      "Pallet Size": "パレットサイズ"
+    }
   },
   "about": {
     "title1": "CHANFER",
@@ -1084,9 +1111,9 @@
   },
   "machineDetail": {
     "fkj-100sl": {
-      "seoTitle": "自動摩擦フィーダー FKJ-100SL | CHANFER",
+      "seoTitle": "自動摩擦フィーダー FKJ-100KP | CHANFER",
       "seoDescription": "サーボ高速フィーダー。800カード/分(CR80)。0.1-3mm。PLCタッチスクリーン。",
-      "keywords": "摩擦フィーダー, FKJ-100SL, カード, サーボ",
+      "keywords": "摩擦フィーダー, FKJ-100KP, カード, サーボ",
       "longDescription": [
         "CHANFER旗艦、サーボPLC、800カード/分。",
         "0.1-3mm。自動アラーム。"
@@ -1104,7 +1131,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "FKJ-100SLに興味？",
+      "ctaTitle": "FKJ-100KPに興味？",
       "ctaDescription": "仕様と価格。"
     },
     "fkj-200e": {
@@ -1231,9 +1258,9 @@
       "ctaDescription": "仕様と価格。"
     },
     "zs-220x": {
-      "seoTitle": "フローラッピング機 ZS-220X | CHANFER",
+      "seoTitle": "フローラッピング機 ZS-230X | CHANFER",
       "seoDescription": "フローラッピング、220袋/分。サーボ、220mm。",
-      "keywords": "フローラッピング, ZS-220X, candy",
+      "keywords": "フローラッピング, ZS-230X, candy",
       "longDescription": [
         "フローラッピング、220袋/分。",
         "60プリセット、3-5分。"

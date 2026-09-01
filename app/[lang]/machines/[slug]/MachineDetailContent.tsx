@@ -47,6 +47,7 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
 
   const machinesDict = (dict.machines as Record<string, unknown>) ?? {};
   const categoriesDict = (machinesDict.categories as Record<string, string>) ?? {};
+  const specLabels = (machinesDict.specLabels as Record<string, string>) ?? {};
   const machineDetail = (dict.machineDetail as Record<string, Record<string, unknown>>) ?? {};
   const md = machineDetail[machineId] ?? {};
 
@@ -129,7 +130,7 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
                   <div key={key} className="bg-card border border-border rounded-lg p-3">
                     <div className="text-xs text-muted-foreground uppercase tracking-wider flex items-center gap-1">
                       <Gauge size={12} />
-                      {key}
+                      {specLabels[key] ?? key}
                     </div>
                     <div className="text-sm font-bold mt-1">{val}</div>
                   </div>
@@ -182,7 +183,7 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
                     className={i % 2 === 0 ? "bg-muted/30" : ""}
                   >
                     <td className="px-4 py-3 text-sm font-medium text-muted-foreground w-1/2">
-                      {key}
+                      {specLabels[key] ?? key}
                     </td>
                     <td className="px-4 py-3 text-sm font-bold">{val}</td>
                   </tr>

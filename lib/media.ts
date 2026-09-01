@@ -99,7 +99,7 @@ export const customerVideos: CustomerVideo[] = [
     id: "customer-portrait-2",
     youtubeId: "", // TODO: Paste YouTube video ID
     title: "Machine Close-Up: Servo Packaging in Action",
-    description: "Vertical close-up of the ZS-220X servo packaging machine at a customer site.",
+    description: "Vertical close-up of the ZS-230X servo packaging machine at a customer site.",
     orientation: "portrait",
     machineId: "zs-220x",
   },
@@ -122,17 +122,17 @@ export const trainingVideos: TrainingVideo[] = [
     id: "training-1",
     youtubeId: "", // TODO: Paste YouTube video ID
     machineId: "fkj-100sl",
-    title: "Friction Feeder FKJ-100SL — Setup & Operation Guide",
+    title: "Friction Feeder FKJ-100KP — Setup & Operation Guide",
     description:
-      "Step-by-step training video covering installation, calibration, daily operation, and maintenance of the FKJ-100SL friction feeder.",
+      "Step-by-step training video covering installation, calibration, daily operation, and maintenance of the FKJ-100KP friction feeder.",
   },
   {
     id: "training-2",
     youtubeId: "", // TODO: Paste YouTube video ID
     machineId: "zs-220x",
-    title: "Servo Packaging Machine ZS-220X — Operation Training",
+    title: "Servo Packaging Machine ZS-230X — Operation Training",
     description:
-      "Complete operation training for the ZS-220X high-speed servo packaging machine, including parameter setup, film loading, and troubleshooting.",
+      "Complete operation training for the ZS-230X high-speed servo packaging machine, including parameter setup, film loading, and troubleshooting.",
   },
   {
     id: "training-3",

@@ -164,7 +164,8 @@
           "High-sensitivity photoelectric sensor tracking for precise sealing",
           "Up to 60 packaging parameter presets stored on HMI",
           "Anti-misoperation: auto-reverse when product is cut",
-          "No-film auto-stop to prevent waste"
+          "No-film auto-stop to prevent waste",
+          "Pinhole exhaust"
         ],
         "processSteps": {
           "1": "Friction Feeder Count",
@@ -230,13 +231,14 @@
       "four-sides": {
         "name": "Four-Sides Sealed Packaging",
         "subtitle": "Card Four Sides Sealed Packaging",
-        "description": "All-four-edges heat-sealed packaging — delivers a premium, tamper-evident presentation. The fully sealed edges protect against moisture and contamination, making it the preferred choice for high-value trading cards and collectible products.",
+        "description": "All-four-edges heat-sealed packaging — delivers a premium, full-pattern display. Paper-based four-side sealing is eco-friendly, making it the preferred choice for high-value trading cards and collectible products.",
         "features": [
           "Seven servo motors for ultra-stable operation",
           "Three-color electric eye tracking for precise text/image alignment",
-          "Unique reciprocating cutting & heat-sealing technology",
+          "Unique reciprocating heat-sealing + rotary cutting technology",
           "High-speed sealing — firm and stable at 150 packs/min",
-          "PLC programmable control with touch-screen HMI"
+          "PLC programmable control with touch-screen HMI",
+          "Sponge exhaust sealing"
         ],
         "processSteps": {
           "1": "Friction Feeder Count",
@@ -396,7 +398,7 @@
     "machinesData": {
       "fkj-100sl": {
         "name": "Automatic Friction Feeder",
-        "description": "High-speed friction feeder for card dispensing. Servo motor driven with PLC control, capable of feeding up to 800 cards/min (CR80 standard). Automatic alarm for missing cards and overfeeding."
+        "description": "High-speed friction feeder for card dispensing. Servo motor driven with PLC control, capable of feeding up to 800 cards/min (CR80 standard). Automatic alarm for missing cards and multi-card feeding."
       },
       "fkj-200e": {
         "name": "Automatic Friction Feeder",
@@ -461,7 +463,32 @@
     },
     "featuresTitle": "Key Features",
     "applicationsTitle": "Applications",
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "specLabels": {
+      "Card Thickness": "Card Thickness",
+      "Card Size": "Card Size",
+      "Feeding Speed": "Feeding Speed",
+      "Power": "Power",
+      "Machine Size": "Machine Size",
+      "Weight": "Weight",
+      "Packaging Speed": "Packaging Speed",
+      "Film Width": "Film Width",
+      "Bag Length": "Bag Length",
+      "Bag Width": "Bag Width",
+      "Product Height": "Product Height",
+      "Roll Film Diameter": "Roll Film Diameter",
+      "Conveyor Speed": "Conveyor Speed",
+      "Sealing Knife Size": "Sealing Knife Size",
+      "Package Size": "Package Size",
+      "Encasing Speed": "Encasing Speed",
+      "Box Dimension": "Box Dimension",
+      "Carton Size": "Carton Size",
+      "Speed": "Speed",
+      "Load": "Load",
+      "Working Radius": "Working Radius",
+      "Stacking Height": "Stacking Height",
+      "Pallet Size": "Pallet Size"
+    }
   },
   "about": {
     "title1": "About",
@@ -1145,13 +1172,13 @@
   },
   "machineDetail": {
     "fkj-100sl": {
-      "seoTitle": "FKJ-100SL Automatic Friction Feeder for Cards | CHANFER",
+      "seoTitle": "FKJ-100KP Automatic Friction Feeder for Cards | CHANFER",
       "seoDescription": "High-speed servo-driven friction feeder for card dispensing. 800 cards/min (CR80). Handles 0.1-3mm thickness. PLC control with touch screen. Integrates with packaging lines.",
-      "keywords": "friction feeder, card feeder, automatic card feeder, FKJ-100SL, card dispensing machine, card feeding equipment, servo card feeder, card counting feeder",
+      "keywords": "friction feeder, card feeder, automatic card feeder, FKJ-100KP, card dispensing machine, card feeding equipment, servo card feeder, card counting feeder",
       "longDescription": [
-        "The FKJ-100SL is CHANFER's flagship automatic friction feeder, designed for high-speed card dispensing in automated packaging lines. Powered by a servo motor with PLC control and touch-screen HMI, it delivers precise single-card feeding at speeds up to 800 cards per minute (CR80 standard) — making it the workhorse of TCG and board game card production lines.",
+        "The FKJ-100KP is CHANFER's flagship automatic friction feeder, designed for high-speed card dispensing in automated packaging lines. Powered by a servo motor with PLC control and touch-screen HMI, it delivers precise single-card feeding at speeds up to 800 cards per minute (CR80 standard) — making it the workhorse of TCG and board game card production lines.",
         "The feeder handles cards ranging from 0.1mm to 3mm in thickness and sizes from 40x30mm to 180x100mm, covering all standard card formats including poker size, bridge size, mini cards, and game tokens. The servo-driven mechanism provides consistent feeding pressure and timing, with automatic alarm for card leakage and absence to prevent production errors.",
-        "With a maximum linear speed of 60m/min, the FKJ-100SL supports single-card dispensing, multiple-card dispensing, and continuous card dispensing modes — giving production managers flexibility to configure the feeder for different packaging requirements. The feeder integrates seamlessly with CHANFER's flow wrapping machines, bagging machines, four-side sealers, and cartoning systems."
+        "With a maximum linear speed of 60m/min, the FKJ-100KP supports single-card dispensing, multiple-card dispensing, and continuous card dispensing modes — giving production managers flexibility to configure the feeder for different packaging requirements. The feeder integrates seamlessly with CHANFER's flow wrapping machines, bagging machines, four-side sealers, and cartoning systems."
       ],
       "relatedMachineIds": [
         "fkj-200e",
@@ -1166,8 +1193,8 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "Interested in the FKJ-100SL Friction Feeder?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-100SL in your packaging line."
+      "ctaTitle": "Interested in the FKJ-100KP Friction Feeder?",
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-100KP in your packaging line."
     },
     "fkj-200e": {
       "seoTitle": "FKJ-200E Medium-Format Friction Feeder | CHANFER",
@@ -1175,7 +1202,7 @@
       "keywords": "friction feeder, medium format card feeder, FKJ-200E, large card feeder, card dispensing, servo feeder, card feeding machine",
       "longDescription": [
         "The FKJ-200E is a medium-format friction feeder designed for larger card sizes and printed materials. With a feeding capacity of up to 500 cards per minute and a card size range of 50x61mm to 300x200mm, it bridges the gap between high-speed small-card feeding and large-format sheet handling.",
-        "Powered by the same reliable servo motor and PLC control system as the FKJ-100SL, the FKJ-200E provides consistent feeding performance for medium-sized products including larger game cards, manuals, promotional materials, and medium-sized sheet products. The automatic alarm functions ensure production quality by detecting card absence and feeding errors in real-time."
+        "Powered by the same reliable servo motor and PLC control system as the FKJ-100KP, the FKJ-200E provides consistent feeding performance for medium-sized products including larger game cards, manuals, promotional materials, and medium-sized sheet products. The automatic alarm functions ensure production quality by detecting card absence and feeding errors in real-time."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1283,11 +1310,11 @@
       "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the CDM-100 intelligent card sorting system."
     },
     "zs-220x": {
-      "seoTitle": "ZS-220X High-Speed Servo Packaging Machine | CHANFER",
+      "seoTitle": "ZS-230X High-Speed Servo Packaging Machine | CHANFER",
       "seoDescription": "Compact high-speed pillow packaging machine. Servo-controlled, 220 bags/min. 60 parameter presets. Photoelectric tracking. Ideal for candy-style card wrapping.",
-      "keywords": "servo packaging machine, ZS-220X, pillow packaging, flow wrapping machine, candy packaging machine, high-speed wrapping, card flow wrap, servo flow wrapper",
+      "keywords": "servo packaging machine, ZS-230X, pillow packaging, flow wrapping machine, candy packaging machine, high-speed wrapping, card flow wrap, servo flow wrapper",
       "longDescription": [
-        "The ZS-220X is a compact high-speed servo-driven pillow packaging machine — the core of CHANFER's candy packaging lines. With servo-controlled bag length (set and cut, no empty travel), it delivers up to 220 bags per minute with precise sealing quality, making it ideal for TCG booster packs and high-volume card wrapping.",
+        "The ZS-230X is a compact high-speed servo-driven pillow packaging machine — the core of CHANFER's candy packaging lines. With servo-controlled bag length (set and cut, no empty travel), it delivers up to 220 bags per minute with precise sealing quality, making it ideal for TCG booster packs and high-volume card wrapping.",
         "The machine stores up to 60 packaging parameter presets on the HMI, allowing quick changeover between different product configurations. The high-sensitivity photoelectric sensor tracks film registration marks for precise sealing alignment, while anti-misoperation auto-reverse and no-film auto-stop protection prevent waste and ensure continuous quality."
       ],
       "relatedMachineIds": [
@@ -1299,8 +1326,8 @@
         "candy",
         "heat-shrink"
       ],
-      "ctaTitle": "Interested in the ZS-220X Packaging Machine?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the ZS-220X servo packaging machine."
+      "ctaTitle": "Interested in the ZS-230X Packaging Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the ZS-230X servo packaging machine."
     },
     "sbf-250": {
       "seoTitle": "SBF-250 Four-Side Sealing Servo Machine | CHANFER",

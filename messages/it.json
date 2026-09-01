@@ -157,7 +157,8 @@
           "Sensore fotoelettrico ad alta sensibilità per saldatura precisa",
           "Fino a 60 preimpostazioni parametri imballaggio su HMI",
           "Protezione contro errori: inversione automatica al cambio prodotto",
-          "Arresto automatico senza film per evitare sprechi"
+          "Arresto automatico senza film per evitare sprechi",
+          "Sfiato con fori"
         ],
         "processSteps": {
           "1": "Conteggio alimentatore a frizione",
@@ -229,7 +230,8 @@
           "Occhio elettrico tricolore per allineamento testo/immagine",
           "Tecnologia unica di taglio e saldatura reciproca",
           "Sigillatura ad alta velocità — solida e stabile a 150 sacchetti/min",
-          "Controllo PLC programmabile con schermo tattile"
+          "Controllo PLC programmabile con schermo tattile",
+          "Sigillatura con scarico spugna"
         ],
         "processSteps": {
           "1": "Conteggio alimentatore a frizione",
@@ -454,7 +456,32 @@
     },
     "featuresTitle": "Caratteristiche",
     "applicationsTitle": "Applicazioni",
-    "viewDetails": "Vedi Dettagli"
+    "viewDetails": "Vedi Dettagli",
+    "specLabels": {
+      "Card Thickness": "Spessore carta",
+      "Card Size": "Dimensione carta",
+      "Feeding Speed": "Velocità di alimentazione",
+      "Power": "Potenza",
+      "Machine Size": "Dimensioni macchina",
+      "Weight": "Peso",
+      "Packaging Speed": "Velocità confezionamento",
+      "Film Width": "Larghezza film",
+      "Bag Length": "Lunghezza sacchetto",
+      "Bag Width": "Larghezza sacchetto",
+      "Product Height": "Altezza prodotto",
+      "Roll Film Diameter": "Diametro bobina film",
+      "Conveyor Speed": "Velocità nastro",
+      "Sealing Knife Size": "Dimensione coltello sigillante",
+      "Package Size": "Dimensione confezione",
+      "Encasing Speed": "Velocità incartonamento",
+      "Box Dimension": "Dimensioni scatola",
+      "Carton Size": "Dimensioni cartone",
+      "Speed": "Velocità",
+      "Load": "Carico",
+      "Working Radius": "Raggio di lavoro",
+      "Stacking Height": "Altezza impilaggio",
+      "Pallet Size": "Dimensione pallet"
+    }
   },
   "about": {
     "title1": "Chi",
@@ -1118,11 +1145,11 @@
   },
   "machineDetail": {
     "fkj-100sl": {
-      "seoTitle": "Alimentatore a Frizione Automatico FKJ-100SL | CHANFER",
+      "seoTitle": "Alimentatore a Frizione Automatico FKJ-100KP | CHANFER",
       "seoDescription": "Alimentatore a frizione servo-guidato ad alta velocità per carte. 800 carte/min (CR80). Spessore 0,1-3mm. Controllo PLC con touch screen. Integrazione con linee di confezionamento.",
-      "keywords": "alimentatore frizione, alimentatore carte, FKJ-100SL, macchina alimentazione carte, alimentatore servo, contatore carte",
+      "keywords": "alimentatore frizione, alimentatore carte, FKJ-100KP, macchina alimentazione carte, alimentatore servo, contatore carte",
       "longDescription": [
-        "L'FKJ-100SL è l'alimentatore a frizione automatico di punta di CHANFER, progettato per l'erogazione ad alta velocità di carte in linee di confezionamento automatizzate. Motore servo con controllo PLC e touch screen HMI, erogazione precisa di singole carte fino a 800 carte/min (standard CR80).",
+        "L'FKJ-100KP è l'alimentatore a frizione automatico di punta di CHANFER, progettato per l'erogazione ad alta velocità di carte in linee di confezionamento automatizzate. Motore servo con controllo PLC e touch screen HMI, erogazione precisa di singole carte fino a 800 carte/min (standard CR80).",
         "Gestisce carte con spessore 0,1-3mm e dimensioni 40x30mm-180x100mm, coprendo tutti i formati standard. Meccanismo servo-guidato con allarme automatico per carte mancanti e sovralimentazione.",
         "Velocità lineare massima 60m/min, supporta modalità erogazione singola, multipla e continua. Si integra con macchine flow wrapping, confezionatrici a sacco, sigillatrici quattro lati e sistemi di cartonaggio di CHANFER."
       ],
@@ -1139,8 +1166,8 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "Interessati all'Alimentatore FKJ-100SL?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione per l'FKJ-100SL nella vostra linea di confezionamento."
+      "ctaTitle": "Interessati all'Alimentatore FKJ-100KP?",
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione per l'FKJ-100KP nella vostra linea di confezionamento."
     },
     "fkj-200e": {
       "seoTitle": "Alimentatore a Frizione Economico FKJ-200E | CHANFER",
@@ -1272,11 +1299,11 @@
       "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
     },
     "zs-220x": {
-      "seoTitle": "Macchina Flow Wrapping ZS-220X | CHANFER",
+      "seoTitle": "Macchina Flow Wrapping ZS-230X | CHANFER",
       "seoDescription": "Flow wrapping alta velocità (candy), 220 sacchi/min. Servo, larghezza max 220mm. Per buste TCG e multi-pack.",
-      "keywords": "flow wrapping, ZS-220X, candy, macchina confezionamento, TCG",
+      "keywords": "flow wrapping, ZS-230X, candy, macchina confezionamento, TCG",
       "longDescription": [
-        "L'ZS-220X è la macchina flow wrapping (candy) ad alta velocità di CHANFER, servo-guidata, 220 sacchi/min. Larghezza max 220mm per buste TCG, sleeve e multi-pack.",
+        "L'ZS-230X è la macchina flow wrapping (candy) ad alta velocità di CHANFER, servo-guidata, 220 sacchi/min. Larghezza max 220mm per buste TCG, sleeve e multi-pack.",
         "Servo per taglio preciso, sensore fotoelettrico ad alta sensibilità. 60 preset, cambio 3-5 min.",
         "Integrazione con alimentatori, checkweigher, cartonatrici e robot CHANFER."
       ],
@@ -1289,7 +1316,7 @@
         "candy",
         "heat-shrink"
       ],
-      "ctaTitle": "Interessati alla Macchina ZS-220X?",
+      "ctaTitle": "Interessati alla Macchina ZS-230X?",
       "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
     },
     "sbf-250": {

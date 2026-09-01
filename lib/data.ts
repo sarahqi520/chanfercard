@@ -34,6 +34,7 @@ export const packagingSolutions: PackagingSolution[] = [
       "Up to 60 packaging parameter presets stored on HMI",
       "Anti-misoperation: auto-reverse when product switches",
       "No-film auto-stop to prevent waste",
+      "Pinhole exhaust design",
     ],
     processSteps: [
       { step: "1", label: "Friction Feeder Count" },
@@ -110,7 +111,7 @@ export const packagingSolutions: PackagingSolution[] = [
     name: "Four-Sides Sealed Packaging",
     subtitle: "Card Four Sides Sealed Packaging",
     description:
-      "All-four-edges heat-sealed packaging — delivers a premium, tamper-evident presentation. The fully sealed edges protect against moisture and contamination, making it the preferred choice for high-value trading cards and collectible products.",
+      "All-four-edges heat-sealed packaging — delivers a premium, full-pattern display. Paper-based four-side sealing is eco-friendly, making it the preferred choice for high-value trading cards and collectible products.",
     speed: "50–150 packs/min",
     filmDiameter: "Φ350mm",
     filmInnerDiameter: "76mm",
@@ -119,9 +120,10 @@ export const packagingSolutions: PackagingSolution[] = [
     features: [
       "Seven servo motors for ultra-stable operation",
       "Three-color electric eye tracking for precise text/image alignment",
-      "Unique reciprocating cutting & heat-sealing technology",
+      "Unique reciprocating heat-sealing + rotary cutting technology",
       "High-speed sealing — firm and stable at 150 packs/min",
       "PLC programmable control with touch-screen HMI",
+      "Sponge exhaust sealing",
     ],
     processSteps: [
       { step: "1", label: "Friction Feeder Count" },
@@ -298,11 +300,11 @@ export interface MachineProduct {
 export const machineProducts: MachineProduct[] = [
   {
     id: "fkj-100sl",
-    model: "FKJ-100SL",
+    model: "FKJ-100KP",
     name: "Automatic Friction Feeder",
     category: "feeding",
     description:
-      "High-speed friction feeder for card dispensing. Servo motor driven with PLC control, capable of feeding up to 800 cards/min (CR80 standard). Automatic alarm for missing cards and overfeeding.",
+      "High-speed friction feeder for card dispensing. Servo motor driven with PLC control, capable of feeding up to 800 cards/min (CR80 standard). Automatic alarm for missing cards and multi-card feeding.",
     specs: {
       "Card Thickness": "0.1–3mm",
       "Card Size": "L40–180mm × W30–100mm",
@@ -475,7 +477,7 @@ export const machineProducts: MachineProduct[] = [
     specs: {
       "Card Thickness": "0.3–1mm",
       "Card Size": "L88–104mm × W63–79mm",
-      "Feeding Speed": "60–80 pcs/min (single channel)",
+      "Feeding Speed": "240–320 pcs/min",
       "Power": "220V, 2.0KW",
       "Machine Size": "L1900 × W1600 × H900mm",
       "Weight": "300kg",
@@ -496,7 +498,7 @@ export const machineProducts: MachineProduct[] = [
     },
   {
     id: "zs-220x",
-    model: "ZS-220X",
+    model: "ZS-230X",
     name: "High-Speed Servo Packaging Machine",
     category: "packaging",
     description:

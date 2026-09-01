@@ -53,6 +53,7 @@ const categoryBadge: Record<string, string> = {
 export default function MachinesContent({ dict, locale }: Props) {
   const machinesDict = dict.machines as Record<string, unknown>;
   const categoriesDict = machinesDict.categories as Record<string, string>;
+  const specLabels = (machinesDict.specLabels as Record<string, string>) ?? {};
   const machinesData = (machinesDict.machinesData as Record<string, Record<string, string>>) ?? {};
 
   // Helper: get translated machine field
@@ -204,7 +205,7 @@ export default function MachinesContent({ dict, locale }: Props) {
                           key={key}
                           className="flex justify-between text-xs"
                         >
-                          <span className="text-muted-foreground">{key}</span>
+                          <span className="text-muted-foreground">{specLabels[key] ?? key}</span>
                           <span className="font-medium">{val}</span>
                         </div>
                       ))}

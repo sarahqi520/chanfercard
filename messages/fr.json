@@ -157,7 +157,8 @@
           "Capteur photoélectrique haute sensibilité pour un scellage précis",
           "Jusqu'à 60 préréglages de paramètres d'emballage sur IHM",
           "Protection contre les erreurs : inversion automatique au changement de produit",
-          "Arrêt automatique sans film pour éviter le gaspillage"
+          "Arrêt automatique sans film pour éviter le gaspillage",
+          "Évacuation par trous"
         ],
         "processSteps": {
           "1": "Comptage par alimentation friction",
@@ -229,7 +230,8 @@
           "Oeil électrique tricolore pour alignement texte/image précis",
           "Technologie unique de découpe et soudure thermique alternante",
           "Scellage haute vitesse — ferme et stable à 150 sachets/min",
-          "Contrôle PLC programmable avec écran tactile IHM"
+          "Contrôle PLC programmable avec écran tactile IHM",
+          "Scellage avec échappement éponge"
         ],
         "processSteps": {
           "1": "Comptage par alimentation friction",
@@ -454,7 +456,32 @@
     },
     "featuresTitle": "Caractéristiques",
     "applicationsTitle": "Applications",
-    "viewDetails": "Voir Détails"
+    "viewDetails": "Voir Détails",
+    "specLabels": {
+      "Card Thickness": "Épaisseur de carte",
+      "Card Size": "Format de carte",
+      "Feeding Speed": "Vitesse d'alimentation",
+      "Power": "Puissance",
+      "Machine Size": "Dimensions de la machine",
+      "Weight": "Poids",
+      "Packaging Speed": "Vitesse d'emballage",
+      "Film Width": "Largeur de film",
+      "Bag Length": "Longueur de sachet",
+      "Bag Width": "Largeur de sachet",
+      "Product Height": "Hauteur de produit",
+      "Roll Film Diameter": "Diamètre de bobine de film",
+      "Conveyor Speed": "Vitesse de convoyeur",
+      "Sealing Knife Size": "Taille de couteau de scellage",
+      "Package Size": "Dimensions de l'emballage",
+      "Encasing Speed": "Vitesse d'encartonnage",
+      "Box Dimension": "Dimensions de la boîte",
+      "Carton Size": "Dimensions du carton",
+      "Speed": "Vitesse",
+      "Load": "Charge",
+      "Working Radius": "Rayon de travail",
+      "Stacking Height": "Hauteur de palettisation",
+      "Pallet Size": "Taille de palette"
+    }
   },
   "about": {
     "title1": "À propos de",
@@ -1084,9 +1111,9 @@
   },
   "machineDetail": {
     "fkj-100sl": {
-      "seoTitle": "Distributeur à Friction Automatique FKJ-100SL | CHANFER",
+      "seoTitle": "Distributeur à Friction Automatique FKJ-100KP | CHANFER",
       "seoDescription": "Distributeur servo haute vitesse. 800 cartes/min (CR80). 0,1-3mm. PLC écran tactile.",
-      "keywords": "distributeur friction, FKJ-100SL, cartes, servo",
+      "keywords": "distributeur friction, FKJ-100KP, cartes, servo",
       "longDescription": [
         "Distributeur phare de CHANFER, servo et PLC, 800 cartes/min.",
         "0,1-3mm, 40x30-180x100mm. Alarme auto."
@@ -1104,7 +1131,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "Intéressé par le FKJ-100SL?",
+      "ctaTitle": "Intéressé par le FKJ-100KP?",
       "ctaDescription": "Spécifications et prix."
     },
     "fkj-200e": {
@@ -1231,9 +1258,9 @@
       "ctaDescription": "Spécifications et prix."
     },
     "zs-220x": {
-      "seoTitle": "Machine Flow Wrapping ZS-220X | CHANFER",
+      "seoTitle": "Machine Flow Wrapping ZS-230X | CHANFER",
       "seoDescription": "Flow wrapping, 220 sacs/min. Servo, 220mm.",
-      "keywords": "flow wrapping, ZS-220X, candy",
+      "keywords": "flow wrapping, ZS-230X, candy",
       "longDescription": [
         "Flow wrapping, 220 sacs/min.",
         "60 préréglages, 3-5 min."

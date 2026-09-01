@@ -157,7 +157,8 @@
           "고감도 광전센서 추적으로 정밀 밀봉",
           "HMI에 저장되는 최대 60개 포장 파라미터 프리셋",
           "오작동 방지: 제품 교체 시 자동 역회전",
-          "필름 없음 자동 정지로 낭비 방지"
+          "필름 없음 자동 정지로 낭비 방지",
+          "핀홀 배기"
         ],
         "processSteps": {
           "1": "마찰 급지 계수",
@@ -229,7 +230,8 @@
           "3색 전기 눈 정밀 텍스트/이미지 정렬",
           "독특한 왕복 절단 및 열 용접 기술",
           "고속 밀봉 — 분당 150봉투에서도 견고하고 안정적",
-          "터치스크린 HMI가 있는 프로그램 가능한 PLC 제어"
+          "터치스크린 HMI가 있는 프로그램 가능한 PLC 제어",
+          "스폰지 배기식 밀봉"
         ],
         "processSteps": {
           "1": "마찰 급지 계수",
@@ -454,7 +456,32 @@
     },
     "featuresTitle": "특징",
     "applicationsTitle": "응용 분야",
-    "viewDetails": "상세 보기"
+    "viewDetails": "상세 보기",
+    "specLabels": {
+      "Card Thickness": "카드 두께",
+      "Card Size": "카드 크기",
+      "Feeding Speed": "공급 속도",
+      "Power": "전원",
+      "Machine Size": "기계 크기",
+      "Weight": "중량",
+      "Packaging Speed": "포장 속도",
+      "Film Width": "필름 폭",
+      "Bag Length": "봉지 길이",
+      "Bag Width": "봉지 폭",
+      "Product Height": "제품 높이",
+      "Roll Film Diameter": "필름 롤 직경",
+      "Conveyor Speed": "컨베이어 속도",
+      "Sealing Knife Size": "실링 나이프 크기",
+      "Package Size": "포장 크기",
+      "Encasing Speed": "카톤닝 속도",
+      "Box Dimension": "상자 규격",
+      "Carton Size": "카톤 크기",
+      "Speed": "속도",
+      "Load": "하중",
+      "Working Radius": "작업 반경",
+      "Stacking Height": "적재 높이",
+      "Pallet Size": "팔레트 크기"
+    }
   },
   "about": {
     "title1": "CHANFER",
@@ -1084,9 +1111,9 @@
   },
   "machineDetail": {
     "fkj-100sl": {
-      "seoTitle": "자동 마찰 피더 FKJ-100SL | CHANFER",
+      "seoTitle": "자동 마찰 피더 FKJ-100KP | CHANFER",
       "seoDescription": "서보 고속 피더. 800카드/분(CR80). 0.1-3mm. PLC 터치스크린.",
-      "keywords": "마찰 피더, FKJ-100SL, 카드, 서보",
+      "keywords": "마찰 피더, FKJ-100KP, 카드, 서보",
       "longDescription": [
         "CHANFER 플래그십, 서보 PLC, 800카드/분.",
         "0.1-3mm. 자동 알람."
@@ -1104,7 +1131,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "FKJ-100SL에 관심?",
+      "ctaTitle": "FKJ-100KP에 관심?",
       "ctaDescription": "사양 및 가격."
     },
     "fkj-200e": {
@@ -1231,9 +1258,9 @@
       "ctaDescription": "사양 및 가격."
     },
     "zs-220x": {
-      "seoTitle": "Flow Wrapping 기계 ZS-220X | CHANFER",
+      "seoTitle": "Flow Wrapping 기계 ZS-230X | CHANFER",
       "seoDescription": "Flow wrapping, 220팩/분. 서보, 220mm.",
-      "keywords": "flow wrapping, ZS-220X, candy",
+      "keywords": "flow wrapping, ZS-230X, candy",
       "longDescription": [
         "Flow wrapping, 220팩/분.",
         "60 프리셋, 3-5분."

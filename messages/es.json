@@ -157,7 +157,8 @@
           "Sensor fotoeléctrico de alta sensibilidad para sellado preciso",
           "Hasta 60 preajustes de parámetros de embalaje en IHM",
           "Protección contra errores: inversión automática al cambiar producto",
-          "Parada automática sin película para evitar desperdicio"
+          "Parada automática sin película para evitar desperdicio",
+          "Escape por orificios"
         ],
         "processSteps": {
           "1": "Conteo por alimentación por fricción",
@@ -229,7 +230,8 @@
           "Ojo eléctrico tricolor para alineación precisa texto/imagen",
           "Tecnología única de corte y soldadura recíproca",
           "Sellado de alta velocidad — firme y estable a 150 bolsas/min",
-          "Control PLC programable con pantalla táctil IHM"
+          "Control PLC programable con pantalla táctil IHM",
+          "Sellado con escape de esponja"
         ],
         "processSteps": {
           "1": "Conteo por alimentación por fricción",
@@ -454,7 +456,32 @@
     },
     "featuresTitle": "Características",
     "applicationsTitle": "Aplicaciones",
-    "viewDetails": "Ver Detalles"
+    "viewDetails": "Ver Detalles",
+    "specLabels": {
+      "Card Thickness": "Grosor de carta",
+      "Card Size": "Tamaño de carta",
+      "Feeding Speed": "Velocidad de alimentación",
+      "Power": "Potencia",
+      "Machine Size": "Tamaño de máquina",
+      "Weight": "Peso",
+      "Packaging Speed": "Velocidad de empaquetado",
+      "Film Width": "Ancho de película",
+      "Bag Length": "Longitud de bolsa",
+      "Bag Width": "Ancho de bolsa",
+      "Product Height": "Altura de producto",
+      "Roll Film Diameter": "Diámetro de rollo de película",
+      "Conveyor Speed": "Velocidad de transportador",
+      "Sealing Knife Size": "Tamaño de cuchilla de sellado",
+      "Package Size": "Tamaño de paquete",
+      "Encasing Speed": "Velocidad de encartonado",
+      "Box Dimension": "Dimensiones de caja",
+      "Carton Size": "Tamaño de cartón",
+      "Speed": "Velocidad",
+      "Load": "Carga",
+      "Working Radius": "Radio de trabajo",
+      "Stacking Height": "Altura de apilado",
+      "Pallet Size": "Tamaño de paleta"
+    }
   },
   "about": {
     "title1": "Sobre",
@@ -1084,9 +1111,9 @@
   },
   "machineDetail": {
     "fkj-100sl": {
-      "seoTitle": "Alimentador por Fricción Automático FKJ-100SL | CHANFER",
+      "seoTitle": "Alimentador por Fricción Automático FKJ-100KP | CHANFER",
       "seoDescription": "Alimentador servo alta velocidad. 800 cartas/min (CR80). 0,1-3mm. PLC táctil.",
-      "keywords": "alimentador fricción, FKJ-100SL, cartas, servo",
+      "keywords": "alimentador fricción, FKJ-100KP, cartas, servo",
       "longDescription": [
         "Alimentador insignia de CHANFER, servo y PLC, 800 cartas/min.",
         "0,1-3mm. Alarma automática."
@@ -1104,7 +1131,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "¿Interesado en FKJ-100SL?",
+      "ctaTitle": "¿Interesado en FKJ-100KP?",
       "ctaDescription": "Especificaciones y precios."
     },
     "fkj-200e": {
@@ -1231,9 +1258,9 @@
       "ctaDescription": "Especificaciones y precios."
     },
     "zs-220x": {
-      "seoTitle": "Máquina Flow Wrapping ZS-220X | CHANFER",
+      "seoTitle": "Máquina Flow Wrapping ZS-230X | CHANFER",
       "seoDescription": "Flow wrapping, 220 bolsas/min. Servo, 220mm.",
-      "keywords": "flow wrapping, ZS-220X, candy",
+      "keywords": "flow wrapping, ZS-230X, candy",
       "longDescription": [
         "Flow wrapping, 220 bolsas/min.",
         "60 preajustes, 3-5 min."
