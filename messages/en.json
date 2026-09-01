@@ -157,12 +157,12 @@
       "candy": {
         "name": "Candy Packaging",
         "subtitle": "Card Candy Packaging",
-        "description": "High-speed pillow-style flow wrapping — the most popular method for trading card game (TCG) booster packs and collectible card sleeves. Produces a sealed candy-style wrapper at speeds up to 220 bags/min.",
+        "description": "High-speed pillow-style flow wrapping — the most popular method for trading card game (TCG) booster packs and collectible card sleeves, at speeds up to 220 bags/min.",
         "features": [
           "Servo-controlled bag length — set and cut, no empty travel",
           "High-sensitivity photoelectric sensor tracking for precise sealing",
           "Up to 60 packaging parameter presets stored on HMI",
-          "Anti-misoperation: auto-reverse when product switches",
+          "Anti-misoperation: auto-reverse when product is cut",
           "No-film auto-stop to prevent waste"
         ],
         "processSteps": {
@@ -639,7 +639,7 @@
       },
       {
         "question": "What is the production speed of card packaging machines?",
-        "answer": "Production speeds vary by packaging method: Candy Packaging 20-220 bags/min, Self-Adhesive Strip 30-90 packs/min, Four-Sides Sealed 50-150 packs/min, Banding 5-20 packs/min, Heat Shrink 20-100 bags/min, and Three-Dimensional 40-80 bags/min."
+        "answer": "Production speeds vary by packaging method: Candy Packaging 20-220 bags/min, Self-Adhesive Strip 20-80 packs/min, Four-Sides Sealed 50-150 packs/min, Banding 5-20 packs/min, Heat Shrink 20-100 bags/min, and Three-Dimensional 40-80 bags/min."
       },
       {
         "question": "Does CHANFER provide complete packaging production lines?",
@@ -682,7 +682,7 @@
           },
           {
             "question": "What is self-adhesive strip packaging?",
-            "answer": "Self-adhesive strip packaging creates reclosable bags with a peel-and-seal strip that allows repeated opening and closing. This method is ideal for premium card products requiring re-sealability, protecting card quality during retail display and consumer use. Production speed ranges from 30-90 packs/min."
+            "answer": "Self-adhesive strip packaging creates reclosable bags with a peel-and-seal strip that allows repeated opening and closing. This method is ideal for premium card products requiring re-sealability, protecting card quality during retail display and consumer use. Production speed ranges from 20-80 packs/min."
           },
           {
             "question": "What is four-sides sealed packaging?",
@@ -712,7 +712,7 @@
           },
           {
             "question": "What is the production speed of card packaging machines?",
-            "answer": "Production speeds vary by packaging method: Candy Packaging 20-220 bags/min, Self-Adhesive Strip 30-90 packs/min, Four-Sides Sealed 50-150 packs/min, Banding 5-20 packs/min, Heat Shrink 20-100 bags/min, and Three-Dimensional 40-80 bags/min. Actual speed depends on card size, material, and line configuration."
+            "answer": "Production speeds vary by packaging method: Candy Packaging 20-220 bags/min, Self-Adhesive Strip 20-80 packs/min, Four-Sides Sealed 50-150 packs/min, Banding 5-20 packs/min, Heat Shrink 20-100 bags/min, and Three-Dimensional 40-80 bags/min. Actual speed depends on card size, material, and line configuration."
           },
           {
             "question": "How does a card feeding machine work?",
@@ -858,7 +858,7 @@
         "CHANFER's candy packaging line is built around a servo-controlled flow wrapping machine capable of producing up to 220 bags per minute. The servo motor drive ensures precise bag length control — set the length on the HMI touch screen and the machine cuts exactly where programmed, with no empty travel or film waste. A high-sensitivity photoelectric sensor tracks film registration marks for precise sealing alignment, even at maximum speed.",
         "This packaging method is particularly popular among TCG publishers (such as Pokemon, Magic: The Gathering, and Yu-Gi-Oh! card manufacturers) because it delivers consistent, professional-looking packs at the speeds required for mass production. The candy wrapper provides excellent protection against moisture, dust, and tampering while allowing full-color printed film for retail shelf appeal.",
         "The complete candy packaging production line integrates seamlessly with CHANFER's friction feeders, checkweighers, cartoning machines, case packers, and collaborative palletizing robots. Cards are fed and counted automatically, wrapped at high speed, checked for correct count and weight, cartoned, case-packed, sealed, and palletized — all with minimal operator intervention.",
-        "With up to 60 packaging parameter presets stored on the HMI, changeover between different card sizes or pack configurations takes only 3-5 minutes. The system also includes anti-misoperation features (auto-reverse when product switches) and no-film auto-stop protection to prevent waste and ensure continuous quality."
+        "With up to 60 packaging parameter presets stored on the HMI, changeover between different card sizes or pack configurations takes only 3-5 minutes. The system also includes anti-misoperation features (auto-reverse when product is cut) and no-film auto-stop protection to prevent waste and ensure continuous quality."
       ],
       "benefits": [
         "Highest production speed — up to 220 bags/min for maximum throughput",
@@ -904,13 +904,13 @@
     },
     "self-adhesive": {
       "seoTitle": "Self-Adhesive Strip Packaging Machine for Cards | CHANFER",
-      "seoDescription": "Reclosable self-adhesive strip bagging machine for premium card products. Re-sealable bags with peel-and-seal strips. 30-90 packs/min. Three sealing methods available.",
+      "seoDescription": "Reclosable self-adhesive strip bagging machine for premium card products. Re-sealable bags with peel-and-seal strips. 20-80 packs/min. Three sealing methods available.",
       "keywords": "self-adhesive strip packaging, reclosable card bag, re-sealable card packaging, card bagging machine, peel and seal packaging, premium card packaging, card strip bag, collectible card bag",
       "longDescription": [
         "Self-adhesive strip packaging creates reclosable bags with a peel-and-seal strip that allows repeated opening and closing. This method is ideal for premium card products requiring re-sealability — collectors can open and close the package multiple times while keeping their cards protected.",
         "CHANFER's self-adhesive strip bagging machine supports three sealing methods: self-adhesive strip (reclosable), hot-cut (permanent seal), and hot-press (permanent seal with premium finish). This versatility allows manufacturers to use the same machine for different product lines — from reclosable collector sets to permanently sealed retail packs.",
         "The machine features automatic correction technology to reduce packaging loss, anti-air-bag detection (no material, no film wasted), and freely adjustable bag width for multi-specification products. One-click reset and bidirectional position control make changeover between product sizes quick and intuitive.",
-        "For premium card products, the self-adhesive strip method provides a retail-ready presentation that communicates quality. The clear film allows full product visibility while the reclosable strip adds functionality that consumers appreciate. Production speeds of 30-90 packs per minute balance quality and throughput for mid-volume premium production.",
+        "For premium card products, the self-adhesive strip method provides a retail-ready presentation that communicates quality. The clear film allows full product visibility while the reclosable strip adds functionality that consumers appreciate. Production speeds of 20-80 packs per minute balance quality and throughput for mid-volume premium production.",
         "The complete line integrates with friction feeders for automatic card counting, cartoning machines for secondary packaging, and palletizing robots for end-of-line automation. Point memory functionality enables accurate counting and batch packing for limited edition sets."
       ],
       "benefits": [
@@ -925,7 +925,7 @@
       "faqs": [
         {
           "question": "What is self-adhesive strip packaging for cards?",
-          "answer": "Self-adhesive strip packaging creates reclosable bags with a peel-and-seal strip. The bag can be opened and closed multiple times, making it ideal for premium card products where consumers want to access their cards while keeping them protected. Production speed: 30-90 packs/min."
+          "answer": "Self-adhesive strip packaging creates reclosable bags with a peel-and-seal strip. The bag can be opened and closed multiple times, making it ideal for premium card products where consumers want to access their cards while keeping them protected. Production speed: 20-80 packs/min."
         },
         {
           "question": "What sealing methods does the self-adhesive strip machine support?",
@@ -1321,7 +1321,7 @@
     },
     "qdzd-2130": {
       "seoTitle": "QDZD-2130 Automatic Bagging Machine | CHANFER",
-      "seoDescription": "Self-adhesive strip bagging machine for card products. Three sealing methods: self-adhesive, hot-cut, hot-press. 30-90 bags/min. Automatic correction.",
+      "seoDescription": "Self-adhesive strip bagging machine for card products. Three sealing methods: self-adhesive, hot-cut, hot-press. 20-80 bags/min. Automatic correction.",
       "keywords": "bagging machine, QDZD-2130, self-adhesive strip packaging, card bagging, reclosable bag machine, peel and seal packaging, automatic bagging",
       "longDescription": [
         "The QDZD-2130 is an automatic bagging machine designed for self-adhesive strip packaging of card products. It supports three sealing methods — self-adhesive (reclosable), hot-cut (permanent), and hot-press (premium permanent) — making it versatile enough to handle different product lines with a single machine."

@@ -67,11 +67,11 @@ export const packagingSolutions: PackagingSolution[] = [
     subtitle: "Card Self-Adhesive Strip Packaging",
     description:
       "Reclosable self-adhesive strip bags — ideal for premium card products requiring re-sealability. Each bag features a peel-and-seal strip for repeated opening and closing, protecting card quality during retail display and consumer use.",
-    speed: "30–90 packs/min",
+    speed: "20–80 packs/min",
     filmDiameter: "Φ450mm",
     filmInnerDiameter: "76mm",
-    filmWidth: "350mm (folding film)",
-    voltage: "AC380V 50Hz 11.4KW",
+    filmWidth: "L70-200 W60-150",
+    voltage: "AC220V, 50Hz, 6.5KW",
     features: [
       "Three sealing methods: self-adhesive, hot-cut, or hot-press",
       "Automatic correction to reduce packaging loss",
