@@ -228,7 +228,7 @@
         "features": [
           "Sieben Servomotoren für ultra-stabilen Betrieb",
           "Dreifarbiges elektrisches Auge für präzise Text/Bild-Ausrichtung",
-          "Wechselnde Wärmesiegelung + Rotationsschneiden",
+          "Wechselnde Wärmesiegelung + Rotationsschneiden-Technologie",
           "Hochgeschwindigkeitsversiegelung — fest und stabil bei 150 Beuteln/min",
           "Programmierbare PLC-Steuerung mit Touchscreen-HMI",
           "Schwamm-Entlüftungsversiegelung"
@@ -391,67 +391,251 @@
     "machinesData": {
       "fkj-100sl": {
         "name": "Automatischer Reibungsfeeder",
-        "description": "Hochgeschwindigkeits-Reibungsfeeder, servo und PLC, 800 Karten/Min (CR80). Auto-Alarm bei fehlenden Karten."
+        "description": "Hochgeschwindigkeits-Reibungsfeeder, servo und PLC, 800 Karten/Min (CR80). Auto-Alarm bei fehlenden Karten.",
+        "features": [
+          "Servomotor-Antrieb, SPS-Steuerung, Touchscreen",
+          "Maximale Geschwindigkeit 60 m/min",
+          "Einzelne/mehrere/kontinuierliche Kartenausgabe",
+          "Automatische Alarm bei Kartenfehlausgabe und Fehlen",
+          "Integration in automatisierte Verpackungsanlagen"
+        ],
+        "applications": [
+          "Postkarten, Grußkarten, Anhänger",
+          "Gefaltete Handbücher und Poster",
+          "Kartenbücher, Notizbücher, Magazine"
+        ]
       },
       "fkj-200e": {
         "name": "Wirtschaftlicher Reibungsfeeder",
-        "description": "Servo, 500 Karten/Min. Für kleine/mittlere Produktion."
+        "description": "Servo, 500 Karten/Min. Für kleine/mittlere Produktion.",
+        "features": [
+          "Servomotor-Antrieb, SPS-Steuerung",
+          "Zuverlässige Zuführung mit mittlerer Geschwindigkeit",
+          "Automatische Alarmfunktionen",
+          "Einfache Integration in Verpackungslinien"
+        ],
+        "applications": [
+          "Karten und Druckerzeugnisse größeren Formats",
+          "Handbücher und Werbematerialien",
+          "Mittelgroße Blattprodukte"
+        ]
       },
       "fkj-300e": {
         "name": "Mittelschneller Reibungsfeeder",
-        "description": "Servo, 600 Karten/Min. Für mittlere Produktion."
+        "description": "Servo, 600 Karten/Min. Für mittlere Produktion.",
+        "features": [
+          "Verarbeitung von Großformat-Produkten",
+          "Servogesteuerte Präzision",
+          "Fotoelektrische Sensorensteuerung",
+          "SPS-programmierbarer Betrieb"
+        ],
+        "applications": [
+          "Großformatkarten und Brettspielkomponenten",
+          "Übergroße Druckerzeugnisse",
+          "Spielbretter und große Karten"
+        ]
       },
       "fkj-420e": {
         "name": "Großformatiger Reibungsfeeder",
-        "description": "Für großformatige Karten und Bretter."
+        "description": "Für großformatige Karten und Bretter.",
+        "features": [
+          "Extragroße Zuführbreite",
+          "Stabile Servo-Laufwerk",
+          "Einfache Touchscreen-Steuerung",
+          "Robuste Bauweise für dicke Materialien"
+        ],
+        "applications": [
+          "Brettspielbretter und große Komponenten",
+          "Extragroße Druckerzeugnisse",
+          "Mehrseitige buchartige Produkte"
+        ]
       },
       "three-head-suction": {
         "name": "Dreikopf-Saugfeeder",
-        "description": "Vakuum, drei Stationen. Für glatte Karten."
+        "description": "Vakuum, drei Stationen. Für glatte Karten.",
+        "features": [
+          "Drei-Kopf-Planetensaugmechanismus",
+          "Panasonic Druckerkennungsschalter",
+          "Automatische Alarm bei Kartenmangel",
+          "Servomotor mit SPS-Steuerung"
+        ],
+        "applications": [
+          "Spielkarten und TCG-Karten",
+          "Dünne Plastikkarten und Folien",
+          "Verformbare Blattprodukte"
+        ]
       },
       "four-head-suction": {
         "name": "Vierkopf-Saugfeeder",
-        "description": "Vakuum, vier Stationen. Höchste Geschwindigkeit."
+        "description": "Vakuum, vier Stationen. Höchste Geschwindigkeit.",
+        "features": [
+          "Gleichzeitiger Betrieb mit vier Köpfen",
+          "Maximaler Durchsatz für Hochvolumenlinien",
+          "Servopräzisionssteuerung",
+          "Echtzeit-Drucküberwachung"
+        ],
+        "applications": [
+          "Hochgeschwindigkeits-Kartenproduktionslinien",
+          "Kartenverpackung in großem Volumen",
+          "Premium-Kartenprodukte, die sanfte Handhabung erfordern"
+        ]
       },
       "card-dispensing-matching": {
         "name": "Karten-Ausgabemaschine",
-        "description": "Automatische Ausgabe, präzise Zählung. Zufällig und fest."
+        "description": "Automatische Ausgabe, präzise Zählung. Zufällig und fest.",
+        "features": [
+          "Computer gesteuertes Dispositionssystem",
+          "EXCEL-Rezeptbearbeitung für Kartensortierung",
+          "Über 1.000 Prozessrezeptdateien speicherbar",
+          "Ultraschall-Doppelblatt-/Sicht-/Dickeerkennung",
+          "Bis zu 25.000 Packungen pro Chargenlauf"
+        ],
+        "applications": [
+          "Multi-Karten-Pack-Montage (TCG, CCG)",
+          "Komplexe Kartensortierung und -zuordnung",
+          "Chargenproduktion mit variablen Rezepten"
+        ]
       },
       "zs-220x": {
         "name": "Flow-Wrapping-Maschine",
-        "description": "Sweets-Verpackung, servo 220 Beutel/Min. Max 220mm."
+        "description": "Sweets-Verpackung, servo 220 Beutel/Min. Max 220mm.",
+        "features": [
+          "Servosteuerung — Beutellänge einstellen, schneiden, kein Leerlauf",
+          "60 Verpackungsparameter-Voreinstellungen",
+          "Hochsensible fotoelektrische Sensornachführung",
+          "Automatische Umkehrung gegen Fehlbedienung",
+          "Schutz durch automatischen Stopp bei Folienmangel"
+        ],
+        "applications": [
+          "Karten-Bonbon-Verpackung",
+          "Verpackung kleiner unregelmäßiger Artikel",
+          "Lebensmittel- und Druckerzeugnisverpackung"
+        ]
       },
       "sbf-250": {
         "name": "Vier-Seiten-Siegel-Maschine",
-        "description": "Sieben Servos, 150 Pack/Min. Dreifarben-Photozelle."
+        "description": "Sieben Servos, 150 Pack/Min. Dreifarben-Photozelle.",
+        "features": [
+          "Sieben Servomotoren für stabilen Betrieb",
+          "Dreifarbige Lichttasternachführung",
+          "Hin-und-her-Schneid- und Wärmesiegeltechnik",
+          "SPS-programmierbare Steuerung"
+        ],
+        "applications": [
+          "Kartenverpackung mit vierseitiger Versiegelung",
+          "Premium-Produktverpackung",
+          "Manipulationssichere Verpackung"
+        ]
       },
       "qdzd-2130": {
         "name": "Selbstklebeband-Maschine",
-        "description": "Drei Methoden. Wiederverschließbar. Anti-Verschwendung."
+        "description": "Drei Methoden. Wiederverschließbar. Anti-Verschwendung.",
+        "features": [
+          "Drei Versiegelungsmethoden verfügbar",
+          "Automatische Korrekturfunktion",
+          "Luftpolster-Erkennung",
+          "Ein-Klick-Reset und bidirektionale Steuerung",
+          "Beutelentnahme per Saugnapf"
+        ],
+        "applications": [
+          "Kartenverpackung mit Selbstklebestreifen",
+          "Premium wiederverschließbare Kartenbeutel",
+          "Einzelhandels-Displayverpackung"
+        ]
       },
       "pof-shrink": {
         "name": "POF-Schrumpffolienmaschine",
-        "description": "360°-Transparenz. Importierter Sensor, Klingenschutz."
+        "description": "360°-Transparenz. Importierter Sensor, Klingenschutz.",
+        "features": [
+          "Importierte Detektions-Fotozelle",
+          "Teflonbeschichtetes Hochtemperatur-Legierungssiegelmesser",
+          "Folien-Synchronisationsmechanismus oben/unten",
+          "Automatischer Schutz des Siegelmessers"
+        ],
+        "applications": [
+          "Karten-Schrumpfverpackung",
+          "Verkaufsfertige Kartenverpackung",
+          "Mehrprodukt-Bündelung"
+        ]
       },
       "cartoning": {
         "name": "Automatische Kartoniermaschine",
-        "description": "Servo, kontinuierlich. Karten in Kartons."
+        "description": "Servo, kontinuierlich. Karten in Kartons.",
+        "features": [
+          "Automatische Zuführung, Öffnung, Einführung, Versiegelung",
+          "Servo-/Schrittmotor + SPS-Steuerung",
+          "Fotoelektrische Erkennung — leere Beutel nicht verpackt",
+          "Kein Werkzeugwechsel für verschiedene Größen nötig"
+        ],
+        "applications": [
+          "Kartenprodukt-Verkartonung",
+          "Pharma- und Lebensmittelverkartonung",
+          "Verpackung von Haushaltschemieprodukten"
+        ]
       },
       "carton-forming": {
         "name": "Kartonformmaschine",
-        "description": "Automatische Formung flacher Kartons. Servo."
+        "description": "Automatische Formung flacher Kartons. Servo.",
+        "features": [
+          "Saugen, Formen und Versiegeln in einem Schritt",
+          "Vertikale Lagerung — Nachfüllen ohne Stopp",
+          "SPS- & HMI-Touchscreen-Steuerung",
+          "Kundenspezifisches Größendesign verfügbar"
+        ],
+        "applications": [
+          "Kartenprodukt-Kartonbildung",
+          "Kartonbildung für mehrere Branchen",
+          "Automatisches Aufstellen von Kartons"
+        ]
       },
       "h-type-sealer": {
         "name": "H-Siegelmaschine",
-        "description": "Automatische H-Siegelung. Servo, kontinuierlich."
+        "description": "Automatische H-Siegelung. Servo, kontinuierlich.",
+        "features": [
+          "Automatisches Klebebandversiegeln oben und unten",
+          "90°-Drehung für Vier-Ecken-Versiegelung",
+          "Neuartiges und präzises Konstruktionsdesign",
+          "Manuelle Breiten-/Höhenverstellung"
+        ],
+        "applications": [
+          "Kartenprodukt-Kartonversiegelung",
+          "Industrielle Kartonversiegelung",
+          "Vier-Ecken-Klebebandversiegelung"
+        ]
       },
       "palletizing-robot": {
         "name": "Kollaborativer Palettierroboter",
-        "description": "Sicher ohne Zaun. Flexible Programmierung."
+        "description": "Sicher ohne Zaun. Flexible Programmierung.",
+        "features": [
+          "Installation & Inbetriebnahme in 3 Stunden",
+          "Über 100 Palettierformeln speicherbar",
+          "Simultane Stapelmuster links/rechts",
+          "Personenschutz gegen Kollision",
+          "Sicherheit der Saugnäpfe bei Stromausfall — Material fällt nicht"
+        ],
+        "applications": [
+          "Kartenprodukt-Kartonpalettierung",
+          "Palettierung für mehrere Branchen",
+          "Kollaborative End-of-Line-Automatisierung"
+        ]
       },
       "ai-visual": {
         "name": "AI-Bildinspektionssystem",
-        "description": "Echtzeit-Inspektion. Fehlererkennung, Zählverifikation."
+        "description": "Echtzeit-Inspektion. Fehlererkennung, Zählverifikation.",
+        "features": [
+          "100% Fehlererkennungsrate (Minimum 5×5mm)",
+          "Echtzeit-Erkennung über 400 Blatt/min",
+          "KI-Selbsttraining für neue Kartenvorlagen",
+          "OCR-Zeichenerkennung (Chinesisch, Englisch, Zahlen)",
+          "Gemischt-Auftrags-Erkennung in 100 ms",
+          "Neues Batch-Training in nur 3 Minuten"
+        ],
+        "applications": [
+          "Kartenfehlererkennung in Produktionslinien",
+          "OCR-Zeichenverifizierung",
+          "Gemischt-Auftrags- und Sequenzerkennung",
+          "Qualitätssicherung für Kartenverpackung"
+        ]
       }
     },
     "featuresTitle": "Eigenschaften",

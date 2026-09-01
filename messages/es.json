@@ -391,67 +391,251 @@
     "machinesData": {
       "fkj-100sl": {
         "name": "Alimentador por Fricción Automático",
-        "description": "Servo y PLC, 800 cartas/min (CR80). Alarma automática."
+        "description": "Servo y PLC, 800 cartas/min (CR80). Alarma automática.",
+        "features": [
+          "Accionamiento por servomotor, control PLC, pantalla táctil",
+          "Velocidad máxima 60 m/min",
+          "Dispensado de cartas individual/múltiple/continuo",
+          "Alarma automática por fuga y ausencia de cartas",
+          "Integración con equipos de envasado automatizado"
+        ],
+        "applications": [
+          "Tarjetas postales, tarjetas de felicitación, etiquetas colgantes",
+          "Manuales plegados y pósters",
+          "Libros de cartas, cuadernos, revistas"
+        ]
       },
       "fkj-200e": {
         "name": "Alimentador Económico",
-        "description": "Servo, 500 cartas/min. Pequeña/mediana producción."
+        "description": "Servo, 500 cartas/min. Pequeña/mediana producción.",
+        "features": [
+          "Accionamiento por servomotor, control PLC",
+          "Alimentación fiable a velocidad media",
+          "Funciones de alarma automática",
+          "Fácil integración con líneas de envasado"
+        ],
+        "applications": [
+          "Tarjetas y materiales impresos de mayor formato",
+          "Manuales y materiales promocionales",
+          "Productos de hoja de tamaño medio"
+        ]
       },
       "fkj-300e": {
         "name": "Alimentador Velocidad Media",
-        "description": "Servo, 600 cartas/min. Producción media."
+        "description": "Servo, 600 cartas/min. Producción media.",
+        "features": [
+          "Manejo de productos de gran formato",
+          "Precisión controlada por servomotor",
+          "Control por sensor fotoeléctrico",
+          "Operación programable por PLC"
+        ],
+        "applications": [
+          "Tarjetas de gran formato y componentes de juegos de mesa",
+          "Materiales impresos de gran tamaño",
+          "Tableros de juego y cartas grandes"
+        ]
       },
       "fkj-420e": {
         "name": "Alimentador Gran Formato",
-        "description": "Cartas grandes y tableros."
+        "description": "Cartas grandes y tableros.",
+        "features": [
+          "Capacidad de alimentación extralarga",
+          "Funcionamiento servo estable",
+          "Control fácil por pantalla táctil",
+          "Construcción robusta para materiales gruesos"
+        ],
+        "applications": [
+          "Tableros de juegos de mesa y grandes componentes",
+          "Materiales impresos extralargos",
+          "Productos tipo libro de varias páginas"
+        ]
       },
       "three-head-suction": {
         "name": "Alimentador de Tres Cabezas",
-        "description": "Vacío, tres estaciones. Cartas lisas."
+        "description": "Vacío, tres estaciones. Cartas lisas.",
+        "features": [
+          "Mecanismo de succión planetario de tres cabezales",
+          "Interruptor de detección de presión Panasonic",
+          "Alarma automática sin carta",
+          "Servomotor con control PLC"
+        ],
+        "applications": [
+          "Cartas de juego y cartas TCG",
+          "Tarjetas de plástico finas y películas",
+          "Productos de hoja deformables"
+        ]
       },
       "four-head-suction": {
         "name": "Alimentador de Cuatro Cabezas",
-        "description": "Vacío, cuatro estaciones. Velocidad máxima."
+        "description": "Vacío, cuatro estaciones. Velocidad máxima.",
+        "features": [
+          "Operación simultánea de cuatro cabezales",
+          "Rendimiento máximo para líneas de gran volumen",
+          "Control de precisión por servomotor",
+          "Monitoreo de presión en tiempo real"
+        ],
+        "applications": [
+          "Líneas de producción de cartas de alta velocidad",
+          "Envasado de cartas de gran volumen",
+          "Productos de cartas premium que requieren manejo delicado"
+        ]
       },
       "card-dispensing-matching": {
         "name": "Máquina de Distribución",
-        "description": "Distribución y clasificación, conteo preciso."
+        "description": "Distribución y clasificación, conteo preciso.",
+        "features": [
+          "Sistema de despacho controlado por ordenador",
+          "Edición de recetas EXCEL para clasificación de cartas",
+          "Almacenables más de 1.000 archivos de recetas de proceso",
+          "Detección ultrasónica de doble hoja / visual / espesor",
+          "Hasta 25.000 paquetes por lote"
+        ],
+        "applications": [
+          "Ensamblaje de paquetes multi-tarjeta (TCG, CCG)",
+          "Clasificación y emparejamiento complejo de cartas",
+          "Producción por lotes con recetas variables"
+        ]
       },
       "zs-220x": {
         "name": "Máquina Flow Wrapping",
-        "description": "Candy, servo 220 bolsas/min. 220mm."
+        "description": "Candy, servo 220 bolsas/min. 220mm.",
+        "features": [
+          "Control servo — ajuste de longitud de bolsa, corte, sin carrera vacía",
+          "60 preajustes de parámetros de envasado",
+          "Seguimiento por sensor fotoeléctrico de alta sensibilidad",
+          "Auto-inversión anti-mal funcionamiento",
+          "Protección de parada automática sin película"
+        ],
+        "applications": [
+          "Envasado de caramelos con carta",
+          "Envasado de artículos pequeños irregulares",
+          "Envasado de alimentos y productos impresos"
+        ]
       },
       "sbf-250": {
         "name": "Máquina Cuatro Lados",
-        "description": "Siete servo, 150 paq/min. Tricolor."
+        "description": "Siete servo, 150 paq/min. Tricolor.",
+        "features": [
+          "Siete servomotores para funcionamiento estable",
+          "Seguimiento por ojo eléctrico de tres colores",
+          "Tecnología de corte y sellado térmico alternativo",
+          "Control programable por PLC"
+        ],
+        "applications": [
+          "Envasado de cartas sellado por cuatro lados",
+          "Envasado de productos premium",
+          "Envasado inviolable"
+        ]
       },
       "qdzd-2130": {
         "name": "Máquina Tira Autoadhesiva",
-        "description": "Tres métodos. Recerrable."
+        "description": "Tres métodos. Recerrable.",
+        "features": [
+          "Tres métodos de sellado disponibles",
+          "Función de corrección automática",
+          "Detección anti-bolsa de aire",
+          "Restablecimiento con un clic y control bidireccional",
+          "Recuperación de bolsas por ventosa"
+        ],
+        "applications": [
+          "Envasado de cartas con tira autoadhesiva",
+          "Bolsas de cartas premium re-sellables",
+          "Envasado de exhibición en retail"
+        ]
       },
       "pof-shrink": {
         "name": "Máquina Termoencogible POF",
-        "description": "360°. Sensor importado, protección cuchilla."
+        "description": "360°. Sensor importado, protección cuchilla.",
+        "features": [
+          "Fotoeléctrico de detección importado",
+          "Cuchilla de sellado de aleación de alta temperatura con recubrimiento de teflón",
+          "Mecanismo de sincronización de película arriba-abajo",
+          "Autoprotección de la cuchilla de sellado"
+        ],
+        "applications": [
+          "Envasado retráctil de cartas",
+          "Envasado de cartas listo para venta",
+          "Agrupación de múltiples productos"
+        ]
       },
       "cartoning": {
         "name": "Cartonadora Automática",
-        "description": "Servo, continuo. Cartas en cartones."
+        "description": "Servo, continuo. Cartas en cartones.",
+        "features": [
+          "Alimentación, apertura, inserción y sellado automáticos",
+          "Servomotor/motor paso a paso + control PLC",
+          "Detección fotoeléctrica — bolsas vacías no embaladas",
+          "Sin necesidad de cambio de molde para diferentes tamaños"
+        ],
+        "applications": [
+          "Encajonado de productos de cartas",
+          "Encajonado farmacéutico y alimentario",
+          "Envasado de productos químicos de uso diario"
+        ]
       },
       "carton-forming": {
         "name": "Formadora de Cartones",
-        "description": "Formado automático. Servo."
+        "description": "Formado automático. Servo.",
+        "features": [
+          "Succión, formado y sellado en un solo paso",
+          "Almacenamiento vertical — reabastecer sin parar",
+          "Control por PLC y HMI con pantalla táctil",
+          "Diseño de tamaño personalizado disponible"
+        ],
+        "applications": [
+          "Formado de caja para productos de cartas",
+          "Formado de cajas multiindustria",
+          "Errección automática de cajas"
+        ]
       },
       "h-type-sealer": {
         "name": "Selladora en H",
-        "description": "Selladora H. Servo, continuo."
+        "description": "Selladora H. Servo, continuo.",
+        "features": [
+          "Sellado automático con cinta superior e inferior",
+          "Giro de 90° para sellado de cuatro esquinas",
+          "Diseño estructural novedoso y preciso",
+          "Ajuste manual de ancho/alto"
+        ],
+        "applications": [
+          "Sellado de caja para productos de cartas",
+          "Sellado de cajas industrial",
+          "Sellado con cinta de cuatro esquinas"
+        ]
       },
       "palletizing-robot": {
         "name": "Robot de Paletización Colaborativo",
-        "description": "Sin valla. Programación flexible."
+        "description": "Sin valla. Programación flexible.",
+        "features": [
+          "Instalación y puesta a punto en 3 horas",
+          "Más de 100 fórmulas de paletizado almacenables",
+          "Patrones de apilado simultáneo izquierda/derecha",
+          "Prevención de colisión con personal",
+          "Seguridad de ventosa sin energía — el material no cae"
+        ],
+        "applications": [
+          "Paletizado de caja de productos de cartas",
+          "Paletizado multiindustria",
+          "Automatización colaborativa de final de línea"
+        ]
       },
       "ai-visual": {
         "name": "Sistema de Inspección AI",
-        "description": "Tiempo real. Detección defectos."
+        "description": "Tiempo real. Detección defectos.",
+        "features": [
+          "Tasa de detección de errores 100% (mínimo 5×5mm)",
+          "Detección en tiempo real de más de 400 hojas/min",
+          "Autoentrenamiento de IA para nuevas plantillas de cartas",
+          "Detección de caracteres OCR (chino, inglés, números)",
+          "Detección de pedidos mixtos en 100 ms",
+          "Entrenamiento de nuevo lote en tan solo 3 minutos"
+        ],
+        "applications": [
+          "Detección de errores de cartas en líneas de producción",
+          "Verificación de caracteres OCR",
+          "Detección de pedidos mixtos y secuencia",
+          "Aseguramiento de calidad para envasado de cartas"
+        ]
       }
     },
     "featuresTitle": "Características",

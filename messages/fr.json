@@ -391,67 +391,251 @@
     "machinesData": {
       "fkj-100sl": {
         "name": "Distributeur à Friction Automatique",
-        "description": "Servo et PLC, 800 cartes/min (CR80). Alarme auto."
+        "description": "Servo et PLC, 800 cartes/min (CR80). Alarme auto.",
+        "features": [
+          "Entraînement par servomoteur, commande PLC, écran tactile",
+          "Vitesse maximale 60 m/min",
+          "Distribution de cartes simple/multiple/continue",
+          "Alarme automatique en cas de fuite et d'absence de cartes",
+          "Intégration avec les équipements de conditionnement automatisés"
+        ],
+        "applications": [
+          "Cartes postales, cartes de vœux, étiquettes suspendues",
+          "Manuels pliés et affiches",
+          "Livres de cartes, carnets, magazines"
+        ]
       },
       "fkj-200e": {
         "name": "Distributeur Économique",
-        "description": "Servo, 500 cartes/min. Petite/moyenne production."
+        "description": "Servo, 500 cartes/min. Petite/moyenne production.",
+        "features": [
+          "Entraînement par servomoteur, commande PLC",
+          "Alimentation fiable à vitesse moyenne",
+          "Fonctions d'alarme automatique",
+          "Intégration facile avec les lignes de conditionnement"
+        ],
+        "applications": [
+          "Cartes et imprimés de plus grand format",
+          "Manuels et matériaux promotionnels",
+          "Produits en feuille de taille moyenne"
+        ]
       },
       "fkj-300e": {
         "name": "Distributeur Vitesse Moyenne",
-        "description": "Servo, 600 cartes/min. Production moyenne."
+        "description": "Servo, 600 cartes/min. Production moyenne.",
+        "features": [
+          "Gère les produits de grand format",
+          "Précision commandée par servomoteur",
+          "Commande par détection photoélectrique",
+          "Fonctionnement programmable par PLC"
+        ],
+        "applications": [
+          "Cartes grand format et composants de jeux de société",
+          "Imprimés surdimensionnés",
+          "Plateaux de jeu et grandes cartes"
+        ]
       },
       "fkj-420e": {
         "name": "Distributeur Grand Format",
-        "description": "Grandes cartes et plateaux."
+        "description": "Grandes cartes et plateaux.",
+        "features": [
+          "Capacité d'alimentation extra-large",
+          "Fonctionnement servo stable",
+          "Commande facile par écran tactile",
+          "Construction robuste pour matériaux épais"
+        ],
+        "applications": [
+          "Plateaux de jeux de société et grands composants",
+          "Imprimés extra-larges",
+          "Produits type livre multipages"
+        ]
       },
       "three-head-suction": {
         "name": "Distributeur à Trois Têtes",
-        "description": "Vide, trois stations. Cartes lisses."
+        "description": "Vide, trois stations. Cartes lisses.",
+        "features": [
+          "Mécanisme d'aspiration planétaire à trois têtes",
+          "Détecteur de pression Panasonic",
+          "Alarme automatique en absence de carte",
+          "Servomoteur avec commande PLC"
+        ],
+        "applications": [
+          "Cartes de jeu et cartes TCG",
+          "Cartes plastique fines et films",
+          "Produits en feuille déformables"
+        ]
       },
       "four-head-suction": {
         "name": "Distributeur à Quatre Têtes",
-        "description": "Vide, quatre stations. Vitesse max."
+        "description": "Vide, quatre stations. Vitesse max.",
+        "features": [
+          "Fonctionnement simultané à quatre têtes",
+          "Débit maximal pour lignes à grand volume",
+          "Commande de précision par servomoteur",
+          "Surveillance de pression en temps réel"
+        ],
+        "applications": [
+          "Lignes de production de cartes à haute vitesse",
+          "Conditionnement de cartes à grand volume",
+          "Produits cartes premium nécessitant une manipulation délicate"
+        ]
       },
       "card-dispensing-matching": {
         "name": "Machine de Distribution",
-        "description": "Distribution et tri, comptage précis."
+        "description": "Distribution et tri, comptage précis.",
+        "features": [
+          "Système de dispatch commandé par ordinateur",
+          "Édition de recettes EXCEL pour le tri des cartes",
+          "Plus de 1 000 fichiers de recettes de processus stockables",
+          "Détection ultrasonique double feuille / visuelle / épaisseur",
+          "Jusqu'à 25 000 paquets par lot"
+        ],
+        "applications": [
+          "Assemblage de packs multi-cartes (TCG, CCG)",
+          "Tri et appariement complexes de cartes",
+          "Production par lots avec recettes variables"
+        ]
       },
       "zs-220x": {
         "name": "Machine Flow Wrapping",
-        "description": "Sweets, servo 220 sacs/min. 220mm."
+        "description": "Sweets, servo 220 sacs/min. 220mm.",
+        "features": [
+          "Commande servo — réglage longueur de sachet, coupe, sans course à vide",
+          "60 préréglages de paramètres de conditionnement",
+          "Suivi par capteur photoélectrique haute sensibilité",
+          "Inversion automatique anti-erreur de manipulation",
+          "Protection par arrêt automatique sans film"
+        ],
+        "applications": [
+          "Conditionnement de bonbons avec carte",
+          "Conditionnement d'articles irréguliers de petite taille",
+          "Conditionnement d'aliments et produits imprimés"
+        ]
       },
       "sbf-250": {
         "name": "Machine Quatre Côtés",
-        "description": "Sept servo, 150 packs/min. Tricolore."
+        "description": "Sept servo, 150 packs/min. Tricolore.",
+        "features": [
+          "Sept servomoteurs pour fonctionnement stable",
+          "Suivi par cellule photoélectrique trois couleurs",
+          "Technologie de coupe et soudure thermique alternée",
+          "Commande programmable par PLC"
+        ],
+        "applications": [
+          "Conditionnement de cartes scellé sur quatre côtés",
+          "Conditionnement de produits premium",
+          "Conditionnement inviolable"
+        ]
       },
       "qdzd-2130": {
         "name": "Machine Bande Auto-adhésive",
-        "description": "Trois méthodes. Refermable."
+        "description": "Trois méthodes. Refermable.",
+        "features": [
+          "Trois méthodes de scellage disponibles",
+          "Fonction de correction automatique",
+          "Détection anti-poche d'air",
+          "Réinitialisation en un clic et commande bidirectionnelle",
+          "Récupération de sacs par ventouse"
+        ],
+        "applications": [
+          "Conditionnement de cartes à bande auto-adhésive",
+          "Sacs à cartes premium réutilisables",
+          "Conditionnement d'affichage en vente au détail"
+        ]
       },
       "pof-shrink": {
         "name": "Machine Thermorétractable POF",
-        "description": "360°. Capteur importé, protection lame."
+        "description": "360°. Capteur importé, protection lame.",
+        "features": [
+          "Photoélectrique de détection importé",
+          "Lame de soudure en alliage haute température revêtue de téflon",
+          "Mécanisme de synchronisation film haut-bas",
+          "Auto-protection de la lame de soudure"
+        ],
+        "applications": [
+          "Emballage rétractable de cartes",
+          "Conditionnement de cartes prêt pour la vente",
+          "Regroupement multi-produits"
+        ]
       },
       "cartoning": {
         "name": "Cartonneuse Automatique",
-        "description": "Servo, continu. Cartes en cartons."
+        "description": "Servo, continu. Cartes en cartons.",
+        "features": [
+          "Alimentation, ouverture, insertion, scellage automatiques",
+          "Servomoteur/moteur pas à pas + commande PLC",
+          "Détection photoélectrique — sacs vides non encaissés",
+          "Aucun changement de moule nécessaire pour différentes tailles"
+        ],
+        "applications": [
+          "Encartonnage de produits cartes",
+          "Encartonnage pharmaceutique et alimentaire",
+          "Conditionnement de produits chimiques domestiques"
+        ]
       },
       "carton-forming": {
         "name": "Formeuse de Cartons",
-        "description": "Formage automatique. Servo."
+        "description": "Formage automatique. Servo.",
+        "features": [
+          "Aspiration, formage et scellage en une seule étape",
+          "Stockage vertical — réapprovisionner sans arrêt",
+          "Commande PLC & HMI écran tactile",
+          "Conception de taille personnalisée disponible"
+        ],
+        "applications": [
+          "Formation de caisses pour produits cartes",
+          "Formation de caisses multi-industries",
+          "Érection automatique de caisses"
+        ]
       },
       "h-type-sealer": {
         "name": "Fermeuse en H",
-        "description": "Fermeuse H. Servo, continu."
+        "description": "Fermeuse H. Servo, continu.",
+        "features": [
+          "Scellage automatique par ruban haut et bas",
+          "Rotation 90° pour scellage à quatre coins",
+          "Conception structurelle novatrice et précise",
+          "Réglage manuel largeur/hauteur"
+        ],
+        "applications": [
+          "Scellage de caisse pour produits cartes",
+          "Scellage de caisses industriel",
+          "Scellage par ruban à quatre coins"
+        ]
       },
       "palletizing-robot": {
         "name": "Robot de Palettisation Collaboratif",
-        "description": "Sans clôture. Programmation flexible."
+        "description": "Sans clôture. Programmation flexible.",
+        "features": [
+          "Installation et mise en service en 3 heures",
+          "Plus de 100 formules de palettisation stockables",
+          "Motifs d'empilement simultanés gauche/droite",
+          "Prévention des collisions avec le personnel",
+          "Sécurité ventouse hors tension — le matériel ne tombe pas"
+        ],
+        "applications": [
+          "Palettisation de caisses de produits cartes",
+          "Palettisation multi-industries",
+          "Automatisation collaborative en fin de ligne"
+        ]
       },
       "ai-visual": {
         "name": "Système d'Inspection AI",
-        "description": "Temps réel. Détection défauts."
+        "description": "Temps réel. Détection défauts.",
+        "features": [
+          "Taux de détection d'erreurs 100% (minimum 5×5mm)",
+          "Détection en temps réel de plus de 400 feuilles/min",
+          "Auto-formation IA pour nouveaux modèles de cartes",
+          "Détection de caractères OCR (chinois, anglais, chiffres)",
+          "Détection de commandes mixtes en 100 ms",
+          "Entraînement d'un nouveau lot en seulement 3 minutes"
+        ],
+        "applications": [
+          "Détection d'erreurs de cartes dans les lignes de production",
+          "Vérification de caractères OCR",
+          "Détection de commandes mixtes et séquence",
+          "Assurance qualité pour conditionnement de cartes"
+        ]
       }
     },
     "featuresTitle": "Caractéristiques",

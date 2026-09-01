@@ -391,67 +391,251 @@
     "machinesData": {
       "fkj-100sl": {
         "name": "Alimentatore a Frizione Automatico",
-        "description": "Alimentatore ad alta velocità con servo e PLC, 800 carte/min (CR80). Allarme automatico per carte mancanti."
+        "description": "Alimentatore ad alta velocità con servo e PLC, 800 carte/min (CR80). Allarme automatico per carte mancanti.",
+        "features": [
+          "Azionamento a servomotore, controllo PLC, schermo tattile",
+          "Velocità massima 60 m/min",
+          "Erogazione carte singola/multipla/continua",
+          "Allarme automatico per mancanza o omissione di carte",
+          "Integrazione con attrezzature di imballaggio automatiche"
+        ],
+        "applications": [
+          "Cartoline, biglietti d'auguri, cartellini",
+          "Manuali piegati e poster",
+          "Libri a schede, quaderni, riviste"
+        ]
       },
       "fkj-200e": {
         "name": "Alimentatore Economico",
-        "description": "Alimentatore economico servo-guidato, 500 carte/min. Per piccola e media produzione."
+        "description": "Alimentatore economico servo-guidato, 500 carte/min. Per piccola e media produzione.",
+        "features": [
+          "Azionamento a servomotore, controllo PLC",
+          "Alimentazione affidabile a velocità media",
+          "Funzioni di allarme automatiche",
+          "Facile integrazione con le linee di imballaggio"
+        ],
+        "applications": [
+          "Carte e materiali stampati di grande formato",
+          "Manuali e materiali promozionali",
+          "Prodotti a foglio di media dimensione"
+        ]
       },
       "fkj-300e": {
         "name": "Alimentatore Media Velocità",
-        "description": "Alimentatore servo 600 carte/min. Per produzione media, multi-modalità."
+        "description": "Alimentatore servo 600 carte/min. Per produzione media, multi-modalità.",
+        "features": [
+          "Gestisce prodotti di grande formato",
+          "Precisione controllata a servomotore",
+          "Controllo a sensore fotoelettrico",
+          "Funzionamento programmabile via PLC"
+        ],
+        "applications": [
+          "Carte di grande formato e componenti da gioco da tavolo",
+          "Materiali stampati sovradimensionati",
+          "Tavolerie da gioco e carte grandi"
+        ]
       },
       "fkj-420e": {
         "name": "Alimentatore Grande Formato",
-        "description": "Per carte di grande formato e board. Servo per stabilità."
+        "description": "Per carte di grande formato e board. Servo per stabilità.",
+        "features": [
+          "Capacità di alimentazione extra-larga",
+          "Funzionamento servo stabile",
+          "Controllo semplice tramite schermo tattile",
+          "Struttura robusta per materiali spessi"
+        ],
+        "applications": [
+          "Tavolerie da gioco e grandi componenti",
+          "Materiali stampati extra-larghi",
+          "Prodotti tipo libro multipagina"
+        ]
       },
       "three-head-suction": {
         "name": "Alimentatore a Tre Teste",
-        "description": "Vuoto tre teste, tre stazioni simultanee. Per carte lisce."
+        "description": "Vuoto tre teste, tre stazioni simultanee. Per carte lisce.",
+        "features": [
+          "Meccanismo di aspirazione planetario a tre teste",
+          "Interruttore di rilevamento pressione Panasonic",
+          "Allarme automatico senza carta",
+          "Servomotore con controllo PLC"
+        ],
+        "applications": [
+          "Carte da gioco e carte TCG",
+          "Carte di plastica sottili e film",
+          "Prodotti a foglio deformabili"
+        ]
       },
       "four-head-suction": {
         "name": "Alimentatore a Quattro Teste",
-        "description": "Vuoto quattro teste, altissima velocità. Per alto volume."
+        "description": "Vuoto quattro teste, altissima velocità. Per alto volume.",
+        "features": [
+          "Funzionamento simultaneo a quattro teste",
+          "Produttività massima per linee ad alto volume",
+          "Controllo di precisione a servomotore",
+          "Monitoraggio pressione in tempo reale"
+        ],
+        "applications": [
+          "Linee di produzione carte ad alta velocità",
+          "Imballaggio carte ad alto volume",
+          "Prodotti carte premium che richiedono maneggio delicato"
+        ]
       },
       "card-dispensing-matching": {
         "name": "Erogazione e Abbinamento Carte",
-        "description": "Erogazione e abbinamento automatico, conteggio preciso. Casuale e fisso."
+        "description": "Erogazione e abbinamento automatico, conteggio preciso. Casuale e fisso.",
+        "features": [
+          "Sistema di smistamento controllato da computer",
+          "Modifica ricette EXCEL per smistamento carte",
+          "Oltre 1.000 file di ricette di processo memorizzabili",
+          "Rilevamento ultrasuoni doppio foglio / visivo / spessore",
+          "Fino a 25.000 confezioni per lotto"
+        ],
+        "applications": [
+          "Assemblaggio confezioni multi-carta (TCG, CCG)",
+          "Smistamento e abbinamento complessi di carte",
+          "Produzione a lotti con ricette variabili"
+        ]
       },
       "zs-220x": {
         "name": "Macchina Flow Wrapping",
-        "description": "Flow wrapping (candy) alta velocità, servo 220 sacchi/min. Larghezza max 220mm."
+        "description": "Flow wrapping (candy) alta velocità, servo 220 sacchi/min. Larghezza max 220mm.",
+        "features": [
+          "Controllo servo — imposta lunghezza busta, taglia, senza corsa a vuoto",
+          "60 preimpostazioni di parametri di imballaggio",
+          "Tracciamento con sensore fotoelettrico ad alta sensibilità",
+          "Auto-inversione anti-errata manipolazione",
+          "Protezione a fermata automatica senza pellicola"
+        ],
+        "applications": [
+          "Imballaggio caramelle con carta",
+          "Imballaggio di articoli piccoli irregolari",
+          "Imballaggio di alimenti e prodotti stampati"
+        ]
       },
       "sbf-250": {
         "name": "Macchina Quattro Lati Sigillati",
-        "description": "Quattro lati, sette servo 150 pacchi/min. Fotoocchio tricolore, taglio alternato."
+        "description": "Quattro lati, sette servo 150 pacchi/min. Fotoocchio tricolore, taglio alternato.",
+        "features": [
+          "Sette servomotori per funzionamento stabile",
+          "Tracciamento con occhio elettrico a tre colori",
+          "Tecnologia di taglio e saldatura a caldo alternata",
+          "Controllo programmabile via PLC"
+        ],
+        "applications": [
+          "Imballaggio carte sigillato su quattro lati",
+          "Imballaggio prodotti premium",
+          "Imballaggio anticontraffazione"
+        ]
       },
       "qdzd-2130": {
         "name": "Macchina Striscia Autoadesiva",
-        "description": "Tre metodi: autoadesivo, taglio a caldo, pressione a caldo. Richiudibile."
+        "description": "Tre metodi: autoadesivo, taglio a caldo, pressione a caldo. Richiudibile.",
+        "features": [
+          "Tre metodi di sigillatura disponibili",
+          "Funzione di correzione automatica",
+          "Rilevamento anti-sacca d'aria",
+          "Reset con un clic e controllo bidirezionale",
+          "Presa sacchetti a ventosa"
+        ],
+        "applications": [
+          "Imballaggio carte con striscia autoadesiva",
+          "Buste per carte premium richiudibili",
+          "Imballaggio da esposizione al dettaglio"
+        ]
       },
       "pof-shrink": {
         "name": "Macchina Termoretraente POF",
-        "description": "Termoretraente POF, visibilità 360°. Sensore importato, protezione lama."
+        "description": "Termoretraente POF, visibilità 360°. Sensore importato, protezione lama.",
+        "features": [
+          "Fotoelettrico di rilevamento importato",
+          "Coltello di saldatura in lega ad alta temperatura rivestito di teflon",
+          "Meccanismo di sincronizzazione pellicola su-giù",
+          "Autoprotezione del coltello di saldatura"
+        ],
+        "applications": [
+          "Imballaggio retraibile carte",
+          "Imballaggio carte pronto per la vendita",
+          "Raggruppamento multi-prodotto"
+        ]
       },
       "cartoning": {
         "name": "Cartonatrice Automatica",
-        "description": "Cartonaggio ad alta velocità, servo. Inserimento carte in scatole, linee continue."
+        "description": "Cartonaggio ad alta velocità, servo. Inserimento carte in scatole, linee continue.",
+        "features": [
+          "Alimentazione, apertura, inserimento, sigillatura automatici",
+          "Servomotore/motore passo-passo + controllo PLC",
+          "Rilevamento fotoelettrico — buste vuote non inscatolate",
+          "Nessun cambio stampo necessario per formati diversi"
+        ],
+        "applications": [
+          "Inscatolvamento prodotti a carta",
+          "Inscatolvamento farmaceutico e alimentare",
+          "Imballaggio di prodotti chimici per la casa"
+        ]
       },
       "carton-forming": {
         "name": "Formatrice di Scatole",
-        "description": "Formatrice automatica di scatole piatte. Servo, alta velocità."
+        "description": "Formatrice automatica di scatole piatte. Servo, alta velocità.",
+        "features": [
+          "Aspirazione, formatura e sigillatura in un solo passaggio",
+          "Stoccaggio verticale — rifornire senza fermare",
+          "Controllo PLC & HMI schermo tattile",
+          "Design su misura disponibile"
+        ],
+        "applications": [
+          "Formazione scatola per prodotti a carta",
+          "Formazione scatole multi-industria",
+          "Erezione automatica di scatole"
+        ]
       },
       "h-type-sealer": {
         "name": "Sigillatrice a H",
-        "description": "Sigillatrice a H automatica. Servo, collegamento con robot."
+        "description": "Sigillatrice a H automatica. Servo, collegamento con robot.",
+        "features": [
+          "Sigillatura automatica con nastro sopra e sotto",
+          "Rotazione 90° per sigillatura a quattro angoli",
+          "Design strutturale innovativo e preciso",
+          "Regolazione manuale larghezza/altezza"
+        ],
+        "applications": [
+          "Sigillatura scatola per prodotti a carta",
+          "Sigillatura scatole industriale",
+          "Sigillatura con nastro a quattro angoli"
+        ]
       },
       "palletizing-robot": {
         "name": "Robot di Pallettizzazione Collaborativo",
-        "description": "Robot collaborativo, pallettizzazione automatica. Sicuro senza recinzione."
+        "description": "Robot collaborativo, pallettizzazione automatica. Sicuro senza recinzione.",
+        "features": [
+          "Installazione e messa in funzione in 3 ore",
+          "Oltre 100 formule di pallettizzazione memorizzabili",
+          "Schemi di impilamento simultanei sinistra/destra",
+          "Prevenzione collisioni con il personale",
+          "Sicurezza ventosa a alimentazione off — il materiale non cade"
+        ],
+        "applications": [
+          "Pallettizzazione scatole prodotti a carta",
+          "Pallettizzazione multi-industria",
+          "Automazione collaborativa di fine linea"
+        ]
       },
       "ai-visual": {
         "name": "Sistema di Ispezione Visiva AI",
-        "description": "Ispezione AI in tempo reale. Rilevamento difetti, verifica conteggio, etichette."
+        "description": "Ispezione AI in tempo reale. Rilevamento difetti, verifica conteggio, etichette.",
+        "features": [
+          "Tasso di rilevamento errori 100% (minimo 5×5mm)",
+          "Rilevamento in tempo reale oltre 400 fogli/min",
+          "Auto-addestramento IA per nuovi modelli di carte",
+          "Rilevamento caratteri OCR (cinese, inglese, numeri)",
+          "Rilevamento ordini misti in 100 ms",
+          "Addestramento nuovo lotto in soli 3 minuti"
+        ],
+        "applications": [
+          "Rilevamento errori carte nelle linee di produzione",
+          "Verifica caratteri OCR",
+          "Rilevamento ordini misti e sequenza",
+          "Assicurazione qualità per imballaggio carte"
+        ]
       }
     },
     "featuresTitle": "Caratteristiche",

@@ -398,67 +398,251 @@
     "machinesData": {
       "fkj-100sl": {
         "name": "Automatic Friction Feeder",
-        "description": "High-speed friction feeder for card dispensing. Servo motor driven with PLC control, capable of feeding up to 800 cards/min (CR80 standard). Automatic alarm for missing cards and multi-card feeding."
+        "description": "High-speed friction feeder for card dispensing. Servo motor driven with PLC control, capable of feeding up to 800 cards/min (CR80 standard). Automatic alarm for missing cards and multi-card feeding.",
+        "features": [
+          "Servo motor drive, PLC control, touch screen",
+          "Max speed 60m/min",
+          "Single/multiple/continuous card dispensing",
+          "Auto alarm for card leakage and absence",
+          "Integrates with automated packaging equipment"
+        ],
+        "applications": [
+          "Postcards, greeting cards, hangtags",
+          "Folded manuals and posters",
+          "Card books, notebooks, magazines"
+        ]
       },
       "fkj-200e": {
         "name": "Automatic Friction Feeder",
-        "description": "Medium-format friction feeder for larger card sizes. Feeds up to 500 cards/min with reliable servo control."
+        "description": "Medium-format friction feeder for larger card sizes. Feeds up to 500 cards/min with reliable servo control.",
+        "features": [
+          "Servo motor drive, PLC control",
+          "Reliable medium-speed feeding",
+          "Automatic alarm functions",
+          "Easy integration with packaging lines"
+        ],
+        "applications": [
+          "Larger format cards and printed materials",
+          "Manuals and promotional materials",
+          "Medium-sized sheet products"
+        ]
       },
       "fkj-300e": {
         "name": "Automatic Friction Feeder",
-        "description": "Large-format friction feeder for oversized cards and sheets. Handles products up to 300×300mm."
+        "description": "Large-format friction feeder for oversized cards and sheets. Handles products up to 300×300mm.",
+        "features": [
+          "Handles large-format products",
+          "Servo controlled precision",
+          "Photoelectric sensing control",
+          "PLC programmable operation"
+        ],
+        "applications": [
+          "Large format cards and board game components",
+          "Oversized printed materials",
+          "Game boards and large cards"
+        ]
       },
       "fkj-420e": {
         "name": "Automatic Friction Feeder",
-        "description": "Extra-wide friction feeder for products up to 420mm width. Designed for board game boards and large format materials."
+        "description": "Extra-wide friction feeder for products up to 420mm width. Designed for board game boards and large format materials.",
+        "features": [
+          "Extra-wide feeding capacity",
+          "Stable servo operation",
+          "Easy touch-screen control",
+          "Robust construction for thick materials"
+        ],
+        "applications": [
+          "Board game boards and large components",
+          "Extra-wide printed materials",
+          "Multi-page book-type products"
+        ]
       },
       "three-head-suction": {
         "name": "Card Suction Machine",
-        "description": "Planetary suction cup card dispenser for delicate or thin cards. Three sets of suction cups rotate counterclockwise to pick and feed cards individually."
+        "description": "Planetary suction cup card dispenser for delicate or thin cards. Three sets of suction cups rotate counterclockwise to pick and feed cards individually.",
+        "features": [
+          "Three-head planetary suction mechanism",
+          "Panasonic pressure detection switch",
+          "No-card automatic alarm",
+          "Servo motor with PLC control"
+        ],
+        "applications": [
+          "Game cards and TCG cards",
+          "Thin plastic cards and films",
+          "Deformable sheet products"
+        ]
       },
       "four-head-suction": {
         "name": "Card Suction Machine",
-        "description": "High-speed four-head planetary suction machine. Four suction stations operating simultaneously for maximum throughput up to 280 pcs/min."
+        "description": "High-speed four-head planetary suction machine. Four suction stations operating simultaneously for maximum throughput up to 280 pcs/min.",
+        "features": [
+          "Four-head simultaneous operation",
+          "Maximum throughput for high-volume lines",
+          "Servo precision control",
+          "Real-time pressure monitoring"
+        ],
+        "applications": [
+          "High-speed card production lines",
+          "Large-volume card packaging",
+          "Premium card products requiring gentle handling"
+        ]
       },
       "card-dispensing-matching": {
         "name": "Card Dispensing Matching System",
-        "description": "Intelligent multi-station card dispensing system with computer control. Automatically sorts and dispatches cards according to pre-set recipes."
+        "description": "Intelligent multi-station card dispensing system with computer control. Automatically sorts and dispatches cards according to pre-set recipes.",
+        "features": [
+          "Computer-controlled dispatching system",
+          "EXCEL recipe editing for card sorting",
+          "Over 1,000 process recipe files storable",
+          "Ultrasonic dual-sheet / visual / thickness detection",
+          "Up to 25,000 packs per batch run"
+        ],
+        "applications": [
+          "Multi-card pack assembly (TCG, CCG)",
+          "Complex card sorting and matching",
+          "Batch production with variable recipes"
+        ]
       },
       "zs-220x": {
         "name": "High-Speed Servo Packaging Machine",
-        "description": "Compact high-speed pillow packaging machine. Servo controlled with up to 220 bags/min output, ideal for candy-style card wrapping."
+        "description": "Compact high-speed pillow packaging machine. Servo controlled with up to 220 bags/min output, ideal for candy-style card wrapping.",
+        "features": [
+          "Servo control — set bag length, cut, no empty travel",
+          "60 packaging parameter presets",
+          "High-sensitivity photoelectric sensor tracking",
+          "Anti-misoperation auto-reverse",
+          "No-film auto-stop protection"
+        ],
+        "applications": [
+          "Card candy packaging",
+          "Small irregular item packaging",
+          "Food and printed product packaging"
+        ]
       },
       "sbf-250": {
         "name": "Four-Side Sealing Servo Packaging Machine",
-        "description": "High-speed four-side sealing machine. Seven servo motors drive stable operation at up to 150 packs/min."
+        "description": "High-speed four-side sealing machine. Seven servo motors drive stable operation at up to 150 packs/min.",
+        "features": [
+          "Seven servo motors for stable operation",
+          "Three-color electric eye tracking",
+          "Reciprocating cutting & heat-sealing technology",
+          "PLC programmable control"
+        ],
+        "applications": [
+          "Card four-side sealed packaging",
+          "Premium product packaging",
+          "Tamper-evident packaging"
+        ]
       },
       "qdzd-2130": {
         "name": "Automatic Bagging Machine",
-        "description": "Self-adhesive strip bagging machine for card products. Supports three sealing methods."
+        "description": "Self-adhesive strip bagging machine for card products. Supports three sealing methods.",
+        "features": [
+          "Three sealing methods available",
+          "Automatic correction function",
+          "Anti-air-bag detection",
+          "One-click reset and bidirectional control",
+          "Suction cup bag retrieval"
+        ],
+        "applications": [
+          "Card self-adhesive strip packaging",
+          "Premium re-sealable card bags",
+          "Retail display packaging"
+        ]
       },
       "pof-shrink": {
         "name": "Automatic POF Film Wrapping & Sealing Machine",
-        "description": "POF shrink wrapping machine for professional retail packaging with imported detection photoelectric."
+        "description": "POF shrink wrapping machine for professional retail packaging with imported detection photoelectric.",
+        "features": [
+          "Imported detection photoelectric",
+          "Teflon-coated high-temp alloy sealing knife",
+          "Film up-down synchronization mechanism",
+          "Sealing knife auto-protection"
+        ],
+        "applications": [
+          "Card shrink wrapping",
+          "Retail-ready card packaging",
+          "Multi-product bundling"
+        ]
       },
       "cartoning": {
         "name": "Fully Automatic Box Packing Machine",
-        "description": "Automatic cartoning machine for boxed card products. Handles feeding, opening, inserting, and sealing."
+        "description": "Automatic cartoning machine for boxed card products. Handles feeding, opening, inserting, and sealing.",
+        "features": [
+          "Automatic feeding, opening, inserting, sealing",
+          "Servo/stepper motor + PLC control",
+          "Photoelectric detection — empty bags not boxed",
+          "No mold change needed for different sizes"
+        ],
+        "applications": [
+          "Card product cartoning",
+          "Pharmaceutical and food boxing",
+          "Daily chemical product packaging"
+        ]
       },
       "carton-forming": {
         "name": "Automatic Carton Forming & Sealing Machine",
-        "description": "Carton case former with automatic bottom tape sealing. Vertical storage design for non-stop production."
+        "description": "Carton case former with automatic bottom tape sealing. Vertical storage design for non-stop production.",
+        "features": [
+          "Suck, form, and seal in one go",
+          "Vertical storage — replenish without stopping",
+          "PLC & HMI touch screen control",
+          "Customized size design available"
+        ],
+        "applications": [
+          "Card product case forming",
+          "Multi-industry carton forming",
+          "Automated case erecting"
+        ]
       },
       "h-type-sealer": {
         "name": "Automatic H-Type Carton Sealing Machine",
-        "description": "H-type carton sealer for top, bottom, and corner taping with 90° turning mechanism."
+        "description": "H-type carton sealer for top, bottom, and corner taping with 90° turning mechanism.",
+        "features": [
+          "Top & bottom tape sealing automatically",
+          "90° turning for four-corner sealing",
+          "Novel and precise structural design",
+          "Manual width/height adjustment"
+        ],
+        "applications": [
+          "Card product case sealing",
+          "Industrial carton sealing",
+          "Four-corner tape sealing"
+        ]
       },
       "palletizing-robot": {
         "name": "Intelligent Collaborative Palletizing Robot",
-        "description": "Collaborative palletizing robot with 30kg payload and 1800mm working radius. Safe for human cooperation."
+        "description": "Collaborative palletizing robot with 30kg payload and 1800mm working radius. Safe for human cooperation.",
+        "features": [
+          "Installation & debugging in 3 hours",
+          "100+ palletizing formulas storable",
+          "Left/right simultaneous stacking patterns",
+          "Personnel collision prevention",
+          "Power-off suction cup safety — material won't fall"
+        ],
+        "applications": [
+          "Card product case palletizing",
+          "Multi-industry palletizing",
+          "Collaborative end-of-line automation"
+        ]
       },
       "ai-visual": {
         "name": "AI Card Visual Inspection System",
-        "description": "AI-powered card inspection system with OCR and mixed-order detection. 100% error detection rate at 400+ sheets/min."
+        "description": "AI-powered card inspection system with OCR and mixed-order detection. 100% error detection rate at 400+ sheets/min.",
+        "features": [
+          "100% error detection rate (5×5mm minimum)",
+          "Real-time detection over 400 sheets/min",
+          "AI self-training for new card templates",
+          "OCR character detection (Chinese, English, numbers)",
+          "Mixed-order detection in 100ms",
+          "New batch training in as fast as 3 minutes"
+        ],
+        "applications": [
+          "Card error detection in production lines",
+          "OCR character verification",
+          "Mixed-order and sequence detection",
+          "Quality assurance for card packaging"
+        ]
       }
     },
     "featuresTitle": "Key Features",

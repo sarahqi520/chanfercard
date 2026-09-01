@@ -54,12 +54,18 @@ export default function MachinesContent({ dict, locale }: Props) {
   const machinesDict = dict.machines as Record<string, unknown>;
   const categoriesDict = machinesDict.categories as Record<string, string>;
   const specLabels = (machinesDict.specLabels as Record<string, string>) ?? {};
-  const machinesData = (machinesDict.machinesData as Record<string, Record<string, string>>) ?? {};
+  const machinesData = (machinesDict.machinesData as Record<string, Record<string, unknown>>) ?? {};
 
   // Helper: get translated machine field
   const tm = (machineId: string, field: string, fallback: string): string => {
     const md = machinesData[machineId];
-    return md?.[field] ?? fallback;
+    return (md?.[field] as string) ?? fallback;
+  };
+
+  // Helper: get translated machine string array
+  const tma = (machineId: string, field: string, fallback: string[]): string[] => {
+    const md = machinesData[machineId];
+    return (md?.[field] as string[]) ?? fallback;
   };
 
   const [activeCategory, setActiveCategory] = useState("all");
@@ -221,7 +227,7 @@ export default function MachinesContent({ dict, locale }: Props) {
 
                 {/* Features */}
                 <div className="space-y-1.5">
-                  {machine.features.slice(0, 3).map((feat, j) => (
+                  {tma(machine.id, "features", machine.features).slice(0, 3).map((feat, j) => (
                     <div
                       key={j}
                       className="flex items-start gap-1.5 text-xs text-muted-foreground"
