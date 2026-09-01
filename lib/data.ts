@@ -828,7 +828,7 @@ export const companyInfo = {
     { year: "2025", event: "Established Guangzhou branch; Founded AI Visual Application Center" },
   ],
   partners: [
-    "CASELL", "RR DONNELLEY", "YUTO", "QP Group",
+    "CASELL", "YUTO", "QP Group",
     "姚記", "裕同科技", "金光集团",
     "金杯印刷", "SINARMAS", "HUNG HING", "KINARY",
     "LEO PAPER GROUP", "LONG XING GROUP",
