@@ -22,7 +22,7 @@ export const packagingSolutions: PackagingSolution[] = [
     name: "Candy Packaging",
     subtitle: "Card Candy Packaging",
     description:
-      "High-speed pillow-style flow wrapping — the most popular method for trading card game (TCG) booster packs and collectible card sleeves. Produces a sealed candy-style wrapper at speeds up to 220 bags/min.",
+      "High-speed pillow-style flow wrapping — the most popular method for trading card game (TCG) booster packs and collectible card sleeves",
     speed: "20–220 bags/min",
     filmDiameter: "Φ350mm",
     filmInnerDiameter: "76mm",
@@ -70,7 +70,7 @@ export const packagingSolutions: PackagingSolution[] = [
     speed: "20–80 packs/min",
     filmDiameter: "Φ450mm",
     filmInnerDiameter: "76mm",
-    filmWidth: "L70-200 W60-150",
+    filmWidth: "L70-200mm W60-150mm",
     voltage: "AC220V, 50Hz, 6.5KW",
     features: [
       "Three sealing methods: self-adhesive, hot-cut, or hot-press",

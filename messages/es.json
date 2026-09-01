@@ -127,6 +127,7 @@
       "speed": "Velocidad",
       "filmDia": "Diámetro del Rollo de Película",
       "filmWidth": "Ancho de Película",
+      "bagSize": "Tamaño de bolsa",
       "innerDia": "Diámetro Interior",
       "voltage": "Voltaje"
     },
@@ -150,7 +151,7 @@
       "candy": {
         "name": "Embalaje Caramelo",
         "subtitle": "Embalaje Caramelo Tarjetas",
-        "description": "Embalaje flujo tipo almohada de alta velocidad — el método más popular para los boosters de juegos de cartas coleccionables (TCG) y fundas protectoras de tarjetas. Produce un envoltorio sellado tipo caramelo hasta 220 bolsas/min.",
+        "description": "Embalaje flujo tipo almohada de alta velocidad — el método más popular para los boosters de juegos de cartas coleccionables (TCG) y fundas protectoras de tarjetas",
         "features": [
           "Longitud de bolsa controlada por servomotor — ajustar y cortar sin recorrido vacío",
           "Sensor fotoeléctrico de alta sensibilidad para sellado preciso",

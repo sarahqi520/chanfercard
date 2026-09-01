@@ -134,6 +134,7 @@
       "speed": "Speed",
       "filmDia": "Film Roll Dia.",
       "filmWidth": "Film Width",
+      "bagSize": "Bag Size",
       "innerDia": "Inner Dia.",
       "voltage": "Voltage"
     },
@@ -157,7 +158,7 @@
       "candy": {
         "name": "Candy Packaging",
         "subtitle": "Card Candy Packaging",
-        "description": "High-speed pillow-style flow wrapping — the most popular method for trading card game (TCG) booster packs and collectible card sleeves, at speeds up to 220 bags/min.",
+        "description": "High-speed pillow-style flow wrapping — the most popular method for trading card game (TCG) booster packs and collectible card sleeves",
         "features": [
           "Servo-controlled bag length — set and cut, no empty travel",
           "High-sensitivity photoelectric sensor tracking for precise sealing",

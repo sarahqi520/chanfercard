@@ -222,7 +222,7 @@ export default function SolutionsContent({ dict, locale }: Props) {
                         value: sol.filmDiameter,
                       },
                       {
-                        label: specsDict.filmWidth ?? "Film Width",
+                        label: sol.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : sol.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"),
                         value: sol.filmWidth,
                       },
                       {

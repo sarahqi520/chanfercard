@@ -127,6 +127,7 @@
       "speed": "Geschwindigkeit",
       "filmDia": "Folienrollen-Ø",
       "filmWidth": "Folienbreite",
+      "bagSize": "Beutelgröße",
       "innerDia": "Innen-Ø",
       "voltage": "Spannung"
     },
@@ -150,7 +151,7 @@
       "candy": {
         "name": "Bonbonverpackung",
         "subtitle": "Karten-Bonbonverpackung",
-        "description": "Hochgeschwindigkeits-Kissenflussverpackung — die beliebteste Methode für Trading Card Game (TCG)-Booster Packs und Sammelkartenhüllen. Erzeugt eine versiegelte Bonbonverpackung mit bis zu 220 Beuteln/min.",
+        "description": "Hochgeschwindigkeits-Kissenflussverpackung — die beliebteste Methode für Trading Card Game (TCG)-Booster Packs und Sammelkartenhüllen",
         "features": [
           "Servogesteuerte Beutelänge — einstellen und schneiden, kein Leerlauf",
           "Hochempfindlicher Fotoelektrischer Sensor für präzises Versiegeln",

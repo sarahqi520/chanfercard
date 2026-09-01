@@ -127,6 +127,7 @@
       "speed": "Velocità",
       "filmDia": "Diam. Bobina Film",
       "filmWidth": "Larghezza Film",
+      "bagSize": "Dimensione busta",
       "innerDia": "Diam. Interno",
       "voltage": "Tensione"
     },
@@ -150,7 +151,7 @@
       "candy": {
         "name": "Imballaggio Caramella",
         "subtitle": "Imballaggio Caramella Carte",
-        "description": "Incarto flow ad alta velocità — il metodo più popolare per i pacchetti booster di giochi di carte collezionabili (TCG) e le bustine protettive. Produce una confezione sigillata tipo caramella fino a 220 sacchetti/min.",
+        "description": "Incarto flow ad alta velocità — il metodo più popolare per i pacchetti booster di giochi di carte collezionabili (TCG) e le bustine protettive",
         "features": [
           "Lunghezza sacchetto controllata da servomotore — imposta e taglia, nessun vuoto di corsa",
           "Sensore fotoelettrico ad alta sensibilità per saldatura precisa",

@@ -125,7 +125,9 @@
     "specs": {
       "speed": "速度",
       "filmDia": "膜卷直径",
-      "filmWidth": "最大膜宽",
+      "filmWidth": "膜宽",
+      "filmWidthMax": "最大膜宽",
+      "bagSize": "袋子尺寸",
       "innerDia": "内径",
       "voltage": "电压"
     },
@@ -149,7 +151,7 @@
       "candy": {
         "name": "糖果包装",
         "subtitle": "卡牌糖果包装",
-        "description": "高速枕式糖果包装——集换式卡牌游戏（TCG）补充包和收藏卡片最流行的包装方式，速度高达220包/分钟。",
+        "description": "高速枕式糖果包装——集换式卡牌游戏（TCG）补充包和收藏卡片最流行的包装方式",
         "features": [
           "伺服控制制袋长度——设定即切割，无空包",
           "高灵敏度光电传感器跟踪，确保精确封口",

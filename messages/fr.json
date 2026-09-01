@@ -127,6 +127,7 @@
       "speed": "Vitesse",
       "filmDia": "Diamètre de rouleau de film",
       "filmWidth": "Largeur du film",
+      "bagSize": "Taille du sachet",
       "innerDia": "Diamètre intérieur",
       "voltage": "Tension"
     },
@@ -150,7 +151,7 @@
       "candy": {
         "name": "Emballage Bonbon",
         "subtitle": "Emballage Bonbon Cartes",
-        "description": "Emballage par flux à coussin haute vitesse — la méthode la plus populaire pour les boosters de jeux de cartes à collectionner (TCG) et les housses de protection de cartes. Produit un emballage scellé type bonbon jusqu'à 220 sachets/min.",
+        "description": "Emballage par flux à coussin haute vitesse — la méthode la plus populaire pour les boosters de jeux de cartes à collectionner (TCG) et les housses de protection de cartes",
         "features": [
           "Longueur de sachet contrôlée par servomoteur — régler et couper, pas de course à vide",
           "Capteur photoélectrique haute sensibilité pour un scellage précis",

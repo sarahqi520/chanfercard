@@ -187,7 +187,7 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
             {[
               { label: specsDict.speed ?? "Speed", value: solution.speed },
               { label: specsDict.filmDia ?? "Film Roll Dia.", value: solution.filmDiameter },
-              { label: specsDict.filmWidth ?? "Film Width", value: solution.filmWidth },
+              { label: solution.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : solution.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"), value: solution.filmWidth },
               { label: specsDict.innerDia ?? "Inner Dia.", value: solution.filmInnerDiameter },
               { label: specsDict.voltage ?? "Voltage", value: solution.voltage },
             ].map((spec, j) => (
