@@ -104,7 +104,7 @@ export const packagingSolutions: PackagingSolution[] = [
       "Retail-display card packs",
       "Limited edition card bundles",
     ],
-    videoId: "98hbl4mU8zo",
+    videoId: "sxbCh-8Rvag",
   },
   {
     id: "four-sides",
