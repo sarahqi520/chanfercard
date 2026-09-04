@@ -617,6 +617,21 @@
           "소매 전시 포장"
         ]
       },
+      "zdqd-1520": {
+        "name": "접착 스트립 포장기",
+        "description": "카드 제품 및 시트 자재용 고속 자루 포장기. 서보 구동 PLC 제어, 20–80개/분.",
+        "features": [
+          "서보 모터 구동의 프로그래머블 PLC 제어",
+          "주요 부위에 수입 베어링 적용, 고속 안정 운전",
+          "터치스크린으로 속도·동작시간·생산량 확인",
+          "다양한 시트 자재에 대응하는 뛰어난 적응성"
+        ],
+        "applications": [
+          "카드 접착 스트립 포장",
+          "인쇄물 포장",
+          "문서 및 서류 포장"
+        ]
+      },
       "pof-shrink": {
         "name": "POF 열수축기",
         "description": "360°. 수입 센서, 날 보호.",
@@ -738,7 +753,12 @@
       "Load": "하중",
       "Working Radius": "작업 반경",
       "Stacking Height": "적재 높이",
-      "Pallet Size": "팔레트 크기"
+      "Pallet Size": "팔레트 크기",
+      "Product Length": "제품 길이",
+      "Product Width": "제품 폭",
+      "Bag Size": "봉투 크기",
+      "Air Pressure": "공기압",
+      "Air Consumption": "공기 소비량"
     },
     "relatedSolutionsTitle": "이러한 포장 솔루션에 사용"
   },
@@ -1617,6 +1637,31 @@
       "ctaDescription": "사양 및 가격.",
       "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
       "relatedMachinesTitle": "관련 장비"
+    },
+    "zdqd-1520": {
+      "seoTitle": "ZD-QD-1520 접착 스트립 포장기 | CHANFER",
+      "seoDescription": "카드 제품용 고속 자루 포장기 ZD-QD-1520. 서보 구동, PLC 제어, 20–80개/분. 터치스크린, 수입 베어링 적용.",
+      "keywords": "ZD-QD-1520,접착 스트립 포장기,자루 포장기,카드 포장,서보 포장기",
+      "longDescription": [
+        "ZD-QD-1520은 카드 제품, 인쇄물, 문서 등의 필름 봉투 자동 포장을 위해 설계된 CHANFER의 고속 자루 포장기입니다. 서보 모터 구동과 PLC 제어로 프로그램화된 안정적인 운전을 실현합니다.",
+        "자동 자루 포장, 접착 스트립 밀봉, 직관적인 터치스크린 조작이 통합되어 있습니다. 주요 부위에 수입 베어링을 적용해 연속 운전에서도 안정적인 성능과 긴 수명을 보장합니다."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "ZD-QD-1520 접착 스트립 포장기에 관심이 있으신가요?",
+      "ctaDescription": "ZD-QD-1520의 상세 사양, 견적 및 라인 통합 안내를 받아보세요.",
+      "relatedSolutionsTitle": "이 장비를 사용하는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
     },
     "pof-shrink": {
       "seoTitle": "POF 열수축기 | CHANFER",

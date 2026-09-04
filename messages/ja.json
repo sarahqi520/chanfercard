@@ -617,6 +617,21 @@
           "小売ディスプレイ包装"
         ]
       },
+      "zdqd-1520": {
+        "name": "粘着テープ包装機",
+        "description": "カード製品およびシート材用高速装袋機。サーボ駆動、PLC制御、20～80袋/分。",
+        "features": [
+          "サーボモーター駆動のプログラマブルPLC制御",
+          "重要部位に輸入ベアリングを採用し、高速安定運転を実現",
+          "タッチパネル表示で速度、動作時間、生産量を一目で確認",
+          "様々なシート材に対応する高い汎用性"
+        ],
+        "applications": [
+          "カードの粘着テープ包装",
+          "印刷物の装袋",
+          "書類・ドキュメントの包装"
+        ]
+      },
       "pof-shrink": {
         "name": "POF熱収縮機",
         "description": "360°。輸入センサー、刃保護。",
@@ -738,7 +753,12 @@
       "Load": "積載量",
       "Working Radius": "作業半径",
       "Stacking Height": "積上げ高さ",
-      "Pallet Size": "パレットサイズ"
+      "Pallet Size": "パレットサイズ",
+      "Product Length": "製品長さ",
+      "Product Width": "製品幅",
+      "Bag Size": "袋サイズ",
+      "Air Pressure": "空気圧",
+      "Air Consumption": "空気消費量"
     },
     "relatedSolutionsTitle": "これらの包装ソリューションで使用"
   },
@@ -1617,6 +1637,31 @@
       "ctaDescription": "仕様と価格。",
       "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
       "relatedMachinesTitle": "関連機器"
+    },
+    "zdqd-1520": {
+      "seoTitle": "ZD-QD-1520 粘着テープ包装機 | CHANFER",
+      "seoDescription": "カード製品向け高速装袋機ZD-QD-1520。サーボ駆動、PLC制御、20～80袋/分。タッチパネル、輸入ベアリング採用。",
+      "keywords": "ZD-QD-1520,粘着テープ包装機,装袋機,カード包装,サーボ包装機",
+      "longDescription": [
+        "ZD-QD-1520は、カード製品、印刷物、書類などのフィルム袋自動包装に特化したCHANFERの高速装袋機です。サーボモーター駆動とPLC制御により、安定的なプログラム運転を実現します。",
+        "自動装袋、粘着テープ封口、タッチパネル操作を一体化。主要部品には輸入ベアリングを採用し、連続運転時でも安定した性能と長寿命を発揮します。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "ZD-QD-1520 粘着テープ包装機についてお問い合わせ",
+      "ctaDescription": "ZD-QD-1520の詳細仕様、価格、ライン統合ガイダンスについてお問い合わせください。",
+      "relatedSolutionsTitle": "この設備を使用する包装ソリューション",
+      "relatedMachinesTitle": "関連機器",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
     },
     "pof-shrink": {
       "seoTitle": "POF熱収縮機 | CHANFER",

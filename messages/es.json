@@ -617,6 +617,21 @@
           "Envasado de exhibición en retail"
         ]
       },
+      "zdqd-1520": {
+        "name": "Máquina de Envasado con Franja Autoadhesiva",
+        "description": "Máquina envasadora de alta velocidad para productos de cartas y materiales en lámina. Accionamiento servo con control PLC, 20–80 bolsas/min.",
+        "features": [
+          "Control PLC programable con accionamiento servo",
+          "Rodamientos importados en partes clave para operación estable de alta velocidad",
+          "Pantalla táctil: velocidad, tiempo y producción visibles",
+          "Gran adaptabilidad a diferentes materiales en lámina"
+        ],
+        "applications": [
+          "Envasado de cartas con franja autoadhesiva",
+          "Envasado de productos impresos",
+          "Envasado de documentos y archivos"
+        ]
+      },
       "pof-shrink": {
         "name": "Máquina Termoencogible POF",
         "description": "360°. Sensor importado, protección cuchilla.",
@@ -738,7 +753,12 @@
       "Load": "Carga",
       "Working Radius": "Radio de trabajo",
       "Stacking Height": "Altura de apilado",
-      "Pallet Size": "Tamaño de paleta"
+      "Pallet Size": "Tamaño de paleta",
+      "Product Length": "Longitud del producto",
+      "Product Width": "Ancho del producto",
+      "Bag Size": "Tamaño de la bolsa",
+      "Air Pressure": "Presión de aire",
+      "Air Consumption": "Consumo de aire"
     },
     "relatedSolutionsTitle": "Utilizado en estas soluciones de envasado"
   },
@@ -1617,6 +1637,31 @@
       "ctaDescription": "Especificaciones y precios.",
       "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
       "relatedMachinesTitle": "Máquinas relacionadas"
+    },
+    "zdqd-1520": {
+      "seoTitle": "Máquina Envasadora ZD-QD-1520 con Franja Autoadhesiva | CHANFER",
+      "seoDescription": "Máquina envasadora de alta velocidad ZD-QD-1520 para productos de cartas. Accionamiento servo, control PLC, 20–80 bolsas/min. Pantalla táctil, rodamientos importados.",
+      "keywords": "ZD-QD-1520,máquina de envasado autoadhesiva,máquina envasadora,envasado de cartas,máquina servo",
+      "longDescription": [
+        "ZD-QD-1520 es una máquina envasadora de alta velocidad de CHANFER, diseñada para el envasado automático en bolsas de película de productos de cartas, materiales impresos y documentos. El accionamiento servo con control PLC garantiza un funcionamiento programado y estable.",
+        "La máquina integra alimentación automática, sellado de franja autoadhesiva y una pantalla táctil intuitiva. Los rodamientos importados en las partes clave aseguran un funcionamiento suave y una larga vida útil incluso en funcionamiento continuo."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "¿Interesado en la Máquina Envasadora ZD-QD-1520 con Franja Autoadhesiva?",
+      "ctaDescription": "Obtenga especificaciones detalladas, precios y asesoría de integración de línea para la ZD-QD-1520.",
+      "relatedSolutionsTitle": "Soluciones de envasado que usan esta máquina",
+      "relatedMachinesTitle": "Máquinas relacionadas",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
     },
     "pof-shrink": {
       "seoTitle": "Máquina Termoencogible POF | CHANFER",

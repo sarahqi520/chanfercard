@@ -617,6 +617,21 @@
           "Imballaggio da esposizione al dettaglio"
         ]
       },
+      "zdqd-1520": {
+        "name": "Macchina Confezionatrice a Striscia Adesiva",
+        "description": "Macchina confezionatrice ad alta velocità per prodotti cartacei e materiali in foglio. Azionamento servo con controllo PLC, 20–80 sacchetti/min.",
+        "features": [
+          "Controllo PLC programmabile con azionamento servo",
+          "Cuscinetti importati nelle parti chiave per funzionamento stabile ad alta velocità",
+          "Display touchscreen: velocità, tempi e produzione visibili a colpo d'occhio",
+          "Forte adattabilità a vari materiali in foglio"
+        ],
+        "applications": [
+          "Confezionamento carte con striscia adesiva",
+          "Confezionamento prodotti stampati",
+          "Confezionamento documenti e fascicoli"
+        ]
+      },
       "pof-shrink": {
         "name": "Macchina Termoretraente POF",
         "description": "Termoretraente POF, visibilità 360°. Sensore importato, protezione lama.",
@@ -738,7 +753,12 @@
       "Load": "Carico",
       "Working Radius": "Raggio di lavoro",
       "Stacking Height": "Altezza impilaggio",
-      "Pallet Size": "Dimensione pallet"
+      "Pallet Size": "Dimensione pallet",
+      "Product Length": "Lunghezza prodotto",
+      "Product Width": "Larghezza prodotto",
+      "Bag Size": "Dimensione sacchetto",
+      "Air Pressure": "Pressione aria",
+      "Air Consumption": "Consumo aria"
     },
     "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento"
   },
@@ -1661,6 +1681,31 @@
       "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
       "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
       "relatedMachinesTitle": "Macchine correlate"
+    },
+    "zdqd-1520": {
+      "seoTitle": "Macchina Confezionatrice ZD-QD-1520 a Striscia Adesiva | CHANFER",
+      "seoDescription": "Macchina confezionatrice ad alta velocità ZD-QD-1520 per prodotti cartacei. Azionamento servo, controllo PLC, 20–80 sacchetti/min. Display touchscreen, cuscinetti importati.",
+      "keywords": "ZD-QD-1520,macchina confezionatrice adesiva,macchina confezionatrice,confezionamento carte,macchina servo",
+      "longDescription": [
+        "ZD-QD-1520 è una macchina confezionatrice ad alta velocità CHANFER, progettata per il confezionamento automatico in sacchetti film di prodotti cartacei, materiali stampati e documenti. L'azionamento servo con controllo PLC garantisce un funzionamento programmato e stabile.",
+        "La macchina integra alimentazione automatica, sigillatura a striscia adesiva e un display touchscreen intuitivo. I cuscinetti importati nelle parti chiave assicurano un funzionamento stabile e una lunga durata anche in funzionamento continuo."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interessato alla Macchina Confezionatrice ZD-QD-1520 a Striscia Adesiva?",
+      "ctaDescription": "Ottieni specifiche dettagliate, prezzi e consulenza per l'integrazione in linea della ZD-QD-1520.",
+      "relatedSolutionsTitle": "Soluzioni di confezionamento che usano questa macchina",
+      "relatedMachinesTitle": "Macchine correlate",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
     },
     "pof-shrink": {
       "seoTitle": "Macchina Termoretraente POF | CHANFER",

@@ -624,6 +624,21 @@
           "Retail display packaging"
         ]
       },
+      "zdqd-1520": {
+        "name": "Self-Adhesive Strip Packaging Machine",
+        "description": "High-speed bagging machine for card products and sheet materials. Servo-driven with PLC control, 20–80 bags/min.",
+        "features": [
+          "Programmable PLC control with servo motor drive",
+          "Imported bearings in key mechanical parts for high-speed stable operation",
+          "Touch screen display — speed, timing and output visible at a glance",
+          "Strong product adaptability for various sheet materials"
+        ],
+        "applications": [
+          "Card self-adhesive strip packaging",
+          "Printed product bagging",
+          "Document and file packaging"
+        ]
+      },
       "pof-shrink": {
         "name": "Automatic POF Film Wrapping & Sealing Machine",
         "description": "POF shrink wrapping machine for professional retail packaging with imported detection photoelectric.",
@@ -745,7 +760,12 @@
       "Load": "Load",
       "Working Radius": "Working Radius",
       "Stacking Height": "Stacking Height",
-      "Pallet Size": "Pallet Size"
+      "Pallet Size": "Pallet Size",
+      "Product Length": "Product Length",
+      "Product Width": "Product Width",
+      "Bag Size": "Bag Size",
+      "Air Pressure": "Air Pressure",
+      "Air Consumption": "Air Consumption"
     },
     "relatedSolutionsTitle": "Used in These Packaging Solutions"
   },
@@ -1666,6 +1686,31 @@
       "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the QDZD-2130 automatic bagging machine.",
       "relatedSolutionsTitle": "Used in These Packaging Solutions",
       "relatedMachinesTitle": "Related Machines"
+    },
+    "zdqd-1520": {
+      "seoTitle": "ZD-QD-1520 Self-Adhesive Strip Packaging Machine | CHANFER",
+      "seoDescription": "ZD-QD-1520 high-speed bagging machine for card products. Servo-driven, PLC control, 20–80 bags/min. Touch screen, imported bearings.",
+      "keywords": "ZD-QD-1520,self-adhesive packaging machine,bagging machine,card packaging,servo packaging machine",
+      "longDescription": [
+        "ZD-QD-1520 is a CHANFER high-speed bagging machine designed for automatic film bag packaging of card products, printed materials, and documents. Servo motor drive and PLC control deliver programmed, stable operation.",
+        "The machine integrates automatic feeding, self-adhesive strip sealing, and an intuitive touch screen interface. Imported bearings in key mechanical parts ensure smooth operation and long service life even under continuous running."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interested in the ZD-QD-1520 Self-Adhesive Strip Packaging Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and packaging line integration guidance for the ZD-QD-1520.",
+      "relatedSolutionsTitle": "Packaging solutions using this machine",
+      "relatedMachinesTitle": "Related Machines",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
     },
     "pof-shrink": {
       "seoTitle": "POF Film Wrapping & Sealing Machine | CHANFER",

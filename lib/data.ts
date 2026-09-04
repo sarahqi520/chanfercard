@@ -652,6 +652,38 @@ export const machineProducts: MachineProduct[] = [
     image: "/images/machines/qdzd-2130.png",
     },
   {
+    id: "zdqd-1520",
+    model: "ZDQD-1520",
+    name: "Self-Adhesive Strip Packaging Machine",
+    category: "packaging",
+    description:
+      "High-speed self-adhesive strip bagging machine for card products and sheet materials. Servo-driven with PLC control, capable of 20–80 bags/min.",
+    specs: {
+      "Packaging Speed": "20–80 bags/min",
+      "Product Length": "70–200mm",
+      "Product Width": "60–150mm",
+      "Product Height": "0.1–10mm",
+      "Bag Size": "L70–200mm × W60–150mm",
+      "Air Pressure": "0.5–0.8MPa",
+      "Power": "AC220V, 50Hz, 6.5KW",
+      "Air Consumption": "Approx. 2.6Nm³/h (40L/min)",
+      "Machine Size": "L2756 × W1955 × H1540mm",
+      "Weight": "800kg",
+    },
+    applications: [
+      "Card self-adhesive strip packaging",
+      "Printed product bagging",
+      "Document and file packaging",
+    ],
+    features: [
+      "Programmable PLC control with servo motor drive",
+      "Imported bearings in key mechanical parts for high-speed stable operation",
+      "Touch screen display — speed, timing and output visible at a glance",
+      "Strong product adaptability for various sheet materials",
+    ],
+    image: "/images/machines/zdqd-1520.jpg",
+    },
+  {
     id: "pof-shrink",
     model: "POF-Series",
     name: "Automatic POF Film Wrapping & Sealing Machine",

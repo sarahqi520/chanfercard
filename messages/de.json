@@ -617,6 +617,21 @@
           "Einzelhandels-Displayverpackung"
         ]
       },
+      "zdqd-1520": {
+        "name": "Selbstklebende Streifen-Verpackungsmaschine",
+        "description": "Hochgeschwindige Beutelmaschine für Kartenprodukte und flache Materialien. Servoangetrieben mit SPS-Steuerung, 20–80 Beutel/min.",
+        "features": [
+          "Programmierbare SPS-Steuerung mit Servoantrieb",
+          "Importierte Lager in Schlüsselbereichen für Hochleistungsbetrieb",
+          "Touchscreen-Anzeige von Geschwindigkeit, Zeit und Ausbeute",
+          "Starke Produktanpassungsfähigkeit für verschiedene flache Materialien"
+        ],
+        "applications": [
+          "Selbstklebende Kartenverpackung",
+          "Verpackung von Druckerzeugnissen",
+          "Verpackung von Dokumenten und Unterlagen"
+        ]
+      },
       "pof-shrink": {
         "name": "POF-Schrumpffolienmaschine",
         "description": "360°-Transparenz. Importierter Sensor, Klingenschutz.",
@@ -738,7 +753,12 @@
       "Load": "Traglast",
       "Working Radius": "Arbeitsradius",
       "Stacking Height": "Stapelhöhe",
-      "Pallet Size": "Palettengröße"
+      "Pallet Size": "Palettengröße",
+      "Product Length": "Produktlänge",
+      "Product Width": "Produktbreite",
+      "Bag Size": "Beutelgröße",
+      "Air Pressure": "Luftdruck",
+      "Air Consumption": "Luftverbrauch"
     },
     "relatedSolutionsTitle": "Verwendet in diesen Verpackungslösungen"
   },
@@ -1623,6 +1643,31 @@
       "ctaDescription": "Spezifikationen und Preise.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
       "relatedMachinesTitle": "Verwandte Maschinen"
+    },
+    "zdqd-1520": {
+      "seoTitle": "ZD-QD-1520 Selbstklebende Streifen-Verpackungsmaschine | CHANFER",
+      "seoDescription": "Hochgeschwindige Beutelmaschine ZD-QD-1520 für Kartenprodukte. Servoangetrieben, SPS-Steuerung, 20–80 Beutel/min. Touchscreen, importierte Lager.",
+      "keywords": "ZD-QD-1520,Selbstklebende Verpackungsmaschine,Beutelmaschine,Kartenverpackung,Servo-Verpackungsmaschine",
+      "longDescription": [
+        "ZD-QD-1520 ist eine hochgeschwindige Beutelmaschine von CHANFER, speziell für die automatische Verpackung von Kartenprodukten, Druckerzeugnissen und Dokumenten in Folienbeutel entwickelt. Servoantrieb und SPS-Steuerung sorgen für programmierten, stabilen Betrieb.",
+        "Die Maschine verfügt über automatische Zuführung, Selbstklebeband-Versiegelung und eine intuitive Touchscreen-Bedienung. Importierte Lager in den Schlüsselbereichen gewährleisten hohe Laufruhe und Langlebigkeit auch im Dauerbetrieb."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interesse an der ZD-QD-1520 Selbstklebende Streifen-Verpackungsmaschine?",
+      "ctaDescription": "Holen Sie sich detaillierte Spezifikationen, Preise und Integrationsberatung für die ZD-QD-1520.",
+      "relatedSolutionsTitle": "Verpackungslösungen mit diesem Gerät",
+      "relatedMachinesTitle": "Verwandte Maschinen",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
     },
     "pof-shrink": {
       "seoTitle": "POF-Schrumpffolienmaschine | CHANFER",

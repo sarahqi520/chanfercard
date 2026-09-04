@@ -617,6 +617,21 @@
           "Conditionnement d'affichage en vente au détail"
         ]
       },
+      "zdqd-1520": {
+        "name": "Machine d'Emballage à Bande Autocollante",
+        "description": "Machine d'ensachage haute vitesse pour produits cartes et matériaux en feuille. Entraînement servo avec contrôle PLC, 20–80 sachets/min.",
+        "features": [
+          "Contrôle PLC programmable avec entraînement servo",
+          "Roulements importés sur les parties clés pour un fonctionnement stable à haute vitesse",
+          "Écran tactile: vitesse, temps et rendement visibles en un coup d'œil",
+          "Bonne adaptabilité aux différents matériaux en feuille"
+        ],
+        "applications": [
+          "Emballage de cartes à bande autocollante",
+          "Ensachage de produits imprimés",
+          "Emballage de documents et dossiers"
+        ]
+      },
       "pof-shrink": {
         "name": "Machine Thermorétractable POF",
         "description": "360°. Capteur importé, protection lame.",
@@ -738,7 +753,12 @@
       "Load": "Charge",
       "Working Radius": "Rayon de travail",
       "Stacking Height": "Hauteur de palettisation",
-      "Pallet Size": "Taille de palette"
+      "Pallet Size": "Taille de palette",
+      "Product Length": "Longueur du produit",
+      "Product Width": "Largeur du produit",
+      "Bag Size": "Taille du sachet",
+      "Air Pressure": "Pression d'air",
+      "Air Consumption": "Consommation d'air"
     },
     "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage"
   },
@@ -1617,6 +1637,31 @@
       "ctaDescription": "Spécifications et prix.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
       "relatedMachinesTitle": "Machines associées"
+    },
+    "zdqd-1520": {
+      "seoTitle": "Machine d'Ensachage ZD-QD-1520 à Bande Autocollante | CHANFER",
+      "seoDescription": "Machine d'ensachage haute vitesse ZD-QD-1520 pour produits cartes. Entraînement servo, contrôle PLC, 20–80 sachets/min. Écran tactile, roulements importés.",
+      "keywords": "ZD-QD-1520,machine d'emballage autocollante,machine d'ensachage,emballage de cartes,machine servo",
+      "longDescription": [
+        "ZD-QD-1520 est une machine d'ensachage haute vitesse de CHANFER, conçue pour l'emballage automatique en sachets film de produits cartes, matériaux imprimés et documents. L'entraînement servo avec contrôle PLC assure un fonctionnement programmé et stable.",
+        "La machine intègre l'alimentation automatique, le scellage par bande autocollante et un écran tactile intuitif. Les roulements importés sur les parties clés garantissent un fonctionnement stable et une longue durée de vie même en continu."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Intéressé par la Machine d'Ensachage ZD-QD-1520 à Bande Autocollante ?",
+      "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration de ligne pour la ZD-QD-1520.",
+      "relatedSolutionsTitle": "Solutions d'emballage utilisant cette machine",
+      "relatedMachinesTitle": "Machines associées",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
     },
     "pof-shrink": {
       "seoTitle": "Machine Thermorétractable POF | CHANFER",

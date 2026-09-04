@@ -617,6 +617,21 @@
           "零售展示包装"
         ]
       },
+      "zdqd-1520": {
+        "name": "自粘条包装机",
+        "description": "高速装袋机，专门针对胶膜薄膜装袋自动包装而设计。主要包装对象为卡片类、印刷品、文件等产品。伺服电机驱动，PLC可编程序控制器，整机运行程序化。",
+        "features": [
+          "可编程序控制，采用PLC可编程序控制，伺服电机驱动，使整机运行程序化",
+          "机械关键部位采用进口轴承，保证机器高强度运转；伺服控制，可快速更换包装物，方便快捷，性能卓越，集成控制",
+          "触摸屏显示，主机速度、动作时间、产量都会在屏幕上显示，一目了然",
+          "产品适应性强，可包装不同大小、片状物料"
+        ],
+        "applications": [
+          "卡片自粘条包装",
+          "高端可重复封口卡袋",
+          "印刷品与文件装袋包装"
+        ]
+      },
       "pof-shrink": {
         "name": "POF热收缩包装机",
         "description": "POF热收缩包装机，360°透明展示。进口光电传感器，封切刀自动保护。",
@@ -738,7 +753,12 @@
       "Load": "负载",
       "Working Radius": "工作半径",
       "Stacking Height": "堆叠高度",
-      "Pallet Size": "托盘尺寸"
+      "Pallet Size": "托盘尺寸",
+      "Product Length": "包装物料长度",
+      "Product Width": "包装物料宽度",
+      "Bag Size": "制袋尺寸范围",
+      "Air Pressure": "空气压力",
+      "Air Consumption": "耗气量"
     },
     "relatedSolutionsTitle": "应用该设备的包装方案"
   },
@@ -1681,6 +1701,31 @@
       "ctaDescription": "获取QDZD-2130的详细规格、价格和包装线集成指导。",
       "relatedSolutionsTitle": "应用该设备的包装方案",
       "relatedMachinesTitle": "相关设备"
+    },
+    "zdqd-1520": {
+      "seoTitle": "ZD-QD-1520 自粘条包装机 | CHANFER",
+      "seoDescription": "ZD-QD-1520高速装袋机，专门针对胶膜薄膜装袋自动包装。伺服电机驱动，PLC可编程序控制器，20–80包/分。",
+      "keywords": "ZD-QD-1520,自粘条包装机,高速装袋机,卡片装袋机,伺服包装机",
+      "longDescription": [
+        "ZD-QD-1520 高速装袋机是我公司科研人员研发的产品，专门针对胶膜薄膜装袋自动包装而设计开发。主要包装对象为卡片类、印刷品、文件等产品，如纸质卡片、塑料卡片等。",
+        "整机采用伺服电机驱动，PLC 可编程序控制器，使整机运行程序化。由伺服牵引、自动装袋、自粘条封口机构组成，性能优越、操作方便。机械关键部位采用进口轴承，保证机器高强度运转；触摸屏显示让主机速度、动作时间、产量一目了然。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "对ZD-QD-1520自粘条包装机感兴趣？",
+      "ctaDescription": "获取ZD-QD-1520自粘条包装机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
     },
     "pof-shrink": {
       "seoTitle": "POF热收缩包装机 | CHANFER",
