@@ -740,8 +740,7 @@
       "Stacking Height": "Hauteur de palettisation",
       "Pallet Size": "Taille de palette"
     },
-    "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
-    "relatedMachinesTitle": "Machines associées"
+    "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage"
   },
   "about": {
     "title1": "À propos de",
@@ -1760,6 +1759,32 @@
       "ctaTitle": "Intéressé?",
       "ctaDescription": "Spécifications et prix.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
+    },
+    "fkj-600c": {
+      "seoTitle": "Distributeur de Cartes FKJ-600C | CHANFER",
+      "seoDescription": "Distributeur de cartes servo standard pour produits en feuille jusqu'à 600 mm de large. Entraînement servo avec commande API et écran tactile, jusqu'à 200 cartes/min, avec alarme automatique en cas de cartes manquantes.",
+      "keywords": "distributeur à friction grand format,distributeur large,FKJ-600C,alimentateur cartes,alimentateur servo,alimentateur produits larges",
+      "longDescription": [
+        "Le distributeur de cartes FKJ-600C est conçu pour la distribution automatique à grande vitesse de produits en feuille larges. Il utilise un système d'entraînement servo avec contrôleur API et interface tactile pour une configuration simple, le stockage des paramètres et le démarrage automatique.",
+        "Il prend en charge les modes de distribution simple, multiple et continu, et s'intègre aux machines d'emballage type coussin, verticales, fermetures de cartons, convoyeurs automatiques, machines de thermorétraction et plus encore pour constituer des lignes d'emballage entièrement automatisées."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé par le distributeur à friction grand format FKJ-600C ?",
+      "ctaDescription": "Obtenez les spécifications détaillées, les prix et le guide d'intégration de la ligne d'emballage pour le FKJ-600C.",
+      "relatedSolutionsTitle": "Solutions d'emballage utilisant cette machine",
       "relatedMachinesTitle": "Machines associées"
     }
   },

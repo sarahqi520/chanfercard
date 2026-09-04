@@ -740,8 +740,7 @@
       "Stacking Height": "Altezza impilaggio",
       "Pallet Size": "Dimensione pallet"
     },
-    "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
-    "relatedMachinesTitle": "Macchine correlate"
+    "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento"
   },
   "about": {
     "title1": "Chi",
@@ -1810,6 +1809,32 @@
       "ctaTitle": "Interessati al Sistema AI?",
       "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
       "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
+    },
+    "fkj-600c": {
+      "seoTitle": "Erogatore di Carte FKJ-600C | CHANFER",
+      "seoDescription": "Erogatore di carte servo standard per prodotti in foglio fino a 600 mm di larghezza. Azionamento servo con controllo PLC e touch screen, fino a 200 carte/min, con allarme automatico per carte mancanti.",
+      "keywords": "alimentatore a frizione grande formato,alimentatore largo,FKJ-600C,alimentatore carte,alimentatore servo,alimentatore prodotti larghi",
+      "longDescription": [
+        "L'erogatore di carte FKJ-600C è progettato per l'erogazione automatica ad alta velocità di prodotti in foglio larghi. Utilizza un sistema di azionamento servo con controllore PLC e interfaccia touch screen per una configurazione semplice, memorizzazione dei parametri e avvio automatico.",
+        "Supporta modalità di erogazione singola, multipla e continua, e si integra con confezionatrici a cuscino, verticali, sigillatrici di scatole, nastri trasportatori automatici, termoretraibili e altro per realizzare linee di confezionamento completamente automatizzate."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessato all'alimentatore a frizione grande formato FKJ-600C?",
+      "ctaDescription": "Ottieni specifiche dettagliate, prezzi e guida all'integrazione della linea di confezionamento per l'FKJ-600C.",
+      "relatedSolutionsTitle": "Soluzioni di confezionamento che utilizzano questa macchina",
       "relatedMachinesTitle": "Macchine correlate"
     }
   },

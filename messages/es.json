@@ -740,8 +740,7 @@
       "Stacking Height": "Altura de apilado",
       "Pallet Size": "Tamaño de paleta"
     },
-    "relatedSolutionsTitle": "Utilizado en estas soluciones de envasado",
-    "relatedMachinesTitle": "Máquinas relacionadas"
+    "relatedSolutionsTitle": "Utilizado en estas soluciones de envasado"
   },
   "about": {
     "title1": "Sobre",
@@ -1760,6 +1759,32 @@
       "ctaTitle": "¿Interesado?",
       "ctaDescription": "Especificaciones y precios.",
       "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
+      "relatedMachinesTitle": "Máquinas relacionadas"
+    },
+    "fkj-600c": {
+      "seoTitle": "Dispensador de Tarjetas FKJ-600C | CHANFER",
+      "seoDescription": "Dispensador de tarjetas servo estándar para productos en hoja de hasta 600 mm de ancho. Accionamiento servo con control PLC y pantalla táctil, hasta 200 tarjetas/min, con alarma automática por tarjetas faltantes.",
+      "keywords": "alimentador por fricción gran formato,alimentador ancho,FKJ-600C,alimentador de cartas,alimentador servo,alimentador productos anchos",
+      "longDescription": [
+        "El dispensador de tarjetas FKJ-600C está diseñado para la dispensación automática de alta velocidad de productos en hoja anchos. Utiliza un sistema de accionamiento servo con controlador PLC e interfaz táctil para una configuración sencilla, almacenamiento de parámetros y funcionamiento automático al arrancar.",
+        "Admite modos de dispensación individual, múltiple y continua, e integra máquinas envasadoras tipo almohada, verticales, cerradoras de cajas, transportadores automáticos, máquinas de envasado retráctil y más para formar líneas de envasado completamente automatizadas."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "¿Interesado en el alimentador por fricción de gran formato FKJ-600C?",
+      "ctaDescription": "Obtenga especificaciones detalladas, precios y guía de integración de línea de envasado para el FKJ-600C.",
+      "relatedSolutionsTitle": "Soluciones de envasado que utilizan esta máquina",
       "relatedMachinesTitle": "Máquinas relacionadas"
     }
   },

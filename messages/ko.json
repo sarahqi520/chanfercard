@@ -740,8 +740,7 @@
       "Stacking Height": "적재 높이",
       "Pallet Size": "팔레트 크기"
     },
-    "relatedSolutionsTitle": "이러한 포장 솔루션에 사용",
-    "relatedMachinesTitle": "관련 장비"
+    "relatedSolutionsTitle": "이러한 포장 솔루션에 사용"
   },
   "about": {
     "title1": "CHANFER",
@@ -1760,6 +1759,32 @@
       "ctaTitle": "관심?",
       "ctaDescription": "사양 및 가격.",
       "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "fkj-600c": {
+      "seoTitle": "FKJ-600C 표준형 카드 공급기 | CHANFER",
+      "seoDescription": "최대 600mm 폭의 시트 제품용 표준 서보 카드 공급기입니다. 서보 모터 구동, PLC 제어, 터치스크린 조작으로 최대 약 200장/분의 공급 속도를 지원하며, 카드 누락 및 무카드 시 자동 알람 기능이 있습니다.",
+      "keywords": "대형 마찰 피더,광폭 피더,FKJ-600C,카드 피더,서보 피더,광폭 제품 피더",
+      "longDescription": [
+        "FKJ-600C 표준형 카드 공급기는 폭이 넓은 시트 제품의 고속 자동 공급을 위해 설계되었습니다. 서보 구동 시스템과 PLC 컨트롤러, 터치스크린 인터페이스로 간편한 설정, 파라미터 저장, 시작 시 자동 운전을 구현합니다.",
+        "단발, 다발, 연속 공급 모드를 지원하며, 베개형 포장기, 수직형 포장기, 케이스 실러, 자동 컨베이어, 자동 수축 포장기 등과 연동하여 완전 자동화된 포장 라인을 구축합니다."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "FKJ-600C 대형 마찰 피더에 관심이 있으신가요?",
+      "ctaDescription": "FKJ-600C의 상세 사양, 가격 및 포장 라인 통합 가이드를 받으세요.",
+      "relatedSolutionsTitle": "이 기기를 사용하는 포장 솔루션",
       "relatedMachinesTitle": "관련 장비"
     }
   },

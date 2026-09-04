@@ -740,8 +740,7 @@
       "Stacking Height": "積上げ高さ",
       "Pallet Size": "パレットサイズ"
     },
-    "relatedSolutionsTitle": "これらの包装ソリューションで使用",
-    "relatedMachinesTitle": "関連機器"
+    "relatedSolutionsTitle": "これらの包装ソリューションで使用"
   },
   "about": {
     "title1": "CHANFER",
@@ -1760,6 +1759,32 @@
       "ctaTitle": "興味？",
       "ctaDescription": "仕様と価格。",
       "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
+    },
+    "fkj-600c": {
+      "seoTitle": "FKJ-600C 標準型カード供給機 | CHANFER",
+      "seoDescription": "最大600mm幅のシート状製品に対応する標準サーボ式カード供給機。サーボモータ駆動、PLC制御、タッチパネル操作で、最大約200枚/分の供給速度。カード欠け・無カード時の自動アラーム機能付き。",
+      "keywords": "大判フリクションフィーダー,幅広フィーダー,FKJ-600C,カードフィーダー,サーボフィーダー,幅広製品フィーダー",
+      "longDescription": [
+        "FKJ-600C標準型カード供給機は、幅広いシート状製品の高速自動供給を目的に設計されています。サーボ駆動システムとPLCコントローラ、タッチスクリーンインターフェースにより、簡単な設定、パラメータ保存、起動時の自動運転を実現します。",
+        "単発、複数枚、連続供給モードに対応し、枕式包装機、縦型包装機、ケースシーラー、自動コンベア、自動収縮包装機などと連携して、完全自動化された包装ラインを構築します。"
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "FKJ-600C大判フリクションフィーダーにご興味はありますか？",
+      "ctaDescription": "FKJ-600Cの詳細仕様、価格、包装ライン統合ガイダンスをご入手ください。",
+      "relatedSolutionsTitle": "この機器を使用する包装ソリューション",
       "relatedMachinesTitle": "関連機器"
     }
   },

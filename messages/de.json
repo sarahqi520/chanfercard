@@ -740,8 +740,7 @@
       "Stacking Height": "Stapelhöhe",
       "Pallet Size": "Palettengröße"
     },
-    "relatedSolutionsTitle": "Verwendet in diesen Verpackungslösungen",
-    "relatedMachinesTitle": "Verwandte Maschinen"
+    "relatedSolutionsTitle": "Verwendet in diesen Verpackungslösungen"
   },
   "about": {
     "title1": "Über",
@@ -1772,6 +1771,32 @@
       "ctaTitle": "Interesse am AI-System?",
       "ctaDescription": "Spezifikationen und Preise.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
+    },
+    "fkj-600c": {
+      "seoTitle": "FKJ-600C Standard-Kartenspender | CHANFER",
+      "seoDescription": "Standard-Servo-Kartenspender für Blattprodukte bis 600 mm Breite. Servoantrieb mit SPS-Steuerung und Touchscreen-Bedienung, bis zu 200 Karten/Min., automatische Alarmfunktion bei fehlenden Karten.",
+      "keywords": "Großformat-Reibungszuführer,Breitformat-Zuführer,FKJ-600C,Kartenzuführer,Servozuführer,Breitprodukt-Zuführung",
+      "longDescription": [
+        "Der FKJ-600C Standard-Kartenspender ist für den Hochgeschwindigkeits-Ausgabe von breiten Blattprodukten konzipiert. Er nutzt ein Servoantriebssystem mit SPS-Steuerung und Touchscreen-Oberfläche für einfache Einstellung, Parameterspeicherung und automatischen Start.",
+        "Er unterstützt Einzel-, Mehrfach- und Dauerausgabe und lässt sich mit Schlauchbeutelmaschinen, Vertikalpackmaschinen, Kartonverschließern, Förderbändern, Schrumpfverpackungsmaschinen und mehr kombinieren, um vollautomatische Verpackungslinien zu realisieren."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessiert an dem FKJ-600C Großformat-Reibungszuführer?",
+      "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für die Verpackungslinie zum FKJ-600C.",
+      "relatedSolutionsTitle": "Verpackungslösungen mit dieser Maschine",
       "relatedMachinesTitle": "Verwandte Maschinen"
     }
   },
