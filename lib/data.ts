@@ -148,7 +148,7 @@ export const packagingSolutions: PackagingSolution[] = [
       "Collectible card premium packs",
       "Moisture-sensitive card products",
     ],
-    videoId: "f6Ry7EL5NG8",
+    videoId: "LjElgiZPk8Q",
   },
   {
     id: "banding",
