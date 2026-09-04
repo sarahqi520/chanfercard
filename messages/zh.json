@@ -132,7 +132,8 @@
       "voltage": "电压",
       "bandingWeight": "整机重量",
       "bandingThickness": "产品单本厚度",
-      "bandingDimensions": "外形尺寸"
+      "bandingDimensions": "外形尺寸",
+      "title": "技术规格"
     },
     "keyFeatures": "核心特点",
     "idealFor": "适用场景",
@@ -374,7 +375,12 @@
         ]
       }
     },
-    "viewDetails": "查看详情"
+    "viewDetails": "查看详情",
+    "benefitsTitle": "核心优势",
+    "relatedMachinesTitle": "推荐设备",
+    "viewMachineDetails": "查看设备详情",
+    "faqTitle": "常见问题",
+    "otherSolutionsTitle": "其他包装方式"
   },
   "machines": {
     "title1": "设备",
@@ -457,6 +463,49 @@
           "超宽幅印刷品",
           "多页书本型产品"
         ]
+      },
+      "fkj-600c": {
+        "name": "FKJ-600C 标准型发卡机",
+        "description": "标准型伺服发卡机，适用于宽度不超过 600mm 的片状产品。伺服电机驱动、PLC 控制、触摸屏操作，最高发卡速度约 200 张/分钟，漏卡、无卡自动报警。",
+        "longDescription": [
+          "FKJ-600C 标准型发卡机专为宽片状产品的高速自动发卡而设计。采用伺服电机驱动系统与 PLC 控制器，配合触控界面，操作简便，参数可存储并开机自动运行。",
+          "支持单张、多张及连续发卡模式，可与枕式包装机、立式包装机、封箱机、自动输送机、自动收缩包装机等设备集成，构建完整的自动化包装生产线。"
+        ],
+        "features": [
+          "伺服电机驱动系统 + PLC 控制器 + 触控界面，参数设置与操作均可在触摸屏完成，具备数据存储功能，开机自动运行",
+          "伺服电机最高速度可达 60 米/分钟",
+          "可与全自动包装机对接，按不同包装数量快速自动发卡",
+          "漏卡、无卡自动报警功能，支持发单张、多张及连续发卡模式",
+          "采用光电控制，开启总电源开关后，光电感应自动发卡",
+          "与自动化包装设备匹配，实现一体化自动包装",
+          "系统带有多项功能设定，包括预发卡长度、每次发卡数量、连张或无卡片时自动停机报警等，支持实时在线控制",
+          "结构设计合理，更换易损件简单快捷"
+        ],
+        "applications": [
+          "片状产品：兑奖卡、合格证、卡片、游戏卡、明信片、贺卡、吊牌、挂牌、包装袋、未成形容器、标签、信封、红包、A4 纸、保修卡等",
+          "折叠状产品：说明书、宣传海报及各种不同尺寸的折叠状产品",
+          "本状产品：说明书、卡片书、笔记本、动漫小书、杂志及各种不同尺寸的本状产品"
+        ],
+        "specs": {
+          "Card Thickness": "0.1–3mm",
+          "Card Size": "长 100–500mm；宽 200–600mm",
+          "Feeding Speed": "约 200 张/分钟（与卡片尺寸有关）",
+          "Power": "220V / 800W",
+          "Machine Size": "约（长）888 ×（宽）993 ×（高）558mm",
+          "Weight": "约 65KG"
+        },
+        "relatedMachineIds": [
+          "fkj-100sl",
+          "fkj-200e",
+          "cxfy-80a"
+        ],
+        "relatedSolutionIds": [
+          "candy",
+          "self-adhesive",
+          "four-sides"
+        ],
+        "ctaTitle": "对 FKJ-600C 标准型发卡机感兴趣？",
+        "ctaDescription": "获取 FKJ-600C 的详细规格、报价及产线集成指导。"
       },
       "cxfy-80a": {
         "name": "单头吸卡送料机",
@@ -689,7 +738,9 @@
       "Working Radius": "工作半径",
       "Stacking Height": "堆叠高度",
       "Pallet Size": "托盘尺寸"
-    }
+    },
+    "relatedSolutionsTitle": "应用该设备的包装方案",
+    "relatedMachinesTitle": "相关设备"
   },
   "about": {
     "title1": "关于",
@@ -1395,7 +1446,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "对FKJ-100KP摩擦送料机感兴趣？",
-      "ctaDescription": "获取FKJ-100KP的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取FKJ-100KP的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "fkj-200e": {
       "seoTitle": "FKJ-200E 自动摩擦送料机 | CHANFER",
@@ -1417,7 +1470,9 @@
         "banding"
       ],
       "ctaTitle": "对FKJ-200E送料机感兴趣？",
-      "ctaDescription": "获取FKJ-200E的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取FKJ-200E的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "fkj-300e": {
       "seoTitle": "FKJ-300E 自动摩擦送料机 | CHANFER",
@@ -1439,7 +1494,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "对FKJ-300E送料机感兴趣？",
-      "ctaDescription": "获取FKJ-300E的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取FKJ-300E的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "fkj-420e": {
       "seoTitle": "FKJ-420E 大幅面摩擦送料机 | CHANFER",
@@ -1461,7 +1518,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "对FKJ-420E送料机感兴趣？",
-      "ctaDescription": "获取FKJ-420E的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取FKJ-420E的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "three-head-suction": {
       "seoTitle": "三头吸卡送料机 | CHANFER",
@@ -1482,7 +1541,9 @@
         "four-sides"
       ],
       "ctaTitle": "对三头吸卡送料机感兴趣？",
-      "ctaDescription": "获取三头吸卡送料机的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取三头吸卡送料机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "four-head-suction": {
       "seoTitle": "四头吸卡送料机 | CHANFER",
@@ -1503,7 +1564,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "对四头吸卡送料机感兴趣？",
-      "ctaDescription": "获取四头吸卡送料机的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取四头吸卡送料机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "card-dispensing-matching": {
       "seoTitle": "卡牌发卡配卡机 | CHANFER",
@@ -1524,7 +1587,9 @@
         "four-sides"
       ],
       "ctaTitle": "对卡牌发卡配卡机感兴趣？",
-      "ctaDescription": "获取卡牌发卡配卡机的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取卡牌发卡配卡机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "cxfy-80a": {
       "seoTitle": "CXFY-80A 单头吸卡送料机 | CHANFER",
@@ -1546,7 +1611,9 @@
         "four-sides"
       ],
       "ctaTitle": "对CXFY-80A单头吸卡送料机感兴趣？",
-      "ctaDescription": "获取CXFY-80A的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取CXFY-80A的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "zs-220x": {
       "seoTitle": "ZS-230X 枕式包装机 | CHANFER",
@@ -1567,7 +1634,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "对ZS-230X枕式包装机感兴趣？",
-      "ctaDescription": "获取ZS-230X的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取ZS-230X的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "sbf-250": {
       "seoTitle": "SBF-250 四边封包装机 | CHANFER",
@@ -1587,7 +1656,9 @@
         "self-adhesive"
       ],
       "ctaTitle": "对SBF-250四边封包装机感兴趣？",
-      "ctaDescription": "获取SBF-250的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取SBF-250的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "qdzd-2130": {
       "seoTitle": "QDZD-2130 自粘条包装机 | CHANFER",
@@ -1607,7 +1678,9 @@
         "four-sides"
       ],
       "ctaTitle": "对QDZD-2130自粘条包装机感兴趣？",
-      "ctaDescription": "获取QDZD-2130的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取QDZD-2130的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "pof-shrink": {
       "seoTitle": "POF热收缩包装机 | CHANFER",
@@ -1627,7 +1700,9 @@
         "candy"
       ],
       "ctaTitle": "对POF热收缩包装机感兴趣？",
-      "ctaDescription": "获取POF热收缩包装机的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取POF热收缩包装机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "cartoning": {
       "seoTitle": "自动装盒机 | CHANFER",
@@ -1651,7 +1726,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "对自动装盒机感兴趣？",
-      "ctaDescription": "获取自动装盒机的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取自动装盒机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "carton-forming": {
       "seoTitle": "纸盒成型机 | CHANFER",
@@ -1674,7 +1751,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "对纸盒成型机感兴趣？",
-      "ctaDescription": "获取纸盒成型机的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取纸盒成型机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "h-type-sealer": {
       "seoTitle": "H型封箱机 | CHANFER",
@@ -1698,7 +1777,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "对H型封箱机感兴趣？",
-      "ctaDescription": "获取H型封箱机的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取H型封箱机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "palletizing-robot": {
       "seoTitle": "协作码垛机器人 | CHANFER",
@@ -1722,7 +1803,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "对协作码垛机器人感兴趣？",
-      "ctaDescription": "获取协作码垛机器人的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取协作码垛机器人的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     },
     "ai-visual": {
       "seoTitle": "AI视觉检测系统 | CHANFER",
@@ -1744,7 +1827,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "对AI视觉检测系统感兴趣？",
-      "ctaDescription": "获取AI视觉检测系统的详细规格、价格和包装线集成指导。"
+      "ctaDescription": "获取AI视觉检测系统的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
     }
   },
   "media": {

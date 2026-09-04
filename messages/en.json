@@ -139,7 +139,8 @@
       "voltage": "Voltage",
       "bandingWeight": "Total Weight",
       "bandingThickness": "Product Thickness",
-      "bandingDimensions": "Overall Dimensions"
+      "bandingDimensions": "Overall Dimensions",
+      "title": "Technical Specifications"
     },
     "keyFeatures": "Key Features",
     "idealFor": "Ideal For",
@@ -381,7 +382,12 @@
         ]
       }
     },
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "benefitsTitle": "Key Benefits",
+    "relatedMachinesTitle": "Recommended Machines for This Solution",
+    "viewMachineDetails": "View Machine Details",
+    "faqTitle": "Frequently Asked Questions",
+    "otherSolutionsTitle": "Other Packaging Methods"
   },
   "machines": {
     "title1": "Machine",
@@ -464,6 +470,49 @@
           "Extra-wide printed materials",
           "Multi-page book-type products"
         ]
+      },
+      "fkj-600c": {
+        "name": "FKJ-600C Standard Card Dispenser",
+        "description": "Standard servo card dispenser for sheet products up to 600mm wide. Servo motor drive with PLC control and touch-screen operation, up to 200 cards/min, with automatic alarm for missed or missing cards.",
+        "longDescription": [
+          "The FKJ-600C standard card dispenser is designed for high-speed automatic feeding of wide sheet products. It uses a servo drive system with PLC controller and touch-screen interface for easy setup, parameter storage and automatic startup operation.",
+          "It supports single, multiple and continuous card-dispensing modes, and integrates with pillow-type packaging machines, vertical packaging machines, case sealers, automatic conveyors, shrink wrapping machines and more to build complete automated packaging lines."
+        ],
+        "features": [
+          "Servo motor drive + PLC controller + touch-screen interface; all settings and operations completed on screen, with data memory and automatic startup operation",
+          "Servo motor maximum speed up to 60 m/min",
+          "Interfaces with fully automatic packaging machines for fast automatic dispensing by pack quantity",
+          "Automatic alarm for missed or missing cards; supports single, multiple and continuous dispensing modes",
+          "Photoelectric control: automatic dispensing triggered by sensor after main power is turned on",
+          "Matches automated packaging equipment to realize integrated automatic packaging",
+          "Multiple function settings including preset dispensing length, cards per cycle, automatic stop and alarm for double or empty cards, real-time online control",
+          "Rational structure design; quick and easy replacement of wear parts"
+        ],
+        "applications": [
+          "Sheet products: redemption cards, certificates, cards, game cards, postcards, greeting cards, hangtags, labels, packaging bags, unformed cartons, labels, envelopes, red packets, A4 sheets, warranty cards, etc.",
+          "Folded products: manuals, posters and folded items in various sizes",
+          "Booklet products: manuals, card books, notebooks, comics and magazines in various sizes"
+        ],
+        "specs": {
+          "Card Thickness": "0.1–3mm",
+          "Card Size": "L100–500mm × W200–600mm",
+          "Feeding Speed": "approx. 200 pcs/min (depends on card size)",
+          "Power": "220V / 800W",
+          "Machine Size": "approx. L888 × W993 × H558mm",
+          "Weight": "approx. 65KG"
+        },
+        "relatedMachineIds": [
+          "fkj-100sl",
+          "fkj-200e",
+          "cxfy-80a"
+        ],
+        "relatedSolutionIds": [
+          "candy",
+          "self-adhesive",
+          "four-sides"
+        ],
+        "ctaTitle": "Interested in the FKJ-600C Standard Card Dispenser?",
+        "ctaDescription": "Get detailed specifications, pricing and line integration guidance for the FKJ-600C."
       },
       "cxfy-80a": {
         "name": "Single-Head Planetary Card Suction Feeder",
@@ -696,7 +745,9 @@
       "Working Radius": "Working Radius",
       "Stacking Height": "Stacking Height",
       "Pallet Size": "Pallet Size"
-    }
+    },
+    "relatedSolutionsTitle": "Used in These Packaging Solutions",
+    "relatedMachinesTitle": "Related Machines"
   },
   "about": {
     "title1": "About",
@@ -1402,7 +1453,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interested in the FKJ-100KP Friction Feeder?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-100KP in your packaging line."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-100KP in your packaging line.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "fkj-200e": {
       "seoTitle": "FKJ-200E Medium-Format Friction Feeder | CHANFER",
@@ -1422,7 +1475,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interested in the FKJ-200E Friction Feeder?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-200E in your packaging line."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-200E in your packaging line.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "fkj-300e": {
       "seoTitle": "FKJ-300E Large-Format Friction Feeder | CHANFER",
@@ -1440,7 +1495,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interested in the FKJ-300E Friction Feeder?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-300E in your packaging line."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-300E in your packaging line.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "fkj-420e": {
       "seoTitle": "FKJ-420E Extra-Wide Friction Feeder | CHANFER",
@@ -1457,7 +1514,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interested in the FKJ-420E Friction Feeder?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-420E in your packaging line."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the FKJ-420E in your packaging line.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "three-head-suction": {
       "seoTitle": "Three-Head Planetary Card Suction Machine | CHANFER",
@@ -1477,7 +1536,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interested in the Three-Head Suction Machine?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the Three-Head Planetary Suction Machine."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the Three-Head Planetary Suction Machine.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "four-head-suction": {
       "seoTitle": "Four-Head Planetary Card Suction Machine | CHANFER",
@@ -1495,7 +1556,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interested in the Four-Head Suction Machine?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the Four-Head Planetary Suction Machine."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the Four-Head Planetary Suction Machine.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "card-dispensing-matching": {
       "seoTitle": "CDM-100 Card Dispensing Matching System | CHANFER",
@@ -1515,7 +1578,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interested in the CDM-100 Card Dispensing System?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the CDM-100 intelligent card sorting system."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the CDM-100 intelligent card sorting system.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "cxfy-80a": {
       "seoTitle": "CXFY-80A Single-Head Planetary Card Suction Feeder | CHANFER",
@@ -1537,7 +1602,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interested in the CXFY-80A Single-Head Card Suction Feeder?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the CXFY-80A."
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the CXFY-80A.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "zs-220x": {
       "seoTitle": "ZS-230X High-Speed Servo Packaging Machine | CHANFER",
@@ -1557,7 +1624,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interested in the ZS-230X Packaging Machine?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the ZS-230X servo packaging machine."
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the ZS-230X servo packaging machine.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "sbf-250": {
       "seoTitle": "SBF-250 Four-Side Sealing Servo Machine | CHANFER",
@@ -1575,7 +1644,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interested in the SBF-250 Four-Side Sealer?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the SBF-250 four-side sealing machine."
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the SBF-250 four-side sealing machine.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "qdzd-2130": {
       "seoTitle": "QDZD-2130 Automatic Bagging Machine | CHANFER",
@@ -1592,7 +1663,9 @@
         "self-adhesive"
       ],
       "ctaTitle": "Interested in the QDZD-2130 Bagging Machine?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the QDZD-2130 automatic bagging machine."
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the QDZD-2130 automatic bagging machine.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "pof-shrink": {
       "seoTitle": "POF Film Wrapping & Sealing Machine | CHANFER",
@@ -1609,7 +1682,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interested in the POF Wrapping Machine?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the POF-Series shrink wrapping machine."
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the POF-Series shrink wrapping machine.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "cartoning": {
       "seoTitle": "BX-Series Automatic Box Packing Machine | CHANFER",
@@ -1631,7 +1706,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interested in the BX-Series Cartoning Machine?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the BX-Series automatic cartoning machine."
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the BX-Series automatic cartoning machine.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "carton-forming": {
       "seoTitle": "CF-Series Carton Forming & Sealing Machine | CHANFER",
@@ -1652,7 +1729,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interested in the CF-Series Carton Former?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the CF-Series carton forming machine."
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the CF-Series carton forming machine.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "h-type-sealer": {
       "seoTitle": "HT-Series H-Type Carton Sealing Machine | CHANFER",
@@ -1674,7 +1753,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interested in the HT-Series Carton Sealer?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the HT-Series H-type carton sealer."
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the HT-Series H-type carton sealer.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "palletizing-robot": {
       "seoTitle": "KKMD-30L Collaborative Palletizing Robot | CHANFER",
@@ -1696,7 +1777,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interested in the KKMD-30L Palletizing Robot?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the KKMD-30L collaborative palletizing robot."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the KKMD-30L collaborative palletizing robot.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     },
     "ai-visual": {
       "seoTitle": "KKR-C02 AI Card Visual Inspection System | CHANFER",
@@ -1716,7 +1799,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interested in the KKR-C02 AI Inspection System?",
-      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the KKR-C02 AI visual inspection system."
+      "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the KKR-C02 AI visual inspection system.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     }
   },
   "media": {

@@ -132,7 +132,8 @@
       "voltage": "Tensione",
       "bandingWeight": "Peso totale",
       "bandingThickness": "Spessore del prodotto",
-      "bandingDimensions": "Dimensioni esterne"
+      "bandingDimensions": "Dimensioni esterne",
+      "title": "Specifiche tecniche"
     },
     "keyFeatures": "Caratteristiche Principali",
     "idealFor": "Ideale Per",
@@ -374,7 +375,12 @@
         ]
       }
     },
-    "viewDetails": "Vedi Dettagli"
+    "viewDetails": "Vedi Dettagli",
+    "benefitsTitle": "Vantaggi chiave",
+    "relatedMachinesTitle": "Macchine consigliate per questa soluzione",
+    "viewMachineDetails": "Visualizza dettagli macchina",
+    "faqTitle": "Domande frequenti",
+    "otherSolutionsTitle": "Altri metodi di confezionamento"
   },
   "machines": {
     "title1": "Catalogo",
@@ -457,6 +463,49 @@
           "Materiali stampati extra-larghi",
           "Prodotti tipo libro multipagina"
         ]
+      },
+      "fkj-600c": {
+        "name": "Erogatore di Carte FKJ-600C",
+        "description": "Erogatore di carte servo standard per prodotti in foglio fino a 600 mm di larghezza. Azionamento servo con controllo PLC e touch screen, fino a 200 carte/min, con allarme automatico per carte mancanti.",
+        "longDescription": [
+          "L'erogatore di carte FKJ-600C è progettato per l'erogazione automatica ad alta velocità di prodotti in foglio larghi. Utilizza un sistema di azionamento servo con controllore PLC e interfaccia touch screen per una configurazione semplice, memorizzazione dei parametri e avvio automatico.",
+          "Supporta modalità di erogazione singola, multipla e continua, e si integra con confezionatrici a cuscino, verticali, sigillatrici di scatole, nastri trasportatori automatici, termoretraibili e altro per realizzare linee di confezionamento completamente automatizzate."
+        ],
+        "features": [
+          "Azionamento servo + controllore PLC + touch screen; tutte le impostazioni e le operazioni sullo schermo, con memoria dati e funzionamento automatico all'avvio",
+          "Velocità massima del servo fino a 60 m/min",
+          "Interfacciamento con confezionatrici completamente automatiche per erogazione automatica rapida in base alla quantità per confezione",
+          "Allarme automatico per carte mancanti; modalità di erogazione singola, multipla e continua",
+          "Controllo fotoelettrico: erogazione automatica tramite sensore dopo l'accensione dell'alimentazione principale",
+          "Compatibile con attrezzature di confezionamento automatizzate per un confezionamento integrato automatico",
+          "Numerose impostazioni di funzione, inclusa lunghezza di erogazione preimpostata, carte per ciclo, arresto automatico e allarme per carte doppie o assenti, controllo online in tempo reale",
+          "Design strutturale razionale; sostituzione rapida e semplice delle parti soggette a usura"
+        ],
+        "applications": [
+          "Prodotti in foglio: carte premio, certificati, carte, carte da gioco, cartoline, biglietti d'auguri, etichette pendenti, etichette, sacchetti, cartoni non formati, buste, buste rosse, carta A4, carte di garanzia, ecc.",
+          "Prodotti piegati: manuali, poster e articoli piegati di varie dimensioni",
+          "Prodotti in libretto: manuali, libri di carte, quaderni, fumetti e riviste di varie dimensioni"
+        ],
+        "specs": {
+          "Card Thickness": "0,1–3 mm",
+          "Card Size": "L100–500 mm × L200–600 mm",
+          "Feeding Speed": "circa 200 pz/min (dipende dalle dimensioni della carta)",
+          "Power": "220 V / 800 W",
+          "Machine Size": "circa L888 × L993 × H558 mm",
+          "Weight": "circa 65 kg"
+        },
+        "relatedMachineIds": [
+          "fkj-100sl",
+          "fkj-200e",
+          "cxfy-80a"
+        ],
+        "relatedSolutionIds": [
+          "candy",
+          "self-adhesive",
+          "four-sides"
+        ],
+        "ctaTitle": "Interessato all'Erogatore di Carte FKJ-600C?",
+        "ctaDescription": "Ottieni specifiche dettagliate, prezzi e indicazioni di integrazione per il FKJ-600C."
       },
       "cxfy-80a": {
         "name": "Alimentatore a Ventosa Planetario Monotesta per Carte",
@@ -689,7 +738,9 @@
       "Working Radius": "Raggio di lavoro",
       "Stacking Height": "Altezza impilaggio",
       "Pallet Size": "Dimensione pallet"
-    }
+    },
+    "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+    "relatedMachinesTitle": "Macchine correlate"
   },
   "about": {
     "title1": "Chi",
@@ -1375,7 +1426,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interessati all'Alimentatore FKJ-100KP?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione per l'FKJ-100KP nella vostra linea di confezionamento."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione per l'FKJ-100KP nella vostra linea di confezionamento.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "fkj-200e": {
       "seoTitle": "Alimentatore a Frizione Economico FKJ-200E | CHANFER",
@@ -1397,7 +1450,9 @@
         "banding"
       ],
       "ctaTitle": "Interessati all'Alimentatore FKJ-200E?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "fkj-300e": {
       "seoTitle": "Alimentatore a Frizione Media Velocità FKJ-300E | CHANFER",
@@ -1419,7 +1474,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interessati all'Alimentatore FKJ-300E?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "fkj-420e": {
       "seoTitle": "Alimentatore a Frizione Grande Formato FKJ-420E | CHANFER",
@@ -1441,7 +1498,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interessati all'Alimentatore FKJ-420E?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "three-head-suction": {
       "seoTitle": "Alimentatore a Tre Teste ad Aspirazione | CHANFER",
@@ -1462,7 +1521,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interessati all'Alimentatore a Tre Teste?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "four-head-suction": {
       "seoTitle": "Alimentatore a Quattro Teste ad Aspirazione | CHANFER",
@@ -1483,7 +1544,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interessati all'Alimentatore a Quattro Teste?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "card-dispensing-matching": {
       "seoTitle": "Macchina Erogazione e Abbinamento Carte | CHANFER",
@@ -1504,7 +1567,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interessati alla Macchina di Erogazione Carte?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "cxfy-80a": {
       "seoTitle": "Alimentatore a Ventosa Planetario Monotesta CXFY-80A per Carte | CHANFER",
@@ -1526,7 +1591,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interessato all'Alimentatore a Ventosa Monotesta CXFY-80A?",
-      "ctaDescription": "Ottieni specifiche dettagliate, prezzi e indicazioni di integrazione in linea per il CXFY-80A."
+      "ctaDescription": "Ottieni specifiche dettagliate, prezzi e indicazioni di integrazione in linea per il CXFY-80A.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "zs-220x": {
       "seoTitle": "Macchina Flow Wrapping ZS-230X | CHANFER",
@@ -1547,7 +1614,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interessati alla Macchina ZS-230X?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "sbf-250": {
       "seoTitle": "Macchina Quattro Lati Sigillati SBF-250 | CHANFER",
@@ -1567,7 +1636,9 @@
         "self-adhesive"
       ],
       "ctaTitle": "Interessati alla Macchina SBF-250?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "qdzd-2130": {
       "seoTitle": "Macchina Striscia Autoadesiva QDZD-2130 | CHANFER",
@@ -1587,7 +1658,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interessati alla Macchina QDZD-2130?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "pof-shrink": {
       "seoTitle": "Macchina Termoretraente POF | CHANFER",
@@ -1607,7 +1680,9 @@
         "candy"
       ],
       "ctaTitle": "Interessati alla Macchina Termoretraente POF?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "cartoning": {
       "seoTitle": "Macchina di Cartonaggio Automatica | CHANFER",
@@ -1631,7 +1706,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interessati alla Cartonatrice?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "carton-forming": {
       "seoTitle": "Formatrice di Scatole | CHANFER",
@@ -1654,7 +1731,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interessati alla Formatrice di Scatole?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "h-type-sealer": {
       "seoTitle": "Sigillatrice a H | CHANFER",
@@ -1678,7 +1757,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interessati alla Sigillatrice a H?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "palletizing-robot": {
       "seoTitle": "Robot di Pallettizzazione Collaborativo | CHANFER",
@@ -1702,7 +1783,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interessati al Robot di Pallettizzazione?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     },
     "ai-visual": {
       "seoTitle": "Sistema di Ispezione Visiva AI | CHANFER",
@@ -1724,7 +1807,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interessati al Sistema AI?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
     }
   },
   "media": {

@@ -132,7 +132,8 @@
       "voltage": "電圧",
       "bandingWeight": "総重量",
       "bandingThickness": "製品厚み",
-      "bandingDimensions": "外形寸法"
+      "bandingDimensions": "外形寸法",
+      "title": "技術仕様"
     },
     "keyFeatures": "主な特徴",
     "idealFor": "最適用途",
@@ -374,7 +375,12 @@
         ]
       }
     },
-    "viewDetails": "詳細を見る"
+    "viewDetails": "詳細を見る",
+    "benefitsTitle": "主なメリット",
+    "relatedMachinesTitle": "このソリューションにおすすめの機器",
+    "viewMachineDetails": "機器詳細を見る",
+    "faqTitle": "よくある質問",
+    "otherSolutionsTitle": "その他の包装方式"
   },
   "machines": {
     "title1": "機械",
@@ -457,6 +463,49 @@
           "超ワイド印刷物",
           "多ページ本型製品"
         ]
+      },
+      "fkj-600c": {
+        "name": "FKJ-600C 標準型カード供給機",
+        "description": "最大600mm幅のシート状製品に対応する標準サーボ式カード供給機。サーボモータ駆動、PLC制御、タッチパネル操作で、最大約200枚/分の供給速度。カード欠け・無カード時の自動アラーム機能付き。",
+        "longDescription": [
+          "FKJ-600C標準型カード供給機は、幅広いシート状製品の高速自動供給を目的に設計されています。サーボ駆動システムとPLCコントローラ、タッチスクリーンインターフェースにより、簡単な設定、パラメータ保存、起動時の自動運転を実現します。",
+          "単発、複数枚、連続供給モードに対応し、枕式包装機、縦型包装機、ケースシーラー、自動コンベア、自動収縮包装機などと連携して、完全自動化された包装ラインを構築します。"
+        ],
+        "features": [
+          "サーボモータ駆動＋PLCコントローラ＋タッチスクリーン；画面での設定・操作、データ保存機能、起動時自動運転",
+          "サーボモータ最高速度60m/分",
+          "全自動包装機と接続し、包装数量に応じた高速自動供給",
+          "カード欠け・無カード時の自動アラーム；単発、複数枚、連続供給モード",
+          "光電制御；主電源投入後、センサー感知で自動供給",
+          "自動化包装設備とマッチングし、一体化自動包装を実現",
+          "予備供給長、1回供給枚数、重送・無カード時の自動停止アラームなど多機能設定、リアルタイムオンライン制御",
+          "構造設計が合理的で、消耗部品の交換が簡単かつ迅速"
+        ],
+        "applications": [
+          "シート製品：懸賞券、合格証、カード、ゲームカード、葉書、グリーティングカード、提札、ラベル、包装袋、未成形容器、封筒、红包、A4用紙、保証書など",
+          "折り畳み製品：説明書、ポスター、各種サイズの折り畳み製品",
+          "小冊子製品：説明書、カードブック、ノート、漫画、各種サイズの雑誌"
+        ],
+        "specs": {
+          "Card Thickness": "0.1–3mm",
+          "Card Size": "長さ100–500mm × 幅200–600mm",
+          "Feeding Speed": "約200枚/分（カードサイズにより異なる）",
+          "Power": "220V / 800W",
+          "Machine Size": "約 長さ888 × 幅993 × 高さ558mm",
+          "Weight": "約65KG"
+        },
+        "relatedMachineIds": [
+          "fkj-100sl",
+          "fkj-200e",
+          "cxfy-80a"
+        ],
+        "relatedSolutionIds": [
+          "candy",
+          "self-adhesive",
+          "four-sides"
+        ],
+        "ctaTitle": "FKJ-600C 標準型カード供給機についてお問い合わせ",
+        "ctaDescription": "FKJ-600Cの詳細仕様、価格、ライン統合ガイドをご案内します。"
       },
       "cxfy-80a": {
         "name": "片側吸引式単頭カード供給機",
@@ -689,7 +738,9 @@
       "Working Radius": "作業半径",
       "Stacking Height": "積上げ高さ",
       "Pallet Size": "パレットサイズ"
-    }
+    },
+    "relatedSolutionsTitle": "これらの包装ソリューションで使用",
+    "relatedMachinesTitle": "関連機器"
   },
   "about": {
     "title1": "CHANFER",
@@ -1340,7 +1391,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "FKJ-100KPに興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "fkj-200e": {
       "seoTitle": "経済型摩擦フィーダー FKJ-200E | CHANFER",
@@ -1361,7 +1414,9 @@
         "banding"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "fkj-300e": {
       "seoTitle": "中速摩擦フィーダー FKJ-300E | CHANFER",
@@ -1382,7 +1437,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "fkj-420e": {
       "seoTitle": "大判摩擦フィーダー FKJ-420E | CHANFER",
@@ -1403,7 +1460,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "three-head-suction": {
       "seoTitle": "三頭吸引フィーダー | CHANFER",
@@ -1423,7 +1482,9 @@
         "four-sides"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "four-head-suction": {
       "seoTitle": "四頭吸引フィーダー | CHANFER",
@@ -1443,7 +1504,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "card-dispensing-matching": {
       "seoTitle": "カード排出分類機 | CHANFER",
@@ -1463,7 +1526,9 @@
         "four-sides"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "cxfy-80a": {
       "seoTitle": "CXFY-80A 片側吸引式単頭カード供給機 | CHANFER",
@@ -1485,7 +1550,9 @@
         "four-sides"
       ],
       "ctaTitle": "CXFY-80A 片側吸引式単頭カード供給機についてのお問い合わせ",
-      "ctaDescription": "CXFY-80Aの詳細仕様、価格、ライン統合に関するご案内をお届けします。"
+      "ctaDescription": "CXFY-80Aの詳細仕様、価格、ライン統合に関するご案内をお届けします。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "zs-220x": {
       "seoTitle": "フローラッピング機 ZS-230X | CHANFER",
@@ -1505,7 +1572,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "sbf-250": {
       "seoTitle": "四面シール機 SBF-250 | CHANFER",
@@ -1524,7 +1593,9 @@
         "self-adhesive"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "qdzd-2130": {
       "seoTitle": "自己粘着機 QDZD-2130 | CHANFER",
@@ -1543,7 +1614,9 @@
         "four-sides"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "pof-shrink": {
       "seoTitle": "POF熱収縮機 | CHANFER",
@@ -1562,7 +1635,9 @@
         "candy"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "cartoning": {
       "seoTitle": "自動カートニング機 | CHANFER",
@@ -1585,7 +1660,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "carton-forming": {
       "seoTitle": "カートン成形機 | CHANFER",
@@ -1607,7 +1684,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "h-type-sealer": {
       "seoTitle": "H型封緘機 | CHANFER",
@@ -1630,7 +1709,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "palletizing-robot": {
       "seoTitle": "協働パレタイジングロボット | CHANFER",
@@ -1653,7 +1734,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     },
     "ai-visual": {
       "seoTitle": "AIビジョン検査システム | CHANFER",
@@ -1674,7 +1757,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "興味？",
-      "ctaDescription": "仕様と価格。"
+      "ctaDescription": "仕様と価格。",
+      "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
+      "relatedMachinesTitle": "関連機器"
     }
   },
   "media": {

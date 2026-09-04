@@ -132,7 +132,8 @@
       "voltage": "Tension",
       "bandingWeight": "Poids total",
       "bandingThickness": "Épaisseur du produit",
-      "bandingDimensions": "Dimensions extérieures"
+      "bandingDimensions": "Dimensions extérieures",
+      "title": "Spécifications techniques"
     },
     "keyFeatures": "Caractéristiques principales",
     "idealFor": "Idéal pour",
@@ -374,7 +375,12 @@
         ]
       }
     },
-    "viewDetails": "Voir Détails"
+    "viewDetails": "Voir Détails",
+    "benefitsTitle": "Avantages clés",
+    "relatedMachinesTitle": "Machines recommandées pour cette solution",
+    "viewMachineDetails": "Voir les détails de la machine",
+    "faqTitle": "Questions fréquemment posées",
+    "otherSolutionsTitle": "Autres méthodes d'emballage"
   },
   "machines": {
     "title1": "Catalogue",
@@ -457,6 +463,49 @@
           "Imprimés extra-larges",
           "Produits type livre multipages"
         ]
+      },
+      "fkj-600c": {
+        "name": "Distributeur de Cartes FKJ-600C",
+        "description": "Distributeur de cartes servo standard pour produits en feuille jusqu'à 600 mm de large. Entraînement servo avec commande API et écran tactile, jusqu'à 200 cartes/min, avec alarme automatique en cas de cartes manquantes.",
+        "longDescription": [
+          "Le distributeur de cartes FKJ-600C est conçu pour la distribution automatique à grande vitesse de produits en feuille larges. Il utilise un système d'entraînement servo avec contrôleur API et interface tactile pour une configuration simple, le stockage des paramètres et le démarrage automatique.",
+          "Il prend en charge les modes de distribution simple, multiple et continu, et s'intègre aux machines d'emballage type coussin, verticales, fermetures de cartons, convoyeurs automatiques, machines de thermorétraction et plus encore pour constituer des lignes d'emballage entièrement automatisées."
+        ],
+        "features": [
+          "Entraînement servo + contrôleur API + écran tactile; tous les réglages et opérations à l'écran, avec mémorisation des données et fonctionnement automatique au démarrage",
+          "Vitesse maximale du servo jusqu'à 60 m/min",
+          "Interface avec machines d'emballage entièrement automatiques pour distribution automatique rapide selon la quantité par paquet",
+          "Alarme automatique en cas de cartes manquantes; modes de distribution simple, multiple et continu",
+          "Contrôle photoélectrique : distribution automatique par capteur après mise sous tension principale",
+          "Compatible avec les équipements d'emballage automatisés pour un emballage intégré automatique",
+          "Nombreux réglages de fonction, y compris longueur de distribution préréglée, cartes par cycle, arrêt automatique et alarme en cas de doubles ou de cartes absentes, contrôle en ligne en temps réel",
+          "Conception structurelle rationnelle; remplacement rapide et facile des pièces d'usure"
+        ],
+        "applications": [
+          "Produits en feuille : cartes de récompense, certificats, cartes, cartes de jeu, cartes postales, cartes de vœux, étiquettes volantes, étiquettes, sachets, cartons non formés, enveloppes, enveloppes rouges, papier A4, cartes de garantie, etc.",
+          "Produits pliés : manuels, affiches et articles pliés de diverses tailles",
+          "Produits en livret : manuels, livres de cartes, carnets, bandes dessinées et magazines de diverses tailles"
+        ],
+        "specs": {
+          "Card Thickness": "0,1–3 mm",
+          "Card Size": "L100–500 mm × l200–600 mm",
+          "Feeding Speed": "env. 200 pcs/min (selon la taille de la carte)",
+          "Power": "220 V / 800 W",
+          "Machine Size": "env. L888 × l993 × H558 mm",
+          "Weight": "env. 65 kg"
+        },
+        "relatedMachineIds": [
+          "fkj-100sl",
+          "fkj-200e",
+          "cxfy-80a"
+        ],
+        "relatedSolutionIds": [
+          "candy",
+          "self-adhesive",
+          "four-sides"
+        ],
+        "ctaTitle": "Intéressé par le Distributeur de Cartes FKJ-600C ?",
+        "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration pour le FKJ-600C."
       },
       "cxfy-80a": {
         "name": "Distributeur de Cartes par Aspiration à Tête Simple Planétaire",
@@ -689,7 +738,9 @@
       "Working Radius": "Rayon de travail",
       "Stacking Height": "Hauteur de palettisation",
       "Pallet Size": "Taille de palette"
-    }
+    },
+    "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+    "relatedMachinesTitle": "Machines associées"
   },
   "about": {
     "title1": "À propos de",
@@ -1340,7 +1391,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Intéressé par le FKJ-100KP?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "fkj-200e": {
       "seoTitle": "Distributeur Économique FKJ-200E | CHANFER",
@@ -1361,7 +1414,9 @@
         "banding"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "fkj-300e": {
       "seoTitle": "Distributeur Vitesse Moyenne FKJ-300E | CHANFER",
@@ -1382,7 +1437,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "fkj-420e": {
       "seoTitle": "Distributeur Grand Format FKJ-420E | CHANFER",
@@ -1403,7 +1460,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "three-head-suction": {
       "seoTitle": "Distributeur à Trois Têtes | CHANFER",
@@ -1423,7 +1482,9 @@
         "four-sides"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "four-head-suction": {
       "seoTitle": "Distributeur à Quatre Têtes | CHANFER",
@@ -1443,7 +1504,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "card-dispensing-matching": {
       "seoTitle": "Machine de Distribution et Tri | CHANFER",
@@ -1463,7 +1526,9 @@
         "four-sides"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "cxfy-80a": {
       "seoTitle": "Distributeur de Cartes par Aspiration CXFY-80A à Tête Simple Planétaire | CHANFER",
@@ -1485,7 +1550,9 @@
         "four-sides"
       ],
       "ctaTitle": "Intéressé par le Distributeur de Cartes CXFY-80A à Tête Simple?",
-      "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration en ligne pour le CXFY-80A."
+      "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration en ligne pour le CXFY-80A.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "zs-220x": {
       "seoTitle": "Machine Flow Wrapping ZS-230X | CHANFER",
@@ -1505,7 +1572,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "sbf-250": {
       "seoTitle": "Machine Quatre Côtés SBF-250 | CHANFER",
@@ -1524,7 +1593,9 @@
         "self-adhesive"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "qdzd-2130": {
       "seoTitle": "Machine Bande Auto-adhésive QDZD-2130 | CHANFER",
@@ -1543,7 +1614,9 @@
         "four-sides"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "pof-shrink": {
       "seoTitle": "Machine Thermorétractable POF | CHANFER",
@@ -1562,7 +1635,9 @@
         "candy"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "cartoning": {
       "seoTitle": "Cartonneuse Automatique | CHANFER",
@@ -1585,7 +1660,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "carton-forming": {
       "seoTitle": "Formeuse de Cartons | CHANFER",
@@ -1607,7 +1684,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "h-type-sealer": {
       "seoTitle": "Fermeuse en H | CHANFER",
@@ -1630,7 +1709,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "palletizing-robot": {
       "seoTitle": "Robot de Palettisation Collaboratif | CHANFER",
@@ -1653,7 +1734,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     },
     "ai-visual": {
       "seoTitle": "Système d'Inspection Visuelle AI | CHANFER",
@@ -1674,7 +1757,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix."
+      "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
     }
   },
   "media": {

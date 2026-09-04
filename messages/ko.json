@@ -132,7 +132,8 @@
       "voltage": "전압",
       "bandingWeight": "총 중량",
       "bandingThickness": "제품 두께",
-      "bandingDimensions": "외형 치수"
+      "bandingDimensions": "외형 치수",
+      "title": "기술 사양"
     },
     "keyFeatures": "주요 특징",
     "idealFor": "적합 용도",
@@ -374,7 +375,12 @@
         ]
       }
     },
-    "viewDetails": "상세 보기"
+    "viewDetails": "상세 보기",
+    "benefitsTitle": "핵심 장점",
+    "relatedMachinesTitle": "이 솔루션에 권장하는 장비",
+    "viewMachineDetails": "장비 상세 보기",
+    "faqTitle": "자주 묻는 질문",
+    "otherSolutionsTitle": "기타 포장 방식"
   },
   "machines": {
     "title1": "기계",
@@ -457,6 +463,49 @@
           "초광폭 인쇄물",
           "다페이지 책형 제품"
         ]
+      },
+      "fkj-600c": {
+        "name": "FKJ-600C 표준형 카드 공급기",
+        "description": "최대 600mm 폭의 시트 제품용 표준 서보 카드 공급기입니다. 서보 모터 구동, PLC 제어, 터치스크린 조작으로 최대 약 200장/분의 공급 속도를 지원하며, 카드 누락 및 무카드 시 자동 알람 기능이 있습니다.",
+        "longDescription": [
+          "FKJ-600C 표준형 카드 공급기는 폭이 넓은 시트 제품의 고속 자동 공급을 위해 설계되었습니다. 서보 구동 시스템과 PLC 컨트롤러, 터치스크린 인터페이스로 간편한 설정, 파라미터 저장, 시작 시 자동 운전을 구현합니다.",
+          "단발, 다발, 연속 공급 모드를 지원하며, 베개형 포장기, 수직형 포장기, 케이스 실러, 자동 컨베이어, 자동 수축 포장기 등과 연동하여 완전 자동화된 포장 라인을 구축합니다."
+        ],
+        "features": [
+          "서보 모터 구동 + PLC 컨트롤러 + 터치스크린; 화면에서 모든 설정 및 조작, 데이터 저장 기능, 시작 시 자동 운전",
+          "서보 모터 최고 속도 60m/분",
+          "전자동 포장기와 연결하여 포장 수량에 따른 고속 자동 공급",
+          "카드 누락·무카드 시 자동 알람; 단발, 다발, 연속 공급 모드",
+          "광전 제어; 메인 전원 투입 후 센서 감지로 자동 공급",
+          "자동화 포장 설비와 매칭하여 일체화 자동 포장 실현",
+          "사전 공급 길이, 회당 공급 수량, 이중 또는 무카드 시 자동 정지 알람 등 다기능 설정, 실시간 온라인 제어",
+          "구조 설계가 합리적이어서 소모품 교체가 간단하고 신속"
+        ],
+        "applications": [
+          "시트 제품: 경품권, 합격증, 카드, 게임 카드, 엽서, 인사말 카드, 태그, 라벨, 포장 봉투, 미성형 용기, 봉투, 홍bao, A4 용지, 보증서 등",
+          "접힌 제품: 설명서, 포스터, 다양한 크기의 접힌 제품",
+          "소책자 제품: 설명서, 카드북, 노트, 만화, 다양한 크기의 잡지"
+        ],
+        "specs": {
+          "Card Thickness": "0.1–3mm",
+          "Card Size": "길이 100–500mm × 폭 200–600mm",
+          "Feeding Speed": "약 200장/분(카드 크기에 따라 다름)",
+          "Power": "220V / 800W",
+          "Machine Size": "약 길이 888 × 폭 993 × 높이 558mm",
+          "Weight": "약 65KG"
+        },
+        "relatedMachineIds": [
+          "fkj-100sl",
+          "fkj-200e",
+          "cxfy-80a"
+        ],
+        "relatedSolutionIds": [
+          "candy",
+          "self-adhesive",
+          "four-sides"
+        ],
+        "ctaTitle": "FKJ-600C 표준형 카드 공급기에 관심이 있으신가요?",
+        "ctaDescription": "FKJ-600C의 상세 사양, 견적 및 라인 통합 안내를 받아보세요."
       },
       "cxfy-80a": {
         "name": "단일 헤드 행성식 카드 흡입 공급기",
@@ -689,7 +738,9 @@
       "Working Radius": "작업 반경",
       "Stacking Height": "적재 높이",
       "Pallet Size": "팔레트 크기"
-    }
+    },
+    "relatedSolutionsTitle": "이러한 포장 솔루션에 사용",
+    "relatedMachinesTitle": "관련 장비"
   },
   "about": {
     "title1": "CHANFER",
@@ -1340,7 +1391,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "FKJ-100KP에 관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "fkj-200e": {
       "seoTitle": "경제형 마찰 피더 FKJ-200E | CHANFER",
@@ -1361,7 +1414,9 @@
         "banding"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "fkj-300e": {
       "seoTitle": "중속 마찰 피더 FKJ-300E | CHANFER",
@@ -1382,7 +1437,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "fkj-420e": {
       "seoTitle": "대형 마찰 피더 FKJ-420E | CHANFER",
@@ -1403,7 +1460,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "three-head-suction": {
       "seoTitle": "삼두 흡입 피더 | CHANFER",
@@ -1423,7 +1482,9 @@
         "four-sides"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "four-head-suction": {
       "seoTitle": "사두 흡입 피더 | CHANFER",
@@ -1443,7 +1504,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "card-dispensing-matching": {
       "seoTitle": "카드 배출 분류기 | CHANFER",
@@ -1463,7 +1526,9 @@
         "four-sides"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "cxfy-80a": {
       "seoTitle": "CXFY-80A 단일 헤드 행성식 카드 흡입 공급기 | CHANFER",
@@ -1485,7 +1550,9 @@
         "four-sides"
       ],
       "ctaTitle": "CXFY-80A 단일 헤드 카드 흡입 공급기에 관심이 있으신가요?",
-      "ctaDescription": "CXFY-80A의 상세 사양, 가격 및 라인 통합 안내를 받아보세요."
+      "ctaDescription": "CXFY-80A의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "zs-220x": {
       "seoTitle": "Flow Wrapping 기계 ZS-230X | CHANFER",
@@ -1505,7 +1572,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "sbf-250": {
       "seoTitle": "사방 밀봉기 SBF-250 | CHANFER",
@@ -1524,7 +1593,9 @@
         "self-adhesive"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "qdzd-2130": {
       "seoTitle": "자가접착 기계 QDZD-2130 | CHANFER",
@@ -1543,7 +1614,9 @@
         "four-sides"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "pof-shrink": {
       "seoTitle": "POF 열수축기 | CHANFER",
@@ -1562,7 +1635,9 @@
         "candy"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "cartoning": {
       "seoTitle": "자동 카토닝기 | CHANFER",
@@ -1585,7 +1660,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "carton-forming": {
       "seoTitle": "카톤 성형기 | CHANFER",
@@ -1607,7 +1684,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "h-type-sealer": {
       "seoTitle": "H형 밀봉기 | CHANFER",
@@ -1630,7 +1709,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "palletizing-robot": {
       "seoTitle": "협동 팔레타이징 로봇 | CHANFER",
@@ -1653,7 +1734,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     },
     "ai-visual": {
       "seoTitle": "AI 비전 검사 시스템 | CHANFER",
@@ -1674,7 +1757,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격."
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
     }
   },
   "media": {

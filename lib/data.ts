@@ -412,6 +412,38 @@ export const machineProducts: MachineProduct[] = [
     image: "/images/machines/fkj-420e.png",
   },
   {
+    id: "fkj-600c",
+    model: "FKJ-600C",
+    name: "Standard Card Dispenser",
+    category: "feeding",
+    description:
+      "Standard servo card dispenser for sheet products up to 600mm wide. Servo motor drive with PLC control and touch screen, feeds up to 200 cards/min. Automatic alarm for missed and missing cards.",
+    specs: {
+      "Card Thickness": "0.1–3mm",
+      "Card Size": "L100–500mm × W200–600mm",
+      "Feeding Speed": "200 pcs/min",
+      "Power": "220V, 800W",
+      "Machine Size": "L888 × W993 × H558mm",
+      "Weight": "65kg",
+    },
+    applications: [
+      "Sheet products: redemption cards, certificates, cards, game cards, postcards, greeting cards, hangtags, labels, bags, envelopes, red packets, A4 sheets, warranty cards",
+      "Folded products: manuals, posters and folded items of various sizes",
+      "Booklet products: manuals, card books, notebooks, comics and magazines",
+    ],
+    features: [
+      "Servo motor drive system, PLC controller and touch screen interface — all settings on screen with memory function, auto-run on startup",
+      "Servo motor maximum speed up to 60m/min",
+      "Connects to fully automatic packaging machines, dispensing quickly by pack quantity",
+      "Automatic alarm for missed and missing cards; single, multi and continuous dispensing modes",
+      "Photoelectric control — automatic dispensing by sensor once main power is on",
+      "Integrates with automated packaging equipment for true one-stop automation",
+      "Multiple settings: preset dispensing length, cards per cycle, auto stop and alarm on double or empty cards, real-time online control",
+      "Rational structure design, quick and easy replacement of wear parts",
+    ],
+    image: "/images/machines/fkj-600c.jpg",
+  },
+  {
     id: "cxfy-80a",
     model: "CXFY-80A",
     name: "Single-Head Planetary Card Suction Feeder",

@@ -132,7 +132,8 @@
       "voltage": "Spannung",
       "bandingWeight": "Gesamtgewicht",
       "bandingThickness": "Produktdicke",
-      "bandingDimensions": "Abmessungen"
+      "bandingDimensions": "Abmessungen",
+      "title": "Technische Daten"
     },
     "keyFeatures": "Hauptmerkmale",
     "idealFor": "Ideal für",
@@ -374,7 +375,12 @@
         ]
       }
     },
-    "viewDetails": "Details ansehen"
+    "viewDetails": "Details ansehen",
+    "benefitsTitle": "Hauptvorteile",
+    "relatedMachinesTitle": "Empfohlene Maschinen für diese Lösung",
+    "viewMachineDetails": "Maschinendetails ansehen",
+    "faqTitle": "Häufig gestellte Fragen",
+    "otherSolutionsTitle": "Weitere Verpackungsmethoden"
   },
   "machines": {
     "title1": "Maschinen-",
@@ -457,6 +463,49 @@
           "Extragroße Druckerzeugnisse",
           "Mehrseitige buchartige Produkte"
         ]
+      },
+      "fkj-600c": {
+        "name": "FKJ-600C Standard-Kartenspender",
+        "description": "Standard-Servo-Kartenspender für Blattprodukte bis 600 mm Breite. Servoantrieb mit SPS-Steuerung und Touchscreen-Bedienung, bis zu 200 Karten/Min., automatische Alarmfunktion bei fehlenden Karten.",
+        "longDescription": [
+          "Der FKJ-600C Standard-Kartenspender ist für den Hochgeschwindigkeits-Ausgabe von breiten Blattprodukten konzipiert. Er nutzt ein Servoantriebssystem mit SPS-Steuerung und Touchscreen-Oberfläche für einfache Einstellung, Parameterspeicherung und automatischen Start.",
+          "Er unterstützt Einzel-, Mehrfach- und Dauerausgabe und lässt sich mit Schlauchbeutelmaschinen, Vertikalpackmaschinen, Kartonverschließern, Förderbändern, Schrumpfverpackungsmaschinen und mehr kombinieren, um vollautomatische Verpackungslinien zu realisieren."
+        ],
+        "features": [
+          "Servoantrieb + SPS-Steuerung + Touchscreen; alle Einstellungen und Bedienungen am Bildschirm, mit Datenspeicherung und automatischem Start",
+          "Servomotor maximal bis 60 m/min",
+          "Anschluss an vollautomatische Verpackungsmaschinen zur schnellen automatischen Ausgabe nach Packungsmenge",
+          "Automatische Alarmfunktion bei fehlenden Karten; Einzel-, Mehrfach- und Dauerausgabe möglich",
+          "Fotoelektrische Steuerung: automatische Ausgabe durch Sensor nach Einschalten der Hauptstromversorgung",
+          "Kombinierbar mit automatisierten Verpackungsgeräten für integrierte automatische Verpackung",
+          "Zahlreiche Funktionseinstellungen wie Voreinstellung der Ausgabelänge, Karten pro Zyklus, automatischer Stopp und Alarm bei Doppel- oder Leerkarten, Echtzeit-Online-Steuerung",
+          "Rationales Strukturdesign; schneller und einfacher Verschleißteilwechsel"
+        ],
+        "applications": [
+          "Blattprodukte: Gewinnkarten, Zertifikate, Karten, Spielkarten, Postkarten, Grußkarten, Anhänger, Etiketten, Verpackungsbeutel, ungeformte Kartons, Umschläge, rote Umschläge, A4-Papier, Garantiekarten usw.",
+          "Gefaltete Produkte: Bedienungsanleitungen, Poster und gefaltete Artikel verschiedener Größen",
+          "Heftprodukte: Bedienungsanleitungen, Kartenbücher, Notizbücher, Comics und Zeitschriften verschiedener Größen"
+        ],
+        "specs": {
+          "Card Thickness": "0,1–3 mm",
+          "Card Size": "L100–500 mm × B200–600 mm",
+          "Feeding Speed": "ca. 200 Stk./min (abhängig von der Kartengröße)",
+          "Power": "220 V / 800 W",
+          "Machine Size": "ca. L888 × B993 × H558 mm",
+          "Weight": "ca. 65 kg"
+        },
+        "relatedMachineIds": [
+          "fkj-100sl",
+          "fkj-200e",
+          "cxfy-80a"
+        ],
+        "relatedSolutionIds": [
+          "candy",
+          "self-adhesive",
+          "four-sides"
+        ],
+        "ctaTitle": "Interesse am FKJ-600C Standard-Kartenspender?",
+        "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preisinformationen und Integrationshinweise für den FKJ-600C."
       },
       "cxfy-80a": {
         "name": "Einzelkopf-Planeten-Saugkarten-Zuführer",
@@ -689,7 +738,9 @@
       "Working Radius": "Arbeitsradius",
       "Stacking Height": "Stapelhöhe",
       "Pallet Size": "Palettengröße"
-    }
+    },
+    "relatedSolutionsTitle": "Verwendet in diesen Verpackungslösungen",
+    "relatedMachinesTitle": "Verwandte Maschinen"
   },
   "about": {
     "title1": "Über",
@@ -1341,7 +1392,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interesse am FKJ-100KP?",
-      "ctaDescription": "Detaillierte Spezifikationen, Preise und Integrationsberatung."
+      "ctaDescription": "Detaillierte Spezifikationen, Preise und Integrationsberatung.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "fkj-200e": {
       "seoTitle": "Wirtschaftlicher Reibungsfeeder FKJ-200E | CHANFER",
@@ -1363,7 +1416,9 @@
         "banding"
       ],
       "ctaTitle": "Interesse am FKJ-200E?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "fkj-300e": {
       "seoTitle": "Mittelschneller Reibungsfeeder FKJ-300E | CHANFER",
@@ -1385,7 +1440,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interesse am FKJ-300E?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "fkj-420e": {
       "seoTitle": "Großformatiger Reibungsfeeder FKJ-420E | CHANFER",
@@ -1406,7 +1463,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interesse am FKJ-420E?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "three-head-suction": {
       "seoTitle": "Dreikopf-Saugfeeder | CHANFER",
@@ -1426,7 +1485,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interesse am Dreikopf-Saugfeeder?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "four-head-suction": {
       "seoTitle": "Vierkopf-Saugfeeder | CHANFER",
@@ -1446,7 +1507,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interesse am Vierkopf-Saugfeeder?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "card-dispensing-matching": {
       "seoTitle": "Karten-Ausgabe- und Sortiermaschine | CHANFER",
@@ -1467,7 +1530,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interesse an der Ausgabemaschine?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "cxfy-80a": {
       "seoTitle": "CXFY-80A Einzelkopf-Planeten-Saugkarten-Zuführer | CHANFER",
@@ -1489,7 +1554,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interesse am CXFY-80A Einzelkopf-Saugkarten-Zuführer?",
-      "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für den CXFY-80A."
+      "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für den CXFY-80A.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "zs-220x": {
       "seoTitle": "Flow-Wrapping-Maschine ZS-230X | CHANFER",
@@ -1509,7 +1576,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interesse an der ZS-230X?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "sbf-250": {
       "seoTitle": "Vier-Seiten-Siegel-Maschine SBF-250 | CHANFER",
@@ -1529,7 +1598,9 @@
         "self-adhesive"
       ],
       "ctaTitle": "Interesse an der SBF-250?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "qdzd-2130": {
       "seoTitle": "Selbstklebeband-Maschine QDZD-2130 | CHANFER",
@@ -1549,7 +1620,9 @@
         "four-sides"
       ],
       "ctaTitle": "Interesse an der QDZD-2130?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "pof-shrink": {
       "seoTitle": "POF-Schrumpffolienmaschine | CHANFER",
@@ -1569,7 +1642,9 @@
         "candy"
       ],
       "ctaTitle": "Interesse an der POF-Maschine?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "cartoning": {
       "seoTitle": "Automatische Kartoniermaschine | CHANFER",
@@ -1593,7 +1668,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interesse an der Kartoniermaschine?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "carton-forming": {
       "seoTitle": "Kartonformmaschine | CHANFER",
@@ -1616,7 +1693,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interesse an der Formmaschine?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "h-type-sealer": {
       "seoTitle": "H-Siegelmaschine | CHANFER",
@@ -1640,7 +1719,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interesse an der H-Siegelmaschine?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "palletizing-robot": {
       "seoTitle": "Kollaborativer Palettierroboter | CHANFER",
@@ -1664,7 +1745,9 @@
         "three-dimensional"
       ],
       "ctaTitle": "Interesse am Palettierroboter?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "ai-visual": {
       "seoTitle": "AI-Bildinspektionssystem | CHANFER",
@@ -1686,7 +1769,9 @@
         "heat-shrink"
       ],
       "ctaTitle": "Interesse am AI-System?",
-      "ctaDescription": "Spezifikationen und Preise."
+      "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
     }
   },
   "media": {
