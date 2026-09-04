@@ -409,6 +409,7 @@
       "ai": "AI Vision"
     },
     "model": "Model",
+    "relatedMachinesTitle": "Related Machines",
     "machinesData": {
       "fkj-100sl": {
         "name": "Automatic Friction Feeder",

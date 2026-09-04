@@ -402,6 +402,7 @@
       "ai": "Vision par IA"
     },
     "model": "Modèle",
+    "relatedMachinesTitle": "Machines associées",
     "machinesData": {
       "fkj-100sl": {
         "name": "Distributeur à Friction Automatique",

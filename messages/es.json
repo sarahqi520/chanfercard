@@ -402,6 +402,7 @@
       "ai": "Visión por IA"
     },
     "model": "Modelo",
+    "relatedMachinesTitle": "Máquinas relacionadas",
     "machinesData": {
       "fkj-100sl": {
         "name": "Alimentador por Fricción Automático",

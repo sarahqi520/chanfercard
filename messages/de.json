@@ -402,6 +402,7 @@
       "ai": "KI-Bildprüfung"
     },
     "model": "Modell",
+    "relatedMachinesTitle": "Verwandte Maschinen",
     "machinesData": {
       "fkj-100sl": {
         "name": "Automatischer Reibungsfeeder",

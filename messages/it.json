@@ -402,6 +402,7 @@
       "ai": "Visione AI"
     },
     "model": "Modello",
+    "relatedMachinesTitle": "Macchine correlate",
     "machinesData": {
       "fkj-100sl": {
         "name": "Alimentatore a Frizione Automatico",

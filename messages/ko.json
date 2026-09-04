@@ -402,6 +402,7 @@
       "ai": "AI 비전"
     },
     "model": "모델",
+    "relatedMachinesTitle": "관련 장비",
     "machinesData": {
       "fkj-100sl": {
         "name": "자동 마찰 피더",

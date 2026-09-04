@@ -402,6 +402,7 @@
       "ai": "AI视觉"
     },
     "model": "型号",
+    "relatedMachinesTitle": "相关设备",
     "machinesData": {
       "fkj-100sl": {
         "name": "自动摩擦送料机",

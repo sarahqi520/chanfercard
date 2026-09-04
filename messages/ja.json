@@ -402,6 +402,7 @@
       "ai": "AIビジョン"
     },
     "model": "型番",
+    "relatedMachinesTitle": "関連機器",
     "machinesData": {
       "fkj-100sl": {
         "name": "自動摩擦フィーダー",
