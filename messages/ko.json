@@ -129,7 +129,10 @@
       "filmWidth": "필름 폭",
       "bagSize": "봉투 크기",
       "innerDia": "내경",
-      "voltage": "전압"
+      "voltage": "전압",
+      "bandingWeight": "총 중량",
+      "bandingThickness": "제품 두께",
+      "bandingDimensions": "외형 치수"
     },
     "keyFeatures": "주요 특징",
     "idealFor": "적합 용도",

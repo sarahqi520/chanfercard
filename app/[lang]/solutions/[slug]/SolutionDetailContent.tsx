@@ -186,9 +186,9 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {[
               { label: specsDict.speed ?? "Speed", value: solution.speed },
-              { label: specsDict.filmDia ?? "Film Roll Dia.", value: solution.filmDiameter },
-              { label: solution.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : solution.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"), value: solution.filmWidth },
-              { label: specsDict.innerDia ?? "Inner Dia.", value: solution.filmInnerDiameter },
+              { label: solution.id === "banding" ? (specsDict.bandingThickness ?? "Product Thickness") : (specsDict.filmDia ?? "Film Roll Dia."), value: solution.filmDiameter },
+              { label: solution.id === "banding" ? (specsDict.bandingDimensions ?? "Overall Dimensions") : solution.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : solution.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"), value: solution.filmWidth },
+              { label: solution.id === "banding" ? (specsDict.bandingWeight ?? "Total Weight") : (specsDict.innerDia ?? "Inner Dia."), value: solution.filmInnerDiameter },
               { label: specsDict.voltage ?? "Voltage", value: solution.voltage },
             ].map((spec, j) => (
               <div key={j} className="bg-card border border-border rounded-xl p-4 text-center">

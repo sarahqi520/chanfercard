@@ -129,7 +129,10 @@
       "filmWidth": "フィルム幅",
       "bagSize": "袋サイズ",
       "innerDia": "内径",
-      "voltage": "電圧"
+      "voltage": "電圧",
+      "bandingWeight": "総重量",
+      "bandingThickness": "製品厚み",
+      "bandingDimensions": "外形寸法"
     },
     "keyFeatures": "主な特徴",
     "idealFor": "最適用途",

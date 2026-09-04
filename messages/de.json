@@ -129,7 +129,10 @@
       "filmWidth": "Folienbreite",
       "bagSize": "Beutelgröße",
       "innerDia": "Innen-Ø",
-      "voltage": "Spannung"
+      "voltage": "Spannung",
+      "bandingWeight": "Gesamtgewicht",
+      "bandingThickness": "Produktdicke",
+      "bandingDimensions": "Abmessungen"
     },
     "keyFeatures": "Hauptmerkmale",
     "idealFor": "Ideal für",

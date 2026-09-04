@@ -218,15 +218,15 @@ export default function SolutionsContent({ dict, locale }: Props) {
                         value: sol.speed,
                       },
                       {
-                        label: specsDict.filmDia ?? "Film Roll Dia.",
+                        label: sol.id === "banding" ? (specsDict.bandingThickness ?? "Product Thickness") : (specsDict.filmDia ?? "Film Roll Dia."),
                         value: sol.filmDiameter,
                       },
                       {
-                        label: sol.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : sol.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"),
+                        label: sol.id === "banding" ? (specsDict.bandingDimensions ?? "Overall Dimensions") : sol.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : sol.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"),
                         value: sol.filmWidth,
                       },
                       {
-                        label: specsDict.innerDia ?? "Inner Dia.",
+                        label: sol.id === "banding" ? (specsDict.bandingWeight ?? "Total Weight") : (specsDict.innerDia ?? "Inner Dia."),
                         value: sol.filmInnerDiameter,
                       },
                       {

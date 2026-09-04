@@ -136,7 +136,10 @@
       "filmWidth": "Film Width",
       "bagSize": "Bag Size",
       "innerDia": "Inner Dia.",
-      "voltage": "Voltage"
+      "voltage": "Voltage",
+      "bandingWeight": "Total Weight",
+      "bandingThickness": "Product Thickness",
+      "bandingDimensions": "Overall Dimensions"
     },
     "keyFeatures": "Key Features",
     "idealFor": "Ideal For",

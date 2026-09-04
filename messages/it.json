@@ -129,7 +129,10 @@
       "filmWidth": "Larghezza Film",
       "bagSize": "Dimensione busta",
       "innerDia": "Diam. Interno",
-      "voltage": "Tensione"
+      "voltage": "Tensione",
+      "bandingWeight": "Peso totale",
+      "bandingThickness": "Spessore del prodotto",
+      "bandingDimensions": "Dimensioni esterne"
     },
     "keyFeatures": "Caratteristiche Principali",
     "idealFor": "Ideale Per",

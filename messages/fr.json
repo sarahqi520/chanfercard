@@ -129,7 +129,10 @@
       "filmWidth": "Largeur du film",
       "bagSize": "Taille du sachet",
       "innerDia": "Diamètre intérieur",
-      "voltage": "Tension"
+      "voltage": "Tension",
+      "bandingWeight": "Poids total",
+      "bandingThickness": "Épaisseur du produit",
+      "bandingDimensions": "Dimensions extérieures"
     },
     "keyFeatures": "Caractéristiques principales",
     "idealFor": "Idéal pour",

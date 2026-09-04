@@ -157,9 +157,9 @@ export const packagingSolutions: PackagingSolution[] = [
     description:
       "Eco-friendly paper band bundling — the most sustainable packaging method for card decks. Uses minimal material while maintaining secure bundling, ideal for board game card decks and standard playing card sets.",
     speed: "5–20 packs/min",
-    filmDiameter: "N/A",
-    filmInnerDiameter: "N/A",
-    filmWidth: "N/A",
+    filmDiameter: "0.1-3mm",
+    filmInnerDiameter: "约 260KG",
+    filmWidth: "约（长）2200×（宽）1200×（高）1500mm",
     voltage: "AC220V 50Hz 3.0KW",
     features: [
       "Servo motor drive with PLC control and touch screen",

@@ -129,7 +129,10 @@
       "filmWidthMax": "最大膜宽",
       "bagSize": "袋子尺寸",
       "innerDia": "内径",
-      "voltage": "电压"
+      "voltage": "电压",
+      "bandingWeight": "整机重量",
+      "bandingThickness": "产品单本厚度",
+      "bandingDimensions": "外形尺寸"
     },
     "keyFeatures": "核心特点",
     "idealFor": "适用场景",

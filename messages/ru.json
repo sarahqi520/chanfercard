@@ -129,7 +129,10 @@
       "filmWidth": "Ширина плёнки",
       "bagSize": "Размер пакета",
       "innerDia": "Внутр. диаметр",
-      "voltage": "Напряжение"
+      "voltage": "Напряжение",
+      "bandingWeight": "Общий вес",
+      "bandingThickness": "Толщина изделия",
+      "bandingDimensions": "Габаритные размеры"
     },
     "keyFeatures": "Ключевые особенности",
     "idealFor": "Идеально для",

@@ -129,7 +129,10 @@
       "filmWidth": "Ancho de Película",
       "bagSize": "Tamaño de bolsa",
       "innerDia": "Diámetro Interior",
-      "voltage": "Voltaje"
+      "voltage": "Voltaje",
+      "bandingWeight": "Peso total",
+      "bandingThickness": "Grosor del producto",
+      "bandingDimensions": "Dimensiones exteriores"
     },
     "keyFeatures": "Características Clave",
     "idealFor": "Ideal Para",
