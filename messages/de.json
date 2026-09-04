@@ -458,6 +458,22 @@
           "Mehrseitige buchartige Produkte"
         ]
       },
+      "cxfy-80a": {
+        "name": "Einzelkopf-Planeten-Saugkarten-Zuführer",
+        "description": "Planeten-Einzelkopf-Seitensaugkarten-Zuführer für kleine, verformbare Einzelblattprodukte. Servoangetrieben mit PLC-Steuerung und Touchscreen, bis zu 60 Karten/min.",
+        "features": [
+          "Servoantrieb, PLC-Steuerung, Touchscreen",
+          "Anschluss an automatische Verpackungsmaschinen",
+          "Automatische Alarmfunktion + Einzel-/Dauervorschub",
+          "Photoelectriche Steuerung für automatische Kartenausgabe",
+          "Rationelle Konstruktion, einfacher Verschleißteiletausch"
+        ],
+        "applications": [
+          "Spielkarten, Postkarten, Kunststoffkarten",
+          "Kleine verformbare Blattprodukte",
+          "Integration in Kissen-/Beutel-/Kartonverschlusslinien"
+        ]
+      },
       "three-head-suction": {
         "name": "Dreikopf-Saugfeeder",
         "description": "Vakuum, drei Stationen. Für glatte Karten.",
@@ -1452,6 +1468,28 @@
       ],
       "ctaTitle": "Interesse an der Ausgabemaschine?",
       "ctaDescription": "Spezifikationen und Preise."
+    },
+    "cxfy-80a": {
+      "seoTitle": "CXFY-80A Einzelkopf-Planeten-Saugkarten-Zuführer | CHANFER",
+      "seoDescription": "Planeten-Einzelkopf-Seitensaugkarten-Zuführer für kleine, verformbare Einzelblattprodukte. Servoangetrieben, PLC-Steuerung, bis zu 60 Karten/min.",
+      "keywords": "Einzelkopf-Saugkarten-Zuführer, Seitensaugpaginiermaschine, CXFY-80A, Planetenkarten-Zuführer, Kartenzuführmaschine, Vakuumkarten-Zuführer",
+      "longDescription": [
+        "Der CXFY-80A ist CHANFERs planetarischer Einzelkopf-Seitensaugkarten-Zuführer für kleine, verformbare Einzelblattprodukte. Mit Servoantrieb, PLC-Steuerung und Touchscreen erreicht er eine maximale Zuführgeschwindigkeit von 60 Karten/min.",
+        "Die Maschine eignet sich für Spielkarten, Postkarten, Kunststoffkarten und andere kleine verformbare Blattprodukte. Sie kann allein als Zähl-/Paginiervorrichtung eingesetzt oder problemlos in Verpackungslinien mit Kissenverpackungsmaschinen, Vertikalverpackungsmaschinen, Kartonverschlussmaschinen, automatischen Förderern und Schrumpfverpackungsmaschinen integriert werden.",
+        "Die photoelectriche Steuerung ermöglicht die automatische Kartenausgabe nach Einschalten der Hauptstromversorgung. Sie verfügt über eine automatische Alarmfunktion und einen optionalen Einzelblatt-Dauervorschubmodus. Die rationelle Konstruktion ermöglicht einen schnellen und einfachen Verschleißteiletausch."
+      ],
+      "relatedMachineIds": [
+        "three-head-suction",
+        "four-head-suction",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interesse am CXFY-80A Einzelkopf-Saugkarten-Zuführer?",
+      "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für den CXFY-80A."
     },
     "zs-220x": {
       "seoTitle": "Flow-Wrapping-Maschine ZS-230X | CHANFER",

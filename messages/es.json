@@ -458,6 +458,22 @@
           "Productos tipo libro de varias páginas"
         ]
       },
+      "cxfy-80a": {
+        "name": "Alimentador de Succión de Cartas de Cabeza Simple Planetaria",
+        "description": "Alimentador de cartas por succión lateral de cabeza simple planetaria para productos de hoja pequeños y deformables. Accionamiento servo con control PLC y pantalla táctil, hasta 60 cartas/min.",
+        "features": [
+          "Accionamiento servo, control PLC, pantalla táctil",
+          "Conexión a máquinas envasadoras automáticas",
+          "Alarma automática + modos de alimentación simple/continua",
+          "Control fotoelectrico para dispensación automática",
+          "Estructura razonable, fácil reemplazo de piezas de desgaste"
+        ],
+        "applications": [
+          "Cartas de juego, postales, tarjetas de plástico",
+          "Productos de hoja pequeños y deformables",
+          "Integración con líneas de almohada/bolsa/cierre de cajas"
+        ]
+      },
       "three-head-suction": {
         "name": "Alimentador de Tres Cabezas",
         "description": "Vacío, tres estaciones. Cartas lisas.",
@@ -1448,6 +1464,28 @@
       ],
       "ctaTitle": "¿Interesado?",
       "ctaDescription": "Especificaciones y precios."
+    },
+    "cxfy-80a": {
+      "seoTitle": "Alimentador de Succión de Cartas CXFY-80A de Cabeza Simple Planetaria | CHANFER",
+      "seoDescription": "Alimentador de cartas por succión lateral de cabeza simple planetaria para productos de hoja pequeños y deformables. Control PLC servo, hasta 60 cartas/min.",
+      "keywords": "alimentador de succión de cartas de cabeza simple, máquina de paginación por succión lateral, CXFY-80A, alimentador planetario de cartas, máquina alimentadora de cartas, alimentador de vacío para cartas",
+      "longDescription": [
+        "El CXFY-80A es el alimentador de cartas por succión lateral de cabeza simple planetaria de CHANFER, diseñado para productos de hoja pequeños y deformables. Accionamiento servo con control PLC y pantalla táctil, con una velocidad máxima de alimentación de 60 cartas/min.",
+        "Esta máquina es adecuada para cartas de juego, postales, tarjetas de plástico y otros productos de hoja pequeños y deformables. Se puede utilizar sola como dispositivo de conteo/paginación o integrarse fácilmente en líneas de envasado con máquinas de envasado de almohada, máquinas de envasado vertical, cerradoras de cajas, transportadores automáticos y máquinas de envasado retráctil.",
+        "El control fotoelectrico permite la dispensación automática de cartas una vez encendida la alimentación principal. Cuenta con alarma automática y modo opcional de alimentación continua de hojas simples. La estructura razonable facilita el reemplazo rápido de piezas de desgaste."
+      ],
+      "relatedMachineIds": [
+        "three-head-suction",
+        "four-head-suction",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "¿Interesado en el Alimentador de Succión CXFY-80A de Cabeza Simple?",
+      "ctaDescription": "Obtenga especificaciones detalladas, precios y orientación de integración en línea para el CXFY-80A."
     },
     "zs-220x": {
       "seoTitle": "Máquina Flow Wrapping ZS-230X | CHANFER",

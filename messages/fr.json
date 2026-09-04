@@ -458,6 +458,22 @@
           "Produits type livre multipages"
         ]
       },
+      "cxfy-80a": {
+        "name": "Distributeur de Cartes par Aspiration à Tête Simple Planétaire",
+        "description": "Distributeur de cartes par aspiration latérale à tête simple planétaire pour petits produits en feuille déformables. Entraînement servo avec commande API et écran tactile, jusqu'à 60 cartes/min.",
+        "features": [
+          "Entraînement servo, commande API, écran tactile",
+          "Connexion aux machines d'emballage automatiques",
+          "Alarme automatique + modes alimentation simple/continue",
+          "Commande photoélectrique pour distribution automatique",
+          "Structure rationnelle, remplacement facile des pièces d'usure"
+        ],
+        "applications": [
+          "Cartes à jouer, cartes postales, cartes en plastique",
+          "Petits produits en feuille déformables",
+          "Intégration aux lignes d'oreiller/sachet/scellage de cartons"
+        ]
+      },
       "three-head-suction": {
         "name": "Distributeur à Trois Têtes",
         "description": "Vide, trois stations. Cartes lisses.",
@@ -1448,6 +1464,28 @@
       ],
       "ctaTitle": "Intéressé?",
       "ctaDescription": "Spécifications et prix."
+    },
+    "cxfy-80a": {
+      "seoTitle": "Distributeur de Cartes par Aspiration CXFY-80A à Tête Simple Planétaire | CHANFER",
+      "seoDescription": "Distributeur de cartes par aspiration latérale à tête simple planétaire pour petits produits en feuille déformables. Commande PLC servo, jusqu'à 60 cartes/min.",
+      "keywords": "distributeur de cartes par aspiration à tête simple, machine de pagination par aspiration latérale, CXFY-80A, distributeur planétaire de cartes, machine d'alimentation de cartes, distributeur de cartes à vide",
+      "longDescription": [
+        "Le CXFY-80A est le distributeur de cartes par aspiration latérale à tête simple planétaire de CHANFER, conçu pour les petits produits en feuille déformables. Entraînement servo avec commande API et écran tactile, avec une vitesse d'alimentation maximale de 60 cartes/min.",
+        "Cette machine convient aux cartes à jouer, cartes postales, cartes en plastique et autres petits produits en feuille déformables. Elle peut être utilisée seule comme dispositif de comptage/pagination ou facilement intégrée dans des lignes d'emballage avec des machines d'emballage à coussin, des machines d'emballage vertical, des scelleuses de cartons, des convoyeurs automatiques et des machines de thermorétraction.",
+        "La commande photoélectrique permet la distribution automatique des cartes une fois l'alimentation principale allumée. Elle dispose d'une alarme automatique et d'un mode optionnel d'alimentation continue de feuilles simples. La structure rationnelle permet un remplacement rapide des pièces d'usure."
+      ],
+      "relatedMachineIds": [
+        "three-head-suction",
+        "four-head-suction",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Intéressé par le Distributeur de Cartes CXFY-80A à Tête Simple?",
+      "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration en ligne pour le CXFY-80A."
     },
     "zs-220x": {
       "seoTitle": "Machine Flow Wrapping ZS-230X | CHANFER",

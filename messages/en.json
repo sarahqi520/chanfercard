@@ -465,6 +465,22 @@
           "Multi-page book-type products"
         ]
       },
+      "cxfy-80a": {
+        "name": "Single-Head Planetary Card Suction Feeder",
+        "description": "Planetary single-head side-suction card feeder for small, deformable sheet products. Servo-driven PLC control with touch screen, up to 60 cards/min.",
+        "features": [
+          "Servo drive, PLC control, touch screen",
+          "Connects to automatic packaging machines",
+          "Automatic alarm + single/continuous feeding modes",
+          "Photoelectric control for automatic card dispensing",
+          "Reasonable structure, easy wear-part replacement"
+        ],
+        "applications": [
+          "Game cards, postcards, plastic cards",
+          "Small deformable sheet products",
+          "Integration with pillow/bagging/boxing lines"
+        ]
+      },
       "three-head-suction": {
         "name": "Card Suction Machine",
         "description": "Planetary suction cup card dispenser for delicate or thin cards. Three sets of suction cups rotate counterclockwise to pick and feed cards individually.",
@@ -1500,6 +1516,28 @@
       ],
       "ctaTitle": "Interested in the CDM-100 Card Dispensing System?",
       "ctaDescription": "Get detailed specifications, pricing, and integration guidance for the CDM-100 intelligent card sorting system."
+    },
+    "cxfy-80a": {
+      "seoTitle": "CXFY-80A Single-Head Planetary Card Suction Feeder | CHANFER",
+      "seoDescription": "Planetary single-head side-suction card feeder for small, deformable sheet products. Servo-driven PLC control, up to 60 cards/min.",
+      "keywords": "single-head card suction feeder, side suction paging machine, CXFY-80A, planetary card feeder, card feeding machine, vacuum card feeder",
+      "longDescription": [
+        "The CXFY-80A is CHANFER's planetary single-head side-suction card feeder, designed for small, single-sheet deformable products. Servo motor drive with PLC control and touch screen, with a maximum feeding speed of 60 cards/min.",
+        "This machine is suitable for game cards, postcards, plastic boards, and other small deformable sheet products. It can be used alone as a counting/paging device or easily integrated into packaging lines with pillow packaging machines, vertical packaging machines, carton sealers, automatic conveyors, and shrink wrapping machines.",
+        "Photoelectric control enables automatic card dispensing once power is on. It features automatic alarms and optional single-sheet continuous feeding mode. The reasonable structure makes wear-part replacement quick and easy."
+      ],
+      "relatedMachineIds": [
+        "three-head-suction",
+        "four-head-suction",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interested in the CXFY-80A Single-Head Card Suction Feeder?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the CXFY-80A."
     },
     "zs-220x": {
       "seoTitle": "ZS-230X High-Speed Servo Packaging Machine | CHANFER",

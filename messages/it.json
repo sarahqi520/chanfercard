@@ -458,6 +458,22 @@
           "Prodotti tipo libro multipagina"
         ]
       },
+      "cxfy-80a": {
+        "name": "Alimentatore a Ventosa Planetario Monotesta per Carte",
+        "description": "Alimentatore di carte a ventosa laterale planetario monotesta per piccoli prodotti in foglio deformabili. Azionamento servo con controllo PLC e touchscreen, fino a 60 carte/min.",
+        "features": [
+          "Azionamento servo, controllo PLC, touchscreen",
+          "Connessione a macchine confezionatrici automatiche",
+          "Allarme automatico + modalità alimentazione singola/continua",
+          "Controllo fotoelettrico per erogazione automatica",
+          "Struttura razionale, facile sostituzione parti usurabili"
+        ],
+        "applications": [
+          "Carte da gioco, cartoline, carte in plastica",
+          "Piccoli prodotti in foglio deformabili",
+          "Integrazione in linee a cuscino/sacchetto/sigillatura cartoni"
+        ]
+      },
       "three-head-suction": {
         "name": "Alimentatore a Tre Teste",
         "description": "Vuoto tre teste, tre stazioni simultanee. Per carte lisce.",
@@ -1489,6 +1505,28 @@
       ],
       "ctaTitle": "Interessati alla Macchina di Erogazione Carte?",
       "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione."
+    },
+    "cxfy-80a": {
+      "seoTitle": "Alimentatore a Ventosa Planetario Monotesta CXFY-80A per Carte | CHANFER",
+      "seoDescription": "Alimentatore di carte a ventosa laterale planetario monotesta per piccoli prodotti in foglio deformabili. Controllo PLC servo, fino a 60 carte/min.",
+      "keywords": "alimentatore a ventosa monotesta per carte, macchina di paginazione a ventosa laterale, CXFY-80A, alimentatore planetario per carte, macchina alimentatrice di carte, alimentatore a vuoto per carte",
+      "longDescription": [
+        "Il CXFY-80A è l'alimentatore di carte a ventosa laterale planetario monotesta di CHANFER, progettato per piccoli prodotti in foglio deformabili. Azionamento servo con controllo PLC e touchscreen, con velocità massima di alimentazione di 60 carte/min.",
+        "Questa macchina è adatta a carte da gioco, cartoline, carte in plastica e altri piccoli prodotti in foglio deformabili. Può essere utilizzata singolarmente come dispositivo di conteggio/paginazione o facilmente integrata in linee di confezionamento con macchine confezionatrici a cuscino, macchine confezionatrici verticali, sigillatrici di cartoni, trasportatori automatici e macchine di termoretrazione.",
+        "Il controllo fotoelettrico consente l'erogazione automatica delle carte una volta accesa l'alimentazione principale. È dotata di allarme automatico e modalità opzionale di alimentazione continua di fogli singoli. La struttura razionale consente una rapida sostituzione delle parti usurabili."
+      ],
+      "relatedMachineIds": [
+        "three-head-suction",
+        "four-head-suction",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "Interessato all'Alimentatore a Ventosa Monotesta CXFY-80A?",
+      "ctaDescription": "Ottieni specifiche dettagliate, prezzi e indicazioni di integrazione in linea per il CXFY-80A."
     },
     "zs-220x": {
       "seoTitle": "Macchina Flow Wrapping ZS-230X | CHANFER",

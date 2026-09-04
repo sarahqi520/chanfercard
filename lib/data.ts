@@ -237,7 +237,7 @@ export const packagingSolutions: PackagingSolution[] = [
       "Transparent display packaging",
       "Shelf-ready card products",
     ],
-    videoId: "PZ_20GogfMc",
+    videoId: "a4kxRga5H6w",
   },
   {
     id: "three-dimensional",
@@ -410,6 +410,35 @@ export const machineProducts: MachineProduct[] = [
       "Robust construction for thick materials",
     ],
     image: "/images/machines/fkj-420e.png",
+  },
+  {
+    id: "cxfy-80a",
+    model: "CXFY-80A",
+    name: "Single-Head Planetary Card Suction Feeder",
+    category: "feeding",
+    description:
+      "Planetary single-head side-suction card dispenser for small, deformable sheet products. Servo motor drive with PLC control and touch screen, feeds up to 60 cards/min.",
+    specs: {
+      "Card Thickness": "0.1–1mm",
+      "Card Size": "L40–100 × W40–80mm",
+      "Feeding Speed": "60 pcs/min",
+      "Power": "220V, 500W",
+      "Machine Size": "L833 × W437 × H1473mm",
+      "Weight": "60kg",
+    },
+    applications: [
+      "Game cards, postcards, plastic cards",
+      "Small deformable sheet products",
+      "Integration with pillow/bagging/boxing lines",
+    ],
+    features: [
+      "Servo drive, PLC control, touch screen",
+      "Connects to automatic packaging machines",
+      "Automatic alarm + single/continuous feeding modes",
+      "Photoelectric control for automatic card dispensing",
+      "Reasonable structure, easy wear-part replacement",
+    ],
+    image: "/images/machines/cxfy-80a.jpg",
   },
   {
     id: "three-head-suction",
