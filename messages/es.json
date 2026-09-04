@@ -465,10 +465,10 @@
         ]
       },
       "fkj-600c": {
-        "name": "Alimentador por fricción de gran formato",
-        "description": "Alimentador por fricción de gran formato FKJ-600C para productos en hoja de hasta 600 mm de ancho. Accionamiento servo con control PLC y pantalla táctil, velocidad de alimentación máx. aprox. 200 tarjetas/min, con alarma automática por tarjetas faltantes.",
+        "name": "FKJ-600C Alimentador por Fricción",
+        "description": "Alimentador por fricción FKJ-600C para productos en hoja de hasta 600 mm de ancho. Servo y PLC con pantalla táctil, alimentación hasta 200 tarjetas/min. Alarma automática por tarjetas faltantes.",
         "longDescription": [
-          "El dispensador de tarjetas FKJ-600C está diseñado para la dispensación automática de alta velocidad de productos en hoja anchos. Utiliza un sistema de accionamiento servo con controlador PLC e interfaz táctil para una configuración sencilla, almacenamiento de parámetros y funcionamiento automático al arrancar.",
+          "El FKJ-600C es el alimentador por fricción de gran formato de CHANFER para productos en hoja anchos, servo y PLC, 200 tarjetas/min (hasta 600 mm).",
           "Admite modos de dispensación individual, múltiple y continua, e integra máquinas envasadoras tipo almohada, verticales, cerradoras de cajas, transportadores automáticos, máquinas de envasado retráctil y más para formar líneas de envasado completamente automatizadas."
         ],
         "features": [
@@ -504,7 +504,7 @@
           "self-adhesive",
           "four-sides"
         ],
-        "ctaTitle": "¿Interesado en el Dispensador de Tarjetas FKJ-600C?",
+        "ctaTitle": "¿Interesado en FKJ-600C?",
         "ctaDescription": "Obtenga especificaciones detalladas, precios e instrucciones de integración para el FKJ-600C."
       },
       "cxfy-80a": {
@@ -1805,11 +1805,11 @@
       "relatedMachinesTitle": "Máquinas relacionadas"
     },
     "fkj-600c": {
-      "seoTitle": "Alimentador por fricción de gran formato | CHANFER",
-      "seoDescription": "Dispensador de tarjetas servo estándar para productos en hoja de hasta 600 mm de ancho. Accionamiento servo con control PLC y pantalla táctil, hasta 200 tarjetas/min, con alarma automática por tarjetas faltantes.",
-      "keywords": "alimentador por fricción gran formato,alimentador ancho,FKJ-600C,alimentador de cartas,alimentador servo,alimentador productos anchos",
+      "seoTitle": "Alimentador por Fricción FKJ-600C | CHANFER",
+      "seoDescription": "Alimentador servo de gran formato. Hasta 200 tarjetas/min (hasta 600 mm de ancho). PLC táctil.",
+      "keywords": "alimentador fricción, FKJ-600C, tarjetas, servo, gran formato",
       "longDescription": [
-        "El alimentador por fricción de gran formato FKJ-600C está diseñado para la alimentación automática de alta velocidad de productos en hoja anchos. Utiliza un sistema de accionamiento servo con controlador PLC e interfaz táctil para una configuración sencilla, almacenamiento de parámetros y funcionamiento automático al arrancar.",
+        "El FKJ-600C es el alimentador por fricción de gran formato de CHANFER para productos en hoja anchos, servo y PLC, 200 tarjetas/min (hasta 600 mm).",
         "Admite modos de alimentación individual, múltiple y continua, e integra máquinas envasadoras tipo almohada, verticales, cerradoras de cajas, transportadores automáticos, máquinas de envasado retráctil y más para formar líneas de envasado completamente automatizadas."
       ],
       "relatedMachineIds": [
@@ -1825,11 +1825,11 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "¿Interesado en el alimentador por fricción de gran formato FKJ-600C?",
+      "ctaTitle": "¿Interesado en FKJ-600C?",
       "ctaDescription": "Obtenga especificaciones detalladas, precios y guía de integración de línea de envasado para el FKJ-600C.",
       "relatedSolutionsTitle": "Soluciones de envasado que utilizan esta máquina",
       "relatedMachinesTitle": "Máquinas relacionadas",
-      "name": "Alimentador por fricción de gran formato"
+      "name": "FKJ-600C Alimentador por Fricción"
     }
   },
   "media": {
