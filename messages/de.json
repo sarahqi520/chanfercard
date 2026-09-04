@@ -402,7 +402,6 @@
       "ai": "KI-Bildprüfung"
     },
     "model": "Modell",
-    "relatedMachinesTitle": "Verwandte Maschinen",
     "machinesData": {
       "fkj-100sl": {
         "name": "Automatischer Reibungsfeeder",
@@ -466,8 +465,8 @@
         ]
       },
       "fkj-600c": {
-        "name": "FKJ-600C Standard-Kartenspender",
-        "description": "Standard-Servo-Kartenspender für Blattprodukte bis 600 mm Breite. Servoantrieb mit SPS-Steuerung und Touchscreen-Bedienung, bis zu 200 Karten/Min., automatische Alarmfunktion bei fehlenden Karten.",
+        "name": "Großformat-Reibungszuführer",
+        "description": "FKJ-600C Großformat-Reibungszuführer für Blattprodukte bis 600 mm Breite. Servoantrieb mit SPS-Steuerung und Touchscreen-Bedienung, max. Zuführgeschwindigkeit ca. 200 Karten/Min., automatische Alarmfunktion bei fehlenden Karten.",
         "longDescription": [
           "Der FKJ-600C Standard-Kartenspender ist für den Hochgeschwindigkeits-Ausgabe von breiten Blattprodukten konzipiert. Er nutzt ein Servoantriebssystem mit SPS-Steuerung und Touchscreen-Oberfläche für einfache Einstellung, Parameterspeicherung und automatischen Start.",
           "Er unterstützt Einzel-, Mehrfach- und Dauerausgabe und lässt sich mit Schlauchbeutelmaschinen, Vertikalpackmaschinen, Kartonverschließern, Förderbändern, Schrumpfverpackungsmaschinen und mehr kombinieren, um vollautomatische Verpackungslinien zu realisieren."
@@ -759,8 +758,7 @@
       "Bag Size": "Beutelgröße",
       "Air Pressure": "Luftdruck",
       "Air Consumption": "Luftverbrauch"
-    },
-    "relatedSolutionsTitle": "Verwendet in diesen Verpackungslösungen"
+    }
   },
   "about": {
     "title1": "Über",
@@ -1819,12 +1817,12 @@
       "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "fkj-600c": {
-      "seoTitle": "FKJ-600C Standard-Kartenspender | CHANFER",
+      "seoTitle": "Großformat-Reibungszuführer | CHANFER",
       "seoDescription": "Standard-Servo-Kartenspender für Blattprodukte bis 600 mm Breite. Servoantrieb mit SPS-Steuerung und Touchscreen-Bedienung, bis zu 200 Karten/Min., automatische Alarmfunktion bei fehlenden Karten.",
       "keywords": "Großformat-Reibungszuführer,Breitformat-Zuführer,FKJ-600C,Kartenzuführer,Servozuführer,Breitprodukt-Zuführung",
       "longDescription": [
-        "Der FKJ-600C Standard-Kartenspender ist für den Hochgeschwindigkeits-Ausgabe von breiten Blattprodukten konzipiert. Er nutzt ein Servoantriebssystem mit SPS-Steuerung und Touchscreen-Oberfläche für einfache Einstellung, Parameterspeicherung und automatischen Start.",
-        "Er unterstützt Einzel-, Mehrfach- und Dauerausgabe und lässt sich mit Schlauchbeutelmaschinen, Vertikalpackmaschinen, Kartonverschließern, Förderbändern, Schrumpfverpackungsmaschinen und mehr kombinieren, um vollautomatische Verpackungslinien zu realisieren."
+        "Der FKJ-600C Großformat-Reibungszuführer ist für den Hochgeschwindigkeits-Ausgabe von breiten Blattprodukten konzipiert. Er nutzt ein Servoantriebssystem mit SPS-Steuerung und Touchscreen-Oberfläche für einfache Einstellung, Parameterspeicherung und automatischen Start.",
+        "Er unterstützt Einzel-, Mehrfach- und Dauerzuführung und lässt sich mit Schlauchbeutelmaschinen, Vertikalpackmaschinen, Kartonverschließern, Förderbändern, Schrumpfverpackungsmaschinen und mehr kombinieren, um vollautomatische Verpackungslinien zu realisieren."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1842,7 +1840,8 @@
       "ctaTitle": "Interessiert an dem FKJ-600C Großformat-Reibungszuführer?",
       "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für die Verpackungslinie zum FKJ-600C.",
       "relatedSolutionsTitle": "Verpackungslösungen mit dieser Maschine",
-      "relatedMachinesTitle": "Verwandte Maschinen"
+      "relatedMachinesTitle": "Verwandte Maschinen",
+      "name": "Großformat-Reibungszuführer"
     }
   },
   "media": {

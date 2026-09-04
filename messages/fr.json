@@ -402,7 +402,6 @@
       "ai": "Vision par IA"
     },
     "model": "Modèle",
-    "relatedMachinesTitle": "Machines associées",
     "machinesData": {
       "fkj-100sl": {
         "name": "Distributeur à Friction Automatique",
@@ -466,8 +465,8 @@
         ]
       },
       "fkj-600c": {
-        "name": "Distributeur de Cartes FKJ-600C",
-        "description": "Distributeur de cartes servo standard pour produits en feuille jusqu'à 600 mm de large. Entraînement servo avec commande API et écran tactile, jusqu'à 200 cartes/min, avec alarme automatique en cas de cartes manquantes.",
+        "name": "Alimentateur par friction grand format",
+        "description": "Alimentateur par friction grand format FKJ-600C pour produits en feuille jusqu'à 600 mm de large. Entraînement servo avec commande API et écran tactile, vitesse d'alimentation max. env. 200 cartes/min, avec alarme automatique en cas de cartes manquantes.",
         "longDescription": [
           "Le distributeur de cartes FKJ-600C est conçu pour la distribution automatique à grande vitesse de produits en feuille larges. Il utilise un système d'entraînement servo avec contrôleur API et interface tactile pour une configuration simple, le stockage des paramètres et le démarrage automatique.",
           "Il prend en charge les modes de distribution simple, multiple et continu, et s'intègre aux machines d'emballage type coussin, verticales, fermetures de cartons, convoyeurs automatiques, machines de thermorétraction et plus encore pour constituer des lignes d'emballage entièrement automatisées."
@@ -759,8 +758,7 @@
       "Bag Size": "Taille du sachet",
       "Air Pressure": "Pression d'air",
       "Air Consumption": "Consommation d'air"
-    },
-    "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage"
+    }
   },
   "about": {
     "title1": "À propos de",
@@ -1807,12 +1805,12 @@
       "relatedMachinesTitle": "Machines associées"
     },
     "fkj-600c": {
-      "seoTitle": "Distributeur de Cartes FKJ-600C | CHANFER",
+      "seoTitle": "Alimentateur par friction grand format | CHANFER",
       "seoDescription": "Distributeur de cartes servo standard pour produits en feuille jusqu'à 600 mm de large. Entraînement servo avec commande API et écran tactile, jusqu'à 200 cartes/min, avec alarme automatique en cas de cartes manquantes.",
-      "keywords": "distributeur à friction grand format,distributeur large,FKJ-600C,alimentateur cartes,alimentateur servo,alimentateur produits larges",
+      "keywords": "alimentateur à friction grand format,alimentateur large,FKJ-600C,alimentateur cartes,alimentateur servo,alimentateur produits larges",
       "longDescription": [
-        "Le distributeur de cartes FKJ-600C est conçu pour la distribution automatique à grande vitesse de produits en feuille larges. Il utilise un système d'entraînement servo avec contrôleur API et interface tactile pour une configuration simple, le stockage des paramètres et le démarrage automatique.",
-        "Il prend en charge les modes de distribution simple, multiple et continu, et s'intègre aux machines d'emballage type coussin, verticales, fermetures de cartons, convoyeurs automatiques, machines de thermorétraction et plus encore pour constituer des lignes d'emballage entièrement automatisées."
+        "L'alimentateur par friction grand format FKJ-600C est conçu pour l'alimentation automatique à grande vitesse de produits en feuille larges. Il utilise un système d'entraînement servo avec contrôleur API et interface tactile pour une configuration simple, le stockage des paramètres et le démarrage automatique.",
+        "Il prend en charge les modes d'alimentation simple, multiple et continu, et s'intègre aux machines d'emballage type coussin, verticales, fermetures de cartons, convoyeurs automatiques, machines de thermorétraction et plus encore pour constituer des lignes d'emballage entièrement automatisées."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1827,10 +1825,11 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "Intéressé par le distributeur à friction grand format FKJ-600C ?",
+      "ctaTitle": "Intéressé par l'alimentateur par friction grand format FKJ-600C ?",
       "ctaDescription": "Obtenez les spécifications détaillées, les prix et le guide d'intégration de la ligne d'emballage pour le FKJ-600C.",
       "relatedSolutionsTitle": "Solutions d'emballage utilisant cette machine",
-      "relatedMachinesTitle": "Machines associées"
+      "relatedMachinesTitle": "Machines associées",
+      "name": "Alimentateur par friction grand format"
     }
   },
   "media": {

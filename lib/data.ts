@@ -414,10 +414,10 @@ export const machineProducts: MachineProduct[] = [
   {
     id: "fkj-600c",
     model: "FKJ-600C",
-    name: "Standard Card Dispenser",
+    name: "Large-Format Friction Feeder",
     category: "feeding",
     description:
-      "Standard servo card dispenser for sheet products up to 600mm wide. Servo motor drive with PLC control and touch screen, feeds up to 200 cards/min. Automatic alarm for missed and missing cards.",
+      "FKJ-600C large-format friction feeder for sheet products up to 600mm wide. Servo motor drive with PLC control and touch screen, feeds up to 200 cards/min. Automatic alarm for missed and missing cards.",
     specs: {
       "Card Thickness": "0.1–3mm",
       "Card Size": "L100–500mm × W200–600mm",

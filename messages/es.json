@@ -402,7 +402,6 @@
       "ai": "Visión por IA"
     },
     "model": "Modelo",
-    "relatedMachinesTitle": "Máquinas relacionadas",
     "machinesData": {
       "fkj-100sl": {
         "name": "Alimentador por Fricción Automático",
@@ -466,8 +465,8 @@
         ]
       },
       "fkj-600c": {
-        "name": "Dispensador de Tarjetas FKJ-600C",
-        "description": "Dispensador de tarjetas servo estándar para productos en hoja de hasta 600 mm de ancho. Accionamiento servo con control PLC y pantalla táctil, hasta 200 tarjetas/min, con alarma automática por tarjetas faltantes.",
+        "name": "Alimentador por fricción de gran formato",
+        "description": "Alimentador por fricción de gran formato FKJ-600C para productos en hoja de hasta 600 mm de ancho. Accionamiento servo con control PLC y pantalla táctil, velocidad de alimentación máx. aprox. 200 tarjetas/min, con alarma automática por tarjetas faltantes.",
         "longDescription": [
           "El dispensador de tarjetas FKJ-600C está diseñado para la dispensación automática de alta velocidad de productos en hoja anchos. Utiliza un sistema de accionamiento servo con controlador PLC e interfaz táctil para una configuración sencilla, almacenamiento de parámetros y funcionamiento automático al arrancar.",
           "Admite modos de dispensación individual, múltiple y continua, e integra máquinas envasadoras tipo almohada, verticales, cerradoras de cajas, transportadores automáticos, máquinas de envasado retráctil y más para formar líneas de envasado completamente automatizadas."
@@ -759,8 +758,7 @@
       "Bag Size": "Tamaño de la bolsa",
       "Air Pressure": "Presión de aire",
       "Air Consumption": "Consumo de aire"
-    },
-    "relatedSolutionsTitle": "Utilizado en estas soluciones de envasado"
+    }
   },
   "about": {
     "title1": "Sobre",
@@ -1807,12 +1805,12 @@
       "relatedMachinesTitle": "Máquinas relacionadas"
     },
     "fkj-600c": {
-      "seoTitle": "Dispensador de Tarjetas FKJ-600C | CHANFER",
+      "seoTitle": "Alimentador por fricción de gran formato | CHANFER",
       "seoDescription": "Dispensador de tarjetas servo estándar para productos en hoja de hasta 600 mm de ancho. Accionamiento servo con control PLC y pantalla táctil, hasta 200 tarjetas/min, con alarma automática por tarjetas faltantes.",
       "keywords": "alimentador por fricción gran formato,alimentador ancho,FKJ-600C,alimentador de cartas,alimentador servo,alimentador productos anchos",
       "longDescription": [
-        "El dispensador de tarjetas FKJ-600C está diseñado para la dispensación automática de alta velocidad de productos en hoja anchos. Utiliza un sistema de accionamiento servo con controlador PLC e interfaz táctil para una configuración sencilla, almacenamiento de parámetros y funcionamiento automático al arrancar.",
-        "Admite modos de dispensación individual, múltiple y continua, e integra máquinas envasadoras tipo almohada, verticales, cerradoras de cajas, transportadores automáticos, máquinas de envasado retráctil y más para formar líneas de envasado completamente automatizadas."
+        "El alimentador por fricción de gran formato FKJ-600C está diseñado para la alimentación automática de alta velocidad de productos en hoja anchos. Utiliza un sistema de accionamiento servo con controlador PLC e interfaz táctil para una configuración sencilla, almacenamiento de parámetros y funcionamiento automático al arrancar.",
+        "Admite modos de alimentación individual, múltiple y continua, e integra máquinas envasadoras tipo almohada, verticales, cerradoras de cajas, transportadores automáticos, máquinas de envasado retráctil y más para formar líneas de envasado completamente automatizadas."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1830,7 +1828,8 @@
       "ctaTitle": "¿Interesado en el alimentador por fricción de gran formato FKJ-600C?",
       "ctaDescription": "Obtenga especificaciones detalladas, precios y guía de integración de línea de envasado para el FKJ-600C.",
       "relatedSolutionsTitle": "Soluciones de envasado que utilizan esta máquina",
-      "relatedMachinesTitle": "Máquinas relacionadas"
+      "relatedMachinesTitle": "Máquinas relacionadas",
+      "name": "Alimentador por fricción de gran formato"
     }
   },
   "media": {
