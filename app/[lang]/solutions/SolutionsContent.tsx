@@ -82,6 +82,18 @@ export default function SolutionsContent({ dict, locale }: Props) {
     return undefined;
   };
 
+  // Helper: get localized spec value for a solution
+  const ts = (solId: string, key: string): string | undefined => {
+    const sd = solutionsData[solId];
+    if (!sd) return undefined;
+    const specs = sd['specs'];
+    if (specs && typeof specs === 'object' && !Array.isArray(specs)) {
+      const v = (specs as Record<string, unknown>)[key];
+      return typeof v === 'string' ? v : undefined;
+    }
+    return undefined;
+  };
+
   // Helper: get localized process steps
   const tp = (solId: string): Record<string, string> | undefined => {
     const sd = solutionsData[solId];
@@ -219,15 +231,15 @@ export default function SolutionsContent({ dict, locale }: Props) {
                       },
                       {
                         label: sol.id === "banding" ? (specsDict.bandingThickness ?? "Product Thickness") : (specsDict.filmDia ?? "Film Roll Dia."),
-                        value: sol.filmDiameter,
+                        value: sol.id === "banding" ? (ts(sol.id, "bandingThickness") ?? sol.filmDiameter) : sol.filmDiameter,
                       },
                       {
                         label: sol.id === "banding" ? (specsDict.bandingDimensions ?? "Overall Dimensions") : sol.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : sol.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"),
-                        value: sol.filmWidth,
+                        value: sol.id === "banding" ? (ts(sol.id, "bandingDimensions") ?? sol.filmWidth) : sol.filmWidth,
                       },
                       {
                         label: sol.id === "banding" ? (specsDict.bandingWeight ?? "Total Weight") : (specsDict.innerDia ?? "Inner Dia."),
-                        value: sol.filmInnerDiameter,
+                        value: sol.id === "banding" ? (ts(sol.id, "bandingWeight") ?? sol.filmInnerDiameter) : sol.filmInnerDiameter,
                       },
                       {
                         label: specsDict.voltage ?? "Voltage",

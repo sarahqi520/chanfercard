@@ -294,7 +294,12 @@
           "Barajas estándar",
           "Embalaje ecológico de tarjetas",
           "Lotes multi-baraja"
-        ]
+        ],
+        "specs": {
+          "bandingThickness": "0,1-3 mm",
+          "bandingDimensions": "Aprox. (L) 2200 × (A) 1200 × (Al) 1500 mm",
+          "bandingWeight": "Aprox. 260 KG"
+        }
       },
       "heat-shrink": {
         "name": "Embalaje Termorretráctil",

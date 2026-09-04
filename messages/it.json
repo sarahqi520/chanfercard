@@ -294,7 +294,12 @@
           "Mazzi carte da gioco standard",
           "Imballaggio carte ecologico",
           "Bundle multimaglia"
-        ]
+        ],
+        "specs": {
+          "bandingThickness": "0,1-3 mm",
+          "bandingDimensions": "Circa (L) 2200 × (P) 1200 × (A) 1500 mm",
+          "bandingWeight": "Circa 260 KG"
+        }
       },
       "heat-shrink": {
         "name": "Imballaggio Termocontrazione",

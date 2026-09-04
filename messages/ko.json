@@ -294,7 +294,12 @@
           "표준 플레잉카드 덱",
           "친환경 카드 포장",
           "멀티덱 번들"
-        ]
+        ],
+        "specs": {
+          "bandingThickness": "0.1-3mm",
+          "bandingDimensions": "약(길이) 2200×(너비) 1200×(높이) 1500mm",
+          "bandingWeight": "약 260KG"
+        }
       },
       "heat-shrink": {
         "name": "수축 포장",

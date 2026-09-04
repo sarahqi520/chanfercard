@@ -93,6 +93,8 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
   const description = (solTrans.description as string) ?? solution.description;
   const features = (solTrans.features as string[]) ?? solution.features;
   const idealFor = (solTrans.idealFor as string[]) ?? solution.idealFor;
+  const solSpecs = (solTrans.specs as Record<string, string> | undefined) ?? {};
+  const ts = (key: string): string | undefined => solSpecs[key];
   const processStepsTrans = (solTrans.processSteps as Record<string, string>) ?? {};
   const lineComponentsTrans = (solTrans.lineComponents as Record<string, string>) ?? {};
 
@@ -186,9 +188,9 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {[
               { label: specsDict.speed ?? "Speed", value: solution.speed },
-              { label: solution.id === "banding" ? (specsDict.bandingThickness ?? "Product Thickness") : (specsDict.filmDia ?? "Film Roll Dia."), value: solution.filmDiameter },
-              { label: solution.id === "banding" ? (specsDict.bandingDimensions ?? "Overall Dimensions") : solution.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : solution.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"), value: solution.filmWidth },
-              { label: solution.id === "banding" ? (specsDict.bandingWeight ?? "Total Weight") : (specsDict.innerDia ?? "Inner Dia."), value: solution.filmInnerDiameter },
+              { label: solution.id === "banding" ? (specsDict.bandingThickness ?? "Product Thickness") : (specsDict.filmDia ?? "Film Roll Dia."), value: solution.id === "banding" ? (ts("bandingThickness") ?? solution.filmDiameter) : solution.filmDiameter },
+              { label: solution.id === "banding" ? (specsDict.bandingDimensions ?? "Overall Dimensions") : solution.id === "self-adhesive" ? (specsDict.bagSize ?? "Bag Size") : solution.id === "candy" ? (specsDict.filmWidthMax ?? specsDict.filmWidth ?? "Film Width") : (specsDict.filmWidth ?? "Film Width"), value: solution.id === "banding" ? (ts("bandingDimensions") ?? solution.filmWidth) : solution.filmWidth },
+              { label: solution.id === "banding" ? (specsDict.bandingWeight ?? "Total Weight") : (specsDict.innerDia ?? "Inner Dia."), value: solution.id === "banding" ? (ts("bandingWeight") ?? solution.filmInnerDiameter) : solution.filmInnerDiameter },
               { label: specsDict.voltage ?? "Voltage", value: solution.voltage },
             ].map((spec, j) => (
               <div key={j} className="bg-card border border-border rounded-xl p-4 text-center">

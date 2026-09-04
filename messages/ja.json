@@ -294,7 +294,12 @@
           "標準プレイングカードデッキ",
           "環境配慮型カード包装",
           "マルチデッキバンドル"
-        ]
+        ],
+        "specs": {
+          "bandingThickness": "0.1-3mm",
+          "bandingDimensions": "約（長）2200×（幅）1200×（高）1500mm",
+          "bandingWeight": "約260KG"
+        }
       },
       "heat-shrink": {
         "name": "熱収縮包装",

@@ -294,7 +294,12 @@
           "标准扑克牌套装",
           "环保卡牌包装",
           "多副卡组合装"
-        ]
+        ],
+        "specs": {
+          "bandingThickness": "0.1-3mm",
+          "bandingDimensions": "约（长）2200×（宽）1200×（高）1500mm",
+          "bandingWeight": "约 260KG"
+        }
       },
       "heat-shrink": {
         "name": "热收缩包装",

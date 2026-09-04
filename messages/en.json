@@ -301,7 +301,12 @@
           "Standard playing card sets",
           "Eco-friendly card packaging",
           "Multi-deck card bundles"
-        ]
+        ],
+        "specs": {
+          "bandingThickness": "0.1-3mm",
+          "bandingDimensions": "2200×1200×1500mm",
+          "bandingWeight": "260KG"
+        }
       },
       "heat-shrink": {
         "name": "Heat Shrink Packaging",
