@@ -165,8 +165,8 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                 </Link>
               </div>
 
-              {/* Expo Announcement */}
-              <div className="mt-6">
+              {/* Expo Announcement + Booking CTA */}
+              <div className="mt-6 flex flex-col items-start gap-3">
                 <a
                   href="https://www.printingunited.com/"
                   target="_blank"
@@ -190,6 +190,13 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                     </span>
                   </div>
                   <ArrowRight size={14} className="text-white/40 group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
+                </a>
+                <a
+                  href="/book-a-demo.html"
+                  className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-accent hover:bg-accent/90 text-white font-bold transition-all text-sm shadow-lg shadow-accent/30 hover:shadow-accent/50"
+                >
+                  {locale === "zh" ? "预约展位演示" : "Book a Demo at Booth N7411"}
+                  <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
                 </a>
               </div>
 
