@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On-site Demo Booking · CHANFER @ PRINTING United Expo 2026 · Booth N7411</title>
+<style>
+  :root{ --fg:#1f2933; --muted:#6b7280; --line:#e5e7eb; --brand:#0b5cab; --chip:#f3f4f6; }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:#f7f9fc;line-height:1.6}
+  .wrap{max-width:680px;margin:0 auto;padding:26px 18px 60px}
+  .wrap.en-lang .zh-txt,
+  .wrap.zh-lang .en-txt{display:none}
+  .head{background:linear-gradient(135deg,#0b5cab,#0e6fd0);color:#fff;border-radius:16px;padding:22px 22px;margin-bottom:20px}
+  .head h1{margin:0 0 6px;font-size:21px;line-height:1.35}
+  .head p{margin:0;opacity:.92;font-size:13px}
+  .lang{display:inline-flex;gap:6px;margin-top:12px}
+  .lang button{border:none;background:rgba(255,255,255,.18);color:#fff;padding:5px 14px;border-radius:20px;font-size:13px;cursor:pointer}
+  .lang button.on{background:#fff;color:var(--brand);font-weight:700}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 20px 24px}
+  label{display:block;font-size:13px;font-weight:600;margin:14px 0 6px;color:var(--fg)}
+  input,select,textarea{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:9px;font-size:14px;font-family:inherit;background:#fff;color:var(--fg)}
+  textarea{resize:vertical;min-height:70px}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .submit{margin-top:20px;width:100%;background:var(--brand);color:#fff;border:none;padding:14px;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer}
+  .submit:hover{background:#0a4f93}
+  .tip{margin-top:14px;font-size:12px;color:var(--muted);background:var(--chip);border-radius:9px;padding:10px 12px}
+  .venue{margin-top:22px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:12px;padding:16px 18px}
+  .venue h3{margin:0 0 10px;font-size:15px;color:var(--brand)}
+  .vrow{font-size:13.5px;margin-bottom:6px}
+  .vrow b{display:inline-block;min-width:70px;color:var(--fg)}
+  .seeyou{margin:10px 0 0;font-weight:700;color:var(--brand);font-size:14px}
+  @media(max-width:520px){ .row2{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<div class="wrap en-lang" id="wrap">
+
+  <div class="head">
+    <h1>On-site Demo Booking — PRINTING United Expo 2026</h1>
+    <p class="en-txt">CHANFER Card Packaging · Booth N7411 · Las Vegas · Sept 23–25, 2026. Pick a time slot and we'll save your seat at the live demo.</p>
+    <p class="zh-txt">CHANFER 卡牌包装 · N7411 展位 · 拉斯维加斯 · 2026年9月23–25日。选个时间段，我们为您留好现场演示座位。</p>
+    <div class="lang">
+      <button id="btnEn" class="on" onclick="setLang('en')">English</button>
+      <button id="btnZh" onclick="setLang('zh')">中文</button>
+    </div>
+  </div>
+
+  <!-- EN form -->
+  <form id="formEn" class="card en-txt" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="hidden" name="_subject" value="CHANFER Booth N7411 Demo Booking">
+    <label>Full Name *</label>
+    <input name="name" required placeholder="Your name">
+    <label>Company *</label>
+    <input name="company" required placeholder="Company name">
+    <div class="row2">
+      <div><label>Country / Region *</label><input name="country" required placeholder="e.g. USA"></div>
+      <div><label>Email *</label><input name="email" type="email" required placeholder="you@company.com"></div>
+    </div>
+    <label>Phone / WhatsApp</label>
+    <input name="phone" placeholder="+1 ...">
+    <label>Machine of Interest</label>
+    <select name="machine">
+      <option>Card Feeder / Friction Feeder</option>
+      <option>Four-Side Seal</option>
+      <option>Heat Shrink Wrapping</option>
+      <option>AI Visual Inspection</option>
+      <option>Smart Card Dispatching</option>
+      <option>Full Line / Integration</option>
+      <option>Other</option>
+    </select>
+    <div class="row2">
+      <div><label>Date *</label>
+        <select name="date" required>
+          <option>Sep 23, 2026</option>
+          <option>Sep 24, 2026</option>
+          <option>Sep 25, 2026</option>
+        </select>
+      </div>
+      <div><label>Time Slot *</label>
+        <select name="slot" required>
+          <option>Morning 8:30–10:30</option>
+          <option>Late morning 10:30–12:30</option>
+          <option>Afternoon 1:30–3:30</option>
+          <option>Late afternoon 3:30–5:30</option>
+          <option>Flex 5:30–6:00</option>
+        </select>
+      </div>
+    </div>
+    <label>Message</label>
+    <textarea name="message" placeholder="Tell us about your cards, throughput, packaging method..."></textarea>
+    <button class="submit" type="submit">Book My On-site Demo</button>
+    <div class="tip">Submissions are sent straight to <b>sales6@gzchanfer.com</b> via Formspree. Replace <b>YOUR_FORM_ID</b> in the form action with your real Formspree form ID.</div>
+  </form>
+
+  <!-- ZH form -->
+  <form id="formZh" class="card zh-txt" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="display:none">
+    <input type="hidden" name="_subject" value="CHANFER N7411 展位演示预约">
+    <label>姓名 *</label>
+    <input name="name" required placeholder="您的姓名">
+    <label>公司 *</label>
+    <input name="company" required placeholder="公司名称">
+    <div class="row2">
+      <div><label>国家 / 地区 *</label><input name="country" required placeholder="如：美国"></div>
+      <div><label>邮箱 *</label><input name="email" type="email" required placeholder="you@company.com"></div>
+    </div>
+    <label>电话 / WhatsApp</label>
+    <input name="phone" placeholder="+1 ...">
+    <label>感兴趣的设备</label>
+    <select name="machine">
+      <option>发卡机 / 摩擦式给卡机</option>
+      <option>四边封</option>
+      <option>热缩包装</option>
+      <option>AI 视觉检测</option>
+      <option>智能发卡系统</option>
+      <option>整线 / 集成</option>
+      <option>其他</option>
+    </select>
+    <div class="row2">
+      <div><label>日期 *</label>
+        <select name="date" required>
+          <option>9月23日（2026）</option>
+          <option>9月24日（2026）</option>
+          <option>9月25日（2026）</option>
+        </select>
+      </div>
+      <div><label>时间段 *</label>
+        <select name="slot" required>
+          <option>上午 8:30–10:30</option>
+          <option>上午 10:30–12:30</option>
+          <option>下午 1:30–3:30</option>
+          <option>下午 3:30–5:30</option>
+          <option>弹性 5:30–6:00</option>
+        </select>
+      </div>
+    </div>
+    <label>留言</label>
+    <textarea name="message" placeholder="告诉我们您的卡牌规格、产能、包装方式……"></textarea>
+    <button class="submit" type="submit">提交我的现场演示预约</button>
+    <div class="tip">提交内容会通过 Formspree 直接发到 <b>sales6@gzchanfer.com</b>。请把表单 action 里的 <b>YOUR_FORM_ID</b> 换成你真实的 Formspree 表单 ID。</div>
+  </form>
+
+  <!-- Venue card: language switches with the page -->
+  <div class="venue en-txt">
+    <h3>Event Details</h3>
+    <div class="vrow"><b>Date</b>September 23–25, 2026</div>
+    <div class="vrow"><b>Address</b>3150 Paradise Rd, Las Vegas, NV 89109 USA</div>
+    <div class="vrow"><b>Hall</b>Las Vegas Convention Center – North Halls</div>
+    <div class="vrow"><b>Booth</b>N7411</div>
+    <p class="seeyou">See you there!</p>
+  </div>
+
+  <div class="venue zh-txt">
+    <h3>展会信息</h3>
+    <div class="vrow"><b>日期</b>2026年9月23–25日</div>
+    <div class="vrow"><b>地址</b>美国内华达州拉斯维加斯市天堂路3150号（邮编 89109）</div>
+    <div class="vrow"><b>展馆</b>拉斯维加斯会展中心 – 北馆</div>
+    <div class="vrow"><b>展位</b>N7411</div>
+    <p class="seeyou">不见不散！</p>
+  </div>
+
+</div>
+<script>
+  function setLang(l){
+    document.getElementById('btnEn').classList.toggle('on', l==='en');
+    document.getElementById('btnZh').classList.toggle('on', l==='zh');
+    document.getElementById('wrap').className = 'wrap ' + l + '-lang';
+    document.getElementById('formEn').style.display = l==='en' ? 'block' : 'none';
+    document.getElementById('formZh').style.display = l==='zh' ? 'block' : 'none';
+  }
+</script>
+</body>
+</html>
