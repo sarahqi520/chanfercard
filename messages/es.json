@@ -724,6 +724,29 @@
           "Detección de pedidos mixtos y secuencia",
           "Aseguramiento de calidad para envasado de cartas"
         ]
+      },
+      "zs-590wsc": {
+        "name": "Envasadora retráctil de sellado lateral tipo empuje de película superior",
+        "description": "ZS-590WS-C envasadora retráctil de sellado lateral tipo empuje de película superior con túnel de retracción SL-3020. Ancho máximo de película 590mm, longitud de bolsa 120-1000mm, altura de producto 5-100mm. Control servo de longitud, pantalla táctil a color, 40 recetas, control PID independiente.",
+        "features": [
+          "Control servo: longitud de bolsa programable y corte, sin recorrido vacío, ahorra tiempo y película",
+          "Pantalla táctil a color con 40 recetas de envasado",
+          "Autodiagnóstico con visualización clara de fallos",
+          "Control PID de temperatura independiente para diversas películas",
+          "Parada de posicionamiento: cuchilla sin adherencias, sin desperdicio de película",
+          "Sistema de transmisión simple, operación confiable y mantenimiento fácil",
+          "Reversa automática al cortar producto, reinicio sencillo",
+          "Túnel SL-3020: ajustable 200-300°C, diferencia térmica pequeña",
+          "Convección superior/inferior e izquierda/derecha para retracción sin arrugas",
+          "Calentamiento rápido, larga vida útil, bajo consumo energético",
+          "Conformado rápido con superficie de película plana y brillante",
+          "Recuperación de aire caliente y buen aislamiento ahorran energía"
+        ],
+        "applications": [
+          "Envasado retráctil de cartas, póker y accesorios de juegos de mesa",
+          "Productos sólidos regulares o irregulares con ancho de película ≤590mm y altura ≤100mm",
+          "Líneas de envasado automatizadas para especificaciones únicas o estables"
+        ]
       }
     },
     "featuresTitle": "Características",
@@ -1836,6 +1859,22 @@
       "relatedSolutionsTitle": "Soluciones de envasado que utilizan esta máquina",
       "relatedMachinesTitle": "Máquinas relacionadas",
       "name": "FKJ-600C Alimentador por Fricción"
+    },
+    "zs-590wsc": {
+      "name": "Envasadora retráctil ZS-590WS-C de sellado lateral tipo empuje de película superior",
+      "ctaTitle": "¿Necesita una solución de envasado retráctil?",
+      "ctaButton": "Contáctenos",
+      "seoTitle": "Envasadora retráctil ZS-590WS-C de sellado lateral tipo empuje | Chanfer",
+      "seoDescription": "ZS-590WS-C envasadora retráctil de sellado lateral tipo empuje con túnel SL-3020, ancho máximo de película 590mm, 20-100 bolsas/min.",
+      "keywords": "ZS-590WS-C, envasadora retráctil, sellado lateral, túnel de retracción, envasado de cartas, Chanfer",
+      "longDescription": [
+        "La ZS-590WS-C es una envasadora retráctil de sellado lateral tipo empuje de película superior, integrada con el túnel de retracción SL-3020 para formar, sellar y retractar bolsas en una sola pasada.",
+        "Procesa película de hasta 590mm de ancho, longitudes de bolsa de 120-1000mm y alturas de producto de 5-100mm. El control servo de longitud permite cortar sin recorrido vacío; la pantalla táctil a color almacena 40 recetas y el control PID independiente se adapta a diversas películas retráctiles.",
+        "El túnel SL-3020 utiliza convección superior/inferior e izquierda/derecha para mantener temperaturas uniformes entre 200-300°C, logrando una retracción sin arrugas y con superficie brillante. La recuperación de aire caliente reduce el consumo energético.",
+        "Ideal para cartas, póker, accesorios de juegos de mesa y productos sólidos regulares o irregulares hasta 590mm de ancho de película, especialmente líneas automatizadas con especificaciones únicas o estables."
+      ],
+      "relatedSolutions": [],
+      "relatedMachines": []
     }
   },
   "media": {

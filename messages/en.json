@@ -731,6 +731,29 @@
           "Mixed-order and sequence detection",
           "Quality assurance for card packaging"
         ]
+      },
+      "zs-590wsc": {
+        "name": "Top-Film Push-Type Side-Seal Reciprocating Shrink Packaging Machine",
+        "description": "ZS-590WS-C top-film push-type side-seal reciprocating shrink packaging machine with SL-3020 shrink tunnel. Max film width 590mm, bag length 120-1000mm, product height 5-100mm. Servo bag-length control, color touchscreen, 40 recipe storage, independent PID temperature control.",
+        "features": [
+          "Servo control: bag length set-and-cut, no empty travel, saves time and film",
+          "Color touchscreen with 40 packaging parameter recipes",
+          "Self-diagnosis with clear fault display",
+          "Independent PID temperature control suits various packaging films",
+          "Positioning stop function: no sticking knife, no film waste",
+          "Simple drive system for reliable operation and easy maintenance",
+          "Auto reverse on product cut, easy restart after clearing",
+          "SL-3020 shrink tunnel: 200-300°C adjustable, small temperature difference, voltage-stable",
+          "Top/bottom and left/right convection for wrinkle-free, film-safe shrinkage",
+          "Fast heat-up, long service life, low energy consumption",
+          "Quick setting for flat and glossy film surface",
+          "Hot-air recovery and good insulation save power versus traditional tunnels"
+        ],
+        "applications": [
+          "Shrink film packaging for cards, poker, board game accessories",
+          "Regular or irregular solid products with film width ≤590mm and height ≤100mm",
+          "Automated packaging lines for single or stable specifications"
+        ]
       }
     },
     "featuresTitle": "Key Features",
@@ -1878,6 +1901,22 @@
       "relatedSolutionsTitle": "Packaging Solutions Using This Machine",
       "relatedMachinesTitle": "Related Machines",
       "name": "FKJ-600C Friction Feeder"
+    },
+    "zs-590wsc": {
+      "name": "ZS-590WS-C Top-Film Push-Type Side-Seal Reciprocating Shrink Packaging Machine",
+      "ctaTitle": "Need an inline shrink packaging solution?",
+      "ctaButton": "Contact Us",
+      "seoTitle": "ZS-590WS-C Top-Film Push-Type Side-Seal Reciprocating Shrink Packaging Machine | Chanfer",
+      "seoDescription": "ZS-590WS-C top-film push-type side-seal reciprocating shrink packaging machine with SL-3020 shrink tunnel, max film width 590mm, 20-100 bags/min for cards and board game accessories.",
+      "keywords": "ZS-590WS-C, shrink packaging machine, side-seal wrapper, shrink tunnel, card packaging equipment, Chanfer",
+      "longDescription": [
+        "The ZS-590WS-C is a top-film push-type side-seal reciprocating shrink packaging machine, integrated with the SL-3020 shrink tunnel for bag forming, sealing and shrinking in one pass.",
+        "It handles film width up to 590mm, bag length 120-1000mm and product height 5-100mm. Servo-controlled bag length allows set-and-cut without empty travel; the color touchscreen stores 40 recipes, and independent PID temperature control adapts to various shrink films.",
+        "The SL-3020 shrink tunnel uses top/bottom and left/right convection to maintain uniform temperature between 200-300°C, delivering wrinkle-free, film-safe shrink with a glossy surface. Hot-air recovery and good insulation reduce power consumption compared with traditional tunnels.",
+        "Ideal for cards, poker, board game accessories and regular/irregular solid products up to 590mm film width, especially for single-specification or stable-specification automated packaging lines."
+      ],
+      "relatedSolutions": [],
+      "relatedMachines": []
     }
   },
   "media": {

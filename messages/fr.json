@@ -724,6 +724,29 @@
           "Détection de commandes mixtes et séquence",
           "Assurance qualité pour conditionnement de cartes"
         ]
+      },
+      "zs-590wsc": {
+        "name": "Machine d'emballage rétractable à soufflet latéral avec film supérieur",
+        "description": "ZS-590WS-C machine d'emballage rétractable à soufflet latéral avec film supérieur et tunnel de rétraction SL-3020. Largeur de film max. 590mm, longueur de sachet 120-1000mm, hauteur de produit 5-100mm. Commande servo de longueur, écran tactile couleur, 40 recettes, régulation PID indépendante.",
+        "features": [
+          "Commande servo : longueur de sachet réglée et coupée, sans course à vide, gain de temps et de film",
+          "Écran tactile couleur avec 40 recettes d'emballage",
+          "Autodiagnostic avec affichage clair des défauts",
+          "Régulation PID indépendante de température pour divers films",
+          "Arrêt de positionnement : pas de collage au couteau, pas de gaspillage de film",
+          "Système d'entraînement simple, fonctionnement fiable et entretien facile",
+          "Marche arrière automatique sur coupe produit, redémarrage facile",
+          "Tunnel SL-3020 : 200-300°C réglable, faible différence de température",
+          "Convection haut/bas et gauche/droite pour une rétraction sans plis",
+          "Montée en température rapide, longue durée de vie, faible consommation",
+          "Moulage rapide avec surface de film plane et brillante",
+          "Récupération d'air chaud et bonne isolation pour économiser l'énergie"
+        ],
+        "applications": [
+          "Emballage rétractable de cartes, poker et accessoires de jeux de société",
+          "Produits solides réguliers ou irréguliers avec largeur de film ≤590mm et hauteur ≤100mm",
+          "Lignes d'emballage automatisées pour spécifications uniques ou stables"
+        ]
       }
     },
     "featuresTitle": "Caractéristiques",
@@ -1836,6 +1859,22 @@
       "relatedSolutionsTitle": "Solutions d'emballage utilisant cette machine",
       "relatedMachinesTitle": "Machines associées",
       "name": "FKJ-600C Distributeur à Friction"
+    },
+    "zs-590wsc": {
+      "name": "ZS-590WS-C Machine d'emballage rétractable à soufflet latéral avec film supérieur",
+      "ctaTitle": "Besoin d'une solution d'emballage rétractable ?",
+      "ctaButton": "Contactez-nous",
+      "seoTitle": "ZS-590WS-C Machine d'emballage rétractable à soufflet latéral | Chanfer",
+      "seoDescription": "ZS-590WS-C machine d'emballage rétractable à soufflet latéral avec tunnel SL-3020, largeur de film max. 590mm, 20-100 sachets/min.",
+      "keywords": "ZS-590WS-C, machine d'emballage rétractable, soufflet latéral, tunnel de rétraction, emballage de cartes, Chanfer",
+      "longDescription": [
+        "La ZS-590WS-C est une machine d'emballage rétractable à soufflet latéral avec film supérieur, intégrée au tunnel de rétraction SL-3020 pour former, sceller et rétracter les sachets en un seul passage.",
+        "Elle traite des films jusqu'à 590mm de largeur, des longueurs de sachet de 120-1000mm et des hauteurs de produit de 5-100mm. La commande servo de longueur permet de couper sans course à vide ; l'écran tactile couleur stocke 40 recettes et la régulation PID indépendante s'adapte à divers films rétractables.",
+        "Le tunnel SL-3020 utilise une convection haut/bas et gauche/droite pour maintenir des températures uniformes entre 200-300°C, offrant une rétraction sans plis et une surface brillante. La récupération d'air chaud réduit la consommation d'énergie.",
+        "Idéale pour les cartes, le poker, les accessoires de jeux de société et les produits solides réguliers ou irréguliers jusqu'à 590mm de largeur de film, en particulier les lignes automatisées à spécification unique ou stable."
+      ],
+      "relatedSolutions": [],
+      "relatedMachines": []
     }
   },
   "media": {

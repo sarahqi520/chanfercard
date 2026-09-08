@@ -724,6 +724,29 @@
           "Rilevamento ordini misti e sequenza",
           "Assicurazione qualità per imballaggio carte"
         ]
+      },
+      "zs-590wsc": {
+        "name": "Confezionatrice termoretraibile a sigillatura laterale con film superiore",
+        "description": "ZS-590WS-C confezionatrice termoretraibile a sigillatura laterale con film superiore e tunnel di termoretrazione SL-3020. Larghezza film max 590mm, lunghezza sacchetto 120-1000mm, altezza prodotto 5-100mm. Controllo servo della lunghezza, touchscreen a colori, 40 ricette, controllo PID indipendente.",
+        "features": [
+          "Controllo servo: lunghezza sacchetto impostata e tagliata, nessuna corsa a vuoto, risparmio di tempo e film",
+          "Touchscreen a colori con 40 ricette di confezionamento",
+          "Autodiagnosi con visualizzazione chiara dei guasti",
+          "Controllo PID indipendente della temperatura per vari film",
+          "Arresto di posizionamento: nessun attacco della lama, nessuno spreco di film",
+          "Sistema di trasmissione semplice, funzionamento affidabile e manutenzione facile",
+          "Inversione automatica sul taglio prodotto, riavvio semplice",
+          "Tunnel SL-3020: 200-300°C regolabili, piccola differenza di temperatura",
+          "Convezione superiore/inferiore e sinistra/destra per termoretrazione senza grinze",
+          "Riscaldamento rapido, lunga durata, basso consumo energetico",
+          "Modellatura rapida con superficie del film liscia e lucida",
+          "Recupero aria calda e buona coibentazione per risparmio energetico"
+        ],
+        "applications": [
+          "Confezionamento termoretraibile di carte, poker e accessori per giochi da tavolo",
+          "Prodotti solidi regolari o irregolari con larghezza film ≤590mm e altezza ≤100mm",
+          "Linee di confezionamento automatizzate per specifiche uniche o stabili"
+        ]
       }
     },
     "featuresTitle": "Caratteristiche",
@@ -1885,6 +1908,22 @@
       "relatedSolutionsTitle": "Soluzioni di confezionamento che utilizzano questa macchina",
       "relatedMachinesTitle": "Macchine correlate",
       "name": "FKJ-600C Alimentatore a Frizione"
+    },
+    "zs-590wsc": {
+      "name": "ZS-590WS-C Confezionatrice termoretraibile a sigillatura laterale con film superiore",
+      "ctaTitle": "Hai bisogno di una soluzione di confezionamento termoretraibile?",
+      "ctaButton": "Contattaci",
+      "seoTitle": "ZS-590WS-C Confezionatrice termoretraibile a sigillatura laterale | Chanfer",
+      "seoDescription": "ZS-590WS-C confezionatrice termoretraibile a sigillatura laterale con tunnel SL-3020, larghezza film max 590mm, 20-100 sacchetti/min.",
+      "keywords": "ZS-590WS-C, confezionatrice termoretraibile, sigillatura laterale, tunnel di termoretrazione, confezionamento carte, Chanfer",
+      "longDescription": [
+        "La ZS-590WS-C è una confezionatrice termoretraibile a sigillatura laterale con film superiore, integrata con il tunnel di termoretrazione SL-3020 per formare, sigillare e restringere i sacchetti in un unico passaggio.",
+        "Gestisce film fino a 590mm di larghezza, lunghezze di sacchetto da 120-1000mm e altezze prodotto da 5-100mm. Il controllo servo della lunghezza consente di tagliare senza corsa a vuoto; il touchscreen a colori memorizza 40 ricette e il controllo PID indipendente si adatta a vari film termoretraibili.",
+        "Il tunnel SL-3020 utilizza convezione superiore/inferiore e sinistra/destra per mantenere temperature uniformi tra 200-300°C, garantendo una termoretrazione senza grinze e una superficie lucida. Il recupero dell'aria calda riduce il consumo energetico.",
+        "Ideale per carte, poker, accessori per giochi da tavolo e prodotti solidi regolari o irregolari fino a 590mm di larghezza film, in particolare linee automatizzate con specifiche uniche o stabili."
+      ],
+      "relatedSolutions": [],
+      "relatedMachines": []
     }
   },
   "media": {

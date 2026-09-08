@@ -724,6 +724,29 @@
           "Gemischt-Auftrags- und Sequenzerkennung",
           "Qualitätssicherung für Kartenverpackung"
         ]
+      },
+      "zs-590wsc": {
+        "name": "Oberfolien-Schubtyp-Seitenverschluss-Schweissverpackungsmaschine",
+        "description": "ZS-590WS-C Oberfolien-Schubtyp-Seitenverschluss-Schweissverpackungsmaschine mit SL-3020 Schrumpftunnel. Max. Folienbreite 590mm, Beutellänge 120-1000mm, Produkthöhe 5-100mm. Servo-Beutellängensteuerung, Farb-Touchscreen, 40 Rezepte, unabhängige PID-Temperaturregelung.",
+        "features": [
+          "Servosteuerung: Beutellänge einstellen und schneiden, kein Leerlauf, zeit- und foliensparend",
+          "Farb-Touchscreen mit 40 Verpackungsrezepten",
+          "Selbstdiagnose mit klarer Fehleranzeige",
+          "Unabhängige PID-Temperaturregelung für verschiedene Folien",
+          "Positionierstopp: kein Messeranhaften, kein Folienverschleiß",
+          "Einfaches Antriebssystem für zuverlässigen Betrieb und einfache Wartung",
+          "Automatische Rückwärtsfahrt beim Produktanschnitt, einfacher Neustart",
+          "SL-3020 Schrumpftunnel: 200-300°C einstellbar, geringe Temperaturdifferenz",
+          "Konvektion von oben/unten und links/rechts für faltenfreies Schrumpfen",
+          "Schnelles Aufheizen, lange Lebensdauer, geringer Energieverbrauch",
+          "Schnelle Formgebung, glänzende Folienoberfläche",
+          "Warmluftrückführung und gute Isolation sparen Energie"
+        ],
+        "applications": [
+          "Schrumpfverpackung für Karten, Poker, Brettspielzubehör",
+          "Regelmäßige oder unregelmäßige Festkörper mit Folienbreite ≤590mm und Höhe ≤100mm",
+          "Automatisierte Verpackungslinien für einzelne oder stabile Spezifikationen"
+        ]
       }
     },
     "featuresTitle": "Eigenschaften",
@@ -1848,6 +1871,22 @@
       "relatedSolutionsTitle": "Verpackungslösungen mit dieser Maschine",
       "relatedMachinesTitle": "Verwandte Maschinen",
       "name": "FKJ-600C Reibungsfeeder"
+    },
+    "zs-590wsc": {
+      "name": "ZS-590WS-C Oberfolien-Schubtyp-Seitenverschluss-Schweissverpackungsmaschine",
+      "ctaTitle": "Brauchen Sie eine Schrumpfverpackungslösung?",
+      "ctaButton": "Kontaktieren Sie uns",
+      "seoTitle": "ZS-590WS-C Oberfolien-Schubtyp-Seitenverschluss-Schweissverpackungsmaschine | Chanfer",
+      "seoDescription": "ZS-590WS-C Oberfolien-Schubtyp-Seitenverschluss-Schweissverpackungsmaschine mit SL-3020 Schrumpftunnel, max. Folienbreite 590mm, 20-100 Beutel/min.",
+      "keywords": "ZS-590WS-C, Schrumpfverpackungsmaschine, Seitenverschlussmaschine, Schrumpftunnel, Kartenverpackung, Chanfer",
+      "longDescription": [
+        "Die ZS-590WS-C ist eine Oberfolien-Schubtyp-Seitenverschluss-Schweissverpackungsmaschine mit integriertem SL-3020 Schrumpftunnel für Beutelformung, Versiegelung und Schrumpfung in einem Durchgang.",
+        "Sie verarbeitet Folien bis 590mm Breite, Beutellängen von 120-1000mm und Produkthöhen von 5-100mm. Servogesteuerte Beutellänge ermöglicht direktes Schneiden ohne Leerlauf; der Farb-Touchscreen speichert 40 Rezepte, und die unabhängige PID-Temperaturregelung passt sich verschiedenen Schrumpffolien an.",
+        "Der SL-3020 Schrumpftunnel nutzt Konvektion von oben/unten und links/rechts für gleichmäßige Temperaturen zwischen 200-300°C, faltenfreies Schrumpfen mit glänzender Oberfläche. Warmluftrückführung reduziert den Energieverbrauch.",
+        "Ideal für Karten, Poker, Brettspielzubehör und regelmäßige/unregelmäßige Festkörper bis 590mm Folienbreite, besonders für automatisierte Linien mit einer oder stabilen Spezifikationen."
+      ],
+      "relatedSolutions": [],
+      "relatedMachines": []
     }
   },
   "media": {
