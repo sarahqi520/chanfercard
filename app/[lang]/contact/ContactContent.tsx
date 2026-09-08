@@ -45,7 +45,7 @@ export default function ContactContent({ dict, locale }: Props) {
     try {
       // Submit to Google Sheets backend via Apps Script web app
       await fetch(
-        "https://script.google.com/macros/s/AKfycbzyhcTwNVh_kW4bpLAQ6B2fFM0vYRvMTZTdVZRdxatD4Xp-dF5I_Xw2jZD_ImI_Gr8/exec",
+        "https://script.google.com/macros/s/AKfycbwXpwB7wH62z9uQrU8H0XrA8wwGtVB1CCUT_NsG4Q0bYJf274i36EMPLnyROBa1IVUs/exec",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
