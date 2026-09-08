@@ -24,12 +24,17 @@
   .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
   .submit{margin-top:20px;width:100%;background:var(--brand);color:#fff;border:none;padding:14px;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer}
   .submit:hover{background:#0a4f93}
+  .submit:disabled{opacity:.6;cursor:default}
   .tip{margin-top:14px;font-size:12px;color:var(--muted);background:var(--chip);border-radius:9px;padding:10px 12px}
   .venue{margin-top:22px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:12px;padding:16px 18px}
   .venue h3{margin:0 0 10px;font-size:15px;color:var(--brand)}
   .vrow{font-size:13.5px;margin-bottom:6px}
   .vrow b{display:inline-block;min-width:70px;color:var(--fg)}
   .seeyou{margin:10px 0 0;font-weight:700;color:var(--brand);font-size:14px}
+  .done{text-align:center;padding:14px 4px}
+  .done .big{font-size:36px}
+  .done h2{margin:8px 0 6px;color:var(--brand);font-size:20px}
+  .done p{margin:0;font-size:14px;color:var(--muted)}
   @media(max-width:520px){ .row2{grid-template-columns:1fr} }
 </style>
 </head>
@@ -47,8 +52,7 @@
   </div>
 
   <!-- EN form -->
-  <form id="formEn" class="card en-txt" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    <input type="hidden" name="_subject" value="CHANFER Booth N7411 Demo Booking">
+  <form id="formEn" class="card en-txt" onsubmit="return submitBooking(this,'en')">
     <label>Full Name *</label>
     <input name="name" required placeholder="Your name">
     <label>Company *</label>
@@ -90,12 +94,11 @@
     <label>Message</label>
     <textarea name="message" placeholder="Tell us about your cards, throughput, packaging method..."></textarea>
     <button class="submit" type="submit">Book My On-site Demo</button>
-    <div class="tip">Submissions are sent straight to <b>sales6@gzchanfer.com</b> via Formspree. Replace <b>YOUR_FORM_ID</b> in the form action with your real Formspree form ID.</div>
+    <div class="tip">Your booking is saved to our Google Sheet and a notification is emailed to <b>sales6@gzchanfer.com</b> instantly.</div>
   </form>
 
   <!-- ZH form -->
-  <form id="formZh" class="card zh-txt" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="display:none">
-    <input type="hidden" name="_subject" value="CHANFER N7411 展位演示预约">
+  <form id="formZh" class="card zh-txt" onsubmit="return submitBooking(this,'zh')" style="display:none">
     <label>姓名 *</label>
     <input name="name" required placeholder="您的姓名">
     <label>公司 *</label>
@@ -137,7 +140,7 @@
     <label>留言</label>
     <textarea name="message" placeholder="告诉我们您的卡牌规格、产能、包装方式……"></textarea>
     <button class="submit" type="submit">提交我的现场演示预约</button>
-    <div class="tip">提交内容会通过 Formspree 直接发到 <b>sales6@gzchanfer.com</b>。请把表单 action 里的 <b>YOUR_FORM_ID</b> 换成你真实的 Formspree 表单 ID。</div>
+    <div class="tip">您的预约会写入我们的 Google 表格，并立即邮件通知 <b>sales6@gzchanfer.com</b>。</div>
   </form>
 
   <!-- Venue card: language switches with the page -->
@@ -161,12 +164,56 @@
 
 </div>
 <script>
+  // 把下面这串换成你部署 Google Apps Script 后拿到的网址
+  const APPS_SCRIPT_URL = "https://script.google.com/macros/s/REPLACE_WITH_YOUR_ID/exec";
+
   function setLang(l){
     document.getElementById('btnEn').classList.toggle('on', l==='en');
     document.getElementById('btnZh').classList.toggle('on', l==='zh');
     document.getElementById('wrap').className = 'wrap ' + l + '-lang';
     document.getElementById('formEn').style.display = l==='en' ? 'block' : 'none';
     document.getElementById('formZh').style.display = l==='zh' ? 'block' : 'none';
+  }
+
+  function submitBooking(form, lang){
+    var btn = form.querySelector('.submit');
+    var label = lang==='en' ? 'Book My On-site Demo' : '提交我的现场演示预约';
+    var sending = lang==='en' ? 'Submitting…' : '提交中…';
+
+    if (APPS_SCRIPT_URL.indexOf('REPLACE_WITH_YOUR_ID') !== -1) {
+      alert(lang==='en' ? 'Form endpoint not connected yet. Please contact the admin.'
+                         : '表单接口尚未连接，请联系管理员。');
+      return false;
+    }
+
+    btn.disabled = true;
+    btn.textContent = sending;
+
+    var fd = new FormData(form);
+    var data = {};
+    fd.forEach(function(v,k){ data[k] = v; });
+    data.lang = lang;
+
+    fetch(APPS_SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify(data)
+    }).then(function(){
+      form.innerHTML =
+        '<div class="done">' +
+          '<div class="big">✅</div>' +
+          (lang==='en'
+            ? '<h2>Booking received!</h2><p>Thanks ' + (data.name||'') + '. We\'ve saved your slot and will email you a confirmation. See you at Booth N7411, Las Vegas!</p>'
+            : '<h2>预约已收到！</h2><p>' + (data.name||'') + '，您好。我们已记录您的时段，并将发送确认邮件。拉斯维加斯 N7411 展位，不见不散！</p>') +
+        '</div>';
+    }).catch(function(){
+      btn.disabled = false;
+      btn.textContent = label;
+      alert(lang==='en' ? 'Submission failed. Please try again or email sales6@gzchanfer.com.'
+                        : '提交失败，请重试或直接邮件联系 sales6@gzchanfer.com。');
+    });
+    return false;
   }
 </script>
 </body>
