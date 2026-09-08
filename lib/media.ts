@@ -99,7 +99,7 @@ export const customerVideos: CustomerVideo[] = [
     id: "customer-portrait-2",
     youtubeId: "", // TODO: Paste YouTube video ID
     title: "Machine Close-Up: Servo Packaging in Action",
-    description: "Vertical close-up of the ZS-230X servo packaging machine at a customer site.",
+    description: "Vertical close-up of the ZS-230 top-film push-type packaging machine at a customer site.",
     orientation: "portrait",
     machineId: "zs-220x",
   },
@@ -130,9 +130,9 @@ export const trainingVideos: TrainingVideo[] = [
     id: "training-2",
     youtubeId: "", // TODO: Paste YouTube video ID
     machineId: "zs-220x",
-    title: "Servo Packaging Machine ZS-230X — Operation Training",
+    title: "Top-Film Push-Type Packaging Machine ZS-230 — Operation Training",
     description:
-      "Complete operation training for the ZS-230X high-speed servo packaging machine, including parameter setup, film loading, and troubleshooting.",
+      "Complete operation training for the ZS-230 top-film push-type packaging machine, including parameter setup, film loading, and troubleshooting.",
   },
   {
     id: "training-3",

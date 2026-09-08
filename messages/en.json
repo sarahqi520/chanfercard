@@ -577,19 +577,19 @@
         ]
       },
       "zs-220x": {
-        "name": "High-Speed Servo Packaging Machine",
-        "description": "Compact high-speed pillow packaging machine. Servo controlled with up to 220 bags/min output, ideal for candy-style card wrapping.",
+        "name": "Top-Film Push-Type Packaging Machine",
+        "description": "Top-film push-type pillow packaging machine for flat products with 75–220mm film width. Servo controlled at 20–220 bags/min, with customizable sealing patterns and optional coders/punchers/labelers.",
         "features": [
-          "Servo control — set bag length, cut, no empty travel",
-          "60 packaging parameter presets",
-          "High-sensitivity photoelectric sensor tracking",
-          "Anti-misoperation auto-reverse",
-          "No-film auto-stop protection"
+          "Top-film push-type structure with servo control for precise bag length and cutting position",
+          "Film width range 75–220mm, ideal for flat products such as cards",
+          "Customizable center-seal pattern and sealing-knife pattern",
+          "Optional coder, puncher, labeler; tail conveyor extendable or shortened",
+          "Pure PE film not recommended; line speed up to ~25m/min depending on product and film"
         ],
         "applications": [
-          "Card candy packaging",
-          "Small irregular item packaging",
-          "Food and printed product packaging"
+          "Flat products (cards) with film width ≤220mm",
+          "TCG booster packs, card sleeves, card multi-packs",
+          "Not suitable for irregular or loose bulk products"
         ]
       },
       "sbf-250": {
@@ -764,7 +764,9 @@
       "Product Width": "Product Width",
       "Bag Size": "Bag Size",
       "Air Pressure": "Air Pressure",
-      "Air Consumption": "Air Consumption"
+      "Air Consumption": "Air Consumption",
+      "Packaging materials": "Packaging Materials",
+      "Inner Diameter of Film Roll": "Inner Diameter of Film Roll"
     }
   },
   "about": {
@@ -1625,12 +1627,13 @@
       "relatedMachinesTitle": "Related Machines"
     },
     "zs-220x": {
-      "seoTitle": "ZS-230X High-Speed Servo Packaging Machine | CHANFER",
-      "seoDescription": "Compact high-speed pillow packaging machine. Servo-controlled, 220 bags/min. 60 parameter presets. Photoelectric tracking. Ideal for candy-style card wrapping.",
-      "keywords": "servo packaging machine, ZS-230X, pillow packaging, flow wrapping machine, candy packaging machine, high-speed wrapping, card flow wrap, servo flow wrapper",
+      "seoTitle": "ZS-230 Top-Film Push-Type Packaging Machine | CHANFER",
+      "seoDescription": "ZS-230 top-film push-type pillow packaging machine for flat products up to 220mm film width. 20–220 bags/min, servo control, customizable sealing patterns. Ideal for TCG cards and card sleeves.",
+      "keywords": "top-film push-type packaging machine, ZS-230, pillow packaging machine, card packaging machine, TCG packaging machine, servo flow wrapper, card sleeve packaging",
       "longDescription": [
-        "The ZS-230X is a compact high-speed servo-driven pillow packaging machine — the core of CHANFER's candy packaging lines. With servo-controlled bag length (set and cut, no empty travel), it delivers up to 220 bags per minute with precise sealing quality, making it ideal for TCG booster packs and high-volume card wrapping.",
-        "The machine stores up to 60 packaging parameter presets on the HMI, allowing quick changeover between different product configurations. The high-sensitivity photoelectric sensor tracks film registration marks for precise sealing alignment, while anti-misoperation auto-reverse and no-film auto-stop protection prevent waste and ensure continuous quality."
+        "The ZS-230 is CHANFER's top-film push-type pillow packaging machine, designed for flat products such as TCG cards and card sleeves with film widths up to 220mm. Servo driven, it runs at 20–220 bags/min with precise bag-length and cutting control.",
+        "The machine supports customizable center-seal and sealing-knife patterns, and can be equipped with optional coders, punchers and labelers. The tail conveyor can be lengthened or shortened to fit your line layout. Note: pure PE film is not recommended; bags may show slight scuff marks. Maximum line speed is approx. 25m/min depending on product shape and film material.",
+        "It integrates seamlessly with CHANFER friction feeders, checkweighers, cartoners and palletizing robots to form a complete card pillow-pack production line."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1641,10 +1644,12 @@
         "candy",
         "heat-shrink"
       ],
-      "ctaTitle": "Interested in the ZS-230X Packaging Machine?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the ZS-230X servo packaging machine.",
+      "ctaTitle": "Interested in the ZS-230 Top-Film Push-Type Packaging Machine?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the ZS-230 top-film push-type packaging machine.",
       "relatedSolutionsTitle": "Used in These Packaging Solutions",
-      "relatedMachinesTitle": "Related Machines"
+      "relatedMachinesTitle": "Related Machines",
+      "name": "ZS-230 Top-Film Push-Type Packaging Machine",
+      "ctaButton": "Get a Quote"
     },
     "sbf-250": {
       "seoTitle": "SBF-250 Four-Side Sealing Servo Machine | CHANFER",

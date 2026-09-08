@@ -570,19 +570,19 @@
         ]
       },
       "zs-220x": {
-        "name": "Flow-Wrapping-Maschine",
-        "description": "Sweets-Verpackung, servo 220 Beutel/Min. Max 220mm.",
+        "name": "Oberfolien-Schiebe-Verpackungsmaschine",
+        "description": "Oberfolien-Schiebe-Verpackungsmaschine für flache Produkte mit Folienbreite 75–220 mm. Servogesteuert, 20–220 Beutel/Min., anpassbare Siegelmuster, optional Kodierer/Stanzer/Etikettierer.",
         "features": [
-          "Servosteuerung — Beutellänge einstellen, schneiden, kein Leerlauf",
-          "60 Verpackungsparameter-Voreinstellungen",
-          "Hochsensible fotoelektrische Sensornachführung",
-          "Automatische Umkehrung gegen Fehlbedienung",
-          "Schutz durch automatischen Stopp bei Folienmangel"
+          "Oberfolien-Schiebe-Konstruktion mit Servosteuerung für präzise Beutellänge und Schneidposition",
+          "Folienbreite 75–220 mm, ideal für flache Produkte wie Karten",
+          "Anpassbare Mittelsiegel- und Messermuster",
+          "Optional Kodierer, Stanzer, Etikettierer; Nachlauf verlänger- oder verkürzbar",
+          "Reines PE-Folie nicht empfohlen; Bahngeschwindigkeit bis ca. 25 m/min"
         ],
         "applications": [
-          "Karten-Bonbon-Verpackung",
-          "Verpackung kleiner unregelmäßiger Artikel",
-          "Lebensmittel- und Druckerzeugnisverpackung"
+          "Flache Produkte (Karten) mit Folienbreite ≤220 mm",
+          "TCG-Booster, Kartenhüllen, Karten-Mehrfachpackungen",
+          "Nicht geeignet für unregelmäßige oder lose Schüttgüter"
         ]
       },
       "sbf-250": {
@@ -757,7 +757,9 @@
       "Product Width": "Produktbreite",
       "Bag Size": "Beutelgröße",
       "Air Pressure": "Luftdruck",
-      "Air Consumption": "Luftverbrauch"
+      "Air Consumption": "Luftverbrauch",
+      "Packaging materials": "Verpackungsmaterialien",
+      "Inner Diameter of Film Roll": "Innendurchmesser der Folienrolle"
     }
   },
   "about": {
@@ -1577,12 +1579,13 @@
       "relatedMachinesTitle": "Verwandte Maschinen"
     },
     "zs-220x": {
-      "seoTitle": "Flow-Wrapping-Maschine ZS-230X | CHANFER",
-      "seoDescription": "Hochgeschwindigkeits-Flow-Wrapping (Sweets), 220 Beutel/Min. Servo, max 220mm. Für TCG.",
-      "keywords": "Flow-Wrapping, ZS-230X, Sweets, TCG",
+      "seoTitle": "ZS-230 Oberfolien-Schiebe-Verpackungsmaschine | CHANFER",
+      "seoDescription": "ZS-230 Oberfolien-Schiebe-Verpackungsmaschine für flache Produkte bis 220 mm Folienbreite. 20–220 Beutel/Min., Servosteuerung, anpassbare Siegelmuster.",
+      "keywords": "Oberfolien-Schiebe-Verpackungsmaschine, ZS-230, Kissenverpackungsmaschine, Kartenverpackungsmaschine, TCG-Verpackungsmaschine",
       "longDescription": [
-        "Hochgeschwindigkeits-Flow-Wrapping, servo, 220 Beutel/Min. Max 220mm.",
-        "60 Presets, 3-5 Min Wechsel. Integration mit CHANFER-Maschinen."
+        "ZS-230 ist CHANFERs Oberfolien-Schiebe-Verpackungsmaschine für flache Produkte wie TCG-Karten und Kartenhüllen bis 220 mm Folienbreite. Servoangetrieben, 20–220 Beutel/Min. mit präziser Beutellängen- und Schneidsteuerung.",
+        "Anpassbare Mittelsiegel- und Messermuster; optional Kodierer, Stanzer und Etikettierer. Nachlauf verlänger- oder verkürzbar. Hinweis: reines PE-Folie nicht empfohlen, leichte Kratzer möglich. Bahngeschwindigkeit bis ca. 25 m/min.",
+        "Nahtlose Integration mit CHANFER Reibungszuführern, Wägesystemen, Kartonierern und Palettierrobotern."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1593,10 +1596,12 @@
         "candy",
         "heat-shrink"
       ],
-      "ctaTitle": "Interesse an der ZS-230X?",
-      "ctaDescription": "Spezifikationen und Preise.",
+      "ctaTitle": "Interesse an der ZS-230 Oberfolien-Schiebe-Verpackungsmaschine?",
+      "ctaDescription": "Detaillierte Spezifikationen, Preise und Line-Integrationsberatung für die ZS-230 Oberfolien-Schiebe-Verpackungsmaschine.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
-      "relatedMachinesTitle": "Verwandte Maschinen"
+      "relatedMachinesTitle": "Verwandte Maschinen",
+      "name": "ZS-230 Oberfolien-Schiebe-Verpackungsmaschine",
+      "ctaButton": "Angebot anfordern"
     },
     "sbf-250": {
       "seoTitle": "Vier-Seiten-Siegel-Maschine SBF-250 | CHANFER",

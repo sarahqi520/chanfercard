@@ -570,19 +570,19 @@
         ]
       },
       "zs-220x": {
-        "name": "Macchina Flow Wrapping",
-        "description": "Flow wrapping (candy) alta velocità, servo 220 sacchi/min. Larghezza max 220mm.",
+        "name": "Macchina per Confezionamento a Spinta Film Superiore",
+        "description": "Macchina per confezionamento a cuscino a spinta film superiore per prodotti piatti con larghezza film 75–220 mm. Controllo servo 20–220 sacchetti/min, pattern di sigillatura personalizzabili e codificatore/punzonatore/etichettatrice opzionali.",
         "features": [
-          "Controllo servo — imposta lunghezza busta, taglia, senza corsa a vuoto",
-          "60 preimpostazioni di parametri di imballaggio",
-          "Tracciamento con sensore fotoelettrico ad alta sensibilità",
-          "Auto-inversione anti-errata manipolazione",
-          "Protezione a fermata automatica senza pellicola"
+          "Struttura a spinta film superiore con servo per lunghezza sacchetto e posizione taglio precise",
+          "Larghezza film 75–220 mm, ideale per prodotti piatti come carte",
+          "Pattern di sigillatura centrale e coltello personalizzabili",
+          "Codificatore, punzonatore, etichettatrice opzionali; coda estendibile o accorciabile",
+          "Film PE puro non consigliato; velocità linea fino a ~25 m/min"
         ],
         "applications": [
-          "Imballaggio caramelle con carta",
-          "Imballaggio di articoli piccoli irregolari",
-          "Imballaggio di alimenti e prodotti stampati"
+          "Prodotti piatti (carte) con larghezza film ≤220 mm",
+          "Booster TCG, bustine protettive, multipack di carte",
+          "Non adatta a prodotti irregolari o sfusi"
         ]
       },
       "sbf-250": {
@@ -757,7 +757,9 @@
       "Product Width": "Larghezza prodotto",
       "Bag Size": "Dimensione sacchetto",
       "Air Pressure": "Pressione aria",
-      "Air Consumption": "Consumo aria"
+      "Air Consumption": "Consumo aria",
+      "Packaging materials": "Materiali da Imballaggio",
+      "Inner Diameter of Film Roll": "Diametro Interno del Rotolo di Film"
     }
   },
   "about": {
@@ -1614,13 +1616,13 @@
       "relatedMachinesTitle": "Macchine correlate"
     },
     "zs-220x": {
-      "seoTitle": "Macchina Flow Wrapping ZS-230X | CHANFER",
-      "seoDescription": "Flow wrapping alta velocità (candy), 220 sacchi/min. Servo, larghezza max 220mm. Per buste TCG e multi-pack.",
-      "keywords": "flow wrapping, ZS-230X, candy, macchina confezionamento, TCG",
+      "seoTitle": "Macchina per Confezionamento a Spinta Film Superiore ZS-230 | CHANFER",
+      "seoDescription": "ZS-230 macchina per confezionamento a cuscino a spinta film superiore per prodotti piatti fino a 220 mm. 20–220 sacchetti/min, controllo servo, pattern personalizzabili.",
+      "keywords": "macchina per confezionamento a spinta film superiore, ZS-230, macchina per confezionamento a cuscino, macchina per carte TCG",
       "longDescription": [
-        "L'ZS-230X è la macchina flow wrapping (candy) ad alta velocità di CHANFER, servo-guidata, 220 sacchi/min. Larghezza max 220mm per buste TCG, sleeve e multi-pack.",
-        "Servo per taglio preciso, sensore fotoelettrico ad alta sensibilità. 60 preset, cambio 3-5 min.",
-        "Integrazione con alimentatori, checkweigher, cartonatrici e robot CHANFER."
+        "La ZS-230 è la macchina per confezionamento a cuscino a spinta film superiore di CHANFER per prodotti piatti come carte TCG e bustine protettive, larghezza film fino a 220 mm. Servo, 20–220 sacchetti/min con controllo preciso di lunghezza e taglio.",
+        "Supporta pattern di sigillatura centrale e coltello personalizzabili; codificatore, punzonatore ed etichettatrice opzionali. Coda estendibile o accorciabile. Nota: film PE puro non consigliato, possibili lievi graffi. Velocità linea fino a ~25 m/min.",
+        "Integrazione perfetta con alimentatori a frizione, pesatrici, cartonatrici e robot palletizzatori CHANFER."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1631,10 +1633,12 @@
         "candy",
         "heat-shrink"
       ],
-      "ctaTitle": "Interessati alla Macchina ZS-230X?",
-      "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "ctaTitle": "Interessati alla Macchina per Confezionamento a Spinta Film Superiore ZS-230?",
+      "ctaDescription": "Richiedi specifiche dettagliate, prezzi e consulenza per l'integrazione in linea della macchina per confezionamento a spinta film superiore ZS-230.",
       "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
-      "relatedMachinesTitle": "Macchine correlate"
+      "relatedMachinesTitle": "Macchine correlate",
+      "name": "Macchina per Confezionamento a Spinta Film Superiore ZS-230",
+      "ctaButton": "Richiedi un preventivo"
     },
     "sbf-250": {
       "seoTitle": "Macchina Quattro Lati Sigillati SBF-250 | CHANFER",

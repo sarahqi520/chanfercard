@@ -570,19 +570,19 @@
         ]
       },
       "zs-220x": {
-        "name": "Machine Flow Wrapping",
-        "description": "Sweets, servo 220 sacs/min. 220mm.",
+        "name": "Machine d'Emballage par Poussoir à Film Supérieur",
+        "description": "Machine d'emballage coussin par poussoir à film supérieur pour produits plats avec largeur de film 75–220 mm. Servo 20–220 sachets/min, motifs de scellage personnalisables, codeuse/perforatrice/étiqueteuse en option.",
         "features": [
-          "Commande servo — réglage longueur de sachet, coupe, sans course à vide",
-          "60 préréglages de paramètres de conditionnement",
-          "Suivi par capteur photoélectrique haute sensibilité",
-          "Inversion automatique anti-erreur de manipulation",
-          "Protection par arrêt automatique sans film"
+          "Structure par poussoir à film supérieur avec servo pour longueur de sachet et position de coupe précises",
+          "Largeur de film 75–220 mm, idéale pour produits plats comme les cartes",
+          "Motifs de soudure centrale et couteau personnalisables",
+          "Codeuse, perforatrice, étiqueteuse en option; queue extensible ou raccourcissable",
+          "Film PE pur déconseillé; vitesse de ligne jusqu'à ~25 m/min"
         ],
         "applications": [
-          "Conditionnement de bonbons avec carte",
-          "Conditionnement d'articles irréguliers de petite taille",
-          "Conditionnement d'aliments et produits imprimés"
+          "Produits plats (cartes) avec largeur de film ≤220 mm",
+          "Boosters TCG, sleeves de cartes, multipacks de cartes",
+          "Non adaptée aux produits irréguliers ou en vrac"
         ]
       },
       "sbf-250": {
@@ -757,7 +757,9 @@
       "Product Width": "Largeur du produit",
       "Bag Size": "Taille du sachet",
       "Air Pressure": "Pression d'air",
-      "Air Consumption": "Consommation d'air"
+      "Air Consumption": "Consommation d'air",
+      "Packaging materials": "Matériaux d'Emballage",
+      "Inner Diameter of Film Roll": "Diamètre Intérieur du Rouleau de Film"
     }
   },
   "about": {
@@ -1573,12 +1575,13 @@
       "relatedMachinesTitle": "Machines associées"
     },
     "zs-220x": {
-      "seoTitle": "Machine Flow Wrapping ZS-230X | CHANFER",
-      "seoDescription": "Flow wrapping, 220 sacs/min. Servo, 220mm.",
-      "keywords": "flow wrapping, ZS-230X, candy",
+      "seoTitle": "Machine d'Emballage par Poussoir à Film Supérieur ZS-230 | CHANFER",
+      "seoDescription": "ZS-230 machine d'emballage coussin par poussoir à film supérieur pour produits plats jusqu'à 220 mm. 20–220 sachets/min, servo, motifs de scellage personnalisables.",
+      "keywords": "machine d'emballage par poussoir à film supérieur, ZS-230, machine d'emballage coussin, machine d'emballage de cartes, machine d'emballage TCG",
       "longDescription": [
-        "Flow wrapping, 220 sacs/min.",
-        "60 préréglages, 3-5 min."
+        "La ZS-230 est la machine d'emballage coussin par poussoir à film supérieur de CHANFER pour produits plats comme les cartes TCG et sleeves, largeur de film jusqu'à 220 mm. Servo, 20–220 sachets/min avec contrôle précis de la longueur et de la coupe.",
+        "Motifs de soudure centrale et couteau personnalisables; codeuse, perforatrice, étiqueteuse en option. Queue extensible ou raccourcissable. Note: film PE pur déconseillé, légères rayures possibles. Vitesse de ligne jusqu'à ~25 m/min.",
+        "Intégration transparente avec les alimenteurs à friction, pesées, encartonneuses et robots palettiseurs CHANFER."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1589,10 +1592,12 @@
         "candy",
         "heat-shrink"
       ],
-      "ctaTitle": "Intéressé?",
-      "ctaDescription": "Spécifications et prix.",
+      "ctaTitle": "Intéressé par la Machine d'Emballage par Poussoir à Film Supérieur ZS-230?",
+      "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration de ligne pour la machine d'emballage par poussoir à film supérieur ZS-230.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
-      "relatedMachinesTitle": "Machines associées"
+      "relatedMachinesTitle": "Machines associées",
+      "name": "Machine d'Emballage par Poussoir à Film Supérieur ZS-230",
+      "ctaButton": "Obtenir un devis"
     },
     "sbf-250": {
       "seoTitle": "Machine Quatre Côtés SBF-250 | CHANFER",

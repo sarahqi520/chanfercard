@@ -570,19 +570,19 @@
         ]
       },
       "zs-220x": {
-        "name": "Máquina Flow Wrapping",
-        "description": "Candy, servo 220 bolsas/min. 220mm.",
+        "name": "Máquina de Envasado por Empuje de Película Superior",
+        "description": "Máquina de envasado almohadilla por empuje de película superior para productos planos con ancho de película 75–220 mm. Control servo 20–220 bolsas/min, patrones de sellado personalizables y codificadora/perforadora/etiquetadora opcional.",
         "features": [
-          "Control servo — ajuste de longitud de bolsa, corte, sin carrera vacía",
-          "60 preajustes de parámetros de envasado",
-          "Seguimiento por sensor fotoeléctrico de alta sensibilidad",
-          "Auto-inversión anti-mal funcionamiento",
-          "Protección de parada automática sin película"
+          "Estructura de empuje de película superior con control servo para longitud de bolsa y posición de corte precisas",
+          "Ancho de película 75–220 mm, ideal para productos planos como cartas",
+          "Patrones de sello central y cuchillo personalizables",
+          "Codificadora, perforadora, etiquetadora opcional; cola extensible o acortable",
+          "Película PE pura no recomendada; velocidad de línea hasta ~25 m/min"
         ],
         "applications": [
-          "Envasado de caramelos con carta",
-          "Envasado de artículos pequeños irregulares",
-          "Envasado de alimentos y productos impresos"
+          "Productos planos (cartas) con ancho de película ≤220 mm",
+          "Sobres TCG, fundas de cartas, multipacks de cartas",
+          "No apta para productos irregulares o sueltos a granel"
         ]
       },
       "sbf-250": {
@@ -757,7 +757,9 @@
       "Product Width": "Ancho del producto",
       "Bag Size": "Tamaño de la bolsa",
       "Air Pressure": "Presión de aire",
-      "Air Consumption": "Consumo de aire"
+      "Air Consumption": "Consumo de aire",
+      "Packaging materials": "Materiales de Envasado",
+      "Inner Diameter of Film Roll": "Diámetro Interior del Rollo de Película"
     }
   },
   "about": {
@@ -1573,12 +1575,13 @@
       "relatedMachinesTitle": "Máquinas relacionadas"
     },
     "zs-220x": {
-      "seoTitle": "Máquina Flow Wrapping ZS-230X | CHANFER",
-      "seoDescription": "Flow wrapping, 220 bolsas/min. Servo, 220mm.",
-      "keywords": "flow wrapping, ZS-230X, candy",
+      "seoTitle": "Máquina de Envasado por Empuje de Película Superior ZS-230 | CHANFER",
+      "seoDescription": "ZS-230 máquina de envasado almohadilla por empuje de película superior para productos planos hasta 220 mm. 20–220 bolsas/min, control servo, patrones de sellado personalizables.",
+      "keywords": "máquina de envasado por empuje de película superior, ZS-230, máquina de envasado almohadilla, máquina de envasado de cartas, máquina de envasado TCG",
       "longDescription": [
-        "Flow wrapping, 220 bolsas/min.",
-        "60 preajustes, 3-5 min."
+        "La ZS-230 es la máquina de envasado almohadilla por empuje de película superior de CHANFER para productos planos como cartas TCG y fundas de cartas hasta 220 mm de ancho de película. Accionada por servo, 20–220 bolsas/min con control preciso de longitud de bolsa y corte.",
+        "Admite patrones de sello central y cuchillo personalizables; opcional codificadora, perforadora y etiquetadora. Cola extensible o acortable. Nota: no se recomienda película PE pura, pueden aparecer leves marcas. Velocidad de línea hasta ~25 m/min.",
+        "Integración perfecta con alimentadores de fricción, pesadoras, encajonadoras y robots paletizadores de CHANFER."
       ],
       "relatedMachineIds": [
         "fkj-100sl",
@@ -1589,10 +1592,12 @@
         "candy",
         "heat-shrink"
       ],
-      "ctaTitle": "¿Interesado?",
-      "ctaDescription": "Especificaciones y precios.",
+      "ctaTitle": "¿Interesado en la Máquina de Envasado por Empuje de Película Superior ZS-230?",
+      "ctaDescription": "Obtenga especificaciones detalladas, precios y asesoramiento de integración de línea para la máquina de envasado por empuje de película superior ZS-230.",
       "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
-      "relatedMachinesTitle": "Máquinas relacionadas"
+      "relatedMachinesTitle": "Máquinas relacionadas",
+      "name": "Máquina de Envasado por Empuje de Película Superior ZS-230",
+      "ctaButton": "Solicitar presupuesto"
     },
     "sbf-250": {
       "seoTitle": "Máquina Cuatro Lados SBF-250 | CHANFER",
