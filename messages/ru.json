@@ -759,7 +759,8 @@
       "Air Pressure": "Давление воздуха",
       "Air Consumption": "Расход воздуха",
       "Packaging materials": "Упаковочные материалы",
-      "Inner Diameter of Film Roll": "Внутренний диаметр рулона плёнки"
+      "Inner Diameter of Film Roll": "Внутренний диаметр рулона плёнки",
+      "Product Size": "Размер Изделия"
     }
   },
   "about": {

@@ -759,7 +759,8 @@
       "Air Pressure": "空气压力",
       "Air Consumption": "耗气量",
       "Packaging materials": "包装材料",
-      "Inner Diameter of Film Roll": "膜卷纸管内径"
+      "Inner Diameter of Film Roll": "膜卷纸管内径",
+      "Product Size": "产品尺寸"
     }
   },
   "about": {

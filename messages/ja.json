@@ -759,7 +759,8 @@
       "Air Pressure": "空気圧",
       "Air Consumption": "空気消費量",
       "Packaging materials": "包装材料",
-      "Inner Diameter of Film Roll": "フィルムロール内径"
+      "Inner Diameter of Film Roll": "フィルムロール内径",
+      "Product Size": "製品サイズ"
     }
   },
   "about": {
