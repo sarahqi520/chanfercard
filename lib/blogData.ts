@@ -267,7 +267,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "cta",
         text: { zh: "预约展位演示", en: "Book a Demo at the Show" },
-        href: "/contact",
+        href: "/book-a-demo.html",
       },
     ],
     relatedLinks: [
