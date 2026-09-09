@@ -92,7 +92,22 @@ export default function BlogPostContent({
                     <span>{t(block.text)}</span>
                   </div>
                 );
-              if (block.type === "cta")
+              if (block.type === "cta") {
+                const ctaHref = block.href;
+                const isExternal = /^https?:\/\//i.test(ctaHref);
+                if (isExternal) {
+                  return (
+                    <a
+                      key={i}
+                      href={ctaHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-8 py-4 bg-accent hover:bg-accent/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-accent/30 mt-6"
+                    >
+                      {t(block.text)} <ArrowRight size={16} />
+                    </a>
+                  );
+                }
                 return (
                   <Link
                     key={i}
@@ -102,6 +117,7 @@ export default function BlogPostContent({
                     {t(block.text)} <ArrowRight size={16} />
                   </Link>
                 );
+              }
               if (block.type === "video")
                 return (
                   <figure key={i} className="my-8">
