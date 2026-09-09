@@ -413,6 +413,195 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 
+
+
+  {
+    slug: "film-wont-feed-flow-wrapper-jams",
+    date: "2026-09-09",
+    category: { zh: "技术干货", en: "Troubleshooting" },
+    title: {
+      zh: "走膜不畅？枕式包装机卡膜的 5 个原因",
+      en: "Film Won't Feed? 5 Reasons Your Flow Wrapper Jams — and How to Clear Them",
+    },
+    excerpt: {
+      zh: "卡牌枕式包装线上走膜拉不动、卡膜是最常报修的故障。本文拆解膜跑偏、打滑、褶皱、拉断、丢标五个常见成因，并给出 CHANFER 工程师的排查与解决方法。",
+      en: "Film that won't feed or a wrapper that jams is the most common service call on a card line. We break down five repeatable causes — film tracking off, slipping, wrinkling, tearing, lost print marks — with the fixes CHANFER engineers use.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "在卡牌枕式包装线上，走膜拉不动、包装中途卡膜，是我们售后团队接到最多的报修之一。好消息是：绝大多数走膜问题都来自五个反复出现的成因，只要知道往哪看，排查很快。",
+          en: "On a card flow-wrapping line, film that won't feed — or a wrapper that jams mid-run — is one of the most common calls our service team gets. The good news: most film problems trace back to five repeatable causes, and they're all quick to check once you know where to look.",
+        },
+      },
+
+      {
+        type: "h2",
+        text: { zh: "1. 膜跑偏", en: "1. Film Tracks Off-Center" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "膜卷没对正 → 重新把膜卷在放卷轴上摆正，让膜路正对成型器。",
+          en: "Un-centered film roll → re-align the roll on the unwind shaft so the web sits square to the former.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "导向辊不平行 → 检查每根过辊是否平行，几度的歪斜就会把膜带偏。",
+          en: "Misaligned guide rollers → check that each idler roller is parallel; a few degrees of skew pushes the film sideways.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "光电眼脏或移位 → 清洁传感器窗口，确认它读的是印刷标记而不是膜边。",
+          en: "Dirty or shifted photoeye → clean the sensor window and confirm it reads the print mark, not the film edge.",
+        },
+      },
+
+      {
+        type: "h2",
+        text: { zh: "2. 膜打滑、拉不动", en: "2. Film Slips and Won't Feed" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "送膜辊压力不足 → 加大牵引辊压力，让它咬住膜。",
+          en: "Low feed-roller pressure → increase pressure on the pull rollers so they grip the film.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "橡胶辊磨损 → 对磨光的辊面重新包胶或更换，恢复摩擦力。",
+          en: "Worn rubber rollers → resurface or replace rollers that have gone smooth and lost traction.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "张力太松 → 调高放卷制动张力，让膜路经过成型器时保持绷紧。",
+          en: "Tension too loose → raise the unwind brake tension so the web stays taut through the former.",
+        },
+      },
+
+      {
+        type: "h2",
+        text: { zh: "3. 封口处褶皱打折", en: "3. Wrinkles or Folds at the Seal" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "膜面张力不均 → 平衡左右张力，让膜平整进入封口。",
+          en: "Uneven tension across the web → balance left and right side tension so the film enters the jaws flat.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "压膜辊受力不匀 → 重新调平夹辊，一处偏高会把膜压出折痕。",
+          en: "Uneven pressure rollers → re-level the nip rollers; one high spot creases the film.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "膜路有杂物 → 清除夹在辊间的粉尘或废边。",
+          en: "Debris in the film path → clear dust or trimmed scrap caught between the rollers.",
+        },
+      },
+
+      {
+        type: "h2",
+        text: { zh: "4. 封口处膜被拉断", en: "4. Film Tears at the Seal Jaw" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "线速度太快 → 降速，让封刀在膜被拉紧前完成释放。",
+          en: "Line speed too fast → slow down so the seal bar releases before the film is pulled taut.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "张力过大 → 放松放卷张力，被拉过度的膜会在封口处崩断。",
+          en: "Tension too high → ease the unwind tension; over-stretched film snaps at the seal.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "封口温度不匹配 → 按膜厚调封刀温度，过热或过冷都会削弱膜强。",
+          en: "Seal temperature mismatched → tune the bar temperature to the film gauge; too hot or too cold both weaken it.",
+        },
+      },
+
+      {
+        type: "h2",
+        text: { zh: "5. 光电跟踪丢失印刷标记", en: "5. Photoeye Loses the Print Mark" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "镜头脏 → 擦拭光电眼，积灰的窗口会漏读对位标记。",
+          en: "Dirty lens → wipe the photoeye; a dusty window misses the registration mark.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "灵敏度不对 → 调整增益，让它锁定标记而非背景。",
+          en: "Wrong sensitivity → adjust the gain so it locks onto the mark, not the background.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "印刷对比度低 → 用更深的套色标记，或换一批对比度更高的膜。",
+          en: "Low-contrast print → use a darker registration mark or a higher-contrast batch of film.",
+        },
+      },
+
+      {
+        type: "h2",
+        text: { zh: "为什么卡牌线特别在意这个", en: "Why It Matters on a Card Line" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "收藏卡和集换式卡牌靠“卖相”说话。一张起皱、跑偏或拉破的包装，买家一上手就觉得是“次品”；而在高速线上，一处走偏的膜路就能毁掉整批。保持膜路清洁对齐，既保良率也保品牌。",
+          en: "Collector decks and trading cards are sold on presentation. A wrinkled, off-center or torn wrapper reads as \"second quality\" the moment a buyer picks it up — and on a fast line, one drifting web can scrap an entire run. Keeping the film path clean and aligned protects both yield and brand.",
+        },
+      },
+
+      {
+        type: "h2",
+        text: { zh: "来现场看实机跑", en: "See It Run Live" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "这些正是我们为 CHANFER 卡牌包装线做调试时必做的调整。来 PRINTING United Expo 2026（拉斯维加斯，9月23–25日，N7411展位）看机器现场运行 —— 带上你的膜样，我们现场帮你调。",
+          en: "These are the exact adjustments our engineers make when we commission a CHANFER card wrapping line. Watch the film run steady at PRINTING United Expo 2026, Booth N7411, Las Vegas, Sept 23–25 — bring your film sample and we'll tune the web path on the spot.",
+        },
+      },
+      {
+        type: "cta",
+        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
+        href: "/book-a-demo.html",
+      },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
