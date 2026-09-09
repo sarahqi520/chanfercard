@@ -591,6 +591,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
+        text: { zh: "观看 TikTok 演示视频", en: "Watch the TikTok Demo Video" },
+        href: "https://www.tiktok.com/@wilson.chanfer/video/7680477896112114962",
+      },
+      {
+        type: "cta",
         text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
         href: "/book-a-demo.html",
       },
