@@ -607,6 +607,188 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 
+
+
+  {
+    slug: "fixing-card-box-labeling",
+    date: "2026-09-10",
+    category: { zh: "技术干货", en: "Troubleshooting" },
+    title: {
+      zh: "标签起翘还是贴歪？卡牌盒贴标故障排查",
+      en: "Label Peeling or Crooked? Fixing Card Box Labeling",
+    },
+    excerpt: {
+      zh: "卡牌盒贴标起翘、贴歪、起皱或漏贴，是最常见的包装瑕疵。本文列出5类贴标故障的典型成因与调机方法，帮你在产线上快速排障。",
+      en: "Peeling, crooked, wrinkled or missed labels are the most common card-box defects. This post lists five labeling fault categories with their causes and the tuning fixes to clear them fast.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "在卡牌包装线上，一张起翘、起皱或贴歪的标签，最容易让一个高端盒子瞬间显得廉价。好消息是：卡牌盒贴标的故障大多来自几个反复出现的成因，而且都很好调——只要知道往哪看。",
+          en: "On a card packaging line, a label that peels, wrinkles or sits crooked is one of the fastest ways to make a premium box look cheap. The good news: most card-box labeling faults trace back to a handful of repeatable causes — and they're quick to tune once you know where to look.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "1. 标签贴不上 / 贴标失败", en: "1. Label Won't Stick / Labeling Fails" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "底纸没剥离 → 清理剥离板、调整剥标板角度，让标签干净脱开。",
+          en: "Backing paper not peeled off → clean the peeling plate and adjust its angle so the label releases cleanly.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "标签太黏 / 不黏 → 更换合格标签。",
+          en: "Label too sticky / not sticky enough → switch to a qualified label stock.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "出标早或晚 → 调整延时参数、对齐线速度。",
+          en: "Dispensing early or late → adjust the delay timing and match the line speed.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "标签走偏、卷膜跑偏 → 调整放卷张力、导向辊；校正标签居中。",
+          en: "Web drifts off-center → balance unwind tension and the guide rollers; re-center the label.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "2. 标签贴歪、位置不准", en: "2. Label Crooked or Misplaced" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "剥标板不正 → 微调剥标板左右、高低。",
+          en: "Peeling plate not square → fine-tune the plate left/right and up/down.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "贴标胶辊压力不均 → 调平贴标胶辊、保证压力一致。",
+          en: "Uneven applicator-roll pressure → level the applicator roller so pressure is even.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "标签跑偏 → 校正标签居中，检查导向辊。",
+          en: "Label tracking off → correct label centering and check the guide rollers.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "3. 起皱、气泡、翘边", en: "3. Wrinkles, Bubbles or Lifting Edges" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "贴标速度太快 → 降低贴标速度。",
+          en: "Labeling too fast → slow the labeling speed.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "张力过大 / 过小 → 减小放卷张力到合适范围。",
+          en: "Tension too high / too low → reduce unwind tension to the right range.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "贴标胶辊不平、太硬 → 更换软胶辊、调平行。",
+          en: "Hard or uneven applicator roller → fit a softer roller and level it.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "盒型不规则 → 改用抚标毛刷、海绵轮。",
+          en: "Irregular box shape → add a brush or foam wheel to smooth the label down.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "4. 漏贴 / 不出标", en: "4. Missed Labels / No Dispense" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "光电眼被遮挡、失灵 → 清洁、重新对准标签标记。",
+          en: "Photoeye blocked or faulty → clean it and re-aim at the label mark.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "标签断标、卷死 → 重新穿膜、清理粘胶。",
+          en: "Label web broken or jammed → re-thread the web and clear adhesive buildup.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "5. 连标、一次出多张", en: "5. Double Labels / Labels Stick Together" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "标签间胶水过多、粘连 → 降低出标速度。",
+          en: "Excess glue between labels → lower the dispensing speed.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "剥标板残胶 → 清理剥标板残胶。",
+          en: "Residue on the peeling plate → clean the plate.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "为什么卡牌线特别在意这个", en: "Why It Matters on a Card Line" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "收藏盒和集换卡包装是“看脸”的。一张贴歪、起泡或翘边的标签，买家一上手就觉得是“次品”；而在高速线上，一个贴错标的盒子就可能引发整批召回。干净、居中、无气泡的贴标，既保卖相也保品牌。",
+          en: "Collector boxes and trading-card packaging are bought on sight. A crooked, bubbled or lifting label reads as \"factory reject\" the moment a buyer handles it — and on a fast line a single mislabeled box can trigger a whole-batch recall. Clean, centered, bubble-free labeling protects both shelf appeal and your brand.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "来现场看实机跑", en: "See It Run Live" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "这些正是我们为 CHANFER 贴标单元做调试时必查的故障。来 PRINTING United Expo 2026（拉斯维加斯，9月23–25日，N7411展位）看标签干净方正地贴上 —— 带上你的盒样，我们现场帮你调好贴标。",
+          en: "These are the exact faults our engineers check when we commission a CHANFER labeling unit. See labels apply clean and square at PRINTING United Expo 2026, Booth N7411, Las Vegas, Sept 23–25 — bring your box sample and we'll dial in the labeling for your product.",
+        },
+      },
+      {
+        type: "cta",
+        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
+        href: "/book-a-demo.html",
+      },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
