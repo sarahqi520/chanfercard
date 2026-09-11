@@ -26,6 +26,11 @@
   .submit:hover{background:#0a4f93}
   .submit:disabled{opacity:.6;cursor:default}
   .tip{margin-top:14px;font-size:12px;color:var(--muted);background:var(--chip);border-radius:9px;padding:10px 12px}
+  .ticket{margin-top:18px;background:#fff8e6;border:1px solid #f5d689;border-radius:12px;padding:14px 16px;display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap}
+  .ticket .txt{font-size:13.5px;color:#6b4c00}
+  .ticket .txt b{display:block;font-size:14px;color:#4a3500;margin-bottom:2px}
+  .ticket a{background:#0b5cab;color:#fff;text-decoration:none;padding:9px 16px;border-radius:8px;font-size:13px;font-weight:700;white-space:nowrap}
+  .ticket a:hover{background:#0a4f93}
   .venue{margin-top:22px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:12px;padding:16px 18px}
   .venue h3{margin:0 0 10px;font-size:15px;color:var(--brand)}
   .vrow{font-size:13.5px;margin-bottom:6px}
@@ -49,6 +54,16 @@
       <button id="btnEn" class="on" onclick="setLang('en')">English</button>
       <button id="btnZh" onclick="setLang('zh')">中文</button>
     </div>
+  </div>
+
+  <!-- Ticket link -->
+  <div class="ticket en-txt">
+    <div class="txt"><b>Need an expo pass first?</b>Register for PRINTING United Expo 2026 tickets, then book your demo.</div>
+    <a href="https://nvyt.es/7559eb9a7e781484239d" target="_blank" rel="noopener noreferrer">Register Tickets →</a>
+  </div>
+  <div class="ticket zh-txt">
+    <div class="txt"><b>还需要展会门票？</b>先注册 PRINTING United Expo 2026 门票，再预约现场演示。</div>
+    <a href="https://nvyt.es/7559eb9a7e781484239d" target="_blank" rel="noopener noreferrer">注册门票 →</a>
   </div>
 
   <!-- EN form -->
