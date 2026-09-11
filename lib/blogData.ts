@@ -988,3 +988,5 @@ export const blogPosts: BlogPost[] = [
 export function getPost(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);
 }
+
+// redeploy trigger for post4 (card-count-off-metering) — forces Cloudflare rebuild
