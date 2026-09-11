@@ -691,6 +691,21 @@
           "四角胶带封箱"
         ]
       },
+      "cf-bd-5050": {
+        "name": "CF-BD-5050 一字型封箱机",
+        "description": "自动一字型封箱机，人工折盖后推入，设备自动完成封底、封顶并送出。稳定、高效、美观。",
+        "features": [
+          "人工装箱后自动折合纸箱左右盖及前后盖，同时封底、封顶送出",
+          "长度、宽度和高度手动调节，换规格简单省时",
+          "刀片保护装置，避免意外刺伤",
+          "适合同一时间内单一规格纸箱批量使用"
+        ],
+        "applications": [
+          "卡牌产品纸箱封箱",
+          "电商/物流纸箱封箱",
+          "食品/日用品纸箱封箱"
+        ]
+      },
       "palletizing-robot": {
         "name": "协作码垛机器人",
         "description": "协作码垛机器人，自动码垛。安全协作无需围栏，灵活编程多种码垛模式。",
@@ -783,7 +798,10 @@
       "Air Consumption": "耗气量",
       "Packaging materials": "包装材料",
       "Inner Diameter of Film Roll": "膜卷纸管内径",
-      "Product Size": "产品尺寸"
+      "Product Size": "产品尺寸",
+      "Tape Size": "胶带尺寸",
+      "Belt Speed": "皮带速度",
+      "Table Height": "工作台高度"
     }
   },
   "about": {
@@ -1849,6 +1867,33 @@
       ],
       "ctaTitle": "对H型封箱机感兴趣？",
       "ctaDescription": "获取H型封箱机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 一字型封箱机 | CHANFER",
+      "seoDescription": "自动一字型封箱机CF-BD-5050。人工折盖后自动封底封顶，皮带速度约20米/分钟，适用纸箱L150×W200×H140起，220V/50Hz。",
+      "keywords": "一字型封箱机,CF-BD-5050,自动封箱机,纸箱封箱,胶带封箱,5050封箱机",
+      "longDescription": [
+        "CHANFER的CF-BD-5050一字型封箱机是一款经济型自动封箱设备。操作员完成人工装箱并折好纸箱左右盖及前后盖后，将纸箱推入封箱机，设备自动完成底部和顶部的胶带封合，并将封好的纸箱送出。",
+        "适用于L150×W200×H140 mm起、长度不限×W500×H500 mm的纸箱尺寸范围，通过手动调节长度、宽度和高度来适应不同规格。皮带速度约20米/分钟，220V/50Hz电源，功率240W。",
+        "整机结构紧凑，重量约180kg，工作台高度620-670mm可调；前后各配400mm滚筒架，方便人工推箱和成品输出。刀片保护装置有效防止操作中的意外刺伤。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "对CF-BD-5050一字型封箱机感兴趣？",
+      "ctaDescription": "获取CF-BD-5050的详细规格、价格和包装线集成指导。",
       "relatedSolutionsTitle": "应用该设备的包装方案",
       "relatedMachinesTitle": "相关设备"
     },

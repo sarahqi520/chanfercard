@@ -698,6 +698,21 @@
           "Four-corner tape sealing"
         ]
       },
+      "cf-bd-5050": {
+        "name": "CF-BD-5050 I-Type Carton Sealing Machine",
+        "description": "Automatic I-type carton sealer. After manual folding, cartons are pushed in for automatic bottom and top tape sealing. Stable, efficient and clean.",
+        "features": [
+          "Automatic bottom and top tape sealing after manual carton folding",
+          "Manual length, width and height adjustment for quick size changeover",
+          "Blade guard protects operators from accidental cuts",
+          "Ideal for batch sealing of single-specification cartons"
+        ],
+        "applications": [
+          "Card product carton sealing",
+          "E-commerce and logistics carton sealing",
+          "Food and daily necessities carton sealing"
+        ]
+      },
       "palletizing-robot": {
         "name": "Intelligent Collaborative Palletizing Robot",
         "description": "Collaborative palletizing robot with 30kg payload and 1800mm working radius. Safe for human cooperation.",
@@ -790,7 +805,10 @@
       "Air Consumption": "Air Consumption",
       "Packaging materials": "Packaging Materials",
       "Inner Diameter of Film Roll": "Inner Diameter of Film Roll",
-      "Product Size": "Product Size"
+      "Product Size": "Product Size",
+      "Tape Size": "Tape Size",
+      "Belt Speed": "Belt Speed",
+      "Table Height": "Table Height"
     }
   },
   "about": {
@@ -1826,6 +1844,33 @@
       ],
       "ctaTitle": "Interested in the HT-Series Carton Sealer?",
       "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the HT-Series H-type carton sealer.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 I-Type Carton Sealing Machine | CHANFER",
+      "seoDescription": "CF-BD-5050 automatic I-type carton sealer. Seals bottom and top after manual folding. Belt speed ~20 m/min. Carton sizes from L150×W200×H140mm. 220V/50Hz.",
+      "keywords": "I-type carton sealer, CF-BD-5050, automatic carton sealing machine, box sealing machine, tape carton sealer, 5050 carton sealer",
+      "longDescription": [
+        "The CHANFER CF-BD-5050 is an economical automatic I-type carton sealing machine. After the operator loads the carton and folds the left/right and front/rear flaps, the carton is pushed into the sealer where the machine automatically applies tape to the bottom and top and discharges the sealed carton.",
+        "It handles carton sizes from L150mm × W200mm × H140mm up to unlimited length × W500mm × H500mm. Length, width and height are manually adjusted for different specifications. Belt speed is approx. 20 m/min with 220V/50Hz, 240W power supply.",
+        "The compact unit weighs approx. 180kg and offers an adjustable workbench height of 620-670mm. Front and rear 400mm roller conveyors make manual feeding and discharge easy. A blade guard prevents accidental operator injury."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interested in the CF-BD-5050 I-Type Carton Sealer?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the CF-BD-5050.",
       "relatedSolutionsTitle": "Used in These Packaging Solutions",
       "relatedMachinesTitle": "Related Machines"
     },

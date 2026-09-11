@@ -691,6 +691,21 @@
           "Sigillatura con nastro a quattro angoli"
         ]
       },
+      "cf-bd-5050": {
+        "name": "CF-BD-5050 Sigillatrice per Cartoni Tipo I",
+        "description": "Sigillatrice automatica per cartoni tipo I. Dopo la piegatura manuale, i cartoni vengono spinti per sigillare automaticamente fondo e coperchio. Stabile, efficiente e pulita.",
+        "features": [
+          "Sigillatura automatica di fondo e coperchio dopo piegatura manuale",
+          "Regolazione manuale di lunghezza, larghezza e altezza per rapido cambio formato",
+          "Protezione lama evita tagli accidentali",
+          "Ideale per sigillatura in serie di cartoni di una sola specifica"
+        ],
+        "applications": [
+          "Sigillatura cartoni per prodotti di carte",
+          "Sigillatura cartoni per e-commerce e logistica",
+          "Sigillatura cartoni per alimenti e articoli per la casa"
+        ]
+      },
       "palletizing-robot": {
         "name": "Robot di Pallettizzazione Collaborativo",
         "description": "Robot collaborativo, pallettizzazione automatica. Sicuro senza recinzione.",
@@ -783,7 +798,10 @@
       "Air Consumption": "Consumo aria",
       "Packaging materials": "Materiali da Imballaggio",
       "Inner Diameter of Film Roll": "Diametro Interno del Rotolo di Film",
-      "Product Size": "Dimensione Prodotto"
+      "Product Size": "Dimensione Prodotto",
+      "Tape Size": "Dimensione Nastro",
+      "Belt Speed": "Velocità Nastro",
+      "Table Height": "Altezza Tavolo"
     }
   },
   "about": {
@@ -1829,6 +1847,33 @@
       ],
       "ctaTitle": "Interessati alla Sigillatrice a H?",
       "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
+      "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 Sigillatrice per Cartoni Tipo I | CHANFER",
+      "seoDescription": "Sigillatrice automatica per cartoni tipo I CF-BD-5050. Sigilla fondo e coperchio dopo piegatura manuale. Velocità nastro ~20 m/min. Dimensioni cartone da L150×P200×H140 mm. 220V/50Hz.",
+      "keywords": "sigillatrice cartoni tipo I, CF-BD-5050, sigillatrice automatica cartoni, chiusura cartoni, sigillatrice a nastro, sigillatrice 5050",
+      "longDescription": [
+        "La CHANFER CF-BD-5050 è una sigillatrice automatica per cartoni tipo I economica. Dopo che l'operatore ha caricato il cartone e piegato le alette laterali e anteriori/posteriori, il cartone viene spinto nella macchina che sigilla automaticamente fondo e coperchio con nastro adesivo e scarica il cartone sigillato.",
+        "Gestisce dimensioni cartone da L150 × P200 × H140 mm a L illimitato × P500 × H500 mm. Lunghezza, larghezza e altezza si regolano manualmente per diverse specifiche. La velocità del nastro è di circa 20 m/min con alimentazione 220V/50Hz, 240W.",
+        "L'unità compatta pesa circa 180 kg e offre un'altezza del banco regolabile 620-670 mm. I rulli anteriori e posteriori da 400 mm facilitano l'alimentazione manuale e lo scarico. La protezione lama previene infortuni accidentali."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessato alla Sigillatrice per Cartoni Tipo I CF-BD-5050?",
+      "ctaDescription": "Ottieni specifiche dettagliate, prezzi e indicazioni di integrazione per la CF-BD-5050.",
       "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
       "relatedMachinesTitle": "Macchine correlate"
     },

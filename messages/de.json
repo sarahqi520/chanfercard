@@ -691,6 +691,21 @@
           "Vier-Ecken-Klebebandversiegelung"
         ]
       },
+      "cf-bd-5050": {
+        "name": "CF-BD-5050 I-Typ Kartonverschließmaschine",
+        "description": "Automatische I-Typ Kartonverschließmaschine. Nach manuellem Falten werden Kartons eingeschoben und automatisch oben und unten verschlossen. Stabil, effizient und sauber.",
+        "features": [
+          "Automatisches Verschließen von Boden und Deckel nach manuellem Falten",
+          "Manuelle Längen-, Breiten- und Höhenverstellung für schnellen Formatwechsel",
+          "Klingenschutz verhindert versehentliche Verletzungen",
+          "Ideal für die Chargenversiegelung von Kartons einer Spezifikation"
+        ],
+        "applications": [
+          "Kartonversiegelung für Kartenprodukte",
+          "Kartonversiegelung für E-Commerce und Logistik",
+          "Kartonversiegelung für Lebensmittel und Alltagsbedarf"
+        ]
+      },
       "palletizing-robot": {
         "name": "Kollaborativer Palettierroboter",
         "description": "Sicher ohne Zaun. Flexible Programmierung.",
@@ -783,7 +798,10 @@
       "Air Consumption": "Luftverbrauch",
       "Packaging materials": "Verpackungsmaterialien",
       "Inner Diameter of Film Roll": "Innendurchmesser der Folienrolle",
-      "Product Size": "Produktgröße"
+      "Product Size": "Produktgröße",
+      "Tape Size": "Klebebandgröße",
+      "Belt Speed": "Bandgeschwindigkeit",
+      "Table Height": "Arbeitshöhe"
     }
   },
   "about": {
@@ -1792,6 +1810,33 @@
       ],
       "ctaTitle": "Interesse an der H-Siegelmaschine?",
       "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 I-Typ Kartonverschließmaschine | CHANFER",
+      "seoDescription": "CF-BD-5050 automatische I-Typ Kartonverschließmaschine. Verschließt Boden und Deckel nach manuellem Falten. Bandgeschwindigkeit ca. 20 m/min. Kartongrößen ab L150×B200×H140 mm. 220V/50Hz.",
+      "keywords": "I-Typ Kartonverschließmaschine, CF-BD-5050, automatische Kartonverschließmaschine, Kartonverschluss, Klebebandverschließer, 5050 Kartonverschließer",
+      "longDescription": [
+        "Die CHANFER CF-BD-5050 ist eine wirtschaftliche automatische I-Typ Kartonverschließmaschine. Nachdem der Bediener den Karton befüllt und die Seiten- und Endklappen gefaltet hat, wird der Karton in die Maschine geschoben. Dort verschließt sie automatisch Boden und Deckel mit Klebeband und fördert den fertigen Karton aus.",
+        "Sie verarbeitet Kartongrößen von L150 × B200 × H140 mm bis zu L unbegrenzt × B500 × H500 mm. Länge, Breite und Höhe werden manuell an unterschiedliche Spezifikationen angepasst. Die Bandgeschwindigkeit beträgt ca. 20 m/min bei 220 V/50 Hz und 240 W Leistungsaufnahme.",
+        "Das kompakte Gerät wiegt ca. 180 kg und bietet eine verstellbare Arbeitshöhe von 620–670 mm. Vor- und Nachlauf mit je 400 mm Rollenbahn erleichtern das manuelle Zuführen und Ausführen. Der Klingenschutz schützt den Bediener vor Verletzungen."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse an der CF-BD-5050 I-Typ Kartonverschließmaschine?",
+      "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für die CF-BD-5050.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
       "relatedMachinesTitle": "Verwandte Maschinen"
     },

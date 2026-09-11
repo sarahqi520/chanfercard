@@ -691,6 +691,21 @@
           "Sellado con cinta de cuatro esquinas"
         ]
       },
+      "cf-bd-5050": {
+        "name": "CF-BD-5050 Selladora de Cartón Tipo I",
+        "description": "Selladora automática de cartón tipo I. Tras el plegado manual, los cartones se empujan para sellar automáticamente la parte inferior y superior. Estable, eficiente y limpia.",
+        "features": [
+          "Sellado automático de fondo y tapa tras plegado manual",
+          "Ajuste manual de longitud, anchura y altura para cambio rápido",
+          "Protector de cuchilla evita cortes accidentales",
+          "Ideal para sellado por lotes de cartones de una sola especificación"
+        ],
+        "applications": [
+          "Sellado de cartón para productos de cartas",
+          "Sellado de cartón para e-commerce y logística",
+          "Sellado de cartón para alimentos y artículos de uso diario"
+        ]
+      },
       "palletizing-robot": {
         "name": "Robot de Paletización Colaborativo",
         "description": "Sin valla. Programación flexible.",
@@ -783,7 +798,10 @@
       "Air Consumption": "Consumo de aire",
       "Packaging materials": "Materiales de Envasado",
       "Inner Diameter of Film Roll": "Diámetro Interior del Rollo de Película",
-      "Product Size": "Tamaño del Producto"
+      "Product Size": "Tamaño del Producto",
+      "Tape Size": "Tamaño de Cinta",
+      "Belt Speed": "Velocidad de Banda",
+      "Table Height": "Altura de Mesa"
     }
   },
   "about": {
@@ -1782,6 +1800,33 @@
       ],
       "ctaTitle": "¿Interesado?",
       "ctaDescription": "Especificaciones y precios.",
+      "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
+      "relatedMachinesTitle": "Máquinas relacionadas"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 Selladora de Cartón Tipo I | CHANFER",
+      "seoDescription": "Selladora automática de cartón tipo I CF-BD-5050. Sella fondo y tapa tras plegado manual. Velocidad de banda ~20 m/min. Tamaños de cartón desde L150×A200×A140 mm. 220V/50Hz.",
+      "keywords": "selladora de cartón tipo I, CF-BD-5050, selladora automática de cartón, cierre de cartón, selladora con cinta, selladora 5050",
+      "longDescription": [
+        "La CHANFER CF-BD-5050 es una selladora automática de cartón tipo I económica. Después de que el operario carga el cartón y dobla las solapas laterales y delanteras/traseras, el cartón se empuja hacia la máquina, que sella automáticamente la parte inferior y superior con cinta adhesiva y expulsa el cartón sellado.",
+        "Maneja tamaños de cartón desde L150 × A200 × A140 mm hasta L ilimitado × A500 × A500 mm. La longitud, anchura y altura se ajustan manualmente para diferentes especificaciones. La velocidad de la banda es de aprox. 20 m/min con alimentación 220V/50Hz, 240W.",
+        "La unidad compacta pesa aprox. 180 kg y ofrece una altura de mesa ajustable de 620-670 mm. Las bandas transportadoras delanteras y traseras de 400 mm facilitan la alimentación manual y la descarga. El protector de cuchilla evita lesiones accidentales."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "¿Interesado en la Selladora de Cartón Tipo I CF-BD-5050?",
+      "ctaDescription": "Obtenga especificaciones detalladas, precios e integración de línea para la CF-BD-5050.",
       "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
       "relatedMachinesTitle": "Máquinas relacionadas"
     },

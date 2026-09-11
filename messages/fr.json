@@ -691,6 +691,21 @@
           "Scellage par ruban à quatre coins"
         ]
       },
+      "cf-bd-5050": {
+        "name": "CF-BD-5050 Fermeuse de Carton Type I",
+        "description": "Fermeuse automatique de carton type I. Après pliage manuel, les cartons sont poussés pour sceller automatiquement le fond et le dessus. Stable, efficace et propre.",
+        "features": [
+          "Scellage automatique du fond et du dessus après pliage manuel",
+          "Réglage manuel de longueur, largeur et hauteur pour changement rapide",
+          "Protège-lame évite les coupures accidentelles",
+          "Idéal pour le scellage en lots de cartons d'une seule spécification"
+        ],
+        "applications": [
+          "Scellage de cartons pour produits de cartes",
+          "Scellage de cartons pour e-commerce et logistique",
+          "Scellage de cartons pour alimentation et articles quotidiens"
+        ]
+      },
       "palletizing-robot": {
         "name": "Robot de Palettisation Collaboratif",
         "description": "Sans clôture. Programmation flexible.",
@@ -783,7 +798,10 @@
       "Air Consumption": "Consommation d'air",
       "Packaging materials": "Matériaux d'Emballage",
       "Inner Diameter of Film Roll": "Diamètre Intérieur du Rouleau de Film",
-      "Product Size": "Taille du Produit"
+      "Product Size": "Taille du Produit",
+      "Tape Size": "Taille de Ruban",
+      "Belt Speed": "Vitesse de Bande",
+      "Table Height": "Hauteur de Table"
     }
   },
   "about": {
@@ -1782,6 +1800,33 @@
       ],
       "ctaTitle": "Intéressé?",
       "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 Fermeuse de Carton Type I | CHANFER",
+      "seoDescription": "Fermeuse automatique de carton type I CF-BD-5050. Scelle fond et dessus après pliage manuel. Vitesse de bande ~20 m/min. Tailles de carton à partir de L150×l200×H140 mm. 220V/50Hz.",
+      "keywords": "fermeuse de carton type I, CF-BD-5050, fermeuse automatique de carton, fermeture de carton, fermeuse à ruban, fermeuse 5050",
+      "longDescription": [
+        "La CHANFER CF-BD-5050 est une fermeuse automatique de carton type I économique. Après que l'opérateur a chargé le carton et plié les rabats gauche/droit et avant/arrière, le carton est poussé dans la machine qui scelle automatiquement le fond et le dessus avec du ruban adhésif et évacue le carton scellé.",
+        "Elle traite des tailles de carton de L150 × l200 × H140 mm à L illimité × l500 × H500 mm. La longueur, largeur et hauteur se règlent manuellement selon les spécifications. La vitesse de bande est d'environ 20 m/min avec alimentation 220V/50Hz, 240W.",
+        "L'unité compacte pèse environ 180 kg et offre une hauteur de table réglable de 620-670 mm. Les convoyeurs à rouleaux avant et arrière de 400 mm facilitent l'alimentation manuelle et la sortie. Le protège-lame prévient les blessures accidentelles."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé par la Fermeuse de Carton Type I CF-BD-5050 ?",
+      "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration pour la CF-BD-5050.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
       "relatedMachinesTitle": "Machines associées"
     },

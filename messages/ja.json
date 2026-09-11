@@ -691,6 +691,21 @@
           "四隅テープシール"
         ]
       },
+      "cf-bd-5050": {
+        "name": "CF-BD-5050 I型封かん機",
+        "description": "自動I型封かん機。手動で折りたたんだ後、カートンを押し込むと自動で底と上部をテープ封かんします。安定、高效、美観。",
+        "features": [
+          "手動折りたたみ後、自動で底と上部をテープ封かん",
+          "長さ・幅・高さを手動調整、サイズ変更が簡単",
+          "刃ガードで怪我を防止",
+          "同一規格カートンの大量封かんに最適"
+        ],
+        "applications": [
+          "カード製品カートン封かん",
+          "EC・物流カートン封かん",
+          "食品・日用品カートン封かん"
+        ]
+      },
       "palletizing-robot": {
         "name": "協働パレタイジングロボット",
         "description": "柵なし。柔軟なプログラミング。",
@@ -783,7 +798,10 @@
       "Air Consumption": "空気消費量",
       "Packaging materials": "包装材料",
       "Inner Diameter of Film Roll": "フィルムロール内径",
-      "Product Size": "製品サイズ"
+      "Product Size": "製品サイズ",
+      "Tape Size": "テープサイズ",
+      "Belt Speed": "ベルト速度",
+      "Table Height": "作業台高さ"
     }
   },
   "about": {
@@ -1784,6 +1802,33 @@
       "ctaDescription": "仕様と価格。",
       "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
       "relatedMachinesTitle": "関連機器"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 I型封かん機 | CHANFER",
+      "seoDescription": "自動I型封かん機CF-BD-5050。手動折りたたみ後に底と上部を自動封かん。ベルト速度約20m/分。対応カートンL150×W200×H140mm～。220V/50Hz。",
+      "keywords": "I型封かん機,CF-BD-5050,自動封かん機,カートン封かん,テープ封かん,5050封かん機",
+      "longDescription": [
+        "CHANFERのCF-BD-5050は、エコノミー型自動I型封かん機です。オペレーターがカートンに製品を入れ、左右および前後の羽根を折りたたんだ後、カートンを押し込むと、装置が自動で底と上部をテープで封かんし、封かん済みカートンを排出します。",
+        "対応カートンサイズはL150×W200×H140mmから長さ無制限×W500×H500mm。長さ、幅、高さは手動で調整し、異なる仕様に対応します。ベルト速度は約20m/分、電源は220V/50Hz、消費電力240W。",
+        "コンパクトな本体で重量約180kg、作業台高さは620-670mm調整可能。前後に400mmのローラーコンベアを装備し、手動投入と排出をサポート。刃ガードにより操作中の怪我を防止します。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "CF-BD-5050 I型封かん機についてお問い合わせですか？",
+      "ctaDescription": "CF-BD-5050の詳細仕様、価格、ライン統合のご案内をお送りします。",
+      "relatedSolutionsTitle": "この設備を使用する包装ソリューション",
+      "relatedMachinesTitle": "関連設備"
     },
     "palletizing-robot": {
       "seoTitle": "協働パレタイジングロボット | CHANFER",

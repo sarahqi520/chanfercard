@@ -895,6 +895,35 @@ export const machineProducts: MachineProduct[] = [
     ],
     image: "/images/machines/ai-visual.png",
   },
+  {
+    id: "cf-bd-5050",
+    model: "CF-BD-5050",
+    name: "CF-BD-5050 I-Type Carton Sealing Machine",
+    category: "boxing",
+    description:
+      "Automatic I-type carton sealer. After manual folding, cartons are pushed in for automatic bottom and top tape sealing. Stable, efficient and clean.",
+    specs: {
+      "Carton Size": "L150 × W200 × H140 mm – L unlimited × W500 × H500 mm",
+      "Tape Size": "W48/60/76 mm × L900 yards OPP",
+      "Machine Size": "L1020 × W850 × H1450 mm",
+      "Belt Speed": "≈20 m/min",
+      "Power": "220V/50Hz, 240W",
+      "Weight": "180kg",
+      "Table Height": "620–670 mm (adjustable)",
+    },
+    applications: [
+      "Card product carton sealing",
+      "E-commerce and logistics carton sealing",
+      "Food and daily necessities carton sealing",
+    ],
+    features: [
+      "Automatic bottom and top tape sealing after manual carton folding",
+      "Manual length, width and height adjustment for quick size changeover",
+      "Blade guard protects operators from accidental cuts",
+      "Ideal for batch sealing of single-specification cartons",
+    ],
+    image: "/images/machines/cf-bd-5050.png",
+  },
 ];
 
 export const companyInfo = {
