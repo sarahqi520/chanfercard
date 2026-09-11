@@ -808,7 +808,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         text: {
-          zh: "在卡牌包装线上，盒子里数量对，才算"对"。少一张、多一张，整盒就过不了质检——更糟的是直接发到会数的收藏者手上。卡牌线上的计数和计量误差，大多能归结到几个反复出现的成因。下面是 CHANFER 工程师排查和调修的方法。",
+          zh: "在卡牌包装线上，盒子里数量对，才算「对」。少一张、多一张，整盒就过不了质检——更糟的是直接发到会数的收藏者手上。卡牌线上的计数和计量误差，大多能归结到几个反复出现的成因。下面是 CHANFER 工程师排查和调修的方法。",
           en: "On a card packaging line, the box is only \"right\" if the count is right. One card short, one card extra, and the whole pack fails QA \u2014 or worse, ships to a collector who counts. Most count and metering errors on a card line come down to a few repeatable causes. Here's how our engineers trace and fix them.",
         },
       },
@@ -951,7 +951,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         text: {
-          zh: "收藏卡盒是按"精确张数"卖的。一盒 60 张变 59 或 61，就是退货、差评、信任受损。准确且可重复的计数，是高端包装和报废批次的分界线——也是买家最先注意到的细节之一。",
+          zh: "收藏卡盒是按「精确张数」卖的。一盒 60 张变 59 或 61，就是退货、差评、信任受损。准确且可重复的计数，是高端包装和报废批次的分界线——也是买家最先注意到的细节之一。",
           en: "Collector boxes are sold by the exact count. A box of 60 that ships 59 or 61 means a return, a bad review and lost trust. Accurate, repeatable counting is the line between a premium pack and a scrapped lot \u2014 and it's one of the first things a buyer checks.",
         },
       },
