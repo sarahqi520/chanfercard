@@ -903,7 +903,7 @@ export const machineProducts: MachineProduct[] = [
     description:
       "Automatic I-type carton sealer. After manual folding, cartons are pushed in for automatic bottom and top tape sealing. Stable, efficient and clean.",
     specs: {
-      "Carton Size": "L150 × W200 × H140 mm – L unlimited × W500 × H500 mm",
+      "Carton Size": "L150-不限 × W200-500 × H140-500mm",
       "Tape Size": "W48/60/76 mm × L900 yards OPP",
       "Machine Size": "L1020 × W850 × H1450 mm",
       "Belt Speed": "≈20 m/min",
