@@ -165,12 +165,12 @@ export default function MachinesContent({ dict, locale }: Props) {
                 className={`block border-l-4 rounded-xl bg-card overflow-hidden card-hover border-border cursor-pointer ${categoryColors[machine.category] || ""}`}
               >
                 {/* Product Image */}
-                <div className="relative w-full h-48 bg-muted/30">
+                <div className="relative w-full h-48 bg-muted/30 p-2">
                   <Image
                     src={machine.image}
                     alt={`${machine.name} - ${machine.model}`}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     unoptimized
                   />
