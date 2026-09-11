@@ -404,7 +404,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "cta",
         text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
-        href: "/contact",
+        href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
     relatedLinks: [
