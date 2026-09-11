@@ -706,6 +706,23 @@
           "食品/日用品纸箱封箱"
         ]
       },
+      "cf-a5645": {
+        "name": "CF-A5645 全自动剪式封切机",
+        "description": "适用于POF、PE热收缩膜的自动封切，可与热收缩炉配套，广泛用于图书、玩具、电子产品、日用品等外包装。",
+        "features": [
+          "自动送膜、封切、回收废料",
+          "恒温封口刀，封口牢固美观",
+          "不锈钢加热刀，耐用稳定",
+          "光电感应自动进料，操作简便",
+          "输送带速度可调",
+          "适用POF、PE热收缩膜"
+        ],
+        "applications": [
+          "图书、玩具、电子产品等外包装",
+          "食品、日用品、化妆品等收缩膜包装",
+          "与热收缩炉配套的生产线"
+        ]
+      },
       "palletizing-robot": {
         "name": "协作码垛机器人",
         "description": "协作码垛机器人，自动码垛。安全协作无需围栏，灵活编程多种码垛模式。",
@@ -801,7 +818,9 @@
       "Product Size": "产品尺寸",
       "Tape Size": "胶带尺寸",
       "Belt Speed": "皮带速度",
-      "Table Height": "工作台高度"
+      "Table Height": "工作台高度",
+      "Sealing Temperature": "封口温度",
+      "Film Material": "包装材料"
     }
   },
   "about": {
@@ -1894,6 +1913,33 @@
       ],
       "ctaTitle": "对CF-BD-5050一字型封箱机感兴趣？",
       "ctaDescription": "获取CF-BD-5050的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
+    },
+    "cf-a5645": {
+      "seoTitle": "CF-A5645 全自动剪式封切机 | CHANFER",
+      "seoDescription": "CF-A5645全自动剪式封切机，POF/PE热收缩膜自动封切，封口刀565×460mm，产能30包/分钟，配套热收缩炉使用。",
+      "keywords": "剪式封切机,CF-A5645,L型封切机,热收缩膜封切机,POF封切,PE封切,自动封口机",
+      "longDescription": [
+        "CHANFER的CF-A5645全自动剪式封切机专为POF、PE等热收缩膜设计，可自动完成送膜、封切和废料回收。封口刀尺寸565(L)×460(W)mm，包装物尺寸范围(100-450)L×(60-350)W×(5-120)H mm。",
+        "生产能力达30包/分钟，输送带速度26米/分钟。封口刀温度180-230°C可调，总功率3KW，电源1P 220V AC，耗气量4kg/cm²。机械尺寸1795×880×1570mm，整机重量330Kg。",
+        "该机可与热收缩炉配套组成完整的收缩包装生产线，广泛应用于图书、玩具、电子产品、食品、日用品及化妆品等外包装领域。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "对CF-A5645全自动剪式封切机感兴趣？",
+      "ctaDescription": "获取CF-A5645的详细规格、价格和包装线集成指导。",
       "relatedSolutionsTitle": "应用该设备的包装方案",
       "relatedMachinesTitle": "相关设备"
     },

@@ -706,6 +706,23 @@
           "식품·생활용품 박스 밀봉"
         ]
       },
+      "cf-a5645": {
+        "name": "CF-A5645 자동 L형 밀봉 절단기",
+        "description": "POF/PE 수축 필름용 자동 L형 밀봉 절단기입니다. 수축 터널과 함께 사용하여 자동 밀봉 및 절단을 수행하며, 도서, 장난감, 전자제품, 일용품 등의 외포장에 널리 사용됩니다.",
+        "features": [
+          "필름 자동 공급, 밀봉, 절단 및 폐기물 회수",
+          "일정한 온도의 밀봉 나이프로 견고하고 깔끔한 밀봉",
+          "내구성 있는 스테인리스 히트 나이프",
+          "광전 감지 자동 제품 공급",
+          "컨베이어 속도 조절 가능",
+          "POF/PE 수축 필름 호환"
+        ],
+        "applications": [
+          "도서, 장난감, 전자제품 외포장",
+          "식품, 일용품, 화장품 수축 포장",
+          "수축 터널과 연계된 생산 라인"
+        ]
+      },
       "palletizing-robot": {
         "name": "협동 팔레타이징 로봇",
         "description": "울타리 없음. 유연한 프로그래밍.",
@@ -801,7 +818,9 @@
       "Product Size": "제품 크기",
       "Tape Size": "테이프 크기",
       "Belt Speed": "벨트 속도",
-      "Table Height": "작업대 높이"
+      "Table Height": "작업대 높이",
+      "Sealing Temperature": "밀봉 온도",
+      "Film Material": "필름 재질"
     }
   },
   "about": {
@@ -1829,6 +1848,33 @@
       "ctaDescription": "CF-BD-5050의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
       "relatedSolutionsTitle": "이 설비를 사용하는 포장 솔루션",
       "relatedMachinesTitle": "관련 설비"
+    },
+    "cf-a5645": {
+      "seoTitle": "CF-A5645 자동 L형 밀봉 절단기 | CHANFER",
+      "seoDescription": "POF/PE 수축 필름용 CF-A5645 자동 L형 밀봉 절단기. 밀봉 나이프 565×460mm, 생산 능력 30개/분, 수축 터널과 조합 가능.",
+      "keywords": "L형 밀봉 절단기, CF-A5645, L형 밀봉기, 수축 필름 밀봉기, POF 밀봉기, PE 밀봉기, 자동 밀봉기",
+      "longDescription": [
+        "CHANFER CF-A5645는 POF/PE 수축 필름용 자동 L형 밀봉 절단기입니다. 필름 자동 공급, 밀봉, 절단 및 폐기물 회수를 수행합니다. 밀봉 나이프 크기는 565(L)×460(W)mm이며, 제품 크기 범위는 (100-450)L×(60-350)W×(5-120)H mm입니다.",
+        "생산 능력은 30개/분이며 컨베이어 속도는 26m/분입니다. 밀봉 나이프 온도는 180-230°C 조절 가능합니다. 총 전력은 3KW, 전원은 1P 220V AC이며 공기 소비량은 4kg/cm²입니다. 기계 크기는 1795×880×1570mm이고 무게는 330Kg입니다.",
+        "수축 터널과 조합하여 완전한 수축 포장 라인을 구성할 수 있으며, 도서, 장난감, 전자제품, 식품, 일용품 및 화장품 등의 외포장에 널리 사용됩니다."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "CF-A5645 자동 L형 밀봉 절단기에 관심이 있으신가요?",
+      "ctaDescription": "CF-A5645의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
+      "relatedSolutionsTitle": "이 설비가 적용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 기계"
     },
     "palletizing-robot": {
       "seoTitle": "협동 팔레타이징 로봇 | CHANFER",

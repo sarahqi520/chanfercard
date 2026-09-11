@@ -706,6 +706,23 @@
           "Sigillatura cartoni per alimenti e articoli per la casa"
         ]
       },
+      "cf-a5645": {
+        "name": "CF-A5645 Sigillatrice Tagliatrice a L Automatica",
+        "description": "Sigillatrice tagliatrice a L automatica per film termoretraibili POF/PE. Si abbina a tunnel di termoretrazione per sigillatura e taglio automatici, ampiamente utilizzata per imballaggi esterni di libri, giocattoli, elettronica e articoli per la casa.",
+        "features": [
+          "Alimentazione, sigillatura, taglio e raccolta rifiuti del film automatici",
+          "Lama di sigillatura a temperatura costante per sigillature forti e pulite",
+          "Lama riscaldante in acciaio inox duratura",
+          "Alimentazione automatica prodotti con fotoocellula",
+          "Velocità nastro trasportatore regolabile",
+          "Compatibile con film termoretraibili POF e PE"
+        ],
+        "applications": [
+          "Imballaggi esterni di libri, giocattoli ed elettronica",
+          "Confezionamento termoretraibile di alimenti, articoli per la casa e cosmetici",
+          "Linee di produzione abbinate a tunnel di termoretrazione"
+        ]
+      },
       "palletizing-robot": {
         "name": "Robot di Pallettizzazione Collaborativo",
         "description": "Robot collaborativo, pallettizzazione automatica. Sicuro senza recinzione.",
@@ -795,13 +812,15 @@
       "Product Width": "Larghezza prodotto",
       "Bag Size": "Dimensione sacchetto",
       "Air Pressure": "Pressione aria",
-      "Air Consumption": "Consumo aria",
+      "Air Consumption": "Consumo d'Aria",
       "Packaging materials": "Materiali da Imballaggio",
       "Inner Diameter of Film Roll": "Diametro Interno del Rotolo di Film",
       "Product Size": "Dimensione Prodotto",
       "Tape Size": "Dimensione Nastro",
       "Belt Speed": "Velocità Nastro",
-      "Table Height": "Altezza Tavolo"
+      "Table Height": "Altezza Tavolo",
+      "Sealing Temperature": "Temperatura di Sigillatura",
+      "Film Material": "Materiale Film"
     }
   },
   "about": {
@@ -1875,6 +1894,33 @@
       "ctaTitle": "Interessato alla Sigillatrice per Cartoni Tipo I CF-BD-5050?",
       "ctaDescription": "Ottieni specifiche dettagliate, prezzi e indicazioni di integrazione per la CF-BD-5050.",
       "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
+      "relatedMachinesTitle": "Macchine correlate"
+    },
+    "cf-a5645": {
+      "seoTitle": "CF-A5645 Sigillatrice Tagliatrice a L Automatica | CHANFER",
+      "seoDescription": "CF-A5645 sigillatrice tagliatrice a L automatica per film termoretraibili POF/PE. Lama sigillante 565×460mm, 30 pacchetti/min, abbinabile a tunnel di termoretrazione.",
+      "keywords": "sigillatrice a L, CF-A5645, sigillatrice tagliatrice a L, sigillatrice film termoretraibile, sigillatrice POF, sigillatrice PE, sigillatrice automatica",
+      "longDescription": [
+        "La CHANFER CF-A5645 è una sigillatrice tagliatrice a L automatica per film termoretraibili POF e PE. Alimenta, sigilla, taglia e raccoglie i rifiuti del film automaticamente. La dimensione della lama sigillante è 565(L) × 460(P) mm, e la gamma di dimensioni prodotto è (100-450)L × (60-350)P × (5-120)H mm.",
+        "La capacità produttiva raggiunge 30 pacchetti/min con velocità nastro di 26 m/min. La temperatura della lama sigillante è regolabile da 180-230°C. La potenza totale è di 3KW con alimentazione 1P 220V AC, e il consumo d'aria è di 4kg/cm². Le dimensioni della macchina sono 1795 × 880 × 1570 mm e il peso è di 330Kg.",
+        "Questa macchina può essere abbinata a tunnel di termoretrazione per formare una linea completa di confezionamento termoretraibile, ampiamente utilizzata per imballaggi esterni di libri, giocattoli, elettronica, alimenti, articoli per la casa e cosmetici."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interessato alla Sigillatrice Tagliatrice a L CF-A5645?",
+      "ctaDescription": "Ottieni specifiche dettagliate, prezzi e indicazioni di integrazione per la CF-A5645.",
+      "relatedSolutionsTitle": "Utilizzata in queste soluzioni di confezionamento",
       "relatedMachinesTitle": "Macchine correlate"
     },
     "palletizing-robot": {

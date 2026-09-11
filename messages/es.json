@@ -706,6 +706,23 @@
           "Sellado de cartón para alimentos y artículos de uso diario"
         ]
       },
+      "cf-a5645": {
+        "name": "CF-A5645 Selladora y Cortadora en L Automática",
+        "description": "Selladora en L automática para películas termorretráctiles POF/PE. Se combina con túneles de retracción para sellado y corte automáticos, ampliamente utilizada para envases externos de libros, juguetes, electrónica y artículos de uso diario.",
+        "features": [
+          "Alimentación, sellado, corte y recolección de residuos automáticos de película",
+          "Cuchilla de sellado de temperatura constante para sellos fuertes y limpios",
+          "Cuchilla calefactora de acero inoxidable duradera",
+          "Alimentación automática de productos por fotoeléctrico",
+          "Velocidad de transportador ajustable",
+          "Compatible con películas termorretráctiles POF y PE"
+        ],
+        "applications": [
+          "Envases externos de libros, juguetes y electrónica",
+          "Envoltura retráctil de alimentos, artículos de uso diario y cosméticos",
+          "Líneas de producción combinadas con túneles de retracción"
+        ]
+      },
       "palletizing-robot": {
         "name": "Robot de Paletización Colaborativo",
         "description": "Sin valla. Programación flexible.",
@@ -795,13 +812,15 @@
       "Product Width": "Ancho del producto",
       "Bag Size": "Tamaño de la bolsa",
       "Air Pressure": "Presión de aire",
-      "Air Consumption": "Consumo de aire",
+      "Air Consumption": "Consumo de Aire",
       "Packaging materials": "Materiales de Envasado",
       "Inner Diameter of Film Roll": "Diámetro Interior del Rollo de Película",
       "Product Size": "Tamaño del Producto",
       "Tape Size": "Tamaño de Cinta",
       "Belt Speed": "Velocidad de Banda",
-      "Table Height": "Altura de Mesa"
+      "Table Height": "Altura de Mesa",
+      "Sealing Temperature": "Temperatura de Sellado",
+      "Film Material": "Material de Película"
     }
   },
   "about": {
@@ -1827,6 +1846,33 @@
       ],
       "ctaTitle": "¿Interesado en la Selladora de Cartón Tipo I CF-BD-5050?",
       "ctaDescription": "Obtenga especificaciones detalladas, precios e integración de línea para la CF-BD-5050.",
+      "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
+      "relatedMachinesTitle": "Máquinas relacionadas"
+    },
+    "cf-a5645": {
+      "seoTitle": "CF-A5645 Selladora y Cortadora en L Automática | CHANFER",
+      "seoDescription": "CF-A5645 selladora en L automática para películas termorretráctiles POF/PE. Cuchilla de sellado 565×460mm, 30 paquetes/min, combinable con túneles de retracción.",
+      "keywords": "selladora en L, CF-A5645, selladora y cortadora en L, selladora de película retráctil, selladora POF, selladora PE, selladora automática",
+      "longDescription": [
+        "La CHANFER CF-A5645 es una selladora en L automática para películas termorretráctiles POF y PE. Alimenta, sella, corta y recoge residuos de película automáticamente. El tamaño de la cuchilla de sellado es 565(L) × 460(A) mm, y el rango de tamaño de producto es (100-450)L × (60-350)A × (5-120)H mm.",
+        "La capacidad de producción alcanza 30 paquetes/min con una velocidad de transportador de 26 m/min. La temperatura de la cuchilla de sellado es ajustable de 180-230°C. La potencia total es de 3KW con suministro 1P 220V AC, y el consumo de aire es de 4kg/cm². Las dimensiones de la máquina son 1795 × 880 × 1570 mm y el peso es de 330Kg.",
+        "Esta máquina puede combinarse con túneles de retracción para formar una línea completa de envasado retráctil, ampliamente utilizada para envases externos de libros, juguetes, electrónica, alimentos, artículos de uso diario y cosméticos."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "¿Interesado en la Selladora en L CF-A5645?",
+      "ctaDescription": "Obtenga especificaciones detalladas, precios e integración de línea para la CF-A5645.",
       "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
       "relatedMachinesTitle": "Máquinas relacionadas"
     },
