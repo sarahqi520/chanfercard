@@ -692,7 +692,7 @@
         ]
       },
       "cf-bd-5050": {
-        "name": "CF-BD-5050 I型封かん機",
+        "name": "I型封かん機",
         "description": "自動I型封かん機。手動で折りたたんだ後、カートンを押し込むと自動で底と上部をテープ封かんします。安定、高效、美観。",
         "features": [
           "手動折りたたみ後、自動で底と上部をテープ封かん",
@@ -707,7 +707,7 @@
         ]
       },
       "cf-a5645": {
-        "name": "CF-A5645 全自動L型シールカット機",
+        "name": "全自動L型シールカット機",
         "description": "POF/PE収縮フィルム用の全自動L型シールカット機。シュリンクトンネルと組み合わせて自動シール・裁断を行い、書籍、玩具、電子製品、日用品などの外装に広く使用されます。",
         "features": [
           "フィルムの自動供給、シール、裁断、廃材回収",
@@ -1844,7 +1844,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "CF-BD-5050 I型封かん機についてお問い合わせですか？",
+      "ctaTitle": "I型封かん機についてお問い合わせですか？",
       "ctaDescription": "CF-BD-5050の詳細仕様、価格、ライン統合のご案内をお送りします。",
       "relatedSolutionsTitle": "この設備を使用する包装ソリューション",
       "relatedMachinesTitle": "関連設備"
@@ -1871,7 +1871,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "CF-A5645 全自動L型シールカット機についてお問い合わせ",
+      "ctaTitle": "全自動L型シールカット機についてお問い合わせ",
       "ctaDescription": "CF-A5645の詳細仕様、価格、ライン統合に関するご案内をご用意しております。",
       "relatedSolutionsTitle": "この設備を使用する包装ソリューション",
       "relatedMachinesTitle": "関連設備"

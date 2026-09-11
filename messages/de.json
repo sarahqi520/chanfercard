@@ -692,7 +692,7 @@
         ]
       },
       "cf-bd-5050": {
-        "name": "CF-BD-5050 I-Typ Kartonverschließmaschine",
+        "name": "I-Typ Kartonverschließmaschine",
         "description": "Automatische I-Typ Kartonverschließmaschine. Nach manuellem Falten werden Kartons eingeschoben und automatisch oben und unten verschlossen. Stabil, effizient und sauber.",
         "features": [
           "Automatisches Verschließen von Boden und Deckel nach manuellem Falten",
@@ -707,7 +707,7 @@
         ]
       },
       "cf-a5645": {
-        "name": "CF-A5645 Automatische L-Siegelschneidemaschine",
+        "name": "Automatische L-Siegelschneidemaschine",
         "description": "Automatische L-Siegelschneidemaschine für POF/PE-Schrumpffolien. In Verbindung mit Schrumpftunneln für automatisches Versiegeln und Schneiden, weit verbreitet für Außenverpackungen von Büchern, Spielzeug, Elektronik und Gebrauchsgegenständen.",
         "features": [
           "Automatisches Folienzuführen, Versiegeln, Schneiden und Abfallaufnahme",
@@ -1854,7 +1854,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "Interesse an der CF-BD-5050 I-Typ Kartonverschließmaschine?",
+      "ctaTitle": "Interesse an der I-Typ Kartonverschließmaschine?",
       "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für die CF-BD-5050.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
       "relatedMachinesTitle": "Verwandte Maschinen"
@@ -1881,7 +1881,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "Interesse an der CF-A5645 L-Siegelschneidemaschine?",
+      "ctaTitle": "Interesse an der L-Siegelschneidemaschine?",
       "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für die CF-A5645.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
       "relatedMachinesTitle": "Verwandte Maschinen"

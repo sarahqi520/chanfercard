@@ -692,7 +692,7 @@
         ]
       },
       "cf-bd-5050": {
-        "name": "CF-BD-5050 Sigillatrice per Cartoni Tipo I",
+        "name": "Sigillatrice per Cartoni Tipo I",
         "description": "Sigillatrice automatica per cartoni tipo I. Dopo la piegatura manuale, i cartoni vengono spinti per sigillare automaticamente fondo e coperchio. Stabile, efficiente e pulita.",
         "features": [
           "Sigillatura automatica di fondo e coperchio dopo piegatura manuale",
@@ -707,7 +707,7 @@
         ]
       },
       "cf-a5645": {
-        "name": "CF-A5645 Sigillatrice Tagliatrice a L Automatica",
+        "name": "Sigillatrice Tagliatrice a L Automatica",
         "description": "Sigillatrice tagliatrice a L automatica per film termoretraibili POF/PE. Si abbina a tunnel di termoretrazione per sigillatura e taglio automatici, ampiamente utilizzata per imballaggi esterni di libri, giocattoli, elettronica e articoli per la casa.",
         "features": [
           "Alimentazione, sigillatura, taglio e raccolta rifiuti del film automatici",

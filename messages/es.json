@@ -692,7 +692,7 @@
         ]
       },
       "cf-bd-5050": {
-        "name": "CF-BD-5050 Selladora de Cartón Tipo I",
+        "name": "Selladora de Cartón Tipo I",
         "description": "Selladora automática de cartón tipo I. Tras el plegado manual, los cartones se empujan para sellar automáticamente la parte inferior y superior. Estable, eficiente y limpia.",
         "features": [
           "Sellado automático de fondo y tapa tras plegado manual",
@@ -707,7 +707,7 @@
         ]
       },
       "cf-a5645": {
-        "name": "CF-A5645 Selladora y Cortadora en L Automática",
+        "name": "Selladora y Cortadora en L Automática",
         "description": "Selladora en L automática para películas termorretráctiles POF/PE. Se combina con túneles de retracción para sellado y corte automáticos, ampliamente utilizada para envases externos de libros, juguetes, electrónica y artículos de uso diario.",
         "features": [
           "Alimentación, sellado, corte y recolección de residuos automáticos de película",

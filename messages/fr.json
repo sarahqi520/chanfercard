@@ -692,7 +692,7 @@
         ]
       },
       "cf-bd-5050": {
-        "name": "CF-BD-5050 Fermeuse de Carton Type I",
+        "name": "Fermeuse de Carton Type I",
         "description": "Fermeuse automatique de carton type I. Après pliage manuel, les cartons sont poussés pour sceller automatiquement le fond et le dessus. Stable, efficace et propre.",
         "features": [
           "Scellage automatique du fond et du dessus après pliage manuel",
@@ -707,7 +707,7 @@
         ]
       },
       "cf-a5645": {
-        "name": "CF-A5645 Soudeuse en L Automatique",
+        "name": "Soudeuse en L Automatique",
         "description": "Soudeuse en L automatique pour films rétractables POF/PE. S'associe aux tunnels de rétraction pour le soudage et la coupe automatiques, largement utilisée pour l'emballage extérieur de livres, jouets, électronique et articles quotidiens.",
         "features": [
           "Alimentation, soudage, coupe et collecte de déchets de film automatiques",
@@ -1844,7 +1844,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "Intéressé par la Fermeuse de Carton Type I CF-BD-5050 ?",
+      "ctaTitle": "Intéressé par la Fermeuse de Carton Type I ?",
       "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration pour la CF-BD-5050.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
       "relatedMachinesTitle": "Machines associées"
@@ -1871,7 +1871,7 @@
         "heat-shrink",
         "three-dimensional"
       ],
-      "ctaTitle": "Intéressé par la Soudeuse en L CF-A5645 ?",
+      "ctaTitle": "Intéressé par la Soudeuse en L ?",
       "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration pour la CF-A5645.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
       "relatedMachinesTitle": "Machines associées"
