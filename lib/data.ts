@@ -935,7 +935,7 @@ export const machineProducts: MachineProduct[] = [
       "Speed": "30 Pcs/min",
       "Package Size": "(100-450)L × (60-350)W × (5-120)H mm",
       "Sealing Knife Size": "565(L) × 460(W) mm",
-      "Film Width": "23\"",
+      "Film Width": "23\" (≈584mm)",
       "Conveyor Speed": "26 M/min",
       "Film Material": "POF, PE",
       "Sealing Temperature": "180-230°C",
