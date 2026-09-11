@@ -789,6 +789,200 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 
+
+
+  {
+    slug: "card-count-off-metering",
+    date: "2026-09-11",
+    category: { zh: "技术干货", en: "Troubleshooting" },
+    title: {
+      zh: "卡牌数量不准？卡牌产线计数与计量误差排查",
+      en: "Card Count Off? Fixing Metering Errors on Your Card Line",
+    },
+    excerpt: {
+      zh: "卡牌盒每盒多一张或少一张，是最常见的计数事故。本文列出5类计数/计量故障的成因与调机方法，帮你在卡牌产线上快速排障。",
+      en: "One card too many or too few per box is the most common counting fault on a card line. This post lists five counting and metering fault categories with their causes and the tuning fixes to clear them fast.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "在卡牌包装线上，盒子里数量对，才算"对"。少一张、多一张，整盒就过不了质检——更糟的是直接发到会数的收藏者手上。卡牌线上的计数和计量误差，大多能归结到几个反复出现的成因。下面是 CHANFER 工程师排查和调修的方法。",
+          en: "On a card packaging line, the box is only \"right\" if the count is right. One card short, one card extra, and the whole pack fails QA \u2014 or worse, ships to a collector who counts. Most count and metering errors on a card line come down to a few repeatable causes. Here's how our engineers trace and fix them.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "1. 数量偏高或偏低（每盒多卡 / 少卡）", en: "1. Count Drifts High or Low (over/under per box)" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "计量盘或送料机构未对零 → 重新归零，并按卡牌尺寸核对节距。",
+          en: "Metering disc or feeder not indexed → re-zero the indexing and verify the pitch against the card size.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "送卡皮带打滑 → 张紧皮带，检查磨损情况。",
+          en: "Card feeder belt slips → tension the belt and check for wear.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "光电眼被静电或粉尘误触发 → 清洁传感器，加装除静电棒。",
+          en: "Photoeye mis-triggered by static or dust → clean the sensor, add a static-elimination bar.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "线速度与计数器不同步 → 让送料速率与计数单元匹配。",
+          en: "Line speed out of sync with the counter → match the feed rate to the counting unit.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "2. 重量或填充不一致（含拼装盒与内衬）", en: "2. Inconsistent Weight or Fill (boxed sets & inserts)" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "检重秤阈值漂移 → 重新校准检重秤零点。",
+          en: "Checkweigher threshold drifting → recalibrate the checkweigher zero.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "秤台上有物料残留 → 清理残料并重新去皮。",
+          en: "Residue on the scale → clear buildup and re-tare.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "振动串入秤体 → 把秤体与机架做隔振处理。",
+          en: "Vibration coupling into the scale → isolate the scale from the machine frame.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "3. 漏卡 / 连卡（多吐一张）", en: "3. Missed Cards / Double Cards" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "发卡处卡料 → 清理料仓，检查卡牌是否卷曲或折角。",
+          en: "Card jams at the dispenser → clear the hopper, check cards for curl or dog-ears.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "吸嘴 / 气动取卡时序不对 → 调整取卡时序与气压。",
+          en: "Vacuum/air pick mistimed → adjust pick timing and air pressure.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "卡牌未分离 → 改为单卡送料，加装分卡轮。",
+          en: "Cards not separated → switch to single-card feed, add a separator wheel.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "4. 长班生产过程中间歇性送卡异常", en: "4. Intermittent Misfeeds on Long Runs" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "料仓快空了 → 保持料仓有料，加装缺料报警。",
+          en: "Hopper running low → keep it loaded, add a low-level alarm.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "湿度导致卡牌卷曲 → 控制湿度并对卡料做预处理。",
+          en: "Humidity curling the cards → control humidity, condition the stock.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "送卡轮磨损 → 更换送卡轮。",
+          en: "Worn feed wheel → replace the wheel.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "5. 一整个班次后逐渐漂移", en: "5. Drift Over a Full Shift" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "计数器热漂移 → 让设备充分预热，并定期重新回零。",
+          en: "Thermal drift in the counter → let the machine warm up, re-home periodically.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "机械零点松动 → 重新拧紧并校正送料机构。",
+          en: "Loose mechanical zero → re-tighten and re-index the feeder.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "批次数偏移 → 每批生产之间重置计数器。",
+          en: "Batch count offset → reset the counter between production runs.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "为什么卡牌线尤其重要", en: "Why It Matters on a Card Line" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "收藏卡盒是按"精确张数"卖的。一盒 60 张变 59 或 61，就是退货、差评、信任受损。准确且可重复的计数，是高端包装和报废批次的分界线——也是买家最先注意到的细节之一。",
+          en: "Collector boxes are sold by the exact count. A box of 60 that ships 59 or 61 means a return, a bad review and lost trust. Accurate, repeatable counting is the line between a premium pack and a scrapped lot \u2014 and it's one of the first things a buyer checks.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "现场看实机", en: "See It Run Live" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "以上正是 CHANFER 每条卡牌线出厂前工程师必查的项目。来 PRINTING United Expo 2026（N7411 展位，拉斯维加斯，9月23–25日）看卡牌精准计数与计量实机运行——带上你的卡样，我们现场帮你把精度调到位。",
+          en: "These are the exact checks our engineers run on every CHANFER card line before it ships. See cards count and meter accurately at PRINTING United Expo 2026, Booth N7411, Las Vegas, Sept 23\u201325 \u2014 bring your card sample and we'll dial in the accuracy for your product.",
+        },
+      },
+      {
+        type: "cta",
+        text: { zh: "观看 TikTok 演示视频", en: "Watch the TikTok Demo Video" },
+        href: "https://www.tiktok.com/@wilson.chanfer/video/7678978038775680263",
+      },
+      {
+        type: "cta",
+        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
+        href: "/book-a-demo.html",
+      },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
