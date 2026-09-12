@@ -195,7 +195,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                   href="/book-a-demo.html"
                   className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-accent hover:bg-accent/90 text-white font-bold transition-all text-sm shadow-lg shadow-accent/30 hover:shadow-accent/50"
                 >
-                  {locale === "zh" ? "预约展位演示" : "Book a Demo at Booth N7411"}
+                  {locale === "zh" ? "预约9.23-25美国展会" : "Book Sept 23-25 US Show"}
                   <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
                 </a>
               </div>
