@@ -1076,3 +1076,4 @@ export function getPost(slug: string): BlogPost | undefined {
 }
 
 // redeploy trigger for post4 (card-count-off-metering) — forces Cloudflare rebuild
+// force-redeploy: CTA text update
