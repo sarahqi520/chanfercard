@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { type Dictionary } from "@/lib/i18n/dictionaries";
@@ -14,7 +13,6 @@ import {
   Factory,
   ArrowRight,
   CheckCircle2,
-  ChevronDown,
   PlayCircle,
 } from "lucide-react";
 
@@ -40,15 +38,6 @@ const methodImages = [
   "/images/solutions/detail/banding.png",
   "/images/solutions/detail/heat-shrink.png",
   "/images/solutions/detail/three-dimensional.png",
-];
-
-const lineImages = [
-  "/images/lines/candy-line.png",
-  "/images/lines/self-adhesive-line.png",
-  "/images/lines/four-sides-line.png",
-  "/images/lines/banding-line.png",
-  "/images/lines/heat-shrink-line.png",
-  "/images/lines/three-dimensional-line.png",
 ];
 
 const typeColors: Record<string, string> = {
@@ -135,12 +124,6 @@ export default function SolutionsContent({ dict, locale }: Props) {
     };
   };
 
-  const [expandedSolution, setExpandedSolution] = useState<string | null>(null);
-
-  const toggleExpand = (id: string) => {
-    setExpandedSolution(expandedSolution === id ? null : id);
-  };
-
   return (
     <main className="flex-1">
       {/* Page header */}
@@ -176,7 +159,6 @@ export default function SolutionsContent({ dict, locale }: Props) {
       <section className="py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-6 space-y-16">
           {packagingSolutions.map(localizeSol).map((sol, i) => {
-            const isExpanded = expandedSolution === sol.id;
             return (
               <div
                 key={sol.id}
@@ -335,7 +317,7 @@ export default function SolutionsContent({ dict, locale }: Props) {
                     )}
                   </div>
 
-                  {/* Detail page link + Expand button */}
+                  {/* Detail page link */}
                   <div className="mt-6 flex items-center gap-4">
                     <Link
                       href={`/${locale}/solutions/${sol.id}`}
@@ -344,103 +326,8 @@ export default function SolutionsContent({ dict, locale }: Props) {
                       {(solutionsDict.viewDetails as string) ?? "View Details"}
                       <ArrowRight size={14} />
                     </Link>
-                    <button
-                      onClick={() => toggleExpand(sol.id)}
-                      className="flex items-center gap-2 text-sm font-medium text-primary hover:text-primary-dark transition-colors"
-                    >
-                      {(isExpanded
-                        ? (solutionsDict.hideLine as string)
-                        : (solutionsDict.showLine as string)) ??
-                        (isExpanded
-                          ? "Hide Production Line & Process"
-                          : "Show Production Line & Process")}
-                      <ChevronDown
-                        size={16}
-                        className={`transition-transform ${isExpanded ? "rotate-180" : ""}`}
-                      />
-                    </button>
                   </div>
                 </div>
-
-                {/* Expanded: Production line & process */}
-                {isExpanded && (
-                  <div className="border-t border-border bg-muted/30 p-6 md:p-8 animate-fade-in space-y-8">
-                    {/* Production line photo */}
-                    <div>
-                      <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
-                        {(solutionsDict.completeLine as string) ??
-                          "Complete Production Line"}
-                      </h3>
-                      <div className="rounded-xl overflow-hidden border border-border bg-white">
-                        <Image
-                          src={lineImages[i]}
-                          alt={`${sol.name} - Full Production Line from CHANFER Catalog`}
-                          width={1200}
-                          height={400}
-                          className="w-full h-auto"
-                          unoptimized
-                        />
-                      </div>
-                    </div>
-
-                    {/* Line components */}
-                    <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
-                      {(solutionsDict.lineComponents as string) ??
-                        "Production Line Components"}
-                    </h3>
-                    <div className="flex flex-wrap gap-2 mb-8">
-                      {sol.lineComponents.map((comp) => (
-                        <span
-                          key={comp.id}
-                          className={`px-3 py-1.5 rounded-lg text-xs font-medium ${typeColors[comp.type] || "bg-muted text-muted-foreground"}`}
-                        >
-                          {comp.id}. {comp.name}
-                        </span>
-                      ))}
-                    </div>
-
-                    {/* Process flow */}
-                    <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
-                      {(solutionsDict.process as string) ?? "Packaging Process"}
-                    </h3>
-                    <div className="flex flex-wrap gap-2 items-center">
-                      {sol.processSteps.map((step, j) => (
-                        <div key={j} className="flex items-center gap-2">
-                          <div className="flex items-center gap-2 px-3 py-2 bg-card border border-border rounded-lg text-sm">
-                            <span className="w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-bold">
-                              {step.step}
-                            </span>
-                            <span>{step.label}</span>
-                          </div>
-                          {j < sol.processSteps.length - 1 && (
-                            <ArrowRight
-                              size={14}
-                              className="text-muted-foreground hidden sm:block"
-                            />
-                          )}
-                        </div>
-                      ))}
-                    </div>
-
-                    {/* CTA */}
-                    <div className="mt-8 flex flex-wrap gap-3">
-                      <Link
-                        href={`/${locale}/contact`}
-                        className="px-6 py-2.5 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary-dark transition-colors"
-                      >
-                        {(solutionsDict.requestLine as string) ??
-                          "Request This Line"}
-                      </Link>
-                      <Link
-                        href={`/${locale}/machines`}
-                        className="px-6 py-2.5 border border-border text-sm font-semibold rounded-lg hover:border-primary hover:text-primary transition-colors"
-                      >
-                        {(solutionsDict.viewMachines as string) ??
-                          "View Individual Machines"}
-                      </Link>
-                    </div>
-                  </div>
-                )}
               </div>
             );
           })}
