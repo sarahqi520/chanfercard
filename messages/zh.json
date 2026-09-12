@@ -691,6 +691,22 @@
           "四角胶带封箱"
         ]
       },
+      "semi-auto-carton-sealer": {
+        "name": "半自动封箱机",
+        "description": "半自动左右驱动封箱机，人工折盖进箱，机器自动完成上下胶带封箱，经济高效。",
+        "features": [
+          "左右皮带驱动，纸箱输送稳定",
+          "人工折盖+自动上下封胶带",
+          "封箱宽高 150–500mm 可调",
+          "适配 48/60/72mm 胶带宽度",
+          "结构紧凑，移动方便"
+        ],
+        "applications": [
+          "卡片产品纸箱封箱",
+          "小批量电商包装",
+          "半自动产线末端封箱"
+        ]
+      },
       "palletizing-robot": {
         "name": "协作码垛机器人",
         "description": "协作码垛机器人，自动码垛。安全协作无需围栏，灵活编程多种码垛模式。",
@@ -1849,6 +1865,34 @@
       ],
       "ctaTitle": "对H型封箱机感兴趣？",
       "ctaDescription": "获取H型封箱机的详细规格、价格和包装线集成指导。",
+      "relatedSolutionsTitle": "应用该设备的包装方案",
+      "relatedMachinesTitle": "相关设备"
+    },
+    "semi-auto-carton-sealer": {
+      "seoTitle": "半自动左右驱动封箱机 | CHANFER",
+      "seoDescription": "半自动左右驱动封箱机，适用于150-500mm宽高纸箱，0-18m/min封箱速度，人工折盖、自动上下胶带封箱，经济高效。",
+      "keywords": "半自动封箱机,左右驱动封箱机,纸箱封箱机,胶带封箱机,半自动打包机,CHANFER",
+      "longDescription": [
+        "CHANFER半自动左右驱动封箱机是一款经济实用的产线末端封箱设备。操作人员将纸箱折好盖板后推入机器，设备通过左右皮带驱动纸箱前进，并自动完成上下胶带封箱。",
+        "该机适用封箱宽度150-500mm、高度150-500mm，封箱长度不受限制，封箱速度0-18m/min，可满足小批量生产、电商发货及半自动包装线的封箱需求。",
+        "台面高度600-750mm可调，外形尺寸L846×W812×H1350mm，结构紧凑便于移动定位。可使用48、60、72mm规格胶带，灵活匹配不同纸箱和胶带要求。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "对半自动封箱机感兴趣？",
+      "ctaDescription": "获取半自动左右驱动封箱机的详细规格、价格和包装线集成指导。",
       "relatedSolutionsTitle": "应用该设备的包装方案",
       "relatedMachinesTitle": "相关设备"
     },

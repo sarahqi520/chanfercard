@@ -835,6 +835,38 @@ export const machineProducts: MachineProduct[] = [
     image: "/images/machines/h-type-sealer.png",
     },
   {
+    id: "semi-auto-carton-sealer",
+    model: "半自动左右驱动封箱机",
+    name: "Semi-Automatic Carton Sealer",
+    category: "boxing",
+    description:
+      "Semi-automatic left/right drive carton sealing machine. Operator folds carton flaps manually and feeds cases; the machine automatically applies top and bottom tape for economical, efficient case sealing.",
+    specs: {
+      "Sealing Width": "150–500mm",
+      "Sealing Height": "150–500mm",
+      "Sealing Length": "150mm–∞",
+      "Table Height": "600–750mm",
+      "Machine Size": "L846 × W812 × H1350mm",
+      "Sealing Speed": "0–18m/min",
+      "Power": "220V/380V 50/60Hz",
+      "Tape": "W 48/60/72mm × L1000y",
+      "Weight": "120kg",
+    },
+    applications: [
+      "Card product carton sealing",
+      "Small-batch e-commerce packaging",
+      "Semi-automatic end-of-line sealing",
+    ],
+    features: [
+      "Left/right belt drive for stable carton transport",
+      "Manual flap folding + automatic top/bottom taping",
+      "Adjustable width/height for cartons 150–500mm",
+      "Works with 48/60/72mm tape widths",
+      "Compact design, easy to move and position",
+    ],
+    image: "/images/machines/semi-auto-carton-sealer.jpg",
+    },
+  {
     id: "palletizing-robot",
     model: "KKMD-30L",
     name: "Intelligent Collaborative Palletizing Robot",
