@@ -109,8 +109,6 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
 
   const heroImage = methodImages[solutionId] ?? methodImages.candy;
   const lineImage = lineImages[solutionId] ?? lineImages.candy;
-  // candy line diagram is taller (1.586:1) than the 2.5:1 hero box; use contain so the full line stays visible
-  const heroFit = solutionId === "candy" ? "object-contain" : "object-cover";
   const icon = packagingIcons[solutionId] ?? <Package className="w-6 h-6" />;
 
   // Other solutions for navigation
@@ -156,7 +154,7 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
               src={heroImage}
               alt={`${name} - CHANFER card packaging solution`}
               fill
-              className={heroFit}
+              className="object-cover"
               unoptimized
               priority
             />
