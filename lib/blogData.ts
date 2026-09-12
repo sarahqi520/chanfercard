@@ -267,7 +267,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约展位演示", en: "Book a Demo at the Show" },
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
         href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
@@ -403,7 +403,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
         href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
@@ -597,7 +597,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
         href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
@@ -779,7 +779,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
         href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
@@ -973,7 +973,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
         href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
@@ -1060,7 +1060,7 @@ export const blogPosts: BlogPost[] = [
           en: "These are the exact checks our engineers run on every CHANFER card line before it ships. See scratch-free card handling at PRINTING United Expo 2026, Booth N7411, Las Vegas, Sept 23\u201325 \u2014 bring your card sample and we'll show you a scuff-free result on the spot.",
         },
       },
-      { type: "cta", text: { zh: "预约现场演示", en: "Book a Demo at the Show" }, href: "https://chanfercard.com/book-a-demo.html" },
+      { type: "cta", text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" }, href: "https://chanfercard.com/book-a-demo.html" },
     ],
     relatedLinks: [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
