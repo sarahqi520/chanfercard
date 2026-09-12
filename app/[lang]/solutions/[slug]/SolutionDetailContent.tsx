@@ -139,12 +139,12 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
       {/* Main image */}
       <section className="border-b border-border">
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-8">
-          <div className="relative w-full aspect-[2.5/1] rounded-2xl overflow-hidden border border-border bg-muted">
+          <div className="relative w-full aspect-[2.5/1] rounded-2xl overflow-hidden border border-border bg-white">
             <Image
               src={heroImage}
               alt={`${name} - CHANFER card packaging solution`}
               fill
-              className="object-cover"
+              className="object-contain"
               unoptimized
               priority
             />
