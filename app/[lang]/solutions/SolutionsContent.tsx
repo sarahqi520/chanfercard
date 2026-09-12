@@ -34,7 +34,7 @@ const packagingIcons = [
 const methodImages = [
   "/images/solutions/detail/candy-packaging.png",
   "/images/solutions/detail/self-adhesive-strip.png",
-  "/images/solutions/detail/four-sides-sealed.png",
+  "/images/solutions/detail/four-sides-line.png",
   "/images/solutions/detail/banding.png",
   "/images/solutions/detail/heat-shrink.png",
   "/images/solutions/detail/three-dimensional.png",
