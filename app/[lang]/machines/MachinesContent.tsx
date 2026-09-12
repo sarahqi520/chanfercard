@@ -168,7 +168,7 @@ export default function MachinesContent({ dict, locale }: Props) {
                 <div className="relative w-full h-48 bg-muted/30 p-2">
                   <Image
                     src={machine.image}
-                    alt={`${machine.name} - ${machine.model}`}
+                    alt={`${machine.name} - ${tm(machine.id, "model", machine.model)}`}
                     fill
                     className="object-contain"
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -189,7 +189,7 @@ export default function MachinesContent({ dict, locale }: Props) {
                     <h3 className="font-bold text-lg">{tm(machine.id, "name", machine.name)}</h3>
                     <p className="text-sm text-muted-foreground">
                       {machinesDict.model as string}:{" "}
-                      <span className="font-semibold text-accent">{machine.model}</span>
+                      <span className="font-semibold text-accent">{tm(machine.id, "model", machine.model)}</span>
                     </p>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ export default function MachinesContent({ dict, locale }: Props) {
                     className="inline-flex items-center gap-1 text-xs font-medium text-muted-foreground hover:text-primary transition-colors"
                   >
                     {formatStr(machinesDict.inquire as string, {
-                      model: machine.model,
+                      model: tm(machine.id, "model", machine.model),
                     })}
                   </Link>
                 </div>

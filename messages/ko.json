@@ -794,7 +794,8 @@
           "Card product carton sealing",
           "Small-batch e-commerce packaging",
           "Semi-automatic end-of-line sealing"
-        ]
+        ],
+        "model": "반자동 좌우 구동 박스 봉인기"
       }
     },
     "featuresTitle": "특징",

@@ -55,6 +55,7 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
   const machinesData = (machinesDict.machinesData as Record<string, Record<string, unknown>>) ?? {};
   const mTrans = machinesData[machineId] ?? {};
   const machineName = (mTrans.name as string) ?? machine.name;
+  const machineModel = (mTrans.model as string) ?? machine.model;
   const machineDesc = (mTrans.description as string) ?? machine.description;
   const machineFeatures = (mTrans.features as string[]) ?? machine.features;
   const machineApplications = (mTrans.applications as string[]) ?? machine.applications;
@@ -93,7 +94,7 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
               {(dict.nav as Record<string, string>).machines}
             </Link>
             <span>/</span>
-            <span className="text-foreground font-medium">{machine.model}</span>
+            <span className="text-foreground font-medium">{machineModel}</span>
           </nav>
 
           <div className="flex flex-col md:flex-row gap-8 items-start">
@@ -101,7 +102,7 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
             <div className="w-full md:w-2/5 relative aspect-[4/3] rounded-2xl overflow-hidden border border-border bg-card p-4">
               <Image
                 src={machine.image}
-                alt={`${machine.name} - ${machine.model} | CHANFER`}
+                alt={`${machine.name} - ${machineModel} | CHANFER`}
                 fill
                 className="object-contain"
                 unoptimized
@@ -118,7 +119,7 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
                 {categoryLabel}
               </span>
               <h1 className="text-3xl md:text-4xl font-bold">
-                {machine.model} {machineName}
+                {machineModel} {machineName}
               </h1>
               <p className="mt-4 text-muted-foreground leading-relaxed">
                 {machineDesc}
@@ -143,8 +144,8 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
                 className="mt-6 inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors text-sm"
               >
                 {(machinesDict.inquire as string)
-                  ? (machinesDict.inquire as string).replace("{model}", machine.model)
-                  : `Inquire About ${machine.model}`}
+                  ? (machinesDict.inquire as string).replace("{model}", machineModel)
+                  : `Inquire About ${machineModel}`}
                 <ArrowRight size={16} />
               </Link>
             </div>
@@ -344,7 +345,7 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
       <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
           <h2 className="text-3xl font-bold text-white">
-            {(md.ctaTitle as string) ?? `Interested in the ${machine.model}?`}
+            {(md.ctaTitle as string) ?? `Interested in the ${machineModel}?`}
           </h2>
           <p className="mt-4 text-white/80 max-w-xl mx-auto">
             {(md.ctaDescription as string) ??
