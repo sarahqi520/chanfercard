@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>On-site Demo Booking · CHANFER @ PRINTING United Expo 2026 · Booth N7411</title>
+<title>Book Sept 23-25 US Show · CHANFER @ PRINTING United Expo 2026 · Booth N7411</title>
 <style>
   :root{ --fg:#1f2933; --muted:#6b7280; --line:#e5e7eb; --brand:#0b5cab; --chip:#f3f4f6; }
   *{box-sizing:border-box}
@@ -47,9 +47,9 @@
 <div class="wrap en-lang" id="wrap">
 
   <div class="head">
-    <h1>On-site Demo Booking — PRINTING United Expo 2026</h1>
-    <p class="en-txt">CHANFER Card Packaging · Booth N7411 · Las Vegas · Sept 23–25, 2026. Pick a time slot and we'll save your seat at the live demo.</p>
-    <p class="zh-txt">CHANFER 卡牌包装 · N7411 展位 · 拉斯维加斯 · 2026年9月23–25日。选个时间段，我们为您留好现场演示座位。</p>
+    <h1>Book Sept 23-25 US Show — PRINTING United Expo 2026</h1>
+    <p class="en-txt">CHANFER Card Packaging · Booth N7411 · Las Vegas · Sept 23–25, 2026. Pick a time slot and we'll save your seat at the US show.</p>
+    <p class="zh-txt">CHANFER 卡牌包装 · N7411 展位 · 拉斯维加斯 · 2026年9月23–25日。选个时间段，我们为您留好展会演示座位。</p>
     <div class="lang">
       <button id="btnEn" class="on" onclick="setLang('en')">English</button>
       <button id="btnZh" onclick="setLang('zh')">中文</button>
@@ -58,11 +58,11 @@
 
   <!-- Ticket link -->
   <div class="ticket en-txt">
-    <div class="txt"><b>Need an expo pass first?</b>Register for PRINTING United Expo 2026 tickets, then book your demo.</div>
+    <div class="txt"><b>Need an expo pass first?</b>Register for PRINTING United Expo 2026 tickets, then book your US show slot.</div>
     <a href="https://nvyt.es/7559eb9a7e781484239d" target="_blank" rel="noopener noreferrer">Register Tickets →</a>
   </div>
   <div class="ticket zh-txt">
-    <div class="txt"><b>还需要展会门票？</b>先注册 PRINTING United Expo 2026 门票，再预约现场演示。</div>
+    <div class="txt"><b>还需要展会门票？</b>先注册 PRINTING United Expo 2026 门票，再预约展会演示。</div>
     <a href="https://nvyt.es/7559eb9a7e781484239d" target="_blank" rel="noopener noreferrer">注册门票 →</a>
   </div>
 
@@ -108,7 +108,7 @@
     </div>
     <label>Message</label>
     <textarea name="message" placeholder="Tell us about your cards, throughput, packaging method..."></textarea>
-    <button class="submit" type="submit">Book My On-site Demo</button>
+    <button class="submit" type="submit">Book My US Show Slot</button>
     <div class="tip">Your booking is saved to our Google Sheet and a notification is emailed to <b>sales6@gzchanfer.com</b> instantly.</div>
   </form>
 
@@ -154,7 +154,7 @@
     </div>
     <label>留言</label>
     <textarea name="message" placeholder="告诉我们您的卡牌规格、产能、包装方式……"></textarea>
-    <button class="submit" type="submit">提交我的现场演示预约</button>
+    <button class="submit" type="submit">提交我的展会预约</button>
     <div class="tip">您的预约会写入我们的 Google 表格，并立即邮件通知 <b>sales6@gzchanfer.com</b>。</div>
   </form>
 
@@ -192,7 +192,7 @@
 
   function submitBooking(form, lang){
     var btn = form.querySelector('.submit');
-    var label = lang==='en' ? 'Book My On-site Demo' : '提交我的现场演示预约';
+    var label = lang==='en' ? 'Book My US Show Slot' : '提交我的展会预约';
     var sending = lang==='en' ? 'Submitting…' : '提交中…';
 
     if (APPS_SCRIPT_URL.indexOf('REPLACE_WITH_YOUR_ID') !== -1) {
