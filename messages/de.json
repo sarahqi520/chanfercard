@@ -691,6 +691,38 @@
           "Vier-Ecken-Klebebandversiegelung"
         ]
       },
+      "cf-bd-5050": {
+        "name": "I-Typ Kartonverschließmaschine",
+        "description": "Automatische I-Typ Kartonverschließmaschine. Nach manuellem Falten werden Kartons eingeschoben und automatisch oben und unten verschlossen. Stabil, effizient und sauber.",
+        "features": [
+          "Automatisches Verschließen von Boden und Deckel nach manuellem Falten",
+          "Manuelle Längen-, Breiten- und Höhenverstellung für schnellen Formatwechsel",
+          "Klingenschutz verhindert versehentliche Verletzungen",
+          "Ideal für die Chargenversiegelung von Kartons einer Spezifikation"
+        ],
+        "applications": [
+          "Kartonversiegelung für Kartenprodukte",
+          "Kartonversiegelung für E-Commerce und Logistik",
+          "Kartonversiegelung für Lebensmittel und Alltagsbedarf"
+        ]
+      },
+      "cf-a5645": {
+        "name": "Automatische L-Siegelschneidemaschine",
+        "description": "Automatische L-Siegelschneidemaschine für POF/PE-Schrumpffolien. In Verbindung mit Schrumpftunneln für automatisches Versiegeln und Schneiden, weit verbreitet für Außenverpackungen von Büchern, Spielzeug, Elektronik und Gebrauchsgegenständen.",
+        "features": [
+          "Automatisches Folienzuführen, Versiegeln, Schneiden und Abfallaufnahme",
+          "Konstante Verschlusstemperatur für feste und saubere Versiegelungen",
+          "Robuste Heizklinge aus Edelstahl",
+          "Lichtschranken-gesteuerte automatische Produktzuführung",
+          "Verstellbare Förderbandgeschwindigkeit",
+          "Kompatibel mit POF- und PE-Schrumpffolien"
+        ],
+        "applications": [
+          "Außenverpackungen für Bücher, Spielzeug und Elektronik",
+          "Schrumpfverpackungen für Lebensmittel, Alltagsbedarf und Kosmetik",
+          "Produktionslinien in Kombination mit Schrumpftunneln"
+        ]
+      },
       "palletizing-robot": {
         "name": "Kollaborativer Palettierroboter",
         "description": "Sicher ohne Zaun. Flexible Programmierung.",
@@ -783,7 +815,12 @@
       "Air Consumption": "Luftverbrauch",
       "Packaging materials": "Verpackungsmaterialien",
       "Inner Diameter of Film Roll": "Innendurchmesser der Folienrolle",
-      "Product Size": "Produktgröße"
+      "Product Size": "Produktgröße",
+      "Tape Size": "Klebebandgröße",
+      "Belt Speed": "Bandgeschwindigkeit",
+      "Table Height": "Arbeitshöhe",
+      "Sealing Temperature": "Verschlusstemperatur",
+      "Film Material": "Folienmaterial"
     }
   },
   "about": {
@@ -1792,6 +1829,60 @@
       ],
       "ctaTitle": "Interesse an der H-Siegelmaschine?",
       "ctaDescription": "Spezifikationen und Preise.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 I-Typ Kartonverschließmaschine | CHANFER",
+      "seoDescription": "CF-BD-5050 automatische I-Typ Kartonverschließmaschine. Verschließt Boden und Deckel nach manuellem Falten. Bandgeschwindigkeit ca. 20 m/min. Kartongrößen ab L150×B200×H140 mm. 220V/50Hz.",
+      "keywords": "I-Typ Kartonverschließmaschine, CF-BD-5050, automatische Kartonverschließmaschine, Kartonverschluss, Klebebandverschließer, 5050 Kartonverschließer",
+      "longDescription": [
+        "Die CHANFER CF-BD-5050 ist eine wirtschaftliche automatische I-Typ Kartonverschließmaschine. Nachdem der Bediener den Karton befüllt und die Seiten- und Endklappen gefaltet hat, wird der Karton in die Maschine geschoben. Dort verschließt sie automatisch Boden und Deckel mit Klebeband und fördert den fertigen Karton aus.",
+        "Sie verarbeitet Kartongrößen von L150 × B200 × H140 mm bis zu L unbegrenzt × B500 × H500 mm. Länge, Breite und Höhe werden manuell an unterschiedliche Spezifikationen angepasst. Die Bandgeschwindigkeit beträgt ca. 20 m/min bei 220 V/50 Hz und 240 W Leistungsaufnahme.",
+        "Das kompakte Gerät wiegt ca. 180 kg und bietet eine verstellbare Arbeitshöhe von 620–670 mm. Vor- und Nachlauf mit je 400 mm Rollenbahn erleichtern das manuelle Zuführen und Ausführen. Der Klingenschutz schützt den Bediener vor Verletzungen."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse an der I-Typ Kartonverschließmaschine?",
+      "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für die CF-BD-5050.",
+      "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
+      "relatedMachinesTitle": "Verwandte Maschinen"
+    },
+    "cf-a5645": {
+      "seoTitle": "CF-A5645 Automatische L-Siegelschneidemaschine | CHANFER",
+      "seoDescription": "CF-A5645 automatische L-Siegelschneidemaschine für POF/PE-Schrumpffolien. Verschlussklinge 565×460mm, 30 Packungen/min, kombinierbar mit Schrumpftunneln.",
+      "keywords": "L-Siegelschneidemaschine, CF-A5645, L-Siegelmaschine, Schrumpffolien-Siegelmaschine, POF-Siegelmaschine, PE-Siegelmaschine, automatische Siegelmaschine",
+      "longDescription": [
+        "Die CHANFER CF-A5645 ist eine automatische L-Siegelschneidemaschine für POF- und PE-Schrumpffolien. Sie führt Folie automatisch zu, versiegelt, schneidet und sammelt Abfälle. Die Verschlussklinge misst 565(L) × 460(B) mm, der Produktgrößenbereich beträgt (100-450)L × (60-350)B × (5-120)H mm.",
+        "Die Produktionskapazität beträgt 30 Packungen/min bei einer Förderbandgeschwindigkeit von 26 m/min. Die Verschlusstemperatur ist von 180-230°C einstellbar. Die Gesamtleistung beträgt 3KW bei 1P 220V AC, der Luftverbrauch liegt bei 4kg/cm². Die Abmessungen betragen 1795 × 880 × 1570 mm, das Gewicht 330Kg.",
+        "Diese Maschine kann mit Schrumpftunneln zu einer kompletten Schrumpfverpackungslinie kombiniert werden und wird für Außenverpackungen von Büchern, Spielzeug, Elektronik, Lebensmitteln, Alltagsbedarf und Kosmetik eingesetzt."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interesse an der L-Siegelschneidemaschine?",
+      "ctaDescription": "Erhalten Sie detaillierte Spezifikationen, Preise und Integrationshinweise für die CF-A5645.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
       "relatedMachinesTitle": "Verwandte Maschinen"
     },

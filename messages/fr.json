@@ -691,6 +691,38 @@
           "Scellage par ruban à quatre coins"
         ]
       },
+      "cf-bd-5050": {
+        "name": "Fermeuse de Carton Type I",
+        "description": "Fermeuse automatique de carton type I. Après pliage manuel, les cartons sont poussés pour sceller automatiquement le fond et le dessus. Stable, efficace et propre.",
+        "features": [
+          "Scellage automatique du fond et du dessus après pliage manuel",
+          "Réglage manuel de longueur, largeur et hauteur pour changement rapide",
+          "Protège-lame évite les coupures accidentelles",
+          "Idéal pour le scellage en lots de cartons d'une seule spécification"
+        ],
+        "applications": [
+          "Scellage de cartons pour produits de cartes",
+          "Scellage de cartons pour e-commerce et logistique",
+          "Scellage de cartons pour alimentation et articles quotidiens"
+        ]
+      },
+      "cf-a5645": {
+        "name": "Soudeuse en L Automatique",
+        "description": "Soudeuse en L automatique pour films rétractables POF/PE. S'associe aux tunnels de rétraction pour le soudage et la coupe automatiques, largement utilisée pour l'emballage extérieur de livres, jouets, électronique et articles quotidiens.",
+        "features": [
+          "Alimentation, soudage, coupe et collecte de déchets de film automatiques",
+          "Couteau de soudage à température constante pour des soudures solides et propres",
+          "Couteau chauffant en acier inoxydable durable",
+          "Alimentation automatique des produits par cellule photoélectrique",
+          "Vitesse de convoyeur réglable",
+          "Compatible avec les films rétractables POF et PE"
+        ],
+        "applications": [
+          "Emballage extérieur de livres, jouets et électronique",
+          "Emballage rétractable d'aliments, articles quotidiens et cosmétiques",
+          "Lignes de production associées à des tunnels de rétraction"
+        ]
+      },
       "palletizing-robot": {
         "name": "Robot de Palettisation Collaboratif",
         "description": "Sans clôture. Programmation flexible.",
@@ -780,10 +812,15 @@
       "Product Width": "Largeur du produit",
       "Bag Size": "Taille du sachet",
       "Air Pressure": "Pression d'air",
-      "Air Consumption": "Consommation d'air",
+      "Air Consumption": "Consommation d'Air",
       "Packaging materials": "Matériaux d'Emballage",
       "Inner Diameter of Film Roll": "Diamètre Intérieur du Rouleau de Film",
-      "Product Size": "Taille du Produit"
+      "Product Size": "Taille du Produit",
+      "Tape Size": "Taille de Ruban",
+      "Belt Speed": "Vitesse de Bande",
+      "Table Height": "Hauteur de Table",
+      "Sealing Temperature": "Température de Soudure",
+      "Film Material": "Matériau du Film"
     }
   },
   "about": {
@@ -1782,6 +1819,60 @@
       ],
       "ctaTitle": "Intéressé?",
       "ctaDescription": "Spécifications et prix.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 Fermeuse de Carton Type I | CHANFER",
+      "seoDescription": "Fermeuse automatique de carton type I CF-BD-5050. Scelle fond et dessus après pliage manuel. Vitesse de bande ~20 m/min. Tailles de carton à partir de L150×l200×H140 mm. 220V/50Hz.",
+      "keywords": "fermeuse de carton type I, CF-BD-5050, fermeuse automatique de carton, fermeture de carton, fermeuse à ruban, fermeuse 5050",
+      "longDescription": [
+        "La CHANFER CF-BD-5050 est une fermeuse automatique de carton type I économique. Après que l'opérateur a chargé le carton et plié les rabats gauche/droit et avant/arrière, le carton est poussé dans la machine qui scelle automatiquement le fond et le dessus avec du ruban adhésif et évacue le carton scellé.",
+        "Elle traite des tailles de carton de L150 × l200 × H140 mm à L illimité × l500 × H500 mm. La longueur, largeur et hauteur se règlent manuellement selon les spécifications. La vitesse de bande est d'environ 20 m/min avec alimentation 220V/50Hz, 240W.",
+        "L'unité compacte pèse environ 180 kg et offre une hauteur de table réglable de 620-670 mm. Les convoyeurs à rouleaux avant et arrière de 400 mm facilitent l'alimentation manuelle et la sortie. Le protège-lame prévient les blessures accidentelles."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé par la Fermeuse de Carton Type I ?",
+      "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration pour la CF-BD-5050.",
+      "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
+      "relatedMachinesTitle": "Machines associées"
+    },
+    "cf-a5645": {
+      "seoTitle": "CF-A5645 Soudeuse en L Automatique | CHANFER",
+      "seoDescription": "CF-A5645 soudeuse en L automatique pour films rétractables POF/PE. Couteau de soudure 565×460mm, 30 paquets/min, utilisable avec tunnels de rétraction.",
+      "keywords": "soudeuse en L, CF-A5645, machine à souder en L, soudeuse film rétractable, soudeuse POF, soudeuse PE, machine à sceller automatique",
+      "longDescription": [
+        "La CHANFER CF-A5645 est une soudeuse en L automatique pour films rétractables POF et PE. Elle alimente, soude, coupe et collecte les déchets de film automatiquement. La taille du couteau de soudure est 565(L) × 460(l) mm, et la plage de taille de produit est (100-450)L × (60-350)l × (5-120)H mm.",
+        "La capacité de production atteint 30 paquets/min avec une vitesse de convoyeur de 26 m/min. La température du couteau de soudure est réglable de 180-230°C. La puissance totale est de 3KW avec alimentation 1P 220V AC, et la consommation d'air est de 4kg/cm². Les dimensions de la machine sont 1795 × 880 × 1570 mm et le poids est de 330Kg.",
+        "Cette machine peut s'associer à des tunnels de rétraction pour former une ligne complète d'emballage rétractable, largement utilisée pour l'emballage extérieur de livres, jouets, électronique, aliments, articles quotidiens et cosmétiques."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Intéressé par la Soudeuse en L ?",
+      "ctaDescription": "Obtenez les spécifications détaillées, les prix et les conseils d'intégration pour la CF-A5645.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
       "relatedMachinesTitle": "Machines associées"
     },

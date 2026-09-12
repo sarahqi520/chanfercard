@@ -927,6 +927,70 @@ export const machineProducts: MachineProduct[] = [
     ],
     image: "/images/machines/ai-visual.png",
   },
+  {
+    id: "cf-bd-5050",
+    model: "CF-BD-5050",
+    name: "CF-BD-5050 I-Type Carton Sealing Machine",
+    category: "boxing",
+    description:
+      "Automatic I-type carton sealer. After manual folding, cartons are pushed in for automatic bottom and top tape sealing. Stable, efficient and clean.",
+    specs: {
+      "Carton Size": "L150-不限 × W200-500 × H140-500mm",
+      "Tape Size": "W48/60/76 mm × L900 yards OPP",
+      "Machine Size": "L1020 × W850 × H1450 mm",
+      "Belt Speed": "≈20 m/min",
+      "Power": "220V/50Hz, 240W",
+      "Weight": "180kg",
+      "Table Height": "620–670 mm (adjustable)",
+    },
+    applications: [
+      "Card product carton sealing",
+      "E-commerce and logistics carton sealing",
+      "Food and daily necessities carton sealing",
+    ],
+    features: [
+      "Automatic bottom and top tape sealing after manual carton folding",
+      "Manual length, width and height adjustment for quick size changeover",
+      "Blade guard protects operators from accidental cuts",
+      "Ideal for batch sealing of single-specification cartons",
+    ],
+    image: "/images/machines/cf-bd-5050.png",
+  },
+  {
+    id: "cf-a5645",
+    model: "CF-A5645",
+    name: "CF-A5645 Automatic L-Bar Sealing Machine",
+    category: "boxing",
+    description:
+      "Automatic L-bar sealer for POF/PE shrink films. Pairs with shrink tunnels for automatic sealing and cutting, widely used for outer packaging of books, toys, electronics and daily necessities.",
+    specs: {
+      "Speed": "30 Pcs/min",
+      "Package Size": "(100-450)L × (60-350)W × (5-120)H mm",
+      "Sealing Knife Size": "565(L) × 460(W) mm",
+      "Film Width": "23\" (≈584mm)",
+      "Conveyor Speed": "26 M/min",
+      "Film Material": "POF, PE",
+      "Sealing Temperature": "180-230°C",
+      "Power": "1P 220V AC 3KW",
+      "Machine Size": "1795 × 880 × 1570 mm",
+      "Weight": "330Kg",
+      "Air Consumption": "4kg/cm²",
+    },
+    applications: [
+      "Outer packaging for books, toys and electronics",
+      "Shrink wrapping for food, daily necessities and cosmetics",
+      "Production lines paired with shrink tunnels",
+    ],
+    features: [
+      "Automatic film feeding, sealing, cutting and waste collection",
+      "Constant-temperature sealing blade for strong and clean seals",
+      "Durable stainless-steel heating blade",
+      "Photo-eye automatic product feeding",
+      "Adjustable conveyor speed",
+      "Compatible with POF and PE shrink films",
+    ],
+    image: "/images/machines/cf-a5645.png",
+  },
 ];
 
 export const companyInfo = {

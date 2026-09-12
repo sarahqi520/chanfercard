@@ -267,8 +267,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约展位演示", en: "Book a Demo at the Show" },
-        href: "/book-a-demo.html",
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
+        href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
     relatedLinks: [
@@ -403,8 +403,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
-        href: "/contact",
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
+        href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
     relatedLinks: [
@@ -597,8 +597,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
-        href: "/book-a-demo.html",
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
+        href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
     relatedLinks: [
@@ -779,8 +779,8 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
-        href: "/book-a-demo.html",
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
+        href: "https://chanfercard.com/book-a-demo.html",
       },
     ],
     relatedLinks: [
@@ -973,9 +973,94 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "cta",
-        text: { zh: "预约现场演示", en: "Book a Demo at the Show" },
-        href: "/book-a-demo.html",
+        text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" },
+        href: "https://chanfercard.com/book-a-demo.html",
       },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
+  {
+    slug: "card-surface-scuffing",
+    date: "2026-09-12",
+    category: { zh: "技术干货", en: "Troubleshooting" },
+    title: {
+      zh: "卡牌表面擦伤？收藏者为什么拒收划痕卡",
+      en: "Card Surface Scuffing: Why Collectors Reject Scratched Cards",
+    },
+    excerpt: {
+      zh: "卡面一道划痕就是退货。本文拆解卡牌包装线5类卡面损伤成因与调机方法，帮你把擦伤、压痕、吸盘印挡在出厂前。",
+      en: "One scuff on the card face means a return. This post breaks down five causes of card-surface damage on a packaging line and how to tune them out before shipping.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "在卡牌包装线上，印刷面就是产品本身。卡面只要有一道擦痕、磨痕或吸盘印，收藏者拿到灯下一照就是「次品」。大多数卡面损伤都是机械性的，也都能避免。下面是 CHANFER 工程师最常遇到的五类成因，以及对应的调机方法。",
+          en: "On a trading-card line, the print is the product. A single scuff, rub mark or pick-line on the card face turns a premium collectible into a reject the moment a buyer inspects it under light. Most card-surface damage is mechanical \u2014 and avoidable. Here are the five most common causes our engineers see, and how to tune them out.",
+        },
+      },
+      { type: "h2", text: { zh: "1. 送卡通道摩擦划痕", en: "1. Conveyor Friction Scratches" } },
+      {
+        type: "li",
+        text: {
+          zh: "卡牌传送时蹭到裸露皮带边或金属导轨，留下细线状划痕。处理：导轨贴低摩擦材料，传送段降速，用软头导轨，让印刷面绝不接触金属。",
+          en: "Cards rubbing against bare belt edges or guide rails during transfer leave fine linear scratches. Fix: line the guides with low-friction material, slow the belt at transfer points, and use soft-tip rails so the print side never contacts metal.",
+        },
+      },
+      { type: "h2", text: { zh: "2. 堆叠压伤", en: "2. Stack Pressure Marks" } },
+      {
+        type: "li",
+        text: {
+          zh: "整理堆叠时夹具压力过大，最上面几张卡留下压痕。处理：把夹具压力调到刚好稳住堆垛的最小值，加缓冲垫，并校准堆高传感器让它提前停夹。",
+          en: "Too much clamp pressure in the collation stack leaves impression lines across the top cards. Fix: reduce clamp pressure to the minimum that holds the stack, add buffer pads, and calibrate the stack-height sensor so it stops clamping early.",
+        },
+      },
+      { type: "h2", text: { zh: "3. 吸盘 / 机械手碰伤", en: "3. Picker / Suction Marks" } },
+      {
+        type: "li",
+        text: {
+          zh: "真空吸盘或夹爪碰到印刷面，留下环状或线状印痕。处理：一律从背面（非印刷面）取卡，吸力只作用在边缘，用吹气脱卡代替拖拽。",
+          en: "Vacuum cups or grippers touching the print face leave ring or line marks. Fix: always pick from the back (non-print) side, apply suction only at the edges, and use an air-blow release instead of dragging the card off.",
+        },
+      },
+      { type: "h2", text: { zh: "4. 清洁方式不当", en: "4. Improper Cleaning" } },
+      {
+        type: "li",
+        text: {
+          zh: "用干布擦卡，既磨花表面又带起静电灰尘。处理：用非接触式离子风除尘，控制线体湿度，清洁时绝不碰印刷面。",
+          en: "Wiping cards with a dry cloth spreads abrasion and static dust. Fix: use non-contact ionized air blow-off, control line humidity, and never touch the print face during cleaning.",
+        },
+      },
+      { type: "h2", text: { zh: "5. 包装膜内夹杂物压痕", en: "5. Debris Trapped in the Film" } },
+      {
+        type: "li",
+        text: {
+          zh: "卡牌和包膜之间一粒灰尘，收缩后就是一个压坑。处理：加在线离子风加洁净气罩，包膜前做膜边检测。",
+          en: "A speck of dust between the card and the overwrap becomes a pressure dent after shrinking. Fix: add an in-line ionizer plus a clean-air enclosure, and run film-edge inspection before wrapping.",
+        },
+      },
+      { type: "h2", text: { zh: "为什么卡牌线要盯这个", en: "Why It Matters on a Card Line" } },
+      {
+        type: "p",
+        text: {
+          zh: "卡面就是转售价。一道划痕等于一次退货、一条差评、一个不再复购的买家。干净无痕的输送，是高端盒和报废批次的分界线，也是收藏者上手第一眼就看的。",
+          en: "The card face is the resale value. One scuff means a return, a one-star review, and a buyer who won't reorder. Clean, scratch-free handling is the line between a premium box and a rejected batch \u2014 and it's the first thing a collector checks.",
+        },
+      },
+      { type: "h2", text: { zh: "现场看无痕卡牌输送", en: "See Clean Card Handling Live" } },
+      {
+        type: "p",
+        text: {
+          zh: "以上正是 CHANFER 每条卡牌线出厂前工程师必查的项目。来 PRINTING United Expo 2026（N7411 展位，拉斯维加斯，9月23\u201325日）看卡牌无痕输送实机运行\u2014带上你的卡样，我们现场给你看无划痕的效果。",
+          en: "These are the exact checks our engineers run on every CHANFER card line before it ships. See scratch-free card handling at PRINTING United Expo 2026, Booth N7411, Las Vegas, Sept 23\u201325 \u2014 bring your card sample and we'll show you a scuff-free result on the spot.",
+        },
+      },
+      { type: "cta", text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" }, href: "https://chanfercard.com/book-a-demo.html" },
     ],
     relatedLinks: [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
@@ -991,3 +1076,4 @@ export function getPost(slug: string): BlogPost | undefined {
 }
 
 // redeploy trigger for post4 (card-count-off-metering) — forces Cloudflare rebuild
+// force-redeploy: CTA text update

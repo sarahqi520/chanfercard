@@ -98,12 +98,12 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
 
           <div className="flex flex-col md:flex-row gap-8 items-start">
             {/* Image */}
-            <div className="w-full md:w-2/5 relative aspect-[4/3] rounded-2xl overflow-hidden border border-border bg-card">
+            <div className="w-full md:w-2/5 relative aspect-[4/3] rounded-2xl overflow-hidden border border-border bg-card p-4">
               <Image
                 src={machine.image}
                 alt={`${machine.name} - ${machine.model} | CHANFER`}
                 fill
-                className="object-cover"
+                className="object-contain"
                 unoptimized
                 priority
               />

@@ -691,6 +691,38 @@
           "四隅テープシール"
         ]
       },
+      "cf-bd-5050": {
+        "name": "I型封かん機",
+        "description": "自動I型封かん機。手動で折りたたんだ後、カートンを押し込むと自動で底と上部をテープ封かんします。安定、高效、美観。",
+        "features": [
+          "手動折りたたみ後、自動で底と上部をテープ封かん",
+          "長さ・幅・高さを手動調整、サイズ変更が簡単",
+          "刃ガードで怪我を防止",
+          "同一規格カートンの大量封かんに最適"
+        ],
+        "applications": [
+          "カード製品カートン封かん",
+          "EC・物流カートン封かん",
+          "食品・日用品カートン封かん"
+        ]
+      },
+      "cf-a5645": {
+        "name": "全自動L型シールカット機",
+        "description": "POF/PE収縮フィルム用の全自動L型シールカット機。シュリンクトンネルと組み合わせて自動シール・裁断を行い、書籍、玩具、電子製品、日用品などの外装に広く使用されます。",
+        "features": [
+          "フィルムの自動供給、シール、裁断、廃材回収",
+          "一定温度のシールナイフで、強固できれいなシール",
+          "耐久性のあるステンレス製ヒートナイフ",
+          "光電センサーによる自動製品供給",
+          "コンベア速度調整可能",
+          "POF/PE収縮フィルム対応"
+        ],
+        "applications": [
+          "書籍、玩具、電子製品の外装",
+          "食品、日用品、化粧品の収縮包装",
+          "シュリンクトンネルと組み合わせた生産ライン"
+        ]
+      },
       "palletizing-robot": {
         "name": "協働パレタイジングロボット",
         "description": "柵なし。柔軟なプログラミング。",
@@ -783,7 +815,12 @@
       "Air Consumption": "空気消費量",
       "Packaging materials": "包装材料",
       "Inner Diameter of Film Roll": "フィルムロール内径",
-      "Product Size": "製品サイズ"
+      "Product Size": "製品サイズ",
+      "Tape Size": "テープサイズ",
+      "Belt Speed": "ベルト速度",
+      "Table Height": "作業台高さ",
+      "Sealing Temperature": "シール温度",
+      "Film Material": "包装材"
     }
   },
   "about": {
@@ -1784,6 +1821,60 @@
       "ctaDescription": "仕様と価格。",
       "relatedSolutionsTitle": "この機器が使われる包装ソリューション",
       "relatedMachinesTitle": "関連機器"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 I型封かん機 | CHANFER",
+      "seoDescription": "自動I型封かん機CF-BD-5050。手動折りたたみ後に底と上部を自動封かん。ベルト速度約20m/分。対応カートンL150×W200×H140mm～。220V/50Hz。",
+      "keywords": "I型封かん機,CF-BD-5050,自動封かん機,カートン封かん,テープ封かん,5050封かん機",
+      "longDescription": [
+        "CHANFERのCF-BD-5050は、エコノミー型自動I型封かん機です。オペレーターがカートンに製品を入れ、左右および前後の羽根を折りたたんだ後、カートンを押し込むと、装置が自動で底と上部をテープで封かんし、封かん済みカートンを排出します。",
+        "対応カートンサイズはL150×W200×H140mmから長さ無制限×W500×H500mm。長さ、幅、高さは手動で調整し、異なる仕様に対応します。ベルト速度は約20m/分、電源は220V/50Hz、消費電力240W。",
+        "コンパクトな本体で重量約180kg、作業台高さは620-670mm調整可能。前後に400mmのローラーコンベアを装備し、手動投入と排出をサポート。刃ガードにより操作中の怪我を防止します。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "I型封かん機についてお問い合わせですか？",
+      "ctaDescription": "CF-BD-5050の詳細仕様、価格、ライン統合のご案内をお送りします。",
+      "relatedSolutionsTitle": "この設備を使用する包装ソリューション",
+      "relatedMachinesTitle": "関連設備"
+    },
+    "cf-a5645": {
+      "seoTitle": "CF-A5645 全自動L型シールカット機 | CHANFER",
+      "seoDescription": "CF-A5645全自動L型シールカット機、POF/PE収縮フィルム用。シールナイフ565×460mm、生産能力30個/分、シュリンクトンネルと組み合わせ可能。",
+      "keywords": "L型シールカット機, CF-A5645, L型シール機, 収縮フィルムシール機, POFシール機, PEシール機, 自動シール機",
+      "longDescription": [
+        "CHANFER CF-A5645は、POF/PE収縮フィルム用の全自動L型シールカット機です。フィルムの自動供給、シール、裁断、廃材回収を行います。シールナイフサイズは565(L)×460(W)mm、包装物サイズ範囲は(100-450)L×(60-350)W×(5-120)H mmです。",
+        "生産能力は30個/分、コンベア速度は26m/分。シールナイフ温度は180-230°C調整可能。総電力3KW、電源1P 220V AC、空気消費量4kg/cm²。機械寸法は1795×880×1570mm、重量330Kgです。",
+        "シュリンクトンネルと組み合わせることで、完全な収縮包装ラインを構成でき、書籍、玩具、電子製品、食品、日用品、化粧品などの外装に広く使用されます。"
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "全自動L型シールカット機についてお問い合わせ",
+      "ctaDescription": "CF-A5645の詳細仕様、価格、ライン統合に関するご案内をご用意しております。",
+      "relatedSolutionsTitle": "この設備を使用する包装ソリューション",
+      "relatedMachinesTitle": "関連設備"
     },
     "palletizing-robot": {
       "seoTitle": "協働パレタイジングロボット | CHANFER",
