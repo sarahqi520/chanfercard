@@ -49,15 +49,6 @@ const methodImages: Record<string, string> = {
   "three-dimensional": "/images/solutions/detail/three-dimensional.png",
 };
 
-const lineImages: Record<string, string> = {
-  candy: "/images/lines/candy-line.png",
-  "self-adhesive": "/images/lines/self-adhesive-line.png",
-  "four-sides": "/images/lines/four-sides-line.png",
-  banding: "/images/lines/banding-line.png",
-  "heat-shrink": "/images/lines/heat-shrink-line.png",
-  "three-dimensional": "/images/lines/three-dimensional-line.png",
-};
-
 const typeColors: Record<string, string> = {
   feeding: "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300",
   packaging: "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300",
@@ -108,7 +99,6 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
   const [expandedFaq, setExpandedFaq] = useState<number | null>(0);
 
   const heroImage = methodImages[solutionId] ?? methodImages.candy;
-  const lineImage = lineImages[solutionId] ?? lineImages.candy;
   const icon = packagingIcons[solutionId] ?? <Package className="w-6 h-6" />;
 
   // Other solutions for navigation
@@ -162,52 +152,50 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
         </div>
       </section>
 
-      {/* Production line summary (no image; hero already shows the line) */}
-      {solutionId === "four-sides" && (
-        <section className="py-12 bg-muted/30">
-          <div className="max-w-7xl mx-auto px-4 md:px-6">
-            <h2 className="text-2xl font-bold mb-6">
-              {(solutionsDict.completeLine as string) ?? "Complete Production Line"}
-            </h2>
+      {/* Production line summary (hero image already shows the full line) */}
+      <section className="py-12 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <h2 className="text-2xl font-bold mb-6">
+            {(solutionsDict.completeLine as string) ?? "Complete Production Line"}
+          </h2>
 
-            {/* Line components */}
-            <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
-              {(solutionsDict.lineComponents as string) ??
-                "Production Line Components"}
-            </h3>
-            <div className="flex flex-wrap gap-2 mb-8">
-              {solution.lineComponents.map((comp) => (
-                <span
-                  key={comp.id}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-medium ${typeColors[comp.type] || "bg-muted text-muted-foreground"}`}
-                >
-                  {comp.id}. {lineComponentsTrans[comp.name] ?? comp.name}
-                </span>
-              ))}
-            </div>
-
-            {/* Process flow */}
-            <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
-              {(solutionsDict.process as string) ?? "Packaging Process"}
-            </h3>
-            <div className="flex flex-wrap gap-2 items-center">
-              {solution.processSteps.map((step, j) => (
-                <div key={j} className="flex items-center gap-2">
-                  <div className="flex items-center gap-2 px-3 py-2 bg-card border border-border rounded-lg text-sm">
-                    <span className="w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-bold">
-                      {step.step}
-                    </span>
-                    <span>{processStepsTrans[step.step] ?? step.label}</span>
-                  </div>
-                  {j < solution.processSteps.length - 1 && (
-                    <ArrowRight size={14} className="text-muted-foreground hidden sm:block" />
-                  )}
-                </div>
-              ))}
-            </div>
+          {/* Line components */}
+          <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
+            {(solutionsDict.lineComponents as string) ??
+              "Production Line Components"}
+          </h3>
+          <div className="flex flex-wrap gap-2 mb-8">
+            {solution.lineComponents.map((comp) => (
+              <span
+                key={comp.id}
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium ${typeColors[comp.type] || "bg-muted text-muted-foreground"}`}
+              >
+                {comp.id}. {lineComponentsTrans[comp.name] ?? comp.name}
+              </span>
+            ))}
           </div>
-        </section>
-      )}
+
+          {/* Process flow */}
+          <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
+            {(solutionsDict.process as string) ?? "Packaging Process"}
+          </h3>
+          <div className="flex flex-wrap gap-2 items-center">
+            {solution.processSteps.map((step, j) => (
+              <div key={j} className="flex items-center gap-2">
+                <div className="flex items-center gap-2 px-3 py-2 bg-card border border-border rounded-lg text-sm">
+                  <span className="w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-bold">
+                    {step.step}
+                  </span>
+                  <span>{processStepsTrans[step.step] ?? step.label}</span>
+                </div>
+                {j < solution.processSteps.length - 1 && (
+                  <ArrowRight size={14} className="text-muted-foreground hidden sm:block" />
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Long description */}
       <section className="py-12 md:py-16">
@@ -342,62 +330,6 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
           "See our equipment running at actual customer production facilities."
         }
       />
-
-      {/* Production line */}
-      {solutionId !== "four-sides" && (
-        <section className="py-12 bg-muted/30">
-          <div className="max-w-7xl mx-auto px-4 md:px-6">
-            <h2 className="text-2xl font-bold mb-6">
-              {(solutionsDict.completeLine as string) ?? "Complete Production Line"}
-            </h2>
-            <div className="rounded-2xl overflow-hidden border border-border bg-white mb-8">
-              <Image
-                src={lineImage}
-                alt={`${name} - Full Production Line`}
-                width={1200}
-                height={400}
-                className="w-full h-auto"
-                unoptimized
-              />
-            </div>
-
-            {/* Line components */}
-            <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
-              {(solutionsDict.lineComponents as string) ?? "Production Line Components"}
-            </h3>
-            <div className="flex flex-wrap gap-2 mb-8">
-              {solution.lineComponents.map((comp) => (
-                <span
-                  key={comp.id}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-medium ${typeColors[comp.type] || "bg-muted text-muted-foreground"}`}
-                >
-                  {comp.id}. {lineComponentsTrans[comp.name] ?? comp.name}
-                </span>
-              ))}
-            </div>
-
-            {/* Process flow */}
-            <h3 className="font-bold text-sm uppercase tracking-wider text-muted-foreground mb-4">
-              {(solutionsDict.process as string) ?? "Packaging Process"}
-            </h3>
-            <div className="flex flex-wrap gap-2 items-center">
-              {solution.processSteps.map((step, j) => (
-                <div key={j} className="flex items-center gap-2">
-                  <div className="flex items-center gap-2 px-3 py-2 bg-card border border-border rounded-lg text-sm">
-                    <span className="w-6 h-6 rounded-full bg-primary text-white text-xs flex items-center justify-center font-bold">
-                      {step.step}
-                    </span>
-                    <span>{processStepsTrans[step.step] ?? step.label}</span>
-                  </div>
-                  {j < solution.processSteps.length - 1 && (
-                    <ArrowRight size={14} className="text-muted-foreground hidden sm:block" />
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Related machines */}
       {relatedMachines.length > 0 && (

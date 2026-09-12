@@ -779,6 +779,22 @@
           "Regelmäßige oder unregelmäßige Festkörper mit Folienbreite ≤590mm und Höhe ≤100mm",
           "Automatisierte Verpackungslinien für einzelne oder stabile Spezifikationen"
         ]
+      },
+      "semi-auto-carton-sealer": {
+        "name": "Semi-Automatic Carton Sealer",
+        "description": "Semi-automatic left/right drive carton sealing machine. Operator folds flaps manually; machine seals top and bottom tape automatically.",
+        "features": [
+          "Left/right belt drive for stable carton transport",
+          "Manual flap folding + automatic top/bottom taping",
+          "Adjustable width/height for cartons 150–500mm",
+          "Works with 48/60/72mm tape widths",
+          "Compact design, easy to move and position"
+        ],
+        "applications": [
+          "Card product carton sealing",
+          "Small-batch e-commerce packaging",
+          "Semi-automatic end-of-line sealing"
+        ]
       }
     },
     "featuresTitle": "Eigenschaften",
@@ -1978,6 +1994,33 @@
       ],
       "relatedSolutions": [],
       "relatedMachines": []
+    },
+    "semi-auto-carton-sealer": {
+      "seoTitle": "Semi-Automatic Left/Right Drive Carton Sealer | CHANFER",
+      "seoDescription": "Semi-automatic left/right drive carton sealing machine for cartons 150-500mm wide/high. Top and bottom tape sealing at 0-18m/min. Economical end-of-line sealing.",
+      "keywords": "semi-automatic carton sealer, left right drive carton sealer, box sealing machine, carton tape sealer, semi auto case sealer, CHANFER",
+      "longDescription": [
+        "This semi-automatic left/right drive carton sealing machine is a cost-effective end-of-line sealing solution. The operator manually folds the carton flaps and feeds the case into the machine; the left/right belt drive then transports the carton through top and bottom tape heads to apply secure sealing tape automatically.",
+        "Designed for cartons from 150mm to 500mm in width and height, and virtually unlimited length, the machine adapts to a wide range of case sizes commonly used in card product packaging. Sealing speed reaches 0-18m/min, making it suitable for small-batch production, e-commerce order fulfillment, and semi-automatic packaging lines.",
+        "The adjustable table height (600-750mm) and compact footprint (L846 × W812 × H1350mm) make it easy to position in existing workspaces. It works with standard 48, 60, or 72mm sealing tape, giving flexibility to match different carton and tape specifications."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interested in the Semi-Automatic Carton Sealer?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the semi-automatic left/right drive carton sealer.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
     }
   },
   "media": {
