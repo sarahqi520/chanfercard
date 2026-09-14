@@ -1068,6 +1068,90 @@ export const blogPosts: BlogPost[] = [
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
     ],
   },
+  {
+    slug: "card-double-feed",
+    date: "2026-09-14",
+    category: { zh: "技术干货", en: "Troubleshooting" },
+    title: {
+      zh: "双张/连张输卡？卡牌线一次走两张怎么调",
+      en: "Double Feed on a Card Line: How to Stop Two Cards at Once",
+    },
+    excerpt: {
+      zh: "一次送出两张卡，装盒就错卡、计数就出错。本文拆解卡牌线双张与连张输卡的5类成因与调机方法，帮你把双张挡在出厂前。",
+      en: "When two cards leave the feeder together, collation and counts both break. This post breaks down five causes of double feed on a card line and how to tune them out before shipping.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "在卡牌包装线上，双张（一次走两张）和连张（多张粘连一起走）是最隐蔽也最坑人的故障之一。它不会立刻报警，却会让装盒错卡、计数偏差、封切压到两张，最后整批被客户拒收。下面是 CHANFER 工程师最常遇到的五类成因和对应的调机方法。",
+          en: "On a trading-card line, a double feed (two cards out at once) or cards stuck together (several moving as one) is one of the sneakiest faults. It rarely trips an alarm, yet it causes mis-collation, count errors, and two cards jammed in one seal — and a rejected batch. Here are the five most common causes our engineers see, and how to tune them out.",
+        },
+      },
+      { type: "h2", text: { zh: "1. 吸盘吸力过大，一次吸起两张", en: "1. Suction Too Strong — Picking Two Cards" } },
+      {
+        type: "li",
+        text: {
+          zh: "真空吸盘吸力调得过大，取卡时会把下面一张也带起来。处理：把吸力降到刚好稳定取一张的最小值，并在取卡后加单卡厚度检测（光纤或电容）自动剔除双张。",
+          en: "Vacuum suction set too high lifts the card underneath along with the top one. Fix: drop suction to the minimum that reliably picks one card, and add single-card thickness detection (fiber or capacitive) right after pickup to reject doubles.",
+        },
+      },
+      { type: "h2", text: { zh: "2. 静电让卡牌粘连", en: "2. Static Clings Cards Together" } },
+      {
+        type: "li",
+        text: {
+          zh: "干燥环境下卡牌带静电，分卡时两张贴在一起走。处理：在取卡和分卡段加离子风除静电，把线体相对湿度保持在 45%–55%，并用防静电料仓。",
+          en: "In dry air the cards build static and travel as a pair through the separator. Fix: add ionized-air bars at pickup and separation, hold line humidity around 45%–55%, and use an anti-static hopper.",
+        },
+      },
+      { type: "h2", text: { zh: "3. 分卡轮或毛刷间隙不对", en: "3. Separator Wheel or Brush Gap Off" } },
+      {
+        type: "li",
+        text: {
+          zh: "分卡轮间隙远大于一张卡厚，或毛刷磨平，分不清单张。处理：把分卡轮间隙调到略大于一张卡厚（约 +0.05 mm），检查毛刷是否磨平，必要时更换。",
+          en: "If the separator-wheel gap is far more than one card thick, or the brush is worn flat, cards don't split into singles. Fix: set the wheel gap just above one card thickness (about +0.05 mm) and replace a flattened brush.",
+        },
+      },
+      { type: "h2", text: { zh: "4. 卡堆太高、湿度大导致粘连", en: "4. Stack Too Tall or Humid — Cards Stick" } },
+      {
+        type: "li",
+        text: {
+          zh: "一次上料太厚，底部卡牌被压住粘连；环境湿度高也会让卡面微粘。处理：限高上料、分小批补给，控制环境湿度，并加松卡抖卡机构让卡张分离。",
+          en: "Loading too many cards at once presses the bottom ones together; high humidity also makes surfaces tacky. Fix: limit feed height and batch the supply, control humidity, and add a card-loosening jogger so sheets separate.",
+        },
+      },
+      { type: "h2", text: { zh: "5. 取卡段和送卡皮带速度不匹配", en: "5. Pickup and Belt Speed Out of Sync" } },
+      {
+        type: "li",
+        text: {
+          zh: "取卡快、皮带慢，卡牌在出口叠在一起。处理：降低取卡节拍，让每张卡之间留出间隔；皮带速度略快于取卡段，避免追尾叠卡。",
+          en: "Pickup faster than the belt stacks cards at the exit. Fix: slow the pickup cadence to leave a gap between cards, and run the belt slightly faster than pickup so cards never catch up and overlap.",
+        },
+      },
+      { type: "h2", text: { zh: "为什么卡牌线要盯双张", en: "Why It Matters on a Card Line" } },
+      {
+        type: "p",
+        text: {
+          zh: "双张不会立刻报警，但每一张多走的卡都会变成装盒错卡、计数错、客户投诉。双张检测加单卡分卡，是稳定出箱和零错卡的前提，也是收藏者收到整盒对版卡的基础。",
+          en: "A double feed won't sound an alarm, but every extra card becomes a mis-collated box, a wrong count, and a complaint. Double-feed detection plus reliable single-card separation is what lets you ship consistent boxes with zero mis-collation — and gives collectors a correctly collated set.",
+        },
+      },
+      { type: "h2", text: { zh: "现场看稳定单卡分卡", en: "See Stable Single-Card Feeding Live" } },
+      {
+        type: "p",
+        text: {
+          zh: "以上正是 CHANFER 每条卡牌线出厂前工程师必查的项目。来 PRINTING United Expo 2026（N7411 展位，拉斯维加斯，9月23–25日）看卡牌单卡分卡实机运行——带上你的卡样，我们现场给你看零双张的效果。",
+          en: "These are the exact checks our engineers run on every CHANFER card line before it ships. See stable single-card feeding at PRINTING United Expo 2026, Booth N7411, Las Vegas, Sept 23–25 — bring your card sample and we'll show you a zero-double-feed result on the spot.",
+        },
+      },
+      { type: "cta", text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" }, href: "https://chanfercard.com/book-a-demo.html" },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
 
 ];
 
