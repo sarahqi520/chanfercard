@@ -1153,6 +1153,91 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 
+  {
+    slug: "card-feed-skew",
+    date: "2026-09-15",
+    category: { zh: "技术干货", en: "Troubleshooting" },
+    title: {
+      zh: "卡牌走卡跑偏？卡牌线卡牌歪斜怎么调",
+      en: "Card Skew on the Line: How to Keep Cards Straight",
+    },
+    excerpt: {
+      zh: "盒子里的卡全是歪的，像被风吹过——走卡跑偏是卡牌线最容易被忽略的故障。本文拆5类成因与调机法，帮你把歪卡挡在装盒前。",
+      en: "Cards coming out crooked in the box — feed skew is the most overlooked fault on a card line. This post breaks down five causes and fixes so crooked cards never reach collation.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "上个月有个客户发来一段产线视频：盒子里的卡全歪着，像被人随手塞进去的。他第一反应是「机器坏了」，但跑偏几乎从来不是机器坏了，而是卡牌在输送途中一点点偏出去，最后装盒时已经救不回来。走卡歪斜是卡牌线最容易被忽略的故障——它不报警、不卡机，只在客户开箱那一刻露馅。下面是 CHANFER 工程师最常遇到的五类成因和对应的调机方法。",
+          en: "Last month a customer sent us a line video: every card in the box was tilted, like someone had just stuffed them in. His first thought was \"the machine is broken,\" but skew is almost never a broken machine — it's the card drifting a little during transfer until collation can't save it. Feed skew is the most overlooked fault on a card line: no alarm, no jam, just a reject the moment the buyer opens the box. Here are the five most common causes our engineers see, and how to tune them out.",
+        },
+      },
+      { type: "h2", text: { zh: "1. 导轨不对中，卡牌贴边跑", en: "1. Guides Off-Center — Card Hugs One Side" } },
+      {
+        type: "li",
+        text: {
+          zh: "左右导轨间隙不均或整体偏了，卡牌一路贴着一侧走，越走越歪。处理：用卡规把两条导轨调成与皮带中线对称，间隙留一张卡厚加 0.5–1 mm，调完拿直卡从头走到尾看是否还贴边。",
+          en: "If the left and right guides are uneven or shifted, the card rides one wall and drifts further. Fix: set both guides symmetric to the belt centerline with a gap of one card thickness plus 0.5–1 mm, then run a straight card end to end and watch whether it still hugs a side.",
+        },
+      },
+      { type: "h2", text: { zh: "2. 上下 / 左右皮带速度不一致", en: "2. Belt Speeds Don't Match" } },
+      {
+        type: "li",
+        text: {
+          zh: "上下夹送皮带或左右同步带速度差一点，卡牌就被「拧」歪。处理：用转速表核两侧皮带线速度，差超过 1% 就重调；皮带打滑老化的直接换，别硬撑。",
+          en: "When top and bottom pinch belts or left/right timing belts differ even slightly, the card gets twisted. Fix: check both belt surface speeds with a tachometer and re-tune any difference over 1%; replace slipping or worn belts instead of pushing them.",
+        },
+      },
+      { type: "h2", text: { zh: "3. 取卡吸盘偏位 / 角度歪", en: "3. Picker Misaligned or Tilted" } },
+      {
+        type: "li",
+        text: {
+          zh: "吸盘安装偏了或吸取角度斜，卡牌一放上去就是斜的，后面再怎么导都正不回来。处理：重新对中标定吸盘中心，吸盘面与卡面平行，取放点设在卡牌几何中心，放完用对射光纤复核角度。",
+          en: "A misplaced or tilted suction cup drops the card in skewed, and no guide downstream can fully straighten it. Fix: re-center and level the cup to the card face, pick and place at the card's geometric center, then verify the angle with a through-beam sensor after placement.",
+        },
+      },
+      { type: "h2", text: { zh: "4. 卡张本身弯曲 / 翘曲", en: "4. The Cards Themselves Are Warped" } },
+      {
+        type: "li",
+        text: {
+          zh: "受潮或堆放受压的卡会翘，进料就是歪的，机器背不了这个锅。处理：到料先抽测平整度，翘曲超标的挑出来回烘/压平；料仓加整平轮，让卡进线前先被压平。",
+          en: "Cards that warped from moisture or stacking pressure enter skewed — the machine didn't cause it. Fix: sample flatness on incoming stock and pull warped sheets for re-conditioning; add a flattening roller at the hopper so cards are flat before they enter the line.",
+        },
+      },
+      { type: "h2", text: { zh: "5. 缺对中机构 / 张力不均", en: "5. No Centering — Drift Over Distance" } },
+      {
+        type: "li",
+        text: {
+          zh: "长距离输送没有对中轮或气动对中，卡牌慢慢偏出去。处理：在关键转弯和装盒前加对中导轮/气动推正，皮带张力按厂商值调匀，别一头紧一头松。",
+          en: "Over a long run with no centering wheel or air aligner, the card slowly drifts. Fix: add centering guides or pneumatic aligners before turns and before collation, and set belt tension evenly per spec — not tight at one end and loose at the other.",
+        },
+      },
+      { type: "h2", text: { zh: "为什么卡牌线要盯走卡跑偏", en: "Why It Matters on a Card Line" } },
+      {
+        type: "p",
+        text: {
+          zh: "歪卡不会立刻让你停机，但它会悄悄吃掉你的良率：装盒不齐、封切压到边、客户开箱就是一眼歪。把走卡对正做扎实，是「整盒对版、开箱即正」的地基，也是收藏者愿意复购的前提。说白了，机器能跑快，但跑歪了就等于白跑。",
+          en: "Skew won't stop your line, but it quietly eats yield: uneven boxes, seals clipping the edge, a tilted card the moment the buyer opens the box. Solid feed alignment is the foundation of a correctly collated, straight-out-of-the-box set — and the reason a collector reorders. Simply put, the line can run fast, but if it runs crooked it runs for nothing.",
+        },
+      },
+      { type: "h2", text: { zh: "现场看稳定对位输送", en: "See Straight Card Feeding Live" } },
+      {
+        type: "p",
+        text: {
+          zh: "以上正是 CHANFER 每条卡牌线出厂前工程师必查的项目。来 PRINTING United Expo 2026（N7411 展位，拉斯维加斯，9月23–25日）看卡牌稳定对位输送实机运行——带上你最容易跑偏的那批卡，我们现场给你跑直。",
+          en: "These are the exact checks our engineers run on every CHANFER card line before it ships. See straight card feeding at PRINTING United Expo 2026, Booth N7411, Las Vegas, Sept 23–25 — bring the batch that skews most for you and we'll run it straight on the spot.",
+        },
+      },
+      { type: "cta", text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" }, href: "https://chanfercard.com/book-a-demo.html" },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
