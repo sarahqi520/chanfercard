@@ -251,7 +251,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               "/images/hero-carousel-3.jpg",
               "/images/hero-carousel-4.jpg",
             ]}
-            overlays={[defaultHeroContent, defaultHeroContent, defaultHeroContent, defaultHeroContent, expoHeroContent]}
+            overlays={[defaultHeroContent, expoHeroContent, expoHeroContent, expoHeroContent, expoHeroContent]}
           />
         </section>
 
