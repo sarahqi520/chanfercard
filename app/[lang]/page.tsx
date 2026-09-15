@@ -106,118 +106,153 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
     { label: compLabels.qualityAssurance, traditional: compTraditional.qualityAssurance, chanfer: compChanfer.qualityAssurance },
   ];
 
+  // Hero foreground content — default slide (shown on non-expo images)
+  const defaultHeroContent = (
+    <div className="max-w-2xl">
+      {/* Badge */}
+      <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 border border-white/20 bg-white/10 backdrop-blur-sm text-white/90">
+        <Zap size={13} className="text-accent" />
+        {hero.badge}
+      </div>
+
+      {/* Headline */}
+      <h1 className="text-4xl md:text-5xl lg:text-[3.6rem] font-extrabold leading-[1.08] tracking-tight text-white drop-shadow">
+        {hero.title1}{" "}
+        <span className="text-accent">{hero.titleHighlight}</span>
+        <br />
+        <span>{hero.title2}</span>
+      </h1>
+
+      {/* Description */}
+      <p className="mt-5 text-base md:text-lg text-white/75 leading-relaxed max-w-xl">
+        {hero.description}
+      </p>
+
+      {/* CTAs */}
+      <div className="mt-8 flex flex-wrap gap-4">
+        <Link
+          href={`/${locale}/solutions`}
+          className="group px-8 py-4 bg-accent hover:bg-accent/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-accent/30 hover:shadow-accent/50 flex items-center gap-2 text-sm"
+        >
+          {hero.cta1} <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
+        </Link>
+        <Link
+          href={`/${locale}/contact`}
+          className="px-8 py-4 border-2 border-white/25 hover:border-white/50 text-white font-bold rounded-xl hover:bg-white/10 transition-all backdrop-blur-sm text-sm"
+        >
+          {hero.cta2}
+        </Link>
+      </div>
+
+      {/* Expo Announcement + Booking CTA */}
+      <div className="mt-6 flex flex-col items-start gap-3">
+        <a
+          href="https://www.printingunited.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-white/12 backdrop-blur-md border border-white/20 hover:bg-white/20 hover:border-accent/50 transition-all text-sm"
+        >
+          <Image
+            src="/images/printing-united-expo-2026.jpg"
+            alt={hero.expoAlt || "PRINTING United Expo 2026"}
+            width={56}
+            height={32}
+            className="rounded-md object-cover"
+            unoptimized
+          />
+          <div className="flex flex-col">
+            <span className="font-bold text-white leading-tight">
+              {hero.expoTitle || "PRINTING United Expo 2026"}
+            </span>
+            <span className="text-white/60 text-xs leading-tight mt-0.5">
+              {hero.expoInfo || "Booth N7411 | Sept. 23–25, Las Vegas"}
+            </span>
+          </div>
+          <ArrowRight size={14} className="text-white/40 group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
+        </a>
+        <a
+          href="/book-a-demo.html"
+          className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-accent hover:bg-accent/90 text-white font-bold transition-all text-sm shadow-lg shadow-accent/30 hover:shadow-accent/50"
+        >
+          {locale === "zh" ? "预约9.23-25美国展会" : "Book Sept 23-25 US Show"}
+          <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
+        </a>
+      </div>
+
+      {/* Stats strip */}
+      <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {stats.map((stat, i) => (
+          <div
+            key={i}
+            className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/8 backdrop-blur-md border border-white/12 hover:bg-white/14 transition-colors"
+          >
+            <div className="shrink-0 text-accent">{stat.icon}</div>
+            <div>
+              <div className="text-lg font-bold text-white leading-tight">{stat.value}</div>
+              <div className="text-[11px] text-white/55 hidden sm:block">{stat.label}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+
+  // Hero foreground content — expo slide (shown when the expo image is active)
+  const expoHeroContent = (
+    <div className="max-w-2xl">
+      <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 border border-white/20 bg-white/10 backdrop-blur-sm text-white/90">
+        <Zap size={13} className="text-accent" />
+        {locale === "zh" ? "美国展会现场" : "Live in Las Vegas"}
+      </div>
+
+      <h1 className="text-4xl md:text-5xl lg:text-[3.6rem] font-extrabold leading-[1.08] tracking-tight text-white drop-shadow">
+        PRINTING United Expo 2026
+        <br />
+        <span className="text-accent">
+          {locale === "zh" ? "来 N7411 展位看卡牌线实机" : "See Our Card Lines at Booth N7411"}
+        </span>
+      </h1>
+
+      <p className="mt-5 text-base md:text-lg text-white/75 leading-relaxed max-w-xl">
+        {locale === "zh"
+          ? "9月23–25日，拉斯维加斯。带上你的卡样，现场看卡牌无痕输送、单卡分卡、稳定对位实机运行——工程师当场给你跑直。"
+          : "Sept 23–25, Las Vegas. Bring your card samples and watch scratch-free handling, single-card feeding and straight alignment run live — our engineers will tune it on the spot."}
+      </p>
+
+      <div className="mt-8 flex flex-wrap gap-4">
+        <a
+          href="/book-a-demo.html"
+          className="group px-8 py-4 bg-accent hover:bg-accent/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-accent/30 hover:shadow-accent/50 flex items-center gap-2 text-sm"
+        >
+          {locale === "zh" ? "预约9.23-25美国展会" : "Book Sept 23-25 US Show"} <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
+        </a>
+        <Link
+          href={`/${locale}/solutions`}
+          className="px-8 py-4 border-2 border-white/25 hover:border-white/50 text-white font-bold rounded-xl hover:bg-white/10 transition-all backdrop-blur-sm text-sm"
+        >
+          {locale === "zh" ? "查看卡牌包装方案" : "Explore Card Solutions"}
+        </Link>
+      </div>
+    </div>
+  );
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header dict={dict} locale={locale} />
 
       <main className="flex-1">
-        {/* Hero Section — Full-screen immersive banner */}
+        {/* Hero Section — Full-screen immersive banner with synced text */}
         <section className="relative min-h-[580px] md:min-h-[640px] lg:min-h-[700px] flex items-center overflow-hidden">
-          {/* Background: rotating hero carousel */}
-          <div className="absolute inset-0 z-0 overflow-hidden">
-            <HeroCarousel
-              images={[
-                "/images/hero-banner-clean.jpg",
-                "/images/hero-carousel-1.jpg",
-                "/images/hero-carousel-2.jpg",
-                "/images/hero-carousel-3.jpg",
-                "/images/hero-carousel-4.jpg",
-              ]}
-            />
-            {/* Dark left-to-right gradient so text stays legible */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0d1b3e]/92 via-[#0d1b3e]/65 to-transparent pointer-events-none" />
-            <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent pointer-events-none" />
-          </div>
-          {/* Content */}
-          <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 py-20 md:py-28">
-            <div className="max-w-2xl">
-              {/* Badge */}
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 border border-white/20 bg-white/10 backdrop-blur-sm text-white/90">
-                <Zap size={13} className="text-accent" />
-                {hero.badge}
-              </div>
-
-              {/* Headline */}
-              <h1 className="text-4xl md:text-5xl lg:text-[3.6rem] font-extrabold leading-[1.08] tracking-tight text-white drop-shadow">
-                {hero.title1}{" "}
-                <span className="text-accent">{hero.titleHighlight}</span>
-                <br />
-                <span>{hero.title2}</span>
-              </h1>
-
-              {/* Description */}
-              <p className="mt-5 text-base md:text-lg text-white/75 leading-relaxed max-w-xl">
-                {hero.description}
-              </p>
-
-              {/* CTAs */}
-              <div className="mt-8 flex flex-wrap gap-4">
-                <Link
-                  href={`/${locale}/solutions`}
-                  className="group px-8 py-4 bg-accent hover:bg-accent/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-accent/30 hover:shadow-accent/50 flex items-center gap-2 text-sm"
-                >
-                  {hero.cta1} <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
-                </Link>
-                <Link
-                  href={`/${locale}/contact`}
-                  className="px-8 py-4 border-2 border-white/25 hover:border-white/50 text-white font-bold rounded-xl hover:bg-white/10 transition-all backdrop-blur-sm text-sm"
-                >
-                  {hero.cta2}
-                </Link>
-              </div>
-
-              {/* Expo Announcement + Booking CTA */}
-              <div className="mt-6 flex flex-col items-start gap-3">
-                <a
-                  href="https://www.printingunited.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-white/12 backdrop-blur-md border border-white/20 hover:bg-white/20 hover:border-accent/50 transition-all text-sm"
-                >
-                  <Image
-                    src="/images/printing-united-expo-2026.jpg"
-                    alt={hero.expoAlt || "PRINTING United Expo 2026"}
-                    width={56}
-                    height={32}
-                    className="rounded-md object-cover"
-                    unoptimized
-                  />
-                  <div className="flex flex-col">
-                    <span className="font-bold text-white leading-tight">
-                      {hero.expoTitle || "PRINTING United Expo 2026"}
-                    </span>
-                    <span className="text-white/60 text-xs leading-tight mt-0.5">
-                      {hero.expoInfo || "Booth N7411 | Sept. 23–25, Las Vegas"}
-                    </span>
-                  </div>
-                  <ArrowRight size={14} className="text-white/40 group-hover:text-accent group-hover:translate-x-0.5 transition-all" />
-                </a>
-                <a
-                  href="/book-a-demo.html"
-                  className="group inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-accent hover:bg-accent/90 text-white font-bold transition-all text-sm shadow-lg shadow-accent/30 hover:shadow-accent/50"
-                >
-                  {locale === "zh" ? "预约9.23-25美国展会" : "Book Sept 23-25 US Show"}
-                  <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
-                </a>
-              </div>
-
-              {/* Stats strip */}
-              <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-3">
-                {stats.map((stat, i) => (
-                  <div
-                    key={i}
-                    className="flex items-center gap-3 px-4 py-3 rounded-xl bg-white/8 backdrop-blur-md border border-white/12 hover:bg-white/14 transition-colors"
-                  >
-                    <div className="shrink-0 text-accent">{stat.icon}</div>
-                    <div>
-                      <div className="text-lg font-bold text-white leading-tight">{stat.value}</div>
-                      <div className="text-[11px] text-white/55 hidden sm:block">{stat.label}</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+          <HeroCarousel
+            images={[
+              "/images/hero-banner-clean.jpg",
+              "/images/hero-carousel-1.jpg",
+              "/images/hero-carousel-2.jpg",
+              "/images/hero-carousel-3.jpg",
+              "/images/hero-carousel-4.jpg",
+            ]}
+            overlays={[defaultHeroContent, defaultHeroContent, defaultHeroContent, defaultHeroContent, expoHeroContent]}
+          />
         </section>
 
         {/* 6 Packaging Methods */}
