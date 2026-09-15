@@ -65,6 +65,25 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
     (mTrans.specGroups as { title: string; specs: Record<string, string> }[] | undefined) ??
     machine.specGroups;
 
+  // Quick specs: for grouped machines show each machine's key specs with a short name prefix;
+  // otherwise fall back to the first 4 flat specs
+  const quickSpecs = specGroups
+    ? specGroups.flatMap((g) => {
+        const short = g.title.replace(/\s*[A-Z]{1,3}-[A-Z0-9]+\s*$/, "");
+        const entries = Object.entries(g.specs);
+        const preferred = entries.filter(
+          ([k]) => k === "Machine Size" || k === "Conveyor Speed"
+        );
+        const chosen = (preferred.length >= 2 ? preferred : entries).slice(0, 2);
+        return chosen.map(([key, val]) => ({
+          label: short ? `${short} · ${specLabels[key] ?? key}` : (specLabels[key] ?? key),
+          val,
+        }));
+      })
+    : Object.entries(machine.specs)
+        .slice(0, 4)
+        .map(([key, val]) => ({ label: specLabels[key] ?? key, val }));
+
   // SEO content
   const longDescription = (md.longDescription as string[]) ?? [];
   const relatedMachineIds = (md.relatedMachineIds as string[]) ?? [];
@@ -132,13 +151,13 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
 
               {/* Quick specs */}
               <div className="mt-6 grid grid-cols-2 gap-3">
-                {Object.entries(machine.specs).slice(0, 4).map(([key, val]) => (
-                  <div key={key} className="bg-card border border-border rounded-lg p-3">
+                {quickSpecs.map((item, i) => (
+                  <div key={i} className="bg-card border border-border rounded-lg p-3">
                     <div className="text-xs text-muted-foreground uppercase tracking-wider flex items-center gap-1">
                       <Gauge size={12} />
-                      {specLabels[key] ?? key}
+                      {item.label}
                     </div>
-                    <div className="text-sm font-bold mt-1">{val}</div>
+                    <div className="text-sm font-bold mt-1">{item.val}</div>
                   </div>
                 ))}
               </div>
