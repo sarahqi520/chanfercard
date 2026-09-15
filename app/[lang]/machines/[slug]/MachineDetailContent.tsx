@@ -60,6 +60,11 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
   const machineFeatures = (mTrans.features as string[]) ?? machine.features;
   const machineApplications = (mTrans.applications as string[]) ?? machine.applications;
 
+  // Grouped specs (e.g. two-machine lines) — titles overridable via i18n machinesData
+  const specGroups =
+    (mTrans.specGroups as { title: string; specs: Record<string, string> }[] | undefined) ??
+    machine.specGroups;
+
   // SEO content
   const longDescription = (md.longDescription as string[]) ?? [];
   const relatedMachineIds = (md.relatedMachineIds as string[]) ?? [];
@@ -175,23 +180,50 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
             <Cpu className="w-6 h-6 text-accent" />
             {(machinesDict.specifications as string) ?? "Specifications"}
           </h2>
-          <div className="bg-card border border-border rounded-xl overflow-hidden">
-            <table className="w-full">
-              <tbody>
-                {Object.entries(machine.specs).map(([key, val], i) => (
-                  <tr
-                    key={key}
-                    className={i % 2 === 0 ? "bg-muted/30" : ""}
-                  >
-                    <td className="px-4 py-3 text-sm font-medium text-muted-foreground w-1/2">
-                      {specLabels[key] ?? key}
-                    </td>
-                    <td className="px-4 py-3 text-sm font-bold">{val}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          {specGroups ? (
+            <div className="space-y-8">
+              {specGroups.map((group, g) => (
+                <div key={g}>
+                  <h3 className="text-lg font-bold mb-3 flex items-center gap-2">
+                    <Gauge size={16} className="text-accent" />
+                    {group.title}
+                  </h3>
+                  <div className="bg-card border border-border rounded-xl overflow-hidden">
+                    <table className="w-full">
+                      <tbody>
+                        {Object.entries(group.specs).map(([key, val], i) => (
+                          <tr key={key} className={i % 2 === 0 ? "bg-muted/30" : ""}>
+                            <td className="px-4 py-3 text-sm font-medium text-muted-foreground w-1/2">
+                              {specLabels[key] ?? key}
+                            </td>
+                            <td className="px-4 py-3 text-sm font-bold">{val}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="bg-card border border-border rounded-xl overflow-hidden">
+              <table className="w-full">
+                <tbody>
+                  {Object.entries(machine.specs).map(([key, val], i) => (
+                    <tr
+                      key={key}
+                      className={i % 2 === 0 ? "bg-muted/30" : ""}
+                    >
+                      <td className="px-4 py-3 text-sm font-medium text-muted-foreground w-1/2">
+                        {specLabels[key] ?? key}
+                      </td>
+                      <td className="px-4 py-3 text-sm font-bold">{val}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
       </section>
 

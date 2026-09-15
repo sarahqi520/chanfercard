@@ -291,6 +291,8 @@ export interface MachineProduct {
   category: string;
   description: string;
   specs: Record<string, string>;
+  /** Optional grouped specs — e.g. a line composed of two machines; when present the detail page renders one table per group */
+  specGroups?: { title: string; specs: Record<string, string> }[];
   applications: string[];
   features: string[];
   /** Product photo path relative to /images/machines/ */
@@ -727,7 +729,7 @@ export const machineProducts: MachineProduct[] = [
     },
   {
     id: "pof-shrink",
-    model: "POF-Series",
+    model: "CF-A6345 + CF-SJ550",
     name: "Automatic POF Film Wrapping & Sealing Machine",
     category: "packaging",
     description:
@@ -741,6 +743,28 @@ export const machineProducts: MachineProduct[] = [
       "Machine Size": "L1898 × W1125 × H1568mm",
       "Weight": "250kg",
     },
+    specGroups: [
+      {
+        title: "Vertical L-Sealer CF-A6345",
+        specs: {
+          "Machine Size": "1898(L) × 1125(W) × 1568(H)mm",
+          "Sealing Knife Size": "630(L) × 465(W)mm",
+          "Package Size": "(90–560)L × (50–380)W × (10–180)Hmm",
+          "Conveyor Speed": "max 26m/min",
+          "Power": "1P 220V, 2.5KW",
+        },
+      },
+      {
+        title: "Shrink Tunnel CF-SJ550",
+        specs: {
+          "Machine Size": "1900(L) × 1075(W) × 1230(H)mm",
+          "Shrink Tunnel Size": "1500(L) × 540(W) × 350(H)mm",
+          "Package Size": "400(W) × 300(H)mm",
+          "Conveyor Speed": "0–35m/min",
+          "Power": "3P 380V, 14KW",
+        },
+      },
+    ],
     applications: [
       "Card shrink wrapping",
       "Retail-ready card packaging",

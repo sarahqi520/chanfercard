@@ -649,6 +649,29 @@
           "카드 수축 포장",
           "매장 즉시 판매용 카드 포장",
           "다제품 번들링"
+        ],
+        "model": "수직 씰링기 CF-A6345 + 수축 터널 CF-SJ550",
+        "specGroups": [
+          {
+            "title": "수직 씰링기 CF-A6345",
+            "specs": {
+              "Machine Size": "1898(L) × 1125(W) × 1568(H)mm",
+              "Sealing Knife Size": "630(L) × 465(W)mm",
+              "Package Size": "(90–560)L × (50–380)W × (10–180)Hmm",
+              "Conveyor Speed": "max 26m/min",
+              "Power": "1P 220V, 2.5KW"
+            }
+          },
+          {
+            "title": "수축 터널 CF-SJ550",
+            "specs": {
+              "Machine Size": "1900(L) × 1075(W) × 1230(H)mm",
+              "Shrink Tunnel Size": "1500(L) × 540(W) × 350(H)mm",
+              "Package Size": "400(W) × 300(H)mm",
+              "Conveyor Speed": "0–35m/min",
+              "Power": "3P 380V, 14KW"
+            }
+          }
         ]
       },
       "cartoning": {
@@ -842,7 +865,8 @@
       "Belt Speed": "벨트 속도",
       "Table Height": "작업대 높이",
       "Sealing Temperature": "밀봉 온도",
-      "Film Material": "필름 재질"
+      "Film Material": "필름 재질",
+      "Shrink Tunnel Size": "수축 터널 크기"
     }
   },
   "about": {

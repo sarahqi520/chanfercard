@@ -656,6 +656,29 @@
           "Card shrink wrapping",
           "Retail-ready card packaging",
           "Multi-product bundling"
+        ],
+        "model": "Vertical L-Sealer CF-A6345 + Shrink Tunnel CF-SJ550",
+        "specGroups": [
+          {
+            "title": "Vertical L-Sealer CF-A6345",
+            "specs": {
+              "Machine Size": "1898(L) × 1125(W) × 1568(H)mm",
+              "Sealing Knife Size": "630(L) × 465(W)mm",
+              "Package Size": "(90–560)L × (50–380)W × (10–180)Hmm",
+              "Conveyor Speed": "max 26m/min",
+              "Power": "1P 220V, 2.5KW"
+            }
+          },
+          {
+            "title": "Shrink Tunnel CF-SJ550",
+            "specs": {
+              "Machine Size": "1900(L) × 1075(W) × 1230(H)mm",
+              "Shrink Tunnel Size": "1500(L) × 540(W) × 350(H)mm",
+              "Package Size": "400(W) × 300(H)mm",
+              "Conveyor Speed": "0–35m/min",
+              "Power": "3P 380V, 14KW"
+            }
+          }
         ]
       },
       "cartoning": {
@@ -849,7 +872,8 @@
       "Belt Speed": "Belt Speed",
       "Table Height": "Table Height",
       "Sealing Temperature": "Sealing Temperature",
-      "Film Material": "Film Material"
+      "Film Material": "Film Material",
+      "Shrink Tunnel Size": "Shrink Tunnel Size"
     }
   },
   "about": {
