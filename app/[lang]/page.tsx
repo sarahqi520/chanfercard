@@ -202,21 +202,19 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
     <div className="max-w-2xl">
       <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 border border-white/20 bg-white/10 backdrop-blur-sm text-white/90">
         <Zap size={13} className="text-accent" />
-        {locale === "zh" ? "美国展会现场" : "Live in Las Vegas"}
+        {hero.expoBadge}
       </div>
 
       <h1 className="text-4xl md:text-5xl lg:text-[3.6rem] font-extrabold leading-[1.08] tracking-tight text-white drop-shadow">
-        PRINTING United Expo 2026
+        {hero.expoTitle}
         <br />
         <span className="text-accent">
-          {locale === "zh" ? "来 N7411 展位看卡牌线实机" : "See Our Card Lines at Booth N7411"}
+          {hero.expoHeadline}
         </span>
       </h1>
 
       <p className="mt-5 text-base md:text-lg text-white/75 leading-relaxed max-w-xl">
-        {locale === "zh"
-          ? "9月23–25日，拉斯维加斯。带上你的卡样，现场看卡牌无痕输送、单卡分卡、稳定对位实机运行——工程师当场给你跑直。"
-          : "Sept 23–25, Las Vegas. Bring your card samples and watch scratch-free handling, single-card feeding and straight alignment run live — our engineers will tune it on the spot."}
+        {hero.expoDesc}
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4">
@@ -224,13 +222,13 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
           href="/book-a-demo.html"
           className="group px-8 py-4 bg-accent hover:bg-accent/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-accent/30 hover:shadow-accent/50 flex items-center gap-2 text-sm"
         >
-          {locale === "zh" ? "预约9.23-25美国展会" : "Book Sept 23-25 US Show"} <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
+          {hero.expoCta} <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
         </a>
         <Link
           href={`/${locale}/solutions`}
           className="px-8 py-4 border-2 border-white/25 hover:border-white/50 text-white font-bold rounded-xl hover:bg-white/10 transition-all backdrop-blur-sm text-sm"
         >
-          {locale === "zh" ? "查看卡牌包装方案" : "Explore Card Solutions"}
+          {hero.expoLink}
         </Link>
       </div>
     </div>

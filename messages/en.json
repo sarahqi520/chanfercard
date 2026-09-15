@@ -40,7 +40,12 @@
     "expoLabel": "Upcoming Event",
     "expoTitle": "PRINTING United Expo 2026",
     "expoInfo": "Booth No.: North Halls N7411 | Sept. 23–25, Las Vegas",
-    "expoAlt": "PRINTING United Expo 2026 — CHANFER Booth N7411"
+    "expoAlt": "PRINTING United Expo 2026 — CHANFER Booth N7411",
+    "expoBadge": "Live in Las Vegas",
+    "expoHeadline": "See Our Card Lines at Booth N7411",
+    "expoDesc": "Sept 23–25, Las Vegas. Bring your card samples and watch scratch-free handling, single-card feeding and straight alignment run live — our engineers will tune it on the spot.",
+    "expoCta": "Book Sept 23–25 US Show",
+    "expoLink": "Explore Card Solutions"
   },
   "stats": {
     "clients": "Clients Served",
