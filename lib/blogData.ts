@@ -1238,6 +1238,91 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 
+  {
+    slug: "card-stacking-misaligned",
+    date: "2026-09-16",
+    category: { zh: "技术干货", en: "Troubleshooting" },
+    title: {
+      zh: "卡牌收料堆不齐？卡牌线堆叠歪斜错层怎么调",
+      en: "Cards Stack Up Crooked? Fixing Misaligned Card Stacking",
+    },
+    excerpt: {
+      zh: "装盒前最后一关——卡牌堆出来像歪墙，高低不平、前后错层。本文拆5类成因与调机法，让每叠卡都齐得像刀切。",
+      en: "The last checkpoint before boxing: the card stack comes out like a crooked wall — uneven, layered front to back. This post breaks down five causes and fixes so every stack comes out knife-cut clean.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "有个客户微信甩来一张照片：装盒前的卡堆像被风吹歪的墙，前探后缩、高高低低。他说「前面走卡都好好的，怎么到收料就乱了」。其实收料堆叠是最容易被轻视的一关——卡牌一路都对得整整齐齐，最后在这摔一跤，整盒出来还是歪的。下面是 CHANFER 工程师处理堆叠错层最常遇到的五类成因和调机方法。",
+          en: "A customer once sent a photo over WeChat: the card stack before boxing looked like a wall blown sideways — leaning front and back, high and low. He said, \"feeding was fine all the way, why does it fall apart at collection?\" Collection stacking is the most underestimated step — cards stay perfectly aligned the whole line, then trip at the last gate and the whole box comes out crooked. Here are the five causes our engineers hit most, and how to tune them out.",
+        },
+      },
+      { type: "h2", text: { zh: "1. 收料节拍不对，卡叠没落稳就来了下一张", en: "1. Timing Off — Next Card Lands Before the Stack Settles" } },
+      {
+        type: "li",
+        text: {
+          zh: "收料皮带或堆叠爪的节拍和来卡速度没对上，前一张还没落稳，后一张已经拍上来，自然错层。处理：把收料节拍调到「一张落稳再接下一张」，用单卡点动先对节拍，再提速；堆叠爪行程按卡厚留余量，别卡太紧。",
+          en: "When the collection belt or stacking lug is out of sync with the incoming cards, the next card lands before the previous one settles — instant layering. Fix: tune collection so one card fully settles before the next arrives; step through single cards to match timing, then speed up. Leave slack in the lug stroke for card thickness — don't clamp it tight.",
+        },
+      },
+      { type: "h2", text: { zh: "2. 收料台高度 / 挡板位置偏了", en: "2. Collection Tray Height or Stop Misplaced" } },
+      {
+        type: "li",
+        text: {
+          zh: "收料台太高卡堆前倾、太低卡撞挡板弹起；侧挡板不正，叠出来一头宽一头窄。处理：收料台面调到「卡堆顶刚好齐爪口」，侧挡用卡规对称调，留一张卡厚加 0.5 mm，调完点数看叠面是否方正。",
+          en: "Tray too high and the stack leans forward; too low and cards bounce off the stop. An off-center side stop makes the stack lopsided. Fix: set the tray so the stack top meets the lug level, center the side stops with a card gauge at one card thickness plus 0.5 mm, then count and check the stack face is square.",
+        },
+      },
+      { type: "h2", text: { zh: "3. 静电让卡粘连，叠不平整", en: "3. Static Clings Cards Together" } },
+      {
+        type: "li",
+        text: {
+          zh: "干燥环境卡牌带静电，两张黏一起落下就鼓包错层。处理：在收料前加离子风棒除静电，车间湿度提到 50–60% RH；塑料膜卡比纸卡更易带电，重点盯。",
+          en: "In dry air the cards pick up static and two stick together, landing as a bump and a layer shift. Fix: add an ion bar before collection and lift shop humidity to 50–60% RH; plastic-film cards charge far more than paper, so watch those closely.",
+        },
+      },
+      { type: "h2", text: { zh: "4. 分堆 / 计数信号延迟", en: "4. Batch Count or Index Signal Delayed" } },
+      {
+        type: "li",
+        text: {
+          zh: "分堆的光纤或计数信号慢半拍，该换垛时没换，叠数变了、层也错。处理：用对射光纤复核计数点，信号延迟的超调伺服或换高响应传感器；每批换垛后抽测叠数是否准。",
+          en: "When the batching fiber or count signal lags a beat, the stack doesn't change over when it should — wrong count, wrong layer. Fix: verify the count point with a through-beam sensor, retune any servo lag or swap to a faster sensor, and sample stack counts after each changeover.",
+        },
+      },
+      { type: "h2", text: { zh: "5. 卡张翘曲 / 厚度不均", en: "5. Warped or Mixed-Thickness Cards" } },
+      {
+        type: "li",
+        text: {
+          zh: "同一批卡厚薄不一或局部翘曲，叠起来天然歪。处理：到料抽测厚度公差，超差的挑出来；料仓加整平轮，收料前先压平再叠，翘曲卡别混进同垛。",
+          en: "Cards of uneven thickness or local warping in one batch stack crooked by nature. Fix: sample thickness tolerance on incoming stock and pull the outliers; add a flattening roller at the hopper so cards are flat before they stack, and never mix warped cards into one stack.",
+        },
+      },
+      { type: "h2", text: { zh: "为什么卡牌线要盯收料堆叠", en: "Why Collection Stacking Matters on a Card Line" } },
+      {
+        type: "p",
+        text: {
+          zh: "堆叠是装盒前的最后一关，前面全对、这里歪，整盒还是废的。齐整的卡叠是「整盒对版、开箱即正」的最后一公里，也是收藏者摸到手那一下是否「值这个价」的关键。一句话：能跑快不算本事，落进盒子还是齐的才叫稳。",
+          en: "Stacking is the last gate before boxing — get it right everywhere else and still lose it here, and the whole box is scrap. A clean stack is the final mile of a correctly collated, straight-out-of-the-box set, and the moment a collector feels whether it was worth the price. One line: running fast isn't the skill, landing square in the box is.",
+        },
+      },
+      { type: "h2", text: { zh: "现场看齐整收料堆叠", en: "See Clean Card Stacking Live" } },
+      {
+        type: "p",
+        text: {
+          zh: "以上正是 CHANFER 每条卡牌线出厂前工程师必查的项目。来 PRINTING United Expo 2026（N7411 展位，拉斯维加斯，9月23–25日）看卡牌齐整收料堆叠实机运行——带上你最容易堆歪的那批卡，我们现场给你堆齐。",
+          en: "These are the exact checks our engineers run on every CHANFER card line before it ships. See clean card stacking at PRINTING United Expo 2026, Booth N7411, Las Vegas, Sept 23–25 — bring the batch that stacks crooked for you and we'll square it on the spot.",
+        },
+      },
+      { type: "cta", text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" }, href: "https://chanfercard.com/book-a-demo.html" },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
