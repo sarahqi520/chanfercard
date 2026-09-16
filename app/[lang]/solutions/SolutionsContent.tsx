@@ -32,7 +32,7 @@ const packagingIcons = [
 
 // Solutions 页面头图（建议尺寸：宽幅横图，如 1200×500px 左右，16:9 或更宽）
 const methodImages = [
-  "/images/solutions/detail/candy-packaging.png",
+  "/images/solutions/detail/candy-bags.png",
   "/images/solutions/detail/self-adhesive-strip.png",
   "/images/solutions/detail/four-sides-line.png",
   "/images/solutions/detail/banding.png",
