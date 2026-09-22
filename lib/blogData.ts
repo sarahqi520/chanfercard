@@ -1408,6 +1408,91 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 
+  {
+    slug: "card-count-wrong",
+    date: "2026-09-22",
+    category: { zh: "技术干货", en: "Troubleshooting" },
+    title: {
+      zh: "一包多张、少一张？卡牌计数不准的 5 个坑",
+      en: "Too Many or One Short? 5 Pitfalls of Wrong Card Counting",
+    },
+    excerpt: {
+      zh: "客户拆包发现多一张少一张，成本白亏、口碑还掉。拆 5 类计数翻车的原因和调机法，让每包张数都准。",
+      en: "Customers open a pack and find one too many or one short — lost margin and lost trust. Five causes of counting failures and how to fix them so every pack is exact.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "有个客户返了一批货：整箱里总有那么几包，多一张或少一张。他说「机器不是显示 10 张吗」。显示 10 张和实际 10 张，中间差的就是计数这道关。卡牌包装里计数看着简单，真到量产，光电糊了、双张没识别、节拍没跟上，错张就来了——少一张客户投诉，多一张你亏膜又亏卡。下面是 CHANFER 工程师处理计数不准最常遇的五类坑。",
+          en: "A customer returned a batch: in almost every box a few packs had one too many or one short. He said, \"the machine shows 10, doesn't it?\" Showing 10 and actually having 10 are two different things, and counting is the gap between them. In card packaging counting looks trivial, but at volume — a smudged sensor, a missed double, a beat that drifts — miscounts creep in. One short and the customer complains; one extra and you lose film and card. Here are the five pitfalls our engineers hit most.",
+        },
+      },
+      { type: "h2", text: { zh: "1. 集料光电/对射传感器脏了或偏了", en: "1. Counting Sensor Dirty or Misaligned" } },
+      {
+        type: "li",
+        text: {
+          zh: "计数靠光电，窗口被膜屑、粉尘糊住，或者位置偏了，数出来的就不是真张数。处理：每班用酒精棉擦一次传感器窗口；对射式调到「卡边触发」而不是「整卡遮挡」，避免卡薄一点就漏计；跑一叠废卡，数显示值对不对得上实际。",
+          en: "Counting rides on the photo-eye, and when film dust or debris coats the window — or the sensor drifts out of position — the number stops matching reality. Fix: wipe the sensor window with alcohol pad every shift; set through-beam to trigger on the card edge, not the whole card, so a thinner card doesn't get missed; run a stack of scrap cards and check the displayed count against the real one.",
+        },
+      },
+      { type: "h2", text: { zh: "2. 双张/叠卡没识别出来", en: "2. Double or Overlapped Cards Not Detected" } },
+      {
+        type: "li",
+        text: {
+          zh: "两张卡叠着喂进来，机器当一张数，一包就多一张。处理：喂料区加双张检测（超声波或厚度式），叠卡直接剔出；分卡轮间隙按卡厚调，保证一次只过一张；前面喂料堆保持疏松，不压卡。",
+          en: "Two cards fed overlapped count as one, and the pack ends up with an extra. Fix: add double-sheet detection at the feeder (ultrasonic or thickness-based) to reject overlapped cards; set the separator-wheel gap to card thickness so only one passes at a time; keep the feed stack loose so cards aren't pressed together.",
+        },
+      },
+      { type: "h2", text: { zh: "3. 收料节拍和主机没同步", en: "3. Collection Beat Out of Sync with the Line" } },
+      {
+        type: "li",
+        text: {
+          zh: "主机快、收料慢，卡过去了没收进、或重复计一次，张数就飘。处理：收料节拍跟主机编码器走，用脉冲数而不是时间点计时；调完数 50 包，看误差是不是稳定在零附近，别只看一两包。",
+          en: "Line fast, collector slow — a card slips past uncounted or gets counted twice, and the count drifts. Fix: drive the collector off the line encoder, counting pulses not clock time; after tuning, count 50 packs and check the error sits near zero, not just one or two.",
+        },
+      },
+      { type: "h2", text: { zh: "4. 膜张力抖，光电误判", en: "4. Film Flutter Trips the Sensor" } },
+      {
+        type: "li",
+        text: {
+          zh: "走膜一抖，反光一变，传感器误触发，多记一张。处理：稳包膜张力，抖动大的段落加导膜辊；传感器避开高反光区，或换成带背景抑制的漫反射型，只认卡不认膜光。",
+          en: "When the film flutters, the reflection shifts and the sensor trips, adding a phantom card. Fix: steady the wrap tension and add film guides where flutter is worst; keep the sensor off high-glare zones, or switch to a diffuse type with background suppression that sees the card, not the film shine.",
+        },
+      },
+      { type: "h2", text: { zh: "5. 计数逻辑没过滤废卡/连包", en: "5. Logic Doesn't Filter Bad or Stuck Packs" } },
+      {
+        type: "li",
+        text: {
+          zh: "偶尔卡歪、两张贴太近，计数逻辑没排除，就当两张或一张。处理：定义「有效卡」判定（尺寸 + 间隔），相邻两张间隔小于阈值判为一张；跑一批统计误判率，目标压到千分之一以下再量产。",
+          en: "A card tilts or two sit too close and the logic counts them as two — or one. Fix: define a \"valid card\" by size plus spacing, and treat two pieces closer than the threshold as one; run a batch and measure the misjudge rate, only scaling up once it's below one in a thousand.",
+        },
+      },
+      { type: "h2", text: { zh: "为什么计数值得盯", en: "Why Counting Is Worth Watching" } },
+      {
+        type: "p",
+        text: {
+          zh: "计数准不准，直接关系成本和口碑——少一张是客诉，多一张是实打实的亏。一句话：显示数对不算数，实际每包张数都对上，这条线才算稳。",
+          en: "Counting accuracy hits both cost and reputation — one short is a complaint, one extra is real loss. One line: a correct display isn't enough; every pack actually matching its count is what makes the line stable.",
+        },
+      },
+      { type: "h2", text: { zh: "展会现场看齐准计数", en: "See Accurate Counting Live" } },
+      {
+        type: "p",
+        text: {
+          zh: "以上正是 CHANFER 每条卡牌线出厂前工程师必查的项目。明天 PRINTING United Expo 2026 就开了（N7411 展位，拉斯维加斯，9月23–25日），带上一包你最容易数错的卡，我们现场给你数准、封齐、缩平。",
+          en: "These are the exact checks our engineers run on every CHANFER card line before it ships. PRINTING United Expo 2026 opens tomorrow — Booth N7411, Las Vegas, Sept 23–25 — bring a pack that gives you counting trouble and we'll get the count right, seal tight and shrink flat on the spot.",
+        },
+      },
+      { type: "cta", text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" }, href: "https://chanfercard.com/book-a-demo.html" },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
