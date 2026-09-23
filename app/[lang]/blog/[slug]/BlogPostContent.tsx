@@ -15,18 +15,35 @@ export default function BlogPostContent({
   const navBlog = locale === "zh" ? "博客" : "Blog";
   const relatedTitle = locale === "zh" ? "相关阅读" : "Related";
   const publishedOn = locale === "zh" ? "发布于" : "Published";
+  const faqTitle = locale === "zh" ? "常见问题" : "FAQ";
 
+  const canonical = `https://chanfercard.com/${locale}/blog/${post.slug}`;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
+    "@id": canonical,
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
     headline: t(post.title),
     description: t(post.excerpt),
+    articleSection: t(post.category),
+    inLanguage: locale,
     datePublished: post.date,
     dateModified: post.date,
-    author: { "@type": "Organization", name: "CHANFER" },
-    publisher: { "@type": "Organization", name: "CHANFER" },
-    mainEntityOfPage: `https://chanfercard.com/${locale}/blog/${post.slug}`,
+    author: { "@type": "Organization", name: "Chanfer Card Packaging" },
+    publisher: { "@type": "Organization", name: "Chanfer Card Packaging" },
   };
+  const faqSchema =
+    post.faqs && post.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: post.faqs.map((f) => ({
+            "@type": "Question",
+            name: t(f.question),
+            acceptedAnswer: { "@type": "Answer", text: t(f.answer) },
+          })),
+        }
+      : null;
 
   return (
     <>
@@ -34,6 +51,12 @@ export default function BlogPostContent({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <article className="py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 md:px-6">
           {/* Breadcrumb */}
@@ -168,6 +191,21 @@ export default function BlogPostContent({
             })}
           </div>
         </div>
+
+        {/* FAQ */}
+        {post.faqs && post.faqs.length > 0 && (
+          <section className="max-w-3xl mx-auto px-4 md:px-6 mt-14">
+            <h2 className="text-2xl font-bold text-primary mb-6">{faqTitle}</h2>
+            <div className="space-y-6">
+              {post.faqs.map((f, i) => (
+                <div key={i}>
+                  <h3 className="text-lg font-semibold text-foreground">{t(f.question)}</h3>
+                  <p className="mt-2 text-base leading-7 text-foreground/85">{t(f.answer)}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Related */}
         <div className="max-w-7xl mx-auto px-4 md:px-6 mt-16">

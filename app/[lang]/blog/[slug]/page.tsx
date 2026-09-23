@@ -40,38 +40,14 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPost(slug);
   if (!post) notFound();
   const dict = await getDictionary(locale);
-  const t = (r: Record<string, string>) => r[locale] || r.en;
-  const baseUrl = "https://chanfercard.com";
-  const canonical = `${baseUrl}/${locale}/blog/${slug}`;
-
-  const articleSchema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "@id": canonical,
-    mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
-    headline: t(post.title),
-    description: t(post.excerpt),
-    articleSection: t(post.category),
-    inLanguage: locale,
-    datePublished: post.date,
-    dateModified: post.date,
-    author: { "@type": "Organization", name: "Chanfer Card Packaging" },
-    publisher: { "@type": "Organization", name: "Chanfer Card Packaging" },
-  };
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-      <div className="flex flex-col min-h-screen">
-        <Header dict={dict} locale={locale} />
-        <main className="flex-1">
-          <BlogPostContent post={post} locale={locale} />
-        </main>
-        <Footer dict={dict} locale={locale} />
-      </div>
-    </>
+    <div className="flex flex-col min-h-screen">
+      <Header dict={dict} locale={locale} />
+      <main className="flex-1">
+        <BlogPostContent post={post} locale={locale} />
+      </main>
+      <Footer dict={dict} locale={locale} />
+    </div>
   );
 }

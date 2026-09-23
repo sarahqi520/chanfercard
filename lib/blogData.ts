@@ -10,6 +10,7 @@ export interface BlogPost {
   excerpt: Record<string, string>;
   body: BlogBlock[];
   relatedLinks: { href: string; label: Record<string, string> }[];
+  faqs?: { question: Record<string, string>; answer: Record<string, string> }[];
 }
 
 export type BlogBlock =
@@ -1401,6 +1402,38 @@ export const blogPosts: BlogPost[] = [
       },
       { type: "cta", text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" }, href: "https://chanfercard.com/book-a-demo.html" },
     ],
+    faqs: [
+      {
+        question: {
+          zh: "封口为什么一开包就弹开？",
+          en: "Why does the seal pop open as soon as the pack is opened?",
+        },
+        answer: {
+          zh: "多半是封口温度、压力或封口时间（dwell）没调对：温度低了粘不牢、压力不够封线虚、dwell 太短粘不紧；连续生产刀温漂移，后封的先开口。按膜的熔点设基准温（POF 约 140–170℃），首件做撕拉测试，能撕出膜丝才算封牢，并每 2 小时抽测一次封口强度。",
+          en: "Usually the seal temperature, pressure or dwell is off: too low a temp will not stick, too little pressure gives a dotted seal, too short a dwell will not hold; in long runs the blade cools and later seals open first. Set the base temp by film melt point (POF about 140–170°C), do a tear test on the first seal — if film fibers tear it is sealed — and re-check seal strength every two hours.",
+        },
+      },
+      {
+        question: {
+          zh: "热收缩后膜起皱、发雾怎么办？",
+          en: "Why does the shrink film wrinkle or turn hazy?",
+        },
+        answer: {
+          zh: "起皱多因包膜张力太松或收缩炉温、风速不匹配；发雾是炉温过高把膜烫雾了。包膜张力调到轻贴卡面、手推略有回弹；炉温按膜设定（POF 约 130–160℃），风速从低往高调、对着卡面吹而不直吹膜面，首件看平整度和雾度再微调。",
+          en: "Wrinkles come from loose wrap tension or a tunnel temp or airflow mismatch; haze is the tunnel running too hot. Set wrap tension so the film just kisses the card with slight spring-back; set tunnel temp by film (POF about 130–160°C), raise airflow from low and aim at the card not straight at the film, then fine-tune on the first piece.",
+        },
+      },
+      {
+        question: {
+          zh: "卡牌封口该选多厚的膜？",
+          en: "What film thickness should I use for card sealing?",
+        },
+        answer: {
+          zh: "按卡厚选：薄卡用 15–19 μm POF，厚卡用 19–25 μm；同一批卡固定一种膜，POF 与 PE 收缩率不同，混用易皱。换膜先进废卡试三张再量产。",
+          en: "Pick by card thickness: 15–19 μm POF for thin cards, 19–25 μm for thick. Stick to one film per batch — POF and PE shrink differently, so mixing wrinkles. After any film change, run three scrap cards before mass production.",
+        },
+      },
+    ],
     relatedLinks: [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
@@ -1486,6 +1519,38 @@ export const blogPosts: BlogPost[] = [
       },
       { type: "cta", text: { zh: "预约9.23-25美国展会", en: "Book Sept 23-25 US Show" }, href: "https://chanfercard.com/book-a-demo.html" },
     ],
+    faqs: [
+      {
+        question: {
+          zh: "机器显示 10 张，为什么实际不对？",
+          en: "The machine shows 10 cards — why is the actual count wrong?",
+        },
+        answer: {
+          zh: "显示值和实际张数是两回事，计数那道关才是关键。常见原因：集料光电传感器被膜屑糊住或偏位、双张或叠卡没识别、收料节拍和主机不同步、膜抖动误触发、计数逻辑没过滤废卡连包。逐项排查即可。",
+          en: "The displayed count and the actual count are different things — the counting step is the gap. Common causes: the counting photo-eye coated with film dust or misaligned, overlapped or double cards not detected, collector beat out of sync with the line, film flutter tripping the sensor, or logic not filtering bad or stuck packs. Check them one by one.",
+        },
+      },
+      {
+        question: {
+          zh: "一包多一张或少一张怎么查？",
+          en: "A pack has one too many or one short — how do I troubleshoot?",
+        },
+        answer: {
+          zh: "先擦传感器窗口、把对射式调到卡边触发；喂料区加双张检测剔出叠卡；收料节拍改跟主机编码器走；稳包膜张力减少抖动；定义有效卡判定（尺寸加间隔）过滤连包。调完数 50 包看误差是否稳定在零附近。",
+          en: "First wipe the sensor window and set through-beam to trigger on the card edge; add double-sheet detection at the feeder to reject overlapped cards; drive the collector off the line encoder; steady the wrap tension to cut flutter; define a valid card by size plus spacing to filter stuck packs. After tuning, count 50 packs and check the error sits near zero.",
+        },
+      },
+      {
+        question: {
+          zh: "怎么把计数误差降到最低？",
+          en: "How do I push counting error to the minimum?",
+        },
+        answer: {
+          zh: "用脉冲（编码器）计数而非时间点计时，保证收料与主机同步；跑一批统计误判率，目标压到千分之一以下再量产；每班清洁传感器、双张检测常开。",
+          en: "Count pulses off the encoder rather than clock time, so collection stays in sync with the line; measure the misjudge rate over a batch and only scale up once it is below one in a thousand; clean the sensor every shift and keep double-sheet detection on.",
+        },
+      },
+    ],
     relatedLinks: [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
@@ -1562,6 +1627,58 @@ export const blogPosts: BlogPost[] = [
         },
       },
       { type: "cta", text: { zh: "现场 N7411 展位见", en: "Meet Us at Booth N7411" }, href: "https://chanfercard.com/book-a-demo.html" },
+    ],
+    faqs: [
+      {
+        question: {
+          zh: "我的卡厚薄不一，一条线能通吃吗？",
+          en: "My cards vary in thickness — can one line handle them?",
+        },
+        answer: {
+          zh: "能，但前提是分卡和飞达要可调。卡厚薄差一两丝，普通分卡轮就会叠卡或漏卡。把分卡轮间隙按最厚那张卡调，飞达用厚度自适应型；同一批料先跑 20 张看是否连张。调机这一步省不掉。",
+          en: "Usually yes, if the separator and feeder are adjustable. A one or two thou difference makes a fixed separator wheel double- or miss-feed. Set the separator gap to the thickest card, use a thickness-adaptive feeder, and run 20 cards first to check for sticking. The tuning step is non-negotiable.",
+        },
+      },
+      {
+        question: {
+          zh: "换一包 5 张、10 张、12 张要折腾多久？",
+          en: "How long to switch between 5-, 10- and 12-card packs?",
+        },
+        answer: {
+          zh: "换规格最怕从头调一遍。把每套常用规格存成参数配方，换型只调计数设定和收料斗分隔；飞达、封切位置基本不动。熟练工换一次约 10 分钟，新手照配方也别超 20 分钟。建议先把最常用的 3 套规格存好。",
+          en: "The dread is tuning it all over again. Save each common spec as a recipe — switching only changes the count setting and the collection divider, while feeder and seal positions stay put. A skilled operator switches in about 10 minutes; a new hand on a recipe stays under 20. Save your three most-used specs first.",
+        },
+      },
+      {
+        question: {
+          zh: "膜缩完发皱、封口还弹开，怎么办？",
+          en: "Shrink comes out wrinkled and the seal still pops — why?",
+        },
+        answer: {
+          zh: "这俩其实是连着的：封口没压实，收缩一拉就崩。封口温度和时间先按膜厂给的窗口试，别凭感觉拧；收缩炉温别一下拉太高，让膜慢慢贴上去而不是啪地缩。展会现场用你带的样卡当场调给你看更清楚。",
+          en: "These two are linked: a weak seal bursts the moment shrink tension pulls. Set seal temperature and dwell to the film maker's window, not by feel; do not crank the shrink tunnel hot — let the film settle onto the card instead of snapping. At the booth we tune it live on your sample card.",
+        },
+      },
+      {
+        question: {
+          zh: "计数老错，多一张少一张？",
+          en: "The count keeps drifting — one too many or one short?",
+        },
+        answer: {
+          zh: "这是返货的头号原因。喂料加双张检测（超声波或厚度式），叠卡直接剔；收料节拍跟主机编码器走，用脉冲数计时而不是拍脑袋估。跑 50 包看误差是不是稳定在零附近，只盯一两包会骗自己。",
+          en: "This is the number one cause of returns. Add double-sheet detection at the feeder (ultrasonic or thickness) to reject overlapped cards; drive the collector off the line encoder, counting pulses not guesses; run 50 packs and check the error sits near zero — watching one or two packs lies to you.",
+        },
+      },
+      {
+        question: {
+          zh: "我要快，但又不能磨花卡面？",
+          en: "I want speed, but I can't scratch the card face?",
+        },
+        answer: {
+          zh: "速度和伤卡常常打架。走卡段用软接触皮带（比如进口 PU 带），转弯处加导向不硬挤；高速段先把张力调稳再往上加。闪卡、烫金这类娇贵面，宁可降 10% 速度保品相，也别赌赌看。",
+          en: "Speed and surface damage usually fight. Use soft-contact belts on the transport (e.g. imported PU), add guides at turns instead of forcing cards, and stabilize tension before pushing speed up. For foil or hot-stamp faces, take 10% off the speed to protect the look rather than gambling on it.",
+        },
+      },
     ],
     relatedLinks: [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
