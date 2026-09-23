@@ -1493,6 +1493,83 @@ export const blogPosts: BlogPost[] = [
     ],
   },
 
+  {
+    slug: "card-packaging-expo-faq",
+    date: "2026-09-23",
+    category: { zh: "展会现场", en: "At the Show" },
+    title: {
+      zh: "开展第一天，客户问得最多的 5 个卡牌包装问题",
+      en: "Day One at PRINTING United: 5 Card-Packaging Questions We Hear Most",
+    },
+    excerpt: {
+      zh: "展会现场站了一天，发现大家卡牌包装的痛点出奇地像。把这 5 个被问得最多的问题和工程师的回法记下来，没到现场的也能照着自查。",
+      en: "A full day on the booth and the card-packaging pain points sound surprisingly alike. Here are the five questions asked most, with how our engineers answer them — useful even if you couldn't make it.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "今天 PRINTING United 开展第一天，N7411 展位前面从早站到晚。聊下来发现，不管是做 TCG、做 Pok mon 还是做闪卡礼盒的，问的卡牌包装问题居然高度重合。趁记忆还热，把这 5 个被问得最多的问题和工程师的回法记下来，没到现场的你也能照着自查。",
+          en: "PRINTING United opened today and Booth N7411 stayed busy from open to close. Talking with everyone — TCG, Pokémon, foil-collection boxes — the card-packaging questions overlapped almost perfectly. While it's fresh, here are the five asked most and how our engineers answer them. If you couldn't make it, use this as a self-check.",
+        },
+      },
+      { type: "h2", text: { zh: "1. 「我的卡厚薄不一，一条线能通吃吗？」", en: "1. \"My cards vary in thickness — can one line handle them?\"" } },
+      {
+        type: "li",
+        text: {
+          zh: "能，但前提是分卡和飞达要可调。卡厚薄差一两丝，普通分卡轮就会叠卡或漏卡。处理：分卡轮间隙按最厚那张卡调，飞达用厚度自适应型；同一批料先跑 20 张看是否连张。别指望「同一台机器」就自动兼容所有卡，调机这一步省不掉。",
+          en: "Usually yes, if the separator and feeder are adjustable. A one- or two-thou difference makes a fixed separator wheel double- or miss-feed. Fix: set the separator gap to the thickest card, use a thickness-adaptive feeder, and run 20 cards first to check for sticking. Don't expect \"the same machine\" to auto-fit every card — the tuning step is non-negotiable.",
+        },
+      },
+      { type: "h2", text: { zh: "2. 「换一包 5 张、10 张、12 张要折腾多久？」", en: "2. \"How long to switch between 5-, 10- and 12-card packs?\"" } },
+      {
+        type: "li",
+        text: {
+          zh: "换规格最怕的是「从头调一遍」。处理：把每套常用规格存成参数配方，换型只调计数设定和收料斗分隔；飞达、封切位置基本不动。熟练工换一次约 10 分钟，新手照配方也别超 20 分钟。建议先把你最常用的 3 套规格存好，别每次现想。",
+          en: "The dread is \"tune it all over again.\" Fix: save each common spec as a recipe — switching only changes the count setting and the collection divider, while feeder and seal positions stay put. A skilled operator switches in ~10 min; a new hand on a recipe stays under 20. Save your three most-used specs first; don't reinvent them each time.",
+        },
+      },
+      { type: "h2", text: { zh: "3. 「膜缩完发皱、封口还弹开，怎么办？」", en: "3. \"Shrink comes out wrinkled and the seal still pops — why?\"" } },
+      {
+        type: "li",
+        text: {
+          zh: "这俩其实是连着的：封口没压实，收缩一拉就崩。处理：封口温度和时间先按膜厂给的窗口试，别凭感觉拧；收缩炉温别一下拉太高，让膜慢慢贴上去而不是「啪」地缩。我们在展会现场就用你带的样卡当场调给你看，比嘴上说清楚。",
+          en: "These two are linked: a weak seal bursts the moment shrink tension pulls. Fix: set seal temperature and dwell to the film maker's window, not by feel; don't crank the shrink tunnel hot — let the film settle onto the card instead of snapping. At the booth we tune it live on your sample card, which beats any explanation.",
+        },
+      },
+      { type: "h2", text: { zh: "4. 「计数老错，多一张少一张」", en: "4. \"The count keeps drifting — one too many or one short\"" } },
+      {
+        type: "li",
+        text: {
+          zh: "这是返货的头号原因。处理：喂料加双张检测（超声波或厚度式），叠卡直接剔；收料节拍跟主机编码器走，用脉冲数计时而不是拍脑袋估。跑 50 包看误差是不是稳定在零附近，只盯一两包会骗自己。",
+          en: "This is the #1 cause of returns. Fix: add double-sheet detection at the feeder (ultrasonic or thickness) to reject overlapped cards; drive the collector off the line encoder, counting pulses not guesses; run 50 packs and check the error sits near zero — watching one or two packs lies to you.",
+        },
+      },
+      { type: "h2", text: { zh: "5. 「我要快，但又不能磨花卡面」", en: "5. \"I want speed, but I can't scratch the card face\"" } },
+      {
+        type: "li",
+        text: {
+          zh: "速度和伤卡常常打架。处理：走卡段用软接触皮带（比如进口 PU 带），转弯处加导向不硬挤；高速段先把张力调稳再往上加。闪卡、烫金这类娇贵面，宁可降 10% 速度保品相，也别赌赌看。",
+          en: "Speed and surface damage usually fight. Fix: use soft-contact belts on the transport (e.g. imported PU), add guides at turns instead of forcing cards, and stabilize tension before pushing speed up. For foil or hot-stamp faces, take 10% off the speed to protect the look rather than gambling on it.",
+        },
+      },
+      { type: "h2", text: { zh: "没到现场？照这 5 条先自查", en: "Couldn't Make It? Self-Check These 5" } },
+      {
+        type: "p",
+        text: {
+          zh: "上面 5 个，其实覆盖了卡牌包装 80% 的返工。你的线要是也中了一两条，不用等展会，先照着调一轮。当然，隔着屏幕调不如当面看——今天开展（9月23–25日，拉斯维加斯，N7411），带上你最容易出问题的那叠卡，我们现场给你跑通、封齐、缩平。",
+          en: "Those five cover roughly 80% of card-packaging rework. If your line hits one or two, don't wait for a show — tune a round now. That said, tuning over a screen beats seeing it live: the show is on now (Sept 23–25, Las Vegas, N7411). Bring the stack that gives you the most trouble and we'll run it, seal it and shrink it flat on the spot.",
+        },
+      },
+      { type: "cta", text: { zh: "现场 N7411 展位见", en: "Meet Us at Booth N7411" }, href: "https://chanfercard.com/book-a-demo.html" },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+    ],
+  },
+
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
