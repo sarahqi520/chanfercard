@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { type Dictionary } from "@/lib/i18n/dictionaries";
 import { packagingSolutions, machineProducts, type PackagingSolution } from "@/lib/data";
+import { blogPosts } from "@/lib/blogData";
 import {
   Package,
   Layers,
@@ -64,6 +65,13 @@ const categoryIcons: Record<string, React.ReactNode> = {
   ai: <TrendingUp className="w-4 h-4" />,
 };
 
+// Reverse internal links: which troubleshooting blog each solution page points to.
+const relatedBlogsBySolution: Record<string, string[]> = {
+  "four-sides": ["card-seal-shrink-defects"],
+  "heat-shrink": ["card-seal-shrink-defects"],
+  banding: ["card-count-wrong"],
+};
+
 export default function SolutionDetailContent({ dict, locale, solutionId }: Props) {
   const solution = packagingSolutions.find((s) => s.id === solutionId);
   if (!solution) return null;
@@ -103,6 +111,11 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
 
   // Other solutions for navigation
   const otherSolutions = packagingSolutions.filter((s) => s.id !== solutionId);
+
+  // Related blog articles (reverse internal links from solution -> blog)
+  const relatedBlogs = (relatedBlogsBySolution[solutionId] ?? [])
+    .map((slug) => blogPosts.find((p) => p.slug === slug))
+    .filter((p): p is NonNullable<typeof p> => Boolean(p));
 
   return (
     <main className="flex-1">
@@ -407,6 +420,53 @@ export default function SolutionDetailContent({ dict, locale, solutionId }: Prop
                   )}
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related blog articles */}
+      {relatedBlogs.length > 0 && (
+        <section className="py-12 md:py-16 bg-muted/30">
+          <div className="max-w-7xl mx-auto px-4 md:px-6">
+            <h2 className="text-2xl font-bold mb-6">
+              {(sd.relatedBlogsTitle as string) ??
+                (locale === "zh" ? "相关技术文章" : "Related Articles")}
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedBlogs.map((post) => {
+                const title = (post.title as Record<string, string>)[locale] ??
+                  (post.title as Record<string, string>).en;
+                const excerpt = (post.excerpt as Record<string, string>)[locale] ??
+                  (post.excerpt as Record<string, string>).en;
+                const category = (post.category as Record<string, string>)[locale] ??
+                  (post.category as Record<string, string>).en;
+                return (
+                  <Link
+                    key={post.slug}
+                    href={`/${locale}/blog/${post.slug}`}
+                    className="group border border-border rounded-xl bg-card overflow-hidden card-hover flex flex-col"
+                  >
+                    <div className="p-5 flex-1">
+                      <span className="text-xs font-medium text-primary bg-primary/5 px-2 py-0.5 rounded-full">
+                        {category}
+                      </span>
+                      <h3 className="font-bold mt-3 text-sm leading-snug group-hover:text-primary transition-colors">
+                        {title}
+                      </h3>
+                      <p className="text-xs text-muted-foreground mt-2 line-clamp-3 leading-relaxed">
+                        {excerpt}
+                      </p>
+                    </div>
+                    <div className="p-4 pt-0">
+                      <span className="inline-flex items-center gap-1 text-xs font-medium text-primary">
+                        {locale === "zh" ? "阅读全文" : "Read Article"}
+                        <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform" />
+                      </span>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </section>
