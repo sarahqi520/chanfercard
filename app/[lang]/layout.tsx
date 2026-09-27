@@ -191,8 +191,8 @@ export default async function LangLayout({ children, params }: Props) {
       },
     },
     sameAs: [
-      "https://www.youtube.com/@CHANFER",
-      "https://www.facebook.com/CHANFER",
+      "https://www.youtube.com/@GoharChanfer",
+      "https://www.facebook.com/gzchanfer",
       "https://www.linkedin.com/company/chanfer-card-packaging",
     ],
   };

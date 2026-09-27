@@ -29,8 +29,8 @@ export default function BlogPostContent({
     inLanguage: locale,
     datePublished: post.date,
     dateModified: post.date,
-    author: { "@type": "Organization", name: "Chanfer Card Packaging" },
-    publisher: { "@type": "Organization", name: "Chanfer Card Packaging" },
+    author: { "@type": "Organization", name: "CHANFER" },
+    publisher: { "@type": "Organization", name: "CHANFER" },
   };
   const faqSchema =
     post.faqs && post.faqs.length > 0
