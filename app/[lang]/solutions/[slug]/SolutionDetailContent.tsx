@@ -67,9 +67,12 @@ const categoryIcons: Record<string, React.ReactNode> = {
 
 // Reverse internal links: which troubleshooting blog each solution page points to.
 const relatedBlogsBySolution: Record<string, string[]> = {
+  candy: ["film-wont-feed-flow-wrapper-jams"],
+  "self-adhesive": ["card-double-feed"],
   "four-sides": ["card-seal-shrink-defects"],
   "heat-shrink": ["card-seal-shrink-defects"],
   banding: ["card-count-wrong"],
+  "three-dimensional": ["card-surface-scuffing"],
 };
 
 export default function SolutionDetailContent({ dict, locale, solutionId }: Props) {
