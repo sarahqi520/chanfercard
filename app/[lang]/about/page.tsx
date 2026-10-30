@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const dict = await getDictionary(locale);
   const meta = dict.meta as Record<string, string>;
   const baseUrl = "https://chanfercard.com";
-  const title = meta.aboutTitle ?? "About CHANFER | 25+ Years of Packaging Innovation";
+  const title = meta.aboutTitle ?? "About CHANFER | 15+ Years of Packaging Innovation";
   const description = meta.aboutDescription ?? "";
 
   return {

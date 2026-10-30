@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "CHANFER | Solutions d'emballage automatisé pour cartes de jeu et jeux de société",
-    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Solutions d'emballage automatisé clés en main pour cartes de jeu, jeux de société et cartes à collectionner. 6 méthodes d'emballage, plus de 25 ans d'expérience, plus de 8 000 clients servis dans le monde entier.",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Solutions d'emballage automatisé clés en main pour cartes de jeu, jeux de société et cartes à collectionner. 6 méthodes d'emballage, plus de 15 ans d'expérience, plus de 8 000 clients servis dans le monde entier.",
     "keywords": "machine d'emballage de cartes, emballage de cartes de jeu, emballage de jeux de société, emballage de cartes à collectionner, distributeur automatique de cartes, machine de mise en sachet de cartes, machine de cerclage de cartes, rétractation de cartes, scellage quatre côtés, machine d'emballage de bonbons, ligne d'emballage de cartes, CHANFER, CUKKE"
   },
   "nav": {
@@ -23,7 +23,7 @@
     "title2": "clés en main",
     "description": "De l'alimentation et du comptage à l'emballage, la mise en carton et la palettisation — CHANFER fournit des lignes d'emballage automatisées complètes pour les cartes de jeu, cartes à collectionner et jeux de société.",
     "highlight1": "6 méthodes d'emballage",
-    "highlight2": "plus de 25 ans",
+    "highlight2": "plus de 15 ans",
     "highlight3": "8 000+ clients",
     "highlightSuffix": "d'expérience, et",
     "highlightSuffix2": "servis dans le monde entier.",
@@ -879,7 +879,7 @@
       "intro2": "En tant que pionnier des solutions de comptage et d'emballage clés en main, CHANFER exploite deux divisions principales :",
       "equipment": {
         "title": "Division de fabrication d'équipements",
-        "desc": "Avec 25 ans d'expérience technique et un esprit d'innovation continue, nous fournissons activement des équipements d'emballage à forte valeur ajoutée qui réduisent efficacement les coûts de main-d'œuvre en production. Notre valeur réside dans la création d'une valeur ajoutée supérieure pour nos clients."
+        "desc": "Avec 15 ans d'expérience technique et un esprit d'innovation continue, nous fournissons activement des équipements d'emballage à forte valeur ajoutée qui réduisent efficacement les coûts de main-d'œuvre en production. Notre valeur réside dans la création d'une valeur ajoutée supérieure pour nos clients."
       },
       "contract": {
         "title": "Division de conditionnement à façon",
@@ -965,7 +965,7 @@
       "email": "Email",
       "emailPlaceholder": "email@entreprise.com",
       "phone": "Téléphone",
-      "phonePlaceholder": "+1 234 567 8900",
+      "phonePlaceholder": "+86 130 6098 5132",
       "productType": "Type de produit",
       "selectProduct": "Sélectionner le type de produit",
       "productTypes": {

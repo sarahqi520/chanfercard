@@ -48,14 +48,12 @@ export default function HeroCarousel({
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent pointer-events-none" />
       </div>
 
-      {/* Foreground content synced to the active slide */}
-      {overlays && (
+      {/* Foreground content synced to the active slide.
+          Only the active overlay is rendered so the page exposes a single
+          <h1> to search engines instead of one per slide. */}
+      {overlays && overlays[index] && (
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 py-20 md:py-28">
-          {overlays.map((node, i) => (
-            <div key={i} className={i === index ? "block" : "hidden"}>
-              {node}
-            </div>
-          ))}
+          {overlays[index]}
         </div>
       )}
     </>

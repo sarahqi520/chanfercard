@@ -29,8 +29,16 @@ export default function BlogPostContent({
     inLanguage: locale,
     datePublished: post.date,
     dateModified: post.date,
-    author: { "@type": "Organization", name: "CHANFER" },
-    publisher: { "@type": "Organization", name: "CHANFER" },
+    author: { "@type": "Organization", name: "CHANFER", url: "https://chanfercard.com" },
+    publisher: {
+      "@type": "Organization",
+      name: "CHANFER",
+      url: "https://chanfercard.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://chanfercard.com/logo.png",
+      },
+    },
   };
   const faqSchema =
     post.faqs && post.faqs.length > 0

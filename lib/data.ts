@@ -1022,7 +1022,7 @@ export const companyInfo = {
   shortName: "CHANFER",
   brandName: "CUKKE",
   founded: 2011,
-  experience: "25+",
+  experience: "15+",
   clients: "8000+",
   patents: "100+",
   employees: "100+",

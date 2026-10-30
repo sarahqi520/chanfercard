@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CHANFER | Game Card & Board Game Automated Packaging Solutions",
-    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — One-stop automated packaging solutions for game cards, board games, and trading cards. 6 packaging methods, 25+ years experience, 8000+ clients served worldwide.",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — One-stop automated packaging solutions for game cards, board games, and trading cards. 6 packaging methods, 15+ years experience, 8000+ clients served worldwide.",
     "keywords": "card packaging machine, game card packaging, board game packaging, trading card packaging, automatic card feeder, card bagging machine, card banding machine, card shrink wrapping, four side sealing packaging, candy packaging machine, card packaging line, CHANFER, CUKKE",
     "solutionsTitle": "Card Packaging Solutions | CHANFER",
     "solutionsDescription": "Explore 6 proven automated packaging methods for game cards, trading cards, and board games. Complete production lines from card feeding to palletizing.",
     "machinesTitle": "Machine Catalog | Card Packaging Equipment | CHANFER",
     "machinesDescription": "Complete range of automated packaging machines: card feeders, wrapping machines, cartoning systems, palletizers, and AI visual inspection equipment.",
-    "aboutTitle": "About CHANFER | 25+ Years of Packaging Innovation",
+    "aboutTitle": "About CHANFER | 15+ Years of Packaging Innovation",
     "aboutDescription": "Learn about Guangzhou Chanfer Intelligent Equipment Co., Ltd. — National High-Tech Enterprise serving 8000+ clients worldwide with automated card packaging solutions since 2011.",
     "contactTitle": "Contact CHANFER | Get a Free Packaging Consultation",
     "contactDescription": "Ready to automate your card packaging? Contact our team for a custom solution. WhatsApp: +86 130 6098 5132. Email: sarah@gzchanfer.com"
@@ -31,7 +31,7 @@
     "title2": "Automation",
     "description": "From feeding and counting to packaging, cartoning, and palletizing — CHANFER delivers complete automated packaging lines for game cards, trading cards, and board games.",
     "highlight1": "6 packaging methods",
-    "highlight2": "25+ years",
+    "highlight2": "15+ years",
     "highlight3": "8,000+ clients",
     "highlightSuffix": "of experience, and",
     "highlightSuffix2": "served worldwide.",
@@ -886,7 +886,7 @@
       "intro2": "As a pioneer in providing one-stop count-and-packaging solutions, CHANFER operates two core divisions:",
       "equipment": {
         "title": "Equipment Manufacturing Division",
-        "desc": "With 25 years of technical experience and a spirit of continuous innovation, we actively provide high-value packaging equipment that effectively reduces labor costs in production. Our product value lies in creating higher added value for customers."
+        "desc": "With 15 years of technical experience and a spirit of continuous innovation, we actively provide high-value packaging equipment that effectively reduces labor costs in production. Our product value lies in creating higher added value for customers."
       },
       "contract": {
         "title": "Contract Packaging Division",
@@ -972,7 +972,7 @@
       "email": "Email",
       "emailPlaceholder": "you@example.com",
       "phone": "Phone",
-      "phonePlaceholder": "+1 234 567 8900",
+      "phonePlaceholder": "+86 130 6098 5132",
       "productType": "Product Type",
       "selectProduct": "Select product type",
       "productTypes": {

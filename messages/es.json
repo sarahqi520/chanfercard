@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "CHANFER | Soluciones Automatizadas de Envasado de Cartas de Juego y Juegos de Mesa",
-    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Soluciones de envasado automatizado integrales para cartas de juego, juegos de mesa y cartas coleccionables. 6 métodos de envasado, más de 25 años de experiencia, más de 8000 clientes atendidos en todo el mundo.",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Soluciones de envasado automatizado integrales para cartas de juego, juegos de mesa y cartas coleccionables. 6 métodos de envasado, más de 15 años de experiencia, más de 8000 clientes atendidos en todo el mundo.",
     "keywords": "máquina de envasado de cartas, envasado de cartas de juego, envasado de juegos de mesa, envasado de cartas coleccionables, alimentador automático de cartas, máquina de embolsado de cartas, máquina de fajado de cartas, envasado termorretráctil de cartas, envasado de sellado cuatro lados, máquina de envasado tipo caramelo, línea de envasado de cartas, CHANFER, CUKKE"
   },
   "nav": {
@@ -23,7 +23,7 @@
     "title2": "Integral",
     "description": "Desde la alimentación y conteo hasta el envasado, encajado y paletizado — CHANFER ofrece líneas completas de envasado automatizado para cartas de juego, cartas coleccionables y juegos de mesa.",
     "highlight1": "6 métodos de envasado",
-    "highlight2": "más de 25 años",
+    "highlight2": "más de 15 años",
     "highlight3": "8,000+ clientes",
     "highlightSuffix": "de experiencia, y",
     "highlightSuffix2": "atendidos en todo el mundo.",
@@ -879,7 +879,7 @@
       "intro2": "Como pionero en ofrecer soluciones integrales de conteo y envasado, CHANFER opera dos divisiones principales:",
       "equipment": {
         "title": "División de Fabricación de Equipos",
-        "desc": "Con 25 años de experiencia técnica y un espíritu de innovación continua, proporcionamos activamente equipos de envasado de alto valor que reducen efectivamente los costos de mano de obra en producción. El valor de nuestros productos radica en crear mayor valor añadido para los clientes."
+        "desc": "Con 15 años de experiencia técnica y un espíritu de innovación continua, proporcionamos activamente equipos de envasado de alto valor que reducen efectivamente los costos de mano de obra en producción. El valor de nuestros productos radica en crear mayor valor añadido para los clientes."
       },
       "contract": {
         "title": "División de Envasado por Contrato",
@@ -965,7 +965,7 @@
       "email": "Correo Electrónico",
       "emailPlaceholder": "correo@empresa.com",
       "phone": "Teléfono",
-      "phonePlaceholder": "+34 123 456 789",
+      "phonePlaceholder": "+86 130 6098 5132",
       "productType": "Tipo de Producto",
       "selectProduct": "Seleccione tipo de producto",
       "productTypes": {

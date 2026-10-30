@@ -216,8 +216,8 @@ export const blogPosts: BlogPost[] = [
       {
         type: "li",
         text: {
-          zh: "25+ 年行业经验，深耕卡牌自动化包装。",
-          en: "25+ years of industry experience in card packaging automation.",
+          zh: "15+ 年行业经验，深耕卡牌自动化包装。",
+          en: "15+ years of industry experience in card packaging automation.",
         },
       },
       {

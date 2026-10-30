@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "CHANFER | Automatisierte Verpackungslösungen für Spielkarten & Brettspiele",
-    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Komplettanbieter für automatisierte Verpackungslösungen für Spielkarten, Brettspiele und Sammelkarten. 6 Verpackungsmethoden, über 25 Jahre Erfahrung, mehr als 8.000 Kunden weltweit betreut.",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Komplettanbieter für automatisierte Verpackungslösungen für Spielkarten, Brettspiele und Sammelkarten. 6 Verpackungsmethoden, über 15 Jahre Erfahrung, mehr als 8.000 Kunden weltweit betreut.",
     "keywords": "Kartenverpackungsmaschine, Spielkartenverpackung, Brettspielverpackung, Sammelkartenverpackung, automatischer Kartenzuführer, Kartenbeutelmaschine, Kartenbanderoliermaschine, Kartenschrumpffolienverpackung, Vierseiten-Siegelverpackung, Süßwarenverpackungsmaschine, Kartenverpackungslinie, CHANFER, CUKKE"
   },
   "nav": {
@@ -23,7 +23,7 @@
     "title2": "Automatisierung",
     "description": "Vom Zuführen und Zählen über das Verpacken und Kartonieren bis zur Palettierung — CHANFER liefert komplette automatisierte Verpackungslinien für Spielkarten, Sammelkarten und Brettspiele.",
     "highlight1": "6 Verpackungsmethoden",
-    "highlight2": "25+ Jahre",
+    "highlight2": "15+ Jahre",
     "highlight3": "8.000+ Kunden",
     "highlightSuffix": "Erfahrung und",
     "highlightSuffix2": "weltweit betreut.",
@@ -879,7 +879,7 @@
       "intro2": "Als Pionier für Komplettlösungen in der Zähl- und Verpackungstechnik betreibt CHANFER zwei Kernbereiche:",
       "equipment": {
         "title": "Geschäftsbereich Geräteherstellung",
-        "desc": "Mit 25 Jahren technischer Erfahrung und kontinuierlichem Innovationsgeist bieten wir leistungsstarke Verpackungsanlagen, die die Arbeitskosten in der Produktion effektiv senken. Unser Produktwert liegt darin, höhere Mehrwerte für unsere Kunden zu schaffen."
+        "desc": "Mit 15 Jahren technischer Erfahrung und kontinuierlichem Innovationsgeist bieten wir leistungsstarke Verpackungsanlagen, die die Arbeitskosten in der Produktion effektiv senken. Unser Produktwert liegt darin, höhere Mehrwerte für unsere Kunden zu schaffen."
       },
       "contract": {
         "title": "Geschäftsbereich Lohnverpackung",
@@ -965,7 +965,7 @@
       "email": "E-Mail",
       "emailPlaceholder": "email@firma.com",
       "phone": "Telefon",
-      "phonePlaceholder": "+49 123 4567890",
+      "phonePlaceholder": "+86 130 6098 5132",
       "productType": "Produkttyp",
       "selectProduct": "Produkttyp auswählen",
       "productTypes": {

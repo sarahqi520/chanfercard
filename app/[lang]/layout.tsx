@@ -1,7 +1,21 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Geist, Geist_Mono } from "next/font/google";
+import "../globals.css";
 import { locales, defaultLocale, localeOgLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const BASE_URL = "https://chanfercard.com";
 
 // Helper: build FAQPage schema from dict.faq.items
 function buildFaqSchema(faqItems: Array<{ question: string; answer: string }>) {
@@ -22,21 +36,83 @@ function buildFaqSchema(faqItems: Array<{ question: string; answer: string }>) {
 
 // Helper: build WebSite schema with SearchAction
 function buildWebsiteSchema(locale: string) {
-  const baseUrl = "https://chanfercard.com";
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "CHANFER - Card Packaging Solutions",
-    url: `${baseUrl}/${locale}`,
+    url: `${BASE_URL}/${locale}`,
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: `${baseUrl}/${locale}/machines?q={search_term_string}`,
+        urlTemplate: `${BASE_URL}/${locale}/machines?q={search_term_string}`,
       },
       "query-input": "required name=search_term_string",
     },
     inLanguage: locale,
+  };
+}
+
+// LocalBusiness schema — geographic entity signal for B2B manufacturing queries
+function buildLocalBusinessSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": `${BASE_URL}/#localbusiness`,
+    name: "Guangzhou Chanfer Intelligent Equipment Co., Ltd",
+    alternateName: "CHANFER",
+    description:
+      "Manufacturer of automated card packaging machinery and complete packaging lines for trading cards, game cards and board games. Established 2011.",
+    url: BASE_URL,
+    telephone: "+86-130-6098-5132",
+    email: "sarah@gzchanfer.com",
+    foundingDate: "2011",
+    priceRange: "$$",
+    image: `${BASE_URL}/images/og/og-image-en.jpg`,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "701, No.5 Yongfeng Road, Shawan Street, Panyu District",
+      addressLocality: "Guangzhou",
+      addressRegion: "Guangdong",
+      postalCode: "511400",
+      addressCountry: "CN",
+    },
+    areaServed: ["Worldwide", "China", "Europe", "North America", "Southeast Asia"],
+  };
+}
+
+// Service + OfferCatalog — makes each of the 6 packaging methods individually quotable by AI
+function buildServiceSchema() {
+  const methods = [
+    { name: "Candy Packaging (Flow Wrap)", speed: "20-220 bags/min" },
+    { name: "Self-Adhesive Strip Packaging", speed: "20-80 packs/min" },
+    { name: "Four-Sides Sealed Packaging", speed: "50-150 packs/min" },
+    { name: "Banding Packaging", speed: "5-20 packs/min" },
+    { name: "Heat Shrink Packaging", speed: "20-100 bags/min" },
+    { name: "Three-Dimensional Packaging", speed: "40-80 bags/min" },
+  ];
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Card Packaging Automation",
+    provider: {
+      "@type": "Organization",
+      name: "Guangzhou Chanfer Intelligent Equipment Co., Ltd",
+      url: BASE_URL,
+    },
+    areaServed: ["Worldwide", "China", "Europe", "North America", "Southeast Asia"],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Card Packaging Methods",
+      itemListElement: methods.map((m) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: m.name,
+          description: `Automated ${m.name} line for trading cards, game cards and board game cards. Throughput: ${m.speed}.`,
+        },
+      })),
+    },
   };
 }
 
@@ -56,28 +132,27 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const locale = lang as Locale;
   const dict = await getDictionary(locale);
   const meta = dict.meta as Record<string, string>;
-  const baseUrl = "https://chanfercard.com";
-  const ogImage = `${baseUrl}/images/og/og-image-${locale}.jpg`;
+  const ogImage = `${BASE_URL}/images/og/og-image-${locale}.jpg`;
 
   // Build hreflang alternates for SEO
   const languages: Record<string, string> = {};
   for (const l of locales) {
-    languages[l] = `${baseUrl}/${l}`;
+    languages[l] = `${BASE_URL}/${l}`;
   }
-  languages["x-default"] = `${baseUrl}/${defaultLocale}`;
+  languages["x-default"] = `${BASE_URL}/${defaultLocale}`;
 
   return {
     title: meta?.title ?? "CHANFER | Card Packaging Solutions",
     description: meta?.description ?? "",
     keywords: meta?.keywords?.split(", ") ?? [],
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL(BASE_URL),
     openGraph: {
       title: meta?.title,
       description: meta?.description,
       type: "website",
       locale: localeOgLocale[locale],
       siteName: "CHANFER",
-      url: `${baseUrl}/${locale}`,
+      url: `${BASE_URL}/${locale}`,
       images: [
         {
           url: ogImage,
@@ -94,7 +169,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       images: [ogImage],
     },
     alternates: {
-      canonical: `${baseUrl}/${locale}`,
+      canonical: `${BASE_URL}/${locale}`,
       languages,
     },
     robots: {
@@ -147,11 +222,12 @@ export default async function LangLayout({ children, params }: Props) {
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${BASE_URL}/#organization`,
     name: "Guangzhou Chanfer Intelligent Equipment Co., Ltd",
     alternateName: ["CHANFER", "CUKKE", "广州长发智能装备有限公司", "Guangzhou Chanfer Intelligent Equipment Co., Ltd"],
-    url: "https://chanfercard.com",
-    logo: "https://chanfercard.com/logo.png",
-    image: "https://chanfercard.com/images/og/og-image-en.jpg",
+    url: BASE_URL,
+    logo: `${BASE_URL}/logo.png`,
+    image: `${BASE_URL}/images/og/og-image-en.jpg`,
     description: (dict.meta as Record<string, string>)?.description,
     address: {
       "@type": "PostalAddress",
@@ -206,54 +282,86 @@ export default async function LangLayout({ children, params }: Props) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: `https://chanfercard.com/${lang}`,
+        item: `${BASE_URL}/${lang}`,
       },
     ],
   };
 
   const faqSchema = buildFaqSchema(faqItems);
   const websiteSchema = buildWebsiteSchema(lang);
+  const localBusinessSchema = buildLocalBusinessSchema();
+  const serviceSchema = buildServiceSchema();
 
   return (
-    <>
-      {/* Google Tag Manager */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <html
+      lang={lang}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className="min-h-full flex flex-col">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-N8CX7M0W"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-N8CX7M0W');`,
-        }}
-      />
+          }}
+        />
 
-      {/* Structured data - Organization */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
-      />
-
-      {/* Structured data - WebSite */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-      />
-
-      {/* Structured data - FAQPage */}
-      {faqSchema && (
+        {/* Structured data - Organization */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
-      )}
 
-      {/* Structured data - BreadcrumbList (base) */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+        {/* Structured data - LocalBusiness */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
 
-      <div lang={lang}>{children}</div>
-    </>
+        {/* Structured data - Service + OfferCatalog (6 packaging methods) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+        />
+
+        {/* Structured data - WebSite */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+
+        {/* Structured data - FAQPage */}
+        {faqSchema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          />
+        )}
+
+        {/* Structured data - BreadcrumbList (base) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        />
+
+        {children}
+      </body>
+    </html>
   );
 }

@@ -38,12 +38,20 @@ Allow: /
 User-agent: Baiduspider
 Allow: /
 
+# Block ByteDance training crawler (consistent with chanferpack.com policy)
+User-agent: Bytespider
+Disallow: /
+
 # Block private/admin paths
 Disallow: /admin/
 Disallow: /api/
 Disallow: /private/
-Disallow: /_next/
 Disallow: /tmp/
+
+# IMPORTANT: /_next/static/ must stay crawlable — it carries the CSS and JS
+# Googlebot needs to render the site. Only block build internals.
+Disallow: /_next/server/
+Allow: /_next/static/
 
 # Block low-value parameter URLs
 Disallow: /*?*sort=
