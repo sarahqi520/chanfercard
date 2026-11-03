@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "CHANFER | Automatisierte Verpackungslösungen für Spielkarten & Brettspiele",
-    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Komplettanbieter für automatisierte Verpackungslösungen für Spielkarten, Brettspiele und Sammelkarten. 6 Verpackungsmethoden, über 15 Jahre Erfahrung, mehr als 8.000 Kunden weltweit betreut.",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Komplettanbieter für automatisierte Verpackungslösungen für Spielkarten, Brettspiele und Sammelkarten. 6 Verpackungsmethoden, 15 Jahre am Markt, 25+ Jahre Teamerfahrung, mehr als 8.000 Kunden weltweit betreut.",
     "keywords": "Kartenverpackungsmaschine, Spielkartenverpackung, Brettspielverpackung, Sammelkartenverpackung, automatischer Kartenzuführer, Kartenbeutelmaschine, Kartenbanderoliermaschine, Kartenschrumpffolienverpackung, Vierseiten-Siegelverpackung, Süßwarenverpackungsmaschine, Kartenverpackungslinie, CHANFER, CUKKE"
   },
   "nav": {
@@ -25,7 +25,7 @@
     "highlight1": "6 Verpackungsmethoden",
     "highlight2": "15+ Jahre",
     "highlight3": "8.000+ Kunden",
-    "highlightSuffix": "Erfahrung und",
+    "highlightSuffix": "am Markt, 25+ Jahre Teamerfahrung, und",
     "highlightSuffix2": "weltweit betreut.",
     "cta1": "Lösungen entdecken",
     "cta2": "Angebot anfordern",
@@ -42,8 +42,9 @@
   "stats": {
     "clients": "Betreute Kunden",
     "patents": "Patente",
-    "experience": "Branchenerfahrung",
-    "team": "Teammitglieder"
+    "experience": "Jahre am Markt",
+    "team": "Teammitglieder",
+    "experienceSub": "25+ Jahre Teamerfahrung"
   },
   "methods": {
     "title": "6 Verpackungsmethoden für Spielkarten",
@@ -879,7 +880,7 @@
       "intro2": "Als Pionier für Komplettlösungen in der Zähl- und Verpackungstechnik betreibt CHANFER zwei Kernbereiche:",
       "equipment": {
         "title": "Geschäftsbereich Geräteherstellung",
-        "desc": "Mit 15 Jahren technischer Erfahrung und kontinuierlichem Innovationsgeist bieten wir leistungsstarke Verpackungsanlagen, die die Arbeitskosten in der Produktion effektiv senken. Unser Produktwert liegt darin, höhere Mehrwerte für unsere Kunden zu schaffen."
+        "desc": "Mit 15 Jahren am Markt und 25+ Jahren Teamerfahrung sowie kontinuierlichem Innovationsgeist bieten wir leistungsstarke Verpackungsanlagen, die die Arbeitskosten in der Produktion effektiv senken. Unser Produktwert liegt darin, höhere Wertschöpfung für Kunden zu schaffen."
       },
       "contract": {
         "title": "Geschäftsbereich Lohnverpackung",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "CHANFER | Soluciones Automatizadas de Envasado de Cartas de Juego y Juegos de Mesa",
-    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Soluciones de envasado automatizado integrales para cartas de juego, juegos de mesa y cartas coleccionables. 6 métodos de envasado, más de 15 años de experiencia, más de 8000 clientes atendidos en todo el mundo.",
+    "description": "CHANFER (Guangzhou Chanfer Intelligent Equipment Co., Ltd.) — Soluciones de envasado automatizado integrales para cartas de juego, juegos de mesa y cartas coleccionables. 6 métodos de envasado, 15 años de operación, 25+ años de experiencia en equipo, más de 8000 clientes atendidos en todo el mundo.",
     "keywords": "máquina de envasado de cartas, envasado de cartas de juego, envasado de juegos de mesa, envasado de cartas coleccionables, alimentador automático de cartas, máquina de embolsado de cartas, máquina de fajado de cartas, envasado termorretráctil de cartas, envasado de sellado cuatro lados, máquina de envasado tipo caramelo, línea de envasado de cartas, CHANFER, CUKKE"
   },
   "nav": {
@@ -25,7 +25,7 @@
     "highlight1": "6 métodos de envasado",
     "highlight2": "más de 15 años",
     "highlight3": "8,000+ clientes",
-    "highlightSuffix": "de experiencia, y",
+    "highlightSuffix": "de operación, 25+ años de experiencia en equipo, y",
     "highlightSuffix2": "atendidos en todo el mundo.",
     "cta1": "Explorar Soluciones",
     "cta2": "Solicitar Presupuesto",
@@ -42,8 +42,9 @@
   "stats": {
     "clients": "Clientes Atendidos",
     "patents": "Patentes",
-    "experience": "Experiencia en la Industria",
-    "team": "Miembros del Equipo"
+    "experience": "Años de operación",
+    "team": "Miembros del Equipo",
+    "experienceSub": "25+ años de experiencia en equipo"
   },
   "methods": {
     "title": "6 Métodos de Envasado para Cartas de Juego",
@@ -879,7 +880,7 @@
       "intro2": "Como pionero en ofrecer soluciones integrales de conteo y envasado, CHANFER opera dos divisiones principales:",
       "equipment": {
         "title": "División de Fabricación de Equipos",
-        "desc": "Con 15 años de experiencia técnica y un espíritu de innovación continua, proporcionamos activamente equipos de envasado de alto valor que reducen efectivamente los costos de mano de obra en producción. El valor de nuestros productos radica en crear mayor valor añadido para los clientes."
+        "desc": "Con 15 años de operación y 25+ años de experiencia en equipo, y un espíritu de innovación continua, proporcionamos activamente equipos de envasado de alto valor que reducen efectivamente los costos de mano de obra en la producción. Nuestro valor de producto radica en crear mayor valor agregado para los clientes."
       },
       "contract": {
         "title": "División de Envasado por Contrato",
