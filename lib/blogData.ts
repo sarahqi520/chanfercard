@@ -137,6 +137,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },  {
     slug: "printing-united-expo-2026",
@@ -276,6 +277,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
   {
@@ -412,6 +414,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -606,6 +609,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -788,6 +792,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -982,6 +987,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -1067,6 +1073,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
   {
@@ -1151,6 +1158,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -1236,6 +1244,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -1321,6 +1330,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -1438,6 +1448,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -1555,6 +1566,7 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
     ],
   },
 
@@ -1684,14 +1696,537 @@ export const blogPosts: BlogPost[] = [
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
       { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
+    ],
+  },
+  {
+    slug: "tcg-packaging-machine-buying-guide",
+    date: "2026-11-03",
+    category: { zh: "选购指南", en: "Buyer's Guide" },
+    title: {
+      zh: "TCG 卡牌包装机选购指南 2026：从包装方式到产能怎么选",
+      en: "TCG Packaging Machine Buying Guide 2026: How to Choose From Method to Throughput",
+    },
+    excerpt: {
+      zh: "想给集换式卡牌（TCG/CCG）配一条自动化包装线，却不知从哪下手？这份指南用 5 步帮你把包装方式、速度、计数检测、换型和交期一次理清。",
+      en: "Setting up an automated packaging line for trading cards (TCG/CCG) but unsure where to start? This guide walks you through five steps — packaging method, speed, counting and inspection, changeovers and lead time.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "集换式卡牌（TCG/CCG）、游戏卡、体育卡和收藏卡对包装的要求很特别：张数必须 100% 准确，卡面不能有任何划痕，封口要防伪防拆。用一台通用枕式机硬改，往往顾此失彼。下面这 5 步，帮你在选型时少走弯路。",
+          en: "Trading cards (TCG/CCG), game cards, sports cards and collectibles have unusual packaging demands: the card count must be 100% accurate, the surface cannot show a single scratch, and the seal has to be tamper-evident. Forcing a generic pillow wrapper to do the job usually trades one problem for another. These five steps keep your selection on track.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "第一步：先定包装方式", en: "Step 1 — Pick the Packaging Method First" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "CHANFER 提供 6 种卡牌包装方式，最适合 TCG booster pack 的是糖果枕式（20–220 包/分钟）和四边封（50–150 包/分钟，防伪高端）。下面这张表帮你快速对号入座。",
+          en: "CHANFER offers six card packaging methods. The two most relevant for TCG booster packs are candy pillow wrap (20–220 packs/min) and four-side seal (50–150 packs/min, tamper-evident premium). The table below maps each method to its best use.",
+        },
+      },
+      {
+        type: "table",
+        head: [
+          { zh: "包装方式", en: "Method" },
+          { zh: "速度", en: "Speed" },
+          { zh: "最适合", en: "Best for" },
+        ],
+        rows: [
+          [
+            { zh: "糖果枕式", en: "Candy / flow wrap" },
+            { zh: "20–220 包/分", en: "20–220 packs/min" },
+            { zh: "TCG booster、收藏卡套", en: "TCG boosters, collectible sleeves" },
+          ],
+          [
+            { zh: "四边封", en: "Four-side seal" },
+            { zh: "50–150 包/分", en: "50–150 packs/min" },
+            { zh: "高价值防伪卡", en: "High-value tamper-evident cards" },
+          ],
+          [
+            { zh: "自粘条", en: "Self-adhesive strip" },
+            { zh: "20–80 包/分", en: "20–80 packs/min" },
+            { zh: "需可重复封口的高端卡", en: "Premium re-sealable cards" },
+          ],
+          [
+            { zh: "热缩", en: "Heat shrink" },
+            { zh: "20–100 包/分", en: "20–100 packs/min" },
+            { zh: "卡盒与 bundled 产品", en: "Card boxes and bundled products" },
+          ],
+          [
+            { zh: "束带", en: "Banding" },
+            { zh: "5–20 包/分", en: "5–20 packs/min" },
+            { zh: "最环保：桌游套牌", en: "Most sustainable: board game decks" },
+          ],
+          [
+            { zh: "三维包膜", en: "3D wrap" },
+            { zh: "40–80 包/分", en: "40–80 packs/min" },
+            { zh: "礼盒式硬包", en: "Rigid box-style gift sets" },
+          ],
+        ],
+      },
+      {
+        type: "h2",
+        text: { zh: "第二步：按产量定速度", en: "Step 2 — Size Speed to Your Volume" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "小批量 / 多品种：糖果枕式 20–60 包/分足够，换型 3–5 分钟。",
+          en: "Small batch / many SKUs: candy wrap at 20–60 packs/min is enough, with 3–5 minute changeovers.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "中批量：糖果枕式 80–150 包/分，或四边封 50–150 包/分。",
+          en: "Mid volume: candy wrap 80–150 packs/min, or four-side seal 50–150 packs/min.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "大批量 / 代工：糖果枕式可达 220 包/分，配合在线 AI 视觉检测。",
+          en: "High volume / contract packaging: candy wrap up to 220 packs/min with inline AI visual inspection.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "第三步：计数与检测不能省", en: "Step 3 — Don't Skip Counting and Inspection" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "多一张、少一张都是客诉。CHANFER 的电脑发卡系统支持 1,000+ 配方，单批可处理 25,000 包；AI 视觉检测以 400+ 张/分钟在线剔除错卡、缺卡、装反和污损，错漏检出覆盖率 100%。",
+          en: "One card too many or too few is a customer complaint. CHANFER's computerized card dispatching system stores 1,000+ recipes and handles up to 25,000 packs per batch; AI visual inspection rejects wrong, missing, flipped and defective cards at 400+ sheets/min with 100% error detection coverage.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "第四步：把换型时间算进去", en: "Step 4 — Plan for Changeovers" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "扑克卡（63×88mm）、桥牌卡（56×88mm）、迷你卡、塔罗卡和定制尺寸都能处理，配方一键切换，换型 3–5 分钟。选设备时确认它是否支持你要的全部卡尺寸。",
+          en: "Poker (63×88mm), bridge (56×88mm), mini, tarot and custom sizes are all handled with one-click recipe switching and 3–5 minute changeovers. When you evaluate a machine, confirm it covers every card size you ship.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "第五步：预留交付周期", en: "Step 5 — Budget for Lead Time" },
+      },
+      {
+        type: "li",
+        text: { zh: "标准单机：4–6 周。", en: "Standard machine: 4–6 weeks." },
+      },
+      {
+        type: "li",
+        text: { zh: "完整产线：6–8 周。", en: "Complete line: 6–8 weeks." },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "定制工程：8–12 周；现场安装调试与培训再加 2–4 周。",
+          en: "Custom engineering: 8–12 weeks; on-site installation, commissioning and training add 2–4 weeks.",
+        },
+      },
+      {
+        type: "cta",
+        text: { zh: "查看全部设备型号", en: "See the Full Machine Catalog" },
+        href: "/machines",
+      },
+      {
+        type: "cta",
+        text: { zh: "和我们的工程师聊聊", en: "Talk to Our Engineers" },
+        href: "/contact",
+      },
+    ],
+    faqs: [
+      {
+        question: {
+          zh: "一套 TCG 卡牌包装线大概多少钱？",
+          en: "How much does a TCG card packaging line cost?",
+        },
+        answer: {
+          zh: "取决于配置：单台包装机到含发卡、计数、检测、装盒、码垛的完整产线，区间约 15 万–150 万美元。定制工程和产能越高，价格相应上升。",
+          en: "It depends on scope: from a single wrapping machine to a complete line with feeding, counting, inspection, cartoning and palletizing, the range is roughly USD 150k to 1.5M. Custom engineering and higher throughput raise the price accordingly.",
+        },
+      },
+      {
+        question: {
+          zh: "TCG booster pack 用哪种包装方式最好？",
+          en: "Which packaging method is best for TCG booster packs?",
+        },
+        answer: {
+          zh: "绝大多数 booster pack 用糖果枕式（20–220 包/分），速度快、成本低；高价值防伪卡则更适合四边封（50–150 包/分）。",
+          en: "Most booster packs use candy pillow wrap (20–220 packs/min) for speed and low cost; high-value tamper-evident cards are better served by four-side seal (50–150 packs/min).",
+        },
+      },
+      {
+        question: {
+          zh: "换不同卡尺寸要多久？",
+          en: "How long does it take to switch card sizes?",
+        },
+        answer: {
+          zh: "配方一键切换，换型通常 3–5 分钟，无需更换大量硬件。",
+          en: "Recipes switch with one click; changeovers typically take 3–5 minutes with no major hardware swap.",
+        },
+      },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/candy-wrap-vs-four-side-seal-tcg", label: { zh: "糖果枕式 vs 四边封", en: "Candy Wrap vs Four-Side Seal" } },
+      { href: "/blog/card-packaging-line-cost-lead-time", label: { zh: "产线成本与交期", en: "Line Cost and Lead Time" } },
+    ],
+  },
+  {
+    slug: "candy-wrap-vs-four-side-seal-tcg",
+    date: "2026-11-03",
+    category: { zh: "方案对比", en: "Comparison" },
+    title: {
+      zh: "糖果枕式 vs 四边封：TCG 卡牌该选哪种包装？",
+      en: "Candy Wrap vs Four-Side Seal: Which Packaging for TCG Cards?",
+    },
+    excerpt: {
+      zh: "糖果枕式和四边封是 TCG 卡牌最常用的两种包装。一个快且省，一个防伪高端。这篇对比帮你按产品定位和预算做决定。",
+      en: "Candy pillow wrap and four-side seal are the two most common TCG card packs. One is fast and economical, the other tamper-evident and premium. This comparison helps you decide by product positioning and budget.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "糖果枕式和四边封是 TCG 卡牌包装里出镜率最高的两种方式，但它们解决的是不同的问题。下面从速度、材料、防伪、外观和成本五个维度对比，再给出选型建议。",
+          en: "Candy pillow wrap and four-side seal are the two most common TCG card packs, but they solve different problems. The comparison below covers speed, material, tamper-evidence, look and cost, then gives selection advice.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "一眼看懂", en: "At a Glance" },
+      },
+      {
+        type: "table",
+        head: [
+          { zh: "维度", en: "Dimension" },
+          { zh: "糖果枕式", en: "Candy wrap" },
+          { zh: "四边封", en: "Four-side seal" },
+        ],
+        rows: [
+          [
+            { zh: "速度", en: "Speed" },
+            { zh: "20–220 包/分", en: "20–220 packs/min" },
+            { zh: "50–150 包/分", en: "50–150 packs/min" },
+          ],
+          [
+            { zh: "材料", en: "Material" },
+            { zh: "单层膜，成本低", en: "Single film, low cost" },
+            { zh: "复合膜，成本较高", en: "Laminated film, higher cost" },
+          ],
+          [
+            { zh: "防伪", en: "Tamper-evident" },
+            { zh: "中等（封口可被打开）", en: "Moderate (seal can be opened)" },
+            { zh: "高（全边热封）", en: "High (all-edge seal)" },
+          ],
+          [
+            { zh: "外观", en: "Look" },
+            { zh: "经典 booster 包型", en: "Classic booster pack" },
+            { zh: "平整高端", en: "Premium flat pack" },
+          ],
+          [
+            { zh: "最适合", en: "Best for" },
+            { zh: "大批量标准 booster", en: "Volume TCG boosters" },
+            { zh: "高价值收藏卡", en: "High-value collectibles" },
+          ],
+        ],
+      },
+      {
+        type: "h2",
+        text: { zh: "选糖果枕式，当你：", en: "Choose Candy Wrap When" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "做大批量、成本敏感的标准 booster pack。",
+          en: "You run high-volume, cost-sensitive standard booster packs.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "需要 220 包/分的最高产能。",
+          en: "You need the highest throughput at 220 packs/min.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "产品本身不要求高防伪。",
+          en: "The product does not demand high tamper-evidence.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "选四边封，当你：", en: "Choose Four-Side Seal When" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "做高价值卡、限量卡，需要防伪防拆。",
+          en: "You make high-value or limited cards that need tamper-evidence.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "想要更平整、更高端的外观。",
+          en: "You want a flatter, more premium appearance.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "客户对封口完整性要求极高。",
+          en: "Your customers demand maximum seal integrity.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "两条线能共用吗？", en: "Can They Share a Line?" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "可以。发卡、计数、AI 视觉检测和装盒等前端模块是共用的，区别主要在包装主机。一条线可以配置换型方案，在同一硬件上切换两种包装方式。",
+          en: "Yes. The front-end modules — card feeding, counting, AI visual inspection and cartoning — are shared; the difference is mainly the wrapping host. A line can be configured with changeover tooling to switch between the two pack styles on the same hardware.",
+        },
+      },
+      {
+        type: "cta",
+        text: { zh: "了解糖果枕式方案", en: "Explore Candy Wrap" },
+        href: "/solutions#candy",
+      },
+      {
+        type: "cta",
+        text: { zh: "了解四边封方案", en: "Explore Four-Side Seal" },
+        href: "/solutions#four-sides",
+      },
+      {
+        type: "cta",
+        text: { zh: "查看设备型号", en: "See Machines" },
+        href: "/machines",
+      },
+    ],
+    faqs: [
+      {
+        question: {
+          zh: "四边封比糖果枕式贵多少？",
+          en: "How much more does four-side seal cost than candy wrap?",
+        },
+        answer: {
+          zh: "四边封用复合膜、封口结构更复杂，单台通常高 20%–40%，但换来更高的防伪与外观档次。",
+          en: "Four-side seal uses laminated film and a more complex sealing structure, typically 20% to 40% more per machine, but it delivers higher tamper-evidence and a more premium look.",
+        },
+      },
+      {
+        question: {
+          zh: "两种方式的卡面保护一样吗？",
+          en: "Do both methods protect the card face equally?",
+        },
+        answer: {
+          zh: "都保护卡面，但四边封全边热封更不易在运输中开裂，对娇贵闪卡更友好。",
+          en: "Both protect the card face, but four-side seal's all-edge heat seal is less likely to crack in transit and is friendlier to delicate foil cards.",
+        },
+      },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 选购指南", en: "TCG Buying Guide" } },
+      { href: "/blog/card-packaging-line-cost-lead-time", label: { zh: "产线成本与交期", en: "Line Cost and Lead Time" } },
+    ],
+  },
+  {
+    slug: "card-packaging-line-cost-lead-time",
+    date: "2026-11-03",
+    category: { zh: "成本与交期", en: "Cost and Lead Time" },
+    title: {
+      zh: "卡牌包装产线成本与交期拆解：钱和时间花在哪",
+      en: "Card Packaging Line Cost and Lead Time Breakdown: Where the Money and Time Go",
+    },
+    excerpt: {
+      zh: "从单机到整线的价格区间、影响成本的关键因素、以及每一段交付周期怎么算——一份帮采购做预算的拆解。",
+      en: "From single machine to full line price ranges, the key cost drivers, and how each lead-time stage adds up — a breakdown to help procurement build a budget.",
+    },
+    body: [
+      {
+        type: "p",
+        text: {
+          zh: "采购自动化卡牌包装线，预算和交期往往是决策的两大拦路虎。下面把价格区间、成本驱动因素和交付周期拆开讲清楚，帮你对账。",
+          en: "When procuring an automated card packaging line, budget and lead time are usually the two big decision blockers. The breakdown below separates price ranges, cost drivers and delivery stages so you can reconcile the numbers.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "按范围看价格", en: "Price Ranges by Scope" },
+      },
+      {
+        type: "table",
+        head: [
+          { zh: "范围", en: "Scope" },
+          { zh: "典型区间（美元）", en: "Typical range (USD)" },
+          { zh: "包含什么", en: "What is included" },
+        ],
+        rows: [
+          [
+            { zh: "单机包装机", en: "Single wrapping machine" },
+            { zh: "15 万–40 万", en: "150k to 400k" },
+            { zh: "一台包装主机 + 基础给料", en: "One wrapping host, basic feeding" },
+          ],
+          [
+            { zh: "含发卡与检测产线", en: "Line with feeding and inspection" },
+            { zh: "40 万–90 万", en: "400k to 900k" },
+            { zh: "发卡、计数、AI 视觉、包装", en: "Feeder, counter, AI vision, wrapper" },
+          ],
+          [
+            { zh: "全自动整线", en: "Full automatic line" },
+            { zh: "90 万–150 万", en: "900k to 1.5M" },
+            { zh: "+ 装盒、装箱、码垛", en: "+ cartoning, case packing, palletizing" },
+          ],
+        ],
+      },
+      {
+        type: "h2",
+        text: { zh: "什么会把成本推高", en: "What Drives Cost Up" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "定制工程（非标卡尺寸、特殊配方）。",
+          en: "Custom engineering (non-standard card sizes, special recipes).",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "检测等级（AI 视觉配置越高越贵）。",
+          en: "Inspection level (higher AI vision spec costs more).",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "后道自动化（装盒、码垛）。",
+          en: "Downstream automation (cartoning, palletizing).",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "材料处理与洁净车间要求。",
+          en: "Material handling and cleanroom requirements.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "按阶段看交期", en: "Lead Time by Stage" },
+      },
+      {
+        type: "li",
+        text: { zh: "标准单机：4–6 周。", en: "Standard machine: 4–6 weeks." },
+      },
+      {
+        type: "li",
+        text: { zh: "完整产线：6–8 周。", en: "Complete line: 6–8 weeks." },
+      },
+      {
+        type: "li",
+        text: { zh: "定制工程：8–12 周。", en: "Custom engineering: 8–12 weeks." },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "现场安装调试与培训：2–4 周。",
+          en: "On-site installation, commissioning and training: 2–4 weeks.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "怎么同时压缩钱和时间", en: "How to Shorten Both" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "尽早确认卡尺寸与包装方式，减少设计反复。",
+          en: "Confirm card sizes and packaging method early to reduce design churn.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "优先选有库存或短交期的标准模块。",
+          en: "Prioritize standard modules with stock or short lead times.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "让工厂提前介入产线布局规划。",
+          en: "Bring the factory in early for line layout planning.",
+        },
+      },
+      {
+        type: "cta",
+        text: { zh: "获取定制报价", en: "Get a Custom Quote" },
+        href: "/contact",
+      },
+      {
+        type: "cta",
+        text: { zh: "查看常见问题", en: "Read the FAQ" },
+        href: "/faq",
+      },
+      {
+        type: "cta",
+        text: { zh: "查看设备型号", en: "See Machines" },
+        href: "/machines",
+      },
+    ],
+    faqs: [
+      {
+        question: {
+          zh: "一条完整 TCG 产线交期要多久？",
+          en: "How long is the lead time for a complete TCG line?",
+        },
+        answer: {
+          zh: "标准配置 6–8 周，定制工程 8–12 周，加上现场安装调试 2–4 周；越早确认需求越能压缩。",
+          en: "Standard configuration is 6–8 weeks, custom engineering 8–12 weeks, plus 2–4 weeks for on-site installation and training; confirming requirements early compresses the schedule.",
+        },
+      },
+      {
+        question: {
+          zh: "报价包含安装和培训吗？",
+          en: "Does the quote include installation and training?",
+        },
+        answer: {
+          zh: "标准方案含远程调试指导，现场安装与操作员培训通常单列或按项目报价，下单前与工程师确认范围。",
+          en: "Standard packages include remote commissioning guidance; on-site installation and operator training are usually quoted separately or per project — confirm scope with an engineer before ordering.",
+        },
+      },
+    ],
+    relatedLinks: [
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
+      { href: "/faq", label: { zh: "常见问题", en: "FAQ" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 选购指南", en: "TCG Buying Guide" } },
+      { href: "/blog/candy-wrap-vs-four-side-seal-tcg", label: { zh: "糖果枕式 vs 四边封", en: "Candy Wrap vs Four-Side Seal" } },
     ],
   },
 
 ];
-
-export function getPost(slug: string): BlogPost | undefined {
-  return blogPosts.find((p) => p.slug === slug);
-}
-
-// redeploy trigger for post4 (card-count-off-metering) — forces Cloudflare rebuild
-// force-redeploy: CTA text update
