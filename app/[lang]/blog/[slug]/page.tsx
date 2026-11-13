@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { locales, type Locale } from "@/lib/i18n/config";
+import { locales, defaultLocale, localeOgLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BlogPostContent from "./BlogPostContent";
 import { blogPosts, getPost } from "@/lib/blogData";
+
+const BASE_URL = "https://chanfercard.com";
 
 type Props = { params: Promise<{ lang: string; slug: string }> };
 
@@ -24,12 +26,43 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
   const locale = lang as Locale;
   const t = (r: Record<string, string>) => r[locale] || r.en;
-  const baseUrl = "https://chanfercard.com";
+  const title = t(post.title);
+  const description = t(post.excerpt);
+  // Keep the canonical string exactly as before (Next.js trailingSlash adds the slash).
+  const canonical = `${BASE_URL}/${locale}/blog/${slug}`;
+  const pageUrl = `${BASE_URL}/${locale}/blog/${slug}/`;
+  const ogImage = `${BASE_URL}/images/og/og-image-${locale}.jpg`;
+
+  // Per-post hreflang: same article in every language, matching sitemap.xml
+  // <xhtml:link> entries. The page-level alternates object replaces the
+  // layout-level one, so languages must be declared here explicitly.
+  const languages: Record<string, string> = {};
+  for (const l of locales) {
+    languages[l] = `${BASE_URL}/${l}/blog/${slug}/`;
+  }
+  languages["x-default"] = `${BASE_URL}/${defaultLocale}/blog/${slug}/`;
+
   return {
-    title: t(post.title),
-    description: t(post.excerpt),
-    alternates: { canonical: `${baseUrl}/${locale}/blog/${slug}` },
+    title,
+    description,
+    alternates: { canonical, languages },
     robots: { index: true, follow: true },
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      locale: localeOgLocale[locale],
+      siteName: "CHANFER",
+      url: pageUrl,
+      publishedTime: new Date(post.date).toISOString(),
+      images: [{ url: ogImage, width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
   };
 }
 

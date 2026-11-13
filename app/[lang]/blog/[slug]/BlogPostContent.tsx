@@ -3,6 +3,22 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import type { Locale } from "@/lib/i18n/config";
 import type { BlogPost } from "@/lib/blogData";
 
+/** Small UI chrome labels, localized for all 9 locales. */
+const UI_LABELS: Record<
+  Locale,
+  { home: string; blog: string; related: string; published: string; faq: string }
+> = {
+  en: { home: "Home", blog: "Blog", related: "Related", published: "Published", faq: "FAQ" },
+  zh: { home: "首页", blog: "博客", related: "相关阅读", published: "发布于", faq: "常见问题" },
+  ru: { home: "Главная", blog: "Блог", related: "Читайте также", published: "Опубликовано", faq: "FAQ" },
+  it: { home: "Home", blog: "Blog", related: "Articoli correlati", published: "Pubblicato", faq: "FAQ" },
+  de: { home: "Startseite", blog: "Blog", related: "Weiterführende Artikel", published: "Veröffentlicht", faq: "FAQ" },
+  fr: { home: "Accueil", blog: "Blog", related: "Articles connexes", published: "Publié", faq: "FAQ" },
+  es: { home: "Inicio", blog: "Blog", related: "Artículos relacionados", published: "Publicado", faq: "FAQ" },
+  ko: { home: "홈", blog: "블로그", related: "관련 글", published: "게시일", faq: "FAQ" },
+  ja: { home: "ホーム", blog: "ブログ", related: "関連記事", published: "公開日", faq: "FAQ" },
+};
+
 export default function BlogPostContent({
   post,
   locale,
@@ -11,11 +27,8 @@ export default function BlogPostContent({
   locale: Locale;
 }) {
   const t = (r: Record<string, string>) => r[locale] || r.en;
-  const home = locale === "zh" ? "首页" : "Home";
-  const navBlog = locale === "zh" ? "博客" : "Blog";
-  const relatedTitle = locale === "zh" ? "相关阅读" : "Related";
-  const publishedOn = locale === "zh" ? "发布于" : "Published";
-  const faqTitle = locale === "zh" ? "常见问题" : "FAQ";
+  const { home, blog: navBlog, related: relatedTitle, published: publishedOn, faq: faqTitle } =
+    UI_LABELS[locale];
 
   const canonical = `https://chanfercard.com/${locale}/blog/${post.slug}`;
   const heroImageSrc = post.body.reduce<string | undefined>(
