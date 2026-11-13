@@ -270,6 +270,8 @@ export const blogPosts: BlogPost[] = [
 
     relatedLinks: [
 
+      { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
+
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
 
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
@@ -549,6 +551,8 @@ export const blogPosts: BlogPost[] = [
     ],
 
     relatedLinks: [
+
+      { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
 
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
 
@@ -3388,6 +3392,8 @@ export const blogPosts: BlogPost[] = [
 
     relatedLinks: [
 
+      { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
+
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
 
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
@@ -3762,6 +3768,8 @@ export const blogPosts: BlogPost[] = [
 
     relatedLinks: [
 
+      { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
+
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
 
       { href: "/solutions", label: { zh: "卡牌包装方案", en: "Card Packaging Solutions" } },
@@ -4093,6 +4101,8 @@ export const blogPosts: BlogPost[] = [
     ],
 
     relatedLinks: [
+
+      { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
 
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
 
@@ -4460,6 +4470,239 @@ export const blogPosts: BlogPost[] = [
 
 
 
+  {
+
+    slug: "pack-expo-2026-chicago-field-notes",
+
+    date: "2026-11-13",
+
+    category: { zh: "展会观察", en: "Trade Show Insights" },
+
+    title: {
+
+      zh: "CHANFER 走进 PACK EXPO International 2026：芝加哥北美包装市场一线观察",
+
+      en: "CHANFER at PACK EXPO International 2026: Field Notes from Chicago",
+
+    },
+
+    excerpt: {
+
+      zh: "2026 年 10 月，CHANFER 团队赴芝加哥 PACK EXPO International 考察北美包装自动化。走访四大展馆后，一个判断更清晰了：卡牌与纸品包装仍是差异化、远未饱和的应用场景。",
+
+      en: "In October 2026, the CHANFER team visited PACK EXPO International in Chicago to study North American packaging automation. Four halls, one clear finding: card and paper packaging remains a distinct, underserved application.",
+
+    },
+
+    body: [
+
+      {
+
+        type: "h2",
+
+        text: { zh: "我们此行要看什么", en: "What We Went to Find Out" },
+
+      },
+
+      {
+
+        type: "p",
+
+        text: {
+
+          zh: "2026 年 10 月，CHANFER 团队来到芝加哥麦考密克会展中心（McCormick Place），走访 PACK EXPO International 2026 的 Lakeside、North、South、West 四大展馆，聚焦北美包装自动化的发展方向，以及卡牌与纸品包装在这一版图里的位置。",
+
+          en: "In October 2026, the CHANFER team visited PACK EXPO International 2026 at McCormick Place in Chicago, walking all four halls — Lakeside, North, South and West — to understand where North American packaging automation is heading and how card and paper products fit into that picture.",
+
+        },
+
+      },
+
+      {
+
+        type: "h2",
+
+        text: { zh: "四大展馆，一个清晰信号", en: "Four Halls, One Clear Pattern" },
+
+      },
+
+      {
+
+        type: "p",
+
+        text: {
+
+          zh: "枕式包装机在各馆都很常见，但应用几乎全部集中在面包、饼干与巧克力。走遍四馆，我们没有看到与 CHANFER 卧式装袋／卡牌包装同类配置的应用场景。",
+
+          en: "Flow wrappers were everywhere — but almost exclusively for bread, biscuits and chocolate. Across every hall, we did not find a horizontal bagging application configured for card or paper products the way CHANFER builds it.",
+
+        },
+
+      },
+
+      {
+
+        type: "p",
+
+        text: {
+
+          zh: "对我们而言，这更像是对自身定位的一次确认，而非市场空白：卡牌与纸品包装在分张、计数、封口与后道整理上有自己的要求，通用食品产线并不擅长解决。把一件事做专，比把产线做全更有价值。",
+
+          en: "For us that is not a gap in the market so much as a confirmation of focus: card and paper packaging has its own feeding, counting, sealing and finishing requirements, and general-purpose food lines do not address them well. Doing one thing exceptionally well beats doing everything adequately.",
+
+        },
+
+      },
+
+      {
+
+        type: "h2",
+
+        text: { zh: "交流在延续", en: "Conversations That Continue" },
+
+      },
+
+      {
+
+        type: "p",
+
+        text: {
+
+          zh: "此行也与北美从事信封实时打印、贴标与卡片分张设备的同行进行了交流，探讨分张与贴标模块如何组合成完整产线。其中一些对话始于九月拉斯维加斯 PRINTING United Expo，在芝加哥继续深入——展会最有价值的产出，往往是展后的持续跟进。",
+
+          en: "We also spent time with North American suppliers of envelope printing, labelling and card-feeding equipment, exploring how dispensing and labelling modules can be combined into a complete line. Several of these conversations began at PRINTING United Expo in Las Vegas in September and continued in Chicago — a reminder that the most useful outcome of a show is often the follow-up.",
+
+        },
+
+      },
+
+      {
+
+        type: "h2",
+
+        text: { zh: "下一步", en: "Where We Go Next" },
+
+      },
+
+      {
+
+        type: "li",
+
+        text: {
+
+          zh: "把参展资源集中到与卡牌／纸品包装应用更契合的行业展会，包括上海全印展（All in Print China）。",
+
+          en: "Focus our trade-show presence on events that match card and paper packaging applications more closely, including All in Print China in Shanghai.",
+
+        },
+
+      },
+
+      {
+
+        type: "li",
+
+        text: {
+
+          zh: "加大实机演示投入，让客户带自己的样品来现场调封口与分张。",
+
+          en: "Invest in live, sample-based demonstrations so visitors can see sealing and feeding tuned to their own products.",
+
+        },
+
+      },
+
+      {
+
+        type: "li",
+
+        text: {
+
+          zh: "与北美合作伙伴持续推进模块化产线配置，把分张、贴标、装袋与检测按需组合。",
+
+          en: "Keep working with North American partners on modular line configurations that combine feeding, labelling, bagging and inspection as needed.",
+
+        },
+
+      },
+
+      {
+
+        type: "cta",
+
+        text: {
+
+          zh: "与工程师聊聊你的卡牌包装产线",
+
+          en: "Talk to Our Engineers About Your Card Packaging Line",
+
+        },
+
+        href: "/contact",
+
+      },
+
+    ],
+
+    relatedLinks: [
+
+      { href: "/blog/printing-united-expo-2026", label: { zh: "PRINTING United Expo 2026 拉斯维加斯", en: "PRINTING United Expo 2026, Las Vegas" } },
+
+      { href: "/blog/germany-card-packaging-expo", label: { zh: "INTERPACK 杜塞尔多夫现场", en: "INTERPACK Düsseldorf on the Floor" } },
+
+      { href: "/blog/candy-wrap-vs-four-side-seal-tcg", label: { zh: "糖果枕式 vs 四边封", en: "Candy Wrap vs Four-Side Seal" } },
+
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
+
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+
+    ],
+
+    faqs: [
+
+      {
+
+        question: {
+
+          zh: "CHANFER 在 PACK EXPO International 2026 有展位吗？",
+
+          en: "Did CHANFER have a booth at PACK EXPO International 2026?",
+
+        },
+
+        answer: {
+
+          zh: "没有。此次我们是随合作伙伴的展位进场，进行北美包装设备市场调研。CHANFER 2026 年在美国自设展位的展会是 9 月 23–25 日拉斯维加斯 PRINTING United Expo（北馆 N7411）。",
+
+          en: "No. We attended PACK EXPO as part of a market study with a partner's booth. CHANFER's own US booth in 2026 was at PRINTING United Expo in Las Vegas, September 23-25 (North Halls, Booth N7411).",
+
+        },
+
+      },
+
+      {
+
+        question: {
+
+          zh: "展会现场最常见的枕式包装应用是什么？",
+
+          en: "What flow-wrapping applications were most common on the show floor?",
+
+        },
+
+        answer: {
+
+          zh: "我们在四大展馆看到的枕式包装机，应用几乎全部集中在面包、饼干与巧克力等食品；未见到针对卡牌与纸品配置的同类卧式装袋应用。",
+
+          en: "Across all four halls, flow wrappers were demonstrated almost exclusively for bread, biscuits and chocolate. We did not see a horizontal bagging application configured for card or paper products.",
+
+        },
+
+      },
+
+    ],
+
+  },
 ];
 
 export function getPost(slug: string): BlogPost | undefined {
