@@ -1,2057 +1,2117 @@
-{
-  "meta": {
-    "title": "CHANFER | 게임 카드 및 보드게임 자동 포장 솔루션",
-    "description": "CHANFER (광저우 찬퍼 스마트 장비 유한회사) — 게임 카드, 보드게임, 트레이딩 카드를 위한 원스톱 자동 포장 솔루션. 6가지 포장 방식, 15년의 운영, 팀 경력 25년 이상, 전 세계 8,000곳 이상의 고객사 서비스 제공.",
-    "keywords": "카드 포장 기계, 게임 카드 포장, 보드게임 포장, 트레이딩 카드 포장, 자동 카드 공급기, 카드 포장기, 카드 밴딩기, 카드 수축 포장, 사면 실링 포장, 캔디 포장 기계, 카드 포장 라인, CHANFER, CUKKE"
-  },
-  "nav": {
-    "home": "홈",
-    "solutions": "포장 솔루션",
-    "machines": "기계",
-    "about": "회사 소개",
-    "contact": "문의하기",
-    "getQuote": "견적 요청",
-    "faq": "FAQ"
-  },
-  "topBar": {
-    "tagline": "원스톱 계수 및 포장 자동화 솔루션"
-  },
-  "hero": {
-    "badge": "게임 카드 및 보드게임 포장 전문가",
-    "title1": "원스톱",
-    "titleHighlight": "카드 포장",
-    "title2": "자동화",
-    "description": "공급, 계수부터 포장, 박싱, 팔레타이징까지 — CHANFER는 게임 카드, 트레이딩 카드, 보드게임을 위한 완전 자동 포장 라인을 제공합니다.",
-    "highlight1": "6가지 포장 방식",
-    "highlight2": "15년 이상",
-    "highlight3": "8,000곳 이상 고객사",
-    "highlightSuffix": " 운영, 팀 경력 25년 이상, ",
-    "highlightSuffix2": "전 세계 서비스 제공.",
-    "cta1": "솔루션 살펴보기",
-    "cta2": "견적 받기",
-    "expoLabel": "예정된 전시회",
-    "expoTitle": "PRINTING United Expo 2026",
-    "expoInfo": "부스 번호: North Halls N7411 | 9월 23–25일, 라스베가스",
-    "expoAlt": "PRINTING United Expo 2026 — CHANFER 부스 N7411",
-    "expoBadge": "라스베이거스 현장",
-    "expoHeadline": "N7411 부스에서 카드 라인 실기 시연",
-    "expoDesc": "9월 23–25일, 라스베이거스. 카드 샘플을 가지고 오시면 흠집 없는 이송, 1장씩 분리 공급, 안정적인 정렬이 실기로 구동되는 것을 보실 수 있습니다 — 엔지니어가 현장에서 바로 세팅합니다.",
-    "expoCta": "미국 전시회 9.23–25 예약",
-    "expoLink": "카드 포장 솔루션 보기"
-  },
-  "stats": {
-    "clients": "고객사",
-    "patents": "특허",
-    "experience": "운영 연수",
-    "team": "팀 구성원",
-    "experienceSub": "팀 경력 25년 이상"
-  },
-  "methods": {
-    "title": "게임 카드를 위한 6가지 포장 방식",
-    "description": "고속 캔디 포장부터 프리미엄 입체 박스까지 카드 제품에 가장 적합한 포장 형식을 선택하세요. 각 방식은 완전 통합 생산 라인으로 제공됩니다.",
-    "viewLine": "전체 라인 보기"
-  },
-  "whyUs": {
-    "title": "왜 CHANFER인가?",
-    "description": "단순한 기계 공급업체가 아닌, 제조 역량과 위탁 포장 서비스를 갖춘 엔드투엔드 포장 파트너입니다.",
-    "equipment": {
-      "title": "장비 제조사",
-      "desc": "직접 기계를 설계·제작합니다 — 중간 유통 없이 공장 직거래 가격과 완전한 기술 지원을 제공합니다."
-    },
-    "service": {
-      "title": "포장 서비스 제공업체",
-      "desc": "5,000m² 클린룸 시설에 자체 장비, 인력, 포장 필름을 갖추고 있습니다. 고객은 제품만 제공하시면 나머지는 저희가 처리합니다."
-    },
-    "smart": {
-      "title": "스마트 카드 배분",
-      "desc": "AI 비전 검사를 탑재한 컴퓨터 제어 카드 분류 시스템. 배치당 최대 25,000팩 처리, 100% 오류 감지."
-    },
-    "ai": {
-      "title": "AI 비전 검사",
-      "desc": "분당 400매 이상의 실시간 카드 검사. 잘못된 카드, 누락된 카드, 순서 오류를 즉시 감지합니다."
-    },
-    "integration": {
-      "title": "풀라인 통합",
-      "desc": "카드 공급부터 팔레타이징까지 — 협동 로봇과 스마트 제어 시스템을 갖춘 완전 턴키 생산 라인."
-    },
-    "quality": {
-      "title": "품질 보증",
-      "desc": "ISO9001 인증, 국가 하이테크 기업, 광동성 SRDI 인정. 100건 이상의 특허 및 CE 인증."
-    }
-  },
-  "smartSystem": {
-    "badge": "스마트 시스템",
-    "title": "컴퓨터 카드 배분 시스템",
-    "description": "당사의 지능형 카드 배분 시스템은 컴퓨터, 카드 분배기 및 다수의 카드 공급기를 사용하여 사전 설정된 레시피에 따라 카드를 자동으로 분류하고 포장합니다.",
-    "features": [
-      "Excel에서 카드 분류 프로세스 편집 — 간단하고 직관적",
-      "1,000개 이상의 프로세스 레시피 파일 저장 가능, 배치당 25,000팩",
-      "오류 방지 감지: 백카드 / 두께 / AI 비전 검사",
-      "오류 발생 시 자동 경보 및 정지, 문제 해결 후 빠른 재시작",
-      "6가지 포장 라인 구성 모두와 호환"
-    ],
-    "comparison": {
-      "title": "기존 방식 vs. CHANFER 스마트 라인",
-      "labels": {
-        "labor": "필요 인력",
-        "errorRate": "오류율",
-        "batchSize": "배치 크기",
-        "changeover": "교체 시간",
-        "qualityAssurance": "품질 보증"
-      },
-      "traditional": {
-        "labor": "다수 작업자",
-        "errorRate": "높음 (수동 계수)",
-        "batchSize": "소규모 데이터만",
-        "changeover": "30–60분",
-        "qualityAssurance": "수동 샘플링 검사"
-      },
-      "chanfer": {
-        "labor": "1–2명 작업자",
-        "errorRate": "0에 가까움 (AI 검사)",
-        "batchSize": "배치당 최대 25,000팩",
-        "changeover": "3–5분 (레시피 전환)",
-        "qualityAssurance": "100% 실시간 검사"
-      },
-      "traditionalLabel": "기존 방식",
-      "chanferLabel": "CHANFER"
-    }
-  },
-  "certifications": {
-    "title": "업계 리더들이 신뢰하는 기업",
-    "description": "CHANFER는 세계 최고의 인쇄 및 포장 기업을 포함하여 8,000곳 이상의 고객사에 서비스를 제공했습니다."
-  },
-  "timeline": {
-    "title": "회사 연혁",
-    "description": "단일 카드 공급기에서 풀 스펙트럼 포장 솔루션 제공업체로."
-  },
-  "solutions": {
-    "title1": "카드 포장",
-    "title2": "솔루션",
-    "description": "CHANFER는 게임 카드, 트레이딩 카드, 보드게임 구성품을 위한 6가지 검증된 포장 방식을 제공합니다. 각 방식은 자동 카드 공급부터 로봇 팔레타이징까지 완전 통합 생산 라인으로 이용 가능합니다.",
-    "specs": {
-      "speed": "속도",
-      "filmDia": "필름 롤 직경",
-      "filmWidth": "필름 폭",
-      "bagSize": "봉투 크기",
-      "innerDia": "내경",
-      "voltage": "전압",
-      "bandingWeight": "총 중량",
-      "bandingThickness": "제품 두께",
-      "bandingDimensions": "외형 치수",
-      "title": "기술 사양"
-    },
-    "keyFeatures": "주요 특징",
-    "idealFor": "적합 용도",
-    "watchInAction": "구동 영상 보기",
-    "videoComingSoon": "영상 준비 중",
-    "showLine": "생산 라인 및 공정 보기",
-    "hideLine": "생산 라인 및 공정 숨기기",
-    "completeLine": "완전 생산 라인",
-    "lineComponents": "생산 라인 구성 요소",
-    "process": "포장 공정",
-    "requestLine": "이 라인 문의하기",
-    "viewMachines": "개별 기계 보기",
-    "cta": {
-      "title": "어떤 포장 방식이 적합할지 고민되시나요?",
-      "description": "저희 엔지니어가 귀하의 카드 제품 사양을 분석하고 최적의 포장 방식과 라인 구성을 추천해 드립니다.",
-      "button": "무료 상담 받기"
-    },
-    "solutionsData": {
-      "candy": {
-        "name": "캔디 포장",
-        "subtitle": "카드 캔디 포장",
-        "description": "고속 필로우래핑 방식 — TCG 부스터팩 및 컬렉션 카드 슬리브에 가장 인기 있는 방식. ",
-        "features": [
-          "서보제어 봉투 길이 — 설정 및 절단, 빈 행정 없음",
-          "고감도 광전센서 추적으로 정밀 밀봉",
-          "HMI에 저장되는 최대 60개 포장 파라미터 프리셋",
-          "오작동 방지: 제품 교체 시 자동 역회전",
-          "필름 없음 자동 정지로 낭비 방지",
-          "핀홀 배기"
-        ],
-        "processSteps": {
-          "1": "마찰 급지 계수",
-          "2": "플로우 포장 기계",
-          "3": "중량검사(NG 배출)",
-          "4": "수동 카톤닝",
-          "5": "케이스 패킹",
-          "6": "수축포장",
-          "7": "H형 카톤 실러",
-          "8": "협업 팔레타이징 로봇"
-        },
-        "lineComponents": {
-          "Friction Feeder": "마찰 급지기",
-          "Flow Packing Machine": "플로우 포장 기계",
-          "Sealing & Cutting Shrinkage Machine": "밀봉 절단 수축 기계",
-          "Unpacking Machine": "언패킹 머신",
-          "H-Type Carton Sealer": "H형 카톤 실러",
-          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
-        },
-        "idealFor": [
-          "TCG 부스터팩",
-          "컬렉션 카드 슬리브",
-          "게임 카드 멀티팩",
-          "프로모 카드 번들"
-        ]
-      },
-      "self-adhesive": {
-        "name": "자접착 테이프 포장",
-        "subtitle": "카드 자접착 테이프 포장",
-        "description": "재밀봉 가능한 자접착 테이프 봉투 — 재밀봉이 필요한 프리미엄 카드 제품에 적합합니다. 각 봉투는 반복 개폐용 벗김-붙임 스트립이 있습니다.",
-        "features": [
-          "세 가지 밀봉 방식: 자접착, 핫컷 또는 핫프레스",
-          "자동 보정으로 포장 손실 감소",
-          "빈 봉투 감지 — 재료 없음, 필름 낭비 없음",
-          "멀티 스펙 제품에 자유롭게 조절 가능한 봉투 폭",
-          "원클릭 리셋 및 양방향 위치 제어",
-          "정확한 계수 및 배치 포장을 위한 점 기억"
-        ],
-        "processSteps": {
-          "1": "마찰 급지 계수",
-          "2": "봉투 충전 기계",
-          "3": "수동 카톤닝",
-          "4": "밀봉 절단 수축",
-          "5": "케이스 패킹",
-          "6": "H형 카톤 실러",
-          "7": "협업 팔레타이징 로봇"
-        },
-        "lineComponents": {
-          "Friction Feeder": "마찰 급지기",
-          "Bagging Machine": "봉투 충전 기계",
-          "Sealing & Cutting Shrinkage Machine": "밀봉 절단 수축 기계",
-          "Unpacking Machine": "언패킹 머신",
-          "H-Type Carton Sealer": "H형 카톤 실러",
-          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
-        },
-        "idealFor": [
-          "프리미엄 컬렉션 세트",
-          "재밀봉 가능한 카드 저장 봉투",
-          "매장 전시 카드 팩",
-          "한정판 번들"
-        ]
-      },
-      "four-sides": {
-        "name": "4면 밀봉 포장",
-        "subtitle": "카드 4면 밀봉 포장",
-        "description": "4변 열 밀봉 포장 — 프리미엄 위조방지 프레젠테이션을 제공합니다. 완전 밀봉된 모서리는 습기와 오염으로부터 보호합니다.",
-        "features": [
-          "7개 서보모터로 초안정 작동",
-          "3색 전기 눈 정밀 텍스트/이미지 정렬",
-          "독특한 왕복 절단 및 열 용접 기술",
-          "고속 밀봉 — 분당 150봉투에서도 견고하고 안정적",
-          "터치스크린 HMI가 있는 프로그램 가능한 PLC 제어",
-          "스폰지 배기식 밀봉"
-        ],
-        "processSteps": {
-          "1": "마찰 급지 계수",
-          "2": "4면 밀봉 기계",
-          "3": "카톤닝 기계",
-          "4": "봉투 및 카톤닝",
-          "5": "언패킹 머신",
-          "6": "H형 카톤 실러",
-          "7": "협업 팔레타이징 로봇"
-        },
-        "lineComponents": {
-          "Friction Feeder": "마찰 급지기",
-          "Four-Side Sealing Packing Machine": "4면 밀봉 기계",
-          "Cartoning Machine": "카톤닝 기계",
-          "Unpacking Machine": "언패킹 머신",
-          "H-Type Carton Sealer": "H형 카톤 실러",
-          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
-        },
-        "idealFor": [
-          "고가치 거래 카드",
-          "위조방지 밀봉 카드",
-          "프리미엄 컬렉션 카드 팩",
-          "습기에 민감한 카드 제품"
-        ]
-      },
-      "banding": {
-        "name": "밴딩 포장",
-        "subtitle": "카드 밴딩 포장",
-        "description": "친환경 종이 밴드 묶음 — 카드 덱 포장에 가장 지속 가능한 방식. 최소 자재로 안전한 묶음을 유지합니다.",
-        "features": [
-          "PLC 제어 및 터치스크린 서보모터 구동",
-          "자동 카드 발행 + 벨트 묶음 일회 작업",
-          "광전기 제어 자동 발급 및 묶음",
-          "다기능 설정: 카드 수량, 재료, 밴드 알람",
-          "제품 두께 범위: 0.1–3mm",
-          "최대 제품 크기: 100×150mm"
-        ],
-        "processSteps": {
-          "1": "마찰 급지 계수",
-          "2": "밴딩 기계",
-          "3": "수동 패킹",
-          "4": "카톤닝 기계",
-          "5": "언패킹 머신",
-          "6": "H형 카톤 실러",
-          "7": "협업 팔레타이징 로봇"
-        },
-        "lineComponents": {
-          "Friction Feeder": "마찰 급지기",
-          "Banding Machine": "밴딩 기계",
-          "Cartoning Machine": "카톤닝 기계",
-          "Unpacking Machine": "언패킹 머신",
-          "H-Type Carton Sealer": "H형 카톤 실러",
-          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
-        },
-        "idealFor": [
-          "보드게임 카드 덱",
-          "표준 플레잉카드 덱",
-          "친환경 카드 포장",
-          "멀티덱 번들"
-        ],
-        "specs": {
-          "bandingThickness": "0.1-3mm",
-          "bandingDimensions": "약(길이) 2200×(너비) 1200×(높이) 1500mm",
-          "bandingWeight": "약 260KG"
-        }
-      },
-      "heat-shrink": {
-        "name": "수축 포장",
-        "subtitle": "카드 수축 포장",
-        "description": "꼭 맞는 수축 필름 포장 — 우수한 보호성과 함께 360° 제품 가시성을 제공합니다. 수축 필름은 제품 윤곽에 밀착합니다.",
-        "features": [
-          "얇은/작은 포장용 수입 광전 검출기",
-          "전기 눈 + 타이머 길이 조정 자동 급지",
-          "실수 절단 방지 날 자동 보호",
-          "필름 상하 동기화 메커니즘 편차 수정",
-          "아름다운 용접선을 위한 조절 가능한 열풍 방향"
-        ],
-        "processSteps": {
-          "1": "마찰 급지 계수",
-          "2": "플로우 포장 기계",
-          "3": "수축로",
-          "4": "수동 카톤닝",
-          "5": "케이스 패킹",
-          "6": "언패킹 머신",
-          "7": "H형 카톤 실러",
-          "8": "협업 팔레타이징 로봇"
-        },
-        "lineComponents": {
-          "Friction Feeder": "마찰 급지기",
-          "Flow Packing Machine": "플로우 포장 기계",
-          "Shrinking Machine": "수축로",
-          "Cartoning Machine": "카톤닝 기계",
-          "Unpacking Machine": "언패킹 머신",
-          "H-Type Carton Sealer": "H형 카톤 실러",
-          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
-        },
-        "idealFor": [
-          "카드 박스 멀티팩 번들",
-          "판매 준비 프레젠테이션",
-          "투명 디스플레이 포장",
-          "선반 준비 제품"
-        ]
-      },
-      "three-dimensional": {
-        "name": "3차원 포장",
-        "subtitle": "카드 3차원 포장",
-        "description": "박스형 3D 포장 — 한 장의 평면 필름으로 단단한 박스형 포장을 만듭니다. 날카로운 모서리와 단단한 느낌의 프리미엄 프레젠테이션입니다.",
-        "features": [
-          "평면 필름에서 단단한 박스형 포장 생성",
-          "날카로운 모서리와 프리미엄 프레젠테이션",
-          "두꺼운 제품 적합(최대 65mm 높이)",
-          "일관된 품질을 위한 서보 제어",
-          "터치스크린 인터페이스가 있는 프로그램 가능한 PLC"
-        ],
-        "processSteps": {
-          "1": "마찰 급지 계수",
-          "2": "3차원 포장 기계",
-          "3": "수동 카톤닝",
-          "4": "케이스 패킹",
-          "5": "언패킹 머신",
-          "6": "H형 카톤 실러",
-          "7": "협업 팔레타이징 로봇"
-        },
-        "lineComponents": {
-          "Friction Feeder": "마찰 급지기",
-          "Three-Dimensional Packaging Machine": "3차원 포장 기계",
-          "Cartoning Machine": "카톤닝 기계",
-          "Unpacking Machine": "언패킹 머신",
-          "H-Type Carton Sealer": "H형 카톤 실러",
-          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
-        },
-        "idealFor": [
-          "프리미엄 수집 박스",
-          "선물 세트 카드 포장",
-          "하이엔드 제품 프레젠테이션",
-          "한정판 번들"
-        ]
-      }
-    },
-    "viewDetails": "상세 보기",
-    "benefitsTitle": "핵심 장점",
-    "relatedMachinesTitle": "이 솔루션에 권장하는 장비",
-    "viewMachineDetails": "장비 상세 보기",
-    "faqTitle": "자주 묻는 질문",
-    "otherSolutionsTitle": "기타 포장 방식"
-  },
-  "machines": {
-    "title1": "기계",
-    "title2": "카탈로그",
-    "description": "고속 마찰 공급기부터 AI 비전 검사 시스템까지 — 카드 제품을 위한 자동 포장 기계 전체 라인업.",
-    "search": "기계 검색...",
-    "showing": "{count}대의 기계 표시 중",
-    "noResults": "검색 조건에 맞는 기계가 없습니다.",
-    "clearFilters": "필터 초기화",
-    "specifications": "사양",
-    "moreSpecs": "+{count}개 추가 사양",
-    "inquire": "{model} 문의하기",
-    "categories": {
-      "all": "전체 기계",
-      "feeding": "카드 공급",
-      "packaging": "포장",
-      "boxing": "박싱 및 실링",
-      "palletizing": "팔레타이징",
-      "ai": "AI 비전"
-    },
-    "model": "모델",
-    "machinesData": {
-      "fkj-100sl": {
-        "name": "자동 마찰 피더",
-        "description": "서보 PLC, 800카드/분(CR80). 자동 알람.",
-        "features": [
-          "서보 모터 구동, PLC 제어, 터치스크린",
-          "최대 속도 60m/분",
-          "단장/다장/연속 카드 공급",
-          "카드 누락 및 결품 자동 알람",
-          "자동 포장 장비와 통합"
-        ],
-        "applications": [
-          "엽서, 그리팅 카드, 행택",
-          "접지 매뉴얼 및 포스터",
-          "카드북, 노트, 잡지"
-        ]
-      },
-      "fkj-200e": {
-        "name": "경제형 마찰 피더",
-        "description": "서보, 500카드/분. 소/중량 생산.",
-        "features": [
-          "서보 모터 구동, PLC 제어",
-          "안정적인 중속 공급",
-          "자동 알람 기능",
-          "포장 라인과의 쉬운 통합"
-        ],
-        "applications": [
-          "대형 포맷 카드 및 인쇄물",
-          "매뉴얼 및 판촉물",
-          "중형 시트 제품"
-        ]
-      },
-      "fkj-300e": {
-        "name": "중속 마찰 피더",
-        "description": "서보, 600카드/분. 중량 생산.",
-        "features": [
-          "대형 포맷 제품 처리",
-          "서보 제어 정밀도",
-          "광전 감지 제어",
-          "PLC 프로그래밍 가능 동작"
-        ],
-        "applications": [
-          "대형 포맷 카드 및 보드게임 부품",
-          "초대형 인쇄물",
-          "게임 보드 및 대형 카드"
-        ]
-      },
-      "fkj-420e": {
-        "name": "대형 마찰 피더",
-        "description": "대형 카드 및 보드.",
-        "features": [
-          "초광폭 공급 능력",
-          "안정적인 서보 동작",
-          "간편한 터치스크린 제어",
-          "두꺼운 소재용 견고한 구조"
-        ],
-        "applications": [
-          "보드게임 보드 및 대형 부품",
-          "초광폭 인쇄물",
-          "다페이지 책형 제품"
-        ]
-      },
-      "fkj-600c": {
-        "name": "FKJ-600C 마찰 피더",
-        "description": "FKJ-600C 마찰 피더는 최대 600mm 폭 시트 제품용. 서보 PLC, 터치스크린 조작으로 최대 200장/분. 카드 누락·무카드 자동 알람.",
-        "longDescription": [
-          "FKJ-600C는 CHANFER의 대형 시트용 마찰 피더, 서보 PLC, 최대 200장/분 (최대 600mm 폭).",
-          "단발, 다발, 연속 공급 모드를 지원하며, 베개형 포장기, 수직형 포장기, 케이스 실러, 자동 컨베이어, 자동 수축 포장기 등과 연동하여 완전 자동화된 포장 라인을 구축합니다."
-        ],
-        "features": [
-          "서보 모터 구동 + PLC 컨트롤러 + 터치스크린; 화면에서 모든 설정 및 조작, 데이터 저장 기능, 시작 시 자동 운전",
-          "서보 모터 최고 속도 60m/분",
-          "전자동 포장기와 연결하여 포장 수량에 따른 고속 자동 공급",
-          "카드 누락·무카드 시 자동 알람; 단발, 다발, 연속 공급 모드",
-          "광전 제어; 메인 전원 투입 후 센서 감지로 자동 공급",
-          "자동화 포장 설비와 매칭하여 일체화 자동 포장 실현",
-          "사전 공급 길이, 회당 공급 수량, 이중 또는 무카드 시 자동 정지 알람 등 다기능 설정, 실시간 온라인 제어",
-          "구조 설계가 합리적이어서 소모품 교체가 간단하고 신속"
-        ],
-        "applications": [
-          "시트 제품: 경품권, 합격증, 카드, 게임 카드, 엽서, 인사말 카드, 태그, 라벨, 포장 봉투, 미성형 용기, 봉투, 홍bao, A4 용지, 보증서 등",
-          "접힌 제품: 설명서, 포스터, 다양한 크기의 접힌 제품",
-          "소책자 제품: 설명서, 카드북, 노트, 만화, 다양한 크기의 잡지"
-        ],
-        "specs": {
-          "Card Thickness": "0.1–3mm",
-          "Card Size": "길이 100–500mm × 폭 200–600mm",
-          "Feeding Speed": "약 200장/분(카드 크기에 따라 다름)",
-          "Power": "220V / 800W",
-          "Machine Size": "약 길이 888 × 폭 993 × 높이 558mm",
-          "Weight": "약 65KG"
-        },
-        "relatedMachineIds": [
-          "fkj-100sl",
-          "fkj-200e",
-          "cxfy-80a"
-        ],
-        "relatedSolutionIds": [
-          "candy",
-          "self-adhesive",
-          "four-sides"
-        ],
-        "ctaTitle": "FKJ-600C에 관심?",
-        "ctaDescription": "FKJ-600C의 상세 사양, 견적 및 라인 통합 안내를 받아보세요."
-      },
-      "cxfy-80a": {
-        "name": "단일 헤드 행성식 카드 흡입 공급기",
-        "description": "작고 변형 가능한 단일 시트 제품용 단일 헤드 측면 흡입 카드 공급기。서보 구동 PLC 제어 터치스크린, 최대 60장/분。",
-        "features": [
-          "서보 구동, PLC 제어, 터치스크린",
-          "자동 포장기와 연결 가능",
-          "자동 알람 기능 + 단발/연속 공급 모드",
-          "광전 제어를 통한 자동 카드 공급",
-          "합리적인 구조, 소모품 교체 간편"
-        ],
-        "applications": [
-          "게임 카드, 엽서, 플라스틱 카드",
-          "작고 변형 가능한 단일 시트 제품",
-          "베개형/백형/박스 밀봉 라인과의 통합"
-        ]
-      },
-      "three-head-suction": {
-        "name": "삼두 흡입 피더",
-        "description": "진공, 삼역. 매끄러운 카드.",
-        "features": [
-          "3헤드 유성 흡착 메커니즘",
-          "파나소닉 압력 감지 스위치",
-          "무카드 자동 알람",
-          "서보 모터 및 PLC 제어"
-        ],
-        "applications": [
-          "게임 카드 및 TCG 카드",
-          "얇은 플라스틱 카드 및 필름",
-          "변형 가능한 시트 제품"
-        ]
-      },
-      "four-head-suction": {
-        "name": "사두 흡입 피더",
-        "description": "진공, 사역. 최고 속도.",
-        "features": [
-          "4헤드 동시 작동",
-          "대량 라인용 최대 처리량",
-          "서보 정밀 제어",
-          "실시간 압력 모니터링"
-        ],
-        "applications": [
-          "고속 카드 생산 라인",
-          "대량 카드 포장",
-          "세심한 취급이 필요한 프리미엄 카드 제품"
-        ]
-      },
-      "card-dispensing-matching": {
-        "name": "카드 배출 분류기",
-        "description": "배출 분류, 정밀 카운팅.",
-        "features": [
-          "컴퓨터 제어 디스패칭 시스템",
-          "카드 분류용 EXCEL 레시피 편집",
-          "공정 레시피 파일 1,000개 이상 저장 가능",
-          "초음파 이중시트/비전/두께 검사",
-          "배치당 최대 25,000팩"
-        ],
-        "applications": [
-          "멀티 카드 팩 조립 (TCG, CCG)",
-          "복잡한 카드 분류 및 매칭",
-          "가변 레시피 배치 생산"
-        ]
-      },
-      "zs-220x": {
-        "name": "상부 필름 푸시형 포장기",
-        "description": "상부 필름 푸시형 베개형 포장기로, 필름 폭 75–220mm의 평평한 제품용입니다. 서보 제어 20–220팩/분, 중심 밀봉 패턴 커스터마이징, 코더/펀처/라벨러 옵션。",
-        "features": [
-          "상부 필름 푸시 구조, 서보 제어로 정확한 봉투 길이와 절단 위치",
-          "필름 폭 75–220mm, 카드 등 평평한 제품에 적합",
-          "중심 밀봉 및 칼 패턴 커스터마이징 가능",
-          "코더, 펀처, 라벨러 옵션; 테일 컨베이어 연장/단축 가능",
-          "순수 PE 필름 비권장; 라인 속도는 제품과 필름 재질에 따라 최대 약 25m/분"
-        ],
-        "applications": [
-          "필름 폭 220mm 이하의 평평한 제품(카드)",
-          "TCG 부스터 팩, 카드 슬리브, 카드 다중 팩",
-          "불규칙하거나 대량 낱개 제품에는 부적합"
-        ]
-      },
-      "sbf-250": {
-        "name": "사방 밀봉기",
-        "description": "칠서보, 150팩/분. 삼색.",
-        "features": [
-          "7개 서보 모터로 안정적 운전",
-          "3색 전기 아이 추적",
-          "왕복식 절단 및 열밀봉 기술",
-          "PLC 프로그래밍 가능 제어"
-        ],
-        "applications": [
-          "카드 사면 밀봉 포장",
-          "프리미엄 제품 포장",
-          "훼손 방지 포장"
-        ]
-      },
-      "qdzd-2130": {
-        "name": "자가접착 기계",
-        "description": "삼방식. 재밀봉.",
-        "features": [
-          "3가지 밀봉 방식 선택 가능",
-          "자동 정렬(보정) 기능",
-          "에어백 방지 검사",
-          "원터치 리셋 및 양방향 제어",
-          "흡착 컵 백 인출"
-        ],
-        "applications": [
-          "카드 자착 스트립 포장",
-          "프리미엄 재밀봉 카드 백",
-          "소매 전시 포장"
-        ]
-      },
-      "zdqd-1520": {
-        "name": "접착 스트립 포장기",
-        "description": "카드 제품 및 시트 자재용 고속 자루 포장기. 서보 구동 PLC 제어, 20–80개/분.",
-        "features": [
-          "서보 모터 구동의 프로그래머블 PLC 제어",
-          "주요 부위에 수입 베어링 적용, 고속 안정 운전",
-          "터치스크린으로 속도·동작시간·생산량 확인",
-          "다양한 시트 자재에 대응하는 뛰어난 적응성"
-        ],
-        "applications": [
-          "카드 접착 스트립 포장",
-          "인쇄물 포장",
-          "문서 및 서류 포장"
-        ]
-      },
-      "pof-shrink": {
-        "name": "POF 열수축기",
-        "description": "360°. 수입 센서, 날 보호.",
-        "features": [
-          "수입 검출 광전 센서",
-          "테플론 코팅 고온 합금 실링 나이프",
-          "필름 상하 동기화 메커니즘",
-          "실링 나이프 자동 보호"
-        ],
-        "applications": [
-          "카드 수축 포장",
-          "매장 즉시 판매용 카드 포장",
-          "다제품 번들링"
-        ],
-        "model": "수직 씰링기 CF-A6345 + 수축 터널 CF-SJ550",
-        "specGroups": [
-          {
-            "title": "수직 씰링기 CF-A6345",
-            "specs": {
-              "Machine Size": "1898(L) × 1125(W) × 1568(H)mm",
-              "Sealing Knife Size": "630(L) × 465(W)mm",
-              "Package Size": "(90–560)L × (50–380)W × (10–180)Hmm",
-              "Conveyor Speed": "max 26m/min",
-              "Power": "1P 220V, 2.5KW"
-            }
-          },
-          {
-            "title": "수축 터널 CF-SJ550",
-            "specs": {
-              "Machine Size": "1900(L) × 1075(W) × 1230(H)mm",
-              "Shrink Tunnel Size": "1500(L) × 540(W) × 350(H)mm",
-              "Package Size": "400(W) × 300(H)mm",
-              "Conveyor Speed": "0–35m/min",
-              "Power": "3P 380V, 14KW"
-            }
-          }
-        ]
-      },
-      "cartoning": {
-        "name": "자동 카토닝기",
-        "description": "서보, 연속. 카드를 카톤에.",
-        "features": [
-          "자동 공급·개봉·삽입·밀봉",
-          "서보/스텝 모터 + PLC 제어",
-          "광전 감지 — 빈 봉투는 포장 안 함",
-          "규격 변경 시 금형 교환 불필요"
-        ],
-        "applications": [
-          "카드 제품 카토닝(상자 포장)",
-          "제약 및 식품 상자 포장",
-          "생활 화학 제품 포장"
-        ]
-      },
-      "carton-forming": {
-        "name": "카톤 성형기",
-        "description": "자동 성형. 서보.",
-        "features": [
-          "흡착·성형·밀봉 일체 완성",
-          "수직 적재 — 정지 없이 보충",
-          "PLC & HMI 터치스크린 제어",
-          "맞춤형 규격 설계 가능"
-        ],
-        "applications": [
-          "카드 제품 케이스 성형",
-          "다산업 카톤 성형",
-          "자동 케이스 조립(개봉)"
-        ]
-      },
-      "h-type-sealer": {
-        "name": "H형 밀봉기",
-        "description": "H 밀봉. 서보, 연속.",
-        "features": [
-          "상하 자동 테이프 밀봉",
-          "90° 회전으로 사면 밀봉",
-          "참신하고 정밀한 구조 설계",
-          "수동 폭/높이 조절"
-        ],
-        "applications": [
-          "카드 제품 케이스 밀봉",
-          "산업용 카톤 밀봉",
-          "사면 테이프 밀봉"
-        ]
-      },
-      "cf-bd-5050": {
-        "name": "I형 박스 밀봉기",
-        "description": "자동 I형 박스 밀봉기. 수동으로 덮개를 접은 후 박스를 밀어넣으면 자동으로 바닥과 윗부분을 밀봉합니다. 안정적이고 효율적이며 깔끔합니다.",
-        "features": [
-          "수동 접은 후 자동으로 바닥과 윗부분 테이프 밀봉",
-          "길이·너비·높이 수동 조절로 빠른 사이즈 전환",
-          "칼날 보호장치로 의외의 상해 방지",
-          "동일 사양 박스 대량 밀봉에 적합"
-        ],
-        "applications": [
-          "카드 제품 박스 밀봉",
-          "이커머스·물류 박스 밀봉",
-          "식품·생활용품 박스 밀봉"
-        ]
-      },
-      "cf-a5645": {
-        "name": "자동 L형 밀봉 절단기",
-        "description": "POF/PE 수축 필름용 자동 L형 밀봉 절단기입니다. 수축 터널과 함께 사용하여 자동 밀봉 및 절단을 수행하며, 도서, 장난감, 전자제품, 일용품 등의 외포장에 널리 사용됩니다.",
-        "features": [
-          "필름 자동 공급, 밀봉, 절단 및 폐기물 회수",
-          "일정한 온도의 밀봉 나이프로 견고하고 깔끔한 밀봉",
-          "내구성 있는 스테인리스 히트 나이프",
-          "광전 감지 자동 제품 공급",
-          "컨베이어 속도 조절 가능",
-          "POF/PE 수축 필름 호환"
-        ],
-        "applications": [
-          "도서, 장난감, 전자제품 외포장",
-          "식품, 일용품, 화장품 수축 포장",
-          "수축 터널과 연계된 생산 라인"
-        ]
-      },
-      "palletizing-robot": {
-        "name": "협동 팔레타이징 로봇",
-        "description": "울타리 없음. 유연한 프로그래밍.",
-        "features": [
-          "3시간 내 설치 및 디버깅",
-          "팔레타이징 레시피 100개 이상 저장 가능",
-          "좌우 동시 적재 패턴",
-          "작업자 충돌 방지",
-          "정전 흡착 컵 안전 — 소재 낙하 방지"
-        ],
-        "applications": [
-          "카드 제품 케이스 팔레타이징",
-          "다산업 팔레타이징",
-          "협동형 라인 말단 자동화"
-        ]
-      },
-      "ai-visual": {
-        "name": "AI 비전 검사 시스템",
-        "description": "실시간. 결함 감지.",
-        "features": [
-          "오류 검출률 100% (최소 5×5mm)",
-          "실시간 검출 400장/분 이상",
-          "신규 카드 템플릿 AI 자가 학습",
-          "OCR 문자 검출 (중국어, 영어, 숫자)",
-          "혼합 주문 검출 100ms 이내",
-          "신규 배치 학습 최소 3분"
-        ],
-        "applications": [
-          "생산 라인 카드 오류 검출",
-          "OCR 문자 검증",
-          "혼합 주문 및 순서 검출",
-          "카드 포장 품질 보증"
-        ]
-      },
-      "zs-590wsc": {
-        "name": "상면필름 푸시식 측면실링 왕복 열수축 포장기",
-        "description": "ZS-590WS-C 상면필름 푸시식 측면실링 왕복 열수축 포장기. SL-3020 수축로 세트. 최대 필름 폭 590mm, 백 길이 120-1000mm, 제품 높이 5-100mm. 서보 백 길이 제어, 컬러 터치스크린, 40가지 파라미터 저장, 독립 PID 온도 제어.",
-        "features": [
-          "서보 제어: 백 길이 설정 후 즉시 절단, 공회전 없이 시간과 필름 절약",
-          "컬러 터치스크린으로 40가지 포장 파라미터 저장",
-          "자가 진단 기능으로 고장 표시가 한눈에 들어옴",
-          "독립 PID 온도 제어로 다양한 포장 재질에 적합",
-          "위치 정지 기능: 칼날이 달라붙지 않고 필름 낭비 없음",
-          "구동계가 간결하여 작업이 안정적이고 유지보수가 용이",
-          "제품 절단 시 자동 역회전, 재가동 후 바로 개기 용이",
-          "SL-3020 수축로: 200-300℃ 조절 가능, 온도 편차가 작고 전압 변동에 강함",
-          "상하/좌우 대류로 로 내 온도가 균일하여 주름 없이 필름 손상 없는 수축",
-          "승온이 빠르고 수명이 길며 에너지 소비가 낮음",
-          "빠른 성형으로 필름 표면이 평탄하고 광택 있음",
-          "열풍 회수 및 보온성이 우수하여 기존 로보다 전력 절약"
-        ],
-        "applications": [
-          "카드, 포커, 보드게임 액세서리 등 열수축 포장",
-          "필름 폭 ≤590mm, 높이 ≤100mm의 규칙적 또는 불규칙한 고체 제품",
-          "단일 사양 또는 안정적 사양의 자동 포장 라인"
-        ]
-      },
-      "semi-auto-carton-sealer": {
-        "name": "Semi-Automatic Carton Sealer",
-        "description": "Semi-automatic left/right drive carton sealing machine. Operator folds flaps manually; machine seals top and bottom tape automatically.",
-        "features": [
-          "Left/right belt drive for stable carton transport",
-          "Manual flap folding + automatic top/bottom taping",
-          "Adjustable width/height for cartons 150–500mm",
-          "Works with 48/60/72mm tape widths",
-          "Compact design, easy to move and position"
-        ],
-        "applications": [
-          "Card product carton sealing",
-          "Small-batch e-commerce packaging",
-          "Semi-automatic end-of-line sealing"
-        ],
-        "model": "반자동 좌우 구동 박스 봉인기"
-      }
-    },
-    "featuresTitle": "특징",
-    "applicationsTitle": "응용 분야",
-    "viewDetails": "상세 보기",
-    "specLabels": {
-      "Card Thickness": "카드 두께",
-      "Card Size": "카드 크기",
-      "Feeding Speed": "공급 속도",
-      "Power": "전원",
-      "Machine Size": "기계 크기",
-      "Weight": "중량",
-      "Packaging Speed": "포장 속도",
-      "Film Width": "필름 폭",
-      "Bag Length": "봉지 길이",
-      "Bag Width": "봉지 폭",
-      "Product Height": "제품 높이",
-      "Roll Film Diameter": "필름 롤 직경",
-      "Conveyor Speed": "컨베이어 속도",
-      "Sealing Knife Size": "실링 나이프 크기",
-      "Package Size": "포장 크기",
-      "Encasing Speed": "카톤닝 속도",
-      "Box Dimension": "상자 규격",
-      "Carton Size": "카톤 크기",
-      "Speed": "속도",
-      "Load": "하중",
-      "Working Radius": "작업 반경",
-      "Stacking Height": "적재 높이",
-      "Pallet Size": "팔레트 크기",
-      "Product Length": "제품 길이",
-      "Product Width": "제품 폭",
-      "Bag Size": "봉투 크기",
-      "Air Pressure": "공기압",
-      "Air Consumption": "공기 소비량",
-      "Packaging materials": "포장 재료",
-      "Inner Diameter of Film Roll": "필름 롤 내경",
-      "Product Size": "제품 크기",
-      "Tape Size": "테이프 크기",
-      "Belt Speed": "벨트 속도",
-      "Table Height": "작업대 높이",
-      "Sealing Temperature": "밀봉 온도",
-      "Film Material": "필름 재질",
-      "Shrink Tunnel Size": "수축 터널 크기"
-    }
-  },
-  "about": {
-    "title1": "CHANFER",
-    "title2": "소개",
-    "description": "장비 제조부터 위탁 포장 서비스까지 — 자동 카드 포장을 위한 원스톱 파트너.",
-    "overview": {
-      "title": "원스톱 포장 솔루션의 선구자",
-      "intro1": "<strong>광저우 찬퍼 스마트 장비 유한회사</strong>(동관 찬퍼 스마트 포장 기술 유한회사의 자회사)는 2011년 설립되어 국가 하이테크 기업 및 광동성 SRDI(전문화, 정밀화, 차별화, 혁신) 인증 기업입니다.",
-      "intro2": "원스톱 계수 및 포장 솔루션 제공의 선구자로서, CHANFER는 두 개의 핵심 사업부를 운영하고 있습니다:",
-      "equipment": {
-        "title": "장비 제조 사업부",
-        "desc": "15년의 운영과 25년 이상의 팀 경력을 바탕으로, 지속적인 혁신 정신과 함께 생산 인건비를 효과적으로 절감하는 고부가가치 포장 장비를 적극적으로 제공합니다. 당사 제품의 가치는 고객에게 더 높은 부가가치를 창출하는 데 있습니다."
-      },
-      "contract": {
-        "title": "위탁 포장 사업부",
-        "desc": "5,000m² 클린룸 포장 시설에 자체 장비, 인력, 포장 필름을 갖추고 있습니다. 고객은 내부 제품만 제공하시면 그 외 모든 것을 저희가 처리합니다. 대규모 주문도 안심하고 맡길 수 있는 진정한 원스톱 포장 서비스입니다."
-      }
-    },
-    "stats": {
-      "patents": "특허",
-      "patentsSub": "발명 8건 · 실용신안 80건 · 디자인 13건 · 저작권 6건",
-      "clients": "고객사",
-      "clientsSub": "인쇄, 게임, 식품, 의료 산업 전반",
-      "experience": "업계 경험",
-      "experienceSub": "2011년부터 지속적인 혁신",
-      "team": "팀 구성원",
-      "teamSub": "10명 이상의 애프터서비스 엔지니어 포함",
-      "branches": "지사",
-      "branchesSub": "동관 본사 · 광저우 · 이우",
-      "certs": "인증",
-      "certsSub": "하이테크 · SRDI · ISO9001 · CE"
-    },
-    "milestones": {
-      "title": "발전 이정표"
-    },
-    "certifications": {
-      "title": "인증 및 수상",
-      "highTech": {
-        "title": "국가 하이테크 기업",
-        "desc": "중국 과학기술부 인정"
-      },
-      "srdi": {
-        "title": "SRDI 기업",
-        "desc": "광동성 전문화·정밀화·차별화·혁신 중소기업"
-      },
-      "iso": {
-        "title": "ISO 9001:2015",
-        "desc": "품질경영시스템 인증"
-      },
-      "ce": {
-        "title": "CE 인증",
-        "desc": "기계류 유럽 적합성 마킹"
-      },
-      "since": "{year}년부터"
-    },
-    "facilities": {
-      "title": "시설 안내",
-      "guangzhou": {
-        "title": "광저우 본사",
-        "subtitle": "영업 및 관리 센터"
-      },
-      "dongguan": {
-        "title": "동관 공장",
-        "subtitle": "제조 및 포장 센터"
-      },
-      "address": "주소",
-      "phone": "전화",
-      "mobile": "휴대폰",
-      "email": "이메일",
-      "facility": "시설"
-    }
-  },
-  "contact": {
-    "title1": "문의",
-    "title2": "하기",
-    "description": "카드 포장 자동화를 준비하고 계신가요? 제품과 요구사항을 알려주시면 엔지니어가 맞춤형 솔루션을 설계해 드립니다.",
-    "directContact": "직접 연락",
-    "phoneWhatsApp": "전화 / WhatsApp",
-    "emailLabel": "이메일",
-    "guangzhouOffice": "광저우 사무소",
-    "dongguanFactory": "동관 공장",
-    "workingHours": "근무 시간",
-    "workingHoursValue": "월–토: 오전 8:30 – 오후 6:00 (GMT+8)",
-    "whatsapp": {
-      "title": "WhatsApp으로 상담",
-      "subtitle": "신속 응답 · 영업팀 직통"
-    },
-    "form": {
-      "title": "견적 요청",
-      "description": "아래 양식을 작성해 주시면 24시간 이내에 맞춤형 포장 솔루션으로 답변 드리겠습니다.",
-      "name": "성함",
-      "namePlaceholder": "이름을 입력하세요",
-      "company": "회사명",
-      "companyPlaceholder": "회사명을 입력하세요",
-      "email": "이메일",
-      "emailPlaceholder": "you@example.com",
-      "phone": "전화번호",
-      "phonePlaceholder": "+86 130 6098 5132",
-      "productType": "제품 유형",
-      "selectProduct": "제품 유형 선택",
-      "productTypes": {
-        "tradingCards": "트레이딩 카드 (TCG/CCG)",
-        "boardGameCards": "보드게임 카드",
-        "playingCards": "플레잉 카드",
-        "collectibleCards": "컬렉터블 카드",
-        "gameComponents": "보드게임 구성품",
-        "printedMaterials": "인쇄물",
-        "other": "기타"
-      },
-      "quantity": "월간 수량",
-      "selectQuantity": "수량 범위 선택",
-      "quantities": {
-        "under100k": "100,000팩 미만",
-        "100kTo500k": "100,000 – 500,000팩",
-        "500kTo1m": "500,000 – 1,000,000팩",
-        "over1m": "1,000,000팩 이상"
-      },
-      "projectDetails": "프로젝트 상세",
-      "projectPlaceholder": "카드 제품, 포장 요구사항, 선호하는 포장 방식 또는 특별 요청사항을 알려주세요...",
-      "submit": "문의 제출",
-      "thankYou": "감사합니다!",
-      "thankYouMessage": "문의가 접수되었습니다. 24시간 이내에 담당자가 연락 드리겠습니다.",
-      "sending": "전송 중...",
-      "error": "전송 실패",
-      "errorMessage": "문의 전송 중 문제가 발생했습니다. 다시 시도하시거나 직접 연락 주세요."
-    }
-  },
-  "footer": {
-    "cta": {
-      "title": "카드 포장 자동화를 시작할 준비가 되셨나요?",
-      "description": "공급부터 팔레타이징까지 — 맞춤형 포장 라인 솔루션을 받아보세요.",
-      "button": "견적 요청"
-    },
-    "company": {
-      "description": "Everything Can Be Packed — 2011년부터 게임 카드, 보드게임, 트레이딩 카드를 위한 원스톱 자동 포장 솔루션.",
-      "intelligentEquipment": "스마트 장비"
-    },
-    "solutions": {
-      "title": "포장 솔루션",
-      "candy": "캔디 포장",
-      "selfAdhesive": "자착식 스트립",
-      "fourSides": "사면 실링",
-      "banding": "밴딩 포장",
-      "heatShrink": "열수축",
-      "threeDimensional": "입체 포장"
-    },
-    "quickLinks": {
-      "title": "바로가기",
-      "machineCatalog": "기계 카탈로그",
-      "aboutChanfer": "CHANFER 소개",
-      "contactUs": "문의하기",
-      "downloadBrochure": "브로슈어 다운로드"
-    },
-    "contactTitle": "연락처",
-    "copyright": "© {year} {company}. All rights reserved.",
-    "privacyPolicy": "개인정보 처리방침",
-    "termsOfService": "이용약관",
-    "friendLinks": {
-      "title": "파트너 링크",
-      "mainSite": "CHANFER 메인 사이트 (Guangzhou Chanfer)",
-      "detergentLine": "턴키 액체 세제 포장 라인"
-    }
-  },
-  "common": {
-    "required": "*",
-    "address": "주소",
-    "phone": "전화",
-    "mobile": "휴대폰",
-    "email": "이메일"
-  },
-  "faqPage": {
-    "hero": {
-      "badge": "지식 센터",
-      "title": "자주 묻는 질문",
-      "description": "카드 포장 방법, 기계, 생산 라인 및 CHANFER 서비스에 대해 알아야 할 모든 것.",
-      "searchPlaceholder": "질문 검색...",
-      "noResults": "질문을 찾을 수 없습니다. 다른 검색어를 시도해 보세요.",
-      "allCategories": "전체",
-      "questionsLabel": "개 답변된 질문",
-      "metaTitle": "카드 포장 FAQ | CHANFER",
-      "metaDescription": "카드 포장 방법, 기계, 생산 속도, AI 검사 및 완제 포장 라인에 대한 자주 묻는 질문 답변."
-    },
-    "categories": [
-      {
-        "id": "packaging-methods",
-        "title": "포장 방법",
-        "items": [
-          {
-            "question": "게임 카드의 6가지 주요 포장 방법은?",
-            "answer": "6가지 방법: 캔디 포장(필로우 랩), 자가접착 스트립(재밀봉 가능), 사면 밀봉, 밴딩(종이 밴드), 열수축, 3D 포장. 각 방법은 카드 유형, 생산량 및 소매 표시 요구에 따라 다릅니다."
-          },
-          {
-            "question": "올바른 포장 방법을 어떻게 선택하나요?",
-            "answer": "1) 카드 유형, 2) 생산 속도, 3) 재밀봉 필요성, 4) 소매 표시, 5) 예산, 6) 지속가능성에 따라 선택. TCG 부스터팩에는 캔디 포장이 가장 인기. 프리미엄 카드에는 사면 밀봉 또는 3D 포장."
-          },
-          {
-            "question": "캔디 포장이란?",
-            "answer": "캔디 포장(필로우 랩)은 TCG 부스터팩에 가장 인기 있는 방법입니다. 제품을 감싸고 양끝을 밀봉하는 연속 필름을 사용. 분당 최대 220팩."
-          },
-          {
-            "question": "자가접착 스트립 포장이란?",
-            "answer": "반복 개봉/밀봉이 가능한 밀봉 스트립이 있는 재밀봉 가능 봉투를 만듭니다. 프리미엄 카드에 이상적. 속도: 분당 30-90팩."
-          },
-          {
-            "question": "사면 밀봉이란?",
-            "answer": "네 면을 모두 열밀봉하여 프리미엄 변조 방지 표시를 제공. 습기와 오염으로부터 보호. 속도: 분당 50-150팩."
-          },
-          {
-            "question": "밴딩 포장이란?",
-            "answer": "친환경 종이 밴드로 카드 덱을 묶습니다. 최소 자재로 안전한 고정. 속도: 분당 5-20팩."
-          },
-          {
-            "question": "열수축 포장이란?",
-            "answer": "수축 필름이 열을 가하면 제품에 밀착되어 360° 가시성과 우수한 보호 제공. 속도: 분당 20-100팩."
-          },
-          {
-            "question": "3D 포장이란?",
-            "answer": "단일 필름 시트에서 단단한 박스형 포장을 만듭니다. 프리미엄 표시. 속도: 분당 40-80팩."
-          }
-        ]
-      },
-      {
-        "id": "machines-equipment",
-        "title": "기계 & 장비",
-        "items": [
-          {
-            "question": "어떤 종류의 포장 기계가 있나요?",
-            "answer": "CHANFER는 카드 공급기, 계수기, 디스펜서, 필로우 포장기, 스트립 봉지기, 사면 밀봉기, 밴딩기, 열수축기, 3D 포장기, 카톤닝기, 케이스 포장기, 로봇 팔레타이저 및 AI 시각 검사 시스템을 제공합니다."
-          },
-          {
-            "question": "생산 속도는 어떻게 되나요?",
-            "answer": "속도: 캔디 20-220, 스트립 30-90, 사면 50-150, 밴딩 5-20, 열수축 20-100, 3D 40-90 팩/분."
-          },
-          {
-            "question": "카드 공급기는 어떻게 작동하나요?",
-            "answer": "스택에서 개별 카드를 분리하여 포장 라인으로 공급합니다. 서보 제어로 이중 공급 감지."
-          },
-          {
-            "question": "카드 계수기는 어떻게 작동하나요?",
-            "answer": "광학 센서와 기계적 계수로 정확한 카드 수를 계수. 100% 정확도, 실시간 모니터링."
-          },
-          {
-            "question": "컴퓨터 카드 디스패칭 시스템이란?",
-            "answer": "CHANFER 시스템은 컴퓨터, 디스펜서, 공급기를 사용하여 사전 설정 레시피에 따라 자동 분류. Excel 편집, 1000+ 레시피, 배치당 25000팩, AI 검사."
-          },
-          {
-            "question": "다양한 카드 크기를 처리할 수 있나요?",
-            "answer": "예, 포커(63x88mm), 브릿지(56x88mm), 미니, 타로 및 맞춤 크기. 교체 3-5분."
-          }
-        ]
-      },
-      {
-        "id": "production-line",
-        "title": "생산 라인",
-        "items": [
-          {
-            "question": "CHANFER는 완제 생산 라인을 제공하나요?",
-            "answer": "예, CHANFER는 공급, 계수, 포장, 카톤닝, 케이스 포장, 밀봉, 로봇 팔레타이징 및 카드 디스패칭 시스템을 포함한 완제 라인을 제공합니다."
-          },
-          {
-            "question": "완제 라인에는 무엇이 포함되나요?",
-            "answer": "1) 공급 및 계수 스테이션, 2) 디스패칭 시스템, 3) 포장기, 4) 카톤닝기, 5) 케이스 포장기, 6) 밀봉기, 7) 팔레타이징 로봇, 8) AI 검사, 9) 제어 시스템."
-          },
-          {
-            "question": "카톤닝이란?",
-            "answer": "포장된 카드 제품을 카톤이나 박스에 넣는 과정. 분당 최대 120카톤."
-          },
-          {
-            "question": "케이스 포장과 팔레타이징이란?",
-            "answer": "케이스 포장은 여러 카톤을 운송 케이스로 그룹화, 팔레타이징은 케이스를 팔레트에 적재. CHANFER는 협동 로봇 사용."
-          },
-          {
-            "question": "설치에 얼마나 걸리나요?",
-            "answer": "완제 라인: 2-4주 (설치, 통합, 테스트, 교육 포함)."
-          }
-        ]
-      },
-      {
-        "id": "quality-inspection",
-        "title": "품질 & AI 검사",
-        "items": [
-          {
-            "question": "AI 시각 검사는 어떻게 작동하나요?",
-            "answer": "CHANFER AI 시스템은 고속 카메라와 머신러닝으로 분당 400+장을 실시간 검사. 오류, 누락, 순서 오류 감지. 오류 시 자동 정지."
-          },
-          {
-            "question": "오류율은 어떻게 되나요?",
-            "answer": "스마트 라인은 AI 검사와 자동화 품질 관리로 거의 0% 오류율 달성. 100% 실시간 검사."
-          },
-          {
-            "question": "CHANFER의 품질 인증은?",
-            "answer": "ISO9001, National High-Tech Enterprise, SRDI Guangdong. 100+ 특허 및 CE 인증."
-          },
-          {
-            "question": "포장 품질을 어떻게 보장하나요?",
-            "answer": "1) AI 검사 400+장/분, 2) 안티에러 감지, 3) 자동 계수 100%, 4) 실시간 모니터링, 5) 데이터 추적, 6) ISO9001 프로세스."
-          },
-          {
-            "question": "레시피 교체 시간은?",
-            "answer": "CHANFER 시스템으로 3-5분 (수동 30-60분). 1000+ 레시피 파일 저장."
-          }
-        ]
-      },
-      {
-        "id": "industry-applications",
-        "title": "산업 & 응용",
-        "items": [
-          {
-            "question": "CHANFER는 어떤 산업을 서비스하나요?",
-            "answer": "게임 카드, 보드게임, 트레이딩 카드, 인쇄. 식품, 의료, 화학, 하드웨어. 8000+ 클라이언트."
-          },
-          {
-            "question": "TCG 부스터팩을 포장할 수 있나요?",
-            "answer": "예, TCG 부스터팩은 주요 응용. 캔디 포장이 가장 인기, 분당 220팩. 멀티 카드 정렬 가능."
-          },
-          {
-            "question": "스포츠 카드 포장이 가능한가요?",
-            "answer": "예, 프리미엄 스포츠 카드에는 사면 밀봉 또는 3D 포장 권장. AI 검사로 올바른 순서 보장."
-          },
-          {
-            "question": "애니메이션 카드 포장이 가능한가요?",
-            "answer": "물론입니다. 자가접착 스트립과 3D 포장이 인기. AI 시스템이 복잡한 정렬 레시피 처리."
-          },
-          {
-            "question": "보드게임 컴포넌트 솔루션이 있나요?",
-            "answer": "예, 카드, 토큰, 컴포넌트 포장. 밴딩은 덱에 이상적."
-          }
-        ]
-      },
-      {
-        "id": "ordering-service",
-        "title": "주문 & 서비스",
-        "items": [
-          {
-            "question": "기계를 어떻게 주문하나요?",
-            "answer": "1) WhatsApp (+86 13060985132) 또는 이메일 (sarah@gzchanfer.com), 2) 요구사항 전달, 3) 솔루션 및 견적 수령, 4) 생산 4-8주, 5) 설치 및 교육 포함."
-          },
-          {
-            "question": "설치와 교육을 제공하나요?",
-            "answer": "예, 현장 설치, 시운전 및 운영자 교육 제공. 원격 지원 가능."
-          },
-          {
-            "question": "납기는 어떻게 되나요?",
-            "answer": "표준 기계: 4-6주. 완제 라인: 6-8주. 맞춤 솔루션: 8-12주."
-          },
-          {
-            "question": "사후 서비스와 부품을 제공하나요?",
-            "answer": "예, 원격 지원, 비디오 진단, 현장 방문 및 부품. 24-48시간 내 발송."
-          },
-          {
-            "question": "공장을 방문할 수 있나요?",
-            "answer": "물론입니다. 동완 공장과 광저우 사무실 방문 환영. 문의해 주세요."
-          },
-          {
-            "question": "계약 포장 서비스가 있나요?",
-            "answer": "예, CHANFER는 5000㎡ 클린룸에서 계약 포장 서비스 운영. 제품만 제공하시면 나머지는 우리가 합니다."
-          }
-        ]
-      }
-    ],
-    "cta": {
-      "title": "더 궁금한 점이 있으신가요?",
-      "description": "당사 팀이 완벽한 솔루션을 찾을 수 있도록 도와드립니다.",
-      "button1": "문의하기",
-      "button2": "솔루션 보기"
-    }
-  },
-  "solutionDetail": {
-    "candy": {
-      "seoTitle": "카드 캔디 포장기 | CHANFER",
-      "seoDescription": "TCG 부스터 팩과 수집 카드를 위한 고속 캔디 포장(flow wrapping). 분당 220팩까지.",
-      "keywords": "캔디 포장기, 카드 캔디 포장, flow wrapping, TCG 부스터 포장, 수집 카드 포장, pillow 포장",
-      "longDescription": [
-        "캔디 포장 — pillow 스타일 flow wrapping이라고도 함 — 은 TCG 부스터 팩, 수집 카드 슬리브, 게임 카드 멀티팩에 가장 널리 사용되는 포장 방식입니다. 연속 필름으로 카드 더미를 감싸고 양 끝을 열봉합합니다.",
-        "CHANFER의 캔디 포장 라인은 분당 최대 220팩을 생산하는 서보 제어 flow wrapping 기계를 중심으로 구축됩니다.",
-        "TCG 퍼블리셔(Pokemon, Magic, Yu-Gi-Oh!)에게 대량 생산 속도에서 일관된 전문적인 포장을 제공하기 때문에 특히 인기입니다.",
-        "전체 라인은 CHANFER의 마찰 피더, 카토닝, 밀봉기, 팔레타이징 로봇과 통합됩니다.",
-        "60개 프리셋으로 크기 변경에 3-5분만 소요됩니다."
-      ],
-      "benefits": [
-        "최고 속도 — 220팩/분",
-        "팩당 최저 비용",
-        "변조 방지 봉합",
-        "빠른 전환 — 3-5분",
-        "풀컬러 인쇄 필름",
-        "라인 통합"
-      ],
-      "benefitsTitle": "캔디 포장을 선택하는 이유?",
-      "faqs": [
-        {
-          "question": "캔디 포장이란?",
-          "answer": "캔디 포장(pillow flow wrapping)은 연속 필름으로 카드를 감싸고 양끝을 봉합합니다. TCG 부스터 팩의 업계 표준입니다."
-        },
-        {
-          "question": "속도는?",
-          "answer": "카드 크기에 따라 20-220팩/분. 서보 시스템이 최고 속도에서도 정밀한 봉합 품질을 유지합니다."
-        },
-        {
-          "question": "어떤 카드 크기?",
-          "answer": "너비 220mm까지, 높이 5-35mm. 포커, 브리지, 타로, 멀티팩."
-        }
-      ],
-      "faqTitle": "캔디 포장 FAQ",
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "zs-220x",
-        "pof-shrink",
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedMachinesTitle": "캔디 포장 라인 장비",
-      "ctaTitle": "캔디 포장을 자동화할 준비가 되셨나요?",
-      "ctaDescription": "카드 공급부터 팔레타이징까지 맞춤형 캔디 포장 라인을 받으세요.",
-      "otherSolutionsTitle": "다른 포장 방식",
-      "viewMachineDetails": "상세 보기"
-    },
-    "self-adhesive": {
-      "seoTitle": "자가접착 스트립 포장기 | CHANFER",
-      "seoDescription": "프리미엄 수집 카드를 위한 재밀봉 자가접착 스트립 포장. 한 기계에 세 가지 봉합 방식.",
-      "keywords": "자가접착 스트립, 재밀봉, 프리미엄 카드, 봉합",
-      "longDescription": [
-        "필름과 재밀봉 자가접착 스트립으로 감싸는 다용도 방식. 프리미엄 수집 카드에 이상적.",
-        "세 가지 방식: 자가접착, 열단, 열압착.",
-        "안티 낭비 기술, 포인트 카운팅."
-      ],
-      "benefits": [
-        "재밀봉",
-        "한 기계에 세 방식",
-        "프리미엄 프레젠테이션",
-        "안티 낭비",
-        "유연한 폭",
-        "정밀 카운팅"
-      ],
-      "benefitsTitle": "자가접착 스트립을 선택하는 이유?",
-      "faqs": [
-        {
-          "question": "재밀봉?",
-          "answer": "네, 반복 개봉 가능한 밀착 스트립."
-        },
-        {
-          "question": "방식 수?",
-          "answer": "세 가지: 자가접착, 열단, 열압착."
-        }
-      ],
-      "faqTitle": "자가접착 스트립 FAQ",
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "qdzd-2130",
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedMachinesTitle": "자가접착 포장 라인 장비",
-      "ctaTitle": "자동화할 준비가 되셨나요?",
-      "ctaDescription": "프리미엄 카드를 위한 맞춤 솔루션.",
-      "otherSolutionsTitle": "다른 포장 방식",
-      "viewMachineDetails": "상세 보기"
-    },
-    "four-sides": {
-      "seoTitle": "사방 밀봉 포장기 | CHANFER",
-      "seoDescription": "사방 밀봉, 일곱 서보, 150팩/분. 삼색 포토셀, 교호 절단.",
-      "keywords": "사방 밀봉, 완전 밀봉, 프리미엄 카드, 서보",
-      "longDescription": [
-        "프리미엄 방식: 네 면 모두 열봉합. 습기와 오염 보호.",
-        "일곱 서보, 150팩/분 안정성. 삼색 포토셀 정밀 정렬.",
-        "교호 절단 기술로 고속에서 견고한 밀봉."
-      ],
-      "benefits": [
-        "변조 방지",
-        "습기/오염 보호",
-        "프리미엄 프레젠테이션",
-        "일곱 서보 — 150팩/분",
-        "삼색 포토셀",
-        "교호 절단"
-      ],
-      "benefitsTitle": "사방 밀봉을 선택하는 이유?",
-      "faqs": [
-        {
-          "question": "캔디와 차이?",
-          "answer": "캔디는 끝만 밀봉, 사방은 전체 둘레 밀봉으로 더 큰 보호."
-        },
-        {
-          "question": "속도?",
-          "answer": "일곱 서보로 150팩/분."
-        }
-      ],
-      "faqTitle": "사방 밀봉 FAQ",
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "sbf-250",
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedMachinesTitle": "사방 밀봉 라인 장비",
-      "ctaTitle": "자동화할 준비가 되셨나요?",
-      "ctaDescription": "프리미엄 카드를 위한 맞춤 솔루션.",
-      "otherSolutionsTitle": "다른 포장 방식",
-      "viewMachineDetails": "상세 보기"
-    },
-    "banding": {
-      "seoTitle": "카드 밴딩 포장기 | CHANFER",
-      "seoDescription": "생분해성 종이 밴드 친환경 밴딩. 서보, 원패스. 게임 카드에 적합.",
-      "keywords": "밴딩, 종이 밴드, 친환경, 게임 카드, 서보",
-      "longDescription": [
-        "가장 친환경적인 방식: 생분해성 종이 밴드. 최소 재료, 재활용 가능.",
-        "서보 PLC 터치스크린. 발급과 밴딩을 한 번에.",
-        "0.1-3mm, 멀티팩. 경제적이고 친환경."
-      ],
-      "benefits": [
-        "가장 친환경 — 생분해성",
-        "최저 비용",
-        "서보 정밀도",
-        "원패스",
-        "두께 0.1-3mm",
-        "지속 가능한 브랜딩"
-      ],
-      "benefitsTitle": "밴딩을 선택하는 이유?",
-      "faqs": [
-        {
-          "question": "친환경 이유?",
-          "answer": "플라스틱 대신 생분해성 종이 밴드, 최소 재료, 재활용."
-        },
-        {
-          "question": "두께?",
-          "answer": "0.1-3mm, 멀티팩."
-        }
-      ],
-      "faqTitle": "밴딩 FAQ",
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedMachinesTitle": "밴딩 라인 장비",
-      "ctaTitle": "자동화할 준비가 되셨나요?",
-      "ctaDescription": "게임 카드를 위한 맞춤 솔루션.",
-      "otherSolutionsTitle": "다른 포장 방식",
-      "viewMachineDetails": "상세 보기"
-    },
-    "heat-shrink": {
-      "seoTitle": "열수축 포장기 | CHANFER",
-      "seoDescription": "360° 투명 열수축. 수입 센서, 날 보호. 카드 박스용.",
-      "keywords": "열수축, 수축 필름, 투명, POF, 카드",
-      "longDescription": [
-        "투명 수축 필름, 360° 가시성. 카드 박스와 묶음용.",
-        "수입 센서 정밀 감지. 날 자동 보호.",
-        "필름 밀착, 보호와 소매용 프레젠테이션."
-      ],
-      "benefits": [
-        "360° 가시성",
-        "밀착 보호",
-        "소매용 프레젠테이션",
-        "수입 센서",
-        "날 보호",
-        "조절 가능한 열풍"
-      ],
-      "benefitsTitle": "열수축을 선택하는 이유?",
-      "faqs": [
-        {
-          "question": "투명?",
-          "answer": "네, 360° 투명 필름."
-        },
-        {
-          "question": "어떤 제품?",
-          "answer": "카드 박스, 묶음, 선물 세트."
-        }
-      ],
-      "faqTitle": "열수축 FAQ",
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "zs-220x",
-        "pof-shrink",
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedMachinesTitle": "열수축 라인 장비",
-      "ctaTitle": "자동화할 준비가 되셨나요?",
-      "ctaDescription": "카드 박스를 위한 맞춤 솔루션.",
-      "otherSolutionsTitle": "다른 포장 방식",
-      "viewMachineDetails": "상세 보기"
-    },
-    "three-dimensional": {
-      "seoTitle": "3D 입체 포장기 | CHANFER",
-      "seoDescription": "프리미엄 3D 포장, 견고한 박스. 65mm까지. 서보. 한정판에 적합.",
-      "keywords": "3D, 박스 포장, 프리미엄, 럭셔리, 한정판",
-      "longDescription": [
-        "최고 프리미엄 방식: 날카로운 모서리의 견고한 박스. 럭셔리, 한정판에 이상적.",
-        "65mm까지. 서보로 일관된 접힘과 밀봉.",
-        "PLC 다중 구성."
-      ],
-      "benefits": [
-        "최고 프리미엄",
-        "두께 65mm",
-        "서보 정밀도",
-        "럭셔리",
-        "PLC 프로그래밍",
-        "선물용"
-      ],
-      "benefitsTitle": "3D 포장을 선택하는 이유?",
-      "faqs": [
-        {
-          "question": "두께?",
-          "answer": "65mm까지."
-        },
-        {
-          "question": "어떤 제품?",
-          "answer": "한정판, 컬렉터 박스, 프리미엄 액세서리."
-        }
-      ],
-      "faqTitle": "3D 포장 FAQ",
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedMachinesTitle": "3D 포장 라인 장비",
-      "ctaTitle": "자동화할 준비가 되셨나요?",
-      "ctaDescription": "프리미엄 카드를 위한 맞춤 솔루션.",
-      "otherSolutionsTitle": "다른 포장 방식",
-      "viewMachineDetails": "상세 보기"
-    }
-  },
-  "machineDetail": {
-    "fkj-100sl": {
-      "seoTitle": "자동 마찰 피더 FKJ-100KP | CHANFER",
-      "seoDescription": "서보 고속 피더. 800카드/분(CR80). 0.1-3mm. PLC 터치스크린.",
-      "keywords": "마찰 피더, FKJ-100KP, 카드, 서보",
-      "longDescription": [
-        "CHANFER 플래그십, 서보 PLC, 800카드/분.",
-        "0.1-3mm. 자동 알람."
-      ],
-      "relatedMachineIds": [
-        "fkj-200e",
-        "zs-220x",
-        "sbf-250"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "FKJ-100KP에 관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "fkj-200e": {
-      "seoTitle": "경제형 마찰 피더 FKJ-200E | CHANFER",
-      "seoDescription": "경제형, 서보, 500카드/분.",
-      "keywords": "경제형, FKJ-200E, 피더",
-      "longDescription": [
-        "경제형, 500카드/분."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "fkj-300e",
-        "zs-220x"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "fkj-300e": {
-      "seoTitle": "중속 마찰 피더 FKJ-300E | CHANFER",
-      "seoDescription": "중속, 서보, 600카드/분.",
-      "keywords": "중속, FKJ-300E, 피더",
-      "longDescription": [
-        "중속, 600카드/분."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "fkj-200e",
-        "fkj-420e"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "heat-shrink"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "fkj-420e": {
-      "seoTitle": "대형 마찰 피더 FKJ-420E | CHANFER",
-      "seoDescription": "대형, 카드 및 보드.",
-      "keywords": "대형, FKJ-420E",
-      "longDescription": [
-        "대형 카드 및 보드용."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "fkj-300e",
-        "sbf-250"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "four-sides",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "three-head-suction": {
-      "seoTitle": "삼두 흡입 피더 | CHANFER",
-      "seoDescription": "진공 삼두, 삼역.",
-      "keywords": "삼두, 진공, 피더",
-      "longDescription": [
-        "삼역, 매끄러운 카드용 진공."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "four-head-suction",
-        "card-dispensing-matching"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "four-head-suction": {
-      "seoTitle": "사두 흡입 피더 | CHANFER",
-      "seoDescription": "진공 사두, 최고 속도.",
-      "keywords": "사두, 진공, 속도",
-      "longDescription": [
-        "사역, 초고속."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "three-head-suction",
-        "card-dispensing-matching"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "four-sides",
-        "heat-shrink"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "card-dispensing-matching": {
-      "seoTitle": "카드 배출 분류기 | CHANFER",
-      "seoDescription": "배출 분류, 정밀 카운팅.",
-      "keywords": "배출, 분류, 카운팅, TCG",
-      "longDescription": [
-        "TCG용 정밀 배출 분류."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "three-head-suction",
-        "four-head-suction"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "cxfy-80a": {
-      "seoTitle": "CXFY-80A 단일 헤드 행성식 카드 흡입 공급기 | CHANFER",
-      "seoDescription": "작고 변형 가능한 단일 시트 제품용 단일 헤드 측면 흡입 카드 공급기。서보 PLC 제어, 최대 60장/분。",
-      "keywords": "단일 헤드 카드 흡입 공급기, 측면 흡입 페이지 분리기, CXFY-80A, 행성식 카드 공급기, 카드 공급 장치, 진공 카드 공급기",
-      "longDescription": [
-        "CXFY-80A는 CHANFER의 작고 변형 가능한 단일 시트 제품용 단일 헤드 측면 흡입 카드 공급기입니다. 서보 구동, PLC 제어, 터치스크린을 갖추고 있으며 최대 공급 속도는 60장/분입니다.",
-        "본 기계는 게임 카드, 엽서, 플라스틱 카드 및 기타 작고 변형 가능한 단일 시트 제품에 적합합니다. 단독 카운팅/페이지 분리 장치로 사용하거나 베개형 포장기, 수직 포장기, 박스 밀봉기, 자동 컨베이어, 수축 포장기가 포함된 포장 라인에 쉽게 통합할 수 있습니다.",
-        "광전 제어를 통해 주 전원을 켜면 자동으로 카드를 공급합니다. 자동 알람 기능과 단일 연속 공급 모드를 갖추고 있으며, 합리적인 구조로 소모품 교체가 간편하고 신속합니다."
-      ],
-      "relatedMachineIds": [
-        "three-head-suction",
-        "four-head-suction",
-        "fkj-100sl"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides"
-      ],
-      "ctaTitle": "CXFY-80A 단일 헤드 카드 흡입 공급기에 관심이 있으신가요?",
-      "ctaDescription": "CXFY-80A의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "zs-220x": {
-      "seoTitle": "ZS-230 상부 필름 푸시형 포장기 | CHANFER",
-      "seoDescription": "ZS-230 상부 필름 푸시형 포장기. 필름 폭 75–220mm, 속도 20–220팩/분, 서보 제어. 카드·카드 슬리브 등 평평한 제품용.",
-      "keywords": "상부 필름 푸시형 포장기, ZS-230, 베개형 포장기, 카드 포장기, TCG 포장기, 서보 포장기",
-      "longDescription": [
-        "ZS-230은 필름 폭 220mm 이하의 평평한 제품(예: TCG 카드, 카드 슬리브)용으로 설계된 CHANFER의 상부 필름 푸시형 베개형 포장기입니다. 서보 구동으로 20–220팩/분을 실현하며 봉투 길이와 절단 위치를 정밀하게 제어합니다.",
-        "중심 밀봉 및 칼 패턴 커스터마이징을 지원하고, 코더·펀처·라벨러 등의 옵션 장착이 가능합니다. 테일 컨베이어는 라인 레이아웃에 맞게 연장하거나 단축할 수 있습니다. 주의: 순수 PE 필름은 비권장이며, 봉투에 경미한 긁힘이 생길 수 있습니다. 라인 속도는 제품 형태와 필름 재질에 따라 최대 약 25m/분입니다.",
-        "CHANFER의 마찰 피더, 검중기, 카톤너, 팔레타이징 로봇과 매끄럽게 연동하여 완전한 카드 베개형 포장 라인을 구축합니다."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "pof-shrink",
-        "cartoning"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "heat-shrink"
-      ],
-      "ctaTitle": "ZS-230 상부 필름 푸시형 포장기에 관심이 있으신가요?",
-      "ctaDescription": "ZS-230 상부 필름 푸시형 포장기의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비",
-      "name": "ZS-230 상부 필름 푸시형 포장기",
-      "ctaButton": "견적 받기"
-    },
-    "sbf-250": {
-      "seoTitle": "사방 밀봉기 SBF-250 | CHANFER",
-      "seoDescription": "사방, 칠서보, 150팩/분.",
-      "keywords": "사방, SBF-250, 서보",
-      "longDescription": [
-        "칠서보, 150팩/분. 삼색."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "zs-220x",
-        "cartoning"
-      ],
-      "relatedSolutionIds": [
-        "four-sides",
-        "self-adhesive"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "qdzd-2130": {
-      "seoTitle": "자가접착 기계 QDZD-2130 | CHANFER",
-      "seoDescription": "삼방식. 재밀봉.",
-      "keywords": "자가접착, QDZD-2130, 재밀봉",
-      "longDescription": [
-        "삼방식, 재밀봉."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "sbf-250",
-        "cartoning"
-      ],
-      "relatedSolutionIds": [
-        "self-adhesive",
-        "four-sides"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "zdqd-1520": {
-      "seoTitle": "ZD-QD-1520 접착 스트립 포장기 | CHANFER",
-      "seoDescription": "카드 제품용 고속 자루 포장기 ZD-QD-1520. 서보 구동, PLC 제어, 20–80개/분. 터치스크린, 수입 베어링 적용.",
-      "keywords": "ZD-QD-1520,접착 스트립 포장기,자루 포장기,카드 포장,서보 포장기",
-      "longDescription": [
-        "ZD-QD-1520은 카드 제품, 인쇄물, 문서 등의 필름 봉투 자동 포장을 위해 설계된 CHANFER의 고속 자루 포장기입니다. 서보 모터 구동과 PLC 제어로 프로그램화된 안정적인 운전을 실현합니다.",
-        "자동 자루 포장, 접착 스트립 밀봉, 직관적인 터치스크린 조작이 통합되어 있습니다. 주요 부위에 수입 베어링을 적용해 연속 운전에서도 안정적인 성능과 긴 수명을 보장합니다."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "sbf-250",
-        "pof-shrink"
-      ],
-      "relatedSolutionIds": [
-        "self-adhesive",
-        "four-sides"
-      ],
-      "ctaTitle": "ZD-QD-1520 접착 스트립 포장기에 관심이 있으신가요?",
-      "ctaDescription": "ZD-QD-1520의 상세 사양, 견적 및 라인 통합 안내를 받아보세요.",
-      "relatedSolutionsTitle": "이 장비를 사용하는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비",
-      "relatedSolutions": [
-        "self-adhesive-strip"
-      ]
-    },
-    "pof-shrink": {
-      "seoTitle": "POF 열수축기 | CHANFER",
-      "seoDescription": "POF, 360° 투명. 수입 센서.",
-      "keywords": "POF, 열수축, 투명",
-      "longDescription": [
-        "POF, 360°. 수입 센서, 날 보호."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "zs-220x",
-        "cartoning"
-      ],
-      "relatedSolutionIds": [
-        "heat-shrink",
-        "candy"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "cartoning": {
-      "seoTitle": "자동 카토닝기 | CHANFER",
-      "seoDescription": "고속 카토닝, 서보.",
-      "keywords": "카토닝, 자동, 서보",
-      "longDescription": [
-        "자동 카토닝, 서보."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "zs-220x",
-        "h-type-sealer"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "carton-forming": {
-      "seoTitle": "카톤 성형기 | CHANFER",
-      "seoDescription": "자동 성형, 서보.",
-      "keywords": "성형, 카톤, 자동",
-      "longDescription": [
-        "평판 성형, 서보."
-      ],
-      "relatedMachineIds": [
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "h-type-sealer": {
-      "seoTitle": "H형 밀봉기 | CHANFER",
-      "seoDescription": "H 밀봉 자동, 서보.",
-      "keywords": "H 밀봉, 자동",
-      "longDescription": [
-        "H 밀봉, 서보."
-      ],
-      "relatedMachineIds": [
-        "cartoning",
-        "carton-forming",
-        "palletizing-robot"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "cf-bd-5050": {
-      "seoTitle": "CF-BD-5050 I형 박스 밀봉기 | CHANFER",
-      "seoDescription": "자동 I형 박스 밀봉기 CF-BD-5050. 수동 접은 후 바닥과 윗부분 자동 밀봉. 벨트 속도 약 20m/분. 적용 박스 L150×W200×H140mm~. 220V/50Hz.",
-      "keywords": "I형 박스 밀봉기, CF-BD-5050, 자동 박스 밀봉기, 박스 밀봉, 테이프 밀봉기, 5050 박스 밀봉기",
-      "longDescription": [
-        "CHANFER CF-BD-5050은 경제형 자동 I형 박스 밀봉기입니다. 작업자가 박스에 제품을 담고 좌우 및 전후 덮개를 접은 후 박스를 밀어넣으면, 기기가 자동으로 바닥과 윗부분을 테이프로 밀봉하고 밀봉된 박스를 배출합니다.",
-        "적용 박스 사이즈는 L150×W200×H140mm부터 길이 무제한×W500×H500mm입니다. 길이, 너비, 높이를 수동으로 조절하여 다양한 사양에 대응합니다. 벨트 속도는 약 20m/분, 전원은 220V/50Hz, 소비전력 240W입니다.",
-        "컴팩트한 본체로 무게 약 180kg, 작업대 높이는 620-670mm 조절 가능합니다. 전후 400mm 롤러 컨베이어로 수동 투입 및 배출이 용이하며, 칼날 보호장치로 작업 중 의외의 상해를 방지합니다."
-      ],
-      "relatedMachineIds": [
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "I형 박스 밀봉기에 관심이 있으신가요?",
-      "ctaDescription": "CF-BD-5050의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
-      "relatedSolutionsTitle": "이 설비를 사용하는 포장 솔루션",
-      "relatedMachinesTitle": "관련 설비"
-    },
-    "cf-a5645": {
-      "seoTitle": "CF-A5645 자동 L형 밀봉 절단기 | CHANFER",
-      "seoDescription": "POF/PE 수축 필름용 CF-A5645 자동 L형 밀봉 절단기. 밀봉 나이프 565×460mm, 생산 능력 30개/분, 수축 터널과 조합 가능.",
-      "keywords": "L형 밀봉 절단기, CF-A5645, L형 밀봉기, 수축 필름 밀봉기, POF 밀봉기, PE 밀봉기, 자동 밀봉기",
-      "longDescription": [
-        "CHANFER CF-A5645는 POF/PE 수축 필름용 자동 L형 밀봉 절단기입니다. 필름 자동 공급, 밀봉, 절단 및 폐기물 회수를 수행합니다. 밀봉 나이프 크기는 565(L)×460(W)mm이며, 제품 크기 범위는 (100-450)L×(60-350)W×(5-120)H mm입니다.",
-        "생산 능력은 30개/분이며 컨베이어 속도는 26m/분입니다. 밀봉 나이프 온도는 180-230°C 조절 가능합니다. 총 전력은 3KW, 전원은 1P 220V AC이며 공기 소비량은 4kg/cm²입니다. 기계 크기는 1795×880×1570mm이고 무게는 330Kg입니다.",
-        "수축 터널과 조합하여 완전한 수축 포장 라인을 구성할 수 있으며, 도서, 장난감, 전자제품, 식품, 일용품 및 화장품 등의 외포장에 널리 사용됩니다."
-      ],
-      "relatedMachineIds": [
-        "cartoning",
-        "h-type-sealer",
-        "palletizing-robot"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "자동 L형 밀봉 절단기에 관심이 있으신가요?",
-      "ctaDescription": "CF-A5645의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
-      "relatedSolutionsTitle": "이 설비가 적용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 기계"
-    },
-    "palletizing-robot": {
-      "seoTitle": "협동 팔레타이징 로봇 | CHANFER",
-      "seoDescription": "협동 로봇, 울타리 없음.",
-      "keywords": "로봇, 팔레타이징, 협동",
-      "longDescription": [
-        "자동 팔레타이징, 울타리 없음."
-      ],
-      "relatedMachineIds": [
-        "cartoning",
-        "h-type-sealer",
-        "carton-forming"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "ai-visual": {
-      "seoTitle": "AI 비전 검사 시스템 | CHANFER",
-      "seoDescription": "AI 실시간 검사. 결함 감지.",
-      "keywords": "AI, 검사, 품질, 결함",
-      "longDescription": [
-        "AI 실시간 검사. 딥러닝."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "zs-220x",
-        "cartoning"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "heat-shrink"
-      ],
-      "ctaTitle": "관심?",
-      "ctaDescription": "사양 및 가격.",
-      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비"
-    },
-    "fkj-600c": {
-      "seoTitle": "마찰 피더 FKJ-600C | CHANFER",
-      "seoDescription": "서보 대형 피더. 최대 200장/분(최대 600mm 폭). PLC 터치스크린.",
-      "keywords": "마찰 피더, FKJ-600C, 카드, 서보, 대형",
-      "longDescription": [
-        "FKJ-600C는 CHANFER의 대형 시트용 마찰 피더, 서보 PLC, 최대 200장/분 (최대 600mm 폭).",
-        "단발, 다발, 연속 공급 모드를 지원하며, 베개형 포장기, 수직형 포장기, 케이스 실러, 자동 컨베이어, 자동 수축 포장기 등과 연동하여 완전 자동화된 포장 라인을 구축합니다."
-      ],
-      "relatedMachineIds": [
-        "fkj-100sl",
-        "fkj-200e",
-        "fkj-300e"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "FKJ-600C에 관심?",
-      "ctaDescription": "FKJ-600C의 상세 사양, 가격 및 포장 라인 통합 가이드를 받으세요.",
-      "relatedSolutionsTitle": "이 기기를 사용하는 포장 솔루션",
-      "relatedMachinesTitle": "관련 장비",
-      "name": "FKJ-600C 마찰 피더"
-    },
-    "zs-590wsc": {
-      "name": "ZS-590WS-C 상면필름 푸시식 측면실링 왕복 열수축 포장기",
-      "ctaTitle": "열수축 포장 솔루션이 필요하신가요?",
-      "ctaButton": "문의하기",
-      "seoTitle": "ZS-590WS-C 상면필름 푸시식 측면실링 왕복 열수축 포장기 | Chanfer",
-      "seoDescription": "ZS-590WS-C 상면필름 푸시식 측면실링 왕복 열수축 포장기. SL-3020 수축로 세트. 최대 필름 폭 590mm, 20-100개/분. 카드 및 보드게임 액세서리용.",
-      "keywords": "ZS-590WS-C, 열수축 포장기, 측면실링 포장기, 수축로, 카드 포장 장비, Chanfer",
-      "longDescription": [
-        "ZS-590WS-C는 상면필름 푸시식 측면실링 왕복 열수축 포장기로, SL-3020 열수축로와 일체형으로 백 성형·실링·수축을 한 번에 처리합니다.",
-        "최대 필름 폭 590mm, 백 길이 120-1000mm, 제품 높이 5-100mm에 대응합니다. 서보 백 길이 제어로 공회전 없이 즉시 절단, 컬러 터치스크린에 40가지 파라미터 저장, 독립 PID 온도 제어로 다양한 수축 필름에 대응합니다.",
-        "SL-3020 수축로는 상하/좌우 대류로 로 내 온도를 균일하게 유지하며 200-300℃에서 조절 가능합니다. 주름 없이 필름을 손상시키지 않고 광택 있는 마감을 제공하며, 열풍 회수로 전력 소비를 절감합니다.",
-        "카드, 포커, 보드게임 액세서리 및 필름 폭 590mm 이하의 규칙적/불규칙한 고체 제품에 이상적입니다. 특히 단일 사양 또는 안정적 사양의 자동 라인에 적합합니다."
-      ],
-      "relatedSolutions": [],
-      "relatedMachines": []
-    },
-    "semi-auto-carton-sealer": {
-      "seoTitle": "Semi-Automatic Left/Right Drive Carton Sealer | CHANFER",
-      "seoDescription": "Semi-automatic left/right drive carton sealing machine for cartons 150-500mm wide/high. Top and bottom tape sealing at 0-18m/min. Economical end-of-line sealing.",
-      "keywords": "semi-automatic carton sealer, left right drive carton sealer, box sealing machine, carton tape sealer, semi auto case sealer, CHANFER",
-      "longDescription": [
-        "This semi-automatic left/right drive carton sealing machine is a cost-effective end-of-line sealing solution. The operator manually folds the carton flaps and feeds the case into the machine; the left/right belt drive then transports the carton through top and bottom tape heads to apply secure sealing tape automatically.",
-        "Designed for cartons from 150mm to 500mm in width and height, and virtually unlimited length, the machine adapts to a wide range of case sizes commonly used in card product packaging. Sealing speed reaches 0-18m/min, making it suitable for small-batch production, e-commerce order fulfillment, and semi-automatic packaging lines.",
-        "The adjustable table height (600-750mm) and compact footprint (L846 × W812 × H1350mm) make it easy to position in existing workspaces. It works with standard 48, 60, or 72mm sealing tape, giving flexibility to match different carton and tape specifications."
-      ],
-      "relatedMachineIds": [
-        "cartoning",
-        "carton-forming",
-        "h-type-sealer"
-      ],
-      "relatedSolutionIds": [
-        "candy",
-        "self-adhesive",
-        "four-sides",
-        "banding",
-        "heat-shrink",
-        "three-dimensional"
-      ],
-      "ctaTitle": "Interested in the Semi-Automatic Carton Sealer?",
-      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the semi-automatic left/right drive carton sealer.",
-      "relatedSolutionsTitle": "Used in These Packaging Solutions",
-      "relatedMachinesTitle": "Related Machines"
-    }
-  },
-  "media": {
-    "customerVideosTitle": "실제 고객 구현 사례",
-    "customerVideosSubtitle": "실제 고객 생산 시설에서 운영되는 당사의 장비를 확인해 보세요.",
-    "trainingVideosTitle": "운영 및 교육 비디오",
-    "trainingVideosSubtitle": "상세한 교육 비디오를 통해 이 기계의 설치, 조작 및 유지보수 방법을 배워보세요.",
-    "equipmentActionTitle": "장비 실제 가동",
-    "equipmentActionSubtitle": "전 세계 고객 생산 시설의 실제 비디오.",
-    "globalCustomersTitle": "글로벌 고객",
-    "globalCustomersSubtitle": "전 세계 카드 및 보드게임 제조사의 신뢰를 받고 있습니다.",
-    "teamCultureTitle": "팀 문화",
-    "teamCultureSubtitle": "우리의 직원은 CHANFER의 심장입니다. 팀 빌딩부터 기술 교육까지, 우리는 고객에게 최고를 제공하기 위해 팀에 투자합니다."
-  }
-}
+{
+  "meta": {
+    "title": "CHANFER | 게임 카드 및 보드게임 자동 포장 솔루션",
+    "description": "CHANFER (광저우 찬퍼 스마트 장비 유한회사) — 게임 카드, 보드게임, 트레이딩 카드를 위한 원스톱 자동 포장 솔루션. 6가지 포장 방식, 15년의 운영, 팀 경력 25년 이상, 전 세계 8,000곳 이상의 고객사 서비스 제공.",
+    "keywords": "카드 포장 기계, 게임 카드 포장, 보드게임 포장, 트레이딩 카드 포장, 자동 카드 공급기, 카드 포장기, 카드 밴딩기, 카드 수축 포장, 사면 실링 포장, 캔디 포장 기계, 카드 포장 라인, CHANFER, CUKKE"
+  },
+  "nav": {
+    "home": "홈",
+    "solutions": "포장 솔루션",
+    "machines": "기계",
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "getQuote": "견적 요청",
+    "faq": "FAQ"
+  },
+  "topBar": {
+    "tagline": "원스톱 계수 및 포장 자동화 솔루션"
+  },
+  "hero": {
+    "badge": "게임 카드 및 보드게임 포장 전문가",
+    "title1": "원스톱",
+    "titleHighlight": "카드 포장",
+    "title2": "자동화",
+    "description": "공급, 계수부터 포장, 박싱, 팔레타이징까지 — CHANFER는 게임 카드, 트레이딩 카드, 보드게임을 위한 완전 자동 포장 라인을 제공합니다.",
+    "highlight1": "6가지 포장 방식",
+    "highlight2": "15년 이상",
+    "highlight3": "8,000곳 이상 고객사",
+    "highlightSuffix": " 운영, 팀 경력 25년 이상, ",
+    "highlightSuffix2": "전 세계 서비스 제공.",
+    "cta1": "솔루션 살펴보기",
+    "cta2": "견적 받기",
+    "expoLabel": "예정된 전시회",
+    "expoTitle": "PRINTING United Expo 2026",
+    "expoInfo": "부스 번호: North Halls N7411 | 9월 23–25일, 라스베가스",
+    "expoAlt": "PRINTING United Expo 2026 — CHANFER 부스 N7411",
+    "expoBadge": "라스베이거스 현장",
+    "expoHeadline": "N7411 부스에서 카드 라인 실기 시연",
+    "expoDesc": "9월 23–25일, 라스베이거스. 카드 샘플을 가지고 오시면 흠집 없는 이송, 1장씩 분리 공급, 안정적인 정렬이 실기로 구동되는 것을 보실 수 있습니다 — 엔지니어가 현장에서 바로 세팅합니다.",
+    "expoCta": "미국 전시회 9.23–25 예약",
+    "expoLink": "카드 포장 솔루션 보기"
+  },
+  "stats": {
+    "clients": "고객사",
+    "patents": "특허",
+    "experience": "운영 연수",
+    "team": "팀 구성원",
+    "experienceSub": "팀 경력 25년 이상"
+  },
+  "methods": {
+    "title": "게임 카드를 위한 6가지 포장 방식",
+    "description": "고속 캔디 포장부터 프리미엄 입체 박스까지 카드 제품에 가장 적합한 포장 형식을 선택하세요. 각 방식은 완전 통합 생산 라인으로 제공됩니다.",
+    "viewLine": "전체 라인 보기"
+  },
+  "whyUs": {
+    "title": "왜 CHANFER인가?",
+    "description": "단순한 기계 공급업체가 아닌, 제조 역량과 위탁 포장 서비스를 갖춘 엔드투엔드 포장 파트너입니다.",
+    "equipment": {
+      "title": "장비 제조사",
+      "desc": "직접 기계를 설계·제작합니다 — 중간 유통 없이 공장 직거래 가격과 완전한 기술 지원을 제공합니다."
+    },
+    "service": {
+      "title": "포장 서비스 제공업체",
+      "desc": "5,000m² 클린룸 시설에 자체 장비, 인력, 포장 필름을 갖추고 있습니다. 고객은 제품만 제공하시면 나머지는 저희가 처리합니다."
+    },
+    "smart": {
+      "title": "스마트 카드 배분",
+      "desc": "AI 비전 검사를 탑재한 컴퓨터 제어 카드 분류 시스템. 배치당 최대 25,000팩 처리, 100% 오류 감지."
+    },
+    "ai": {
+      "title": "AI 비전 검사",
+      "desc": "분당 400매 이상의 실시간 카드 검사. 잘못된 카드, 누락된 카드, 순서 오류를 즉시 감지합니다."
+    },
+    "integration": {
+      "title": "풀라인 통합",
+      "desc": "카드 공급부터 팔레타이징까지 — 협동 로봇과 스마트 제어 시스템을 갖춘 완전 턴키 생산 라인."
+    },
+    "quality": {
+      "title": "품질 보증",
+      "desc": "ISO9001 인증, 국가 하이테크 기업, 광동성 SRDI 인정. 100건 이상의 특허 및 CE 인증."
+    }
+  },
+  "smartSystem": {
+    "badge": "스마트 시스템",
+    "title": "컴퓨터 카드 배분 시스템",
+    "description": "당사의 지능형 카드 배분 시스템은 컴퓨터, 카드 분배기 및 다수의 카드 공급기를 사용하여 사전 설정된 레시피에 따라 카드를 자동으로 분류하고 포장합니다.",
+    "features": [
+      "Excel에서 카드 분류 프로세스 편집 — 간단하고 직관적",
+      "1,000개 이상의 프로세스 레시피 파일 저장 가능, 배치당 25,000팩",
+      "오류 방지 감지: 백카드 / 두께 / AI 비전 검사",
+      "오류 발생 시 자동 경보 및 정지, 문제 해결 후 빠른 재시작",
+      "6가지 포장 라인 구성 모두와 호환"
+    ],
+    "comparison": {
+      "title": "기존 방식 vs. CHANFER 스마트 라인",
+      "labels": {
+        "labor": "필요 인력",
+        "errorRate": "오류율",
+        "batchSize": "배치 크기",
+        "changeover": "교체 시간",
+        "qualityAssurance": "품질 보증"
+      },
+      "traditional": {
+        "labor": "다수 작업자",
+        "errorRate": "높음 (수동 계수)",
+        "batchSize": "소규모 데이터만",
+        "changeover": "30–60분",
+        "qualityAssurance": "수동 샘플링 검사"
+      },
+      "chanfer": {
+        "labor": "1–2명 작업자",
+        "errorRate": "0에 가까움 (AI 검사)",
+        "batchSize": "배치당 최대 25,000팩",
+        "changeover": "3–5분 (레시피 전환)",
+        "qualityAssurance": "100% 실시간 검사"
+      },
+      "traditionalLabel": "기존 방식",
+      "chanferLabel": "CHANFER"
+    }
+  },
+  "certifications": {
+    "title": "업계 리더들이 신뢰하는 기업",
+    "description": "CHANFER는 세계 최고의 인쇄 및 포장 기업을 포함하여 8,000곳 이상의 고객사에 서비스를 제공했습니다."
+  },
+  "timeline": {
+    "title": "회사 연혁",
+    "description": "단일 카드 공급기에서 풀 스펙트럼 포장 솔루션 제공업체로."
+  },
+  "solutions": {
+    "title1": "카드 포장",
+    "title2": "솔루션",
+    "description": "CHANFER는 게임 카드, 트레이딩 카드, 보드게임 구성품을 위한 6가지 검증된 포장 방식을 제공합니다. 각 방식은 자동 카드 공급부터 로봇 팔레타이징까지 완전 통합 생산 라인으로 이용 가능합니다.",
+    "specs": {
+      "speed": "속도",
+      "filmDia": "필름 롤 직경",
+      "filmWidth": "필름 폭",
+      "bagSize": "봉투 크기",
+      "innerDia": "내경",
+      "voltage": "전압",
+      "bandingWeight": "총 중량",
+      "bandingThickness": "제품 두께",
+      "bandingDimensions": "외형 치수",
+      "title": "기술 사양"
+    },
+    "keyFeatures": "주요 특징",
+    "idealFor": "적합 용도",
+    "watchInAction": "구동 영상 보기",
+    "videoComingSoon": "영상 준비 중",
+    "showLine": "생산 라인 및 공정 보기",
+    "hideLine": "생산 라인 및 공정 숨기기",
+    "completeLine": "완전 생산 라인",
+    "lineComponents": "생산 라인 구성 요소",
+    "process": "포장 공정",
+    "requestLine": "이 라인 문의하기",
+    "viewMachines": "개별 기계 보기",
+    "cta": {
+      "title": "어떤 포장 방식이 적합할지 고민되시나요?",
+      "description": "저희 엔지니어가 귀하의 카드 제품 사양을 분석하고 최적의 포장 방식과 라인 구성을 추천해 드립니다.",
+      "button": "무료 상담 받기"
+    },
+    "solutionsData": {
+      "candy": {
+        "name": "캔디 포장",
+        "subtitle": "카드 캔디 포장",
+        "description": "고속 필로우래핑 방식 — TCG 부스터팩 및 컬렉션 카드 슬리브에 가장 인기 있는 방식. ",
+        "features": [
+          "서보제어 봉투 길이 — 설정 및 절단, 빈 행정 없음",
+          "고감도 광전센서 추적으로 정밀 밀봉",
+          "HMI에 저장되는 최대 60개 포장 파라미터 프리셋",
+          "오작동 방지: 제품 교체 시 자동 역회전",
+          "필름 없음 자동 정지로 낭비 방지",
+          "핀홀 배기"
+        ],
+        "processSteps": {
+          "1": "마찰 급지 계수",
+          "2": "플로우 포장 기계",
+          "3": "중량검사(NG 배출)",
+          "4": "수동 카톤닝",
+          "5": "케이스 패킹",
+          "6": "수축포장",
+          "7": "H형 카톤 실러",
+          "8": "협업 팔레타이징 로봇"
+        },
+        "lineComponents": {
+          "Friction Feeder": "마찰 급지기",
+          "Flow Packing Machine": "플로우 포장 기계",
+          "Sealing & Cutting Shrinkage Machine": "밀봉 절단 수축 기계",
+          "Unpacking Machine": "언패킹 머신",
+          "H-Type Carton Sealer": "H형 카톤 실러",
+          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
+        },
+        "idealFor": [
+          "TCG 부스터팩",
+          "컬렉션 카드 슬리브",
+          "게임 카드 멀티팩",
+          "프로모 카드 번들"
+        ]
+      },
+      "self-adhesive": {
+        "name": "자접착 테이프 포장",
+        "subtitle": "카드 자접착 테이프 포장",
+        "description": "재밀봉 가능한 자접착 테이프 봉투 — 재밀봉이 필요한 프리미엄 카드 제품에 적합합니다. 각 봉투는 반복 개폐용 벗김-붙임 스트립이 있습니다.",
+        "features": [
+          "세 가지 밀봉 방식: 자접착, 핫컷 또는 핫프레스",
+          "자동 보정으로 포장 손실 감소",
+          "빈 봉투 감지 — 재료 없음, 필름 낭비 없음",
+          "멀티 스펙 제품에 자유롭게 조절 가능한 봉투 폭",
+          "원클릭 리셋 및 양방향 위치 제어",
+          "정확한 계수 및 배치 포장을 위한 점 기억"
+        ],
+        "processSteps": {
+          "1": "마찰 급지 계수",
+          "2": "봉투 충전 기계",
+          "3": "수동 카톤닝",
+          "4": "밀봉 절단 수축",
+          "5": "케이스 패킹",
+          "6": "H형 카톤 실러",
+          "7": "협업 팔레타이징 로봇"
+        },
+        "lineComponents": {
+          "Friction Feeder": "마찰 급지기",
+          "Bagging Machine": "봉투 충전 기계",
+          "Sealing & Cutting Shrinkage Machine": "밀봉 절단 수축 기계",
+          "Unpacking Machine": "언패킹 머신",
+          "H-Type Carton Sealer": "H형 카톤 실러",
+          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
+        },
+        "idealFor": [
+          "프리미엄 컬렉션 세트",
+          "재밀봉 가능한 카드 저장 봉투",
+          "매장 전시 카드 팩",
+          "한정판 번들"
+        ]
+      },
+      "four-sides": {
+        "name": "4면 밀봉 포장",
+        "subtitle": "카드 4면 밀봉 포장",
+        "description": "4변 열 밀봉 포장 — 프리미엄 위조방지 프레젠테이션을 제공합니다. 완전 밀봉된 모서리는 습기와 오염으로부터 보호합니다.",
+        "features": [
+          "7개 서보모터로 초안정 작동",
+          "3색 전기 눈 정밀 텍스트/이미지 정렬",
+          "독특한 왕복 절단 및 열 용접 기술",
+          "고속 밀봉 — 분당 150봉투에서도 견고하고 안정적",
+          "터치스크린 HMI가 있는 프로그램 가능한 PLC 제어",
+          "스폰지 배기식 밀봉"
+        ],
+        "processSteps": {
+          "1": "마찰 급지 계수",
+          "2": "4면 밀봉 기계",
+          "3": "카톤닝 기계",
+          "4": "봉투 및 카톤닝",
+          "5": "언패킹 머신",
+          "6": "H형 카톤 실러",
+          "7": "협업 팔레타이징 로봇"
+        },
+        "lineComponents": {
+          "Friction Feeder": "마찰 급지기",
+          "Four-Side Sealing Packing Machine": "4면 밀봉 기계",
+          "Cartoning Machine": "카톤닝 기계",
+          "Unpacking Machine": "언패킹 머신",
+          "H-Type Carton Sealer": "H형 카톤 실러",
+          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
+        },
+        "idealFor": [
+          "고가치 거래 카드",
+          "위조방지 밀봉 카드",
+          "프리미엄 컬렉션 카드 팩",
+          "습기에 민감한 카드 제품"
+        ]
+      },
+      "banding": {
+        "name": "밴딩 포장",
+        "subtitle": "카드 밴딩 포장",
+        "description": "친환경 종이 밴드 묶음 — 카드 덱 포장에 가장 지속 가능한 방식. 최소 자재로 안전한 묶음을 유지합니다.",
+        "features": [
+          "PLC 제어 및 터치스크린 서보모터 구동",
+          "자동 카드 발행 + 벨트 묶음 일회 작업",
+          "광전기 제어 자동 발급 및 묶음",
+          "다기능 설정: 카드 수량, 재료, 밴드 알람",
+          "제품 두께 범위: 0.1–3mm",
+          "최대 제품 크기: 100×150mm"
+        ],
+        "processSteps": {
+          "1": "마찰 급지 계수",
+          "2": "밴딩 기계",
+          "3": "수동 패킹",
+          "4": "카톤닝 기계",
+          "5": "언패킹 머신",
+          "6": "H형 카톤 실러",
+          "7": "협업 팔레타이징 로봇"
+        },
+        "lineComponents": {
+          "Friction Feeder": "마찰 급지기",
+          "Banding Machine": "밴딩 기계",
+          "Cartoning Machine": "카톤닝 기계",
+          "Unpacking Machine": "언패킹 머신",
+          "H-Type Carton Sealer": "H형 카톤 실러",
+          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
+        },
+        "idealFor": [
+          "보드게임 카드 덱",
+          "표준 플레잉카드 덱",
+          "친환경 카드 포장",
+          "멀티덱 번들"
+        ],
+        "specs": {
+          "bandingThickness": "0.1-3mm",
+          "bandingDimensions": "약(길이) 2200×(너비) 1200×(높이) 1500mm",
+          "bandingWeight": "약 260KG"
+        }
+      },
+      "heat-shrink": {
+        "name": "수축 포장",
+        "subtitle": "카드 수축 포장",
+        "description": "꼭 맞는 수축 필름 포장 — 우수한 보호성과 함께 360° 제품 가시성을 제공합니다. 수축 필름은 제품 윤곽에 밀착합니다.",
+        "features": [
+          "얇은/작은 포장용 수입 광전 검출기",
+          "전기 눈 + 타이머 길이 조정 자동 급지",
+          "실수 절단 방지 날 자동 보호",
+          "필름 상하 동기화 메커니즘 편차 수정",
+          "아름다운 용접선을 위한 조절 가능한 열풍 방향"
+        ],
+        "processSteps": {
+          "1": "마찰 급지 계수",
+          "2": "플로우 포장 기계",
+          "3": "수축로",
+          "4": "수동 카톤닝",
+          "5": "케이스 패킹",
+          "6": "언패킹 머신",
+          "7": "H형 카톤 실러",
+          "8": "협업 팔레타이징 로봇"
+        },
+        "lineComponents": {
+          "Friction Feeder": "마찰 급지기",
+          "Flow Packing Machine": "플로우 포장 기계",
+          "Shrinking Machine": "수축로",
+          "Cartoning Machine": "카톤닝 기계",
+          "Unpacking Machine": "언패킹 머신",
+          "H-Type Carton Sealer": "H형 카톤 실러",
+          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
+        },
+        "idealFor": [
+          "카드 박스 멀티팩 번들",
+          "판매 준비 프레젠테이션",
+          "투명 디스플레이 포장",
+          "선반 준비 제품"
+        ]
+      },
+      "three-dimensional": {
+        "name": "3차원 포장",
+        "subtitle": "카드 3차원 포장",
+        "description": "박스형 3D 포장 — 한 장의 평면 필름으로 단단한 박스형 포장을 만듭니다. 날카로운 모서리와 단단한 느낌의 프리미엄 프레젠테이션입니다.",
+        "features": [
+          "평면 필름에서 단단한 박스형 포장 생성",
+          "날카로운 모서리와 프리미엄 프레젠테이션",
+          "두꺼운 제품 적합(최대 65mm 높이)",
+          "일관된 품질을 위한 서보 제어",
+          "터치스크린 인터페이스가 있는 프로그램 가능한 PLC"
+        ],
+        "processSteps": {
+          "1": "마찰 급지 계수",
+          "2": "3차원 포장 기계",
+          "3": "수동 카톤닝",
+          "4": "케이스 패킹",
+          "5": "언패킹 머신",
+          "6": "H형 카톤 실러",
+          "7": "협업 팔레타이징 로봇"
+        },
+        "lineComponents": {
+          "Friction Feeder": "마찰 급지기",
+          "Three-Dimensional Packaging Machine": "3차원 포장 기계",
+          "Cartoning Machine": "카톤닝 기계",
+          "Unpacking Machine": "언패킹 머신",
+          "H-Type Carton Sealer": "H형 카톤 실러",
+          "Collaborative Palletizing Robot": "협업 팔레타이징 로봇"
+        },
+        "idealFor": [
+          "프리미엄 수집 박스",
+          "선물 세트 카드 포장",
+          "하이엔드 제품 프레젠테이션",
+          "한정판 번들"
+        ]
+      }
+    },
+    "viewDetails": "상세 보기",
+    "benefitsTitle": "핵심 장점",
+    "relatedMachinesTitle": "이 솔루션에 권장하는 장비",
+    "viewMachineDetails": "장비 상세 보기",
+    "faqTitle": "자주 묻는 질문",
+    "otherSolutionsTitle": "기타 포장 방식"
+  },
+  "machines": {
+    "title1": "기계",
+    "title2": "카탈로그",
+    "description": "고속 마찰 공급기부터 AI 비전 검사 시스템까지 — 카드 제품을 위한 자동 포장 기계 전체 라인업.",
+    "search": "기계 검색...",
+    "showing": "{count}대의 기계 표시 중",
+    "noResults": "검색 조건에 맞는 기계가 없습니다.",
+    "clearFilters": "필터 초기화",
+    "specifications": "사양",
+    "moreSpecs": "+{count}개 추가 사양",
+    "inquire": "{model} 문의하기",
+    "categories": {
+      "all": "전체 기계",
+      "feeding": "카드 공급",
+      "packaging": "포장",
+      "boxing": "박싱 및 실링",
+      "palletizing": "팔레타이징",
+      "ai": "AI 비전"
+    },
+    "model": "모델",
+    "machinesData": {
+      "fkj-100sl": {
+        "name": "자동 마찰 피더",
+        "description": "서보 PLC, 800카드/분(CR80). 자동 알람.",
+        "features": [
+          "서보 모터 구동, PLC 제어, 터치스크린",
+          "최대 속도 60m/분",
+          "단장/다장/연속 카드 공급",
+          "카드 누락 및 결품 자동 알람",
+          "자동 포장 장비와 통합"
+        ],
+        "applications": [
+          "엽서, 그리팅 카드, 행택",
+          "접지 매뉴얼 및 포스터",
+          "카드북, 노트, 잡지"
+        ]
+      },
+      "fkj-200e": {
+        "name": "경제형 마찰 피더",
+        "description": "서보, 500카드/분. 소/중량 생산.",
+        "features": [
+          "서보 모터 구동, PLC 제어",
+          "안정적인 중속 공급",
+          "자동 알람 기능",
+          "포장 라인과의 쉬운 통합"
+        ],
+        "applications": [
+          "대형 포맷 카드 및 인쇄물",
+          "매뉴얼 및 판촉물",
+          "중형 시트 제품"
+        ]
+      },
+      "fkj-300e": {
+        "name": "중속 마찰 피더",
+        "description": "서보, 600카드/분. 중량 생산.",
+        "features": [
+          "대형 포맷 제품 처리",
+          "서보 제어 정밀도",
+          "광전 감지 제어",
+          "PLC 프로그래밍 가능 동작"
+        ],
+        "applications": [
+          "대형 포맷 카드 및 보드게임 부품",
+          "초대형 인쇄물",
+          "게임 보드 및 대형 카드"
+        ]
+      },
+      "fkj-420e": {
+        "name": "대형 마찰 피더",
+        "description": "대형 카드 및 보드.",
+        "features": [
+          "초광폭 공급 능력",
+          "안정적인 서보 동작",
+          "간편한 터치스크린 제어",
+          "두꺼운 소재용 견고한 구조"
+        ],
+        "applications": [
+          "보드게임 보드 및 대형 부품",
+          "초광폭 인쇄물",
+          "다페이지 책형 제품"
+        ]
+      },
+      "fkj-600c": {
+        "name": "FKJ-600C 마찰 피더",
+        "description": "FKJ-600C 마찰 피더는 최대 600mm 폭 시트 제품용. 서보 PLC, 터치스크린 조작으로 최대 200장/분. 카드 누락·무카드 자동 알람.",
+        "longDescription": [
+          "FKJ-600C는 CHANFER의 대형 시트용 마찰 피더, 서보 PLC, 최대 200장/분 (최대 600mm 폭).",
+          "단발, 다발, 연속 공급 모드를 지원하며, 베개형 포장기, 수직형 포장기, 케이스 실러, 자동 컨베이어, 자동 수축 포장기 등과 연동하여 완전 자동화된 포장 라인을 구축합니다."
+        ],
+        "features": [
+          "서보 모터 구동 + PLC 컨트롤러 + 터치스크린; 화면에서 모든 설정 및 조작, 데이터 저장 기능, 시작 시 자동 운전",
+          "서보 모터 최고 속도 60m/분",
+          "전자동 포장기와 연결하여 포장 수량에 따른 고속 자동 공급",
+          "카드 누락·무카드 시 자동 알람; 단발, 다발, 연속 공급 모드",
+          "광전 제어; 메인 전원 투입 후 센서 감지로 자동 공급",
+          "자동화 포장 설비와 매칭하여 일체화 자동 포장 실현",
+          "사전 공급 길이, 회당 공급 수량, 이중 또는 무카드 시 자동 정지 알람 등 다기능 설정, 실시간 온라인 제어",
+          "구조 설계가 합리적이어서 소모품 교체가 간단하고 신속"
+        ],
+        "applications": [
+          "시트 제품: 경품권, 합격증, 카드, 게임 카드, 엽서, 인사말 카드, 태그, 라벨, 포장 봉투, 미성형 용기, 봉투, 홍bao, A4 용지, 보증서 등",
+          "접힌 제품: 설명서, 포스터, 다양한 크기의 접힌 제품",
+          "소책자 제품: 설명서, 카드북, 노트, 만화, 다양한 크기의 잡지"
+        ],
+        "specs": {
+          "Card Thickness": "0.1–3mm",
+          "Card Size": "길이 100–500mm × 폭 200–600mm",
+          "Feeding Speed": "약 200장/분(카드 크기에 따라 다름)",
+          "Power": "220V / 800W",
+          "Machine Size": "약 길이 888 × 폭 993 × 높이 558mm",
+          "Weight": "약 65KG"
+        },
+        "relatedMachineIds": [
+          "fkj-100sl",
+          "fkj-200e",
+          "cxfy-80a"
+        ],
+        "relatedSolutionIds": [
+          "candy",
+          "self-adhesive",
+          "four-sides"
+        ],
+        "ctaTitle": "FKJ-600C에 관심?",
+        "ctaDescription": "FKJ-600C의 상세 사양, 견적 및 라인 통합 안내를 받아보세요."
+      },
+      "cxfy-80a": {
+        "name": "단일 헤드 행성식 카드 흡입 공급기",
+        "description": "작고 변형 가능한 단일 시트 제품용 단일 헤드 측면 흡입 카드 공급기。서보 구동 PLC 제어 터치스크린, 최대 60장/분。",
+        "features": [
+          "서보 구동, PLC 제어, 터치스크린",
+          "자동 포장기와 연결 가능",
+          "자동 알람 기능 + 단발/연속 공급 모드",
+          "광전 제어를 통한 자동 카드 공급",
+          "합리적인 구조, 소모품 교체 간편"
+        ],
+        "applications": [
+          "게임 카드, 엽서, 플라스틱 카드",
+          "작고 변형 가능한 단일 시트 제품",
+          "베개형/백형/박스 밀봉 라인과의 통합"
+        ]
+      },
+      "three-head-suction": {
+        "name": "삼두 흡입 피더",
+        "description": "진공, 삼역. 매끄러운 카드.",
+        "features": [
+          "3헤드 유성 흡착 메커니즘",
+          "파나소닉 압력 감지 스위치",
+          "무카드 자동 알람",
+          "서보 모터 및 PLC 제어"
+        ],
+        "applications": [
+          "게임 카드 및 TCG 카드",
+          "얇은 플라스틱 카드 및 필름",
+          "변형 가능한 시트 제품"
+        ]
+      },
+      "four-head-suction": {
+        "name": "사두 흡입 피더",
+        "description": "진공, 사역. 최고 속도.",
+        "features": [
+          "4헤드 동시 작동",
+          "대량 라인용 최대 처리량",
+          "서보 정밀 제어",
+          "실시간 압력 모니터링"
+        ],
+        "applications": [
+          "고속 카드 생산 라인",
+          "대량 카드 포장",
+          "세심한 취급이 필요한 프리미엄 카드 제품"
+        ]
+      },
+      "card-dispensing-matching": {
+        "name": "카드 배출 분류기",
+        "description": "배출 분류, 정밀 카운팅.",
+        "features": [
+          "컴퓨터 제어 디스패칭 시스템",
+          "카드 분류용 EXCEL 레시피 편집",
+          "공정 레시피 파일 1,000개 이상 저장 가능",
+          "초음파 이중시트/비전/두께 검사",
+          "배치당 최대 25,000팩"
+        ],
+        "applications": [
+          "멀티 카드 팩 조립 (TCG, CCG)",
+          "복잡한 카드 분류 및 매칭",
+          "가변 레시피 배치 생산"
+        ]
+      },
+      "zs-220x": {
+        "name": "상부 필름 푸시형 포장기",
+        "description": "상부 필름 푸시형 베개형 포장기로, 필름 폭 75–220mm의 평평한 제품용입니다. 서보 제어 20–220팩/분, 중심 밀봉 패턴 커스터마이징, 코더/펀처/라벨러 옵션。",
+        "features": [
+          "상부 필름 푸시 구조, 서보 제어로 정확한 봉투 길이와 절단 위치",
+          "필름 폭 75–220mm, 카드 등 평평한 제품에 적합",
+          "중심 밀봉 및 칼 패턴 커스터마이징 가능",
+          "코더, 펀처, 라벨러 옵션; 테일 컨베이어 연장/단축 가능",
+          "순수 PE 필름 비권장; 라인 속도는 제품과 필름 재질에 따라 최대 약 25m/분"
+        ],
+        "applications": [
+          "필름 폭 220mm 이하의 평평한 제품(카드)",
+          "TCG 부스터 팩, 카드 슬리브, 카드 다중 팩",
+          "불규칙하거나 대량 낱개 제품에는 부적합"
+        ]
+      },
+      "sbf-250": {
+        "name": "사방 밀봉기",
+        "description": "칠서보, 150팩/분. 삼색.",
+        "features": [
+          "7개 서보 모터로 안정적 운전",
+          "3색 전기 아이 추적",
+          "왕복식 절단 및 열밀봉 기술",
+          "PLC 프로그래밍 가능 제어"
+        ],
+        "applications": [
+          "카드 사면 밀봉 포장",
+          "프리미엄 제품 포장",
+          "훼손 방지 포장"
+        ]
+      },
+      "qdzd-2130": {
+        "name": "자가접착 기계",
+        "description": "삼방식. 재밀봉.",
+        "features": [
+          "3가지 밀봉 방식 선택 가능",
+          "자동 정렬(보정) 기능",
+          "에어백 방지 검사",
+          "원터치 리셋 및 양방향 제어",
+          "흡착 컵 백 인출"
+        ],
+        "applications": [
+          "카드 자착 스트립 포장",
+          "프리미엄 재밀봉 카드 백",
+          "소매 전시 포장"
+        ]
+      },
+      "zdqd-1520": {
+        "name": "접착 스트립 포장기",
+        "description": "카드 제품 및 시트 자재용 고속 자루 포장기. 서보 구동 PLC 제어, 20–80개/분.",
+        "features": [
+          "서보 모터 구동의 프로그래머블 PLC 제어",
+          "주요 부위에 수입 베어링 적용, 고속 안정 운전",
+          "터치스크린으로 속도·동작시간·생산량 확인",
+          "다양한 시트 자재에 대응하는 뛰어난 적응성"
+        ],
+        "applications": [
+          "카드 접착 스트립 포장",
+          "인쇄물 포장",
+          "문서 및 서류 포장"
+        ]
+      },
+      "pof-shrink": {
+        "name": "POF 열수축기",
+        "description": "360°. 수입 센서, 날 보호.",
+        "features": [
+          "수입 검출 광전 센서",
+          "테플론 코팅 고온 합금 실링 나이프",
+          "필름 상하 동기화 메커니즘",
+          "실링 나이프 자동 보호"
+        ],
+        "applications": [
+          "카드 수축 포장",
+          "매장 즉시 판매용 카드 포장",
+          "다제품 번들링"
+        ],
+        "model": "수직 씰링기 CF-A6345 + 수축 터널 CF-SJ550",
+        "specGroups": [
+          {
+            "title": "수직 씰링기 CF-A6345",
+            "specs": {
+              "Machine Size": "1898(L) × 1125(W) × 1568(H)mm",
+              "Sealing Knife Size": "630(L) × 465(W)mm",
+              "Package Size": "(90–560)L × (50–380)W × (10–180)Hmm",
+              "Conveyor Speed": "max 26m/min",
+              "Power": "1P 220V, 2.5KW"
+            }
+          },
+          {
+            "title": "수축 터널 CF-SJ550",
+            "specs": {
+              "Machine Size": "1900(L) × 1075(W) × 1230(H)mm",
+              "Shrink Tunnel Size": "1500(L) × 540(W) × 350(H)mm",
+              "Package Size": "400(W) × 300(H)mm",
+              "Conveyor Speed": "0–35m/min",
+              "Power": "3P 380V, 14KW"
+            }
+          }
+        ]
+      },
+      "cartoning": {
+        "name": "자동 카토닝기",
+        "description": "서보, 연속. 카드를 카톤에.",
+        "features": [
+          "자동 공급·개봉·삽입·밀봉",
+          "서보/스텝 모터 + PLC 제어",
+          "광전 감지 — 빈 봉투는 포장 안 함",
+          "규격 변경 시 금형 교환 불필요"
+        ],
+        "applications": [
+          "카드 제품 카토닝(상자 포장)",
+          "제약 및 식품 상자 포장",
+          "생활 화학 제품 포장"
+        ]
+      },
+      "carton-forming": {
+        "name": "카톤 성형기",
+        "description": "자동 성형. 서보.",
+        "features": [
+          "흡착·성형·밀봉 일체 완성",
+          "수직 적재 — 정지 없이 보충",
+          "PLC & HMI 터치스크린 제어",
+          "맞춤형 규격 설계 가능"
+        ],
+        "applications": [
+          "카드 제품 케이스 성형",
+          "다산업 카톤 성형",
+          "자동 케이스 조립(개봉)"
+        ]
+      },
+      "h-type-sealer": {
+        "name": "H형 밀봉기",
+        "description": "H 밀봉. 서보, 연속.",
+        "features": [
+          "상하 자동 테이프 밀봉",
+          "90° 회전으로 사면 밀봉",
+          "참신하고 정밀한 구조 설계",
+          "수동 폭/높이 조절"
+        ],
+        "applications": [
+          "카드 제품 케이스 밀봉",
+          "산업용 카톤 밀봉",
+          "사면 테이프 밀봉"
+        ]
+      },
+      "cf-bd-5050": {
+        "name": "I형 박스 밀봉기",
+        "description": "자동 I형 박스 밀봉기. 수동으로 덮개를 접은 후 박스를 밀어넣으면 자동으로 바닥과 윗부분을 밀봉합니다. 안정적이고 효율적이며 깔끔합니다.",
+        "features": [
+          "수동 접은 후 자동으로 바닥과 윗부분 테이프 밀봉",
+          "길이·너비·높이 수동 조절로 빠른 사이즈 전환",
+          "칼날 보호장치로 의외의 상해 방지",
+          "동일 사양 박스 대량 밀봉에 적합"
+        ],
+        "applications": [
+          "카드 제품 박스 밀봉",
+          "이커머스·물류 박스 밀봉",
+          "식품·생활용품 박스 밀봉"
+        ]
+      },
+      "cf-a5645": {
+        "name": "자동 L형 밀봉 절단기",
+        "description": "POF/PE 수축 필름용 자동 L형 밀봉 절단기입니다. 수축 터널과 함께 사용하여 자동 밀봉 및 절단을 수행하며, 도서, 장난감, 전자제품, 일용품 등의 외포장에 널리 사용됩니다.",
+        "features": [
+          "필름 자동 공급, 밀봉, 절단 및 폐기물 회수",
+          "일정한 온도의 밀봉 나이프로 견고하고 깔끔한 밀봉",
+          "내구성 있는 스테인리스 히트 나이프",
+          "광전 감지 자동 제품 공급",
+          "컨베이어 속도 조절 가능",
+          "POF/PE 수축 필름 호환"
+        ],
+        "applications": [
+          "도서, 장난감, 전자제품 외포장",
+          "식품, 일용품, 화장품 수축 포장",
+          "수축 터널과 연계된 생산 라인"
+        ]
+      },
+      "palletizing-robot": {
+        "name": "협동 팔레타이징 로봇",
+        "description": "울타리 없음. 유연한 프로그래밍.",
+        "features": [
+          "3시간 내 설치 및 디버깅",
+          "팔레타이징 레시피 100개 이상 저장 가능",
+          "좌우 동시 적재 패턴",
+          "작업자 충돌 방지",
+          "정전 흡착 컵 안전 — 소재 낙하 방지"
+        ],
+        "applications": [
+          "카드 제품 케이스 팔레타이징",
+          "다산업 팔레타이징",
+          "협동형 라인 말단 자동화"
+        ]
+      },
+      "ai-visual": {
+        "name": "AI 비전 검사 시스템",
+        "description": "실시간. 결함 감지.",
+        "features": [
+          "오류 검출률 100% (최소 5×5mm)",
+          "실시간 검출 400장/분 이상",
+          "신규 카드 템플릿 AI 자가 학습",
+          "OCR 문자 검출 (중국어, 영어, 숫자)",
+          "혼합 주문 검출 100ms 이내",
+          "신규 배치 학습 최소 3분"
+        ],
+        "applications": [
+          "생산 라인 카드 오류 검출",
+          "OCR 문자 검증",
+          "혼합 주문 및 순서 검출",
+          "카드 포장 품질 보증"
+        ]
+      },
+      "zs-590wsc": {
+        "name": "상면필름 푸시식 측면실링 왕복 열수축 포장기",
+        "description": "ZS-590WS-C 상면필름 푸시식 측면실링 왕복 열수축 포장기. SL-3020 수축로 세트. 최대 필름 폭 590mm, 백 길이 120-1000mm, 제품 높이 5-100mm. 서보 백 길이 제어, 컬러 터치스크린, 40가지 파라미터 저장, 독립 PID 온도 제어.",
+        "features": [
+          "서보 제어: 백 길이 설정 후 즉시 절단, 공회전 없이 시간과 필름 절약",
+          "컬러 터치스크린으로 40가지 포장 파라미터 저장",
+          "자가 진단 기능으로 고장 표시가 한눈에 들어옴",
+          "독립 PID 온도 제어로 다양한 포장 재질에 적합",
+          "위치 정지 기능: 칼날이 달라붙지 않고 필름 낭비 없음",
+          "구동계가 간결하여 작업이 안정적이고 유지보수가 용이",
+          "제품 절단 시 자동 역회전, 재가동 후 바로 개기 용이",
+          "SL-3020 수축로: 200-300℃ 조절 가능, 온도 편차가 작고 전압 변동에 강함",
+          "상하/좌우 대류로 로 내 온도가 균일하여 주름 없이 필름 손상 없는 수축",
+          "승온이 빠르고 수명이 길며 에너지 소비가 낮음",
+          "빠른 성형으로 필름 표면이 평탄하고 광택 있음",
+          "열풍 회수 및 보온성이 우수하여 기존 로보다 전력 절약"
+        ],
+        "applications": [
+          "카드, 포커, 보드게임 액세서리 등 열수축 포장",
+          "필름 폭 ≤590mm, 높이 ≤100mm의 규칙적 또는 불규칙한 고체 제품",
+          "단일 사양 또는 안정적 사양의 자동 포장 라인"
+        ]
+      },
+      "semi-auto-carton-sealer": {
+        "name": "Semi-Automatic Carton Sealer",
+        "description": "Semi-automatic left/right drive carton sealing machine. Operator folds flaps manually; machine seals top and bottom tape automatically.",
+        "features": [
+          "Left/right belt drive for stable carton transport",
+          "Manual flap folding + automatic top/bottom taping",
+          "Adjustable width/height for cartons 150–500mm",
+          "Works with 48/60/72mm tape widths",
+          "Compact design, easy to move and position"
+        ],
+        "applications": [
+          "Card product carton sealing",
+          "Small-batch e-commerce packaging",
+          "Semi-automatic end-of-line sealing"
+        ],
+        "model": "반자동 좌우 구동 박스 봉인기"
+      }
+    },
+    "featuresTitle": "특징",
+    "applicationsTitle": "응용 분야",
+    "viewDetails": "상세 보기",
+    "specLabels": {
+      "Card Thickness": "카드 두께",
+      "Card Size": "카드 크기",
+      "Feeding Speed": "공급 속도",
+      "Power": "전원",
+      "Machine Size": "기계 크기",
+      "Weight": "중량",
+      "Packaging Speed": "포장 속도",
+      "Film Width": "필름 폭",
+      "Bag Length": "봉지 길이",
+      "Bag Width": "봉지 폭",
+      "Product Height": "제품 높이",
+      "Roll Film Diameter": "필름 롤 직경",
+      "Conveyor Speed": "컨베이어 속도",
+      "Sealing Knife Size": "실링 나이프 크기",
+      "Package Size": "포장 크기",
+      "Encasing Speed": "카톤닝 속도",
+      "Box Dimension": "상자 규격",
+      "Carton Size": "카톤 크기",
+      "Speed": "속도",
+      "Load": "하중",
+      "Working Radius": "작업 반경",
+      "Stacking Height": "적재 높이",
+      "Pallet Size": "팔레트 크기",
+      "Product Length": "제품 길이",
+      "Product Width": "제품 폭",
+      "Bag Size": "봉투 크기",
+      "Air Pressure": "공기압",
+      "Air Consumption": "공기 소비량",
+      "Packaging materials": "포장 재료",
+      "Inner Diameter of Film Roll": "필름 롤 내경",
+      "Product Size": "제품 크기",
+      "Tape Size": "테이프 크기",
+      "Belt Speed": "벨트 속도",
+      "Table Height": "작업대 높이",
+      "Sealing Temperature": "밀봉 온도",
+      "Film Material": "필름 재질",
+      "Shrink Tunnel Size": "수축 터널 크기"
+    }
+  },
+  "about": {
+    "title1": "CHANFER",
+    "title2": "소개",
+    "description": "장비 제조부터 위탁 포장 서비스까지 — 자동 카드 포장을 위한 원스톱 파트너.",
+    "overview": {
+      "title": "원스톱 포장 솔루션의 선구자",
+      "intro1": "<strong>광저우 찬퍼 스마트 장비 유한회사</strong>(동관 찬퍼 스마트 포장 기술 유한회사의 자회사)는 2011년 설립되어 국가 하이테크 기업 및 광동성 SRDI(전문화, 정밀화, 차별화, 혁신) 인증 기업입니다.",
+      "intro2": "원스톱 계수 및 포장 솔루션 제공의 선구자로서, CHANFER는 두 개의 핵심 사업부를 운영하고 있습니다:",
+      "equipment": {
+        "title": "장비 제조 사업부",
+        "desc": "15년의 운영과 25년 이상의 팀 경력을 바탕으로, 지속적인 혁신 정신과 함께 생산 인건비를 효과적으로 절감하는 고부가가치 포장 장비를 적극적으로 제공합니다. 당사 제품의 가치는 고객에게 더 높은 부가가치를 창출하는 데 있습니다."
+      },
+      "contract": {
+        "title": "위탁 포장 사업부",
+        "desc": "5,000m² 클린룸 포장 시설에 자체 장비, 인력, 포장 필름을 갖추고 있습니다. 고객은 내부 제품만 제공하시면 그 외 모든 것을 저희가 처리합니다. 대규모 주문도 안심하고 맡길 수 있는 진정한 원스톱 포장 서비스입니다."
+      }
+    },
+    "stats": {
+      "patents": "특허",
+      "patentsSub": "발명 8건 · 실용신안 80건 · 디자인 13건 · 저작권 6건",
+      "clients": "고객사",
+      "clientsSub": "인쇄, 게임, 식품, 의료 산업 전반",
+      "experience": "업계 경험",
+      "experienceSub": "2011년부터 지속적인 혁신",
+      "team": "팀 구성원",
+      "teamSub": "10명 이상의 애프터서비스 엔지니어 포함",
+      "branches": "지사",
+      "branchesSub": "동관 본사 · 광저우 · 이우",
+      "certs": "인증",
+      "certsSub": "하이테크 · SRDI · ISO9001 · CE"
+    },
+    "milestones": {
+      "title": "발전 이정표"
+    },
+    "certifications": {
+      "title": "인증 및 수상",
+      "highTech": {
+        "title": "국가 하이테크 기업",
+        "desc": "중국 과학기술부 인정"
+      },
+      "srdi": {
+        "title": "SRDI 기업",
+        "desc": "광동성 전문화·정밀화·차별화·혁신 중소기업"
+      },
+      "iso": {
+        "title": "ISO 9001:2015",
+        "desc": "품질경영시스템 인증"
+      },
+      "ce": {
+        "title": "CE 인증",
+        "desc": "기계류 유럽 적합성 마킹"
+      },
+      "since": "{year}년부터"
+    },
+    "facilities": {
+      "title": "시설 안내",
+      "guangzhou": {
+        "title": "광저우 본사",
+        "subtitle": "영업 및 관리 센터"
+      },
+      "dongguan": {
+        "title": "동관 공장",
+        "subtitle": "제조 및 포장 센터"
+      },
+      "address": "주소",
+      "phone": "전화",
+      "mobile": "휴대폰",
+      "email": "이메일",
+      "facility": "시설"
+    }
+  },
+  "contact": {
+    "title1": "문의",
+    "title2": "하기",
+    "description": "카드 포장 자동화를 준비하고 계신가요? 제품과 요구사항을 알려주시면 엔지니어가 맞춤형 솔루션을 설계해 드립니다.",
+    "directContact": "직접 연락",
+    "phoneWhatsApp": "전화 / WhatsApp",
+    "emailLabel": "이메일",
+    "guangzhouOffice": "광저우 사무소",
+    "dongguanFactory": "동관 공장",
+    "workingHours": "근무 시간",
+    "workingHoursValue": "월–토: 오전 8:30 – 오후 6:00 (GMT+8)",
+    "whatsapp": {
+      "title": "WhatsApp으로 상담",
+      "subtitle": "신속 응답 · 영업팀 직통"
+    },
+    "form": {
+      "title": "견적 요청",
+      "description": "아래 양식을 작성해 주시면 24시간 이내에 맞춤형 포장 솔루션으로 답변 드리겠습니다.",
+      "name": "성함",
+      "namePlaceholder": "이름을 입력하세요",
+      "company": "회사명",
+      "companyPlaceholder": "회사명을 입력하세요",
+      "email": "이메일",
+      "emailPlaceholder": "you@example.com",
+      "phone": "전화번호",
+      "phonePlaceholder": "+86 130 6098 5132",
+      "productType": "제품 유형",
+      "selectProduct": "제품 유형 선택",
+      "productTypes": {
+        "tradingCards": "트레이딩 카드 (TCG/CCG)",
+        "boardGameCards": "보드게임 카드",
+        "playingCards": "플레잉 카드",
+        "collectibleCards": "컬렉터블 카드",
+        "gameComponents": "보드게임 구성품",
+        "printedMaterials": "인쇄물",
+        "other": "기타"
+      },
+      "quantity": "월간 수량",
+      "selectQuantity": "수량 범위 선택",
+      "quantities": {
+        "under100k": "100,000팩 미만",
+        "100kTo500k": "100,000 – 500,000팩",
+        "500kTo1m": "500,000 – 1,000,000팩",
+        "over1m": "1,000,000팩 이상"
+      },
+      "projectDetails": "프로젝트 상세",
+      "projectPlaceholder": "카드 제품, 포장 요구사항, 선호하는 포장 방식 또는 특별 요청사항을 알려주세요...",
+      "submit": "문의 제출",
+      "thankYou": "감사합니다!",
+      "thankYouMessage": "문의가 접수되었습니다. 24시간 이내에 담당자가 연락 드리겠습니다.",
+      "sending": "전송 중...",
+      "error": "전송 실패",
+      "errorMessage": "문의 전송 중 문제가 발생했습니다. 다시 시도하시거나 직접 연락 주세요."
+    },
+    "promiseBar": "We respond to every inquiry and after-sales request within 24 hours.",
+    "wechat": {
+      "label": "WeChat",
+      "value": "734310807",
+      "note": "Add our team on WeChat for fast consultation."
+    },
+    "process": {
+      "title": "From Inquiry to Delivery",
+      "steps": [
+        {
+          "title": "Inquiry",
+          "desc": "Tell us your cards, output and packaging goal."
+        },
+        {
+          "title": "Proposal & Quote",
+          "desc": "We return a tailored solution and transparent quote."
+        },
+        {
+          "title": "Sampling & Confirmation",
+          "desc": "Pilot run on your samples until specs are confirmed."
+        },
+        {
+          "title": "Mass Production & Delivery",
+          "desc": "Build, test and ship with full documentation."
+        },
+        {
+          "title": "After-Sales Support",
+          "desc": "24h response, lifetime remote support, on-site if needed."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "What is your minimum order quantity (MOQ)?",
+          "a": "We support both sampling (from 1 unit) and volume production. MOQ is flexible and confirmed per project."
+        },
+        {
+          "q": "How long does sampling take?",
+          "a": "Typically 7–15 working days after we receive your samples and requirements."
+        },
+        {
+          "q": "What is the mass-production lead time?",
+          "a": "Usually 30–45 days depending on configuration and order volume."
+        },
+        {
+          "q": "What are your payment terms?",
+          "a": "T/T is preferred; specific terms are confirmed in the proforma invoice."
+        },
+        {
+          "q": "Which languages do you support?",
+          "a": "We serve customers in 9 languages: English, 中文, Русский, Italiano, Deutsch, Français, Español, 한국어, 日本語."
+        },
+        {
+          "q": "What warranty do you provide?",
+          "a": "12-month comprehensive warranty, with 24h response and lifetime free remote technical support."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "카드 포장 자동화를 시작할 준비가 되셨나요?",
+      "description": "공급부터 팔레타이징까지 — 맞춤형 포장 라인 솔루션을 받아보세요.",
+      "button": "견적 요청"
+    },
+    "company": {
+      "description": "Everything Can Be Packed — 2011년부터 게임 카드, 보드게임, 트레이딩 카드를 위한 원스톱 자동 포장 솔루션.",
+      "intelligentEquipment": "스마트 장비"
+    },
+    "solutions": {
+      "title": "포장 솔루션",
+      "candy": "캔디 포장",
+      "selfAdhesive": "자착식 스트립",
+      "fourSides": "사면 실링",
+      "banding": "밴딩 포장",
+      "heatShrink": "열수축",
+      "threeDimensional": "입체 포장"
+    },
+    "quickLinks": {
+      "title": "바로가기",
+      "machineCatalog": "기계 카탈로그",
+      "aboutChanfer": "CHANFER 소개",
+      "contactUs": "문의하기",
+      "downloadBrochure": "브로슈어 다운로드"
+    },
+    "contactTitle": "연락처",
+    "copyright": "© {year} {company}. All rights reserved.",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "이용약관",
+    "friendLinks": {
+      "title": "파트너 링크",
+      "mainSite": "CHANFER 메인 사이트 (Guangzhou Chanfer)",
+      "detergentLine": "턴키 액체 세제 포장 라인"
+    }
+  },
+  "common": {
+    "required": "*",
+    "address": "주소",
+    "phone": "전화",
+    "mobile": "휴대폰",
+    "email": "이메일"
+  },
+  "faqPage": {
+    "hero": {
+      "badge": "지식 센터",
+      "title": "자주 묻는 질문",
+      "description": "카드 포장 방법, 기계, 생산 라인 및 CHANFER 서비스에 대해 알아야 할 모든 것.",
+      "searchPlaceholder": "질문 검색...",
+      "noResults": "질문을 찾을 수 없습니다. 다른 검색어를 시도해 보세요.",
+      "allCategories": "전체",
+      "questionsLabel": "개 답변된 질문",
+      "metaTitle": "카드 포장 FAQ | CHANFER",
+      "metaDescription": "카드 포장 방법, 기계, 생산 속도, AI 검사 및 완제 포장 라인에 대한 자주 묻는 질문 답변."
+    },
+    "categories": [
+      {
+        "id": "packaging-methods",
+        "title": "포장 방법",
+        "items": [
+          {
+            "question": "게임 카드의 6가지 주요 포장 방법은?",
+            "answer": "6가지 방법: 캔디 포장(필로우 랩), 자가접착 스트립(재밀봉 가능), 사면 밀봉, 밴딩(종이 밴드), 열수축, 3D 포장. 각 방법은 카드 유형, 생산량 및 소매 표시 요구에 따라 다릅니다."
+          },
+          {
+            "question": "올바른 포장 방법을 어떻게 선택하나요?",
+            "answer": "1) 카드 유형, 2) 생산 속도, 3) 재밀봉 필요성, 4) 소매 표시, 5) 예산, 6) 지속가능성에 따라 선택. TCG 부스터팩에는 캔디 포장이 가장 인기. 프리미엄 카드에는 사면 밀봉 또는 3D 포장."
+          },
+          {
+            "question": "캔디 포장이란?",
+            "answer": "캔디 포장(필로우 랩)은 TCG 부스터팩에 가장 인기 있는 방법입니다. 제품을 감싸고 양끝을 밀봉하는 연속 필름을 사용. 분당 최대 220팩."
+          },
+          {
+            "question": "자가접착 스트립 포장이란?",
+            "answer": "반복 개봉/밀봉이 가능한 밀봉 스트립이 있는 재밀봉 가능 봉투를 만듭니다. 프리미엄 카드에 이상적. 속도: 분당 30-90팩."
+          },
+          {
+            "question": "사면 밀봉이란?",
+            "answer": "네 면을 모두 열밀봉하여 프리미엄 변조 방지 표시를 제공. 습기와 오염으로부터 보호. 속도: 분당 50-150팩."
+          },
+          {
+            "question": "밴딩 포장이란?",
+            "answer": "친환경 종이 밴드로 카드 덱을 묶습니다. 최소 자재로 안전한 고정. 속도: 분당 5-20팩."
+          },
+          {
+            "question": "열수축 포장이란?",
+            "answer": "수축 필름이 열을 가하면 제품에 밀착되어 360° 가시성과 우수한 보호 제공. 속도: 분당 20-100팩."
+          },
+          {
+            "question": "3D 포장이란?",
+            "answer": "단일 필름 시트에서 단단한 박스형 포장을 만듭니다. 프리미엄 표시. 속도: 분당 40-80팩."
+          }
+        ]
+      },
+      {
+        "id": "machines-equipment",
+        "title": "기계 & 장비",
+        "items": [
+          {
+            "question": "어떤 종류의 포장 기계가 있나요?",
+            "answer": "CHANFER는 카드 공급기, 계수기, 디스펜서, 필로우 포장기, 스트립 봉지기, 사면 밀봉기, 밴딩기, 열수축기, 3D 포장기, 카톤닝기, 케이스 포장기, 로봇 팔레타이저 및 AI 시각 검사 시스템을 제공합니다."
+          },
+          {
+            "question": "생산 속도는 어떻게 되나요?",
+            "answer": "속도: 캔디 20-220, 스트립 30-90, 사면 50-150, 밴딩 5-20, 열수축 20-100, 3D 40-90 팩/분."
+          },
+          {
+            "question": "카드 공급기는 어떻게 작동하나요?",
+            "answer": "스택에서 개별 카드를 분리하여 포장 라인으로 공급합니다. 서보 제어로 이중 공급 감지."
+          },
+          {
+            "question": "카드 계수기는 어떻게 작동하나요?",
+            "answer": "광학 센서와 기계적 계수로 정확한 카드 수를 계수. 100% 정확도, 실시간 모니터링."
+          },
+          {
+            "question": "컴퓨터 카드 디스패칭 시스템이란?",
+            "answer": "CHANFER 시스템은 컴퓨터, 디스펜서, 공급기를 사용하여 사전 설정 레시피에 따라 자동 분류. Excel 편집, 1000+ 레시피, 배치당 25000팩, AI 검사."
+          },
+          {
+            "question": "다양한 카드 크기를 처리할 수 있나요?",
+            "answer": "예, 포커(63x88mm), 브릿지(56x88mm), 미니, 타로 및 맞춤 크기. 교체 3-5분."
+          }
+        ]
+      },
+      {
+        "id": "production-line",
+        "title": "생산 라인",
+        "items": [
+          {
+            "question": "CHANFER는 완제 생산 라인을 제공하나요?",
+            "answer": "예, CHANFER는 공급, 계수, 포장, 카톤닝, 케이스 포장, 밀봉, 로봇 팔레타이징 및 카드 디스패칭 시스템을 포함한 완제 라인을 제공합니다."
+          },
+          {
+            "question": "완제 라인에는 무엇이 포함되나요?",
+            "answer": "1) 공급 및 계수 스테이션, 2) 디스패칭 시스템, 3) 포장기, 4) 카톤닝기, 5) 케이스 포장기, 6) 밀봉기, 7) 팔레타이징 로봇, 8) AI 검사, 9) 제어 시스템."
+          },
+          {
+            "question": "카톤닝이란?",
+            "answer": "포장된 카드 제품을 카톤이나 박스에 넣는 과정. 분당 최대 120카톤."
+          },
+          {
+            "question": "케이스 포장과 팔레타이징이란?",
+            "answer": "케이스 포장은 여러 카톤을 운송 케이스로 그룹화, 팔레타이징은 케이스를 팔레트에 적재. CHANFER는 협동 로봇 사용."
+          },
+          {
+            "question": "설치에 얼마나 걸리나요?",
+            "answer": "완제 라인: 2-4주 (설치, 통합, 테스트, 교육 포함)."
+          }
+        ]
+      },
+      {
+        "id": "quality-inspection",
+        "title": "품질 & AI 검사",
+        "items": [
+          {
+            "question": "AI 시각 검사는 어떻게 작동하나요?",
+            "answer": "CHANFER AI 시스템은 고속 카메라와 머신러닝으로 분당 400+장을 실시간 검사. 오류, 누락, 순서 오류 감지. 오류 시 자동 정지."
+          },
+          {
+            "question": "오류율은 어떻게 되나요?",
+            "answer": "스마트 라인은 AI 검사와 자동화 품질 관리로 거의 0% 오류율 달성. 100% 실시간 검사."
+          },
+          {
+            "question": "CHANFER의 품질 인증은?",
+            "answer": "ISO9001, National High-Tech Enterprise, SRDI Guangdong. 100+ 특허 및 CE 인증."
+          },
+          {
+            "question": "포장 품질을 어떻게 보장하나요?",
+            "answer": "1) AI 검사 400+장/분, 2) 안티에러 감지, 3) 자동 계수 100%, 4) 실시간 모니터링, 5) 데이터 추적, 6) ISO9001 프로세스."
+          },
+          {
+            "question": "레시피 교체 시간은?",
+            "answer": "CHANFER 시스템으로 3-5분 (수동 30-60분). 1000+ 레시피 파일 저장."
+          }
+        ]
+      },
+      {
+        "id": "industry-applications",
+        "title": "산업 & 응용",
+        "items": [
+          {
+            "question": "CHANFER는 어떤 산업을 서비스하나요?",
+            "answer": "게임 카드, 보드게임, 트레이딩 카드, 인쇄. 식품, 의료, 화학, 하드웨어. 8000+ 클라이언트."
+          },
+          {
+            "question": "TCG 부스터팩을 포장할 수 있나요?",
+            "answer": "예, TCG 부스터팩은 주요 응용. 캔디 포장이 가장 인기, 분당 220팩. 멀티 카드 정렬 가능."
+          },
+          {
+            "question": "스포츠 카드 포장이 가능한가요?",
+            "answer": "예, 프리미엄 스포츠 카드에는 사면 밀봉 또는 3D 포장 권장. AI 검사로 올바른 순서 보장."
+          },
+          {
+            "question": "애니메이션 카드 포장이 가능한가요?",
+            "answer": "물론입니다. 자가접착 스트립과 3D 포장이 인기. AI 시스템이 복잡한 정렬 레시피 처리."
+          },
+          {
+            "question": "보드게임 컴포넌트 솔루션이 있나요?",
+            "answer": "예, 카드, 토큰, 컴포넌트 포장. 밴딩은 덱에 이상적."
+          }
+        ]
+      },
+      {
+        "id": "ordering-service",
+        "title": "주문 & 서비스",
+        "items": [
+          {
+            "question": "기계를 어떻게 주문하나요?",
+            "answer": "1) WhatsApp (+86 13060985132) 또는 이메일 (sarah@gzchanfer.com), 2) 요구사항 전달, 3) 솔루션 및 견적 수령, 4) 생산 4-8주, 5) 설치 및 교육 포함."
+          },
+          {
+            "question": "설치와 교육을 제공하나요?",
+            "answer": "예, 현장 설치, 시운전 및 운영자 교육 제공. 원격 지원 가능."
+          },
+          {
+            "question": "납기는 어떻게 되나요?",
+            "answer": "표준 기계: 4-6주. 완제 라인: 6-8주. 맞춤 솔루션: 8-12주."
+          },
+          {
+            "question": "사후 서비스와 부품을 제공하나요?",
+            "answer": "예, 원격 지원, 비디오 진단, 현장 방문 및 부품. 24-48시간 내 발송."
+          },
+          {
+            "question": "공장을 방문할 수 있나요?",
+            "answer": "물론입니다. 동완 공장과 광저우 사무실 방문 환영. 문의해 주세요."
+          },
+          {
+            "question": "계약 포장 서비스가 있나요?",
+            "answer": "예, CHANFER는 5000㎡ 클린룸에서 계약 포장 서비스 운영. 제품만 제공하시면 나머지는 우리가 합니다."
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "title": "더 궁금한 점이 있으신가요?",
+      "description": "당사 팀이 완벽한 솔루션을 찾을 수 있도록 도와드립니다.",
+      "button1": "문의하기",
+      "button2": "솔루션 보기"
+    }
+  },
+  "solutionDetail": {
+    "candy": {
+      "seoTitle": "카드 캔디 포장기 | CHANFER",
+      "seoDescription": "TCG 부스터 팩과 수집 카드를 위한 고속 캔디 포장(flow wrapping). 분당 220팩까지.",
+      "keywords": "캔디 포장기, 카드 캔디 포장, flow wrapping, TCG 부스터 포장, 수집 카드 포장, pillow 포장",
+      "longDescription": [
+        "캔디 포장 — pillow 스타일 flow wrapping이라고도 함 — 은 TCG 부스터 팩, 수집 카드 슬리브, 게임 카드 멀티팩에 가장 널리 사용되는 포장 방식입니다. 연속 필름으로 카드 더미를 감싸고 양 끝을 열봉합합니다.",
+        "CHANFER의 캔디 포장 라인은 분당 최대 220팩을 생산하는 서보 제어 flow wrapping 기계를 중심으로 구축됩니다.",
+        "TCG 퍼블리셔(Pokemon, Magic, Yu-Gi-Oh!)에게 대량 생산 속도에서 일관된 전문적인 포장을 제공하기 때문에 특히 인기입니다.",
+        "전체 라인은 CHANFER의 마찰 피더, 카토닝, 밀봉기, 팔레타이징 로봇과 통합됩니다.",
+        "60개 프리셋으로 크기 변경에 3-5분만 소요됩니다."
+      ],
+      "benefits": [
+        "최고 속도 — 220팩/분",
+        "팩당 최저 비용",
+        "변조 방지 봉합",
+        "빠른 전환 — 3-5분",
+        "풀컬러 인쇄 필름",
+        "라인 통합"
+      ],
+      "benefitsTitle": "캔디 포장을 선택하는 이유?",
+      "faqs": [
+        {
+          "question": "캔디 포장이란?",
+          "answer": "캔디 포장(pillow flow wrapping)은 연속 필름으로 카드를 감싸고 양끝을 봉합합니다. TCG 부스터 팩의 업계 표준입니다."
+        },
+        {
+          "question": "속도는?",
+          "answer": "카드 크기에 따라 20-220팩/분. 서보 시스템이 최고 속도에서도 정밀한 봉합 품질을 유지합니다."
+        },
+        {
+          "question": "어떤 카드 크기?",
+          "answer": "너비 220mm까지, 높이 5-35mm. 포커, 브리지, 타로, 멀티팩."
+        }
+      ],
+      "faqTitle": "캔디 포장 FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "캔디 포장 라인 장비",
+      "ctaTitle": "캔디 포장을 자동화할 준비가 되셨나요?",
+      "ctaDescription": "카드 공급부터 팔레타이징까지 맞춤형 캔디 포장 라인을 받으세요.",
+      "otherSolutionsTitle": "다른 포장 방식",
+      "viewMachineDetails": "상세 보기"
+    },
+    "self-adhesive": {
+      "seoTitle": "자가접착 스트립 포장기 | CHANFER",
+      "seoDescription": "프리미엄 수집 카드를 위한 재밀봉 자가접착 스트립 포장. 한 기계에 세 가지 봉합 방식.",
+      "keywords": "자가접착 스트립, 재밀봉, 프리미엄 카드, 봉합",
+      "longDescription": [
+        "필름과 재밀봉 자가접착 스트립으로 감싸는 다용도 방식. 프리미엄 수집 카드에 이상적.",
+        "세 가지 방식: 자가접착, 열단, 열압착.",
+        "안티 낭비 기술, 포인트 카운팅."
+      ],
+      "benefits": [
+        "재밀봉",
+        "한 기계에 세 방식",
+        "프리미엄 프레젠테이션",
+        "안티 낭비",
+        "유연한 폭",
+        "정밀 카운팅"
+      ],
+      "benefitsTitle": "자가접착 스트립을 선택하는 이유?",
+      "faqs": [
+        {
+          "question": "재밀봉?",
+          "answer": "네, 반복 개봉 가능한 밀착 스트립."
+        },
+        {
+          "question": "방식 수?",
+          "answer": "세 가지: 자가접착, 열단, 열압착."
+        }
+      ],
+      "faqTitle": "자가접착 스트립 FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "qdzd-2130",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "자가접착 포장 라인 장비",
+      "ctaTitle": "자동화할 준비가 되셨나요?",
+      "ctaDescription": "프리미엄 카드를 위한 맞춤 솔루션.",
+      "otherSolutionsTitle": "다른 포장 방식",
+      "viewMachineDetails": "상세 보기"
+    },
+    "four-sides": {
+      "seoTitle": "사방 밀봉 포장기 | CHANFER",
+      "seoDescription": "사방 밀봉, 일곱 서보, 150팩/분. 삼색 포토셀, 교호 절단.",
+      "keywords": "사방 밀봉, 완전 밀봉, 프리미엄 카드, 서보",
+      "longDescription": [
+        "프리미엄 방식: 네 면 모두 열봉합. 습기와 오염 보호.",
+        "일곱 서보, 150팩/분 안정성. 삼색 포토셀 정밀 정렬.",
+        "교호 절단 기술로 고속에서 견고한 밀봉."
+      ],
+      "benefits": [
+        "변조 방지",
+        "습기/오염 보호",
+        "프리미엄 프레젠테이션",
+        "일곱 서보 — 150팩/분",
+        "삼색 포토셀",
+        "교호 절단"
+      ],
+      "benefitsTitle": "사방 밀봉을 선택하는 이유?",
+      "faqs": [
+        {
+          "question": "캔디와 차이?",
+          "answer": "캔디는 끝만 밀봉, 사방은 전체 둘레 밀봉으로 더 큰 보호."
+        },
+        {
+          "question": "속도?",
+          "answer": "일곱 서보로 150팩/분."
+        }
+      ],
+      "faqTitle": "사방 밀봉 FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "사방 밀봉 라인 장비",
+      "ctaTitle": "자동화할 준비가 되셨나요?",
+      "ctaDescription": "프리미엄 카드를 위한 맞춤 솔루션.",
+      "otherSolutionsTitle": "다른 포장 방식",
+      "viewMachineDetails": "상세 보기"
+    },
+    "banding": {
+      "seoTitle": "카드 밴딩 포장기 | CHANFER",
+      "seoDescription": "생분해성 종이 밴드 친환경 밴딩. 서보, 원패스. 게임 카드에 적합.",
+      "keywords": "밴딩, 종이 밴드, 친환경, 게임 카드, 서보",
+      "longDescription": [
+        "가장 친환경적인 방식: 생분해성 종이 밴드. 최소 재료, 재활용 가능.",
+        "서보 PLC 터치스크린. 발급과 밴딩을 한 번에.",
+        "0.1-3mm, 멀티팩. 경제적이고 친환경."
+      ],
+      "benefits": [
+        "가장 친환경 — 생분해성",
+        "최저 비용",
+        "서보 정밀도",
+        "원패스",
+        "두께 0.1-3mm",
+        "지속 가능한 브랜딩"
+      ],
+      "benefitsTitle": "밴딩을 선택하는 이유?",
+      "faqs": [
+        {
+          "question": "친환경 이유?",
+          "answer": "플라스틱 대신 생분해성 종이 밴드, 최소 재료, 재활용."
+        },
+        {
+          "question": "두께?",
+          "answer": "0.1-3mm, 멀티팩."
+        }
+      ],
+      "faqTitle": "밴딩 FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "밴딩 라인 장비",
+      "ctaTitle": "자동화할 준비가 되셨나요?",
+      "ctaDescription": "게임 카드를 위한 맞춤 솔루션.",
+      "otherSolutionsTitle": "다른 포장 방식",
+      "viewMachineDetails": "상세 보기"
+    },
+    "heat-shrink": {
+      "seoTitle": "열수축 포장기 | CHANFER",
+      "seoDescription": "360° 투명 열수축. 수입 센서, 날 보호. 카드 박스용.",
+      "keywords": "열수축, 수축 필름, 투명, POF, 카드",
+      "longDescription": [
+        "투명 수축 필름, 360° 가시성. 카드 박스와 묶음용.",
+        "수입 센서 정밀 감지. 날 자동 보호.",
+        "필름 밀착, 보호와 소매용 프레젠테이션."
+      ],
+      "benefits": [
+        "360° 가시성",
+        "밀착 보호",
+        "소매용 프레젠테이션",
+        "수입 센서",
+        "날 보호",
+        "조절 가능한 열풍"
+      ],
+      "benefitsTitle": "열수축을 선택하는 이유?",
+      "faqs": [
+        {
+          "question": "투명?",
+          "answer": "네, 360° 투명 필름."
+        },
+        {
+          "question": "어떤 제품?",
+          "answer": "카드 박스, 묶음, 선물 세트."
+        }
+      ],
+      "faqTitle": "열수축 FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "pof-shrink",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "열수축 라인 장비",
+      "ctaTitle": "자동화할 준비가 되셨나요?",
+      "ctaDescription": "카드 박스를 위한 맞춤 솔루션.",
+      "otherSolutionsTitle": "다른 포장 방식",
+      "viewMachineDetails": "상세 보기"
+    },
+    "three-dimensional": {
+      "seoTitle": "3D 입체 포장기 | CHANFER",
+      "seoDescription": "프리미엄 3D 포장, 견고한 박스. 65mm까지. 서보. 한정판에 적합.",
+      "keywords": "3D, 박스 포장, 프리미엄, 럭셔리, 한정판",
+      "longDescription": [
+        "최고 프리미엄 방식: 날카로운 모서리의 견고한 박스. 럭셔리, 한정판에 이상적.",
+        "65mm까지. 서보로 일관된 접힘과 밀봉.",
+        "PLC 다중 구성."
+      ],
+      "benefits": [
+        "최고 프리미엄",
+        "두께 65mm",
+        "서보 정밀도",
+        "럭셔리",
+        "PLC 프로그래밍",
+        "선물용"
+      ],
+      "benefitsTitle": "3D 포장을 선택하는 이유?",
+      "faqs": [
+        {
+          "question": "두께?",
+          "answer": "65mm까지."
+        },
+        {
+          "question": "어떤 제품?",
+          "answer": "한정판, 컬렉터 박스, 프리미엄 액세서리."
+        }
+      ],
+      "faqTitle": "3D 포장 FAQ",
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedMachinesTitle": "3D 포장 라인 장비",
+      "ctaTitle": "자동화할 준비가 되셨나요?",
+      "ctaDescription": "프리미엄 카드를 위한 맞춤 솔루션.",
+      "otherSolutionsTitle": "다른 포장 방식",
+      "viewMachineDetails": "상세 보기"
+    }
+  },
+  "machineDetail": {
+    "fkj-100sl": {
+      "seoTitle": "자동 마찰 피더 FKJ-100KP | CHANFER",
+      "seoDescription": "서보 고속 피더. 800카드/분(CR80). 0.1-3mm. PLC 터치스크린.",
+      "keywords": "마찰 피더, FKJ-100KP, 카드, 서보",
+      "longDescription": [
+        "CHANFER 플래그십, 서보 PLC, 800카드/분.",
+        "0.1-3mm. 자동 알람."
+      ],
+      "relatedMachineIds": [
+        "fkj-200e",
+        "zs-220x",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "FKJ-100KP에 관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "fkj-200e": {
+      "seoTitle": "경제형 마찰 피더 FKJ-200E | CHANFER",
+      "seoDescription": "경제형, 서보, 500카드/분.",
+      "keywords": "경제형, FKJ-200E, 피더",
+      "longDescription": [
+        "경제형, 500카드/분."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "zs-220x"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "fkj-300e": {
+      "seoTitle": "중속 마찰 피더 FKJ-300E | CHANFER",
+      "seoDescription": "중속, 서보, 600카드/분.",
+      "keywords": "중속, FKJ-300E, 피더",
+      "longDescription": [
+        "중속, 600카드/분."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-420e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "fkj-420e": {
+      "seoTitle": "대형 마찰 피더 FKJ-420E | CHANFER",
+      "seoDescription": "대형, 카드 및 보드.",
+      "keywords": "대형, FKJ-420E",
+      "longDescription": [
+        "대형 카드 및 보드용."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-300e",
+        "sbf-250"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "three-head-suction": {
+      "seoTitle": "삼두 흡입 피더 | CHANFER",
+      "seoDescription": "진공 삼두, 삼역.",
+      "keywords": "삼두, 진공, 피더",
+      "longDescription": [
+        "삼역, 매끄러운 카드용 진공."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "four-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "four-head-suction": {
+      "seoTitle": "사두 흡입 피더 | CHANFER",
+      "seoDescription": "진공 사두, 최고 속도.",
+      "keywords": "사두, 진공, 속도",
+      "longDescription": [
+        "사역, 초고속."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "card-dispensing-matching"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "card-dispensing-matching": {
+      "seoTitle": "카드 배출 분류기 | CHANFER",
+      "seoDescription": "배출 분류, 정밀 카운팅.",
+      "keywords": "배출, 분류, 카운팅, TCG",
+      "longDescription": [
+        "TCG용 정밀 배출 분류."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "three-head-suction",
+        "four-head-suction"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "cxfy-80a": {
+      "seoTitle": "CXFY-80A 단일 헤드 행성식 카드 흡입 공급기 | CHANFER",
+      "seoDescription": "작고 변형 가능한 단일 시트 제품용 단일 헤드 측면 흡입 카드 공급기。서보 PLC 제어, 최대 60장/분。",
+      "keywords": "단일 헤드 카드 흡입 공급기, 측면 흡입 페이지 분리기, CXFY-80A, 행성식 카드 공급기, 카드 공급 장치, 진공 카드 공급기",
+      "longDescription": [
+        "CXFY-80A는 CHANFER의 작고 변형 가능한 단일 시트 제품용 단일 헤드 측면 흡입 카드 공급기입니다. 서보 구동, PLC 제어, 터치스크린을 갖추고 있으며 최대 공급 속도는 60장/분입니다.",
+        "본 기계는 게임 카드, 엽서, 플라스틱 카드 및 기타 작고 변형 가능한 단일 시트 제품에 적합합니다. 단독 카운팅/페이지 분리 장치로 사용하거나 베개형 포장기, 수직 포장기, 박스 밀봉기, 자동 컨베이어, 수축 포장기가 포함된 포장 라인에 쉽게 통합할 수 있습니다.",
+        "광전 제어를 통해 주 전원을 켜면 자동으로 카드를 공급합니다. 자동 알람 기능과 단일 연속 공급 모드를 갖추고 있으며, 합리적인 구조로 소모품 교체가 간편하고 신속합니다."
+      ],
+      "relatedMachineIds": [
+        "three-head-suction",
+        "four-head-suction",
+        "fkj-100sl"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "CXFY-80A 단일 헤드 카드 흡입 공급기에 관심이 있으신가요?",
+      "ctaDescription": "CXFY-80A의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "zs-220x": {
+      "seoTitle": "ZS-230 상부 필름 푸시형 포장기 | CHANFER",
+      "seoDescription": "ZS-230 상부 필름 푸시형 포장기. 필름 폭 75–220mm, 속도 20–220팩/분, 서보 제어. 카드·카드 슬리브 등 평평한 제품용.",
+      "keywords": "상부 필름 푸시형 포장기, ZS-230, 베개형 포장기, 카드 포장기, TCG 포장기, 서보 포장기",
+      "longDescription": [
+        "ZS-230은 필름 폭 220mm 이하의 평평한 제품(예: TCG 카드, 카드 슬리브)용으로 설계된 CHANFER의 상부 필름 푸시형 베개형 포장기입니다. 서보 구동으로 20–220팩/분을 실현하며 봉투 길이와 절단 위치를 정밀하게 제어합니다.",
+        "중심 밀봉 및 칼 패턴 커스터마이징을 지원하고, 코더·펀처·라벨러 등의 옵션 장착이 가능합니다. 테일 컨베이어는 라인 레이아웃에 맞게 연장하거나 단축할 수 있습니다. 주의: 순수 PE 필름은 비권장이며, 봉투에 경미한 긁힘이 생길 수 있습니다. 라인 속도는 제품 형태와 필름 재질에 따라 최대 약 25m/분입니다.",
+        "CHANFER의 마찰 피더, 검중기, 카톤너, 팔레타이징 로봇과 매끄럽게 연동하여 완전한 카드 베개형 포장 라인을 구축합니다."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "pof-shrink",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "heat-shrink"
+      ],
+      "ctaTitle": "ZS-230 상부 필름 푸시형 포장기에 관심이 있으신가요?",
+      "ctaDescription": "ZS-230 상부 필름 푸시형 포장기의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비",
+      "name": "ZS-230 상부 필름 푸시형 포장기",
+      "ctaButton": "견적 받기"
+    },
+    "sbf-250": {
+      "seoTitle": "사방 밀봉기 SBF-250 | CHANFER",
+      "seoDescription": "사방, 칠서보, 150팩/분.",
+      "keywords": "사방, SBF-250, 서보",
+      "longDescription": [
+        "칠서보, 150팩/분. 삼색."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "four-sides",
+        "self-adhesive"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "qdzd-2130": {
+      "seoTitle": "자가접착 기계 QDZD-2130 | CHANFER",
+      "seoDescription": "삼방식. 재밀봉.",
+      "keywords": "자가접착, QDZD-2130, 재밀봉",
+      "longDescription": [
+        "삼방식, 재밀봉."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "zdqd-1520": {
+      "seoTitle": "ZD-QD-1520 접착 스트립 포장기 | CHANFER",
+      "seoDescription": "카드 제품용 고속 자루 포장기 ZD-QD-1520. 서보 구동, PLC 제어, 20–80개/분. 터치스크린, 수입 베어링 적용.",
+      "keywords": "ZD-QD-1520,접착 스트립 포장기,자루 포장기,카드 포장,서보 포장기",
+      "longDescription": [
+        "ZD-QD-1520은 카드 제품, 인쇄물, 문서 등의 필름 봉투 자동 포장을 위해 설계된 CHANFER의 고속 자루 포장기입니다. 서보 모터 구동과 PLC 제어로 프로그램화된 안정적인 운전을 실현합니다.",
+        "자동 자루 포장, 접착 스트립 밀봉, 직관적인 터치스크린 조작이 통합되어 있습니다. 주요 부위에 수입 베어링을 적용해 연속 운전에서도 안정적인 성능과 긴 수명을 보장합니다."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "sbf-250",
+        "pof-shrink"
+      ],
+      "relatedSolutionIds": [
+        "self-adhesive",
+        "four-sides"
+      ],
+      "ctaTitle": "ZD-QD-1520 접착 스트립 포장기에 관심이 있으신가요?",
+      "ctaDescription": "ZD-QD-1520의 상세 사양, 견적 및 라인 통합 안내를 받아보세요.",
+      "relatedSolutionsTitle": "이 장비를 사용하는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비",
+      "relatedSolutions": [
+        "self-adhesive-strip"
+      ]
+    },
+    "pof-shrink": {
+      "seoTitle": "POF 열수축기 | CHANFER",
+      "seoDescription": "POF, 360° 투명. 수입 센서.",
+      "keywords": "POF, 열수축, 투명",
+      "longDescription": [
+        "POF, 360°. 수입 센서, 날 보호."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "heat-shrink",
+        "candy"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "cartoning": {
+      "seoTitle": "자동 카토닝기 | CHANFER",
+      "seoDescription": "고속 카토닝, 서보.",
+      "keywords": "카토닝, 자동, 서보",
+      "longDescription": [
+        "자동 카토닝, 서보."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "carton-forming": {
+      "seoTitle": "카톤 성형기 | CHANFER",
+      "seoDescription": "자동 성형, 서보.",
+      "keywords": "성형, 카톤, 자동",
+      "longDescription": [
+        "평판 성형, 서보."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "h-type-sealer": {
+      "seoTitle": "H형 밀봉기 | CHANFER",
+      "seoDescription": "H 밀봉 자동, 서보.",
+      "keywords": "H 밀봉, 자동",
+      "longDescription": [
+        "H 밀봉, 서보."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "cf-bd-5050": {
+      "seoTitle": "CF-BD-5050 I형 박스 밀봉기 | CHANFER",
+      "seoDescription": "자동 I형 박스 밀봉기 CF-BD-5050. 수동 접은 후 바닥과 윗부분 자동 밀봉. 벨트 속도 약 20m/분. 적용 박스 L150×W200×H140mm~. 220V/50Hz.",
+      "keywords": "I형 박스 밀봉기, CF-BD-5050, 자동 박스 밀봉기, 박스 밀봉, 테이프 밀봉기, 5050 박스 밀봉기",
+      "longDescription": [
+        "CHANFER CF-BD-5050은 경제형 자동 I형 박스 밀봉기입니다. 작업자가 박스에 제품을 담고 좌우 및 전후 덮개를 접은 후 박스를 밀어넣으면, 기기가 자동으로 바닥과 윗부분을 테이프로 밀봉하고 밀봉된 박스를 배출합니다.",
+        "적용 박스 사이즈는 L150×W200×H140mm부터 길이 무제한×W500×H500mm입니다. 길이, 너비, 높이를 수동으로 조절하여 다양한 사양에 대응합니다. 벨트 속도는 약 20m/분, 전원은 220V/50Hz, 소비전력 240W입니다.",
+        "컴팩트한 본체로 무게 약 180kg, 작업대 높이는 620-670mm 조절 가능합니다. 전후 400mm 롤러 컨베이어로 수동 투입 및 배출이 용이하며, 칼날 보호장치로 작업 중 의외의 상해를 방지합니다."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "I형 박스 밀봉기에 관심이 있으신가요?",
+      "ctaDescription": "CF-BD-5050의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
+      "relatedSolutionsTitle": "이 설비를 사용하는 포장 솔루션",
+      "relatedMachinesTitle": "관련 설비"
+    },
+    "cf-a5645": {
+      "seoTitle": "CF-A5645 자동 L형 밀봉 절단기 | CHANFER",
+      "seoDescription": "POF/PE 수축 필름용 CF-A5645 자동 L형 밀봉 절단기. 밀봉 나이프 565×460mm, 생산 능력 30개/분, 수축 터널과 조합 가능.",
+      "keywords": "L형 밀봉 절단기, CF-A5645, L형 밀봉기, 수축 필름 밀봉기, POF 밀봉기, PE 밀봉기, 자동 밀봉기",
+      "longDescription": [
+        "CHANFER CF-A5645는 POF/PE 수축 필름용 자동 L형 밀봉 절단기입니다. 필름 자동 공급, 밀봉, 절단 및 폐기물 회수를 수행합니다. 밀봉 나이프 크기는 565(L)×460(W)mm이며, 제품 크기 범위는 (100-450)L×(60-350)W×(5-120)H mm입니다.",
+        "생산 능력은 30개/분이며 컨베이어 속도는 26m/분입니다. 밀봉 나이프 온도는 180-230°C 조절 가능합니다. 총 전력은 3KW, 전원은 1P 220V AC이며 공기 소비량은 4kg/cm²입니다. 기계 크기는 1795×880×1570mm이고 무게는 330Kg입니다.",
+        "수축 터널과 조합하여 완전한 수축 포장 라인을 구성할 수 있으며, 도서, 장난감, 전자제품, 식품, 일용품 및 화장품 등의 외포장에 널리 사용됩니다."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "palletizing-robot"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "자동 L형 밀봉 절단기에 관심이 있으신가요?",
+      "ctaDescription": "CF-A5645의 상세 사양, 가격 및 라인 통합 안내를 받아보세요.",
+      "relatedSolutionsTitle": "이 설비가 적용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 기계"
+    },
+    "palletizing-robot": {
+      "seoTitle": "협동 팔레타이징 로봇 | CHANFER",
+      "seoDescription": "협동 로봇, 울타리 없음.",
+      "keywords": "로봇, 팔레타이징, 협동",
+      "longDescription": [
+        "자동 팔레타이징, 울타리 없음."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "h-type-sealer",
+        "carton-forming"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "ai-visual": {
+      "seoTitle": "AI 비전 검사 시스템 | CHANFER",
+      "seoDescription": "AI 실시간 검사. 결함 감지.",
+      "keywords": "AI, 검사, 품질, 결함",
+      "longDescription": [
+        "AI 실시간 검사. 딥러닝."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "zs-220x",
+        "cartoning"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "heat-shrink"
+      ],
+      "ctaTitle": "관심?",
+      "ctaDescription": "사양 및 가격.",
+      "relatedSolutionsTitle": "이 장비가 사용되는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비"
+    },
+    "fkj-600c": {
+      "seoTitle": "마찰 피더 FKJ-600C | CHANFER",
+      "seoDescription": "서보 대형 피더. 최대 200장/분(최대 600mm 폭). PLC 터치스크린.",
+      "keywords": "마찰 피더, FKJ-600C, 카드, 서보, 대형",
+      "longDescription": [
+        "FKJ-600C는 CHANFER의 대형 시트용 마찰 피더, 서보 PLC, 최대 200장/분 (최대 600mm 폭).",
+        "단발, 다발, 연속 공급 모드를 지원하며, 베개형 포장기, 수직형 포장기, 케이스 실러, 자동 컨베이어, 자동 수축 포장기 등과 연동하여 완전 자동화된 포장 라인을 구축합니다."
+      ],
+      "relatedMachineIds": [
+        "fkj-100sl",
+        "fkj-200e",
+        "fkj-300e"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "FKJ-600C에 관심?",
+      "ctaDescription": "FKJ-600C의 상세 사양, 가격 및 포장 라인 통합 가이드를 받으세요.",
+      "relatedSolutionsTitle": "이 기기를 사용하는 포장 솔루션",
+      "relatedMachinesTitle": "관련 장비",
+      "name": "FKJ-600C 마찰 피더"
+    },
+    "zs-590wsc": {
+      "name": "ZS-590WS-C 상면필름 푸시식 측면실링 왕복 열수축 포장기",
+      "ctaTitle": "열수축 포장 솔루션이 필요하신가요?",
+      "ctaButton": "문의하기",
+      "seoTitle": "ZS-590WS-C 상면필름 푸시식 측면실링 왕복 열수축 포장기 | Chanfer",
+      "seoDescription": "ZS-590WS-C 상면필름 푸시식 측면실링 왕복 열수축 포장기. SL-3020 수축로 세트. 최대 필름 폭 590mm, 20-100개/분. 카드 및 보드게임 액세서리용.",
+      "keywords": "ZS-590WS-C, 열수축 포장기, 측면실링 포장기, 수축로, 카드 포장 장비, Chanfer",
+      "longDescription": [
+        "ZS-590WS-C는 상면필름 푸시식 측면실링 왕복 열수축 포장기로, SL-3020 열수축로와 일체형으로 백 성형·실링·수축을 한 번에 처리합니다.",
+        "최대 필름 폭 590mm, 백 길이 120-1000mm, 제품 높이 5-100mm에 대응합니다. 서보 백 길이 제어로 공회전 없이 즉시 절단, 컬러 터치스크린에 40가지 파라미터 저장, 독립 PID 온도 제어로 다양한 수축 필름에 대응합니다.",
+        "SL-3020 수축로는 상하/좌우 대류로 로 내 온도를 균일하게 유지하며 200-300℃에서 조절 가능합니다. 주름 없이 필름을 손상시키지 않고 광택 있는 마감을 제공하며, 열풍 회수로 전력 소비를 절감합니다.",
+        "카드, 포커, 보드게임 액세서리 및 필름 폭 590mm 이하의 규칙적/불규칙한 고체 제품에 이상적입니다. 특히 단일 사양 또는 안정적 사양의 자동 라인에 적합합니다."
+      ],
+      "relatedSolutions": [],
+      "relatedMachines": []
+    },
+    "semi-auto-carton-sealer": {
+      "seoTitle": "Semi-Automatic Left/Right Drive Carton Sealer | CHANFER",
+      "seoDescription": "Semi-automatic left/right drive carton sealing machine for cartons 150-500mm wide/high. Top and bottom tape sealing at 0-18m/min. Economical end-of-line sealing.",
+      "keywords": "semi-automatic carton sealer, left right drive carton sealer, box sealing machine, carton tape sealer, semi auto case sealer, CHANFER",
+      "longDescription": [
+        "This semi-automatic left/right drive carton sealing machine is a cost-effective end-of-line sealing solution. The operator manually folds the carton flaps and feeds the case into the machine; the left/right belt drive then transports the carton through top and bottom tape heads to apply secure sealing tape automatically.",
+        "Designed for cartons from 150mm to 500mm in width and height, and virtually unlimited length, the machine adapts to a wide range of case sizes commonly used in card product packaging. Sealing speed reaches 0-18m/min, making it suitable for small-batch production, e-commerce order fulfillment, and semi-automatic packaging lines.",
+        "The adjustable table height (600-750mm) and compact footprint (L846 × W812 × H1350mm) make it easy to position in existing workspaces. It works with standard 48, 60, or 72mm sealing tape, giving flexibility to match different carton and tape specifications."
+      ],
+      "relatedMachineIds": [
+        "cartoning",
+        "carton-forming",
+        "h-type-sealer"
+      ],
+      "relatedSolutionIds": [
+        "candy",
+        "self-adhesive",
+        "four-sides",
+        "banding",
+        "heat-shrink",
+        "three-dimensional"
+      ],
+      "ctaTitle": "Interested in the Semi-Automatic Carton Sealer?",
+      "ctaDescription": "Get detailed specifications, pricing, and line integration guidance for the semi-automatic left/right drive carton sealer.",
+      "relatedSolutionsTitle": "Used in These Packaging Solutions",
+      "relatedMachinesTitle": "Related Machines"
+    }
+  },
+  "media": {
+    "customerVideosTitle": "실제 고객 구현 사례",
+    "customerVideosSubtitle": "실제 고객 생산 시설에서 운영되는 당사의 장비를 확인해 보세요.",
+    "trainingVideosTitle": "운영 및 교육 비디오",
+    "trainingVideosSubtitle": "상세한 교육 비디오를 통해 이 기계의 설치, 조작 및 유지보수 방법을 배워보세요.",
+    "equipmentActionTitle": "장비 실제 가동",
+    "equipmentActionSubtitle": "전 세계 고객 생산 시설의 실제 비디오.",
+    "globalCustomersTitle": "글로벌 고객",
+    "globalCustomersSubtitle": "전 세계 카드 및 보드게임 제조사의 신뢰를 받고 있습니다.",
+    "teamCultureTitle": "팀 문화",
+    "teamCultureSubtitle": "우리의 직원은 CHANFER의 심장입니다. 팀 빌딩부터 기술 교육까지, 우리는 고객에게 최고를 제공하기 위해 팀에 투자합니다."
+  }
+}

@@ -83,6 +83,11 @@ export default async function AboutPage({ params }: Props) {
   const guangzhou = facilities.guangzhou as unknown as Record<string, string>;
   const dongguan = facilities.dongguan as unknown as Record<string, string>;
 
+  // E-E-A-T additions (gracefully skip on locales without these keys)
+  const promise = (about as any).promise as Record<string, any> | undefined;
+  const rnd = (about as any).rnd as Record<string, any> | undefined;
+  const casesSec = (about as any).cases as Record<string, any> | undefined;
+
   const statsList = [
     {
       icon: <Award className="w-6 h-6" />,
@@ -427,6 +432,112 @@ export default async function AboutPage({ params }: Props) {
             </div>
           </div>
         </section>
+        {/* E-E-A-T: Service commitments & quality assurance */}
+        {promise && (
+          <section className="py-12 md:py-20">
+            <div className="max-w-7xl mx-auto px-4 md:px-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+                {promise.title}
+              </h2>
+              <p className="text-center text-muted-foreground max-w-3xl mx-auto mb-12">
+                {promise.subtitle}
+              </p>
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                {promise.items.map((it: any, i: number) => (
+                  <div
+                    key={i}
+                    className="p-6 rounded-xl border border-border bg-card text-center card-hover"
+                  >
+                    <div className="w-14 h-14 rounded-full bg-primary/10 text-primary flex items-center justify-center mx-auto mb-4">
+                      <ShieldCheck size={24} />
+                    </div>
+                    <h3 className="font-bold text-base mb-2">{it.title}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {it.desc}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* E-E-A-T: R&D and manufacturing capability */}
+        {rnd && (
+          <section className="py-12 md:py-20 bg-muted">
+            <div className="max-w-7xl mx-auto px-4 md:px-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+                {rnd.title}
+              </h2>
+              <p className="text-center text-muted-foreground max-w-3xl mx-auto mb-12">
+                {rnd.intro}
+              </p>
+              <div className="grid md:grid-cols-3 gap-4">
+                {rnd.points.map((p: any, i: number) => (
+                  <div
+                    key={i}
+                    className="p-6 rounded-xl border border-border bg-card card-hover"
+                  >
+                    <div className="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-4">
+                      <Cog size={22} />
+                    </div>
+                    <h3 className="font-bold text-lg mb-2">{p.title}</h3>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {p.desc}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* E-E-A-T: Customer success story */}
+        {casesSec && (
+          <section className="py-12 md:py-20">
+            <div className="max-w-7xl mx-auto px-4 md:px-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
+                {casesSec.title}
+              </h2>
+              <div className="grid gap-6">
+                {casesSec.items.map((c: any, i: number) => (
+                  <div
+                    key={i}
+                    className="p-8 rounded-xl border border-border bg-card card-hover"
+                  >
+                    <div className="flex flex-wrap items-center gap-3 mb-5">
+                      <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium">
+                        {c.industry}
+                      </span>
+                      <span className="px-3 py-1 rounded-full bg-accent/10 text-accent-dark text-sm font-medium">
+                        {c.region}
+                      </span>
+                    </div>
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <h4 className="font-semibold mb-2 text-sm text-muted-foreground">
+                          {c.challengeLabel}
+                        </h4>
+                        <p className="text-sm text-muted-foreground leading-relaxed">
+                          {c.challenge}
+                        </p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold mb-2 text-sm text-primary">
+                          {c.resultLabel}
+                        </h4>
+                        <p className="text-sm leading-relaxed font-medium">
+                          {c.result}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
       </main>
 
       <Footer dict={dict} locale={locale} />
