@@ -137,6 +137,26 @@ def main():
     except Exception as e:
         report["errors"].append("SITEMAPS_FAILED: %s" % e)
 
+    # sitemap 落后时自动重提：纯通知动作，不改仓库文件、URL、canonical 或任何已收录内容。
+    # 仅在「GSC 记录的 submitted 数 < 仓库当前 <loc> 数」时触发，避免无意义重复提交。
+    try:
+        g0 = report.get("sitemap_gaps", {})
+        recorded = 0
+        for e in report.get("sitemaps", []):
+            for c in (e.get("contents") or []):
+                try:
+                    recorded += int(c.get("submitted") or 0)
+                except (TypeError, ValueError):
+                    pass
+        if recorded and g0.get("total_loc") and recorded < g0["total_loc"]:
+            feed = "https://chanfercard.com/sitemap.xml"
+            call("PUT", "%s/sites/%s/sitemaps/%s" % (W3, q(site), q(feed)), tok=tok)
+            report["sitemap_resubmitted"] = {"feed": feed, "previous_submitted": recorded,
+                                             "current_loc": g0["total_loc"], "at": TODAY}
+            print("SITEMAP RESUBMITTED: %d -> %d loc" % (recorded, g0["total_loc"]))
+    except Exception as e:
+        report["errors"].append("SITEMAP_RESUBMIT_FAILED: %s" % e)
+
     end = dt.date.today() - dt.timedelta(days=2)
     start = end - dt.timedelta(days=27)
     report["report_range"] = [start.isoformat(), end.isoformat()]
@@ -155,11 +175,11 @@ def main():
 
     try:
         gaps = report.get("sitemap_gaps", {}).get("missing", [])
-        urls = [u for u in re.findall(
+        listed = [u for u in re.findall(
             r"<loc>(https://chanfercard\.com/[a-z]{2}/blog/[^<]+)</loc>",
             io.open(os.path.join(ROOT, "public", "sitemap.xml"), encoding="utf-8").read())]
-        urls += gaps[:max(0, INSPECT_LIMIT - len(urls))]
-        urls = urls[:INSPECT_LIMIT]
+        # 优先检查「不在 sitemap 里」的缺口 URL，再用 sitemap 常规条目补满配额
+        urls = list(dict.fromkeys(gaps[:INSPECT_LIMIT] + listed))[:INSPECT_LIMIT]
         insp = []
         for u in urls:
             try:
@@ -191,11 +211,13 @@ def main():
     write()
     gaps_n = report.get("sitemap_gaps", {}).get("missing_count", "?")
     indexed = report.get("inspection_summary", {})
+    n_indexed = sum(v for k, v in indexed.items()
+                    if "indexed" in str(k).lower() and "not " not in str(k).lower())
     print("AUDIT DONE: site=%s level=%s sitemaps=%d perf_rows=%d inspect=%d indexed=%s gaps=%s errors=%d"
           % (site, level, len(report.get("sitemaps", [])),
              sum(len(v) for v in perf.values()),
              len(report.get("inspection", [])),
-             indexed.get("SUBMITTED_AND_INDEXED", 0), gaps_n, len(report["errors"])))
+             n_indexed, gaps_n, len(report["errors"])))
     if report["errors"]:
         print("WARN: %d non-fatal issue(s), see gsc-audit.md" % len(report["errors"]))
     sys.exit(0)
@@ -226,9 +248,31 @@ def write():
             L.append("| %s | %s | %s | %s |" % (e.get("path", "-"), e.get("lastSubmitted", "-"),
                                                 e.get("lastDownloaded", "-"), e.get("type", "-")))
         L.append("")
+        submitted = 0
+        for e in sm:
+            for c in (e.get("contents") or []):
+                try:
+                    submitted += int(c.get("submitted") or 0)
+                except (TypeError, ValueError):
+                    pass
+        if submitted and g.get("total_loc"):
+            done = report.get("sitemap_resubmitted")
+            L += ["- GSC 记录已提交 **%d** 条，当前仓库 sitemap 实际 **%d** 条%s" %
+                  (submitted, g["total_loc"],
+                   " → **本次运行已自动重提 sitemap**" if done else
+                   (" → **建议在 GSC 重提 sitemap**，让 Google 读取新增 URL"
+                    if submitted < g["total_loc"] else "")),
+                  "- 注：GSC `contents[].indexed` 对网址前缀属性常年显示 0，不代表真实索引量；"
+                  "以本报表「URL 索引抽查」的实时结果为准。", ""]
     perf = report.get("performance", {})
     if perf:
         L += ["## 搜索表现（近 28 天）", ""]
+        dr = perf.get("date", [])
+        if dr:
+            c = sum(r["clicks"] for r in dr)
+            i = sum(r["impressions"] for r in dr)
+            L += ["**合计：%d 次点击 / %d 次展示 / CTR %.2f%%**" %
+                  (c, i, (c / i * 100) if i else 0), ""]
         for key, title in [("page", "按页面"), ("query", "按查询词"), ("country", "按国家")]:
             rows = perf.get(key, [])
             if not rows:
@@ -252,6 +296,17 @@ def write():
         for r in mm[:10]:
             L += ["- `%s` → user=%s / google=%s" %
                   (r["url"], r.get("userCanonical"), r.get("googleCanonical")), ""]
+        gap_urls = set(g.get("missing", []))
+        gi = [r for r in insp if r.get("url") in gap_urls]
+        if gi:
+            L += ["### sitemap 缺口 URL 的实际索引状态（%d 条）" % len(gi), "",
+                  "| URL | 状态 | 上次抓取 |", "|---|---|---|"]
+            for r in gi:
+                L.append("| `%s` | %s | %s |" %
+                         (r["url"], r.get("coverageState", r.get("error", "-")),
+                          r.get("lastCrawlTime", "-")))
+            L.append("")
+        L.append("")
     L += ["", "---", "", "完整明细见同目录 `gsc-audit.json`；本文件由 GitHub Actions 自动生成。", ""]
     with io.open(os.path.join(OUT, "gsc-audit.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(L))
