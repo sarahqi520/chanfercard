@@ -167,7 +167,9 @@ def main():
                 try:
                     age = (dt.date.fromisoformat(TODAY)
                            - dt.date.fromisoformat(e["lastSubmitted"][:10])).days
-                    if 0 <= age < 7:
+                    # 同一天内不重复提交；此后每周最多一次，直到 Google 重新下载
+                    # 并把 contents[].submitted 更新为仓库当前 <loc> 数为止。
+                    if age == 0:
                         recent = True
                 except ValueError:
                     pass
