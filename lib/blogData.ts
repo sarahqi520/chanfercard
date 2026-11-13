@@ -8954,7 +8954,9 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
-].sort((a, b) => b.date.localeCompare(a.date));
+];
+
+blogPosts.sort((a, b) => b.date.localeCompare(a.date));
 
 
 
