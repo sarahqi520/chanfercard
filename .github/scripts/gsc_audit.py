@@ -126,6 +126,18 @@ def main():
         print("NO_PROPERTY: 服务账号尚未加入 chanfercard.com 属性（Step 6 未完成）")
         sys.exit(1)
 
+    # GSC 的 sites.list 返回顺序不稳定；固定选主站（非 www 的网址前缀属性），
+    # 否则 URL Inspection 会因属性与 URL 不匹配而全部 403。
+    def rank(s):
+        u = s.get("siteUrl") or ""
+        if u == "https://chanfercard.com/":
+            return 0
+        if u.startswith("sc-domain:chanfercard.com"):
+            return 1
+        if u.startswith("https://www."):
+            return 3
+        return 2
+    hits.sort(key=rank)
     site = hits[0]["siteUrl"]
     level = hits[0].get("permissionLevel")
     report["siteUrl"] = site
@@ -148,12 +160,29 @@ def main():
                     recorded += int(c.get("submitted") or 0)
                 except (TypeError, ValueError):
                     pass
-        if recorded and g0.get("total_loc") and recorded < g0["total_loc"]:
-            feed = "https://chanfercard.com/sitemap.xml"
+        feed = "https://chanfercard.com/sitemap.xml"
+        recent = False
+        for e in report.get("sitemaps", []):
+            if e.get("path") == feed and e.get("lastSubmitted"):
+                try:
+                    age = (dt.date.fromisoformat(TODAY)
+                           - dt.date.fromisoformat(e["lastSubmitted"][:10])).days
+                    if 0 <= age < 7:
+                        recent = True
+                except ValueError:
+                    pass
+        if recorded and g0.get("total_loc") and recorded < g0["total_loc"] and not recent:
             call("PUT", "%s/sites/%s/sitemaps/%s" % (W3, q(site), q(feed)), tok=tok)
             report["sitemap_resubmitted"] = {"feed": feed, "previous_submitted": recorded,
                                              "current_loc": g0["total_loc"], "at": TODAY}
             print("SITEMAP RESUBMITTED: %d -> %d loc" % (recorded, g0["total_loc"]))
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode("utf-8", "ignore")[:300]
+        except Exception:
+            pass
+        report["errors"].append("SITEMAP_RESUBMIT_FAILED: HTTP %d %s" % (e.code, body))
     except Exception as e:
         report["errors"].append("SITEMAP_RESUBMIT_FAILED: %s" % e)
 
