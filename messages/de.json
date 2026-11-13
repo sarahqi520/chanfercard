@@ -939,6 +939,59 @@
       "mobile": "Mobil",
       "email": "E-Mail",
       "facility": "Anlage"
+    },
+    "promise": {
+      "title": "Service-Versprechen & Qualitätssicherung",
+      "subtitle": "Wir stehen hinter jeder von uns gebauten Maschine. Diese Zusicherungen gelten für alle CHANFER-Verpackungssysteme.",
+      "items": [
+        {
+          "title": "12 Monate Garantie",
+          "desc": "Alle Anlagen werden mit einer 12-monatigen Vollgarantie geliefert, die Ersatzteile und Verarbeitung abdeckt."
+        },
+        {
+          "title": "Reaktion innerhalb von 24 Stunden",
+          "desc": "Wir antworten auf jede Anfrage und jeden After-Sales-Wunsch innerhalb von 24 Stunden – unabhängig von der Zeitzone."
+        },
+        {
+          "title": "Lebenslange kostenlose Fernunterstützung",
+          "desc": "Uneingeschränkte kostenlose technische Fernbetreuung über die gesamte Lebensdauer Ihrer Anlage."
+        },
+        {
+          "title": "Kostenpflichtiger Vor-Ort-Service",
+          "desc": "Bei Bedarf bieten wir weltweiten Vor-Ort-Service durch Techniker zu wettbewerbsfähigen Konditionen."
+        }
+      ]
+    },
+    "rnd": {
+      "title": "Forschung, Entwicklung & Fertigung",
+      "intro": "Anders als Anbieter, die nur montieren, kontrolliert CHANFER die gesamte Kette – von der Bearbeitung bis zur Verpackung. So sichern wir Qualität und Lieferzeit von Anfang bis Ende.",
+      "points": [
+        {
+          "title": "Eigenes Bearbeitungszentrum",
+          "desc": "Unser eigenes Bearbeitungszentrum betreibt 20 CNC-Maschinen und fertigt Kernkomponenten im Haus für engere Toleranzen."
+        },
+        {
+          "title": "Eigener Reinraum für Lohnverpackung",
+          "desc": "Ein dedizierter Reinraum übernimmt Lohnverpackungen und liefert uns echte Produktionsdaten zu jeder entwickelten Maschine."
+        },
+        {
+          "title": "Validierung vor Markteinführung",
+          "desc": "Jede neu entwickelte Maschine kommt zunächst in unserem eigenen Reinraum zum realen Einsatz – erst nach erwiesener Stabilität bringen wir sie auf den Markt."
+        }
+      ]
+    },
+    "cases": {
+      "title": "Kunden-Erfolgsgeschichte",
+      "challengeLabel": "Herausforderung",
+      "resultLabel": "Ergebnis",
+      "items": [
+        {
+          "industry": "TCG (Sammelkartenspiele)",
+          "region": "USA",
+          "challenge": "Hochwertige Karten erfordern null Toleranz – eine einzige falsch verpackte Karte bedeutet eine abgelehnte Charge.",
+          "result": "Unser System aus Kartenausgabe + Verpackung + Bildverarbeitung senkte die Fehlerquote bei der Kartenverpackung auf 0 % und schützt so Ausbeute und Markenvertrauen."
+        }
+      ]
     }
   },
   "contact": {

@@ -939,6 +939,59 @@
       "mobile": "Cellulare",
       "email": "Email",
       "facility": "Struttura"
+    },
+    "promise": {
+      "title": "Impegni di servizio e garanzia di qualità",
+      "subtitle": "Siamo garanti di ogni macchina che costruiamo. Questi impegni valgono per tutti i sistemi di imballaggio CHANFER.",
+      "items": [
+        {
+          "title": "Garanzia 12 mesi",
+          "desc": "Tutti gli impianti sono forniti con una garanzia completa di 12 mesi che copre parti e mano d'opera."
+        },
+        {
+          "title": "Risposta entro 24 ore",
+          "desc": "Rispondiamo a ogni richiesta e a ogni necessità post-vendita entro 24 ore, indipendentemente dal fuso orario."
+        },
+        {
+          "title": "Supporto remoto gratuito a vita",
+          "desc": "Consulenza tecnica remota illimitata e gratuita per l'intera vita utile del vostro impianto."
+        },
+        {
+          "title": "Servizio on-site a pagamento",
+          "desc": "Quando necessario, offriamo assistenza tecnica in loco in tutto il mondo a tariffe competitive."
+        }
+      ]
+    },
+    "rnd": {
+      "title": "Capacità di R&S e produzione",
+      "intro": "A differenza dei fornitori che si limitano ad assemblare, CHANFER controlla l'intera catena — dalla lavorazione all'imballaggio —, garantendo così qualità e tempi dall'inizio alla fine.",
+      "points": [
+        {
+          "title": "Centro di lavorazione interno",
+          "desc": "Il nostro centro di lavorazione dispone di 20 macchine CNC e produce internamente i componenti chiave per tolleranze più strette."
+        },
+        {
+          "title": "Clean room interna per l'imballaggio conto terzi",
+          "desc": "Una clean room dedicata gestisce l'imballaggio conto terzi, fornendoci dati di produzione reali su ogni macchina che progettiamo."
+        },
+        {
+          "title": "Validazione prima del lancio",
+          "desc": "Ogni macchina di nuova concezione viene prima impiegata nella nostra clean room per una validazione reale — la lanciamo sul mercato solo dopo averne comprovato la stabilità."
+        }
+      ]
+    },
+    "cases": {
+      "title": "Caso di successo di un cliente",
+      "challengeLabel": "Sfida",
+      "resultLabel": "Risultato",
+      "items": [
+        {
+          "industry": "TCG (giochi di carte collezionabili)",
+          "region": "Stati Uniti",
+          "challenge": "Le carte di alto valore richiedono tolleranza zero: una sola carta imballata male comporta lo scarto dell'intero lotto.",
+          "result": "Il nostro sistema di emissione + imballaggio + visione artificiale ha ridotto lo tasso di errore di imballaggio delle carte allo 0%, tutelando sia la resa che la fiducia nel marchio."
+        }
+      ]
     }
   },
   "contact": {

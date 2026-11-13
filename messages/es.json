@@ -939,6 +939,59 @@
       "mobile": "Móvil",
       "email": "Correo Electrónico",
       "facility": "Instalación"
+    },
+    "promise": {
+      "title": "Compromisos de servicio y garantía de calidad",
+      "subtitle": "Respaldamos cada máquina que construimos. Estos compromisos se aplican a todos los sistemas de embalaje CHANFER.",
+      "items": [
+        {
+          "title": "Garantía de 12 meses",
+          "desc": "Todo el equipo se entrega con una garantía integral de 12 meses que cubre piezas y mano de obra."
+        },
+        {
+          "title": "Respuesta en 24 horas",
+          "desc": "Respondemos a cada consulta y solicitud posventa en un plazo de 24 horas, sin importar la zona horaria."
+        },
+        {
+          "title": "Soporte remoto gratuito de por vida",
+          "desc": "Orientación técnica remota gratuita e ilimitada durante toda la vida útil de su equipo."
+        },
+        {
+          "title": "Servicio presencial de pago",
+          "desc": "Si es necesario, ofrecemos soporte técnico in situ en todo el mundo a una tarifa competitiva."
+        }
+      ]
+    },
+    "rnd": {
+      "title": "Capacidad de I+D y fabricación",
+      "intro": "A diferencia de los proveedores que solo ensamblan, CHANFER controla toda la cadena — del mecanizado al embalaje —, por lo que garantizamos calidad y plazos de principio a fin.",
+      "points": [
+        {
+          "title": "Centro de mecanizado propio",
+          "desc": "Nuestro propio centro de mecanizado cuenta con 20 máquinas CNC y fabrica los componentes clave internamente para tolerancias más ajustadas."
+        },
+        {
+          "title": "Sala limpia propia para embalaje por contrato",
+          "desc": "Una sala limpia dedicada realiza el embalaje por contrato y nos aporta datos de producción reales de cada máquina que diseñamos."
+        },
+        {
+          "title": "Validación antes del lanzamiento",
+          "desc": "Cada máquina recién desarrollada se despliega primero en nuestra propia sala limpia para una validación real — solo tras demostrar estabilidad la lanzamos al mercado."
+        }
+      ]
+    },
+    "cases": {
+      "title": "Caso de éxito de un cliente",
+      "challengeLabel": "Desafío",
+      "resultLabel": "Resultado",
+      "items": [
+        {
+          "industry": "TCG (juegos de cartas coleccionables)",
+          "region": "Estados Unidos",
+          "challenge": "Las cartas de gran valor exigen tolerancia cero: una sola carta mal embalada significa el rechazo de todo el lote.",
+          "result": "Nuestro sistema de emisión + embalaje + visión artificial redujo la tasa de error de embalaje de cartas al 0 %, protegiendo tanto el rendimiento como la confianza en la marca."
+        }
+      ]
     }
   },
   "contact": {

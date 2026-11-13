@@ -939,6 +939,59 @@
       "mobile": "Mobile",
       "email": "Email",
       "facility": "Installation"
+    },
+    "promise": {
+      "title": "Engagements de service & assurance qualité",
+      "subtitle": "Nous garantissons chaque machine que nous construisons. Ces engagements s'appliquent à tous les systèmes d'emballage CHANFER.",
+      "items": [
+        {
+          "title": "Garantie 12 mois",
+          "desc": "Tout l'équipement est livré avec une garantie complète de 12 mois couvrant les pièces et la main-d'œuvre."
+        },
+        {
+          "title": "Réponse sous 24 heures",
+          "desc": "Nous répondons à toute demande et à tout besoin après-vente sous 24 heures, quelle que soit le fuseau horaire."
+        },
+        {
+          "title": "Assistance à distance gratuite à vie",
+          "desc": "Un accompagnement technique à distance illimité et gratuit pendant toute la durée de vie de votre équipement."
+        },
+        {
+          "title": "Service sur site payant",
+          "desc": "Si nécessaire, nous proposons une assistance technique sur site dans le monde entier à un tarif compétitif."
+        }
+      ]
+    },
+    "rnd": {
+      "title": "Capacités en R&D et fabrication",
+      "intro": "Contrairement aux fournisseurs qui se contentent d'assembler, CHANFER maîtrise toute la chaîne — de l'usinage à l'emballage — et garantit ainsi qualité et délais de bout en bout.",
+      "points": [
+        {
+          "title": "Centre d'usinage interne",
+          "desc": "Notre propre centre d'usinage exploite 20 machines CNC et produit les composants clés en interne pour des tolérances plus serrées."
+        },
+        {
+          "title": "Salle blanche propre pour l'emballage en sous-traitance",
+          "desc": "Une salle blanche dédiée assure l'emballage en sous-traitance et nous fournit de vraies données de production pour chaque machine conçue."
+        },
+        {
+          "title": "Validation avant la mise sur le marché",
+          "desc": "Chaque machine nouvellement développée est d'abord déployée dans notre propre salle blanche pour une validation réelle — nous ne la commercialisons qu'après avoir prouvé sa stabilité."
+        }
+      ]
+    },
+    "cases": {
+      "title": "Étude de cas client",
+      "challengeLabel": "Défi",
+      "resultLabel": "Résultat",
+      "items": [
+        {
+          "industry": "TCG (jeux de cartes à collectionner)",
+          "region": "États-Unis",
+          "challenge": "Les cartes de grande valeur exigent une tolérance zéro — une seule carte mal emballée entraîne le rejet de tout un lot.",
+          "result": "Notre système d'émission + d'emballage + de vision industrielle a réduit le taux d'erreur d'emballage des cartes à 0 %, protégeant ainsi le rendement et la confiance dans la marque."
+        }
+      ]
     }
   },
   "contact": {
