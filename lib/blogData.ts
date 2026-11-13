@@ -270,6 +270,8 @@ export const blogPosts: BlogPost[] = [
 
     relatedLinks: [
 
+      { href: "/blog/printing-united-expo-2026-recap", label: { zh: "PRINTING United 拉斯维加斯展后观察", en: "PRINTING United Las Vegas Recap" } },
+
       { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
 
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
@@ -551,6 +553,8 @@ export const blogPosts: BlogPost[] = [
     ],
 
     relatedLinks: [
+
+      { href: "/blog/printing-united-expo-2026-recap", label: { zh: "PRINTING United 拉斯维加斯展后观察", en: "PRINTING United Las Vegas Recap" } },
 
       { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
 
@@ -3392,6 +3396,8 @@ export const blogPosts: BlogPost[] = [
 
     relatedLinks: [
 
+      { href: "/blog/printing-united-expo-2026-recap", label: { zh: "PRINTING United 拉斯维加斯展后观察", en: "PRINTING United Las Vegas Recap" } },
+
       { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
 
       { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
@@ -3767,6 +3773,8 @@ export const blogPosts: BlogPost[] = [
     ],
 
     relatedLinks: [
+
+      { href: "/blog/printing-united-expo-2026-recap", label: { zh: "PRINTING United 拉斯维加斯展后观察", en: "PRINTING United Las Vegas Recap" } },
 
       { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
 
@@ -4646,6 +4654,8 @@ export const blogPosts: BlogPost[] = [
 
     relatedLinks: [
 
+      { href: "/blog/printing-united-expo-2026-recap", label: { zh: "PRINTING United 拉斯维加斯展后观察", en: "PRINTING United Las Vegas Recap" } },
+
       { href: "/blog/printing-united-expo-2026", label: { zh: "PRINTING United Expo 2026 拉斯维加斯", en: "PRINTING United Expo 2026, Las Vegas" } },
 
       { href: "/blog/germany-card-packaging-expo", label: { zh: "INTERPACK 杜塞尔多夫现场", en: "INTERPACK Düsseldorf on the Floor" } },
@@ -4702,6 +4712,175 @@ export const blogPosts: BlogPost[] = [
 
     ],
 
+  },
+  {
+    slug: "printing-united-expo-2026-recap",
+    date: "2026-11-13",
+    category: { zh: "展会观察", en: "Trade Show Insights" },
+    title: {
+      zh: "CHANFER @ PRINTING United Expo 2026：拉斯维加斯展后观察",
+      en: "CHANFER at PRINTING United Expo 2026: What We Learned in Las Vegas",
+    },
+    excerpt: {
+      zh: "2026 年 9 月 23–25 日，CHANFER 在拉斯维加斯会展中心北馆 N7411 设展。三天下来，北美卡牌与纸品后道市场的轮廓更清楚了：终端需求旺盛、专业发卡与卡牌包装设备供给稀缺，买家对合规与本地服务的重视不亚于设备本身。",
+      en: "Three days at Booth N7411 gave us a clearer picture of North American card and paper finishing: strong downstream demand, few dedicated card-feeding suppliers, and buyers who care as much about compliance and local support as about the machine itself.",
+    },
+    body: [
+      {
+        type: "h2",
+        text: { zh: "三天，北馆 N7411", en: "Three Days at Booth N7411" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "2026 年 9 月 23–25 日，CHANFER 在拉斯维加斯会展中心（LVCC）北馆 N7411 设展，参加 PRINTING United Expo 2026。这是我们自己的展位，聚焦卡牌与纸品后道自动化：包括 FKJ-100KP 在内的摩擦式发卡／给料设备、视觉检测，以及面向卡牌、贺卡、信封与促销印刷品的模块化卡牌包装线。",
+          en: "From 23 to 25 September 2026, CHANFER exhibited at PRINTING United Expo 2026 at the Las Vegas Convention Center, North Halls, Booth N7411. It was our own booth, focused on card feeding and packaging automation: friction feeders including the FKJ-100KP, vision inspection, and modular card packaging lines for trading cards, greeting cards, envelopes and promotional print.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "见到谁，聊了什么", en: "Who We Met, and What They Asked" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "三天里，我们与来自英国及美国宾夕法尼亚、俄亥俄、康涅狄格、得克萨斯、纽约、新罕布什尔等地的印刷、卡片、装订、直邮与印后设备企业进行了交流，话题集中在发卡机、多头发卡／卡牌整理线、装袋与检测模块。",
+          en: "Over the three days we spoke with printing, card, binding, direct-mail and finishing equipment companies from the United Kingdom and across the United States — Pennsylvania, Ohio, Connecticut, Texas, New York and New Hampshire among them. Conversations centred on card feeders, multi-head card collating lines, bagging and inspection modules.",
+        },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "同样有价值的是设备之外的问题：英文资料、合规认证说明（UL / CE / FCC / Prop 65 等按设备适用项）、110V 现场供电适配、安装与操作培训、备件供应，以及明确的售后响应机制。",
+          en: "Just as useful was what buyers asked for beyond the machine itself: English documentation, compliance documentation (UL / CE / FCC / Prop 65 where applicable), compatibility with 110V site power, installation and operator training, spare parts availability, and clear after-sales response.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "展会确认的三件事", en: "Three Things the Show Confirmed" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "专业供给稀缺。展会以书刊、信封、卡片、印刷、覆膜、成型、装订与促销品为主，专门做发卡机或整线卡牌包装设备的展商很少——这正是 CHANFER 聚焦的位置。",
+          en: "Dedicated supply is thin. PRINTING United is built around books, envelopes, cards, printing, laminating, forming, binding and promotional products. Few exhibitors specialised in card feeders or complete card packaging lines — which is exactly where CHANFER focuses.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "是配套生态，而非正面竞争。相邻展商服务的加工商与品牌方与我们高度重合，为打包方案与区域代理合作提供了现实基础。",
+          en: "The ecosystem is complementary, not competitive. Most neighbouring exhibitors serve the same converters and brand owners we do, which makes bundled solutions and regional agency partnerships a practical route to market.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "终端需求真实存在。卡牌、贺卡与纸制潮玩在北美零售端保持稳定货架表现，同时越来越多品牌方从海外代包装转向北美本土自建包装产线，带动小批量卡片后道自动化需求。",
+          en: "End demand is real. Trading cards, greeting cards and paper collectibles hold strong shelf presence in US retail, and more brand owners are moving from outsourced overseas packing to in-house packaging in North America — creating demand for compact, small-batch card finishing automation.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "为下一站美国展会做的准备", en: "How We Are Preparing for the Next US Show" },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "建立《海外参展 SOP》，以展前 60 / 30 / 7 天检查清单固化筹备，不再依赖个人经验。",
+          en: "A standardised overseas exhibition SOP with 60/30/7-day pre-show checklists, so preparation does not depend on individual experience.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "提前确认现场电压，按需提供 110V 版本设备或变压器，确保样机可在现场安装调试。",
+          en: "North-American power readiness: confirming site voltage in advance and supplying a 110V machine version or transformer so samples can be commissioned on the floor.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "补齐英文资料包：设备参数、合规认证说明、安装培训范围、备件与售后响应。",
+          en: "A complete English documentation pack — specifications, compliance documentation, installation and training scope, spare parts and after-sales response.",
+        },
+      },
+      {
+        type: "li",
+        text: {
+          zh: "2027 年展会提前 2 个月启动买家与代理渠道预邀约。",
+          en: "Buyer and agent pre-invitations starting two months ahead of the 2027 show.",
+        },
+      },
+      {
+        type: "h2",
+        text: { zh: "对话延续到芝加哥", en: "The Conversation Continued in Chicago" },
+      },
+      {
+        type: "p",
+        text: {
+          zh: "九月在拉斯维加斯建立的部分联系，在十月芝加哥 PACK EXPO International 期间继续深入，重点讨论分张、贴标、装袋与检测模块如何组合成完整产线。这一段写在《PACK EXPO 芝加哥一线观察》里。",
+          en: "Several relationships started in Las Vegas continued at PACK EXPO International in Chicago in October, where we looked at how feeding, labelling, bagging and inspection modules can be combined into one line. Our Chicago field notes cover the second half of that story.",
+        },
+      },
+      {
+        type: "cta",
+        text: {
+          zh: "与工程师聊聊你的卡牌包装产线",
+          en: "Talk to Our Engineers About Your Card Packaging Line",
+        },
+        href: "/contact",
+      },
+    ],
+    relatedLinks: [
+      { href: "/blog/printing-united-expo-2026", label: { zh: "PRINTING United Expo 2026 展前预览", en: "PRINTING United Expo 2026 Preview" } },
+      { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
+      { href: "/blog/card-packaging-line-cost-lead-time", label: { zh: "卡牌包装线成本与交期", en: "Card Packaging Line Cost & Lead Time" } },
+      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+    ],
+    faqs: [
+      {
+        question: {
+          zh: "CHANFER 在 PRINTING United Expo 2026 有展位吗？",
+          en: "Did CHANFER exhibit at PRINTING United Expo 2026?",
+        },
+        answer: {
+          zh: "有。CHANFER 在 2026 年 9 月 23–25 日拉斯维加斯会展中心北馆 N7411 设有自有展位。10 月芝加哥 PACK EXPO International 2026 我们是随合作伙伴展位进场做市场调研，并非 CHANFER 展位。",
+          en: "Yes. CHANFER had its own booth at PRINTING United Expo 2026, 23-25 September at the Las Vegas Convention Center, North Halls, Booth N7411. Our October visit to PACK EXPO International 2026 in Chicago was a market study with a partner's booth, not a CHANFER booth.",
+        },
+      },
+      {
+        question: {
+          zh: "拉斯维加斯展位展示了哪些设备方向？",
+          en: "What equipment did CHANFER present in Las Vegas?",
+        },
+        answer: {
+          zh: "包括 FKJ-100KP 在内的发卡机与摩擦给料设备、视觉检测，以及面向卡牌、贺卡、信封与促销印刷品的模块化卡牌包装线。",
+          en: "Card feeders and friction feeders including the FKJ-100KP, vision inspection, and modular card packaging lines for trading cards, greeting cards, envelopes and promotional print.",
+        },
+      },
+      {
+        question: {
+          zh: "北美买家对卡牌包装供应商有哪些要求？",
+          en: "What do North American buyers expect from a card packaging supplier?",
+        },
+        answer: {
+          zh: "除产能外，通常还会要求英文资料、合规认证说明（UL / CE / FCC / Prop 65 按设备适用项）、110V 供电适配、安装与操作培训、备件供应及明确的售后响应时效。",
+          en: "Beyond throughput, they typically ask for English documentation, compliance documentation (UL / CE / FCC / Prop 65 as applicable), 110V power compatibility, installation and operator training, spare parts availability, and clear after-sales response times.",
+        },
+      },
+      {
+        question: {
+          zh: "CHANFER 设备能在北美 110V 供电下运行吗？",
+          en: "Will a CHANFER machine run on North American 110V power?",
+        },
+        answer: {
+          zh: "北美展会与工厂现场通常为 110V 单相，而我们的标准机型按 220V 制造。我们会在报价阶段确认现场电气条件，并配套对应电压版本或变压器，确保设备可正常安装调试与运行。",
+          en: "North American show and plant supplies are typically 110V single-phase, while our standard machines are built for 220V. We confirm site power at quotation stage and supply a matching voltage version or transformer, so the machine can be commissioned and operated as intended.",
+        },
+      },
+    ],
   },
 ];
 
