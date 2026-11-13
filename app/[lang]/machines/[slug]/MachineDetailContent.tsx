@@ -15,7 +15,9 @@ import {
   Wrench,
   Cpu,
   Gauge,
+  ChevronDown,
 } from "lucide-react";
+import { useState } from "react";
 import VideoGallery from "@/components/VideoGallery";
 import { getTrainingVideosByMachine, getVideosByMachine } from "@/lib/media";
 
@@ -86,6 +88,8 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
 
   // SEO content
   const longDescription = (md.longDescription as string[]) ?? [];
+  const faqs = (md.faqs as Array<{ question: string; answer: string }>) ?? [];
+  const [expandedFaq, setExpandedFaq] = useState<number | null>(0);
   const relatedMachineIds = (md.relatedMachineIds as string[]) ?? [];
   const relatedSolutionIds = (md.relatedSolutionIds as string[]) ?? [];
   const relatedMachines = machineProducts.filter(
@@ -387,6 +391,43 @@ export default function MachineDetailContent({ dict, locale, machineId }: Props)
                   </Link>
                 );
               })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* FAQ */}
+      {faqs.length > 0 && (
+        <section className="py-12 md:py-16 bg-muted/30">
+          <div className="max-w-3xl mx-auto px-4 md:px-6">
+            <h2 className="text-2xl font-bold mb-8 text-center">
+              {(md.faqTitle as string) ?? "Frequently Asked Questions"}
+            </h2>
+            <div className="space-y-3">
+              {faqs.map((faq, i) => (
+                <div
+                  key={i}
+                  className="bg-card border border-border rounded-xl overflow-hidden"
+                >
+                  <button
+                    onClick={() => setExpandedFaq(expandedFaq === i ? null : i)}
+                    className="w-full flex items-center justify-between p-4 text-left hover:bg-muted/50 transition-colors"
+                  >
+                    <span className="font-medium text-sm pr-4">{faq.question}</span>
+                    <ChevronDown
+                      size={18}
+                      className={`shrink-0 text-muted-foreground transition-transform ${
+                        expandedFaq === i ? "rotate-180" : ""
+                      }`}
+                    />
+                  </button>
+                  {expandedFaq === i && (
+                    <div className="px-4 pb-4 text-sm text-muted-foreground leading-relaxed">
+                      {faq.answer}
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </section>

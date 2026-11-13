@@ -118,6 +118,21 @@ export default async function MachineDetailPage({ params }: Props) {
     })),
   };
 
+  // FAQ schema
+  const faqItems = (md.faqs as Array<{ question: string; answer: string }>) ?? [];
+  const faqSchema =
+    faqItems.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faqItems.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        }
+      : null;
+
   return (
     <div className="flex flex-col min-h-screen">
       <script
@@ -128,6 +143,12 @@ export default async function MachineDetailPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <Header dict={dict} locale={locale} />
       <MachineDetailContent dict={dict} locale={locale} machineId={slug} />
       <Footer dict={dict} locale={locale} />
