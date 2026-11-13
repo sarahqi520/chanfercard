@@ -18,6 +18,10 @@ export default function BlogPostContent({
   const faqTitle = locale === "zh" ? "常见问题" : "FAQ";
 
   const canonical = `https://chanfercard.com/${locale}/blog/${post.slug}`;
+  const heroImageSrc = post.body.reduce<string | undefined>(
+    (acc, b) => acc ?? (b.type === "image" ? b.src : undefined),
+    undefined
+  );
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -29,6 +33,7 @@ export default function BlogPostContent({
     inLanguage: locale,
     datePublished: post.date,
     dateModified: post.date,
+    ...(heroImageSrc ? { image: `https://chanfercard.com${heroImageSrc}` } : {}),
     author: { "@type": "Organization", name: "CHANFER", url: "https://chanfercard.com" },
     publisher: {
       "@type": "Organization",
@@ -149,6 +154,24 @@ export default function BlogPostContent({
                   </Link>
                 );
               }
+              if (block.type === "image")
+                return (
+                  <figure key={i} className="my-8">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={block.src}
+                      alt={t(block.alt)}
+                      loading={i === 0 ? "eager" : "lazy"}
+                      decoding="async"
+                      className="w-full h-auto rounded-xl border border-border"
+                    />
+                    {block.caption && (
+                      <figcaption className="mt-3 text-sm text-muted-foreground text-center">
+                        {t(block.caption)}
+                      </figcaption>
+                    )}
+                  </figure>
+                );
               if (block.type === "video")
                 return (
                   <figure key={i} className="my-8">

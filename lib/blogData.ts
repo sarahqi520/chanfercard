@@ -29,6 +29,12 @@ export interface BlogPost {
 
 
 export type BlogBlock =
+  | {
+      type: "image";
+      src: string;
+      alt: Record<string, string>;
+      caption?: Record<string, string>;
+    }
 
   | { type: "h2"; text: Record<string, string> }
 
@@ -4726,6 +4732,18 @@ export const blogPosts: BlogPost[] = [
       en: "Three days at Booth N7411 gave us a clearer picture of North American card and paper finishing: strong downstream demand, few dedicated card-feeding suppliers, and buyers who care as much about compliance and local support as about the machine itself.",
     },
     body: [
+      {
+        type: "image",
+        src: "/images/printing-united-expo-2026-booth.webp",
+        alt: {
+          zh: "CHANFER 团队在 PRINTING United Expo 2026 拉斯维加斯会展中心北馆 N7411 展位，现场展示发卡机与卡牌包装线方案",
+          en: "The CHANFER team at Booth N7411 in the North Halls of the Las Vegas Convention Center, PRINTING United Expo 2026, with card feeding and card packaging equipment on display",
+        },
+        caption: {
+          zh: "CHANFER 团队于 PRINTING United Expo 2026（2026 年 9 月 23–25 日，拉斯维加斯会展中心北馆 N7411）",
+          en: "The CHANFER team at PRINTING United Expo 2026, 23-25 September, North Halls Booth N7411, Las Vegas",
+        },
+      },
       {
         type: "h2",
         text: { zh: "三天，北馆 N7411", en: "Three Days at Booth N7411" },
