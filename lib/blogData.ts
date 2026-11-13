@@ -4490,22 +4490,40 @@ export const blogPosts: BlogPost[] = [
 
     date: "2026-11-13",
 
-    category: { zh: "展会观察", en: "Trade Show Insights" },
+    category: {
+      zh: "展会观察",
+      en: "Trade Show Insights",
+      ru: "Аналитика выставок",
+      it: "Approfondimenti dalle fiere",
+      de: "Messe-Einblicke",
+      fr: "Analyses de salons",
+      es: "Análisis de ferias",
+      ko: "전시회 인사이트",
+      ja: "展示会インサイト",
+    },
 
     title: {
-
       zh: "CHANFER 走进 PACK EXPO International 2026：芝加哥北美包装市场一线观察",
-
       en: "CHANFER at PACK EXPO International 2026: Field Notes from Chicago",
-
+      ru: "CHANFER на PACK EXPO International 2026: заметки с выставки в Чикаго",
+      it: "CHANFER a PACK EXPO International 2026: note dal campo a Chicago",
+      de: "CHANFER auf der PACK EXPO International 2026: Feldnotizen aus Chicago",
+      fr: "CHANFER à PACK EXPO International 2026 : notes de terrain depuis Chicago",
+      es: "CHANFER en PACK EXPO International 2026: notas de campo desde Chicago",
+      ko: "CHANFER, PACK EXPO International 2026 참관: 시카고 현장 노트",
+      ja: "PACK EXPO International 2026 における CHANFER：シカゴ現地レポート",
     },
 
     excerpt: {
-
       zh: "2026 年 10 月，CHANFER 团队赴芝加哥 PACK EXPO International 考察北美包装自动化。走访四大展馆后，一个判断更清晰了：卡牌与纸品包装仍是差异化、远未饱和的应用场景。",
-
       en: "In October 2026, the CHANFER team visited PACK EXPO International in Chicago to study North American packaging automation. Four halls, one clear finding: card and paper packaging remains a distinct, underserved application.",
-
+      ru: "В октябре 2026 года команда CHANFER посетила PACK EXPO International в Чикаго, чтобы изучить североамериканскую упаковочную автоматизацию. Четыре павильона — и один чёткий вывод: упаковка карт и бумажной продукции остаётся отдельной, ещё недостаточно охваченной нишей.",
+      it: "Nell'ottobre 2026 il team CHANFER ha visitato PACK EXPO International a Chicago per studiare l'automazione del packaging nordamericano. Quattro padiglioni, una conclusione chiara: il confezionamento di carte e prodotti cartacei resta un'applicazione distinta e ancora poco servita.",
+      de: "Im Oktober 2026 besuchte das CHANFER-Team die PACK EXPO International in Chicago, um die nordamerikanische Verpackungsautomation zu studieren. Vier Hallen, eine klare Erkenntnis: Die Verpackung von Karten und Papierprodukten bleibt ein eigenständiges, noch unterversorgtes Anwendungsfeld.",
+      fr: "En octobre 2026, l'équipe CHANFER s'est rendue à PACK EXPO International à Chicago pour étudier l'automatisation de l'emballage en Amérique du Nord. Quatre halls, une conclusion claire : l'emballage des cartes et des produits papiers reste une application distincte et encore sous-desservie.",
+      es: "En octubre de 2026, el equipo de CHANFER visitó PACK EXPO International en Chicago para estudiar la automatización del envasado en Norteamérica. Cuatro pabellones, una conclusión clara: el envasado de cartas y productos de papel sigue siendo una aplicación diferenciada y aún poco atendida.",
+      ko: "2026년 10월, CHANFER 팀은 북미 포장 자동화 시장을 살펴보기 위해 시카고 PACK EXPO International을 방문했습니다. 4개 전시관을 둘러본 뒤 얻은 결론은 하나입니다. 카드·지류 포장은 여전히 차별화된, 아직 충분히 공급되지 않은 분야라는 점입니다.",
+      ja: "2026年10月、CHANFER チームは北米の包装自動化を調査するため、シカゴの PACK EXPO International を訪問しました。4つの展示館を回って見えてきたのは一つ。カード・紙製品の包装は今もなお独自性が高く、十分に供給されていない分野だということです。",
     },
 
     body: [
@@ -4514,7 +4532,17 @@ export const blogPosts: BlogPost[] = [
 
         type: "h2",
 
-        text: { zh: "我们此行要看什么", en: "What We Went to Find Out" },
+        text: {
+          zh: "我们此行要看什么",
+          en: "What We Went to Find Out",
+          ru: "Что мы хотели выяснить",
+          it: "Cosa siamo andati a capire",
+          de: "Was wir herausfinden wollten",
+          fr: "Ce que nous sommes venus vérifier",
+          es: "Qué fuimos a averiguar",
+          ko: "현장에서 확인하고자 한 것",
+          ja: "現地で確かめたかったこと",
+        },
 
       },
 
@@ -4523,11 +4551,15 @@ export const blogPosts: BlogPost[] = [
         type: "p",
 
         text: {
-
           zh: "2026 年 10 月，CHANFER 团队来到芝加哥麦考密克会展中心（McCormick Place），走访 PACK EXPO International 2026 的 Lakeside、North、South、West 四大展馆，聚焦北美包装自动化的发展方向，以及卡牌与纸品包装在这一版图里的位置。",
-
           en: "In October 2026, the CHANFER team visited PACK EXPO International 2026 at McCormick Place in Chicago, walking all four halls — Lakeside, North, South and West — to understand where North American packaging automation is heading and how card and paper products fit into that picture.",
-
+          ru: "В октябре 2026 года команда CHANFER побывала на PACK EXPO International 2026 в выставочном центре McCormick Place в Чикаго и обошла все четыре павильона — Lakeside, North, South и West, — чтобы понять, куда движется североамериканская упаковочная автоматизация и какое место в этой картине занимают карты и бумажная продукция.",
+          it: "Nell'ottobre 2026 il team CHANFER ha visitato PACK EXPO International 2026 al McCormick Place di Chicago, percorrendo tutti e quattro i padiglioni — Lakeside, North, South e West — per capire dove sta andando l'automazione del packaging nordamericano e quale posto occupano carte e prodotti cartacei in questo scenario.",
+          de: "Im Oktober 2026 besuchte das CHANFER-Team die PACK EXPO International 2026 im McCormick Place in Chicago und beging alle vier Hallen — Lakeside, North, South und West — um zu verstehen, wohin sich die nordamerikanische Verpackungsautomation entwickelt und welche Rolle Karten und Papierprodukte dabei spielen.",
+          fr: "En octobre 2026, l'équipe CHANFER a visité PACK EXPO International 2026 au McCormick Place de Chicago, en parcourant les quatre halls — Lakeside, North, South et West — afin de comprendre l'évolution de l'automatisation nord-américaine de l'emballage et la place qu'y occupent les cartes et les produits papiers.",
+          es: "En octubre de 2026, el equipo de CHANFER recorrió PACK EXPO International 2026 en McCormick Place, Chicago, visitando los cuatro pabellones — Lakeside, North, South y West — para entender hacia dónde se dirige la automatización del envasado norteamericano y qué lugar ocupan en ese panorama las cartas y los productos de papel.",
+          ko: "2026년 10월, CHANFER 팀은 시카고 McCormick Place에서 열린 PACK EXPO International 2026을 찾아 Lakeside, North, South, West 등 4개 전시관을 모두 둘러보며 북미 포장 자동화의 방향과 그 안에서 카드·지류 제품이 차지하는 위치를 살펴봤습니다.",
+          ja: "2026年10月、CHANFER チームはシカゴの McCormick Place で開催された PACK EXPO International 2026 を訪問し、Lakeside・North・South・West の4展示館をすべて回りました。目的は、北米の包装自動化が向かう先と、その中でカード・紙製品が占める位置を把握することです。",
         },
 
       },
@@ -4536,7 +4568,17 @@ export const blogPosts: BlogPost[] = [
 
         type: "h2",
 
-        text: { zh: "四大展馆，一个清晰信号", en: "Four Halls, One Clear Pattern" },
+        text: {
+          zh: "四大展馆，一个清晰信号",
+          en: "Four Halls, One Clear Pattern",
+          ru: "Четыре павильона — одна закономерность",
+          it: "Quattro padiglioni, un solo segnale",
+          de: "Vier Hallen, ein klares Muster",
+          fr: "Quatre halls, un même constat",
+          es: "Cuatro pabellones, una misma señal",
+          ko: "네 개 전시관, 하나의 분명한 신호",
+          ja: "4つの展示館、ひとつの明確な傾向",
+        },
 
       },
 
@@ -4545,11 +4587,15 @@ export const blogPosts: BlogPost[] = [
         type: "p",
 
         text: {
-
           zh: "枕式包装机在各馆都很常见，但应用几乎全部集中在面包、饼干与巧克力。走遍四馆，我们没有看到与 CHANFER 卧式装袋／卡牌包装同类配置的应用场景。",
-
           en: "Flow wrappers were everywhere — but almost exclusively for bread, biscuits and chocolate. Across every hall, we did not find a horizontal bagging application configured for card or paper products the way CHANFER builds it.",
-
+          ru: "Машины для упаковки в потоковый пакет встречались повсюду, но почти исключительно для хлеба, печенья и шоколада. Ни в одном из павильонов мы не нашли горизонтальной упаковки в пакет, настроенной под карты или бумажную продукцию так, как это делает CHANFER.",
+          it: "Le flow wrapper erano ovunque, ma quasi esclusivamente per pane, biscotti e cioccolato. In nessun padiglione abbiamo trovato un'applicazione di insacchettamento orizzontale configurata per carte o prodotti cartacei secondo l'approccio CHANFER.",
+          de: "Schlauchbeutelmaschinen waren überall zu sehen — aber fast ausschließlich für Brot, Kekse und Schokolade. In keiner der vier Hallen fanden wir eine horizontale Beutelapplikation, die für Karten- oder Papierprodukte in der von CHANFER realisierten Konfiguration ausgelegt war.",
+          fr: "Les ensacheuses flow-pack étaient partout, mais presque exclusivement pour le pain, les biscuits et le chocolat. Dans aucun des halls nous n'avons trouvé d'application d'ensachage horizontal configurée pour les cartes ou les produits papiers selon l'approche CHANFER.",
+          es: "Las envasadoras flow-pack estaban por todas partes, pero casi exclusivamente para pan, galletas y chocolate. En ningún pabellón encontramos una aplicación de ensacado horizontal configurada para cartas o productos de papel con el enfoque de CHANFER.",
+          ko: "플로우 래퍼(flow wrapper)는 어디에나 있었지만, 거의 예외 없이 빵·비스킷·초콜릿용이었습니다. CHANFER가 구성하는 방식처럼 카드나 지류 제품에 맞춰 설정된 수평 봉투 포장 적용 사례는 어느 전시관에서도 찾지 못했습니다.",
+          ja: "ピロー包装機はどこにでもありましたが、その用途はほぼ例外なくパン・ビスケット・チョコレートに限られていました。CHANFER が手がけるようなカード・紙製品向けに構成された横型給袋包装の適用例は、どの展示館でも見当たりませんでした。",
         },
 
       },
@@ -4559,11 +4605,15 @@ export const blogPosts: BlogPost[] = [
         type: "p",
 
         text: {
-
           zh: "对我们而言，这更像是对自身定位的一次确认，而非市场空白：卡牌与纸品包装在分张、计数、封口与后道整理上有自己的要求，通用食品产线并不擅长解决。把一件事做专，比把产线做全更有价值。",
-
           en: "For us that is not a gap in the market so much as a confirmation of focus: card and paper packaging has its own feeding, counting, sealing and finishing requirements, and general-purpose food lines do not address them well. Doing one thing exceptionally well beats doing everything adequately.",
-
+          ru: "Для нас это скорее подтверждение выбранного фокуса, чем свободная ниша: у упаковки карт и бумажной продукции свои требования к подаче, счёту, запайке и финишной обработке, а универсальные пищевые линии справляются с ними слабо. Делать одно исключительно хорошо ценнее, чем делать всё посредственно.",
+          it: "Per noi non è tanto un vuoto di mercato quanto una conferma del nostro focus: il confezionamento di carte e carta ha requisiti propri di alimentazione, conteggio, saldatura e finitura, che le linee alimentari generiche non soddisfano bene. Fare una cosa in modo eccellente vale più che farne molte in modo appena sufficiente.",
+          de: "Für uns ist das weniger eine Marktlücke als eine Bestätigung unserer Fokussierung: Karten- und Papierverpackung hat eigene Anforderungen an Vereinzelung, Zählung, Siegelung und Weiterverarbeitung, die universelle Food-Linien nur unzureichend erfüllen. Eine Sache außergewöhnlich gut zu machen ist wertvoller als alles nur mittelmäßig.",
+          fr: "Pour nous, c'est moins une lacune du marché qu'une confirmation de notre positionnement : l'emballage des cartes et du papier impose des exigences propres en alimentation, comptage, scellage et finition, que les lignes agroalimentaires généralistes couvrent mal. Mieux vaut exceller dans un domaine que tout faire correctement.",
+          es: "Para nosotros eso no es tanto un hueco de mercado como una confirmación de nuestro enfoque: el envasado de cartas y papel tiene exigencias propias de alimentación, conteo, sellado y acabado, que las líneas alimentarias de uso general no resuelven bien. Hacer una cosa excepcionalmente bien supera hacerlo todo de forma aceptable.",
+          ko: "이는 시장의 공백이라기보다 당사의 집중 전략에 대한 확인에 가깝습니다. 카드·지류 포장은 급지, 계수, 실링, 후가공에서 고유한 요건을 가지며 범용 식품 라인은 이를 충분히 충족하지 못합니다. 모든 것을 무난하게 하는 것보다 한 가지를 탁월하게 하는 편이 낫습니다.",
+          ja: "私たちにとってこれは市場の空白というより、注力分野の裏付けです。カード・紙製品の包装には、給紙・計数・シール・後加工に固有の要件があり、汎用の食品ラインでは十分に応えられません。何でもそこそこにこなすより、一つを極める方に価値があります。",
         },
 
       },
@@ -4572,7 +4622,17 @@ export const blogPosts: BlogPost[] = [
 
         type: "h2",
 
-        text: { zh: "交流在延续", en: "Conversations That Continue" },
+        text: {
+          zh: "交流在延续",
+          en: "Conversations That Continue",
+          ru: "Диалог продолжается",
+          it: "Conversazioni che continuano",
+          de: "Gespräche, die weitergehen",
+          fr: "Des échanges qui se poursuivent",
+          es: "Conversaciones que continúan",
+          ko: "이어지는 대화",
+          ja: "続いていく対話",
+        },
 
       },
 
@@ -4581,11 +4641,15 @@ export const blogPosts: BlogPost[] = [
         type: "p",
 
         text: {
-
           zh: "此行也与北美从事信封实时打印、贴标与卡片分张设备的同行进行了交流，探讨分张与贴标模块如何组合成完整产线。其中一些对话始于九月拉斯维加斯 PRINTING United Expo，在芝加哥继续深入——展会最有价值的产出，往往是展后的持续跟进。",
-
           en: "We also spent time with North American suppliers of envelope printing, labelling and card-feeding equipment, exploring how dispensing and labelling modules can be combined into a complete line. Several of these conversations began at PRINTING United Expo in Las Vegas in September and continued in Chicago — a reminder that the most useful outcome of a show is often the follow-up.",
-
+          ru: "Мы также пообщались с североамериканскими поставщиками оборудования для печати на конвертах, этикетирования и подачи карт, обсуждая, как объединить модули подачи и этикетирования в готовую линию. Некоторые из этих бесед начались в сентябре на PRINTING United Expo в Лас-Вегасе и продолжились в Чикаго — напоминание о том, что самый полезный итог выставки часто складывается уже после неё.",
+          it: "Abbiamo inoltre incontrato fornitori nordamericani di sistemi di stampa su buste, etichettatura e alimentazione carte, esplorando come combinare moduli di distribuzione ed etichettatura in una linea completa. Alcuni di questi colloqui sono iniziati a settembre a PRINTING United Expo a Las Vegas e sono proseguiti a Chicago — a ricordare che il risultato più utile di una fiera spesso arriva dopo.",
+          de: "Daneben sprachen wir mit nordamerikanischen Anbietern von Umschlagdruck-, Etikettier- und Kartenzuführsystemen und erörterten, wie sich Vereinzelungs- und Etikettiermodule zu einer kompletten Linie kombinieren lassen. Manche dieser Gespräche begannen im September auf der PRINTING United Expo in Las Vegas und wurden in Chicago vertieft — ein Hinweis darauf, dass der wertvollste Ertrag einer Messe oft erst danach entsteht.",
+          fr: "Nous avons également rencontré des fournisseurs nord-américains d'impression d'enveloppes, d'étiquetage et de distribution de cartes, afin d'explorer comment combiner modules de distribution et d'étiquetage en une ligne complète. Plusieurs de ces échanges ont débuté en septembre à PRINTING United Expo à Las Vegas et se sont poursuivis à Chicago — rappel que le résultat le plus utile d'un salon se construit souvent après.",
+          es: "También compartimos tiempo con proveedores norteamericanos de impresión de sobres, etiquetado y alimentación de cartas, explorando cómo combinar módulos de distribución y etiquetado en una línea completa. Algunas de estas conversaciones comenzaron en septiembre en PRINTING United Expo en Las Vegas y continuaron en Chicago — un recordatorio de que el resultado más valioso de una feria suele llegar después.",
+          ko: "이번 방문에서는 북미의 봉투 인쇄·라벨링·카드 급지 장비 공급업체들과도 만나 급지 모듈과 라벨링 모듈을 하나의 라인으로 결합하는 방안을 논의했습니다. 이 중 일부 대화는 9월 라스베이거스 PRINTING United Expo에서 시작되어 시카고에서 이어졌습니다. 전시회의 가장 값진 성과는 대개 행사 이후의 후속 관리에서 나온다는 점을 다시 확인했습니다.",
+          ja: "また、北米の封筒印刷・ラベリング・カード給紙装置のサプライヤーとも時間を共にし、給紙モジュールとラベリングモジュールを一本のラインに組み合わせる方法を検討しました。これらの対話のいくつかは9月のラスベガス PRINTING United Expo で始まり、シカゴで続いたものです。展示会で最も価値ある成果は、多くの場合その後のフォローアップから生まれます。",
         },
 
       },
@@ -4594,7 +4658,17 @@ export const blogPosts: BlogPost[] = [
 
         type: "h2",
 
-        text: { zh: "下一步", en: "Where We Go Next" },
+        text: {
+          zh: "下一步",
+          en: "Where We Go Next",
+          ru: "Что дальше",
+          it: "Prossimi passi",
+          de: "Nächste Schritte",
+          fr: "Prochaines étapes",
+          es: "Próximos pasos",
+          ko: "다음 단계",
+          ja: "次の展開",
+        },
 
       },
 
@@ -4603,11 +4677,15 @@ export const blogPosts: BlogPost[] = [
         type: "li",
 
         text: {
-
           zh: "把参展资源集中到与卡牌／纸品包装应用更契合的行业展会，包括上海全印展（All in Print China）。",
-
           en: "Focus our trade-show presence on events that match card and paper packaging applications more closely, including All in Print China in Shanghai.",
-
+          ru: "Сосредоточить выставочные ресурсы на мероприятиях, точнее отвечающих задачам упаковки карт и бумажной продукции, включая All in Print China в Шанхае.",
+          it: "Concentrare la presenza fieristica su eventi più coerenti con il confezionamento di carte e carta, tra cui All in Print China a Shanghai.",
+          de: "Messeauftritte auf Veranstaltungen konzentrieren, die besser zur Karten- und Papierverpackung passen, darunter All in Print China in Shanghai.",
+          fr: "Concentrer notre présence sur les salons plus proches des applications de cartes et de papier, notamment All in Print China à Shanghai.",
+          es: "Concentrar la presencia en ferias más afines al envasado de cartas y papel, incluida All in Print China en Shanghái.",
+          ko: "카드·지류 포장 적용 분야에 더 부합하는 전시회에 참가 자원을 집중합니다. 상하이 All in Print China도 포함됩니다.",
+          ja: "カード・紙製品の包装用途により近い展示会へ出展リソースを集中します。上海の All in Print China もその一つです。",
         },
 
       },
@@ -4617,11 +4695,15 @@ export const blogPosts: BlogPost[] = [
         type: "li",
 
         text: {
-
           zh: "加大实机演示投入，让客户带自己的样品来现场调封口与分张。",
-
           en: "Invest in live, sample-based demonstrations so visitors can see sealing and feeding tuned to their own products.",
-
+          ru: "Развивать демонстрации на реальных образцах, чтобы посетители видели настройку запайки и подачи под собственное изделие.",
+          it: "Investire in dimostrazioni dal vivo su campioni reali, così che i visitatori vedano saldatura e alimentazione tarate sul proprio prodotto.",
+          de: "In Live-Demonstrationen mit realen Mustern investieren, damit Besucher Siegelung und Zuführung auf ihr eigenes Produkt abgestimmt sehen.",
+          fr: "Investir dans des démonstrations en direct sur échantillons réels, pour que les visiteurs voient le scellage et l'alimentation réglés sur leur propre produit.",
+          es: "Invertir en demostraciones en vivo con muestras reales, para que los visitantes vean el sellado y la alimentación ajustados a su propio producto.",
+          ko: "실물 샘플 기반 시연에 투자해, 방문객이 자사 제품에 맞춰 조정된 실링과 급지를 직접 확인할 수 있도록 합니다.",
+          ja: "実サンプルを使った実演に投資し、来場者が自社製品に合わせて調整されたシール・給紙を確認できるようにします。",
         },
 
       },
@@ -4631,11 +4713,15 @@ export const blogPosts: BlogPost[] = [
         type: "li",
 
         text: {
-
           zh: "与北美合作伙伴持续推进模块化产线配置，把分张、贴标、装袋与检测按需组合。",
-
           en: "Keep working with North American partners on modular line configurations that combine feeding, labelling, bagging and inspection as needed.",
-
+          ru: "Продолжать работу с североамериканскими партнёрами над модульными конфигурациями линий, объединяя подачу, этикетирование, упаковку в пакет и контроль по мере необходимости.",
+          it: "Proseguire con i partner nordamericani sulle configurazioni modulari di linea, combinando alimentazione, etichettatura, insacchettamento e ispezione secondo le esigenze.",
+          de: "Mit nordamerikanischen Partnern modulare Linienkonfigurationen weiterentwickeln, die Zuführung, Etikettierung, Beutelung und Inspektion bedarfsgerecht kombinieren.",
+          fr: "Poursuivre avec les partenaires nord-américains les configurations de lignes modulaires combinant alimentation, étiquetage, ensachage et contrôle selon les besoins.",
+          es: "Seguir trabajando con socios norteamericanos en configuraciones modulares de línea que combinen alimentación, etiquetado, ensacado e inspección según necesidad.",
+          ko: "북미 파트너와 함께 급지, 라벨링, 봉투 포장, 검사를 필요에 따라 조합하는 모듈형 라인 구성을 지속적으로 추진합니다.",
+          ja: "北米パートナーと、給紙・ラベリング・袋詰め・検査を必要に応じて組み合わせるモジュール型ライン構成の検討を続けます。",
         },
 
       },
@@ -4645,11 +4731,15 @@ export const blogPosts: BlogPost[] = [
         type: "cta",
 
         text: {
-
           zh: "与工程师聊聊你的卡牌包装产线",
-
           en: "Talk to Our Engineers About Your Card Packaging Line",
-
+          ru: "Обсудите вашу линию упаковки карт с нашими инженерами",
+          it: "Parla con i nostri ingegneri della tua linea di confezionamento carte",
+          de: "Sprechen Sie mit unseren Ingenieuren über Ihre Kartenverpackungslinie",
+          fr: "Parlez de votre ligne d'emballage de cartes à nos ingénieurs",
+          es: "Hable con nuestros ingenieros sobre su línea de envasado de cartas",
+          ko: "카드 포장 라인에 대해 당사 엔지니어와 상담하세요",
+          ja: "カード包装ラインについて当社エンジニアにご相談ください",
         },
 
         href: "/contact",
@@ -4660,17 +4750,77 @@ export const blogPosts: BlogPost[] = [
 
     relatedLinks: [
 
-      { href: "/blog/printing-united-expo-2026-recap", label: { zh: "PRINTING United 拉斯维加斯展后观察", en: "PRINTING United Las Vegas Recap" } },
+      { href: "/blog/printing-united-expo-2026-recap", label: {
+        zh: "PRINTING United 拉斯维加斯展后观察",
+        en: "PRINTING United Las Vegas Recap",
+        ru: "Итоги PRINTING United в Лас-Вегасе",
+        it: "Il resoconto di PRINTING United a Las Vegas",
+        de: "Rückblick auf PRINTING United in Las Vegas",
+        fr: "Retour sur PRINTING United à Las Vegas",
+        es: "Balance de PRINTING United en Las Vegas",
+        ko: "라스베이거스 PRINTING United 전시 후기",
+        ja: "ラスベガス PRINTING United 展後レポート",
+      } },
 
-      { href: "/blog/printing-united-expo-2026", label: { zh: "PRINTING United Expo 2026 拉斯维加斯", en: "PRINTING United Expo 2026, Las Vegas" } },
+      { href: "/blog/printing-united-expo-2026", label: {
+        zh: "PRINTING United Expo 2026 拉斯维加斯",
+        en: "PRINTING United Expo 2026, Las Vegas",
+        ru: "PRINTING United Expo 2026, Лас-Вегас",
+        it: "PRINTING United Expo 2026, Las Vegas",
+        de: "PRINTING United Expo 2026, Las Vegas",
+        fr: "PRINTING United Expo 2026, Las Vegas",
+        es: "PRINTING United Expo 2026, Las Vegas",
+        ko: "PRINTING United Expo 2026, 라스베이거스",
+        ja: "PRINTING United Expo 2026、ラスベガス",
+      } },
 
-      { href: "/blog/germany-card-packaging-expo", label: { zh: "INTERPACK 杜塞尔多夫现场", en: "INTERPACK Düsseldorf on the Floor" } },
+      { href: "/blog/germany-card-packaging-expo", label: {
+        zh: "INTERPACK 杜塞尔多夫现场",
+        en: "INTERPACK Düsseldorf on the Floor",
+        ru: "INTERPACK Дюссельдорф: с выставочной площадки",
+        it: "INTERPACK Düsseldorf: dal padiglione",
+        de: "INTERPACK Düsseldorf: direkt vom Messestand",
+        fr: "INTERPACK Düsseldorf : depuis le salon",
+        es: "INTERPACK Düsseldorf: desde el pabellón",
+        ko: "INTERPACK 뒤셀도르프 현장",
+        ja: "INTERPACK デュッセルドルフ現地レポート",
+      } },
 
-      { href: "/blog/candy-wrap-vs-four-side-seal-tcg", label: { zh: "糖果枕式 vs 四边封", en: "Candy Wrap vs Four-Side Seal" } },
+      { href: "/blog/candy-wrap-vs-four-side-seal-tcg", label: {
+        zh: "糖果枕式 vs 四边封",
+        en: "Candy Wrap vs Four-Side Seal",
+        ru: "Конфетная обёртка против четырёхсторонней запайки",
+        it: "Incartatrice per caramelle vs saldatura su quattro lati",
+        de: "Bonbon-Einschlagmaschine vs. Vier-Seiten-Siegelung",
+        fr: "Emballage de bonbons vs scellage quatre côtés",
+        es: "Envoltura de caramelos vs sellado en cuatro lados",
+        ko: "캔디 랩 vs 사면 실링",
+        ja: "キャンディ包装 vs 四方シール",
+      } },
 
-      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: {
+        zh: "TCG 包装机选购指南",
+        en: "TCG Packaging Machine Buying Guide",
+        ru: "Руководство по выбору упаковочной машины для TCG",
+        it: "Guida all'acquisto di una macchina confezionatrice per TCG",
+        de: "Kaufberatung: Verpackungsmaschinen für TCG",
+        fr: "Guide d'achat : machine d'emballage pour TCG",
+        es: "Guía de compra de máquinas envasadoras para TCG",
+        ko: "TCG 포장기 구매 가이드",
+        ja: "TCG 包装機 選定ガイド",
+      } },
 
-      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/machines", label: {
+        zh: "全部设备型号",
+        en: "All Machines",
+        ru: "Все машины",
+        it: "Tutte le macchine",
+        de: "Alle Maschinen",
+        fr: "Toutes les machines",
+        es: "Todas las máquinas",
+        ko: "전체 장비",
+        ja: "全機種",
+      } },
 
     ],
 
@@ -4679,19 +4829,27 @@ export const blogPosts: BlogPost[] = [
       {
 
         question: {
-
           zh: "CHANFER 在 PACK EXPO International 2026 有展位吗？",
-
           en: "Did CHANFER have a booth at PACK EXPO International 2026?",
-
+          ru: "Был ли у CHANFER стенд на PACK EXPO International 2026?",
+          it: "CHANFER aveva uno stand a PACK EXPO International 2026?",
+          de: "Hatte CHANFER einen Stand auf der PACK EXPO International 2026?",
+          fr: "CHANFER avait-il un stand à PACK EXPO International 2026 ?",
+          es: "¿Tuvo CHANFER stand en PACK EXPO International 2026?",
+          ko: "CHANFER는 PACK EXPO International 2026에 부스를 운영했나요?",
+          ja: "CHANFER は PACK EXPO International 2026 にブースを出展しましたか？",
         },
 
         answer: {
-
           zh: "没有。此次我们是随合作伙伴的展位进场，进行北美包装设备市场调研。CHANFER 2026 年在美国自设展位的展会是 9 月 23–25 日拉斯维加斯 PRINTING United Expo（北馆 N7411）。",
-
           en: "No. We attended PACK EXPO as part of a market study with a partner's booth. CHANFER's own US booth in 2026 was at PRINTING United Expo in Las Vegas, September 23-25 (North Halls, Booth N7411).",
-
+          ru: "Нет. Мы посетили PACK EXPO в рамках исследования рынка, работая на стенде партнёра. Собственный стенд CHANFER в США в 2026 году был на PRINTING United Expo в Лас-Вегасе 23–25 сентября (Северный павильон, стенд N7411).",
+          it: "No. Abbiamo partecipato a PACK EXPO per uno studio di mercato, presso lo stand di un partner. Lo stand CHANFER negli USA nel 2026 è stato a PRINTING United Expo a Las Vegas, 23-25 settembre (North Halls, stand N7411).",
+          de: "Nein. Wir besuchten die PACK EXPO im Rahmen einer Marktstudie am Stand eines Partners. Der eigene US-Messestand von CHANFER im Jahr 2026 war auf der PRINTING United Expo in Las Vegas, 23.–25. September (North Halls, Stand N7411).",
+          fr: "Non. Nous avons participé à PACK EXPO dans le cadre d'une étude de marché, sur le stand d'un partenaire. Le stand propre de CHANFER aux États-Unis en 2026 était à PRINTING United Expo à Las Vegas, du 23 au 25 septembre (North Halls, stand N7411).",
+          es: "No. Asistimos a PACK EXPO como estudio de mercado, desde el stand de un socio. El stand propio de CHANFER en EE. UU. en 2026 fue en PRINTING United Expo en Las Vegas, del 23 al 25 de septiembre (North Halls, stand N7411).",
+          ko: "아니요. 이번에는 파트너사 부스에서 북미 포장 장비 시장 조사의 일환으로 참관했습니다. 2026년 CHANFER가 미국에서 자체 부스를 운영한 전시회는 9월 23~25일 라스베이거스 PRINTING United Expo(북관 N7411)입니다.",
+          ja: "いいえ。今回はパートナーのブースにて北米包装機器の市場調査として参加しました。2026年に CHANFER が米国で自社ブースを構えたのは、9月23〜25日ラスベガスの PRINTING United Expo（北館 N7411）です。",
         },
 
       },
@@ -4699,19 +4857,27 @@ export const blogPosts: BlogPost[] = [
       {
 
         question: {
-
           zh: "展会现场最常见的枕式包装应用是什么？",
-
           en: "What flow-wrapping applications were most common on the show floor?",
-
+          ru: "Какие применения упаковки в потоковый пакет чаще всего встречались на выставке?",
+          it: "Quali applicazioni di flow wrapping erano più diffuse in fiera?",
+          de: "Welche Schlauchbeutel-Anwendungen waren auf der Messe am häufigsten?",
+          fr: "Quelles applications de flow wrapping étaient les plus courantes sur le salon ?",
+          es: "¿Qué aplicaciones de flow wrapping fueron más habituales en la feria?",
+          ko: "전시 현장에서 가장 흔했던 플로우 래핑 적용 분야는 무엇이었나요?",
+          ja: "会場で最も多かったピロー包装の用途は何でしたか？",
         },
 
         answer: {
-
           zh: "我们在四大展馆看到的枕式包装机，应用几乎全部集中在面包、饼干与巧克力等食品；未见到针对卡牌与纸品配置的同类卧式装袋应用。",
-
           en: "Across all four halls, flow wrappers were demonstrated almost exclusively for bread, biscuits and chocolate. We did not see a horizontal bagging application configured for card or paper products.",
-
+          ru: "Во всех четырёх павильонах машины для упаковки в потоковый пакет демонстрировались почти исключительно на хлебе, печенье и шоколаде. Мы не увидели горизонтальной упаковки в пакет, настроенной под карты или бумажную продукцию.",
+          it: "In tutti e quattro i padiglioni le flow wrapper erano dimostrate quasi esclusivamente per pane, biscotti e cioccolato. Non abbiamo visto applicazioni di insacchettamento orizzontale configurate per carte o prodotti cartacei.",
+          de: "In allen vier Hallen wurden Schlauchbeutelmaschinen fast ausschließlich für Brot, Kekse und Schokolade vorgeführt. Eine horizontale Beutelapplikation für Karten- oder Papierprodukte haben wir nicht gesehen.",
+          fr: "Dans les quatre halls, les ensacheuses flow-pack étaient démontrées presque exclusivement pour le pain, les biscuits et le chocolat. Nous n'avons pas vu d'ensachage horizontal configuré pour les cartes ou les produits papiers.",
+          es: "En los cuatro pabellones, las flow-pack se demostraron casi exclusivamente para pan, galletas y chocolate. No vimos ninguna aplicación de ensacado horizontal configurada para cartas o productos de papel.",
+          ko: "4개 전시관 전체에서 플로우 래퍼는 거의 예외 없이 빵·비스킷·초콜릿용으로 시연되었습니다. 카드나 지류 제품에 맞춘 수평 봉투 포장 적용 사례는 보지 못했습니다.",
+          ja: "4つの展示館いずれでも、ピロー包装機のデモはほぼパン・ビスケット・チョコレートに限られていました。カード・紙製品向けに構成された横型給袋包装は見られませんでした。",
         },
 
       },
@@ -4722,14 +4888,38 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "printing-united-expo-2026-recap",
     date: "2026-11-13",
-    category: { zh: "展会观察", en: "Trade Show Insights" },
+    category: {
+      zh: "展会观察",
+      en: "Trade Show Insights",
+      ru: "Аналитика выставок",
+      it: "Approfondimenti dalle fiere",
+      de: "Messe-Einblicke",
+      fr: "Analyses de salons",
+      es: "Análisis de ferias",
+      ko: "전시회 인사이트",
+      ja: "展示会インサイト",
+    },
     title: {
       zh: "CHANFER @ PRINTING United Expo 2026：拉斯维加斯展后观察",
       en: "CHANFER at PRINTING United Expo 2026: What We Learned in Las Vegas",
+      ru: "CHANFER на PRINTING United Expo 2026: что мы узнали в Лас-Вегасе",
+      it: "CHANFER a PRINTING United Expo 2026: cosa abbiamo imparato a Las Vegas",
+      de: "CHANFER auf der PRINTING United Expo 2026: Was wir in Las Vegas gelernt haben",
+      fr: "CHANFER à PRINTING United Expo 2026 : ce que nous avons appris à Las Vegas",
+      es: "CHANFER en PRINTING United Expo 2026: lo que aprendimos en Las Vegas",
+      ko: "PRINTING United Expo 2026의 CHANFER: 라스베이거스에서 얻은 것",
+      ja: "PRINTING United Expo 2026 における CHANFER：ラスベガスで得た知見",
     },
     excerpt: {
       zh: "2026 年 9 月 23–25 日，CHANFER 在拉斯维加斯会展中心北馆 N7411 设展。三天下来，北美卡牌与纸品后道市场的轮廓更清楚了：终端需求旺盛、专业发卡与卡牌包装设备供给稀缺，买家对合规与本地服务的重视不亚于设备本身。",
       en: "Three days at Booth N7411 gave us a clearer picture of North American card and paper finishing: strong downstream demand, few dedicated card-feeding suppliers, and buyers who care as much about compliance and local support as about the machine itself.",
+      ru: "Три дня на стенде N7411 дали более чёткое представление о североамериканском рынке послепечатной обработки карт и бумаги: устойчивый конечный спрос, немного специализированных поставщиков оборудования для подачи карт и покупатели, для которых соответствие требованиям и локальная поддержка не менее важны, чем сама машина.",
+      it: "Tre giorni allo stand N7411 hanno chiarito il quadro nordamericano della finitura di carte e carta: domanda finale solida, pochi fornitori specializzati in alimentatori di carte, e acquirenti che tengono alla conformità e al supporto locale quanto alla macchina stessa.",
+      de: "Drei Tage an Stand N7411 haben das Bild der nordamerikanischen Karten- und Papierweiterverarbeitung geschärft: starke Endnachfrage, wenige spezialisierte Anbieter von Kartenzuführungen und Käufer, für die Konformität und lokaler Service ebenso zählen wie die Maschine selbst.",
+      fr: "Trois jours sur le stand N7411 ont précisé notre lecture du marché nord-américain de la finition des cartes et du papier : une demande finale soutenue, peu de fournisseurs spécialisés en alimentation de cartes, et des acheteurs pour qui la conformité et le support local comptent autant que la machine elle-même.",
+      es: "Tres días en el stand N7411 dibujaron con más claridad el mercado norteamericano del acabado de cartas y papel: demanda final sólida, pocos proveedores especializados en alimentación de cartas y compradores que valoran el cumplimiento normativo y el soporte local tanto como la propia máquina.",
+      ko: "N7411 부스에서 보낸 사흘은 북미 카드·지류 후가공 시장을 더 선명하게 보여주었습니다. 최종 수요는 견조하고, 카드 급지 전문 공급사는 드물며, 구매자는 기계 자체만큼이나 규정 준수와 현지 지원을 중시합니다.",
+      ja: "ブース N7411 での3日間は、北米のカード・紙製品後加工市場をより鮮明にしました。堅調な最終需要、専門のカード給紙装置サプライヤーの少なさ、そして機械そのものと同等にコンプライアンスと現地サポートを重視する買い手の姿勢です。",
     },
     body: [
       {
@@ -4738,32 +4928,80 @@ export const blogPosts: BlogPost[] = [
         alt: {
           zh: "CHANFER 团队在 PRINTING United Expo 2026 拉斯维加斯会展中心北馆 N7411 展位，现场展示发卡机与卡牌包装线方案",
           en: "The CHANFER team at Booth N7411 in the North Halls of the Las Vegas Convention Center, PRINTING United Expo 2026, with card feeding and card packaging equipment on display",
+          ru: "Команда CHANFER на стенде N7411 в Северном павильоне Выставочного центра Лас-Вегаса, PRINTING United Expo 2026, с оборудованием для подачи и упаковки карт",
+          it: "Il team CHANFER allo stand N7411 nei North Halls del Las Vegas Convention Center, PRINTING United Expo 2026, con sistemi di alimentazione e confezionamento carte",
+          de: "Das CHANFER-Team an Stand N7411 in den North Halls des Las Vegas Convention Center, PRINTING United Expo 2026, mit Systemen für Kartenzuführung und Kartenverpackung",
+          fr: "L'équipe CHANFER sur le stand N7411 dans les North Halls du Las Vegas Convention Center, PRINTING United Expo 2026, avec les équipements d'alimentation et d'emballage de cartes",
+          es: "El equipo de CHANFER en el stand N7411 de los North Halls del Las Vegas Convention Center, PRINTING United Expo 2026, con equipos de alimentación y envasado de cartas",
+          ko: "PRINTING United Expo 2026 라스베이거스 컨벤션 센터 북관 N7411 부스에서 카드 급지·포장 장비와 함께한 CHANFER 팀",
+          ja: "PRINTING United Expo 2026、ラスベガス・コンベンションセンター北館 N7411 ブースにて、カード給紙・包装設備とともに並ぶ CHANFER チーム",
         },
         caption: {
           zh: "CHANFER 团队于 PRINTING United Expo 2026（2026 年 9 月 23–25 日，拉斯维加斯会展中心北馆 N7411）",
           en: "The CHANFER team at PRINTING United Expo 2026, 23-25 September, North Halls Booth N7411, Las Vegas",
+          ru: "Команда CHANFER на PRINTING United Expo 2026, 23–25 сентября, Северный павильон, стенд N7411, Лас-Вегас",
+          it: "Il team CHANFER a PRINTING United Expo 2026, 23-25 settembre, North Halls stand N7411, Las Vegas",
+          de: "Das CHANFER-Team auf der PRINTING United Expo 2026, 23.–25. September, North Halls, Stand N7411, Las Vegas",
+          fr: "L'équipe CHANFER à PRINTING United Expo 2026, 23-25 septembre, North Halls stand N7411, Las Vegas",
+          es: "El equipo de CHANFER en PRINTING United Expo 2026, 23-25 de septiembre, North Halls stand N7411, Las Vegas",
+          ko: "PRINTING United Expo 2026(2026년 9월 23~25일, 라스베이거스 컨벤션 센터 북관 N7411 부스)의 CHANFER 팀",
+          ja: "PRINTING United Expo 2026（2026年9月23〜25日、ラスベガス・コンベンションセンター北館ブース N7411）の CHANFER チーム",
         },
       },
       {
         type: "h2",
-        text: { zh: "三天，北馆 N7411", en: "Three Days at Booth N7411" },
+        text: {
+          zh: "三天，北馆 N7411",
+          en: "Three Days at Booth N7411",
+          ru: "Три дня на стенде N7411",
+          it: "Tre giorni allo stand N7411",
+          de: "Drei Tage an Stand N7411",
+          fr: "Trois jours sur le stand N7411",
+          es: "Tres días en el stand N7411",
+          ko: "N7411 부스에서 보낸 사흘",
+          ja: "ブース N7411 の3日間",
+        },
       },
       {
         type: "p",
         text: {
           zh: "2026 年 9 月 23–25 日，CHANFER 在拉斯维加斯会展中心（LVCC）北馆 N7411 设展，参加 PRINTING United Expo 2026。这是我们自己的展位，聚焦卡牌与纸品后道自动化：包括 FKJ-100KP 在内的摩擦式发卡／给料设备、视觉检测，以及面向卡牌、贺卡、信封与促销印刷品的模块化卡牌包装线。",
           en: "From 23 to 25 September 2026, CHANFER exhibited at PRINTING United Expo 2026 at the Las Vegas Convention Center, North Halls, Booth N7411. It was our own booth, focused on card feeding and packaging automation: friction feeders including the FKJ-100KP, vision inspection, and modular card packaging lines for trading cards, greeting cards, envelopes and promotional print.",
+          ru: "С 23 по 25 сентября 2026 года CHANFER участвовала в PRINTING United Expo 2026 в Выставочном центре Лас-Вегаса, Северный павильон, стенд N7411. Это был наш собственный стенд, посвящённый автоматизации подачи и упаковки карт: фрикционные питатели, включая FKJ-100KP, системы визуального контроля и модульные линии упаковки карт для коллекционных карт, открыток, конвертов и рекламной полиграфии.",
+          it: "Dal 23 al 25 settembre 2026 CHANFER ha esposto a PRINTING United Expo 2026 al Las Vegas Convention Center, North Halls, stand N7411. Era il nostro stand, dedicato all'automazione dell'alimentazione e del confezionamento carte: alimentatori a frizione tra cui l'FKJ-100KP, ispezione visiva e linee modulari di confezionamento per trading card, biglietti d'auguri, buste e stampa promozionale.",
+          de: "Vom 23. bis 25. September 2026 stellte CHANFER auf der PRINTING United Expo 2026 im Las Vegas Convention Center, North Halls, Stand N7411 aus. Es war unser eigener Stand mit Fokus auf Zuführung und Verpackungsautomation für Karten: Reibungsvereinzler einschließlich FKJ-100KP, Bildverarbeitungsinspektion sowie modulare Kartenverpackungslinien für Trading Cards, Grußkarten, Umschläge und Werbedrucksachen.",
+          fr: "Du 23 au 25 septembre 2026, CHANFER a exposé à PRINTING United Expo 2026 au Las Vegas Convention Center, North Halls, stand N7411. C'était notre propre stand, centré sur l'automatisation de l'alimentation et de l'emballage des cartes : distributeurs à friction dont le FKJ-100KP, contrôle par vision et lignes modulaires d'emballage pour cartes à collectionner, cartes de vœux, enveloppes et imprimés promotionnels.",
+          es: "Del 23 al 25 de septiembre de 2026, CHANFER expuso en PRINTING United Expo 2026 en el Las Vegas Convention Center, North Halls, stand N7411. Fue nuestro propio stand, centrado en la automatización de la alimentación y el envasado de cartas: alimentadores de fricción incluido el FKJ-100KP, inspección por visión y líneas modulares de envasado para cartas coleccionables, tarjetas de felicitación, sobres e impresos promocionales.",
+          ko: "2026년 9월 23~25일, CHANFER는 라스베이거스 컨벤션 센터(LVCC) 북관 N7411에서 PRINTING United Expo 2026에 자체 부스로 참가했습니다. 카드 급지·포장 자동화가 주제였으며, FKJ-100KP를 비롯한 마찰식 급지기, 비전 검사, 트레이딩 카드·그리팅 카드·봉투·프로모션 인쇄물용 모듈형 카드 포장 라인을 선보였습니다.",
+          ja: "2026年9月23〜25日、CHANFER はラスベガス・コンベンションセンター（LVCC）北館 N7411 に自社ブースを構え、PRINTING United Expo 2026 に出展しました。テーマはカード給紙・包装の自動化で、FKJ-100KP をはじめとする摩擦式給紙装置、画像検査、トレーディングカード・グリーティングカード・封筒・販促印刷物向けのモジュール型カード包装ラインを紹介しました。",
         },
       },
       {
         type: "h2",
-        text: { zh: "见到谁，聊了什么", en: "Who We Met, and What They Asked" },
+        text: {
+          zh: "见到谁，聊了什么",
+          en: "Who We Met, and What They Asked",
+          ru: "С кем говорили и о чём спрашивали",
+          it: "Chi abbiamo incontrato, cosa ci hanno chiesto",
+          de: "Wen wir getroffen haben und was gefragt wurde",
+          fr: "Qui nous avons rencontré, ce qu'on nous a demandé",
+          es: "Con quién hablamos y qué preguntaron",
+          ko: "누구를 만났고, 무엇을 물었나",
+          ja: "出会った相手と寄せられた質問",
+        },
       },
       {
         type: "p",
         text: {
           zh: "三天里，我们与来自英国及美国宾夕法尼亚、俄亥俄、康涅狄格、得克萨斯、纽约、新罕布什尔等地的印刷、卡片、装订、直邮与印后设备企业进行了交流，话题集中在发卡机、多头发卡／卡牌整理线、装袋与检测模块。",
           en: "Over the three days we spoke with printing, card, binding, direct-mail and finishing equipment companies from the United Kingdom and across the United States — Pennsylvania, Ohio, Connecticut, Texas, New York and New Hampshire among them. Conversations centred on card feeders, multi-head card collating lines, bagging and inspection modules.",
+          ru: "За три дня мы пообщались с компаниями из Великобритании и разных штатов США — Пенсильвании, Огайо, Коннектикута, Техаса, Нью-Йорка, Нью-Гэмпшира и других — работающими в сфере печати, карт, переплёта, директ-мейла и послепечатного оборудования. Речь шла преимущественно о подающих устройствах, многоголовочных линиях подборки карт, модулях упаковки в пакет и контроля.",
+          it: "Nei tre giorni abbiamo parlato con aziende di stampa, carte, rilegatura, direct mail e finitura provenienti dal Regno Unito e da diversi stati USA — Pennsylvania, Ohio, Connecticut, Texas, New York e New Hampshire tra gli altri. Al centro dei colloqui: alimentatori di carte, linee di raccolta multi-testa, moduli di insacchettamento e ispezione.",
+          de: "An den drei Tagen sprachen wir mit Unternehmen aus Druck, Kartenherstellung, Bindung, Direct Mail und Weiterverarbeitung aus dem Vereinigten Königreich und aus den USA — unter anderem aus Pennsylvania, Ohio, Connecticut, Texas, New York und New Hampshire. Im Mittelpunkt standen Kartenzuführer, Mehrkopf-Kollationierlinien, Beutel- und Inspektionsmodule.",
+          fr: "Pendant trois jours, nous avons échangé avec des entreprises d'impression, de cartes, de reliure, de publipostage et de finition venues du Royaume-Uni et de plusieurs États américains — Pennsylvanie, Ohio, Connecticut, Texas, New York et New Hampshire notamment. Les discussions ont porté sur les distributeurs de cartes, les lignes de collationnement multi-têtes, l'ensachage et les modules de contrôle.",
+          es: "Durante tres días conversamos con empresas de impresión, cartas, encuadernación, correo directo y acabado procedentes del Reino Unido y de varios estados de EE. UU. — Pensilvania, Ohio, Connecticut, Texas, Nueva York y Nuevo Hampshire entre otros. Los temas giraron en torno a alimentadores de cartas, líneas de agrupado multi-cabezal, ensacado y módulos de inspección.",
+          ko: "사흘 동안 영국과 미국 펜실베이니아·오하이오·코네티컷·텍사스·뉴욕·뉴햄프셔 등지의 인쇄·카드·제책·다이렉트 메일·후가공 장비 기업들과 대화를 나눴습니다. 화두는 카드 급지기, 다두 카드 정렬 라인, 봉투 포장 및 검사 모듈이었습니다.",
+          ja: "3日間で、英国および米国のペンシルベニア、オハイオ、コネチカット、テキサス、ニューヨーク、ニューハンプシャーなどを中心に、印刷・カード・製本・ダイレクトメール・後加工機器の企業と意見交換しました。話題はカード給紙装置、マルチヘッドのカード揃えライン、袋詰め・検査モジュールに集中しました。",
         },
       },
       {
@@ -4771,17 +5009,41 @@ export const blogPosts: BlogPost[] = [
         text: {
           zh: "同样有价值的是设备之外的问题：英文资料、合规认证说明（UL / CE / FCC / Prop 65 等按设备适用项）、110V 现场供电适配、安装与操作培训、备件供应，以及明确的售后响应机制。",
           en: "Just as useful was what buyers asked for beyond the machine itself: English documentation, compliance documentation (UL / CE / FCC / Prop 65 where applicable), compatibility with 110V site power, installation and operator training, spare parts availability, and clear after-sales response.",
+          ru: "Не менее ценными были вопросы за пределами самого оборудования: документация на английском, документы соответствия (UL / CE / FCC / Prop 65 где применимо), совместимость с сетью 110V, монтаж и обучение операторов, наличие запчастей и понятный регламент сервисного обслуживания.",
+          it: "Altrettanto utili sono state le domande che andavano oltre la macchina: documentazione in inglese, documenti di conformità (UL / CE / FCC / Prop 65 dove applicabili), compatibilità con l'alimentazione 110V, installazione e formazione operatori, disponibilità di ricambi e tempi di risposta del servizio post-vendita.",
+          de: "Ebenso aufschlussreich waren die Fragen jenseits der Maschine: englische Dokumentation, Konformitätsnachweise (UL / CE / FCC / Prop 65, wo zutreffend), Kompatibilität mit 110V Netzspannung, Installation und Bedienerschulung, Ersatzteilverfügbarkeit sowie klare Reaktionszeiten im After-Sales-Service.",
+          fr: "Tout aussi utiles ont été les questions au-delà de la machine : documentation en anglais, documents de conformité (UL / CE / FCC / Prop 65 selon applicabilité), compatibilité avec l'alimentation 110V, installation et formation des opérateurs, disponibilité des pièces de rechange et délais de réponse clairs pour le service après-vente.",
+          es: "Igual de valiosas fueron las preguntas más allá de la máquina: documentación en inglés, documentos de conformidad (UL / CE / FCC / Prop 65 cuando aplica), compatibilidad con red de 110V, instalación y formación de operarios, disponibilidad de repuestos y tiempos de respuesta posventa claros.",
+          ko: "장비 자체를 넘어선 질문들도 못지않게 유익했습니다. 영문 자료, 규정 준수 서류(해당 항목에 한해 UL / CE / FCC / Prop 65), 110V 현장 전원 대응, 설치 및 조작 교육, 예비 부품 공급, 그리고 명확한 사후 대응 체계입니다.",
+          ja: "同じく有益だったのは、機械そのものを超える問いです。英文資料、適合文書（該当する場合の UL / CE / FCC / Prop 65）、110V 現場電源への対応、設置・操作トレーニング、予備部品の供給、そして明確なアフターサービス対応体制です。",
         },
       },
       {
         type: "h2",
-        text: { zh: "展会确认的三件事", en: "Three Things the Show Confirmed" },
+        text: {
+          zh: "展会确认的三件事",
+          en: "Three Things the Show Confirmed",
+          ru: "Три вывода выставки",
+          it: "Tre conferme dalla fiera",
+          de: "Drei Erkenntnisse der Messe",
+          fr: "Trois enseignements du salon",
+          es: "Tres conclusiones de la feria",
+          ko: "전시회가 확인해 준 세 가지",
+          ja: "展示会が裏付けた3つのこと",
+        },
       },
       {
         type: "li",
         text: {
           zh: "专业供给稀缺。展会以书刊、信封、卡片、印刷、覆膜、成型、装订与促销品为主，专门做发卡机或整线卡牌包装设备的展商很少——这正是 CHANFER 聚焦的位置。",
           en: "Dedicated supply is thin. PRINTING United is built around books, envelopes, cards, printing, laminating, forming, binding and promotional products. Few exhibitors specialised in card feeders or complete card packaging lines — which is exactly where CHANFER focuses.",
+          ru: "Узкоспециализированное предложение ограничено. PRINTING United охватывает книги, конверты, карты, печать, ламинирование, формование, переплёт и промопродукцию. Мало кто из участников специализировался на подающих устройствах или готовых линиях упаковки карт — именно здесь сосредоточена CHANFER.",
+          it: "L'offerta specializzata è ridotta. PRINTING United ruota attorno a libri, buste, carte, stampa, laminazione, formatura, rilegatura e prodotti promozionali. Pochi espositori erano specializzati in alimentatori di carte o linee complete di confezionamento — esattamente il focus di CHANFER.",
+          de: "Das spezialisierte Angebot ist dünn. PRINTING United dreht sich um Bücher, Umschläge, Karten, Druck, Laminieren, Formen, Binden und Werbeartikel. Nur wenige Aussteller waren auf Kartenzuführer oder komplette Kartenverpackungslinien spezialisiert — genau darauf konzentriert sich CHANFER.",
+          fr: "L'offre spécialisée est rare. PRINTING United s'articule autour du livre, de l'enveloppe, de la carte, de l'impression, du pelliculage, du formage, de la reliure et des objets promotionnels. Peu d'exposants étaient spécialisés dans les distributeurs de cartes ou les lignes complètes d'emballage — exactement le positionnement de CHANFER.",
+          es: "La oferta especializada es escasa. PRINTING United gira en torno a libros, sobres, cartas, impresión, laminado, conformado, encuadernación y artículos promocionales. Pocos expositores se especializaban en alimentadores de cartas o líneas completas de envasado — justamente el foco de CHANFER.",
+          ko: "전문 공급은 부족합니다. PRINTING United는 서적·봉투·카드·인쇄·라미네이팅·성형·제책·프로모션 제품을 중심으로 구성되며, 카드 급지기나 카드 포장 전체 라인을 전문으로 하는 참가사는 드물었습니다. 바로 CHANFER가 집중하는 지점입니다.",
+          ja: "専門的な供給は薄い。PRINTING United は書籍・封筒・カード・印刷・ラミネート・成形・製本・販促品を中心に構成され、カード給紙装置やカード包装の完成ラインを専門とする出展者はわずかでした。まさに CHANFER が注力する領域です。",
         },
       },
       {
@@ -4789,6 +5051,13 @@ export const blogPosts: BlogPost[] = [
         text: {
           zh: "是配套生态，而非正面竞争。相邻展商服务的加工商与品牌方与我们高度重合，为打包方案与区域代理合作提供了现实基础。",
           en: "The ecosystem is complementary, not competitive. Most neighbouring exhibitors serve the same converters and brand owners we do, which makes bundled solutions and regional agency partnerships a practical route to market.",
+          ru: "Экосистема дополняет, а не конкурирует. Большинство соседних экспонентов работают с теми же переработчиками и владельцами брендов, что и мы, поэтому комплексные решения и региональные агентские партнёрства выглядят практичным путём на рынок.",
+          it: "L'ecosistema è complementare, non competitivo. La maggior parte degli espositori vicini serve gli stessi converter e brand owner che serviamo noi, il che rende soluzioni integrate e partnership di agenzia regionali una strada concreta per il mercato.",
+          de: "Das Ökosystem ergänzt sich, statt zu konkurrieren. Die meisten Nachbaraussteller bedienen dieselben Converter und Markeninhaber wie wir, was gebündelte Lösungen und regionale Agenturpartnerschaften zu einem pragmatischen Marktzugang macht.",
+          fr: "L'écosystème est complémentaire, non concurrentiel. La plupart des exposants voisins servent les mêmes transformateurs et donneurs d'ordre que nous, ce qui rend les solutions groupées et les partenariats d'agents régionaux une voie d'accès pragmatique au marché.",
+          es: "El ecosistema es complementario, no competidor. La mayoría de los expositores vecinos atienden a los mismos convertidores y propietarios de marca que nosotros, lo que hace de las soluciones integradas y las agencias regionales una vía práctica al mercado.",
+          ko: "생태계는 경쟁이 아니라 보완 관계입니다. 인접 부스 대부분이 당사와 동일한 가공업체와 브랜드 오너를 대상으로 하므로, 묶음 솔루션과 지역 대리점 파트너십이 현실적인 시장 진입 경로가 됩니다.",
+          ja: "エコシステムは競合ではなく補完関係にある。隣接する出展者の多くは当社と同じ加工会社・ブランドオーナーを顧客としており、セット提案や地域代理店パートナーシップが現実的な市場参入経路になります。",
         },
       },
       {
@@ -4796,17 +5065,41 @@ export const blogPosts: BlogPost[] = [
         text: {
           zh: "终端需求真实存在。卡牌、贺卡与纸制潮玩在北美零售端保持稳定货架表现，同时越来越多品牌方从海外代包装转向北美本土自建包装产线，带动小批量卡片后道自动化需求。",
           en: "End demand is real. Trading cards, greeting cards and paper collectibles hold strong shelf presence in US retail, and more brand owners are moving from outsourced overseas packing to in-house packaging in North America — creating demand for compact, small-batch card finishing automation.",
+          ru: "Конечный спрос реален. Коллекционные карты, открытки и бумажные коллекционные товары устойчиво представлены в американской рознице, а всё больше владельцев брендов переносят упаковку с зарубежного аутсорса на собственные линии в Северной Америке — это формирует запрос на компактную автоматизацию послепечатной обработки карт малыми тиражами.",
+          it: "La domanda finale è reale. Trading card, biglietti d'auguri e collezionabili di carta mantengono una forte presenza nel retail USA, e sempre più brand owner passano dal confezionamento in outsourcing oltreoceano a linee interne in Nordamerica — generando domanda di automazione compatta per la finitura di carte in piccoli lotti.",
+          de: "Die Endnachfrage ist real. Trading Cards, Grußkarten und Papier-Sammelobjekte sind im US-Einzelhandel stark präsent, und immer mehr Markeninhaber verlagern das Verpacken von ausgelagerten Überseebetrieben in eigene Linien in Nordamerika — das schafft Nachfrage nach kompakter Automatisierung für die Kartenweiterverarbeitung in kleinen Losgrößen.",
+          fr: "La demande finale est réelle. Cartes à collectionner, cartes de vœux et objets de collection en papier conservent une forte présence en rayon aux États-Unis, et de plus en plus de marques rapatrient leur emballage de sous-traitants étrangers vers des lignes internes en Amérique du Nord — créant une demande d'automatisation compacte pour la finition des cartes en petites séries.",
+          es: "La demanda final es real. Las cartas coleccionables, las tarjetas de felicitación y los coleccionables de papel mantienen una fuerte presencia en el retail estadounidense, y cada vez más marcas trasladan el envasado de la subcontratación en el extranjero a líneas propias en Norteamérica, generando demanda de automatización compacta para el acabado de cartas en tiradas cortas.",
+          ko: "최종 수요는 실재합니다. 트레이딩 카드·그리팅 카드·지류 컬렉터블은 미국 소매에서 꾸준한 매대 점유율을 유지하며, 해외 위탁 포장에서 북미 자체 포장 라인으로 전환하는 브랜드가 늘고 있습니다. 이에 따라 소량 카드 후가공을 위한 소형 자동화 수요가 생겨나고 있습니다.",
+          ja: "最終需要は実在する。トレーディングカード、グリーティングカード、紙製コレクティブルは米国小売で安定した棚位置を保ち、海外委託包装から北米自社包装ラインへ切り替えるブランドオーナーが増えています。そこから、コンパクトで小ロット対応のカード後加工自動化への需要が生まれています。",
         },
       },
       {
         type: "h2",
-        text: { zh: "为下一站美国展会做的准备", en: "How We Are Preparing for the Next US Show" },
+        text: {
+          zh: "为下一站美国展会做的准备",
+          en: "How We Are Preparing for the Next US Show",
+          ru: "Как мы готовимся к следующей выставке в США",
+          it: "Come ci prepariamo alla prossima fiera USA",
+          de: "Wie wir uns auf die nächste US-Messe vorbereiten",
+          fr: "Comment nous préparons le prochain salon américain",
+          es: "Cómo preparamos la próxima feria en EE. UU.",
+          ko: "다음 미국 전시회를 준비하는 방법",
+          ja: "次回米国展示会に向けた準備",
+        },
       },
       {
         type: "li",
         text: {
           zh: "建立《海外参展 SOP》，以展前 60 / 30 / 7 天检查清单固化筹备，不再依赖个人经验。",
           en: "A standardised overseas exhibition SOP with 60/30/7-day pre-show checklists, so preparation does not depend on individual experience.",
+          ru: "Стандартизированный регламент зарубежных выставок с чек-листами за 60 / 30 / 7 дней до начала, чтобы подготовка не зависела от личного опыта.",
+          it: "Una procedura standard per le fiere estere con checklist a 60 / 30 / 7 giorni, così la preparazione non dipende dall'esperienza individuale.",
+          de: "Ein standardisierter Messeprozess für Auslandsausstellungen mit Checklisten 60 / 30 / 7 Tage vorab, damit die Vorbereitung nicht von Einzelpersonen abhängt.",
+          fr: "Une procédure standardisée pour les salons à l'étranger, avec des listes de contrôle à 60 / 30 / 7 jours, afin que la préparation ne dépende pas de l'expérience individuelle.",
+          es: "Un procedimiento estandarizado para ferias internacionales con listas de verificación a 60 / 30 / 7 días, para que la preparación no dependa de la experiencia individual.",
+          ko: "전시 60 / 30 / 7일 전 체크리스트를 갖춘 해외 전시 표준 SOP를 도입해, 준비가 개인 경험에 좌우되지 않도록 합니다.",
+          ja: "展示60 / 30 / 7日前のチェックリストを備えた海外出展標準手順を整備し、準備が個人の経験に依存しないようにします。",
         },
       },
       {
@@ -4814,6 +5107,13 @@ export const blogPosts: BlogPost[] = [
         text: {
           zh: "提前确认现场电压，按需提供 110V 版本设备或变压器，确保样机可在现场安装调试。",
           en: "North-American power readiness: confirming site voltage in advance and supplying a 110V machine version or transformer so samples can be commissioned on the floor.",
+          ru: "Готовность к североамериканской электросети: заблаговременное подтверждение напряжения и поставка версии машины на 110V либо трансформатора, чтобы образцы можно было запустить прямо на стенде.",
+          it: "Adeguamento alla rete nordamericana: verifica anticipata della tensione e fornitura di una versione macchina a 110V o di un trasformatore, per poter avviare i campioni in fiera.",
+          de: "Vorbereitung auf das nordamerikanische Stromnetz: Vorabklärung der Spannung und Bereitstellung einer 110V-Maschinenversion oder eines Transformators, damit Muster am Stand in Betrieb genommen werden können.",
+          fr: "Adéquation au réseau nord-américain : confirmation de la tension en amont et fourniture d'une version machine 110V ou d'un transformateur, pour pouvoir mettre les échantillons en service sur le stand.",
+          es: "Adaptación a la red norteamericana: confirmar la tensión con antelación y suministrar una versión de máquina a 110V o un transformador, de modo que las muestras puedan ponerse en marcha en el stand.",
+          ko: "북미 전원 대응: 현장 전압을 사전에 확인하고 110V 사양 장비 또는 변압기를 공급해, 전시 현장에서 샘플을 가동할 수 있도록 합니다.",
+          ja: "北米電源への対応：現場電圧を事前に確認し、110V 仕様の機械または変圧器を手配して、会場でサンプルを稼働できるようにします。",
         },
       },
       {
@@ -4821,6 +5121,13 @@ export const blogPosts: BlogPost[] = [
         text: {
           zh: "补齐英文资料包：设备参数、合规认证说明、安装培训范围、备件与售后响应。",
           en: "A complete English documentation pack — specifications, compliance documentation, installation and training scope, spare parts and after-sales response.",
+          ru: "Полный комплект документации на английском: характеристики, документы соответствия, объём монтажа и обучения, запчасти и сервисное обслуживание.",
+          it: "Un pacchetto documentale completo in inglese: specifiche, conformità, ambito di installazione e formazione, ricambi e assistenza post-vendita.",
+          de: "Ein vollständiges englisches Dokumentationspaket — Spezifikationen, Konformitätsnachweise, Umfang von Installation und Schulung, Ersatzteile und After-Sales-Reaktion.",
+          fr: "Un dossier documentaire complet en anglais : spécifications, conformité, périmètre d'installation et de formation, pièces de rechange et service après-vente.",
+          es: "Un paquete documental completo en inglés: especificaciones, conformidad, alcance de instalación y formación, repuestos y respuesta posventa.",
+          ko: "영문 자료 패키지 완비: 장비 사양, 규정 준수 서류, 설치·교육 범위, 예비 부품 및 사후 대응.",
+          ja: "英文資料パッケージの完備：仕様、適合文書、設置・教育範囲、予備部品、アフターサービス対応。",
         },
       },
       {
@@ -4828,17 +5135,41 @@ export const blogPosts: BlogPost[] = [
         text: {
           zh: "2027 年展会提前 2 个月启动买家与代理渠道预邀约。",
           en: "Buyer and agent pre-invitations starting two months ahead of the 2027 show.",
+          ru: "Предварительное приглашение покупателей и агентов за два месяца до выставки 2027 года.",
+          it: "Inviti preliminari a buyer e agenti a partire da due mesi prima della fiera 2027.",
+          de: "Vorabinvitationen für Käufer und Agenten bereits zwei Monate vor der Messe 2027.",
+          fr: "Pré-invitations des acheteurs et agents dès deux mois avant le salon 2027.",
+          es: "Preinvitaciones a compradores y agentes con dos meses de antelación a la feria de 2027.",
+          ko: "2027년 전시회 두 달 전부터 바이어와 대리점 사전 초청을 시작합니다.",
+          ja: "2027年展示会の2か月前から、バイヤー・代理店への事前招待を開始します。",
         },
       },
       {
         type: "h2",
-        text: { zh: "对话延续到芝加哥", en: "The Conversation Continued in Chicago" },
+        text: {
+          zh: "对话延续到芝加哥",
+          en: "The Conversation Continued in Chicago",
+          ru: "Разговор продолжился в Чикаго",
+          it: "La conversazione è continuata a Chicago",
+          de: "Das Gespräch ging in Chicago weiter",
+          fr: "La conversation s'est poursuivie à Chicago",
+          es: "La conversación continuó en Chicago",
+          ko: "시카고로 이어진 대화",
+          ja: "シカゴへ続いた対話",
+        },
       },
       {
         type: "p",
         text: {
           zh: "九月在拉斯维加斯建立的部分联系，在十月芝加哥 PACK EXPO International 期间继续深入，重点讨论分张、贴标、装袋与检测模块如何组合成完整产线。这一段写在《PACK EXPO 芝加哥一线观察》里。",
           en: "Several relationships started in Las Vegas continued at PACK EXPO International in Chicago in October, where we looked at how feeding, labelling, bagging and inspection modules can be combined into one line. Our Chicago field notes cover the second half of that story.",
+          ru: "Часть контактов, завязанных в Лас-Вегасе в сентябре, получила развитие в октябре на PACK EXPO International в Чикаго, где мы обсуждали объединение модулей подачи, этикетирования, упаковки и контроля в единую линию. Вторая половина этой истории — в наших чикагских заметках.",
+          it: "Alcune relazioni nate a Las Vegas sono proseguite a ottobre a PACK EXPO International a Chicago, dove abbiamo approfondito come combinare alimentazione, etichettatura, insacchettamento e ispezione in un'unica linea. La seconda parte di questa storia è nelle nostre note da Chicago.",
+          de: "Manche in Las Vegas geknüpften Kontakte wurden im Oktober auf der PACK EXPO International in Chicago vertieft, wo wir erörterten, wie sich Zuführung, Etikettierung, Beutelung und Inspektion zu einer Linie verbinden lassen. Den zweiten Teil dieser Geschichte erzählen unsere Chicagoer Feldnotizen.",
+          fr: "Plusieurs relations nouées à Las Vegas se sont prolongées en octobre à PACK EXPO International à Chicago, où nous avons examiné comment combiner alimentation, étiquetage, ensachage et contrôle en une seule ligne. La seconde partie de cette histoire figure dans nos notes de Chicago.",
+          es: "Algunas relaciones iniciadas en Las Vegas se profundizaron en octubre en PACK EXPO International en Chicago, donde analizamos cómo combinar alimentación, etiquetado, ensacado e inspección en una sola línea. La segunda parte de esa historia está en nuestras notas de Chicago.",
+          ko: "9월 라스베이거스에서 맺은 일부 관계는 10월 시카고 PACK EXPO International에서 이어졌고, 급지·라벨링·봉투 포장·검사 모듈을 하나의 라인으로 결합하는 방안을 논의했습니다. 그 후반부 이야기는 시카고 현장 노트에 담았습니다.",
+          ja: "9月のラスベガスで始まった関係の一部は、10月のシカゴ PACK EXPO International でさらに深まり、給紙・ラベリング・袋詰め・検査モジュールを一本のラインに組み合わせる方法を検討しました。その後半はシカゴ現地レポートにまとめています。",
         },
       },
       {
@@ -4846,56 +5177,169 @@ export const blogPosts: BlogPost[] = [
         text: {
           zh: "与工程师聊聊你的卡牌包装产线",
           en: "Talk to Our Engineers About Your Card Packaging Line",
+          ru: "Обсудите вашу линию упаковки карт с нашими инженерами",
+          it: "Parla con i nostri ingegneri della tua linea di confezionamento carte",
+          de: "Sprechen Sie mit unseren Ingenieuren über Ihre Kartenverpackungslinie",
+          fr: "Parlez de votre ligne d'emballage de cartes à nos ingénieurs",
+          es: "Hable con nuestros ingenieros sobre su línea de envasado de cartas",
+          ko: "카드 포장 라인에 대해 당사 엔지니어와 상담하세요",
+          ja: "カード包装ラインについて当社エンジニアにご相談ください",
         },
         href: "/contact",
       },
     ],
     relatedLinks: [
-      { href: "/blog/printing-united-expo-2026", label: { zh: "PRINTING United Expo 2026 展前预览", en: "PRINTING United Expo 2026 Preview" } },
-      { href: "/blog/pack-expo-2026-chicago-field-notes", label: { zh: "PACK EXPO 芝加哥一线观察", en: "PACK EXPO Chicago Field Notes" } },
-      { href: "/blog/tcg-packaging-machine-buying-guide", label: { zh: "TCG 包装机选购指南", en: "TCG Packaging Machine Buying Guide" } },
-      { href: "/blog/card-packaging-line-cost-lead-time", label: { zh: "卡牌包装线成本与交期", en: "Card Packaging Line Cost & Lead Time" } },
-      { href: "/machines", label: { zh: "全部设备型号", en: "All Machines" } },
+      { href: "/blog/printing-united-expo-2026", label: {
+        zh: "PRINTING United Expo 2026 展前预览",
+        en: "PRINTING United Expo 2026 Preview",
+        ru: "Анонс PRINTING United Expo 2026",
+        it: "Anteprima di PRINTING United Expo 2026",
+        de: "Vorschau auf PRINTING United Expo 2026",
+        fr: "Avant-première de PRINTING United Expo 2026",
+        es: "Avance de PRINTING United Expo 2026",
+        ko: "PRINTING United Expo 2026 사전 안내",
+        ja: "PRINTING United Expo 2026 出展予告",
+      } },
+      { href: "/blog/pack-expo-2026-chicago-field-notes", label: {
+        zh: "PACK EXPO 芝加哥一线观察",
+        en: "PACK EXPO Chicago Field Notes",
+        ru: "Заметки с PACK EXPO в Чикаго",
+        it: "Note dal campo da PACK EXPO Chicago",
+        de: "Feldnotizen von der PACK EXPO Chicago",
+        fr: "Notes de terrain de PACK EXPO Chicago",
+        es: "Notas de campo de PACK EXPO Chicago",
+        ko: "PACK EXPO 시카고 현장 노트",
+        ja: "PACK EXPO シカゴ現地ノート",
+      } },
+      { href: "/blog/tcg-packaging-machine-buying-guide", label: {
+        zh: "TCG 包装机选购指南",
+        en: "TCG Packaging Machine Buying Guide",
+        ru: "Руководство по выбору упаковочной машины для TCG",
+        it: "Guida all'acquisto di una macchina confezionatrice per TCG",
+        de: "Kaufberatung: Verpackungsmaschinen für TCG",
+        fr: "Guide d'achat : machine d'emballage pour TCG",
+        es: "Guía de compra de máquinas envasadoras para TCG",
+        ko: "TCG 포장기 구매 가이드",
+        ja: "TCG 包装機 選定ガイド",
+      } },
+      { href: "/blog/card-packaging-line-cost-lead-time", label: {
+        zh: "卡牌包装线成本与交期",
+        en: "Card Packaging Line Cost & Lead Time",
+        ru: "Стоимость и сроки поставки линии упаковки карт",
+        it: "Costi e tempi di consegna di una linea di confezionamento carte",
+        de: "Kosten und Lieferzeiten einer Kartenverpackungslinie",
+        fr: "Coût et délais d'une ligne d'emballage de cartes",
+        es: "Coste y plazos de una línea de envasado de cartas",
+        ko: "카드 포장 라인 비용과 납기",
+        ja: "カード包装ラインのコストと納期",
+      } },
+      { href: "/machines", label: {
+        zh: "全部设备型号",
+        en: "All Machines",
+        ru: "Все машины",
+        it: "Tutte le macchine",
+        de: "Alle Maschinen",
+        fr: "Toutes les machines",
+        es: "Todas las máquinas",
+        ko: "전체 장비",
+        ja: "全機種",
+      } },
     ],
     faqs: [
       {
         question: {
           zh: "CHANFER 在 PRINTING United Expo 2026 有展位吗？",
           en: "Did CHANFER exhibit at PRINTING United Expo 2026?",
+          ru: "CHANFER участвовала в PRINTING United Expo 2026 со стендом?",
+          it: "CHANFER ha esposto a PRINTING United Expo 2026?",
+          de: "War CHANFER auf der PRINTING United Expo 2026 mit einem Stand vertreten?",
+          fr: "CHANFER exposait-elle à PRINTING United Expo 2026 ?",
+          es: "¿Expuso CHANFER en PRINTING United Expo 2026?",
+          ko: "CHANFER는 PRINTING United Expo 2026에 참가했나요?",
+          ja: "CHANFER は PRINTING United Expo 2026 に出展しましたか？",
         },
         answer: {
           zh: "有。CHANFER 在 2026 年 9 月 23–25 日拉斯维加斯会展中心北馆 N7411 设有自有展位。10 月芝加哥 PACK EXPO International 2026 我们是随合作伙伴展位进场做市场调研，并非 CHANFER 展位。",
           en: "Yes. CHANFER had its own booth at PRINTING United Expo 2026, 23-25 September at the Las Vegas Convention Center, North Halls, Booth N7411. Our October visit to PACK EXPO International 2026 in Chicago was a market study with a partner's booth, not a CHANFER booth.",
+          ru: "Да. У CHANFER был собственный стенд на PRINTING United Expo 2026, 23–25 сентября в Выставочном центре Лас-Вегаса, Северный павильон, N7411. Октябрьская поездка на PACK EXPO International 2026 в Чикаго была исследованием рынка на стенде партнёра, а не стендом CHANFER.",
+          it: "Sì. CHANFER aveva uno stand proprio a PRINTING United Expo 2026, 23-25 settembre al Las Vegas Convention Center, North Halls, stand N7411. La visita di ottobre a PACK EXPO International 2026 a Chicago è stata uno studio di mercato presso lo stand di un partner, non uno stand CHANFER.",
+          de: "Ja. CHANFER hatte auf der PRINTING United Expo 2026, 23.–25. September im Las Vegas Convention Center, North Halls, Stand N7411, einen eigenen Stand. Unser Besuch der PACK EXPO International 2026 in Chicago im Oktober war eine Marktstudie am Stand eines Partners, nicht ein CHANFER-Stand.",
+          fr: "Oui. CHANFER disposait de son propre stand à PRINTING United Expo 2026, du 23 au 25 septembre au Las Vegas Convention Center, North Halls, stand N7411. Notre visite de PACK EXPO International 2026 à Chicago en octobre était une étude de marché depuis le stand d'un partenaire, pas un stand CHANFER.",
+          es: "Sí. CHANFER tuvo stand propio en PRINTING United Expo 2026, del 23 al 25 de septiembre en el Las Vegas Convention Center, North Halls, stand N7411. Nuestra visita de octubre a PACK EXPO International 2026 en Chicago fue un estudio de mercado desde el stand de un socio, no un stand de CHANFER.",
+          ko: "네. CHANFER는 2026년 9월 23~25일 라스베이거스 컨벤션 센터 북관 N7411에서 PRINTING United Expo 2026에 자체 부스로 참가했습니다. 10월 시카고 PACK EXPO International 2026 방문은 파트너사 부스에서의 시장 조사였으며, CHANFER 부스는 아니었습니다.",
+          ja: "はい。CHANFER は 2026年9月23〜25日、ラスベガス・コンベンションセンター北館 N7411 で PRINTING United Expo 2026 に自社ブースを出展しました。10月のシカゴ PACK EXPO International 2026 への訪問はパートナーのブースでの市場調査であり、CHANFER のブースではありません。",
         },
       },
       {
         question: {
           zh: "拉斯维加斯展位展示了哪些设备方向？",
           en: "What equipment did CHANFER present in Las Vegas?",
+          ru: "Какое оборудование CHANFER представила в Лас-Вегасе?",
+          it: "Quali tipologie di attrezzature ha presentato CHANFER a Las Vegas?",
+          de: "Welche Ausrüstung hat CHANFER in Las Vegas gezeigt?",
+          fr: "Quels équipements CHANFER a-t-elle présentés à Las Vegas ?",
+          es: "¿Qué equipos presentó CHANFER en Las Vegas?",
+          ko: "라스베이거스에서 CHANFER는 어떤 장비 분야를 선보였나요?",
+          ja: "ラスベガスで CHANFER が紹介した設備は？",
         },
         answer: {
           zh: "包括 FKJ-100KP 在内的发卡机与摩擦给料设备、视觉检测，以及面向卡牌、贺卡、信封与促销印刷品的模块化卡牌包装线。",
           en: "Card feeders and friction feeders including the FKJ-100KP, vision inspection, and modular card packaging lines for trading cards, greeting cards, envelopes and promotional print.",
+          ru: "Устройства подачи карт и фрикционные питатели, включая FKJ-100KP, системы визуального контроля, а также модульные линии упаковки карт для коллекционных карт, открыток, конвертов и рекламной полиграфии.",
+          it: "Alimentatori di carte e alimentatori a frizione tra cui l'FKJ-100KP, ispezione visiva e linee modulari di confezionamento per trading card, biglietti d'auguri, buste e stampa promozionale.",
+          de: "Kartenzuführer und Reibungsvereinzler einschließlich FKJ-100KP, Bildverarbeitungsinspektion sowie modulare Kartenverpackungslinien für Trading Cards, Grußkarten, Umschläge und Werbedrucksachen.",
+          fr: "Des distributeurs et alimentateurs à friction de cartes dont le FKJ-100KP, le contrôle par vision, ainsi que des lignes modulaires d'emballage pour cartes à collectionner, cartes de vœux, enveloppes et imprimés promotionnels.",
+          es: "Alimentadores de cartas y alimentadores de fricción incluido el FKJ-100KP, inspección por visión y líneas modulares de envasado para cartas coleccionables, tarjetas de felicitación, sobres e impresos promocionales.",
+          ko: "FKJ-100KP를 포함한 카드 급지기 및 마찰식 급지 장비, 비전 검사, 그리고 트레이딩 카드·그리팅 카드·봉투·프로모션 인쇄물용 모듈형 카드 포장 라인입니다.",
+          ja: "FKJ-100KP を含むカード給紙装置・摩擦式給紙装置、画像検査、およびトレーディングカード・グリーティングカード・封筒・販促印刷物向けのモジュール型カード包装ラインです。",
         },
       },
       {
         question: {
           zh: "北美买家对卡牌包装供应商有哪些要求？",
           en: "What do North American buyers expect from a card packaging supplier?",
+          ru: "Чего североамериканские покупатели ждут от поставщика упаковки карт?",
+          it: "Cosa si aspettano i buyer nordamericani da un fornitore di confezionamento carte?",
+          de: "Was erwarten nordamerikanische Käufer von einem Lieferanten für Kartenverpackung?",
+          fr: "Qu'attendent les acheteurs nord-américains d'un fournisseur d'emballage de cartes ?",
+          es: "¿Qué esperan los compradores norteamericanos de un proveedor de envasado de cartas?",
+          ko: "북미 바이어는 카드 포장 공급업체에 무엇을 요구하나요?",
+          ja: "北米のバイヤーはカード包装サプライヤーに何を求めますか？",
         },
         answer: {
           zh: "除产能外，通常还会要求英文资料、合规认证说明（UL / CE / FCC / Prop 65 按设备适用项）、110V 供电适配、安装与操作培训、备件供应及明确的售后响应时效。",
           en: "Beyond throughput, they typically ask for English documentation, compliance documentation (UL / CE / FCC / Prop 65 as applicable), 110V power compatibility, installation and operator training, spare parts availability, and clear after-sales response times.",
+          ru: "Помимо производительности, обычно запрашивают документацию на английском, документы соответствия (UL / CE / FCC / Prop 65 где применимо), совместимость с 110V, монтаж и обучение операторов, наличие запчастей и чёткие сроки реакции сервиса.",
+          it: "Oltre alla produttività, richiedono in genere documentazione in inglese, documenti di conformità (UL / CE / FCC / Prop 65 dove applicabili), compatibilità 110V, installazione e formazione operatori, disponibilità di ricambi e tempi chiari di risposta dell'assistenza.",
+          de: "Neben der Durchsatzleistung fragen sie typischerweise nach englischer Dokumentation, Konformitätsnachweisen (UL / CE / FCC / Prop 65, wo zutreffend), 110V-Kompatibilität, Installation und Bedienerschulung, Ersatzteilverfügbarkeit sowie klaren After-Sales-Reaktionszeiten.",
+          fr: "Au-delà de la cadence, ils demandent généralement une documentation en anglais, les documents de conformité (UL / CE / FCC / Prop 65 selon applicabilité), la compatibilité 110V, l'installation et la formation des opérateurs, la disponibilité des pièces de rechange et des délais de réponse après-vente explicites.",
+          es: "Además de la productividad, suelen pedir documentación en inglés, documentos de conformidad (UL / CE / FCC / Prop 65 cuando aplica), compatibilidad con 110V, instalación y formación de operarios, disponibilidad de repuestos y tiempos de respuesta posventa definidos.",
+          ko: "생산성 외에도 통상 영문 자료, 규정 준수 서류(해당 시 UL / CE / FCC / Prop 65), 110V 전원 대응, 설치 및 조작 교육, 예비 부품 공급, 명확한 사후 대응 시간을 요구합니다.",
+          ja: "処理能力に加え、一般に英文資料、適合文書（該当する場合の UL / CE / FCC / Prop 65）、110V 電源対応、設置・操作トレーニング、予備部品の供給、そして明確なアフターサービス応答時間を求めます。",
         },
       },
       {
         question: {
           zh: "CHANFER 设备能在北美 110V 供电下运行吗？",
           en: "Will a CHANFER machine run on North American 110V power?",
+          ru: "Работает ли оборудование CHANFER от североамериканской сети 110V?",
+          it: "Una macchina CHANFER funziona con la rete nordamericana a 110V?",
+          de: "Läuft eine CHANFER-Maschine am nordamerikanischen 110V-Netz?",
+          fr: "Une machine CHANFER fonctionne-t-elle sur le réseau nord-américain 110V ?",
+          es: "¿Funciona una máquina CHANFER con la red norteamericana de 110V?",
+          ko: "CHANFER 장비는 북미 110V 전원에서 가동되나요?",
+          ja: "CHANFER の機械は北米の 110V 電源で動きますか？",
         },
         answer: {
           zh: "北美展会与工厂现场通常为 110V 单相，而我们的标准机型按 220V 制造。我们会在报价阶段确认现场电气条件，并配套对应电压版本或变压器，确保设备可正常安装调试与运行。",
           en: "North American show and plant supplies are typically 110V single-phase, while our standard machines are built for 220V. We confirm site power at quotation stage and supply a matching voltage version or transformer, so the machine can be commissioned and operated as intended.",
+          ru: "На выставках и предприятиях Северной Америки обычно используется однофазная сеть 110V, тогда как наши стандартные машины рассчитаны на 220V. Мы уточняем параметры электросети на этапе коммерческого предложения и поставляем соответствующую версию машины или трансформатор, чтобы оборудование можно было штатно ввести в эксплуатацию и эксплуатировать.",
+          it: "Nelle fiere e negli stabilimenti nordamericani l'alimentazione è tipicamente monofase a 110V, mentre le nostre macchine standard sono costruite per 220V. Verifichiamo le condizioni elettriche in fase di preventivo e forniamo la versione di tensione corrispondente o un trasformatore, così la macchina può essere messa in servizio e utilizzata come previsto.",
+          de: "Auf nordamerikanischen Messen und in Produktionsbetrieben ist üblicherweise 110V einphasig verfügbar, während unsere Standardmaschinen für 220V ausgelegt sind. Wir klären die Netzverhältnisse bereits in der Angebotsphase und liefern die passende Spannungsvariante oder einen Transformator, damit die Maschine bestimmungsgemäß in Betrieb genommen und betrieben werden kann.",
+          fr: "Les salons et sites industriels nord-américains sont généralement alimentés en 110V monophasé, tandis que nos machines standard sont conçues pour 220V. Nous confirmons les conditions électriques dès l'établissement du devis et fournissons la version de tension adaptée ou un transformateur, afin que la machine puisse être mise en service et exploitée comme prévu.",
+          es: "En ferias y plantas de Norteamérica lo habitual es 110V monofásico, mientras que nuestras máquinas estándar se fabrican para 220V. Confirmamos las condiciones eléctricas en la fase de presupuesto y suministramos la versión de tensión correspondiente o un transformador, para que la máquina pueda ponerse en marcha y operar según lo previsto.",
+          ko: "북미 전시회와 공장 현장은 보통 110V 단상인 반면, 당사 표준 기종은 220V로 제작됩니다. 견적 단계에서 현장 전기 조건을 확인하고 그에 맞는 전압 사양 또는 변압기를 함께 공급해, 장비가 정상적으로 설치·가동되도록 합니다.",
+          ja: "北米の展示会・工場現場は通常 110V 単相ですが、当社の標準機は 220V で設計されています。見積段階で現場の電気条件を確認し、対応する電圧仕様または変圧器を併せてご提供することで、規定どおりの立ち上げ・運転を可能にします。",
         },
       },
     ],
