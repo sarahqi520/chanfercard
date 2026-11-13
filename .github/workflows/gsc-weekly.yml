@@ -1,0 +1,67 @@
+name: Weekly GSC audit
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+    inputs:
+      inspect_limit:
+        description: 'URL Inspection 抽查条数（每属性约 600 次/天）'
+        required: false
+        default: '20'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: python -m pip install --quiet google-auth requests
+
+      - name: Decode service account key
+        env:
+          GSC_SA_B64: ${{ secrets.GSC_SA_B64 }}
+        run: |
+          if [ -z "$GSC_SA_B64" ]; then
+            echo "::error::Secret GSC_SA_B64 is not configured"
+            exit 1
+          fi
+          printf '%s' "$GSC_SA_B64" | base64 -d > "$RUNNER_TEMP/gsc-sa.json"
+          chmod 600 "$RUNNER_TEMP/gsc-sa.json"
+          echo "GSC_SA_FILE=$RUNNER_TEMP/gsc-sa.json" >> "$GITHUB_ENV"
+
+      - name: Run GSC audit
+        env:
+          INSPECT_LIMIT: ${{ inputs.inspect_limit || '20' }}
+        run: python .github/scripts/gsc_audit.py
+
+      - name: Print summary
+        if: always()
+        run: |
+          if [ -f gsc-out/gsc-audit.md ]; then
+            grep -E '^(#|- 属性|- 数据区间|共 |canonical 与|- 需要处理)' gsc-out/gsc-audit.md | head -20 || true
+          fi
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gsc-audit-${{ github.run_id }}
+          path: gsc-out/
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Cleanup key
+        if: always()
+        run: rm -f "$GSC_SA_FILE"
