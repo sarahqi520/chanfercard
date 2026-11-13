@@ -8954,8 +8954,13 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
-];
-
-export function getPost(slug: string): BlogPost | undefined {
-  return blogPosts.find((p) => p.slug === slug);
-}
+].sort((a, b) => b.date.localeCompare(a.date));
+
+
+
+export function getPost(slug: string): BlogPost | undefined {
+
+  return blogPosts.find((p) => p.slug === slug);
+
+}
+
