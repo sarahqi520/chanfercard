@@ -45,7 +45,7 @@ export default function BlogPostContent({
     articleSection: t(post.category),
     inLanguage: locale,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.dateModified || post.date,
     ...(heroImageSrc ? { image: `https://chanfercard.com${heroImageSrc}` } : {}),
     author: { "@type": "Organization", name: "CHANFER", url: "https://chanfercard.com" },
     publisher: {

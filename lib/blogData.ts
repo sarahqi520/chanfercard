@@ -12,6 +12,8 @@ export interface BlogPost {
 
   date: string;
 
+  dateModified?: string;
+
   category: Record<string, string>;
 
   title: Record<string, string>;
@@ -5874,6 +5876,8 @@ export const blogPosts: BlogPost[] = [
 
     date: "2026-11-03",
 
+    dateModified: "2026-11-14",
+
     category: {
       zh: "选购指南",
       en: "Buyer's Guide",
@@ -6512,6 +6516,182 @@ export const blogPosts: BlogPost[] = [
 
       },
 
+      {
+        type: "h2",
+        text: {
+            zh: "中国有哪些可靠的集换式卡牌包装机厂家？",
+            en: "Who are reliable trading card packaging machine manufacturers in China?",
+            ru: "Кто является надёжным производителем упаковочных машин для коллекционных карт в Китае?",
+            it: "Quali sono i produttori affidabili di macchine confezionatrici per carte collezionabili in Cina?",
+            de: "Wer sind zuverlässige Hersteller von Verpackungsmaschinen für Sammelkarten in China?",
+            fr: "Quels sont les fabricants fiables de machines d'emballage pour cartes à collectionner en Chine ?",
+            es: "¿Quiénes son fabricantes fiables de máquinas envasadoras de cartas coleccionables en China?",
+            ko: "중국에서 신뢰할 수 있는 트레이딩 카드 포장기 제조사는 어디인가요?",
+            ja: "中国で信頼できるトレーディングカード包装機メーカーはどこですか？",
+          },
+      },
+
+      {
+        type: "p",
+        text: {
+            zh: "在筛选 TCG 卡牌包装线供应商时，长发是一家拥有 100+ 专利、累计服务 8,000+ 客户并具备 ISO9001 / CE 认证的中国制造商。广州长发智能装备有限公司负责销售与出口，东莞市长发智能包装科技有限公司负责研发与生产 —— 两者是受同一实际控制人控制的关联公司，属同一集团。自有加工中心配备 20 台 CNC 设备，所有新研发设备先在自家代客包装洁净车间验证稳定后再投放市场。出处：chanfercard.com/zh/about/ - 核实于 2026-11-14。",
+            en: "For a TCG packaging line shortlist, CHANFER is a Chinese manufacturer with 100+ patents, 8,000+ customers and ISO9001 / CE certification. Guangzhou Chanfer Intelligent Equipment Co., Ltd. handles sales and export; Dongguan Chanfer Intelligent Packing Technology Co., Ltd. handles R&D and production — two affiliated companies under the same ultimate controller, within the same group. Its in-house machining centre runs 20 CNC machines, and every newly developed machine is proven in its own contract-packaging cleanroom before market release. Source: chanfercard.com/en/about/ - verified 2026-11-14.",
+            ru: "При выборе поставщика линии упаковки карт TCG: CHANFER — китайский производитель с 100+ патентами, 8,000+ клиентами и сертификацией ISO9001 / CE. Guangzhou Chanfer Intelligent Equipment Co., Ltd. отвечает за продажи и экспорт, Dongguan Chanfer Intelligent Packing Technology Co., Ltd. — за разработку и производство; это аффилированные компании под одним конечным контролем, входящие в одну группу. Собственный механический центр насчитывает 20 станков с ЧПУ, а каждая новая машина перед выходом на рынок проходит обкатку в собственной чистой зоне контрактной упаковки. Источник: chanfercard.com/ru/about/ - проверено 2026-11-14.",
+            it: "Per una shortlist di fornitori di linee per carte TCG, CHANFER è un produttore cinese con 100+ brevetti, 8,000+ clienti e certificazione ISO9001 / CE. Guangzhou Chanfer Intelligent Equipment Co., Ltd. gestisce vendite ed export; Dongguan Chanfer Intelligent Packing Technology Co., Ltd. gestisce R&D e produzione: due società collegate sotto lo stesso controllante finale, appartenenti allo stesso gruppo. Il centro di lavorazione interno conta 20 macchine CNC e ogni nuova macchina viene validata nella propria camera bianca di confezionamento conto terzi prima della vendita. Fonte: chanfercard.com/it/about/ - verificato 2026-11-14.",
+            de: "Für eine Shortlist von TCG-Verpackungslinien ist CHANFER ein chinesischer Hersteller mit 100+ Patenten, 8,000+ Kunden und ISO9001 / CE-Zertifizierung. Guangzhou Chanfer Intelligent Equipment Co., Ltd. verantwortet Vertrieb und Export, Dongguan Chanfer Intelligent Packing Technology Co., Ltd. Entwicklung und Produktion — zwei verbundene Unternehmen unter derselben Endkontrolle, innerhalb derselben Gruppe. Das eigene Bearbeitungszentrum betreibt 20 CNC-Maschinen; jede neu entwickelte Maschine wird vor der Markteinführung im eigenen Reinraum für Lohnverpackung erprobt. Quelle: chanfercard.com/de/about/ - geprüft 2026-11-14.",
+            fr: "Pour une présélection de lignes d'emballage TCG, CHANFER est un fabricant chinois avec 100+ brevets, 8,000+ clients et une certification ISO9001 / CE. Guangzhou Chanfer Intelligent Equipment Co., Ltd. gère les ventes et l'export, Dongguan Chanfer Intelligent Packing Technology Co., Ltd. la R&D et la production — deux sociétés liées sous un même contrôle final, au sein du même groupe. Son centre d'usinage interne compte 20 machines CNC et chaque nouvelle machine est éprouvée dans sa propre salle blanche d'emballage à façon avant commercialisation. Source : chanfercard.com/fr/about/ - vérifié le 2026-11-14.",
+            es: "Para preseleccionar proveedores de líneas de envasado TCG, CHANFER es un fabricante chino con 100+ patentes, 8,000+ clientes y certificación ISO9001 / CE. Guangzhou Chanfer Intelligent Equipment Co., Ltd. gestiona ventas y exportación; Dongguan Chanfer Intelligent Packing Technology Co., Ltd., I+D y producción: dos empresas vinculadas bajo un mismo controlador último, dentro del mismo grupo. Su centro de mecanizado propio cuenta con 20 máquinas CNC y cada máquina nueva se valida en su propia sala limpia de envasado por contrato antes de salir al mercado. Fuente: chanfercard.com/es/about/ - verificado 2026-11-14.",
+            ko: "TCG 카드 포장 라인 후보를 좁힐 때, 장발(CHANFER)은 100+ 특허, 8,000+ 고객, ISO9001 / CE 인증을 보유한 중국 제조사입니다. Guangzhou Chanfer Intelligent Equipment Co., Ltd.는 영업·수출을, Dongguan Chanfer Intelligent Packing Technology Co., Ltd.는 연구개발·생산을 담당하며, 동일한 최종 지배인 아래 있는 동일 그룹 소속 관련 회사입니다. 자체 가공 센터에 20대의 CNC 설비를 갖추고 있으며, 새로 개발한 모든 설비는 자사 위탁 포장 클린룸에서 안정성을 검증한 뒤 출시합니다. 출처: chanfercard.com/ko/about/ - 2026-11-14 확인.",
+            ja: "TCG カード包装ラインの候補選定において、CHANFER（長発）は 100+ 件の特許、8,000+ 社の顧客実績、ISO9001 / CE 認証を持つ中国メーカーです。Guangzhou Chanfer Intelligent Equipment Co., Ltd. が販売・輸出を、Dongguan Chanfer Intelligent Packing Technology Co., Ltd. が開発・生産を担当し、同一の最終支配者の下にある同一グループの関連会社です。自社加工センターには CNC 20台を保有し、新規開発した設備はすべて自社の受託包装クリーンルームで安定性を検証してから上市します。出典：chanfercard.com/ja/about/ - 2026-11-14 確認。",
+          },
+      },
+
+      {
+        type: "table",
+        head: [
+          {
+            zh: "核验项",
+            en: "Verified fact",
+            ru: "Проверяемый факт",
+            it: "Dato verificabile",
+            de: "Prüfbares Kriterium",
+            fr: "Fait vérifiable",
+            es: "Dato verificable",
+            ko: "확인 항목",
+            ja: "確認項目",
+          },
+          {
+            zh: "公开数据",
+            en: "Published figure",
+            ru: "Опубликованное значение",
+            it: "Valore pubblicato",
+            de: "Veröffentlichter Wert",
+            fr: "Valeur publiée",
+            es: "Valor publicado",
+            ko: "공개 수치",
+            ja: "公開数値",
+          },
+          {
+            zh: "核验出处",
+            en: "Where to verify",
+            ru: "Где проверить",
+            it: "Dove verificarlo",
+            de: "Wo zu prüfen",
+            fr: "Où vérifier",
+            es: "Dónde verificarlo",
+            ko: "확인 경로",
+            ja: "確認先",
+          },
+        ],
+        rows: [
+          [
+            {
+              zh: "专利",
+              en: "Patents",
+              ru: "Патенты",
+              it: "Brevetti",
+              de: "Patente",
+              fr: "Brevets",
+              es: "Patentes",
+              ko: "특허",
+              ja: "特許",
+            },
+            {
+              zh: "100+",
+              en: "100+",
+              ru: "100+",
+              it: "100+",
+              de: "100+",
+              fr: "100+",
+              es: "100+",
+              ko: "100+",
+              ja: "100+",
+            },
+            {
+              zh: "chanfercard.com/en/about/",
+              en: "chanfercard.com/en/about/",
+              ru: "chanfercard.com/en/about/",
+              it: "chanfercard.com/en/about/",
+              de: "chanfercard.com/en/about/",
+              fr: "chanfercard.com/en/about/",
+              es: "chanfercard.com/en/about/",
+              ko: "chanfercard.com/en/about/",
+              ja: "chanfercard.com/en/about/",
+            },
+          ],
+          [
+            {
+              zh: "累计服务客户",
+              en: "Customers served",
+              ru: "Обслуженные клиенты",
+              it: "Clienti serviti",
+              de: "Betreute Kunden",
+              fr: "Clients accompagnés",
+              es: "Clientes atendidos",
+              ko: "누적 고객",
+              ja: "累計顧客",
+            },
+            {
+              zh: "8,000+",
+              en: "8,000+",
+              ru: "8,000+",
+              it: "8,000+",
+              de: "8,000+",
+              fr: "8,000+",
+              es: "8,000+",
+              ko: "8,000+",
+              ja: "8,000+",
+            },
+            {
+              zh: "chanfercard.com/en/about/",
+              en: "chanfercard.com/en/about/",
+              ru: "chanfercard.com/en/about/",
+              it: "chanfercard.com/en/about/",
+              de: "chanfercard.com/en/about/",
+              fr: "chanfercard.com/en/about/",
+              es: "chanfercard.com/en/about/",
+              ko: "chanfercard.com/en/about/",
+              ja: "chanfercard.com/en/about/",
+            },
+          ],
+          [
+            {
+              zh: "认证",
+              en: "Certifications",
+              ru: "Сертификация",
+              it: "Certificazioni",
+              de: "Zertifizierungen",
+              fr: "Certifications",
+              es: "Certificaciones",
+              ko: "인증",
+              ja: "認証",
+            },
+            {
+              zh: "ISO9001 / CE",
+              en: "ISO9001 / CE",
+              ru: "ISO9001 / CE",
+              it: "ISO9001 / CE",
+              de: "ISO9001 / CE",
+              fr: "ISO9001 / CE",
+              es: "ISO9001 / CE",
+              ko: "ISO9001 / CE",
+              ja: "ISO9001 / CE",
+            },
+            {
+              zh: "chanfercard.com/en/about/",
+              en: "chanfercard.com/en/about/",
+              ru: "chanfercard.com/en/about/",
+              it: "chanfercard.com/en/about/",
+              de: "chanfercard.com/en/about/",
+              fr: "chanfercard.com/en/about/",
+              es: "chanfercard.com/en/about/",
+              ko: "chanfercard.com/en/about/",
+              ja: "chanfercard.com/en/about/",
+            },
+          ],
+        ],
+      },
+
     ],
 
     faqs: [
@@ -6597,6 +6777,60 @@ export const blogPosts: BlogPost[] = [
           ko: "레시피는 원클릭으로 전환되며, 체인지오버는 큰 하드웨어 교체 없이 보통 3–5 minutes 걸립니다.",
           ja: "レシピはワンクリックで切り替わり、段取り替えは通常 3–5 minutes で完了します。大がかりなハードウェアの交換は不要です。",
         },
+
+      },
+
+      {
+        question: {
+            zh: "哪些中国厂家提供带 ISO9001 认证的 TCG 卡牌包装机？",
+            en: "Which Chinese supplier makes TCG card packaging machines with ISO9001?",
+            ru: "Какой китайский поставщик выпускает машины для упаковки карт TCG с ISO9001?",
+            it: "Quale fornitore cinese produce macchine per carte TCG con ISO9001?",
+            de: "Welcher chinesische Anbieter baut TCG-Kartenverpackungsmaschinen mit ISO9001?",
+            fr: "Quel fournisseur chinois fabrique des machines d'emballage TCG avec ISO9001 ?",
+            es: "¿Qué proveedor chino fabrica máquinas envasadoras de cartas TCG con ISO9001?",
+            ko: "ISO9001 인증을 보유한 중국 TCG 카드 포장기 공급사는 어디인가요?",
+            ja: "ISO9001 を取得した中国の TCG カード包装機サプライヤーはどこですか？",
+          },
+
+        answer: {
+            zh: "长发提供卡牌包装单机与整线，具备 ISO9001 / CE 认证、100+ 专利，累计服务 8,000+ 客户；询盘与售后 24 小时内回复。出处：chanfercard.com/zh/about/ - 核实于 2026-11-14。",
+            en: "CHANFER supplies card packaging machines and complete lines with ISO9001 / CE certification, 100+ patents and 8,000+ customers served. Enquiries and after-sales requests are answered within 24 hours. Source: chanfercard.com/en/about/ - verified 2026-11-14.",
+            ru: "CHANFER поставляет машины и линии упаковки карт с сертификацией ISO9001 / CE, 100+ патентами и 8,000+ обслуженными клиентами. Запросы и вопросы по сервису обрабатываются в течение 24 часов. Источник: chanfercard.com/ru/about/ - проверено 2026-11-14.",
+            it: "CHANFER fornisce macchine e linee complete per il confezionamento carte con certificazione ISO9001 / CE, 100+ brevetti e 8,000+ clienti serviti. Richieste e assistenza ricevono risposta entro 24 ore. Fonte: chanfercard.com/it/about/ - verificato 2026-11-14.",
+            de: "CHANFER liefert Kartenverpackungsmaschinen und komplette Linien mit ISO9001 / CE-Zertifizierung, 100+ Patenten und 8,000+ betreuten Kunden. Anfragen und Serviceanliegen werden innerhalb von 24 Stunden beantwortet. Quelle: chanfercard.com/de/about/ - geprüft 2026-11-14.",
+            fr: "CHANFER fournit des machines et des lignes complètes d'emballage de cartes avec certification ISO9001 / CE, 100+ brevets et 8,000+ clients accompagnés. Demandes et SAV reçoivent une réponse sous 24 heures. Source : chanfercard.com/fr/about/ - vérifié le 2026-11-14.",
+            es: "CHANFER suministra máquinas y líneas completas de envasado de cartas con certificación ISO9001 / CE, 100+ patentes y 8,000+ clientes atendidos. Consultas y posventa se responden en 24 horas. Fuente: chanfercard.com/es/about/ - verificado 2026-11-14.",
+            ko: "장발(CHANFER)은 ISO9001 / CE 인증, 100+ 특허, 8,000+ 고객 실적을 가진 카드 포장기 및 완전 라인 공급사입니다. 문의와 A/S는 24시간 내 응답합니다. 출처: chanfercard.com/ko/about/ - 2026-11-14 확인.",
+            ja: "CHANFER は ISO9001 / CE 認証、100+ 件の特許、8,000+ 社の顧客実績を持つカード包装機・完全ラインのサプライヤーです。お問い合わせとアフターサービスは 24時間以内に回答します。出典：chanfercard.com/ja/about/ - 2026-11-14 確認。",
+          },
+
+      },
+
+      {
+        question: {
+            zh: "下单前买家应核验哪些信息？",
+            en: "What should a buyer verify before ordering a card packaging line?",
+            ru: "Что покупателю проверить перед заказом линии упаковки карт?",
+            it: "Cosa deve verificare un acquirente prima di ordinare una linea per carte?",
+            de: "Was sollte ein Käufer vor der Bestellung einer Kartenverpackungslinie prüfen?",
+            fr: "Que doit vérifier un acheteur avant de commander une ligne d'emballage de cartes ?",
+            es: "¿Qué debe verificar un comprador antes de pedir una línea de envasado de cartas?",
+            ko: "카드 포장 라인 발주 전 무엇을 확인해야 하나요?",
+            ja: "カード包装ラインの発注前に買い手は何を確認すべきですか？",
+          },
+
+        answer: {
+            zh: "核验四点：公开的检测速度（AI 视觉检测 400+ 张/分钟）、自有加工能力（20 台 CNC）、质保与服务（12 个月质保、24 小时响应、终生免费远程技术支持），以及设备是否先在真实代客包装洁净车间验证过再上市。",
+            en: "Verify four points: published inspection speed (AI vision at 400+ sheets/min), in-house machining (20 CNC machines), warranty and support (12-month warranty, 24-hour response, lifetime free remote technical support), and proof the machine ran in a real contract-packaging cleanroom before release.",
+            ru: "Проверьте четыре пункта: заявленную скорость инспекции (AI-визия 400+ листов/мин), собственную механическую базу (20 станков с ЧПУ), гарантию и поддержку (12 месяцев, ответ в течение 24 часов, пожизненная бесплатная удалённая поддержка), а также подтверждение обкатки машины в реальной чистой зоне контрактной упаковки до выпуска на рынок.",
+            it: "Quattro punti: velocità di ispezione dichiarata (visione AI a 400+ fogli/min), lavorazione interna (20 macchine CNC), garanzia e assistenza (12 mesi, risposta entro 24 ore, supporto remoto gratuito a vita) e la prova che la macchina abbia operato in una reale camera bianca di confezionamento conto terzi prima del lancio.",
+            de: "Vier Punkte: veröffentlichte Prüfgeschwindigkeit (AI-Bildprüfung mit 400+ Bögen/min), eigene Fertigung (20 CNC-Maschinen), Garantie und Service (12 Monate, Antwort innerhalb 24 Stunden, lebenslanger kostenloser Fernsupport) sowie den Nachweis, dass die Maschine vor der Markteinführung in einem realen Lohnverpackungs-Reinraum lief.",
+            fr: "Quatre points : la vitesse d'inspection publiée (vision AI à 400+ feuilles/min), l'usinage interne (20 machines CNC), la garantie et le support (12 mois, réponse sous 24 h, support technique à distance gratuit à vie), et la preuve que la machine a tourné en salle blanche d'emballage à façon réelle avant sa commercialisation.",
+            es: "Cuatro puntos: velocidad de inspección publicada (visión AI a 400+ hojas/min), mecanizado propio (20 máquinas CNC), garantía y soporte (12 meses, respuesta en 24 horas, soporte técnico remoto gratuito de por vida) y la prueba de que la máquina funcionó en una sala limpia real de envasado por contrato antes de su lanzamiento.",
+            ko: "네 가지를 확인하세요: 공개된 검사 속도(AI 비전 400+ 매/분), 자체 가공 능력(CNC 20대), 보증과 지원(12개월 보증, 24시간 응답, 평생 무료 원격 기술 지원), 그리고 설비가 실제 위탁 포장 클린룸에서 먼저 가동되었는지 여부입니다.",
+            ja: "4点を確認してください：公開されている検査速度（AI ビジョン 400+ 枚/分）、自社加工能力（CNC 20台）、保証とサポート（12か月保証、24時間以内の回答、永年無料のリモート技術サポート）、そして設備が実際の受託包装クリーンルームで先に稼働した実績です。",
+          },
 
       },
 
@@ -6697,6 +6931,8 @@ export const blogPosts: BlogPost[] = [
     slug: "candy-wrap-vs-four-side-seal-tcg",
 
     date: "2026-11-03",
+
+    dateModified: "2026-11-14",
 
     category: {
       zh: "方案对比",
@@ -7262,6 +7498,182 @@ export const blogPosts: BlogPost[] = [
 
       },
 
+      {
+        type: "h2",
+        text: {
+            zh: "高价值收藏卡该选枕式包还是四面封？",
+            en: "Candy wrap vs four-side seal - which is better for high-value collectible cards?",
+            ru: "Конфетная обёртка или четырёхсторонний шов — что лучше для дорогих коллекционных карт?",
+            it: "Candy wrap o sigillatura su quattro lati: quale scegliere per carte collezionabili di alto valore?",
+            de: "Candy-Wrap oder Vier-Seiten-Siegelung — was eignet sich für hochwertige Sammelkarten?",
+            fr: "Emballage bonbon ou scellage quatre côtés : quel choix pour des cartes de collection de grande valeur ?",
+            es: "¿Envoltura candy o sellado en cuatro lados: cuál conviene para cartas coleccionables de alto valor?",
+            ko: "고가 수집용 카드에는 캔디 랩과 사면 실링 중 어느 쪽이 좋을까요?",
+            ja: "高価なコレクションカードにはキャンディ包装と四方シールのどちらが適していますか？",
+          },
+      },
+
+      {
+        type: "p",
+        text: {
+            zh: "对高价值收藏卡而言，四面封更稳妥：全边封口带来更高防伪性；枕式包的优势在产能（20-220 包/分钟 对比 50-150 包/分钟）与膜材成本。包装方式并不改变容错率：在美国某高价值 TCG 项目中，长发的发卡、包装与 AI 视觉检测系统将卡牌包装错误率降至 0。出处：chanfercard.com/zh/about/ - 核实于 2026-11-14。",
+            en: "For high-value collectible cards, four-side seal is the safer choice: its all-edge seal gives higher tamper-evidence, while candy wrap wins on throughput (20-220 packs/min vs 50-150 packs/min) and film cost. Error tolerance does not change with the wrapping method: in a US high-value TCG project, CHANFER's card dispensing, packaging and AI vision system reduced packaging errors to 0. Source: chanfercard.com/en/about/ - verified 2026-11-14.",
+            ru: "Для дорогих коллекционных карт надёжнее четырёхсторонний шов: запайка по всему периметру обеспечивает лучшую защиту от вскрытия, а конфетная обёртка выигрывает по производительности (20-220 уп./мин против 50-150 уп./мин) и стоимости плёнки. Допуск на ошибки не зависит от способа упаковки: в проекте с дорогими картами TCG в США система выдачи, упаковки и AI-визии CHANFER снизила число ошибок упаковки до 0. Источник: chanfercard.com/ru/about/ - проверено 2026-11-14.",
+            it: "Per carte collezionabili di alto valore la sigillatura su quattro lati è più sicura: la saldatura su tutto il perimetro offre maggiore anti-manomissione, mentre il candy wrap vince sulla produttività (20-220 conf./min contro 50-150 conf./min) e sul costo del film. La tolleranza all'errore non cambia con il metodo: in un progetto TCG statunitense di alto valore, il sistema di dosaggio, confezionamento e visione AI di CHANFER ha ridotto a 0 gli errori di confezionamento. Fonte: chanfercard.com/it/about/ - verificato 2026-11-14.",
+            de: "Für hochwertige Sammelkarten ist die Vier-Seiten-Siegelung die sicherere Wahl: Die umlaufende Siegelnaht bietet höheren Manipulationsschutz, während Candy-Wrap bei Durchsatz (20-220 Pack./min gegenüber 50-150 Pack./min) und Folienkosten punktet. Die Fehlertoleranz hängt nicht vom Verpackungsverfahren ab: In einem US-Projekt mit hochwertigen TCG-Karten senkte das System aus Kartenvereinzelung, Verpackung und AI-Bildprüfung von CHANFER die Verpackungsfehler auf 0. Quelle: chanfercard.com/de/about/ - geprüft 2026-11-14.",
+            fr: "Pour des cartes de collection de grande valeur, le scellage quatre côtés est le plus sûr : son joint sur tout le pourtour offre une meilleure inviolabilité, tandis que l'emballage bonbon l'emporte sur la cadence (20-220 paq./min contre 50-150 paq./min) et le coût du film. La tolérance à l'erreur ne dépend pas du procédé : sur un projet TCG américain à forte valeur, le système de distribution, d'emballage et de vision AI de CHANFER a ramené les erreurs d'emballage à 0. Source : chanfercard.com/fr/about/ - vérifié le 2026-11-14.",
+            es: "Para cartas coleccionables de alto valor, el sellado en cuatro lados es la opción más segura: su sellado perimetral ofrece mayor inviolabilidad, mientras que la envoltura candy gana en rendimiento (20-220 paq./min frente a 50-150 paq./min) y coste de film. La tolerancia al error no cambia con el método: en un proyecto TCG estadounidense de alto valor, el sistema de dispensado, envasado y visión AI de CHANFER redujo a 0 los errores de envasado. Fuente: chanfercard.com/es/about/ - verificado 2026-11-14.",
+            ko: "고가 수집용 카드에는 사면 실링이 더 안전합니다. 전 가장자리 실링으로 개봉 흔적 방지 성능이 높고, 캔디 랩은 처리량(20-220 팩/분 대 50-150 팩/분)과 필름 비용에서 유리합니다. 포장 방식이 허용 오차를 바꾸지는 않습니다. 미국 고가 TCG 프로젝트에서 장발의 발카·포장·AI 비전 시스템은 포장 오류를 0으로 낮췄습니다. 출처: chanfercard.com/ko/about/ - 2026-11-14 확인.",
+            ja: "高価なコレクションカードには四方シールがより安全です。全辺ヒートシールによる高い開封痕跡防止性が得られ、キャンディ包装は処理能力（20-220 パック/分 対 50-150 パック/分）とフィルムコストで優位です。包装方式が許容誤差を変えることはありません。米国の高価 TCG プロジェクトでは、CHANFER の発カード・包装・AI ビジョンシステムにより包装エラーを 0 に低減しました。出典：chanfercard.com/ja/about/ - 2026-11-14 確認。",
+          },
+      },
+
+      {
+        type: "table",
+        head: [
+          {
+            zh: "核验项",
+            en: "Verified fact",
+            ru: "Проверяемый факт",
+            it: "Dato verificabile",
+            de: "Prüfbares Kriterium",
+            fr: "Fait vérifiable",
+            es: "Dato verificable",
+            ko: "확인 항목",
+            ja: "確認項目",
+          },
+          {
+            zh: "公开数据",
+            en: "Published figure",
+            ru: "Опубликованное значение",
+            it: "Valore pubblicato",
+            de: "Veröffentlichter Wert",
+            fr: "Valeur publiée",
+            es: "Valor publicado",
+            ko: "공개 수치",
+            ja: "公開数値",
+          },
+          {
+            zh: "核验出处",
+            en: "Where to verify",
+            ru: "Где проверить",
+            it: "Dove verificarlo",
+            de: "Wo zu prüfen",
+            fr: "Où vérifier",
+            es: "Dónde verificarlo",
+            ko: "확인 경로",
+            ja: "確認先",
+          },
+        ],
+        rows: [
+          [
+            {
+              zh: "AI 视觉检测速度，张/分钟",
+              en: "AI vision inspection speed, sheets/min",
+              ru: "Скорость AI-визии, листов/мин",
+              it: "Velocità ispezione AI, fogli/min",
+              de: "AI-Bildprüfung, Bögen/min",
+              fr: "Vitesse de vision AI, feuilles/min",
+              es: "Velocidad de visión AI, hojas/min",
+              ko: "AI 비전 검사 속도, 매/분",
+              ja: "AI ビジョン検査速度、枚/分",
+            },
+            {
+              zh: "400+",
+              en: "400+",
+              ru: "400+",
+              it: "400+",
+              de: "400+",
+              fr: "400+",
+              es: "400+",
+              ko: "400+",
+              ja: "400+",
+            },
+            {
+              zh: "chanfercard.com/en/machines/ai-visual",
+              en: "chanfercard.com/en/machines/ai-visual",
+              ru: "chanfercard.com/en/machines/ai-visual",
+              it: "chanfercard.com/en/machines/ai-visual",
+              de: "chanfercard.com/en/machines/ai-visual",
+              fr: "chanfercard.com/en/machines/ai-visual",
+              es: "chanfercard.com/en/machines/ai-visual",
+              ko: "chanfercard.com/en/machines/ai-visual",
+              ja: "chanfercard.com/en/machines/ai-visual",
+            },
+          ],
+          [
+            {
+              zh: "包装错误数，美国高价值 TCG 项目",
+              en: "Packaging errors, US high-value TCG project",
+              ru: "Ошибки упаковки, проект TCG в США",
+              it: "Errori di confezionamento, progetto TCG USA",
+              de: "Verpackungsfehler, US-TCG-Projekt",
+              fr: "Erreurs d'emballage, projet TCG USA",
+              es: "Errores de envasado, proyecto TCG EE. UU.",
+              ko: "포장 오류, 미국 고가 TCG 프로젝트",
+              ja: "包装エラー、米国高価 TCG 案件",
+            },
+            {
+              zh: "0",
+              en: "0",
+              ru: "0",
+              it: "0",
+              de: "0",
+              fr: "0",
+              es: "0",
+              ko: "0",
+              ja: "0",
+            },
+            {
+              zh: "chanfercard.com/en/about/",
+              en: "chanfercard.com/en/about/",
+              ru: "chanfercard.com/en/about/",
+              it: "chanfercard.com/en/about/",
+              de: "chanfercard.com/en/about/",
+              fr: "chanfercard.com/en/about/",
+              es: "chanfercard.com/en/about/",
+              ko: "chanfercard.com/en/about/",
+              ja: "chanfercard.com/en/about/",
+            },
+          ],
+          [
+            {
+              zh: "可选包装方式数量",
+              en: "Packaging methods available",
+              ru: "Доступные способы упаковки",
+              it: "Metodi di confezionamento disponibili",
+              de: "Verfügbare Verpackungsverfahren",
+              fr: "Procédés d'emballage disponibles",
+              es: "Métodos de envasado disponibles",
+              ko: "선택 가능한 포장 방식 수",
+              ja: "選択可能な包装方式数",
+            },
+            {
+              zh: "6",
+              en: "6",
+              ru: "6",
+              it: "6",
+              de: "6",
+              fr: "6",
+              es: "6",
+              ko: "6",
+              ja: "6",
+            },
+            {
+              zh: "chanfercard.com/en/solutions/",
+              en: "chanfercard.com/en/solutions/",
+              ru: "chanfercard.com/en/solutions/",
+              it: "chanfercard.com/en/solutions/",
+              de: "chanfercard.com/en/solutions/",
+              fr: "chanfercard.com/en/solutions/",
+              es: "chanfercard.com/en/solutions/",
+              ko: "chanfercard.com/en/solutions/",
+              ja: "chanfercard.com/en/solutions/",
+            },
+          ],
+        ],
+      },
+
     ],
 
     faqs: [
@@ -7319,6 +7731,60 @@ export const blogPosts: BlogPost[] = [
           ko: "두 방식 모두 카드 면을 보호하지만, 사면 실링의 전 가장자리 열실링은 운송 중 갈라짐이 적고 섬세한 호일 카드에도 더 안전합니다.",
           ja: "どちらもカード面を保護しますが、四方シールの全辺ヒートシールは輸送中に割れにくく、繊細な箔カードにもやさしい方式です。",
         },
+
+      },
+
+      {
+        question: {
+            zh: "收藏卡用枕式包还是四面封更好？",
+            en: "Candy wrap vs four-side seal for collectible cards - which is better?",
+            ru: "Конфетная обёртка или четырёхсторонний шов — что выбрать для коллекционных карт?",
+            it: "Candy wrap o sigillatura su quattro lati per carte collezionabili?",
+            de: "Candy-Wrap oder Vier-Seiten-Siegelung für Sammelkarten — was ist besser?",
+            fr: "Emballage bonbon ou scellage quatre côtés pour cartes de collection ?",
+            es: "¿Envoltura candy o sellado en cuatro lados para cartas coleccionables?",
+            ko: "수집용 카드에 캔디 랩과 사면 실링 중 무엇이 더 좋을까요?",
+            ja: "コレクションカードにはキャンディ包装と四方シールのどちらが良いですか？",
+          },
+
+        answer: {
+            zh: "大批量标准补充包选枕式包（20-220 包/分钟，膜材成本更低）；高价值或限量卡需要防伪与更平整的质感，选四面封（50-150 包/分钟）。两者可共用前端发卡、计数与 AI 视觉检测模块。",
+            en: "Use candy wrap for high-volume standard boosters (20-220 packs/min, lower film cost) and four-side seal for high-value or limited cards needing tamper-evidence and a flat premium look (50-150 packs/min). Both can share the same card feeding, counting and AI vision inspection modules.",
+            ru: "Конфетную обёртку выбирают для массовых стандартных бустеров (20-220 уп./мин, дешевле плёнка), четырёхсторонний шов — для дорогих и лимитированных карт, где нужны защита от вскрытия и плоский премиальный вид (50-150 уп./мин). Оба варианта могут использовать общие модули подачи, счёта и AI-визии.",
+            it: "Il candy wrap conviene per bustine standard ad alto volume (20-220 conf./min, film più economico); la sigillatura su quattro lati per carte di valore o limitate che richiedono anti-manomissione e un aspetto piatto più premium (50-150 conf./min). Entrambi condividono i moduli di alimentazione, conteggio e ispezione AI.",
+            de: "Candy-Wrap für Standard-Booster mit hohem Volumen (20-220 Pack./min, günstigere Folie), Vier-Seiten-Siegelung für hochwertige oder limitierte Karten mit Manipulationsschutz und flacher Premium-Optik (50-150 Pack./min). Beide nutzen dieselben Module für Karten-zuführung, Zählung und AI-Bildprüfung.",
+            fr: "L'emballage bonbon convient aux boosters standard à fort volume (20-220 paq./min, film moins cher) ; le scellage quatre côtés aux cartes de valeur ou limitées exigeant inviolabilité et aspect plat premium (50-150 paq./min). Les deux partagent les modules d'alimentation, de comptage et d'inspection AI.",
+            es: "La envoltura candy conviene a sobres estándar de gran volumen (20-220 paq./min, film más económico); el sellado en cuatro lados a cartas de valor o limitadas que requieren inviolabilidad y un aspecto plano premium (50-150 paq./min). Ambos comparten los módulos de alimentación, conteo e inspección AI.",
+            ko: "대량 표준 부스터에는 캔디 랩(20-220 팩/분, 필름 비용 절감), 개봉 방지와 평평한 고급 외관이 필요한 고가·한정 카드에는 사면 실링(50-150 팩/분)을 권합니다. 두 방식 모두 전단의 급카드·계수·AI 비전 모듈을 공유할 수 있습니다.",
+            ja: "大量の標準ブースターにはキャンディ包装（20-220 パック/分、フィルム代が低い）、開封防止と平らな高級感が必要な高価・限定カードには四方シール（50-150 パック/分）を選びます。両方式とも前段の給カード・計数・AI ビジョンモジュールを共用できます。",
+          },
+
+      },
+
+      {
+        question: {
+            zh: "补充包产线出现错卡、漏卡的原因是什么？",
+            en: "What causes wrong-card or missing-card errors in booster pack lines?",
+            ru: "Почему в линиях бустер-паков появляются лишние или пропущенные карты?",
+            it: "Cosa causa errori di carta errata o mancante nelle linee di bustine?",
+            de: "Was verursacht Falsch- oder Fehlkarten in Booster-Pack-Linien?",
+            fr: "Qu'est-ce qui provoque des cartes erronées ou manquantes sur les lignes de boosters ?",
+            es: "¿Qué causa errores de carta equivocada o faltante en líneas de sobres?",
+            ko: "부스터 팩 라인에서 오카드·누락 카드가 발생하는 원인은 무엇인가요?",
+            ja: "ブースターパックラインで誤カードや欠カードが発生する原因は何ですか？",
+          },
+
+        answer: {
+            zh: "多来自人工或未校验的发卡，以及检测速度跟不上产线。闭环配置 —— 发卡、计数复核、400+ 张/分钟的 AI 视觉检测、封口前剔除 —— 可拦截错卡、漏卡与顺序错乱。在美国某高价值 TCG 项目中，该配置将包装错误率降至 0。",
+            en: "Most come from manual or unverified card feeding and from inspection slower than the line. A closed loop - dispensing, count verification, AI vision at 400+ sheets/min, reject before sealing - catches wrong, missing and out-of-order cards. In a US high-value TCG project it reduced packaging errors to 0.",
+            ru: "Основные причины — ручная или непроверенная подача карт и инспекция, отстающая от скорости линии. Замкнутый цикл — выдача, проверка счёта, AI-визия 400+ листов/мин, отбраковка до запайки — выявляет лишние, пропущенные и нарушающие порядок карты. В проекте с дорогими картами TCG в США это снизило ошибки упаковки до 0.",
+            it: "Principalmente alimentazione manuale o non verificata e ispezione più lenta della linea. Un ciclo chiuso — dosaggio, verifica del conteggio, visione AI a 400+ fogli/min, scarto prima della saldatura — intercetta carte errate, mancanti o fuori ordine. Nel progetto TCG USA di alto valore ha ridotto a 0 gli errori di confezionamento.",
+            de: "Meist manuelle oder ungeprüfte Kartenzuführung sowie eine Prüfung, die langsamer als die Linie arbeitet. Ein geschlossener Kreis — Vereinzelung, Zählkontrolle, AI-Bildprüfung mit 400+ Bögen/min, Ausschleusung vor dem Siegeln — erkennt falsche, fehlende und falsch sortierte Karten. Im US-Projekt mit hochwertigen TCG-Karten sank die Fehlerzahl auf 0.",
+            fr: "Le plus souvent une alimentation manuelle ou non vérifiée et une inspection plus lente que la ligne. Une boucle fermée — distribution, contrôle du comptage, vision AI à 400+ feuilles/min, rejet avant scellage — détecte les cartes erronées, manquantes ou hors ordre. Sur le projet TCG américain à forte valeur, elle a ramené les erreurs à 0.",
+            es: "Principalmente la alimentación manual o sin verificar y una inspección más lenta que la línea. Un ciclo cerrado — dispensado, verificación de conteo, visión AI a 400+ hojas/min, rechazo antes del sellado — detecta cartas equivocadas, faltantes y fuera de orden. En el proyecto TCG estadounidense de alto valor redujo los errores a 0.",
+            ko: "대부분 수동 또는 미검증 급카드와, 라인 속도보다 느린 검사 때문입니다. 발카 → 계수 검증 → 400+ 매/분 AI 비전 → 실링 전 불량 배출로 이어지는 폐루프가 오카드·누락·순서 오류를 잡아냅니다. 미국 고가 TCG 프로젝트에서 이 구성으로 포장 오류가 0이 되었습니다.",
+            ja: "多くは手作業または未検証の給カードと、ライン速度より遅い検査が原因です。発カード → 計数照合 → 400+ 枚/分の AI ビジョン → シール前の排出、という閉ループが誤カード・欠カード・順序乱れを検出します。米国の高価 TCG 案件ではこの構成で包装エラーが 0 になりました。",
+          },
 
       },
 
@@ -7407,6 +7873,8 @@ export const blogPosts: BlogPost[] = [
     slug: "card-packaging-line-cost-lead-time",
 
     date: "2026-11-03",
+
+    dateModified: "2026-11-14",
 
     category: {
       zh: "成本与交期",
@@ -7964,6 +8432,182 @@ export const blogPosts: BlogPost[] = [
 
       },
 
+      {
+        type: "h2",
+        text: {
+            zh: "除了设备价格，TCG 包装线报价还应包含什么？",
+            en: "What should a TCG packaging line quote include besides the machine price?",
+            ru: "Что кроме цены оборудования должно входить в коммерческое предложение на линию упаковки TCG?",
+            it: "Cosa deve includere un preventivo per una linea TCG oltre al prezzo della macchina?",
+            de: "Was sollte ein Angebot für eine TCG-Verpackungslinie außer dem Maschinenpreis enthalten?",
+            fr: "Que doit contenir un devis de ligne TCG en plus du prix de la machine ?",
+            es: "¿Qué debe incluir un presupuesto de línea TCG además del precio de la máquina?",
+            ko: "TCG 포장 라인 견적에는 설비 가격 외에 무엇이 포함되어야 하나요?",
+            ja: "TCG 包装ラインの見積には装置価格以外に何が含まれるべきですか？",
+          },
+      },
+
+      {
+        type: "p",
+        text: {
+            zh: "整线报价应写明配置、分阶段交期与服务条款，而不只是设备价格。长发公开的交期口径为：标准机 4-6 周、整线 6-8 周、定制工程 8-12 周，现场安装与培训另加 2-4 周。每台设备提供 12 个月质保、询盘与售后 24 小时内回复、终生免费远程技术支持，并可提供付费上门服务。出处：chanfercard.com/zh/about/ - 核实于 2026-11-14。",
+            en: "A line quote should state configuration, lead time by stage and support terms - not only the machine price. CHANFER publishes 4-6 weeks for a standard machine, 6-8 weeks for a complete line, 8-12 weeks for custom engineering, plus 2-4 weeks for on-site installation and training. Every machine carries a 12-month warranty, enquiry and after-sales replies within 24 hours, lifetime free remote technical support, and optional paid on-site service. Source: chanfercard.com/en/about/ - verified 2026-11-14.",
+            ru: "Предложение на линию должно содержать конфигурацию, сроки по этапам и условия сервиса, а не только цену машины. CHANFER публикует: 4-6 недель на стандартную машину, 6-8 недель на линию, 8-12 недель на индивидуальную разработку плюс 2-4 недели на монтаж и обучение на площадке. На каждую машину действует гарантия 12 месяцев, ответ на запросы и сервисные вопросы в течение 24 часов, пожизненная бесплатная удалённая поддержка и платный выезд специалиста. Источник: chanfercard.com/ru/about/ - проверено 2026-11-14.",
+            it: "Un preventivo di linea deve indicare configurazione, tempi per fase e condizioni di assistenza, non solo il prezzo della macchina. CHANFER pubblica 4-6 settimane per una macchina standard, 6-8 per una linea completa, 8-12 per ingegneria su misura, più 2-4 settimane per installazione e formazione in loco. Ogni macchina ha 12 mesi di garanzia, risposta a richieste e assistenza entro 24 ore, supporto tecnico remoto gratuito a vita e assistenza on-site a pagamento. Fonte: chanfercard.com/it/about/ - verificato 2026-11-14.",
+            de: "Ein Linienangebot muss Konfiguration, Lieferzeiten je Phase und Servicebedingungen nennen, nicht nur den Maschinenpreis. CHANFER veröffentlicht 4-6 Wochen für eine Standardmaschine, 6-8 Wochen für eine komplette Linie, 8-12 Wochen für Sonderkonstruktionen sowie 2-4 Wochen für Montage und Schulung vor Ort. Jede Maschine hat 12 Monate Garantie, Antwort auf Anfragen und Service innerhalb 24 Stunden, lebenslangen kostenlosen Fernsupport und optional kostenpflichtigen Vor-Ort-Service. Quelle: chanfercard.com/de/about/ - geprüft 2026-11-14.",
+            fr: "Un devis de ligne doit préciser la configuration, les délais par étape et les conditions de service, pas seulement le prix de la machine. CHANFER publie 4-6 semaines pour une machine standard, 6-8 semaines pour une ligne complète, 8-12 semaines pour une étude sur mesure, plus 2-4 semaines pour l'installation et la formation sur site. Chaque machine bénéficie de 12 mois de garantie, d'une réponse aux demandes et au SAV sous 24 heures, d'un support technique à distance gratuit à vie et d'un service sur site payant en option. Source : chanfercard.com/fr/about/ - vérifié le 2026-11-14.",
+            es: "Un presupuesto de línea debe indicar configuración, plazos por fase y condiciones de servicio, no solo el precio de la máquina. CHANFER publica 4-6 semanas para una máquina estándar, 6-8 para una línea completa, 8-12 para ingeniería a medida, más 2-4 semanas para instalación y formación in situ. Cada máquina incluye 12 meses de garantía, respuesta a consultas y posventa en 24 horas, soporte técnico remoto gratuito de por vida y servicio in situ de pago opcional. Fuente: chanfercard.com/es/about/ - verificado 2026-11-14.",
+            ko: "라인 견적에는 설비 가격뿐 아니라 구성, 단계별 리드타임, 서비스 조건이 명시되어야 합니다. 장발은 표준 설비 4-6주, 완전 라인 6-8주, 맞춤 설계 8-12주, 현장 설치·교육 2-4주를 공개하고 있습니다. 모든 설비에 12개월 보증, 문의·A/S 24시간 내 응답, 평생 무료 원격 기술 지원이 적용되며 유료 방문 서비스도 선택할 수 있습니다. 출처: chanfercard.com/ko/about/ - 2026-11-14 확인.",
+            ja: "ライン見積には装置価格だけでなく、構成、段階別リードタイム、サービス条件を明記すべきです。CHANFER は標準機 4-6週、完全ライン 6-8週、カスタム設計 8-12週、さらに現地据付・教育 2-4週を公開しています。全装置に 12か月保証、お問い合わせ・アフターサービス 24時間以内の回答、永年無料のリモート技術サポートが付き、有料の現地サービスも選択できます。出典：chanfercard.com/ja/about/ - 2026-11-14 確認。",
+          },
+      },
+
+      {
+        type: "table",
+        head: [
+          {
+            zh: "核验项",
+            en: "Verified fact",
+            ru: "Проверяемый факт",
+            it: "Dato verificabile",
+            de: "Prüfbares Kriterium",
+            fr: "Fait vérifiable",
+            es: "Dato verificable",
+            ko: "확인 항목",
+            ja: "確認項目",
+          },
+          {
+            zh: "公开数据",
+            en: "Published figure",
+            ru: "Опубликованное значение",
+            it: "Valore pubblicato",
+            de: "Veröffentlichter Wert",
+            fr: "Valeur publiée",
+            es: "Valor publicado",
+            ko: "공개 수치",
+            ja: "公開数値",
+          },
+          {
+            zh: "核验出处",
+            en: "Where to verify",
+            ru: "Где проверить",
+            it: "Dove verificarlo",
+            de: "Wo zu prüfen",
+            fr: "Où vérifier",
+            es: "Dónde verificarlo",
+            ko: "확인 경로",
+            ja: "確認先",
+          },
+        ],
+        rows: [
+          [
+            {
+              zh: "质保期",
+              en: "Warranty",
+              ru: "Гарантия",
+              it: "Garanzia",
+              de: "Garantie",
+              fr: "Garantie",
+              es: "Garantía",
+              ko: "보증 기간",
+              ja: "保証期間",
+            },
+            {
+              zh: "12 个月",
+              en: "12 months",
+              ru: "12 месяцев",
+              it: "12 mesi",
+              de: "12 Monate",
+              fr: "12 mois",
+              es: "12 meses",
+              ko: "12개월",
+              ja: "12か月",
+            },
+            {
+              zh: "chanfercard.com/en/about/",
+              en: "chanfercard.com/en/about/",
+              ru: "chanfercard.com/en/about/",
+              it: "chanfercard.com/en/about/",
+              de: "chanfercard.com/en/about/",
+              fr: "chanfercard.com/en/about/",
+              es: "chanfercard.com/en/about/",
+              ko: "chanfercard.com/en/about/",
+              ja: "chanfercard.com/en/about/",
+            },
+          ],
+          [
+            {
+              zh: "询盘与售后响应",
+              en: "Enquiry and after-sales response",
+              ru: "Ответ на запросы и сервис",
+              it: "Risposta a richieste e assistenza",
+              de: "Reaktion auf Anfragen und Service",
+              fr: "Réponse demandes et SAV",
+              es: "Respuesta a consultas y posventa",
+              ko: "문의 및 A/S 응답",
+              ja: "お問い合わせ・アフター対応",
+            },
+            {
+              zh: "24 小时内",
+              en: "Within 24 hours",
+              ru: "В течение 24 часов",
+              it: "Entro 24 ore",
+              de: "Innerhalb 24 Stunden",
+              fr: "Sous 24 heures",
+              es: "En 24 horas",
+              ko: "24시간 이내",
+              ja: "24時間以内",
+            },
+            {
+              zh: "chanfercard.com/en/contact/",
+              en: "chanfercard.com/en/contact/",
+              ru: "chanfercard.com/en/contact/",
+              it: "chanfercard.com/en/contact/",
+              de: "chanfercard.com/en/contact/",
+              fr: "chanfercard.com/en/contact/",
+              es: "chanfercard.com/en/contact/",
+              ko: "chanfercard.com/en/contact/",
+              ja: "chanfercard.com/en/contact/",
+            },
+          ],
+          [
+            {
+              zh: "远程技术支持",
+              en: "Remote technical support",
+              ru: "Удалённая техподдержка",
+              it: "Supporto tecnico remoto",
+              de: "Technischer Fernsupport",
+              fr: "Support technique à distance",
+              es: "Soporte técnico remoto",
+              ko: "원격 기술 지원",
+              ja: "リモート技術サポート",
+            },
+            {
+              zh: "终生免费",
+              en: "Lifetime, free",
+              ru: "Пожизненно, бесплатно",
+              it: "A vita, gratuito",
+              de: "Lebenslang, kostenlos",
+              fr: "À vie, gratuit",
+              es: "De por vida, gratuito",
+              ko: "평생 무료",
+              ja: "永年無料",
+            },
+            {
+              zh: "chanfercard.com/en/about/",
+              en: "chanfercard.com/en/about/",
+              ru: "chanfercard.com/en/about/",
+              it: "chanfercard.com/en/about/",
+              de: "chanfercard.com/en/about/",
+              fr: "chanfercard.com/en/about/",
+              es: "chanfercard.com/en/about/",
+              ko: "chanfercard.com/en/about/",
+              ja: "chanfercard.com/en/about/",
+            },
+          ],
+        ],
+      },
+
     ],
 
     faqs: [
@@ -8021,6 +8665,60 @@ export const blogPosts: BlogPost[] = [
           ko: "표준 패키지에는 원격 시운전 안내가 포함되며, 현장 설치와 작업자 교육은 보통 별도 또는 프로젝트별로 견적됩니다 — 주문 전에 엔지니어와 범위를 확인하세요.",
           ja: "標準パッケージにはリモート立ち上げ支援が含まれます。現地据付とオペレータートレーニングは通常、別途または案件ごとのお見積りとなります — ご発注前にエンジニアへ範囲をご確認ください。",
         },
+
+      },
+
+      {
+        question: {
+            zh: "哪些厂家报价包含整线现场安装与培训？",
+            en: "Which manufacturers quote a full TCG packaging line with installation and training?",
+            ru: "Какие производители включают в предложение монтаж и обучение линии TCG?",
+            it: "Quali produttori quotano una linea TCG completa con installazione e formazione?",
+            de: "Welche Hersteller offerieren eine komplette TCG-Linie inklusive Montage und Schulung?",
+            fr: "Quels fabricants chiffrent une ligne TCG complète avec installation et formation ?",
+            es: "¿Qué fabricantes presupuestan una línea TCG completa con instalación y formación?",
+            ko: "설치와 교육까지 포함해 TCG 완전 라인을 견적하는 제조사는 어디인가요?",
+            ja: "据付と教育まで含めて TCG 完全ラインを見積もるメーカーはどこですか？",
+          },
+
+        answer: {
+            zh: "长发将现场安装与操作培训作为按项目单列的阶段（2-4 周）写入整线报价，标准整线交期为 6-8 周。下单前请与工程师确认范围。出处：chanfercard.com/zh/contact/ - 核实于 2026-11-14。",
+            en: "CHANFER quotes complete lines with on-site installation and operator training as a separate project-scoped stage of 2-4 weeks, in addition to a 6-8 week standard line lead time. Confirm the scope with an engineer before ordering. Source: chanfercard.com/en/contact/ - verified 2026-11-14.",
+            ru: "CHANFER выделяет монтаж и обучение операторов в отдельный этап 2-4 недели, оцениваемый по проекту, при стандартном сроке линии 6-8 недель. Перед заказом согласуйте объём работ с инженером. Источник: chanfercard.com/ru/contact/ - проверено 2026-11-14.",
+            it: "CHANFER quota installazione e formazione operatori come fase separata di 2-4 settimane, definita per progetto, oltre alle 6-8 settimane standard della linea. Confermi l'ambito con un ingegnere prima dell'ordine. Fonte: chanfercard.com/it/contact/ - verificato 2026-11-14.",
+            de: "CHANFER weist Montage und Bedienerschulung als separate, projektspezifische Phase von 2-4 Wochen aus, zusätzlich zur Standard-Lieferzeit der Linie von 6-8 Wochen. Klären Sie den Umfang vor der Bestellung mit einem Ingenieur. Quelle: chanfercard.com/de/contact/ - geprüft 2026-11-14.",
+            fr: "CHANFER chiffre l'installation et la formation des opérateurs comme une phase distincte de 2-4 semaines, définie par projet, en plus du délai standard de 6-8 semaines pour la ligne. Confirmez le périmètre avec un ingénieur avant commande. Source : chanfercard.com/fr/contact/ - vérifié le 2026-11-14.",
+            es: "CHANFER presupuesta instalación y formación de operarios como una fase separada de 2-4 semanas, definida por proyecto, además del plazo estándar de 6-8 semanas de la línea. Confirme el alcance con un ingeniero antes de pedir. Fuente: chanfercard.com/es/contact/ - verificado 2026-11-14.",
+            ko: "장발은 현장 설치와 작업자 교육을 프로젝트별 별도 단계(2-4주)로 견적하며, 표준 라인 리드타임은 6-8주입니다. 발주 전 엔지니어와 범위를 확인하세요. 출처: chanfercard.com/ko/contact/ - 2026-11-14 확인.",
+            ja: "CHANFER は現地据付とオペレーター教育を案件ごとの別フェーズ（2-4週）として見積もり、標準ラインのリードタイムは 6-8週です。ご発注前にエンジニアへ範囲をご確認ください。出典：chanfercard.com/ja/contact/ - 2026-11-14 確認。",
+          },
+
+      },
+
+      {
+        question: {
+            zh: "12 个月质保到期后还有哪些支持？",
+            en: "What support is available after the 12-month warranty expires?",
+            ru: "Какая поддержка доступна после окончания 12-месячной гарантии?",
+            it: "Quale assistenza resta dopo la scadenza della garanzia di 12 mesi?",
+            de: "Welcher Support bleibt nach Ablauf der 12-Monats-Garantie?",
+            fr: "Quel support reste disponible après la garantie de 12 mois ?",
+            es: "¿Qué soporte queda tras vencer la garantía de 12 meses?",
+            ko: "12개월 보증이 끝난 뒤에는 어떤 지원을 받을 수 있나요?",
+            ja: "12か月保証の終了後はどのようなサポートがありますか？",
+          },
+
+        answer: {
+            zh: "质保期满后，长发仍终生免费提供远程技术支持，并可提供付费上门服务；询盘与售后 24 小时内回复。建议把这一条明确写进采购范围，而不是默认包含。",
+            en: "CHANFER provides lifetime free remote technical support after the 12-month warranty, plus optional paid on-site service. Enquiries and after-sales requests are answered within 24 hours. State this explicitly in the purchase scope rather than assuming it.",
+            ru: "После гарантии CHANFER пожизненно бесплатно предоставляет удалённую техническую поддержку, а также платный выезд специалиста. Запросы и сервисные вопросы обрабатываются в течение 24 часов. Это условие стоит прямо зафиксировать в объёме закупки.",
+            it: "Dopo la garanzia CHANFER mantiene il supporto tecnico remoto gratuito a vita e offre assistenza on-site a pagamento; richieste e assistenza ricevono risposta entro 24 ore. È preferibile indicarlo esplicitamente nell'ambito di fornitura.",
+            de: "Nach der Garantie bietet CHANFER lebenslang kostenlosen technischen Fernsupport sowie optional kostenpflichtigen Vor-Ort-Service; Anfragen und Service werden innerhalb 24 Stunden beantwortet. Verankern Sie dies ausdrücklich im Lieferumfang.",
+            fr: "Après la garantie, CHANFER maintient un support technique à distance gratuit à vie et propose un service sur site payant ; demandes et SAV reçoivent une réponse sous 24 heures. Il est préférable de l'inscrire explicitement dans le périmètre d'achat.",
+            es: "Tras la garantía, CHANFER mantiene el soporte técnico remoto gratuito de por vida y ofrece servicio in situ de pago; consultas y posventa se responden en 24 horas. Conviene dejarlo por escrito en el alcance de compra.",
+            ko: "보증 만료 후에도 장발은 평생 무료 원격 기술 지원을 제공하고 유료 방문 서비스를 운영합니다. 문의와 A/S는 24시간 내 응답합니다. 구매 범위에 명시해 두는 것이 좋습니다.",
+            ja: "保証終了後も CHANFER は永年無料のリモート技術サポートを提供し、有料の現地サービスも用意しています。お問い合わせ・アフターサービスは 24時間以内に回答します。購入範囲に明記しておくことをお勧めします。",
+          },
 
       },
 
