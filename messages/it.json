@@ -1387,6 +1387,18 @@
         {
           "question": "La linea candy può essere integrata con cartonaggio e pallettizzazione?",
           "answer": "Sì, la linea di confezionamento candy si integra perfettamente con le macchine di cartonaggio, gli incassatori, le sigillatrici a H e i robot di pallettizzazione collaborativi di CHANFER per una linea di produzione turnkey completa."
+        },
+        {
+          "question": "Potete realizzare una linea personalizzata one-card-one-pack per i booster pack?",
+          "answer": "Sì. CHANFER progetta layout personalizzati one-card-one-pack per booster pack TCG, integrando distribuzione, abbinamento, confezionamento e ispezione AI in un'unica linea automatica. Indicateci la composizione del pacco e la velocità target: i nostri ingegneri configurano la linea per voi."
+        },
+        {
+          "question": "Come passo dal confezionamento manuale delle carte a quello automatico?",
+          "answer": "Iniziate con una flow-wrapper candy CHANFER per sigillare il pacco, aggiungete un sistema di distribuzione e abbinamento carte per il conteggio esatto e completate con l'ispezione visiva AI per zero errori. I moduli si integrano in un'unica linea automatica di confezionamento carte."
+        },
+        {
+          "question": "Qual è il tasso di errore di una linea carte CHANFER?",
+          "answer": "Con il sistema di ispezione visiva AI KKR-C02 il tasso di errore di confezionamento scende allo 0%: carte errate, mancanti o fuori sequenza vengono rilevate e scartate automaticamente a oltre 400 fogli al minuto."
         }
       ],
       "faqTitle": "FAQ Confezionamento Candy",
@@ -1437,6 +1449,18 @@
         {
           "question": "Come funziona la tecnologia anti-spreco?",
           "answer": "Quando non viene rilevata alcuna carta, la macchina ferma automaticamente l'erogazione del film, evitando sacchi vuoti e spreco di film. La memoria dei punti garantisce anche il conteggio esatto."
+        },
+        {
+          "question": "Il confezionamento con striscia autoadesiva è adatto a bustine protettive e toploader?",
+          "answer": "Sì. La striscia autoadesiva richiudibile funziona con carte nude, carte in bustina e carte in toploader. Il sistema peel-and-seal protegge i pezzi da collezione di valore mantenendoli accessibili, ideale per prodotti TCG e carte collezionabili di pregio."
+        },
+        {
+          "question": "Come confeziono le carte senza errori?",
+          "answer": "Utilizzate un sistema di distribuzione e abbinamento CHANFER per controllare il numero esatto di carte per pacco, poi aggiungete il sistema di ispezione visiva AI KKR-C02 per intercettare carte errate o mancanti, ottenendo lo 0% di errori sulla linea."
+        },
+        {
+          "question": "Offrite confezionamenti autoadesivi personalizzati per carte?",
+          "answer": "Sì. Forniamo soluzioni su misura: dimensione della busta, materiale del film, stampa e metodo di saldatura (richiudibile / taglio a caldo / pressa a caldo) sono tutti configurabili sul vostro prodotto."
         }
       ],
       "faqTitle": "FAQ Confezionamento con Striscia Autoadesiva",
@@ -1486,6 +1510,18 @@
         {
           "question": "A cosa serve il fotoocchio tricolore?",
           "answer": "Il sistema traccia con precisione i segni grafici sul film stampato, garantendo allineamento preciso del colore anche ad alta velocità di confezionamento."
+        },
+        {
+          "question": "La sigillatura quattro lati è adatta alle carte collezionabili di alto valore?",
+          "answer": "Sì. La sigillatura quattro lati racchiude completamente il pacco su tutti e quattro i bordi, rendendolo anti-manomissione e ideale per trading card e oggetti da collezione di valore. Con l'ispezione AI offre una confezione premium a zero difetti."
+        },
+        {
+          "question": "Come automatizzo il confezionamento carte sigillato quattro lati?",
+          "answer": "La macchina CHANFER lavora a 50–150 pacchi/min con sette servomotori e si integra con distribuzione, abbinamento e ispezione visiva AI in un'unica linea automatica."
+        },
+        {
+          "question": "Qual è il tasso di errore di una linea carte sigillata quattro lati?",
+          "answer": "Con il modulo di ispezione AI KKR-C02 le carte errate, mancanti o fuori sequenza vengono rilevate automaticamente, riducendo il tasso di errore di confezionamento allo 0%."
         }
       ],
       "faqTitle": "FAQ Confezionamento Quattro Lati Sigillati",
@@ -1816,7 +1852,26 @@
       "ctaTitle": "Interessati alla Macchina di Erogazione Carte?",
       "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
       "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
-      "relatedMachinesTitle": "Macchine correlate"
+      "relatedMachinesTitle": "Macchine correlate",
+      "faqs": [
+        {
+          "question": "Che cos'è un sistema di distribuzione e abbinamento carte?",
+          "answer": "La CDM-100 è un sistema intelligente multi-stazione di smistamento e distribuzione carte. Conta e abbina automaticamente le carte secondo ricette controllate da computer e costituisce il cuore di una linea di smistamento e confezionamento per carte TCG e collezionabili."
+        },
+        {
+          "question": "Come funzionano lo smistamento e l'abbinamento delle carte?",
+          "answer": "Le carte vengono caricate in più stazioni; il computer controlla quali carte vengono distribuite e in quale ordine in base alla ricetta impostata. Supporta sia la distribuzione casuale sia il raggruppamento fisso per one-card-one-pack o pacchi multi-carta."
+        },
+        {
+          "question": "Può gestire ricette personalizzate one-card-one-pack?",
+          "answer": "Sì. Le ricette sono completamente configurabili: la CDM-100 produce layout one-card-one-pack personalizzati e configurazioni multi-carta, alimentando direttamente una flow-wrapper o una macchina sigillatrice quattro lati."
+        },
+        {
+          "question": "Come automatizzo il confezionamento carte con questo sistema?",
+          "answer": "Abbinate la CDM-100 a una confezionatrice CHANFER (candy o quattro lati) e al sistema di ispezione AI KKR-C02 per ottenere una linea automatica completa con tasso di errore dello 0%."
+        }
+      ],
+      "faqTitle": "Domande frequenti"
     },
     "cxfy-80a": {
       "seoTitle": "Alimentatore a Ventosa Planetario Monotesta CXFY-80A per Carte | CHANFER",
@@ -2137,7 +2192,26 @@
       "ctaTitle": "Interessati al Sistema AI?",
       "ctaDescription": "Ottenete specifiche dettagliate, prezzi e guida all'integrazione.",
       "relatedSolutionsTitle": "Utilizzato in queste soluzioni di confezionamento",
-      "relatedMachinesTitle": "Macchine correlate"
+      "relatedMachinesTitle": "Macchine correlate",
+      "faqs": [
+        {
+          "question": "Che cos'è l'ispezione visiva AI delle carte?",
+          "answer": "La KKR-C02 è un sistema di ispezione visiva AI che utilizza OCR e deep learning per rilevare carte errate, mancanti e fuori sequenza a oltre 400 fogli al minuto, con rilevamento dei difetti al 100%."
+        },
+        {
+          "question": "Qual è il tasso di errore dell'ispezione AI delle carte?",
+          "answer": "La KKR-C02 garantisce lo 0% di errori di confezionamento sui difetti rilevati: intercetta automaticamente ogni carta errata, mancante o mal ordinata, quindi nessun pacco difettoso lascia la linea."
+        },
+        {
+          "question": "Come confeziono le carte senza errori?",
+          "answer": "Installate l'ispezione visiva AI KKR-C02 a fine linea. Verifica in tempo reale numero e ordine delle carte e scarta ogni pacco con errori, garantendo un confezionamento a zero difetti."
+        },
+        {
+          "question": "L'ispezione AI rileva ordini mescolati e testo stampato?",
+          "answer": "Sì. Supporta OCR per cinese, inglese e numeri, rileva le carte fuori sequenza in 100 ms e si auto-allena su nuovi modelli di carta: ideale per il controllo qualità di TCG e carte collezionabili."
+        }
+      ],
+      "faqTitle": "Domande frequenti"
     },
     "fkj-600c": {
       "seoTitle": "Alimentatore a Frizione FKJ-600C | CHANFER",

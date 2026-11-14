@@ -1383,6 +1383,18 @@
         {
           "question": "Welche Kartengrößen werden unterstützt?",
           "answer": "Kartenbreiten bis 220mm, Produkthöhen 5-35mm. Deckt alle Standardgrößen ab: Poker (63x88mm), Bridge (56x88mm), Tarot und Multipacks."
+        },
+        {
+          "question": "Können Sie eine individuelle One-Card-One-Pack-Linie für Booster-Packs bauen?",
+          "answer": "Ja. CHANFER entwickelt individuelle One-Card-One-Pack-Layouts für TCG-Booster-Packs und vereint Kartenzuführung, Zuordnung, Einschlag und AI-Prüfung in einer einzigen automatischen Linie. Nennen Sie uns Packzusammensetzung und Zielgeschwindigkeit – unsere Ingenieure konfigurieren das Layout für Sie."
+        },
+        {
+          "question": "Wie stelle ich die Verpackung von Sammelkarten von Handarbeit auf Automatik um?",
+          "answer": "Beginnen Sie mit einem CHANFER Candy-Flow-Wrapper zum Versiegeln, ergänzen Sie ein Kartenzuführungs- und Zuordnungssystem für exakte Stückzahlen und schließen Sie mit AI-Bildprüfung für null Verpackungsfehler ab. Die Module fügen sich zu einer automatischen Kartenverpackungslinie zusammen."
+        },
+        {
+          "question": "Wie hoch ist die Fehlerrate bei einer CHANFER-Kartenlinie?",
+          "answer": "In Kombination mit unserem AI-Prüfsystem KKR-C02 sinkt die Verpackungsfehlerrate auf 0% – falsche, fehlende und falsch sortierte Karten werden bei über 400 Blatt pro Minute automatisch erkannt und ausgeschleust."
         }
       ],
       "faqTitle": "Sweets-Verpackung FAQ",
@@ -1427,6 +1439,18 @@
         {
           "question": "Welche Siegelmethoden sind verfügbar?",
           "answer": "Drei Methoden: selbstklebend, Heißschnitt und Heißpressung, flexibel auf derselben Maschine wechselbar."
+        },
+        {
+          "question": "Eignet sich Selbstklebeband-Verpackung für Kartenhüllen oder Toploader?",
+          "answer": "Ja. Der wiederverschließbare Selbstklebestreifen funktioniert bei blanken Karten, Karten in Hüllen und in Toploadern verpackten Karten. Der Peel-and-Seal-Streifen schützt hochwertige Sammlerstücke und hält sie zugleich zugänglich – ideal für wertvolle TCG- und Sammelkartenprodukte."
+        },
+        {
+          "question": "Wie verpacke ich Sammelkarten fehlerfrei?",
+          "answer": "Nutzen Sie ein CHANFER Kartenzuführungs- und Zuordnungssystem für exakte Kartenanzahlen pro Pack und ergänzen Sie das AI-Prüfsystem KKR-C02, um falsche oder fehlende Karten zu erkennen – so erreichen Sie 0% Verpackungsfehler in der Linie."
+        },
+        {
+          "question": "Bieten Sie individuelle Selbstklebeband-Kartenverpackungen an?",
+          "answer": "Ja. Wir liefern maßgeschneiderte Lösungen: Beutelgröße, Folienmaterial, Druck und Siegelverfahren (wiederverschließbar / Heißschnitt / Heißpressung) sind alle auf Ihr Kartenprodukt abstimmbar."
         }
       ],
       "faqTitle": "Selbstklebeband-Verpackung FAQ",
@@ -1470,6 +1494,18 @@
         {
           "question": "Wie schnell ist die Maschine?",
           "answer": "Bis zu 150 Packungen/Min mit sieben Servomotoren bei präziser Siegelqualität."
+        },
+        {
+          "question": "Ist Vier-Seiten-Siegelung für hochwertige Sammelkarten geeignet?",
+          "answer": "Ja. Die Vier-Seiten-Siegelung umschließt den Pack an allen vier Kanten vollständig, macht ihn manipulationssicher und ist damit ideal für wertvolle Trading Cards und Sammlerstücke. Kombiniert mit AI-Prüfung entsteht eine Premium-Verpackung ohne Fehler."
+        },
+        {
+          "question": "Wie automatisiere ich die Vier-Seiten-Kartenverpackung?",
+          "answer": "Die CHANFER Vier-Seiten-Siegelmaschine läuft mit 50–150 Packs/min und sieben Servomotoren und wird mit Kartenzuführung, Zuordnung und AI-Bildprüfung zu einer automatischen Linie verbunden."
+        },
+        {
+          "question": "Wie hoch ist die Fehlerrate einer Vier-Seiten-Kartenlinie?",
+          "answer": "Mit dem AI-Prüfmodul KKR-C02 werden falsche, fehlende und falsch sortierte Karten automatisch erkannt und die Verpackungsfehlerrate auf 0% gesenkt."
         }
       ],
       "faqTitle": "Vier-Seiten-Siegel FAQ",
@@ -1779,7 +1815,26 @@
       "ctaTitle": "Interesse an der Ausgabemaschine?",
       "ctaDescription": "Spezifikationen und Preise.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
-      "relatedMachinesTitle": "Verwandte Maschinen"
+      "relatedMachinesTitle": "Verwandte Maschinen",
+      "faqs": [
+        {
+          "question": "Was ist ein Kartenzuführungs- und Zuordnungssystem?",
+          "answer": "Die CDM-100 ist ein intelligentes Mehrstationssystem zum Sortieren und Ausgeben von Karten. Es zählt und ordnet Karten automatisch nach computergesteuerten Rezepten und bildet das Herzstück einer Karten-Sortier- und Verpackungslinie für TCG- und Sammelkarten."
+        },
+        {
+          "question": "Wie funktionieren Kartensortierung und -zuordnung?",
+          "answer": "Karten werden in mehrere Stationen geladen; der Computer steuert nach Ihrem Rezept, welche Karten in welcher Reihenfolge ausgegeben werden. Unterstützt werden sowohl Zufallsausgabe als auch feste Gruppierung für One-Card-One-Pack oder Multipacks."
+        },
+        {
+          "question": "Kann das System individuelle One-Card-One-Pack-Rezepte verarbeiten?",
+          "answer": "Ja. Rezepte sind frei konfigurierbar, sodass die CDM-100 individuelle One-Card-One-Pack-Layouts ebenso wie Mehrkarten-Konfigurationen produziert und direkt an einen Flow-Wrapper oder eine Vier-Seiten-Siegelmaschine übergibt."
+        },
+        {
+          "question": "Wie automatisiere ich damit die Verpackung von Sammelkarten?",
+          "answer": "Kombinieren Sie die CDM-100 mit einem CHANFER Wrapper (Candy oder Vier-Seiten) und dem AI-Prüfsystem KKR-C02 zu einer kompletten automatischen Kartenverpackungslinie mit 0% Fehlerrate."
+        }
+      ],
+      "faqTitle": "Häufig gestellte Fragen"
     },
     "cxfy-80a": {
       "seoTitle": "CXFY-80A Einzelkopf-Planeten-Saugkarten-Zuführer | CHANFER",
@@ -2100,7 +2155,26 @@
       "ctaTitle": "Interesse am AI-System?",
       "ctaDescription": "Spezifikationen und Preise.",
       "relatedSolutionsTitle": "Einsatz in diesen Verpackungslösungen",
-      "relatedMachinesTitle": "Verwandte Maschinen"
+      "relatedMachinesTitle": "Verwandte Maschinen",
+      "faqs": [
+        {
+          "question": "Was ist AI-Bildprüfung für Karten?",
+          "answer": "Die KKR-C02 ist ein AI-gestütztes Bildprüfsystem, das mit OCR und Deep Learning falsche, fehlende und falsch sortierte Karten bei über 400 Blatt pro Minute erkennt – mit 100% Fehlererkennung."
+        },
+        {
+          "question": "Wie hoch ist die Fehlerrate der AI-Kartenprüfung?",
+          "answer": "Die KKR-C02 liefert 0% Verpackungsfehler bei erkannten Defekten – sie erfasst jede falsche, fehlende oder falsch sortierte Karte automatisch, sodass kein fehlerhafter Pack die Linie verlässt."
+        },
+        {
+          "question": "Wie verpacke ich Sammelkarten fehlerfrei?",
+          "answer": "Installieren Sie die AI-Bildprüfung KKR-C02 am Ende Ihrer Verpackungslinie. Sie prüft Kartenanzahl und Reihenfolge in Echtzeit und schleust jeden fehlerhaften Pack aus – für eine fehlerfreie Kartenverpackung."
+        },
+        {
+          "question": "Erkennt die AI-Prüfung vertauschte Reihenfolgen und gedruckten Text?",
+          "answer": "Ja. Sie unterstützt OCR für Chinesisch, Englisch und Ziffern, erkennt Karten in falscher Reihenfolge in 100 ms und lernt neue Kartenvorlagen selbstständig – ideal für die Qualitätssicherung von TCG- und Sammelkarten."
+        }
+      ],
+      "faqTitle": "Häufig gestellte Fragen"
     },
     "fkj-600c": {
       "seoTitle": "FKJ-600C Reibungsfeeder | CHANFER",

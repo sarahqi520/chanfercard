@@ -1383,6 +1383,18 @@
         {
           "question": "¿Qué tamaños maneja?",
           "answer": "Anchos hasta 220mm, alturas 5-35mm. Poker, bridge, tarot y multipacks."
+        },
+        {
+          "question": "¿Pueden construir una línea personalizada de una carta por sobre para boosters?",
+          "answer": "Sí. CHANFER diseña configuraciones personalizadas de una carta por sobre para boosters TCG, integrando dispensado, emparejado, envasado e inspección AI en una sola línea automática. Indíquenos la composición del sobre y la velocidad objetivo: nuestros ingenieros configuran la línea para usted."
+        },
+        {
+          "question": "¿Cómo paso del envasado manual de cartas a una línea automática?",
+          "answer": "Empiece con una flow-wrapper candy CHANFER para sellar el sobre, añada un sistema de dispensado y emparejado para un conteo exacto y complete con inspección visual AI para cero errores. Los módulos se integran en una única línea automática de envasado de cartas."
+        },
+        {
+          "question": "¿Cuál es la tasa de error de envasado en una línea CHANFER?",
+          "answer": "Junto con nuestro sistema de inspección visual AI KKR-C02, la tasa de error cae al 0%: las cartas erróneas, faltantes o fuera de secuencia se detectan y rechazan automáticamente a más de 400 hojas por minuto."
         }
       ],
       "faqTitle": "FAQ Embalaje Candy",
@@ -1427,6 +1439,18 @@
         {
           "question": "¿Cuántos métodos?",
           "answer": "Tres: autoadhesivo, corte térmico, presión térmica."
+        },
+        {
+          "question": "¿El envasado con tira autoadhesiva admite fundas y toploaders?",
+          "answer": "Sí. La tira autoadhesiva recerrable funciona con cartas sueltas, cartas enfundadas y cartas en toploader. El sistema peel-and-seal protege las piezas de colección valiosas y mantiene el acceso, ideal para productos TCG y cartas coleccionables de alto valor."
+        },
+        {
+          "question": "¿Cómo envaso cartas coleccionables sin errores?",
+          "answer": "Utilice un sistema de dispensado y emparejado CHANFER para controlar el número exacto de cartas por sobre y añada el sistema de inspección visual AI KKR-C02 para detectar cartas erróneas o faltantes, logrando un 0% de errores en la línea."
+        },
+        {
+          "question": "¿Ofrecen envasado de cartas autoadhesivo a medida?",
+          "answer": "Sí. Ofrecemos soluciones a medida: tamaño de bolsa, material del film, impresión y método de sellado (recerrable / corte en caliente / prensa en caliente) son configurables según su producto."
         }
       ],
       "faqTitle": "FAQ Tira Autoadhesiva",
@@ -1470,6 +1494,18 @@
         {
           "question": "¿Velocidad?",
           "answer": "150 paq/min con siete servo."
+        },
+        {
+          "question": "¿Es adecuado el sellado de cuatro lados para cartas coleccionables de alto valor?",
+          "answer": "Sí. El sellado de cuatro lados envuelve completamente el sobre por sus cuatro bordes, lo hace inviolable y resulta ideal para trading cards y coleccionables de alto valor. Combinado con la inspección AI ofrece un envase premium sin defectos."
+        },
+        {
+          "question": "¿Cómo automatizo el envasado de cartas sellado en cuatro lados?",
+          "answer": "La máquina CHANFER trabaja a 50–150 sobres/min con siete servomotores y se integra con dispensado, emparejado e inspección visual AI en una sola línea automática."
+        },
+        {
+          "question": "¿Cuál es la tasa de error de una línea de cartas sellada en cuatro lados?",
+          "answer": "Con el módulo de inspección AI KKR-C02, las cartas erróneas, faltantes o fuera de secuencia se detectan automáticamente, reduciendo la tasa de error de envasado al 0%."
         }
       ],
       "faqTitle": "FAQ Cuatro Lados Sellados",
@@ -1775,7 +1811,26 @@
       "ctaTitle": "¿Interesado?",
       "ctaDescription": "Especificaciones y precios.",
       "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
-      "relatedMachinesTitle": "Máquinas relacionadas"
+      "relatedMachinesTitle": "Máquinas relacionadas",
+      "faqs": [
+        {
+          "question": "¿Qué es un sistema de dispensado y emparejado de cartas?",
+          "answer": "La CDM-100 es un sistema inteligente multiestación de clasificación y dispensado de cartas. Cuenta y empareja automáticamente las cartas según recetas controladas por ordenador y constituye el núcleo de una línea de clasificación y envasado para cartas TCG y coleccionables."
+        },
+        {
+          "question": "¿Cómo funcionan la clasificación y el emparejado de cartas?",
+          "answer": "Las cartas se cargan en varias estaciones; el ordenador controla qué cartas se dispensan y en qué orden según su receta. Admite tanto dispensado aleatorio como agrupación fija para una carta por sobre o sobres multicarta."
+        },
+        {
+          "question": "¿Puede gestionar recetas personalizadas de una carta por sobre?",
+          "answer": "Sí. Las recetas son totalmente configurables, por lo que la CDM-100 produce configuraciones personalizadas de una carta por sobre y también configuraciones multicarta, alimentando directamente una flow-wrapper o una selladora de cuatro lados."
+        },
+        {
+          "question": "¿Cómo automatizo el envasado de cartas con este sistema?",
+          "answer": "Combine la CDM-100 con una envasadora CHANFER (candy o cuatro lados) y el sistema de inspección AI KKR-C02 para construir una línea automática completa con un 0% de errores."
+        }
+      ],
+      "faqTitle": "Preguntas frecuentes"
     },
     "cxfy-80a": {
       "seoTitle": "Alimentador de Succión de Cartas CXFY-80A de Cabeza Simple Planetaria | CHANFER",
@@ -2088,7 +2143,26 @@
       "ctaTitle": "¿Interesado?",
       "ctaDescription": "Especificaciones y precios.",
       "relatedSolutionsTitle": "Presente en estas soluciones de envasado",
-      "relatedMachinesTitle": "Máquinas relacionadas"
+      "relatedMachinesTitle": "Máquinas relacionadas",
+      "faqs": [
+        {
+          "question": "¿Qué es la inspección visual AI de cartas?",
+          "answer": "La KKR-C02 es un sistema de inspección visual AI que utiliza OCR y aprendizaje profundo para detectar cartas erróneas, faltantes y fuera de secuencia a más de 400 hojas por minuto, con un 100% de detección de defectos."
+        },
+        {
+          "question": "¿Cuál es la tasa de error de la inspección AI de cartas?",
+          "answer": "La KKR-C02 ofrece un 0% de errores de envasado en los defectos detectados: captura automáticamente cada carta errónea, faltante o mal ordenada, por lo que ningún sobre defectuoso sale de la línea."
+        },
+        {
+          "question": "¿Cómo envaso cartas sin errores?",
+          "answer": "Instale la inspección visual AI KKR-C02 al final de su línea de envasado. Verifica en tiempo real el número y el orden de las cartas y rechaza cualquier sobre con error, garantizando un envasado cero defectos."
+        },
+        {
+          "question": "¿Detecta la inspección AI órdenes mezclados y texto impreso?",
+          "answer": "Sí. Admite OCR de chino, inglés y números, detecta cartas fuera de secuencia en 100 ms y se autoentrena con nuevas plantillas de cartas, ideal para el control de calidad de TCG y cartas coleccionables."
+        }
+      ],
+      "faqTitle": "Preguntas frecuentes"
     },
     "fkj-600c": {
       "seoTitle": "Alimentador por Fricción FKJ-600C | CHANFER",

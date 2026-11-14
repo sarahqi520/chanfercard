@@ -1383,6 +1383,18 @@
         {
           "question": "Quelles tailles de cartes?",
           "answer": "Largeurs jusqu'à 220mm, hauteurs 5-35mm. Poker, bridge, tarot et multipacks."
+        },
+        {
+          "question": "Pouvez-vous construire une ligne personnalisée « une carte, un sachet » pour les boosters ?",
+          "answer": "Oui. CHANFER conçoit des configurations personnalisées « une carte, un sachet » pour les boosters TCG, combinant distribution, appariement, emballage et contrôle AI sur une seule ligne automatique. Indiquez-nous la composition du sachet et la cadence visée : nos ingénieurs configurent la ligne pour vous."
+        },
+        {
+          "question": "Comment passer de l'emballage manuel des cartes à une ligne automatique ?",
+          "answer": "Commencez par une flow-wrapper candy CHANFER pour sceller le sachet, ajoutez un système de distribution et d'appariement pour un comptage exact, puis terminez par le contrôle visuel AI pour zéro erreur. Les modules s'intègrent en une ligne automatique complète."
+        },
+        {
+          "question": "Quel est le taux d'erreur d'emballage sur une ligne CHANFER ?",
+          "answer": "Associé à notre système de contrôle visuel AI KKR-C02, le taux d'erreur tombe à 0 % : cartes erronées, manquantes ou hors séquence sont détectées et éjectées automatiquement à plus de 400 feuilles par minute."
         }
       ],
       "faqTitle": "FAQ Emballage Candy",
@@ -1427,6 +1439,18 @@
         {
           "question": "Combien de méthodes?",
           "answer": "Trois: auto-adhésif, coupe à chaud, pression à chaud."
+        },
+        {
+          "question": "L'emballage à bande auto-adhésive convient-il aux pochettes et aux toploaders ?",
+          "answer": "Oui. La bande auto-adhésive refermable fonctionne avec les cartes nues, les cartes sous pochette et les cartes en toploader. Le système peel-and-seal protège les pièces de collection de valeur tout en restant accessible — idéal pour les produits TCG haut de gamme."
+        },
+        {
+          "question": "Comment emballer des cartes à collectionner sans erreur ?",
+          "answer": "Utilisez un système de distribution et d'appariement CHANFER pour contrôler le nombre exact de cartes par sachet, puis ajoutez le contrôle visuel AI KKR-C02 pour détecter les cartes erronées ou manquantes — soit 0 % d'erreur d'emballage sur la ligne."
+        },
+        {
+          "question": "Proposez-vous un emballage de cartes auto-adhésif sur mesure ?",
+          "answer": "Oui. Nous fournissons des solutions sur mesure : taille du sachet, matériau du film, impression et mode de scellage (refermable / coupe à chaud / presse à chaud) sont configurables selon votre produit."
         }
       ],
       "faqTitle": "FAQ Bande Auto-adhésive",
@@ -1470,6 +1494,18 @@
         {
           "question": "Vitesse?",
           "answer": "150 packs/min avec sept servo."
+        },
+        {
+          "question": "Le scellage quatre côtés convient-il aux cartes de collection de grande valeur ?",
+          "answer": "Oui. Le scellage quatre côtés enferme entièrement le sachet sur ses quatre bords, le rendant inviolable et idéal pour les cartes et objets de collection de valeur. Associé au contrôle AI, il offre un emballage premium zéro défaut."
+        },
+        {
+          "question": "Comment automatiser l'emballage de cartes scellé quatre côtés ?",
+          "answer": "La machine CHANFER atteint 50–150 sachets/min avec sept servomoteurs et s'intègre à la distribution, à l'appariement et au contrôle visuel AI en une seule ligne automatique."
+        },
+        {
+          "question": "Quel est le taux d'erreur d'une ligne de cartes scellée quatre côtés ?",
+          "answer": "Avec le module de contrôle AI KKR-C02, les cartes erronées, manquantes ou hors séquence sont détectées automatiquement, ramenant le taux d'erreur d'emballage à 0 %."
         }
       ],
       "faqTitle": "FAQ Quatre Côtés Scellés",
@@ -1775,7 +1811,26 @@
       "ctaTitle": "Intéressé?",
       "ctaDescription": "Spécifications et prix.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
-      "relatedMachinesTitle": "Machines associées"
+      "relatedMachinesTitle": "Machines associées",
+      "faqs": [
+        {
+          "question": "Qu'est-ce qu'un système de distribution et d'appariement de cartes ?",
+          "answer": "La CDM-100 est un système intelligent multi-stations de tri et de distribution de cartes. Elle compte et apparie automatiquement les cartes selon des recettes pilotées par ordinateur et constitue le cœur d'une ligne de tri et d'emballage pour cartes TCG et cartes de collection."
+        },
+        {
+          "question": "Comment fonctionnent le tri et l'appariement des cartes ?",
+          "answer": "Les cartes sont chargées dans plusieurs stations ; l'ordinateur pilote quelles cartes sont distribuées et dans quel ordre selon votre recette. Le système gère la distribution aléatoire comme le regroupement fixe pour « une carte, un sachet » ou les packs multi-cartes."
+        },
+        {
+          "question": "Peut-il gérer des recettes personnalisées « une carte, un sachet » ?",
+          "answer": "Oui. Les recettes sont entièrement configurables : la CDM-100 produit des configurations « une carte, un sachet » comme des packs multi-cartes, puis alimente directement une flow-wrapper ou une machine de scellage quatre côtés."
+        },
+        {
+          "question": "Comment automatiser l'emballage de cartes avec ce système ?",
+          "answer": "Associez la CDM-100 à une emballeuse CHANFER (candy ou quatre côtés) et au contrôle AI KKR-C02 pour obtenir une ligne automatique complète avec 0 % d'erreur."
+        }
+      ],
+      "faqTitle": "Questions fréquentes"
     },
     "cxfy-80a": {
       "seoTitle": "Distributeur de Cartes par Aspiration CXFY-80A à Tête Simple Planétaire | CHANFER",
@@ -2088,7 +2143,26 @@
       "ctaTitle": "Intéressé?",
       "ctaDescription": "Spécifications et prix.",
       "relatedSolutionsTitle": "Utilisé dans ces solutions d'emballage",
-      "relatedMachinesTitle": "Machines associées"
+      "relatedMachinesTitle": "Machines associées",
+      "faqs": [
+        {
+          "question": "Qu'est-ce que le contrôle visuel AI des cartes ?",
+          "answer": "La KKR-C02 est un système de contrôle visuel AI qui utilise l'OCR et l'apprentissage profond pour détecter les cartes erronées, manquantes ou hors séquence à plus de 400 feuilles par minute, avec 100 % de détection des défauts."
+        },
+        {
+          "question": "Quel est le taux d'erreur du contrôle AI des cartes ?",
+          "answer": "La KKR-C02 garantit 0 % d'erreur d'emballage sur les défauts détectés : chaque carte erronée, manquante ou mal ordonnée est interceptée automatiquement, aucun sachet défectueux ne quitte la ligne."
+        },
+        {
+          "question": "Comment emballer des cartes sans erreur ?",
+          "answer": "Installez le contrôle visuel AI KKR-C02 en fin de ligne. Il vérifie en temps réel le nombre et l'ordre des cartes et éjecte tout sachet non conforme, garantissant un emballage zéro défaut."
+        },
+        {
+          "question": "Le contrôle AI détecte-t-il les ordres mélangés et les textes imprimés ?",
+          "answer": "Oui. Il prend en charge l'OCR du chinois, de l'anglais et des chiffres, détecte une carte hors séquence en 100 ms et s'auto-entraîne sur de nouveaux modèles de cartes — idéal pour le contrôle qualité TCG et cartes de collection."
+        }
+      ],
+      "faqTitle": "Questions fréquentes"
     },
     "fkj-600c": {
       "seoTitle": "Distributeur à Friction FKJ-600C | CHANFER",
