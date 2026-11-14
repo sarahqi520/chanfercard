@@ -8954,6 +8954,675 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    "slug": "how-to-automate-trading-card-packaging",
+    "date": "2026-11-14",
+    "category": {
+      "en": "How-To Guide",
+      "zh": "操作指南",
+      "de": "Anleitung",
+      "fr": "Guide pratique",
+      "it": "Guida pratica",
+      "es": "Guía práctica",
+      "ru": "Руководство",
+      "ko": "실무 가이드",
+      "ja": "実務ガイド"
+    },
+    "title": {
+      "en": "How to Automate Trading Card Packaging: From Manual Tables to a Full TCG Packing Line",
+      "zh": "卡牌包装如何自动化：从人工台面到完整 TCG 包装产线",
+      "de": "Sammelkarten-Verpackung automatisieren: vom Handarbeitsplatz zur kompletten TCG-Verpackungslinie",
+      "fr": "Comment automatiser l'emballage des cartes à collectionner : de la table manuelle à la ligne TCG complète",
+      "it": "Come automatizzare il confezionamento delle carte collezionabili: dal banco manuale alla linea TCG completa",
+      "es": "Cómo automatizar el envasado de cartas coleccionables: de la mesa manual a la línea TCG completa",
+      "ru": "Как автоматизировать упаковку коллекционных карт: от ручного стола до полной линии TCG",
+      "ko": "트레이딩 카드 포장 자동화 방법: 수동 작업대에서 완전한 TCG 포장 라인까지",
+      "ja": "トレーディングカード包装を自動化する方法：手作業台から完全な TCG 包装ラインまで"
+    },
+    "excerpt": {
+      "en": "A step-by-step guide to automating trading card packaging - card dispensing and matching, booster pack wrapping, AI inspection, and how to scale from one machine to a complete automatic TCG packing line.",
+      "zh": "一步步讲清卡牌包装自动化：发卡配卡、补充包封装、AI 视觉检测，以及如何从单机扩展到完整的自动化 TCG 包装产线。",
+      "de": "Schritt für Schritt zur automatisierten Kartenverpackung: Kartenzuführung und -sortierung, Booster-Pack-Einschlag, AI-Prüfung und der Ausbau von einer Maschine zur kompletten TCG-Verpackungsanlage.",
+      "fr": "Guide pas à pas pour automatiser le conditionnement des cartes : distribution et appariement, emballage des boosters, inspection AI et passage d'une machine à une ligne d'emballage TCG complète.",
+      "it": "Guida passo passo all'automazione del confezionamento carte: distribuzione e abbinamento, confezione dei booster, ispezione AI e passaggio da una macchina a una linea di imballaggio TCG completa.",
+      "es": "Guía paso a paso para automatizar el envasado de cartas: dispensado y emparejado, envasado de sobres, inspección AI y cómo pasar de una máquina a una línea de envasado TCG completa.",
+      "ru": "Пошаговое руководство по автоматизации упаковки карт: подача и подбор карт, упаковка бустеров, AI-контроль и переход от одной машины к полной линии упаковки TCG.",
+      "ko": "카드 공급·매칭, 부스터 팩 포장, AI 검사, 그리고 단일 기계에서 완전 자동 TCG 포장 라인으로 확장하는 방법을 단계별로 안내합니다.",
+      "ja": "カード供給・マッチング、ブースターパック包装、AI 検査、そして単体機から全自動 TCG 包装ラインへ拡張する手順を段階的に解説します。"
+    },
+    "body": [
+      {
+        "type": "h2",
+        "text": {
+          "en": "Why automate trading card packaging?",
+          "zh": "为什么要把卡牌包装自动化？",
+          "de": "Warum Sammelkarten-Verpackung automatisieren?",
+          "fr": "Pourquoi automatiser l'emballage des cartes à collectionner ?",
+          "it": "Perché automatizzare il confezionamento delle carte?",
+          "es": "¿Por qué automatizar el envasado de cartas coleccionables?"
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "Manual card packing means counting cards by hand, checking each booster for the right composition, and sealing packs one at a time. It works for a few thousand packs, but output plateaus quickly, labour cost scales linearly, and a single miscount becomes a customer complaint. Automating trading card packaging removes all three limits at once.",
+          "zh": "人工包装意味着手工数卡、逐包核对卡组构成、一包一包封口。几千包尚可应付，但产能很快触顶、人工成本线性上升，一次数错就变成客户投诉。把卡牌包装自动化，能同时解除这三个限制。",
+          "de": "Bei manueller Kartenverpackung werden Karten von Hand gezählt, jede Booster-Zusammensetzung geprüft und jede Packung einzeln verschlossen. Für einige tausend Packungen funktioniert das, doch die Ausbringung stagniert schnell, die Personalkosten steigen linear und ein einziger Zählfehler wird zur Kundenreklamation. Die Automatisierung der Kartenverpackung beseitigt alle drei Grenzen zugleich.",
+          "fr": "En manuel, les cartes sont comptées à la main, la composition de chaque booster est vérifiée et chaque paquet est scellé un par un. Cela suffit pour quelques milliers d'unités, mais la cadence plafonne vite, le coût de main-d'œuvre croît linéairement et un simple erreur de comptage devient une réclamation client. Automatiser le conditionnement des cartes lève ces trois limites à la fois.",
+          "it": "Nel confezionamento manuale le carte si contano a mano, si verifica la composizione di ogni booster e si sigilla ogni confezione una alla volta. Funziona per poche migliaia di pezzi, ma la produttività si ferma presto, il costo del lavoro cresce linearmente e un solo errore di conteggio diventa un reclamo. Automatizzare il confezionamento carte elimina tutti e tre i limiti.",
+          "es": "En el envasado manual las cartas se cuentan a mano, se comprueba la composición de cada sobre y se sella cada paquete uno a uno. Sirve para unos miles de unidades, pero la producción se estanca pronto, el coste de mano de obra crece linealmente y un solo error de conteo se convierte en una reclamación. Automatizar el envasado de cartas elimina los tres límites a la vez."
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "A CHANFER line is built from three modules that can be commissioned together or one at a time: a card dispensing and matching system, a wrapping or sealing machine, and an AI visual inspection unit. Cards are counted by recipe, formed into a pack, sealed and verified without an operator touching a single card.",
+          "zh": "CHANFER 产线由三个可一次性投产、也可分批上线的模块组成：发卡配卡系统、包装封合机、AI 视觉检测单元。卡牌按配方计数、成包、封合、校验，全程无需人工触碰卡片。",
+          "de": "Eine CHANFER-Linie besteht aus drei Modulen, die gemeinsam oder nacheinander in Betrieb gehen können: Kartenzuführung und -zuordnung, Einschlag- oder Siegelmaschine sowie AI-Bildprüfung. Karten werden rezeptgesteuert gezählt, zu Packungen formiert, verschlossen und geprüft, ohne dass ein Bediener eine Karte berührt.",
+          "fr": "Une ligne CHANFER se compose de trois modules que l'on peut mettre en service ensemble ou séparément : un système de distribution et d'appariement des cartes, une machine d'emballage ou de scellage, et une unité d'inspection visuelle AI. Les cartes sont comptées par recette, mises en paquet, scellées et contrôlées sans qu'un opérateur touche une seule carte.",
+          "it": "Una linea CHANFER è composta da tre moduli attivabili insieme o in fasi separate: sistema di distribuzione e abbinamento carte, macchina di confezionamento o sigillatura e unità di ispezione visiva AI. Le carte vengono contate per ricetta, formate in confezione, sigillate e verificate senza che un operatore tocchi una carta.",
+          "es": "Una línea CHANFER se compone de tres módulos que pueden ponerse en marcha juntos o por fases: sistema de dispensado y emparejado de cartas, máquina de envasado o sellado y unidad de inspección visual AI. Las cartas se cuentan por receta, se agrupan, se sellan y se verifican sin que un operario toque una sola carta."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "Card dispensing and matching - recipe-controlled counting and collating, from one-card-one-pack to mixed multi-card booster sets, with double-feed and missing-card detection.",
+          "zh": "发卡配卡——按配方计数配组，支持一卡一包到多卡混装补充包，带双张、漏卡检测。",
+          "de": "Kartenzuführung und -zuordnung - rezeptgesteuerte Zählung und Sortierung von One-Card-One-Pack bis zu gemischten Multi-Card-Boostern, inklusive Doppel- und Fehlkartenerkennung.",
+          "fr": "Distribution et appariement - comptage et groupage pilotés par recette, du one-card-one-pack aux boosters multi-cartes, avec détection des doubles et des cartes manquantes.",
+          "it": "Distribuzione e abbinamento - conteggio e raggruppamento a ricetta, da one-card-one-pack a booster multi-carta, con rilevamento di doppie alimentazioni e carte mancanti.",
+          "es": "Dispensado y emparejado - conteo y agrupación por receta, desde one-card-one-pack hasta sobres multi-carta, con detección de doble alimentación y cartas faltantes."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "Wrapping and sealing - candy flow wrap, four-sides seal, self-adhesive strip or banding, at 20-220 packs per minute depending on card size and film.",
+          "zh": "包装封合——糖果枕式包、四边封、自粘条或束带，依卡牌尺寸与薄膜可达 20-220 包/分钟。",
+          "de": "Einschlag und Siegelung - Candy-Flow-Wrap, Vierseiten-Siegelung, Selbstklebestreifen oder Banderolierung mit 20-220 Packungen pro Minute je nach Kartenformat und Folie.",
+          "fr": "Emballage et scellage - flow wrap candy, scellage quatre côtés, bande autocollante ou cerclage, de 20-220 paquets/min selon le format et le film.",
+          "it": "Confezionamento e sigillatura - flow wrap candy, saldatura quattro lati, strip autoadesivo o fascettatura, 20-220 confezioni/min secondo formato e film.",
+          "es": "Envasado y sellado - flow wrap candy, sellado cuatro lados, tira autoadhesiva o fajado, de 20-220 paquetes/min según formato y film."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "AI visual inspection - OCR and vision checks that reject wrong, missing and out-of-sequence cards at over 400 sheets per minute, for a 0% packaging error rate.",
+          "zh": "AI 视觉检测——OCR 与视觉校验，每分钟 400 张以上自动剔除错卡、漏卡、顺序错乱，实现 0% 包装差错率。",
+          "de": "AI-Bildprüfung - OCR und Vision prüfen falsche, fehlende und falsch sortierte Karten bei über 400 Blatt pro Minute und senken die Verpackungsfehlerrate auf 0%.",
+          "fr": "Inspection visuelle AI - OCR et vision rejettent les cartes erronées, manquantes ou désordonnées à plus de 400 feuilles/min, pour un taux d'erreur de 0%.",
+          "it": "Ispezione visiva AI - OCR e visione scartano carte errate, mancanti o fuori sequenza oltre 400 fogli/min, per un tasso di errore dello 0%.",
+          "es": "Inspección visual AI - OCR y visión rechazan cartas erróneas, faltantes o fuera de secuencia a más de 400 hojas/min, para una tasa de error del 0%."
+        }
+      },
+      {
+        "type": "h2",
+        "text": {
+          "en": "Building an automatic TCG packing line for booster packs",
+          "zh": "搭建补充包的自动化 TCG 包装产线",
+          "de": "Eine automatische TCG-Verpackungslinie für Booster Packs aufbauen",
+          "fr": "Constituer une ligne d'emballage TCG automatique pour boosters",
+          "it": "Costruire una linea di imballaggio TCG automatica per i booster",
+          "es": "Montar una línea de envasado TCG automática para sobres"
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "Booster packs are the hardest format to automate: each pack needs a defined mix of common, rare and foil cards in a fixed order, with printed film registered to the seal. The CDM-100 card dispensing matching system stores these recipes, so changing from one set to another is a software change rather than a mechanical rebuild. Downstream, a candy flow wrapper runs at 20-220 packs per minute while keeping the printed film aligned.",
+          "zh": "补充包是最难自动化的形式：每包需要按固定顺序混入普通卡、稀有卡与闪卡，印刷膜还要对准封口。CDM-100 发卡配卡系统把这些配方存入软件，换卡组只是切换程序，不必重做机械调整。下游糖果包装机以 20-220 包/分钟运行，同时保持印刷膜对位。",
+          "de": "Booster Packs sind das anspruchsvollste Format: Jede Packung braucht eine definierte Mischung aus Standard-, Selten- und Foilkarten in fester Reihenfolge, bei registergenauer Bedruckfolie. Das CDM-100 Kartenzuführungs- und Zuordnungssystem speichert diese Rezepte, sodass ein Setwechsel eine Softwareumstellung statt eines mechanischen Umbaus ist. Nachgelagert arbeitet ein Candy-Flow-Wrapper mit 20-220 Packungen pro Minute bei exakter Folienregisterung.",
+          "fr": "Les boosters sont le format le plus difficile à automatiser : chaque paquet exige un mélange défini de cartes communes, rares et foil dans un ordre précis, avec un film imprimé repéré au scellage. Le système CDM-100 mémorise ces recettes : changer de série devient un changement logiciel et non une reconstruction mécanique. En aval, une enveloppeuse candy atteint 20-220 paquets/min tout en maintenant le repérage du film imprimé.",
+          "it": "I booster sono il formato più difficile da automatizzare: ogni confezione richiede un mix definito di carte comuni, rare e foil in ordine preciso, con film stampato registrato sulla saldatura. Il sistema CDM-100 memorizza queste ricette, quindi cambiare set è un cambio software e non una ricostruzione meccanica. A valle, una flow wrapper candy lavora a 20-220 confezioni/min mantenendo il registro del film stampato.",
+          "es": "Los sobres booster son el formato más difícil de automatizar: cada paquete exige una mezcla definida de cartas comunes, raras y foil en un orden concreto, con film impreso registrado en el sellado. El sistema CDM-100 almacena estas recetas, de modo que cambiar de colección es un cambio de software y no una reconstrucción mecánica. Aguas abajo, una envolvedora candy trabaja a 20-220 paquetes/min manteniendo el registro del film impreso."
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "Most publishers start with one machine and expand. A typical path is dispensing and matching first, then a wrapper, then AI inspection, and finally cartoning and palletising. Because every module is built to the same card-size and conveyor standard, adding capacity later does not mean replacing what you already own. Tell us your pack composition and target output; our engineers return a line layout and quotation within 24 hours.",
+          "zh": "多数发行方从一台设备起步再逐步扩展：先上发卡配卡，再加包装机，然后 AI 检测，最后装盒与码垛。所有模块遵循同一卡牌尺寸与输送标准，后续扩产无需淘汰已有设备。告诉我们您的卡组构成与目标产能，工程师将在 24 小时内给出产线布局与报价。",
+          "de": "Die meisten Verlage beginnen mit einer Maschine und erweitern später: zuerst Zuführung und Zuordnung, dann Wrapper, dann AI-Prüfung, schließlich Kartonenaufrichter und Palettierung. Da alle Module demselben Kartenformat- und Förderstandard entsprechen, bedeutet späterer Kapazitätsausbau keinen Austausch vorhandener Technik. Nennen Sie Packzusammensetzung und Zielausbringung - unsere Engineers liefern Linienlayout und Angebot innerhalb von 24 Stunden.",
+          "fr": "La plupart des éditeurs commencent par une machine puis s'agrandissent : distribution et appariement, enveloppeuse, inspection AI, puis encartonnage et palettisation. Tous les modules partagent le même standard de format de carte et de convoyage : monter en cadence plus tard ne remplace pas l'existant. Communiquez votre composition de paquet et votre cadence cible ; nos ingénieurs renvoient un plan de ligne et un devis sous 24 heures.",
+          "it": "La maggior parte degli editori parte da una macchina e si espande: prima distribuzione e abbinamento, poi wrapper, poi ispezione AI, infine incartonamento e pallettizzazione. Tutti i moduli condividono lo stesso standard di formato carta e trasporto, quindi aumentare la capacità non significa sostituire l'esistente. Indicate composizione e produzione target: i nostri ingegneri inviano layout e preventivo entro 24 ore.",
+          "es": "La mayoría de los editores empieza con una máquina y amplía después: dispensado y emparejado, envolvedora, inspección AI y finalmente encajonado y paletizado. Todos los módulos comparten el mismo estándar de formato de carta y transporte, así que ampliar capacidad no obliga a sustituir lo ya instalado. Indíquenos la composición del paquete y la producción objetivo: nuestros ingenieros envían el diseño de línea y el presupuesto en 24 horas."
+        }
+      },
+      {
+        "type": "cta",
+        "text": {
+          "en": "Get a Custom Automatic Card Packaging Line Design",
+          "zh": "获取定制自动化卡牌包装产线方案",
+          "de": "Individuelles Linienlayout für Kartenverpackung anfordern",
+          "fr": "Demander une configuration de ligne de conditionnement sur mesure",
+          "it": "Richiedi un layout di linea di confezionamento su misura",
+          "es": "Solicitar un diseño de línea de envasado a medida"
+        },
+        "href": "/contact"
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/solutions/candy",
+        "label": {
+          "en": "Candy Packaging Solution",
+          "zh": "糖果包装方案",
+          "de": "Candy-Verpackungslösung",
+          "fr": "Solution d'emballage Candy",
+          "it": "Soluzione di confezionamento Candy",
+          "es": "Solución de envasado Candy"
+        }
+      },
+      {
+        "href": "/machines/card-dispensing-matching",
+        "label": {
+          "en": "Card Dispensing & Matching System",
+          "zh": "发卡配卡系统",
+          "de": "Kartenzuführungs- und Zuordnungssystem",
+          "fr": "Système de distribution et d'appariement",
+          "it": "Sistema di distribuzione e abbinamento",
+          "es": "Sistema de dispensado y emparejado"
+        }
+      },
+      {
+        "href": "/contact",
+        "label": {
+          "en": "Talk to Our Engineers",
+          "zh": "联系工程师",
+          "de": "Mit unseren Ingenieuren sprechen",
+          "fr": "Parler à nos ingénieurs",
+          "it": "Parla con i nostri ingegneri",
+          "es": "Hable con nuestros ingenieros"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "en": "What is the first machine to buy when automating trading card packaging?",
+          "zh": "卡牌包装自动化，第一台设备该买什么？",
+          "de": "Welche Maschine sollte man bei der Automatisierung der Kartenverpackung zuerst kaufen?",
+          "fr": "Par quelle machine commencer pour automatiser l'emballage des cartes ?",
+          "it": "Quale macchina acquistare per prima per automatizzare il confezionamento carte?",
+          "es": "¿Qué máquina conviene comprar primero para automatizar el envasado de cartas?"
+        },
+        "answer": {
+          "en": "Start with the module that removes your biggest bottleneck. If miscounts and wrong card mixes are the problem, begin with a card dispensing and matching system. If sealing speed is the constraint, start with a flow wrapper. Both integrate into the same line later, so the first purchase is never wasted.",
+          "zh": "从解决最大瓶颈的模块开始。若问题是数错卡、卡组配错，先上发卡配卡系统；若瓶颈在封口速度，先上枕式包装机。两者后续都能并入同一条产线，第一笔投入不会浪费。",
+          "de": "Beginnen Sie mit dem Modul, das den größten Engpass beseitigt. Bei Zählfehlern und falschen Kartenmischungen ist es die Zuführungs- und Zuordnungsanlage, bei zu langsamer Siegelung der Flow-Wrapper. Beide lassen sich später in dieselbe Linie integrieren, sodass die Erstinvestition erhalten bleibt.",
+          "fr": "Commencez par le module qui lève votre principal goulet d'étranglement. Si les erreurs de comptage et les mauvaises compositions dominent, choisissez la distribution et l'appariement ; si le scellage limite la cadence, prenez une enveloppeuse. Les deux s'intègrent ensuite à la même ligne, le premier investissement n'est donc pas perdu.",
+          "it": "Partite dal modulo che elimina il collo di bottiglia principale. Se il problema sono conteggi errati e composizioni sbagliate, iniziate da distribuzione e abbinamento; se limita la sigillatura, da una flow wrapper. Entrambi si integrano poi nella stessa linea, quindi il primo investimento non va perso.",
+          "es": "Empiece por el módulo que elimina su mayor cuello de botella. Si el problema son conteos erróneos y composiciones incorrectas, comience con el dispensado y emparejado; si limita la velocidad de sellado, con una envolvedora. Ambos se integran después en la misma línea, así que la primera inversión no se pierde."
+        }
+      },
+      {
+        "question": {
+          "en": "Can one automatic TCG packing line handle different booster pack formats?",
+          "zh": "一条自动化 TCG 包装线能做多种补充包规格吗？",
+          "de": "Kann eine automatische TCG-Verpackungslinie verschiedene Booster-Formate verarbeiten?",
+          "fr": "Une ligne TCG automatique peut-elle produire plusieurs formats de boosters ?",
+          "it": "Una linea TCG automatica può gestire diversi formati di booster?",
+          "es": "¿Puede una línea TCG automática producir distintos formatos de sobres?"
+        },
+        "answer": {
+          "en": "Yes. Pack recipes, card counts, film width and sealing method are all configurable. A single line can produce one-card-one-pack promotional packs in the morning and multi-card booster packs in the afternoon after a recipe change and a short film changeover.",
+          "zh": "可以。配方、每包卡数、膜宽与封合方式均可配置。同一条线上午做一卡一包的推广包，下午切换配方并换膜后即可生产多卡补充包。",
+          "de": "Ja. Rezepte, Kartenanzahl, Folienbreite und Siegelverfahren sind konfigurierbar. Eine Linie produziert vormittags One-Card-One-Pack-Promotions und nachmittags nach Rezeptwechsel und kurzem Folienwechsel Multi-Card-Booster.",
+          "fr": "Oui. Recettes, nombre de cartes, laize du film et mode de scellage sont configurables. Une même ligne produit des paquets promotionnels one-card-one-pack le matin et des boosters multi-cartes l'après-midi après un changement de recette et un court changement de film.",
+          "it": "Sì. Ricette, numero di carte, larghezza del film e metodo di sigillatura sono configurabili. Una sola linea produce al mattino confezioni promozionali one-card-one-pack e al pomeriggio booster multi-carta dopo un cambio ricetta e un breve cambio film.",
+          "es": "Sí. Recetas, número de cartas, ancho de film y método de sellado son configurables. Una sola línea produce por la mañana paquetes promocionales one-card-one-pack y por la tarde sobres multi-carta tras un cambio de receta y un breve cambio de film."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "how-to-pack-trading-cards-without-errors",
+    "date": "2026-11-14",
+    "category": {
+      "en": "Quality Control",
+      "zh": "质量管控",
+      "de": "Qualitätssicherung",
+      "fr": "Contrôle qualité",
+      "it": "Controllo qualità",
+      "es": "Control de calidad",
+      "ru": "Контроль качества",
+      "ko": "품질 관리",
+      "ja": "品質管理"
+    },
+    "title": {
+      "en": "How to Pack Trading Cards Without Errors: A Practical Zero-Defect Workflow",
+      "zh": "如何做到卡牌包装零差错：一套可落地的零缺陷流程",
+      "de": "Sammelkarten fehlerfrei verpacken: ein praxistauglicher Null-Fehler-Workflow",
+      "fr": "Emballer des cartes sans erreur : un workflow zéro défaut applicable en production",
+      "it": "Confezionare carte senza errori: un flusso di lavoro zero difetti applicabile in produzione",
+      "es": "Cómo envasar cartas sin errores: un flujo de trabajo de cero defectos aplicable en producción",
+      "ru": "Как упаковывать коллекционные карты без ошибок: практический рабочий процесс с нулевым браком",
+      "ko": "트레이딩 카드 포장 오차를 없애는 방법: 실무형 무결함 워크플로",
+      "ja": "トレーディングカードを誤りなく包装する方法：実践的なゼロ欠陥ワークフロー"
+    },
+    "excerpt": {
+      "en": "Wrong cards, missing cards and duplicate foils are the costliest mistakes in TCG packaging. Here is how recipe-controlled dispensing, in-line counting and AI visual inspection bring the card packaging error rate to 0%.",
+      "zh": "错卡、漏卡、重复闪卡是 TCG 包装里代价最高的失误。本文讲清配方发卡、在线计数与 AI 视觉检测如何把卡牌包装差错率降到 0%。",
+      "de": "Falsche, fehlende oder doppelte Foilkarten sind die teuersten Fehler in der TCG-Verpackung. Rezeptgesteuerte Zuführung, Inline-Zählung und AI-Bildprüfung senken die Verpackungsfehlerrate auf 0%.",
+      "fr": "Cartes erronées, manquantes ou foils en double sont les erreurs les plus coûteuses du conditionnement TCG. Distribution par recette, comptage en ligne et inspection visuelle AI portent le taux d'erreur à 0%.",
+      "it": "Carte errate, mancanti o foil duplicati sono gli errori più costosi nel confezionamento TCG. Distribuzione a ricetta, conteggio in linea e ispezione visiva AI portano il tasso di errore allo 0%.",
+      "es": "Cartas erróneas, faltantes o foils duplicados son los fallos más costosos del envasado TCG. Dispensado por receta, conteo en línea e inspección visual AI llevan la tasa de error al 0%.",
+      "ru": "Неверные, отсутствующие или дублирующиеся карты - самые дорогие ошибки в упаковке TCG. Подача по рецепту, подсчёт в линии и AI-контроль снижают долю ошибок до 0%.",
+      "ko": "오카드, 누락 카드, 중복 포일 카드는 TCG 포장에서 가장 비용이 큰 실수입니다. 레시피 기반 공급, 인라인 계수, AI 비전 검사로 포장 오차율을 0%로 낮추는 방법을 설명합니다.",
+      "ja": "誤カード・欠落・フォイルの重複は TCG 包装で最も高くつくミスです。レシピ制御の供給、インライン計数、AI 外観検査で包装誤差率を 0% にする手順を解説します。"
+    },
+    "body": [
+      {
+        "type": "h2",
+        "text": {
+          "en": "Where card packaging errors actually come from",
+          "zh": "卡牌包装差错究竟从哪里来",
+          "de": "Woher Verpackungsfehler bei Karten wirklich kommen",
+          "fr": "D'où viennent réellement les erreurs d'emballage des cartes",
+          "it": "Da dove nascono davvero gli errori di confezionamento",
+          "es": "De dónde vienen realmente los errores de envasado de cartas"
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "For high-value TCG cards the tolerance for a packing error is effectively zero: one wrong foil in a sealed booster can trigger chargebacks, reputational damage and a recalled print run. Yet most errors are not dramatic machine failures - they are small, repeatable process gaps that manual inspection misses at production speed.",
+          "zh": "对高价值 TCG 卡牌而言，包装差错的容忍度基本为零：密封补充包里一张错闪卡，就可能引发退款、口碑受损甚至整批召回。但多数差错并非设备突发故障，而是产线全速运行时人工目检漏掉的一个个细小、可重复的流程缺口。",
+          "de": "Bei hochwertigen TCG-Karten ist die Fehlertoleranz praktisch null: Eine einzige falsche Foilkarte in einem versiegelten Booster kann Rückbuchungen, Imageschaden und einen zurückgerufenen Druckauftrag auslösen. Die meisten Fehler sind jedoch keine spektakulären Maschinenausfälle, sondern kleine, wiederkehrende Prozesslücken, die die Sichtprüfung bei Produktionsgeschwindigkeit übersieht.",
+          "fr": "Pour les cartes TCG de haute valeur, la tolérance à l'erreur est quasi nulle : un seul foil erroné dans un booster scellé peut entraîner remboursements, atteinte à la réputation et rappel d'un tirage. Pourtant la plupart des erreurs ne sont pas des pannes spectaculaires, mais de petites lacunes de procédure répétables que le contrôle visuel manque à cadence de production.",
+          "it": "Per le carte TCG di alto valore la tolleranza all'errore è di fatto zero: una sola foil sbagliata in un booster sigillato può causare rimborsi, danni di immagine e il richiamo di una tiratura. Eppure la maggior parte degli errori non sono guasti clamorosi, ma piccole lacune di processo ripetibili che il controllo visivo manuale non vede a velocità di produzione.",
+          "es": "En las cartas TCG de alto valor la tolerancia al error es prácticamente cero: un solo foil equivocado en un sobre sellado puede provocar devoluciones, daño reputacional y la retirada de una tirada. Sin embargo la mayoría de los fallos no son averías espectaculares, sino pequeñas lagunas de proceso repetibles que la inspección manual pasa por alto a velocidad de producción."
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "The three common failure modes are a missing card, a duplicated card, and an out-of-sequence or wrong card. They almost always originate upstream of the wrapper: stacks are split by hand, a feeder double-feeds, or a recipe changes mid-run without the line being cleared. Tuning the wrapper alone never fixes them.",
+          "zh": "最常见的三种失效是漏卡、重复卡、顺序错乱或错卡，几乎都发生在包装机上游：卡叠靠人工分拆、送料机构双张、或换配方时未清空在线卡片。只调包装机永远解决不了。",
+          "de": "Die drei häufigsten Fehlerbilder sind fehlende Karte, doppelte Karte und falsch sortierte oder falsche Karte. Sie entstehen fast immer vor dem Wrapper: Stapel werden von Hand geteilt, ein Feeder zieht doppelt, oder ein Rezeptwechsel erfolgt ohne Räumung der Linie. Nur den Wrapper zu optimieren behebt sie nie.",
+          "fr": "Les trois modes de défaillance courants sont la carte manquante, la carte en double et la carte hors séquence ou erronée. Ils naissent presque toujours en amont de l'enveloppeuse : piles séparées à la main, double alimentation, ou changement de recette en cours de lot sans purge de ligne. Régler l'enveloppeuse seule n'y remédie jamais.",
+          "it": "I tre guasti più comuni sono carta mancante, carta duplicata e carta fuori sequenza o errata. Nascono quasi sempre a monte della wrapper: pile divise a mano, doppia alimentazione o cambio ricetta a lotto in corso senza svuotare la linea. Ottimizzare solo la wrapper non li risolve.",
+          "es": "Los tres fallos habituales son carta faltante, carta duplicada y carta fuera de secuencia o errónea. Casi siempre se originan antes de la envolvedora: pilas separadas a mano, doble alimentación o cambio de receta a mitad de lote sin vaciar la línea. Ajustar solo la envolvedora nunca los corrige."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "Recipe-controlled card dispensing - pack composition is locked in software, with automatic rejection of double feeds and missing cards.",
+          "zh": "配方化发卡配卡——卡组构成由软件锁定，自动剔除双张与漏卡。",
+          "de": "Rezeptgesteuerte Kartenzuführung - die Packzusammensetzung ist softwarefest geschrieben, Doppelzüge und Fehlkarten werden automatisch ausgeschleust.",
+          "fr": "Distribution par recette - la composition du paquet est verrouillée dans le logiciel, avec rejet automatique des doubles alimentations et cartes manquantes.",
+          "it": "Distribuzione a ricetta - la composizione è bloccata nel software, con scarto automatico di doppie alimentazioni e carte mancanti.",
+          "es": "Dispensado por receta - la composición queda fijada en el software, con rechazo automático de dobles alimentaciones y cartas faltantes."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "In-line counting and vision verification - wrong, duplicate and out-of-sequence cards are identified in real time at full line speed.",
+          "zh": "在线计数与视觉核验——产线全速运行时实时识别错卡、重复卡、顺序错乱。",
+          "de": "Inline-Zählung und Sichtprüfung - falsche, doppelte und falsch sortierte Karten werden in Echtzeit bei voller Linienleistung erkannt.",
+          "fr": "Comptage en ligne et vérification visuelle - cartes erronées, doubles ou désordonnées identifiées en temps réel à pleine cadence.",
+          "it": "Conteggio in linea e verifica visiva - carte errate, duplicate o fuori sequenza identificate in tempo reale a piena velocità.",
+          "es": "Conteo en línea y verificación visual - cartas erróneas, duplicadas o fuera de secuencia detectadas en tiempo real a plena cadencia."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "Automatic rejection and traceability - defective packs are removed without stopping the line, and every rejection is logged for review.",
+          "zh": "自动剔除与可追溯——不停机剔除不良包，每次剔除均留痕便于复盘。",
+          "de": "Automatische Ausschleusung und Rückverfolgbarkeit - fehlerhafte Packungen werden ohne Linienstopp entnommen, jede Ausschleusung wird protokolliert.",
+          "fr": "Rejet automatique et traçabilité - les paquets défectueux sont écartés sans arrêt de ligne et chaque rejet est journalisé.",
+          "it": "Scarto automatico e tracciabilità - le confezioni difettose vengono rimosse senza fermare la linea e ogni scarto è registrato.",
+          "es": "Rechazo automático y trazabilidad - los paquetes defectuosos se retiran sin parar la línea y cada rechazo queda registrado."
+        }
+      },
+      {
+        "type": "h2",
+        "text": {
+          "en": "The three-stage zero-defect workflow",
+          "zh": "三阶段零缺陷工作流程",
+          "de": "Der dreistufige Null-Fehler-Workflow",
+          "fr": "Le workflow zéro défaut en trois étapes",
+          "it": "Il flusso zero difetti in tre fasi",
+          "es": "El flujo de cero defectos en tres etapas"
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "Stage one is controlled dispensing. A card dispensing and matching system feeds from multiple stations according to a stored recipe, so pack composition is defined by software rather than by an operator counting cards. Stage two is in-line counting and double-feed detection at the infeed, which catches a mechanical slip before it becomes a sealed pack.",
+          "zh": "第一阶段是受控发卡。发卡配卡系统按存储配方从多工位供卡，卡组构成由软件定义，而不是靠操作员数卡。第二阶段是进料口的在线计数与双张检测，把机械打滑在封包之前就拦下来。",
+          "de": "Stufe eins ist die gesteuerte Zuführung. Ein Kartenzuführungs- und Zuordnungssystem speist aus mehreren Stationen nach gespeicherter Rezeptur, die Packzusammensetzung ist also softwaredefiniert statt vom Bediener gezählt. Stufe zwei ist Inline-Zählung und Doppelzugerkennung am Einlauf, die einen mechanischen Schlupf abfängt, bevor daraus eine versiegelte Packung wird.",
+          "fr": "Étape un, la distribution pilotée. Un système de distribution et d'appariement alimente depuis plusieurs stations selon une recette mémorisée : la composition du paquet est définie par logiciel et non par un opérateur qui compte les cartes. Étape deux, comptage en ligne et détection des doubles à l'entrée, qui interceptent un glissement mécanique avant qu'il ne devienne un paquet scellé.",
+          "it": "Fase uno, distribuzione controllata. Un sistema di distribuzione e abbinamento alimenta da più stazioni secondo una ricetta salvata: la composizione è definita dal software, non dal conteggio dell'operatore. Fase due, conteggio in linea e rilevamento doppie alimentazioni in ingresso, che intercettano uno scivolamento meccanico prima che diventi una confezione sigillata.",
+          "es": "Etapa uno, dispensado controlado. Un sistema de dispensado y emparejado alimenta desde varias estaciones según una receta guardada, de modo que la composición la define el software y no un operario contando cartas. Etapa dos, conteo en línea y detección de doble alimentación en la entrada, que captura un deslizamiento mecánico antes de que se convierta en un paquete sellado."
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "Stage three is 100% inspection after sealing. The KKR-C02 AI card visual inspection system uses OCR and machine vision to verify card identity, count and order at over 400 sheets per minute, with mixed-order detection in 100 ms, and rejects any pack that fails. Because every pack is checked rather than sampled, the packaging error rate reaches 0% instead of merely being low. The unit also self-trains on new card templates, so a new set does not need a new inspection programme.",
+          "zh": "第三阶段是封合后的 100% 全检。KKR-C02 AI 卡牌视觉检测系统用 OCR 与机器视觉核验卡片身份、数量与顺序，每分钟 400 张以上，混序识别 100 毫秒，不合格包装自动剔除。因为是逐包全检而非抽检，包装差错率才能真正到 0%，而不只是「很低」。系统还能对新卡模板自学习，新卡组上线无需另写检测程序。",
+          "de": "Stufe drei ist die 100%-Prüfung nach dem Siegeln. Das KKR-C02 AI-Kartenprüfsystem verifiziert Identität, Anzahl und Reihenfolge per OCR und Machine Vision bei über 400 Blatt pro Minute, erkennt Mischreihenfolgen in 100 ms und schleust fehlerhafte Packungen aus. Weil jede Packung geprüft und nicht stichprobenartig kontrolliert wird, erreicht die Fehlerrate 0% statt nur niedrig zu sein. Das Gerät trainiert neue Kartenvorlagen selbstständig ein, sodass ein neues Set kein neues Prüfprogramm braucht.",
+          "fr": "Étape trois, le contrôle à 100% après scellage. Le système d'inspection visuelle AI KKR-C02 vérifie identité, nombre et ordre des cartes par OCR et vision industrielle à plus de 400 feuilles/min, détecte les ordres mélangés en 100 ms et rejette tout paquet non conforme. Chaque paquet étant contrôlé et non échantillonné, le taux d'erreur atteint 0% au lieu d'être seulement faible. L'unité s'auto-entraîne sur de nouveaux modèles de cartes : une nouvelle série ne demande pas de nouveau programme de contrôle.",
+          "it": "Fase tre, ispezione al 100% dopo la sigillatura. Il sistema di ispezione visiva AI KKR-C02 verifica identità, numero e ordine delle carte con OCR e machine vision oltre 400 fogli/min, rileva gli ordini misti in 100 ms e scarta ogni confezione non conforme. Poiché si controlla ogni confezione e non un campione, il tasso di errore raggiunge lo 0% invece di essere solo basso. L'unità si auto-addestra su nuovi modelli di carta, quindi una nuova serie non richiede un nuovo programma di ispezione.",
+          "es": "Etapa tres, inspección del 100% tras el sellado. El sistema de inspección visual AI KKR-C02 verifica identidad, cantidad y orden mediante OCR y visión artificial a más de 400 hojas/min, detecta órdenes mezclados en 100 ms y rechaza cualquier paquete no conforme. Al revisar cada paquete y no una muestra, la tasa de error llega al 0% en lugar de ser solo baja. Además se autoentrena con nuevos modelos de carta, así que una nueva colección no necesita un programa de inspección nuevo."
+        }
+      },
+      {
+        "type": "cta",
+        "text": {
+          "en": "Ask for a Zero-Error Card Packaging Line Quote",
+          "zh": "索取零误差卡牌包装产线报价",
+          "de": "Angebot für eine fehlerfreie Kartenverpackungslinie anfordern",
+          "fr": "Demander un devis de ligne de conditionnement zéro erreur",
+          "it": "Richiedi un preventivo per una linea di confezionamento zero errori",
+          "es": "Solicitar presupuesto de línea de envasado cero errores"
+        },
+        "href": "/contact"
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/machines/ai-visual",
+        "label": {
+          "en": "AI Card Visual Inspection System",
+          "zh": "AI 卡牌视觉检测系统",
+          "de": "AI-Kartenprüfsystem",
+          "fr": "Système d'inspection visuelle AI",
+          "it": "Sistema di ispezione visiva AI",
+          "es": "Sistema de inspección visual AI"
+        }
+      },
+      {
+        "href": "/machines/card-dispensing-matching",
+        "label": {
+          "en": "Card Dispensing & Matching System",
+          "zh": "发卡配卡系统",
+          "de": "Kartenzuführungs- und Zuordnungssystem",
+          "fr": "Système de distribution et d'appariement",
+          "it": "Sistema di distribuzione e abbinamento",
+          "es": "Sistema de dispensado y emparejado"
+        }
+      },
+      {
+        "href": "/contact",
+        "label": {
+          "en": "Talk to Our Engineers",
+          "zh": "联系工程师",
+          "de": "Mit unseren Ingenieuren sprechen",
+          "fr": "Parler à nos ingénieurs",
+          "it": "Parla con i nostri ingegneri",
+          "es": "Hable con nuestros ingenieros"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "en": "Is 100% inspection realistic at full packaging speed?",
+          "zh": "产线全速运行时，100% 全检现实吗？",
+          "de": "Ist 100%-Prüfung bei voller Verpackungsgeschwindigkeit realistisch?",
+          "fr": "Un contrôle à 100% est-il réaliste à pleine cadence d'emballage ?",
+          "it": "Il controllo al 100% è realistico a piena velocità di confezionamento?",
+          "es": "¿Es realista una inspección del 100% a plena velocidad de envasado?"
+        },
+        "answer": {
+          "en": "Yes. The KKR-C02 inspects more than 400 sheets per minute, which exceeds the output of a typical candy wrapper running at 20-220 packs per minute. Inspection happens in-line, so there is no separate offline station and no throughput penalty.",
+          "zh": "现实。KKR-C02 每分钟检测 400 张以上，高于典型糖果包装机 20-220 包/分钟的产出。检测在线完成，无需另设离线工位，也不损失产能。",
+          "de": "Ja. Das KKR-C02 prüft über 400 Blatt pro Minute und übertrifft damit die Ausbringung eines typischen Candy-Wrappers mit 20-220 Packungen pro Minute. Die Prüfung läuft inline, es gibt also keine separate Offline-Station und keinen Durchsatzverlust.",
+          "fr": "Oui. Le KKR-C02 contrôle plus de 400 feuilles/min, soit davantage que la sortie d'une enveloppeuse candy classique à 20-220 paquets/min. Le contrôle est en ligne : aucune station hors ligne ni perte de cadence.",
+          "it": "Sì. Il KKR-C02 ispeziona oltre 400 fogli/min, più della produzione di una tipica candy wrapper a 20-220 confezioni/min. Il controllo è in linea: nessuna stazione separata e nessuna perdita di produttività.",
+          "es": "Sí. El KKR-C02 inspecciona más de 400 hojas/min, por encima de la salida de una envolvedora candy típica de 20-220 paquetes/min. La inspección es en línea, sin estación separada ni pérdida de producción."
+        }
+      },
+      {
+        "question": {
+          "en": "Can AI inspection detect cards it has never seen before?",
+          "zh": "AI 检测能识别没见过的新卡吗？",
+          "de": "Erkennt die AI-Prüfung auch Karten, die sie noch nie gesehen hat?",
+          "fr": "L'inspection AI peut-elle détecter des cartes jamais vues auparavant ?",
+          "it": "L'ispezione AI riconosce carte mai viste prima?",
+          "es": "¿Puede la inspección AI detectar cartas que nunca ha visto?"
+        },
+        "answer": {
+          "en": "Yes. The system supports OCR for Chinese, English and numbers, detects mixed orders in 100 ms, and self-trains on new card templates, so a new TCG set can be onboarded without writing a new inspection programme.",
+          "zh": "可以。系统支持中英文与数字 OCR，100 毫秒内识别混序，并能对新卡模板自学习，新 TCG 卡组上线无需重新编写检测程序。",
+          "de": "Ja. Das System beherrscht OCR für Chinesisch, Englisch und Zahlen, erkennt Mischreihenfolgen in 100 ms und trainiert neue Kartenvorlagen selbst ein, sodass ein neues TCG-Set ohne neues Prüfprogramm anläuft.",
+          "fr": "Oui. Le système gère l'OCR chinois, anglais et chiffres, détecte les ordres mélangés en 100 ms et s'auto-entraîne sur de nouveaux modèles, donc une nouvelle série TCG démarre sans nouveau programme de contrôle.",
+          "it": "Sì. Il sistema supporta OCR per cinese, inglese e numeri, rileva ordini misti in 100 ms e si auto-addestra su nuovi modelli, quindi una nuova serie TCG parte senza un nuovo programma di ispezione.",
+          "es": "Sí. El sistema admite OCR en chino, inglés y números, detecta órdenes mezclados en 100 ms y se autoentrena con nuevos modelos, de modo que una nueva colección TCG arranca sin un programa de inspección nuevo."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "small-batch-trading-card-packaging",
+    "date": "2026-11-14",
+    "category": {
+      "en": "Production Guide",
+      "zh": "生产指南",
+      "de": "Produktionsleitfaden",
+      "fr": "Guide de production",
+      "it": "Guida di produzione",
+      "es": "Guía de producción",
+      "ru": "Руководство по производству",
+      "ko": "생산 가이드",
+      "ja": "生産ガイド"
+    },
+    "title": {
+      "en": "Small-Batch Trading Card Packaging: How to Automate Short Runs Without Overbuying",
+      "zh": "小批量卡牌包装：短版订单如何自动化而不超额投资",
+      "de": "Sammelkarten in Kleinserien verpacken: kurze Auflagen automatisieren ohne Fehlinvestition",
+      "fr": "Emballage de cartes en petites séries : automatiser les courts tirages sans surinvestir",
+      "it": "Confezionamento carte in piccole serie: automatizzare tirature brevi senza sovrainvestire",
+      "es": "Envasado de cartas en series cortas: cómo automatizar tiradas pequeñas sin sobreinvertir",
+      "ru": "Упаковка карт малыми тиражами: как автоматизировать короткие серии без лишних вложений",
+      "ko": "소량 트레이딩 카드 포장: 과잉 투자 없이 단기 생산을 자동화하는 방법",
+      "ja": "小ロットのトレーディングカード包装：過剰投資せず短期生産を自動化する方法"
+    },
+    "excerpt": {
+      "en": "Short print runs, frequent set changes and limited floor space make small-batch TCG packaging a different problem from mass production. Here is how to pick modular equipment that starts small, changes over fast and grows with your titles.",
+      "zh": "短版印刷、频繁换卡组、场地有限，使小批量 TCG 包装与量产是完全不同的问题。本文讲清如何选模块化设备：起步轻、换型快、随产品一起成长。",
+      "de": "Kurze Auflagen, häufige Setwechsel und begrenzte Stellfläche machen die Kleinserien-Verpackung von TCG-Karten zu einer anderen Aufgabe als die Massenfertigung. So wählen Sie modulare Technik, die klein startet, schnell umrüstet und mit Ihren Titeln wächst.",
+      "fr": "Tirages courts, changements de série fréquents et surface limitée font du conditionnement TCG en petite série un problème différent de la production de masse. Comment choisir un équipement modulaire qui démarre petit, change vite et grandit avec vos titres.",
+      "it": "Tirature brevi, cambi di serie frequenti e spazio limitato rendono il confezionamento TCG in piccola serie un problema diverso dalla produzione di massa. Come scegliere attrezzature modulari che partono piccole, cambiano rapidamente e crescono con i titoli.",
+      "es": "Tiradas cortas, cambios de colección frecuentes y espacio limitado hacen del envasado TCG en pequeña serie un problema distinto de la producción masiva. Cómo elegir equipos modulares que empiezan pequeños, cambian rápido y crecen con tus títulos.",
+      "ru": "Короткие тиражи, частая смена серий и ограниченная площадь делают мелкосерийную упаковку TCG задачей, отличной от массового производства. Как выбрать модульное оборудование, которое растёт вместе с вашими проектами.",
+      "ko": "짧은 생산 로트, 잦은 카드 세트 교체, 제한된 공간 때문에 소량 TCG 포장은 대량 생산과 다른 문제입니다. 작게 시작해 빠르게 전환하고 타이틀과 함께 확장되는 모듈식 장비 선택법을 안내합니다.",
+      "ja": "短いロット、頻繁なセット切替、限られた床面積により、小ロット TCG 包装は量産とは異なる課題です。小さく始め、素早く段替えし、タイトルと共に成長するモジュール設備の選び方を解説します。"
+    },
+    "body": [
+      {
+        "type": "h2",
+        "text": {
+          "en": "Why small-batch card packaging needs a different line",
+          "zh": "为什么小批量卡牌包装需要不同的产线",
+          "de": "Warum Kleinserien eine andere Verpackungslinie brauchen",
+          "fr": "Pourquoi les petites séries exigent une ligne différente",
+          "it": "Perché le piccole serie richiedono una linea diversa",
+          "es": "Por qué las series cortas necesitan otra línea"
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "Independent TCG publishers, game studios and contract packers rarely run one card set for months. They produce short runs, switch between formats, and often need to release a new title within weeks. Buying a high-speed turnkey line sized for a million packs a month ties up capital that a small batch operation will never recover.",
+          "zh": "独立 TCG 发行方、游戏工作室与代包装厂很少让一个卡组连跑数月：他们做短版、频繁切换规格，往往几周内就要发新作。买一条按月产百万包设计的高速交钥匙产线，会占压小批量业务永远收不回的资金。",
+          "de": "Unabhängige TCG-Verlage, Spielestudios und Lohnverpacker produzieren selten monatelang dasselbe Set. Sie fahren kurze Auflagen, wechseln zwischen Formaten und müssen einen neuen Titel oft innerhalb weniger Wochen ausliefern. Eine Hochgeschwindigkeitslinie für eine Million Packungen im Monat bindet Kapital, das ein Kleinserienbetrieb nie amortisiert.",
+          "fr": "Les éditeurs TCG indépendants, studios de jeux et conditionneurs à façon produisent rarement la même série pendant des mois. Ils enchaînent les courts tirages, changent de format et doivent souvent sortir un nouveau titre en quelques semaines. Acheter une ligne clés en main dimensionnée pour un million de paquets par mois immobilise un capital qu'une petite série ne rentabilisera jamais.",
+          "it": "Editori TCG indipendenti, studi di gioco e terzisti raramente producono la stessa serie per mesi. Realizzano tirature brevi, cambiano formato e spesso devono lanciare un nuovo titolo in poche settimane. Acquistare una linea chiavi in mano da un milione di confezioni al mese immobilizza capitale che una piccola serie non recupererà mai.",
+          "es": "Los editores TCG independientes, estudios de juegos y envasadores por contrato rara vez producen la misma colección durante meses. Hacen tiradas cortas, cambian de formato y a menudo deben lanzar un título nuevo en semanas. Comprar una línea llave en mano dimensionada para un millón de paquetes al mes inmoviliza un capital que una serie corta nunca recuperará."
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "The right approach is modular: buy the module that removes today's bottleneck, and keep the option to add the next one. A common starting point is a card dispensing and matching system that stores one recipe per title, so a set changeover is a software selection plus a film change rather than a day of mechanical adjustment.",
+          "zh": "正确思路是模块化：先买解决当前瓶颈的模块，同时保留加装下一个的能力。常见起点是发卡配卡系统——每个卡组存一条配方，换卡组只是软件选配方加换膜，而不是一整天的机械调整。",
+          "de": "Der richtige Ansatz ist modular: Kaufen Sie das Modul, das den heutigen Engpass beseitigt, und halten Sie sich den nächsten Ausbau offen. Ein gängiger Einstieg ist ein Kartenzuführungs- und Zuordnungssystem mit einer Rezeptur je Titel - der Setwechsel wird damit zur Softwareauswahl plus Folienwechsel statt zu einem Tag mechanischer Umrüstung.",
+          "fr": "La bonne approche est modulaire : achetez le module qui lève le goulet d'étranglement actuel et gardez la possibilité d'ajouter le suivant. Un point de départ courant est un système de distribution et d'appariement qui mémorise une recette par titre : changer de série devient une sélection logicielle plus un changement de film, au lieu d'une journée de réglages mécaniques.",
+          "it": "L'approccio corretto è modulare: acquistate il modulo che elimina il collo di bottiglia di oggi e mantenete aperta la possibilità di aggiungere il successivo. Un punto di partenza tipico è un sistema di distribuzione e abbinamento che memorizza una ricetta per titolo, così il cambio serie diventa una selezione software più un cambio film invece di un giorno di regolazioni meccaniche.",
+          "es": "El enfoque correcto es modular: compre el módulo que elimina el cuello de botella de hoy y conserve la opción de añadir el siguiente. Un punto de partida habitual es un sistema de dispensado y emparejado que guarda una receta por título, de modo que cambiar de colección es seleccionar un programa y cambiar el film, no un día de ajustes mecánicos."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "Recipe-based changeover - store one recipe per title and switch formats in minutes, without mechanical rebuilds or wasted film.",
+          "zh": "配方化换型——每个卡组一条配方，几分钟切换规格，无需机械改造或废膜。",
+          "de": "Rezeptbasierter Wechsel - eine Rezeptur je Titel, Formatwechsel in Minuten ohne mechanischen Umbau oder Folienabfall.",
+          "fr": "Changement par recette - une recette par titre, changement de format en quelques minutes sans reconstruction mécanique ni gâche de film.",
+          "it": "Cambio a ricetta - una ricetta per titolo e cambio formato in pochi minuti, senza ricostruzioni meccaniche o spreco di film.",
+          "es": "Cambio por receta - una receta por título y cambio de formato en minutos, sin reconstrucciones mecánicas ni desperdicio de film."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "Flexible formats - one-card-one-pack, multi-card boosters, sleeved cards and toploader-packed cards on the same equipment family.",
+          "zh": "规格灵活——一卡一包、多卡补充包、套膜卡、卡砖装卡可在同一设备家族完成。",
+          "de": "Flexible Formate - One-Card-One-Pack, Multi-Card-Booster, gehüllte Karten und Toploader-Karten auf derselben Gerätefamilie.",
+          "fr": "Formats flexibles - one-card-one-pack, boosters multi-cartes, cartes sous pochette et cartes en toploader sur la même famille d'équipements.",
+          "it": "Formati flessibili - one-card-one-pack, booster multi-carta, carte in bustina e in toploader sulla stessa famiglia di macchine.",
+          "es": "Formatos flexibles - one-card-one-pack, sobres multi-carta, cartas enfundadas y en toploader en la misma familia de equipos."
+        }
+      },
+      {
+        "type": "li",
+        "text": {
+          "en": "Scalable investment - start with dispensing, wrapping or inspection and add cartoning, case packing and palletising only when volume justifies it.",
+          "zh": "投资可伸缩——先上发卡、包装或检测，产量达标后再加装盒、装箱与码垛。",
+          "de": "Skalierbare Investition - Start mit Zuführung, Einschlag oder Prüfung, Ergänzung von Kartonenaufrichter, Kartonpacker und Palettierung erst bei passender Stückzahl.",
+          "fr": "Investissement évolutif - démarrer par la distribution, l'emballage ou l'inspection, puis ajouter encartonnage, mise en caisse et palettisation quand le volume le justifie.",
+          "it": "Investimento scalabile - partire da distribuzione, confezionamento o ispezione e aggiungere incartonamento, inscatolamento e pallettizzazione solo quando i volumi lo giustificano.",
+          "es": "Inversión escalable - empezar por dispensado, envasado o inspección y añadir encajonado, encajado y paletizado solo cuando el volumen lo justifique."
+        }
+      },
+      {
+        "type": "h2",
+        "text": {
+          "en": "A modular path from one machine to a full line",
+          "zh": "从一台设备到完整产线的模块化路径",
+          "de": "Der modulare Weg von einer Maschine zur Komplettlinie",
+          "fr": "Un parcours modulaire d'une machine à la ligne complète",
+          "it": "Un percorso modulare da una macchina alla linea completa",
+          "es": "Un camino modular de una máquina a la línea completa"
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "Format flexibility matters as much as speed. A self-adhesive strip machine can switch between reclosable, hot-cut and hot-press sealing on the same frame; a candy flow wrapper covers standard booster packs and promotional one-card-one-pack formats with a film-width change. Both accept standard 63 x 88 mm poker and 56 x 88 mm bridge card sizes, plus tarot and oversized cards.",
+          "zh": "规格灵活性与速度同等重要。自粘条包装机可在同一机架上切换可反复撕贴、热切、热压三种封合；糖果包装机换一下膜宽即可覆盖标准补充包与推广用一卡一包。两者均支持 63×88mm 扑克尺寸、56×88mm 桥牌尺寸，也兼容塔罗牌与加大卡。",
+          "de": "Formatflexibilität ist so wichtig wie Geschwindigkeit. Eine Selbstklebestreifen-Maschine wechselt auf demselben Gestell zwischen wiederverschließbarer, heißgeschnittener und heißgepresster Siegelung; ein Candy-Flow-Wrapper deckt Standard-Booster und One-Card-One-Pack-Promotions mit einem Wechsel der Folienbreite ab. Beide verarbeiten die Standardformate 63 x 88 mm Poker und 56 x 88 mm Bridge sowie Tarot- und Übergrößen.",
+          "fr": "La flexibilité de format compte autant que la cadence. Une machine à bande autocollante alterne sur le même bâti entre scellage refermable, coupe à chaud et presse à chaud ; une enveloppeuse candy couvre les boosters standard et les paquets promotionnels one-card-one-pack par simple changement de laize. Les deux acceptent les formats standard 63 x 88 mm poker et 56 x 88 mm bridge, ainsi que les cartes tarot et grand format.",
+          "it": "La flessibilità di formato conta quanto la velocità. Una macchina a strip autoadesivo passa sullo stesso telaio tra sigillatura richiudibile, taglio a caldo e pressatura a caldo; una flow wrapper candy copre booster standard e promozionali one-card-one-pack con un cambio di larghezza film. Entrambe accettano i formati standard 63 x 88 mm poker e 56 x 88 mm bridge, oltre a tarocchi e carte fuori formato.",
+          "es": "La flexibilidad de formato importa tanto como la velocidad. Una máquina de tira autoadhesiva alterna en el mismo bastidor entre sellado re-cerrable, corte en caliente y prensado en caliente; una envolvedora candy cubre sobres estándar y paquetes promocionales one-card-one-pack con un cambio de ancho de film. Ambas aceptan los formatos estándar 63 x 88 mm póker y 56 x 88 mm bridge, además de tarot y cartas de gran formato."
+        }
+      },
+      {
+        "type": "p",
+        "text": {
+          "en": "For European publishers, local support is often the deciding factor. CHANFER is establishing a European entity in Milan to provide installation, spare parts and remote support in European time zones, while our own clean-room card packing facility in Dongguan validates every new machine under real production conditions before it is offered for sale. You can start with a single machine, add AI inspection when volumes grow, and keep the same card-size standard throughout. Share your run lengths and formats and our engineers will return a configuration and quote within 24 hours.",
+          "zh": "对欧洲发行方来说，本地支持往往是决定因素。CHANFER 正在米兰设立欧洲公司，以便在欧洲时区提供安装、备件与远程支持；同时我们在东莞自有的代客包装洁净车间，会让每台新研发设备先在真实生产条件下验证稳定，再投放市场。您可以从一台设备起步，产量上来后加 AI 检测，全程沿用同一卡牌尺寸标准。告知批量与规格，工程师将在 24 小时内返回配置与报价。",
+          "de": "Für europäische Verlage ist lokaler Support oft ausschlaggebend. CHANFER gründet derzeit eine europäische Gesellschaft in Mailand, um Installation, Ersatzteile und Fernsupport in europäischen Zeitzonen bereitzustellen; parallel validiert unser eigener Reinraum-Kartenverpackungsbetrieb in Dongguan jede Neuentwicklung unter realen Produktionsbedingungen, bevor sie in den Verkauf geht. Sie können mit einer Maschine starten, bei wachsenden Stückzahlen AI-Prüfung ergänzen und durchgängig denselben Kartenformatstandard behalten. Nennen Sie Auflagenhöhe und Formate - Konfiguration und Angebot kommen innerhalb von 24 Stunden.",
+          "fr": "Pour les éditeurs européens, le support local est souvent décisif. CHANFER met actuellement en place une entité européenne à Milan afin d'assurer installation, pièces détachées et support à distance dans les fuseaux horaires européens ; parallèlement, notre propre atelier de conditionnement de cartes en salle propre à Dongguan valide chaque nouvelle machine en conditions réelles de production avant sa commercialisation. Vous pouvez démarrer avec une seule machine, ajouter l'inspection AI quand les volumes croissent et conserver le même standard de format de carte. Transmettez vos tirages et formats : configuration et devis sous 24 heures.",
+          "it": "Per gli editori europei il supporto locale è spesso decisivo. CHANFER sta costituendo una società europea a Milano per garantire installazione, ricambi e assistenza remota nei fusi orari europei; parallelamente il nostro reparto di confezionamento carte in camera bianca a Dongguan convalida ogni nuova macchina in condizioni produttive reali prima della vendita. Potete partire da una sola macchina, aggiungere l'ispezione AI quando i volumi crescono e mantenere lo stesso standard di formato carta. Comunicate tirature e formati: configurazione e preventivo entro 24 ore.",
+          "es": "Para los editores europeos, el soporte local suele ser decisivo. CHANFER está constituyendo una entidad europea en Milán para ofrecer instalación, repuestos y soporte remoto en husos horarios europeos; en paralelo, nuestro propio taller de envasado de cartas en sala limpia en Dongguan valida cada máquina nueva en condiciones reales de producción antes de comercializarla. Puede empezar con una sola máquina, añadir inspección AI cuando crezcan los volúmenes y mantener el mismo estándar de formato de carta. Indíquenos tiradas y formatos: configuración y presupuesto en 24 horas."
+        }
+      },
+      {
+        "type": "cta",
+        "text": {
+          "en": "Get a Small-Batch Card Packaging Configuration",
+          "zh": "获取小批量卡牌包装配置方案",
+          "de": "Konfiguration für Kleinserien-Kartenverpackung anfordern",
+          "fr": "Obtenir une configuration de conditionnement petite série",
+          "it": "Richiedi una configurazione di confezionamento per piccole serie",
+          "es": "Solicitar una configuración de envasado para series cortas"
+        },
+        "href": "/contact"
+      }
+    ],
+    "relatedLinks": [
+      {
+        "href": "/solutions/self-adhesive",
+        "label": {
+          "en": "Self-Adhesive Strip Packaging",
+          "zh": "自粘条包装方案",
+          "de": "Selbstklebestreifen-Verpackung",
+          "fr": "Emballage bande autocollante",
+          "it": "Confezionamento strip autoadesivo",
+          "es": "Envasado con tira autoadhesiva"
+        }
+      },
+      {
+        "href": "/solutions/candy",
+        "label": {
+          "en": "Candy Packaging Solution",
+          "zh": "糖果包装方案",
+          "de": "Candy-Verpackungslösung",
+          "fr": "Solution d'emballage Candy",
+          "it": "Soluzione di confezionamento Candy",
+          "es": "Solución de envasado Candy"
+        }
+      },
+      {
+        "href": "/contact",
+        "label": {
+          "en": "Talk to Our Engineers",
+          "zh": "联系工程师",
+          "de": "Mit unseren Ingenieuren sprechen",
+          "fr": "Parler à nos ingénieurs",
+          "it": "Parla con i nostri ingegneri",
+          "es": "Hable con nuestros ingenieros"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": {
+          "en": "What output counts as a small batch for trading card packaging?",
+          "zh": "多小的批量算小批量卡牌包装？",
+          "de": "Welche Stückzahl gilt bei Kartenverpackung als Kleinserie?",
+          "fr": "Quel volume définit une petite série en emballage de cartes ?",
+          "it": "Quale volume si intende per piccola serie nel confezionamento carte?",
+          "es": "¿Qué volumen se considera serie corta en el envasado de cartas?"
+        },
+        "answer": {
+          "en": "Typically a few thousand to a few tens of thousands of packs per title, with several set changeovers a month. At this volume a machine running 20-220 packs per minute is already faster than the upstream printing and collating steps, so flexibility and changeover time matter more than maximum speed.",
+          "zh": "通常每个卡组几千到几万包，每月有数次换型。在这个量级，20-220 包/分钟的设备已快于上游印刷与配页，因此柔性与换型时间比极限速度更重要。",
+          "de": "Typischerweise einige tausend bis einige zehntausend Packungen je Titel bei mehreren Setwechseln pro Monat. In dieser Größenordnung ist eine Maschine mit 20-220 Packungen/min bereits schneller als die vorgelagerten Druck- und Zusammentragstufen, daher zählen Flexibilität und Rüstzeit mehr als die Höchstgeschwindigkeit.",
+          "fr": "Généralement de quelques milliers à quelques dizaines de milliers de paquets par titre, avec plusieurs changements de série par mois. À ce niveau, une machine à 20-220 paquets/min est déjà plus rapide que l'impression et l'assemblage en amont : flexibilité et temps de changement priment sur la vitesse maximale.",
+          "it": "In genere da poche migliaia a poche decine di migliaia di confezioni per titolo, con diversi cambi serie al mese. A questo livello una macchina da 20-220 confezioni/min è già più veloce della stampa e dell'assemblaggio a monte, perciò flessibilità e tempi di cambio contano più della velocità massima.",
+          "es": "Normalmente de unos miles a unas decenas de miles de paquetes por título, con varios cambios de colección al mes. A ese nivel, una máquina de 20-220 paquetes/min ya supera la impresión y el alzado previos, así que la flexibilidad y el tiempo de cambio pesan más que la velocidad máxima."
+        }
+      },
+      {
+        "question": {
+          "en": "Can I start with one machine and expand to a full line later?",
+          "zh": "可以先买一台设备、以后再扩成整线吗？",
+          "de": "Kann ich mit einer Maschine starten und später zur Komplettlinie erweitern?",
+          "fr": "Puis-je commencer avec une machine et passer plus tard à une ligne complète ?",
+          "it": "Posso partire da una macchina e passare poi a una linea completa?",
+          "es": "¿Puedo empezar con una máquina y ampliar a una línea completa después?"
+        },
+        "answer": {
+          "en": "Yes. All CHANFER modules share the same card-size and conveyor standard and are designed to be integrated. Many customers begin with a single dispensing or wrapping machine and add AI inspection, cartoning and palletising as their title count grows.",
+          "zh": "可以。CHANFER 所有模块共用同一卡牌尺寸与输送标准，设计之初即为可集成。不少客户从单台发卡或包装设备起步，随卡组数量增加再加 AI 检测、装盒与码垛。",
+          "de": "Ja. Alle CHANFER-Module teilen denselben Kartenformat- und Förderstandard und sind auf Integration ausgelegt. Viele Kunden beginnen mit einer einzelnen Zuführungs- oder Einschlagmaschine und ergänzen AI-Prüfung, Kartonenaufrichter und Palettierung mit wachsender Titelzahl.",
+          "fr": "Oui. Tous les modules CHANFER partagent le même standard de format de carte et de convoyage et sont conçus pour s'intégrer. De nombreux clients démarrent avec une seule machine de distribution ou d'emballage puis ajoutent inspection AI, encartonnage et palettisation avec le nombre de titres.",
+          "it": "Sì. Tutti i moduli CHANFER condividono lo stesso standard di formato carta e trasporto e sono progettati per integrarsi. Molti clienti iniziano con una sola macchina di distribuzione o confezionamento e aggiungono ispezione AI, incartonamento e pallettizzazione con la crescita dei titoli.",
+          "es": "Sí. Todos los módulos CHANFER comparten el mismo estándar de formato de carta y transporte y están diseñados para integrarse. Muchos clientes empiezan con una sola máquina de dispensado o envasado y añaden inspección AI, encajonado y paletizado según crece el número de títulos."
+        }
+      }
+    ]
+  },
 ];
 
 blogPosts.sort((a, b) => b.date.localeCompare(a.date));
