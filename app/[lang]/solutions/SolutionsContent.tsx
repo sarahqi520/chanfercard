@@ -35,9 +35,9 @@ const methodImages = [
   "/images/solutions/detail/candy-bags.png",
   "/images/solutions/detail/self-adhesive-bags.png",
   "/images/solutions/detail/four-sides-bags.png",
-  "/images/solutions/detail/banding.png",
-  "/images/solutions/detail/heat-shrink.png",
-  "/images/solutions/detail/three-dimensional.png",
+  "/images/solutions/detail/banding.png?v=20261119",
+  "/images/solutions/detail/heat-shrink.png?v=20261119",
+  "/images/solutions/detail/three-dimensional.png?v=20261119",
 ];
 
 const typeColors: Record<string, string> = {
