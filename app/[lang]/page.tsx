@@ -162,43 +162,6 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
     </div>
   );
 
-  // Hero foreground content — expo slide (shown when the expo image is active)
-  const expoHeroContent = (
-    <div className="max-w-2xl">
-      <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 border border-white/20 bg-white/10 backdrop-blur-sm text-white/90">
-        <Zap size={13} className="text-accent" />
-        {hero.expoBadge}
-      </div>
-
-      <h1 className="text-4xl md:text-5xl lg:text-[3.6rem] font-extrabold leading-[1.08] tracking-tight text-white drop-shadow">
-        {hero.expoTitle}
-        <br />
-        <span className="text-accent">
-          {hero.expoHeadline}
-        </span>
-      </h1>
-
-      <p className="mt-5 text-base md:text-lg text-white/75 leading-relaxed max-w-xl">
-        {hero.expoDesc}
-      </p>
-
-      <div className="mt-8 flex flex-wrap gap-4">
-        <Link
-          href={`/${locale}/solutions`}
-          className="group px-8 py-4 bg-accent hover:bg-accent/90 text-white font-bold rounded-xl transition-all shadow-lg shadow-accent/30 hover:shadow-accent/50 flex items-center gap-2 text-sm"
-        >
-          {hero.expoLink} <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform" />
-        </Link>
-        <Link
-          href={`/${locale}/contact`}
-          className="px-8 py-4 border-2 border-white/25 hover:border-white/50 text-white font-bold rounded-xl hover:bg-white/10 transition-all backdrop-blur-sm text-sm"
-        >
-          {hero.cta2}
-        </Link>
-      </div>
-    </div>
-  );
-
   return (
     <div className="flex flex-col min-h-screen">
       <Header dict={dict} locale={locale} />
@@ -213,7 +176,7 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               "/images/hero-carousel-2.jpg",
               "/images/hero-carousel-3.jpg",
             ]}
-            overlays={[defaultHeroContent, expoHeroContent, expoHeroContent, expoHeroContent]}
+            overlays={[defaultHeroContent, defaultHeroContent, defaultHeroContent, defaultHeroContent]}
           />
         </section>
 
