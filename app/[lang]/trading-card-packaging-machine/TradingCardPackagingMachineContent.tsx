@@ -438,7 +438,7 @@ export const VERIFIED_FACTS: string[] = [
   "Six packaging methods are available. Candy / flow wrap runs 20-220 packs/min; four-side seal runs 50-150 packs/min.",
   "Published lead times: 4-6 weeks for a standard machine, 6-8 weeks for a complete line, 8-12 weeks for custom engineering, plus 2-4 weeks for on-site installation and training.",
   "Guangzhou Chanfer Intelligent Equipment Co., Ltd. handles sales and export; it is a subsidiary of Dongguan Chanfer Intelligent Packing Technology Co., Ltd., which handles R&D and production. Both are independent legal entities within the same group.",
-  "Contact: +86 130 6098 5132 · sarah@gzchanfer.com · WhatsApp +86 187 1891 6678 · WeChat 734310807",
+  "Contact: +86 130 6098 5132 · sarah@gzchanfer.com · WhatsApp +86 187 1891 6678 · WeChat +86 130 6098 5132",
 ];
 
 export default function TradingCardPackagingMachineContent({ locale }: { locale: Locale }) {

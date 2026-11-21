@@ -1065,7 +1065,7 @@ export const companyInfo = {
     tiktok: "CHANFER",
     facebook: "CHANFER",
     wechat: "CHANFER",
-    whatsapp: "+86 13060985132",
+    whatsapp: "+86 187 1891 6678",
   },
   tagline: "Everything Can Be Packed",
   taglines: {

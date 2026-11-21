@@ -264,13 +264,13 @@ export default function IGAS2027Content({ dict, locale }: Props) {
                     {IGAS_EVENT.email}
                   </a>
                   <a
-                    href="https://wa.me/8613060985132"
+                    href="https://wa.me/8618718916678"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     <MessageCircle size={15} className="text-primary" />
-                    +86 130 6098 5132 (WhatsApp)
+                    +86 187 1891 6678 (WhatsApp)
                   </a>
                 </div>
               </div>

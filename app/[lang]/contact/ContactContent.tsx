@@ -192,7 +192,7 @@ export default function ContactContent({ dict, locale }: Props) {
 
                 {/* WhatsApp CTA */}
                 <a
-                  href="https://wa.me/8613060985132"
+                  href="https://wa.me/8618718916678"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-5 rounded-xl bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 card-hover"
