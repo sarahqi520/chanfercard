@@ -84,8 +84,14 @@ export default function Header({ dict, locale }: { dict: Dictionary; locale: Loc
             ))}
             <LanguageSwitcher currentLocale={locale} />
             <Link
+              href={`/${locale}/igas2027`}
+              className="ml-3 px-4 py-2 border border-accent text-accent-dark text-sm font-semibold rounded-lg hover:bg-accent/10 transition-colors whitespace-nowrap"
+            >
+              🎟 IGAS 2027
+            </Link>
+            <Link
               href={`/${locale}/contact`}
-              className="ml-3 px-5 py-2 bg-accent text-primary text-sm font-medium rounded-lg hover:bg-accent-dark transition-colors"
+              className="ml-2 px-5 py-2 bg-accent text-primary text-sm font-medium rounded-lg hover:bg-accent-dark transition-colors"
             >
               {nav.getQuote} →
             </Link>
@@ -118,6 +124,13 @@ export default function Header({ dict, locale }: { dict: Dictionary; locale: Loc
                   {link.label}
                 </Link>
               ))}
+              <Link
+                href={`/${locale}/igas2027`}
+                onClick={() => setMobileOpen(false)}
+                className="mt-1 px-4 py-3 border border-accent text-accent-dark text-sm font-semibold rounded-lg hover:bg-accent/10 transition-colors text-center"
+              >
+                🎟 IGAS 2027 · Tokyo
+              </Link>
               <Link
                 href={`/${locale}/contact`}
                 onClick={() => setMobileOpen(false)}

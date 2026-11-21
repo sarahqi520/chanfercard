@@ -181,6 +181,11 @@ export default function Footer({ dict, locale }: { dict: Dictionary; locale: Loc
                 </Link>
               </li>
               <li>
+                <Link href={`/${locale}/igas2027`} className="hover:text-accent transition-colors font-semibold">
+                  🎟 IGAS 2027
+                </Link>
+              </li>
+              <li>
                 <a href="#" className="hover:text-accent transition-colors">
                   {footerQuickLinks.downloadBrochure}
                 </a>
