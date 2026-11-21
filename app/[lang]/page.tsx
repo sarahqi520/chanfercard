@@ -64,6 +64,21 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
   const compChanfer = smartComparison.chanfer as Record<string, string>;
   const certsDict = dict.certifications as Record<string, string>;
   const timelineDict = dict.timeline as Record<string, string>;
+  // Home-page FAQ: reuse the 35 verified Q&A already in the dictionary (all 9 locales).
+  const faqPageDict = dict.faqPage as {
+    hero: Record<string, string>;
+    categories: { id: string; title: string; items: { question: string; answer: string }[] }[];
+  };
+  const featuredFaqs: { question: string; answer: string }[] = [
+    faqPageDict.categories[0]?.items[0], // 6 packaging methods
+    faqPageDict.categories[0]?.items[1], // how to choose a method
+    faqPageDict.categories[1]?.items[0], // machine types
+    faqPageDict.categories[3]?.items[0], // AI visual inspection
+    faqPageDict.categories[3]?.items[2], // quality certifications
+    faqPageDict.categories[4]?.items[1], // TCG booster packs
+    faqPageDict.categories[5]?.items[2], // lead time
+    faqPageDict.categories[5]?.items[5], // contract packaging
+  ].filter((x): x is { question: string; answer: string } => Boolean(x?.question));
   const certList = locale === "zh" ? companyInfo.certificationsZh : companyInfo.certifications;
 
   // Localize packaging solutions for homepage cards
@@ -485,6 +500,44 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
                   </p>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ — visible Q&A (matches the structured 35 Q&A already in JSON-LD) */}
+        <section className="py-16 md:py-24">
+          <div className="max-w-4xl mx-auto px-4 md:px-6">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl md:text-4xl font-bold">
+                {faqPageDict.hero.title}
+              </h2>
+              <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+                {faqPageDict.hero.description}
+              </p>
+            </div>
+            <div className="space-y-3">
+              {featuredFaqs.map((item, i) => (
+                <details
+                  key={i}
+                  className="group border border-border rounded-xl bg-card p-5 open:border-primary transition-colors"
+                >
+                  <summary className="font-semibold cursor-pointer list-none flex items-start justify-between gap-4">
+                    <span>{item.question}</span>
+                    <span className="text-primary shrink-0 group-open:rotate-45 transition-transform">+</span>
+                  </summary>
+                  <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                    {item.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+            <div className="mt-8 text-center">
+              <Link
+                href={`/${locale}/faq`}
+                className="inline-flex items-center gap-2 px-6 py-3 border border-primary text-primary font-semibold rounded-lg hover:bg-primary hover:text-white transition-colors text-sm"
+              >
+                {faqPageDict.hero.allCategories} <ArrowRight size={14} />
+              </Link>
             </div>
           </div>
         </section>
