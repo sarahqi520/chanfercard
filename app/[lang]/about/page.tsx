@@ -277,6 +277,16 @@ export default async function AboutPage({ params }: Props) {
                     unoptimized
                   />
                 </div>
+                <div className="rounded-xl overflow-hidden border border-border bg-muted">
+                  <Image
+                    src={locale === "zh" ? "/images/company/workshop-four-zh.jpg" : "/images/company/workshop-four-clean.jpg"}
+                    alt="CHANFER Workshop - In-house Assembly and Testing Facility"
+                    width={790}
+                    height={locale === "zh" ? 869 : 619}
+                    className="w-full h-auto object-cover"
+                    unoptimized
+                  />
+                </div>
               </div>
             </div>
           </div>
