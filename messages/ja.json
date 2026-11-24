@@ -2129,5 +2129,28 @@
     "contact": {
       "title": "または直接お問い合わせ"
     }
+  },
+  "teamPage": {
+    "hero": {
+      "eyebrow": "機械の裏側にいる人たち",
+      "title": "CHANFER チームをご紹介",
+      "metaTitle": "チーム紹介 | CHANFER カード包装",
+      "metaDescription": "CHANFER チームをご紹介 — 開発、生産、営業、サービス。",
+      "subtitle": "すべての機械は人がつくります。カード包装ソリューションを支える CHANFER チームをご紹介します。"
+    },
+    "gallery": {
+      "title": "CHANFER の日常",
+      "subtitle": "チームビルディング、屋外活動、そして共有した瞬間。CHANFER を選ぶと、これらの人々と共に働きます。"
+    },
+    "cta": {
+      "title": "一緒につくりましょう",
+      "description": "包装のプロジェクトをご検討中ですか？チームにご相談ください。",
+      "button": "お問い合わせ"
+    },
+    "entry": {
+      "title": "チームを知る",
+      "description": "すべての機械の裏側にいる人々 — CHANFER のチーム文化。",
+      "button": "チームの写真を見る"
+    }
   }
 }

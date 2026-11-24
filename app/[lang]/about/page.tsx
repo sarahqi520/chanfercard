@@ -13,6 +13,7 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import { type Locale } from "@/lib/i18n/config";
 import PhotoGallery from "@/components/PhotoGallery";
@@ -311,19 +312,34 @@ export default async function AboutPage({ params }: Props) {
           </div>
         </section>
 
-        {/* Team Culture — Team building photos */}
-        {mediaReady.teamPhotos && (
-          <PhotoGallery
-            photos={teamPhotos}
-            title={(dict.media as Record<string, string>)?.teamCultureTitle ?? "Team Culture"}
-            subtitle={
-              (dict.media as Record<string, string>)?.teamCultureSubtitle ??
-              "Our people are the heart of CHANFER. From team building to technical training, we invest in our team to deliver the best for our customers."
-            }
-            variant="team"
-          />
-        )}
-
+        {/* Team Culture — link to dedicated subpage */}
+        <section className="py-12 md:py-16 bg-muted">
+          <div className="max-w-7xl mx-auto px-4 md:px-6">
+            <div className="relative overflow-hidden rounded-2xl border border-border bg-background">
+              <div className="grid md:grid-cols-2 items-center">
+                <div className="relative h-64 md:h-full min-h-[280px]">
+                  <Image
+                    src="/images/company/team/team-01.jpg"
+                    alt="CHANFER team building group photo"
+                    fill
+                    className="object-cover"
+                    unoptimized
+                  />
+                </div>
+                <div className="p-8 md:p-12">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-4">{(dict.teamPage as Record<string, any>)?.entry?.title || "Meet Our Team"}</h2>
+                  <p className="text-muted-foreground mb-6 leading-relaxed">{(dict.teamPage as Record<string, any>)?.entry?.description || ""}</p>
+                  <Link
+                    href={`/${locale}/about/team`}
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-primary font-semibold rounded-lg hover:bg-accent-dark transition-colors"
+                  >
+                    {(dict.teamPage as Record<string, any>)?.entry?.button || "View team photos"} →
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* Certifications */}
         <section className="py-12 md:py-20">
           <div className="max-w-7xl mx-auto px-4 md:px-6">

@@ -2129,5 +2129,28 @@
     "contact": {
       "title": "O contáctanos directamente"
     }
+  },
+  "teamPage": {
+    "hero": {
+      "eyebrow": "Las personas detrás de las máquinas",
+      "title": "Conoce al equipo de CHANFER",
+      "metaTitle": "Nuestro equipo | CHANFER Card Packaging",
+      "metaDescription": "Conoce al equipo de CHANFER — ingeniería, producción, ventas y servicio.",
+      "subtitle": "Cada máquina es obra de personas. Conoce al equipo detrás de nuestras soluciones de embalaje de cartas."
+    },
+    "gallery": {
+      "title": "La vida en CHANFER",
+      "subtitle": "Actividades de equipo, salidas al aire libre y momentos compartidos. Estas son las personas con las que trabajas al elegir CHANFER."
+    },
+    "cta": {
+      "title": "Construyamos juntos",
+      "description": "¿Tienes un proyecto de embalaje? Habla con nuestro equipo y obtén una solución a medida.",
+      "button": "Contáctanos"
+    },
+    "entry": {
+      "title": "Conoce a nuestro equipo",
+      "description": "Las personas detrás de cada máquina — la cultura de equipo de CHANFER.",
+      "button": "Ver fotos del equipo"
+    }
   }
 }

@@ -2171,5 +2171,28 @@
     "contact": {
       "title": "Or contact us directly"
     }
+  },
+  "teamPage": {
+    "hero": {
+      "eyebrow": "Behind the machines",
+      "title": "Meet the CHANFER Team",
+      "metaTitle": "Our Team | CHANFER Card Packaging",
+      "metaDescription": "Meet the people behind CHANFER — the team building our card packaging machines and supporting customers worldwide.",
+      "subtitle": "Our machines are built by people. Get to know the CHANFER team behind our card packaging solutions — from engineering and production to sales and service."
+    },
+    "gallery": {
+      "title": "Life at CHANFER",
+      "subtitle": "Team building, outdoor activities, and moments we share along the way. These are the people you work with when you choose CHANFER."
+    },
+    "cta": {
+      "title": "Let's Build Something Together",
+      "description": "Have a packaging project in mind? Talk to our team and get a solution tailored to your cards.",
+      "button": "Contact Us"
+    },
+    "entry": {
+      "title": "Meet Our Team",
+      "description": "The people behind every machine — explore team culture at CHANFER.",
+      "button": "View team photos"
+    }
   }
 }

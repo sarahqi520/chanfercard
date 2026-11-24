@@ -2141,5 +2141,28 @@
     "contact": {
       "title": "Oder kontaktieren Sie uns direkt"
     }
+  },
+  "teamPage": {
+    "hero": {
+      "eyebrow": "Die Menschen hinter den Maschinen",
+      "title": "Das CHANFER Team kennenlernen",
+      "metaTitle": "Unser Team | CHANFER Card Packaging",
+      "metaDescription": "Lernen Sie das CHANFER Team kennen — Engineering, Produktion, Vertrieb und Service.",
+      "subtitle": "Jede Maschine ist die Arbeit von Menschen. Lernen Sie das Team hinter unseren Kartenverpackungslösungen kennen."
+    },
+    "gallery": {
+      "title": "Leben bei CHANFER",
+      "subtitle": "Teambuilding, Outdoor-Aktivitäten und gemeinsame Momente. Das sind die Menschen, mit denen Sie bei CHANFER arbeiten."
+    },
+    "cta": {
+      "title": "Gestalten wir etwas gemeinsam",
+      "description": "Sie haben ein Verpackungsprojekt? Sprechen Sie mit unserem Team und erhalten Sie eine passende Lösung.",
+      "button": "Kontaktieren Sie uns"
+    },
+    "entry": {
+      "title": "Unser Team kennenlernen",
+      "description": "Die Menschen hinter jeder Maschine — die Teamkultur bei CHANFER.",
+      "button": "Teamfotos ansehen"
+    }
   }
 }

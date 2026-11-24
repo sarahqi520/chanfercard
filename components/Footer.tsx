@@ -176,6 +176,11 @@ export default function Footer({ dict, locale }: { dict: Dictionary; locale: Loc
                 </Link>
               </li>
               <li>
+                <Link href={`/${locale}/about/team`} className="hover:text-accent transition-colors">
+                  {(dict.teamPage as Record<string, any>)?.entry?.title || "Our Team"}
+                </Link>
+              </li>
+              <li>
                 <Link href={`/${locale}/contact`} className="hover:text-accent transition-colors">
                   {footerQuickLinks.contactUs}
                 </Link>

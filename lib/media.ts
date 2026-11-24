@@ -166,34 +166,99 @@ export const trainingVideos: TrainingVideo[] = [
  */
 export const teamPhotos: TeamPhoto[] = [
   {
-    src: "/images/company/team/team-1.jpg", // TODO: Replace with actual photo
-    alt: "CHANFER team building activity — group photo",
-    caption: "Company Team Building",
+    src: "/images/company/team/team-01.jpg",
+    alt: "CHANFER team group photo at an outdoor team building event",
+    caption: "Team Building 2026",
   },
   {
-    src: "/images/company/team/team-2.jpg", // TODO: Replace with actual photo
-    alt: "CHANFER staff outdoor activity",
-    caption: "Annual Outing",
+    src: "/images/company/team/team-02.jpg",
+    alt: "CHANFER team photo in front of a landmark during an outing",
+    caption: "Team Outing",
   },
   {
-    src: "/images/company/team/team-3.jpg", // TODO: Replace with actual photo
-    alt: "CHANFER engineering team in the factory",
-    caption: "Engineering Team",
+    src: "/images/company/team/team-03.jpg",
+    alt: "CHANFER team gathered at a landmark during a company trip",
+    caption: "Company Trip",
   },
   {
-    src: "/images/company/team/team-4.jpg", // TODO: Replace with actual photo
-    alt: "CHANFER company dinner and celebration",
-    caption: "Company Dinner",
+    src: "/images/company/team/team-04.jpg",
+    alt: "CHANFER team group photo at a scenic team building destination",
+    caption: "Team Building",
   },
   {
-    src: "/images/company/team/team-5.jpg", // TODO: Replace with actual photo
-    alt: "CHANFER team training session",
-    caption: "Staff Training",
+    src: "/images/company/team/team-05.jpg",
+    alt: "CHANFER team posing together at a historic site",
+    caption: "Company Outing",
   },
   {
-    src: "/images/company/team/team-6.jpg", // TODO: Replace with actual photo
-    alt: "CHANFER annual meeting and awards",
-    caption: "Annual Meeting",
+    src: "/images/company/team/team-06.jpg",
+    alt: "Large CHANFER team group photo at an outdoor venue",
+    caption: "Team Photo",
+  },
+  {
+    src: "/images/company/team/team-07.jpg",
+    alt: "CHANFER team group photo held in a large outdoor square",
+    caption: "Group Photo",
+  },
+  {
+    src: "/images/company/team/team-08.jpg",
+    alt: "CHANFER staff working together in an outdoor team challenge",
+    caption: "Team Challenge",
+  },
+  {
+    src: "/images/company/team/team-09.jpg",
+    alt: "CHANFER colleagues coordinating during an outdoor activity",
+    caption: "Teamwork in Action",
+  },
+  {
+    src: "/images/company/team/team-10.jpg",
+    alt: "CHANFER team posing together after an outdoor activity",
+    caption: "Team Moment",
+  },
+  {
+    src: "/images/company/team/team-11.jpg",
+    alt: "CHANFER team group photo on a garden lawn",
+    caption: "Team Gathering",
+  },
+  {
+    src: "/images/company/team/team-12.jpg",
+    alt: "CHANFER team holding a banner at an outdoor event",
+    caption: "Team Event",
+  },
+  {
+    src: "/images/company/team/team-13.jpg",
+    alt: "CHANFER colleagues playing a team game together",
+    caption: "Team Game",
+  },
+  {
+    src: "/images/company/team/team-14.jpg",
+    alt: "CHANFER team group photo at a traditional archway",
+    caption: "Team Trip",
+  },
+  {
+    src: "/images/company/team/team-15.jpg",
+    alt: "CHANFER team celebrating together with a banner by the sea",
+    caption: "Team Celebration",
+  },
+  {
+    src: "/images/company/team/team-16.jpg",
+    alt: "CHANFER team group photo on a grass field",
+    caption: "Outdoor Team Photo",
+  },
+  {
+    src: "/images/company/team/team-17.jpg",
+    alt: "CHANFER team sharing a meal together",
+    caption: "Team Dinner",
+  },
+  {
+    src: "/images/company/team/team-18.jpg",
+    alt: "CHANFER team group photo in front of a historic gate",
+    caption: "Company Visit",
+  },
+  {
+    src: "/images/company/team/team-19.jpg",
+    alt: "CHANFER team group photo at a historic street destination",
+    caption: "Team Travel",
   },
 ];
 
@@ -277,7 +342,7 @@ export const mediaReady = {
   customerVideos: customerVideos.some((v) => v.youtubeId !== ""),
   trainingVideos: trainingVideos.some((v) => v.youtubeId !== ""),
   /** Set to true after uploading team photos to /public/images/company/team/ */
-  teamPhotos: false,
+  teamPhotos: true,
   /** Set to true after uploading client photos to /public/images/company/clients/ */
   clientPhotos: false,
 };
