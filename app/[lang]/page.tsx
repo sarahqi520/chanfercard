@@ -171,9 +171,9 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         <section className="relative min-h-[580px] md:min-h-[640px] lg:min-h-[700px] flex items-center overflow-hidden">
           <HeroCarousel
             images={[
-              "/images/hero-banner-clean.jpg",
-              "/images/hero/banner-line-1.jpg",
-              "/images/hero/banner-line-2.jpg",
+              "/images/hero-banner-clean.jpg?v=20261124",
+              "/images/hero/banner-line-1.jpg?v=20261124",
+              "/images/hero/banner-line-2.jpg?v=20261124",
             ]}
             overlays={[defaultHeroContent, defaultHeroContent, defaultHeroContent]}
           />
