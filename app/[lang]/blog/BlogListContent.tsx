@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { blogPosts } from "@/lib/blogData";
@@ -24,8 +25,18 @@ export default function BlogListContent({ locale }: { locale: Locale }) {
     <>
       {/* Hero */}
       <section className="relative bg-primary overflow-hidden">
-        <div className="absolute inset-0 hero-pattern" />
-        <div className="relative max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-24">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/banner-dark-left.jpg?v=20261124c"
+            alt=""
+            fill
+            className="object-cover object-center"
+            style={{ objectPosition: "center 40%" }}
+            unoptimized
+            priority
+          />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-24">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-5 border border-white/20 bg-white/10 text-white/90">
             {ui.heroBadge}
           </div>

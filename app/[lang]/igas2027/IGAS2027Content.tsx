@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -128,8 +129,18 @@ export default function IGAS2027Content({ dict, locale }: Props) {
       <main className="flex-1">
         {/* ===== Hero ===== */}
         <section className="relative overflow-hidden bg-primary text-white">
-          <div className="absolute inset-0 hero-pattern opacity-20" />
-          <div className="relative max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-24">
+          <div className="absolute inset-0 z-0">
+            <Image
+              src="/images/banner-dark-left.jpg?v=20261124c"
+              alt=""
+              fill
+              className="object-cover object-center"
+              style={{ objectPosition: "center 42%" }}
+              unoptimized
+              priority
+            />
+          </div>
+          <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-24">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent text-primary text-xs md:text-sm font-bold tracking-wide">
               <Ticket size={14} />
               {t(dict, key("badge"))}

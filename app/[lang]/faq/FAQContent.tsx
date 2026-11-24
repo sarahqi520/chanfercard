@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { ChevronDown, Search, HelpCircle } from "lucide-react";
 import Link from "next/link";
@@ -62,11 +63,22 @@ export default function FAQContent({
     <div className="flex flex-col min-h-screen">
       {/* Hero */}
       <section className="relative bg-primary text-white py-16 md:py-24 overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/banner-dark-center.jpg?v=20261124c"
+            alt=""
+            fill
+            className="object-cover object-center"
+            style={{ objectPosition: "center 45%" }}
+            unoptimized
+            priority
+          />
+        </div>
+        <div className="absolute inset-0 z-0 opacity-5">
           <div className="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl" />
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent rounded-full blur-3xl" />
         </div>
-        <div className="relative max-w-4xl mx-auto px-4 md:px-6 text-center">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 border border-white/20 bg-white/10 backdrop-blur-sm">
             <HelpCircle size={14} className="text-accent" />
             {hero.badge}
