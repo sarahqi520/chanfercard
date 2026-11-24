@@ -93,8 +93,19 @@ export default function MachinesContent({ dict, locale }: Props) {
   return (
     <main className="flex-1">
       {/* Page header */}
-      <section className="bg-muted hero-pattern">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-20">
+      <section className="relative bg-muted hero-pattern overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/banner-inner.jpg?v=20261124"
+            alt=""
+            fill
+            className="object-cover object-center"
+            style={{ objectPosition: "center 45%" }}
+            unoptimized
+            priority
+          />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-20">
           <h1 className="text-3xl md:text-5xl font-bold">
             {machinesDict.title1 as string}{" "}
             <span className="gradient-text">{machinesDict.title2 as string}</span>
