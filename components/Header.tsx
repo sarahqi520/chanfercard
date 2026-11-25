@@ -8,6 +8,7 @@ import {
   Phone,
   Mail,
   Package,
+  Ticket,
 } from "lucide-react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
@@ -50,7 +51,7 @@ export default function Header({ dict, locale }: { dict: Dictionary; locale: Loc
               sarah@gzchanfer.com
             </a>
           </div>
-          <div className="text-muted-foreground text-xs">
+          <div className="text-white/60 text-xs">
             {topBar.tagline}
           </div>
         </div>
@@ -87,7 +88,7 @@ export default function Header({ dict, locale }: { dict: Dictionary; locale: Loc
               href={`/${locale}/igas2027`}
               className="ml-3 px-4 py-2 border border-accent text-accent-dark text-sm font-semibold rounded-lg hover:bg-accent/10 transition-colors whitespace-nowrap"
             >
-              🎟 IGAS 2027
+              <Ticket size={14} /> IGAS 2027
             </Link>
             <Link
               href={`/${locale}/contact`}
@@ -129,7 +130,7 @@ export default function Header({ dict, locale }: { dict: Dictionary; locale: Loc
                 onClick={() => setMobileOpen(false)}
                 className="mt-1 px-4 py-3 border border-accent text-accent-dark text-sm font-semibold rounded-lg hover:bg-accent/10 transition-colors text-center"
               >
-                🎟 IGAS 2027 · Tokyo
+                <Ticket size={15} /> IGAS 2027 · Tokyo
               </Link>
               <Link
                 href={`/${locale}/contact`}

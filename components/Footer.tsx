@@ -4,6 +4,8 @@ import {
   Mail,
   MapPin,
   Link2,
+  Ticket,
+  Package,
 } from "lucide-react";
 import { companyInfo } from "@/lib/data";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
@@ -46,8 +48,8 @@ export default function Footer({ dict, locale }: { dict: Dictionary; locale: Loc
           {/* Company */}
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-9 h-9 bg-primary rounded-lg flex items-center justify-center text-white font-bold text-lg">
-                C
+              <div className="w-9 h-9 bg-accent rounded-lg flex items-center justify-center">
+                <Package size={22} className="text-primary" strokeWidth={2.2} />
               </div>
               <div>
                 <div className="font-bold text-lg text-background">CHANFER</div>
@@ -187,13 +189,16 @@ export default function Footer({ dict, locale }: { dict: Dictionary; locale: Loc
               </li>
               <li>
                 <Link href={`/${locale}/igas2027`} className="hover:text-accent transition-colors font-semibold">
-                  🎟 IGAS 2027
+                  <Ticket size={13} className="inline mr-1" /> IGAS 2027
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">
+                <Link
+                  href={`/${locale}/contact`}
+                  className="hover:text-accent transition-colors"
+                >
                   {footerQuickLinks.downloadBrochure}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -109,6 +109,7 @@ export default function FAQContent({
             />
           </div>
           {/* Category pills */}
+          <div className="relative">
           <div className="flex gap-2 overflow-x-auto pb-1 -mx-1 px-1 scrollbar-hide">
             <button
               onClick={() => setActiveCategory("all")}
@@ -133,6 +134,8 @@ export default function FAQContent({
                 {cat.title}
               </button>
             ))}
+          </div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-gradient-to-l from-background to-transparent" />
           </div>
         </div>
       </section>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { companyInfo } from "@/lib/data";
@@ -95,8 +96,19 @@ export default function ContactContent({ dict, locale }: Props) {
 
       <main className="flex-1">
         {/* Page header */}
-        <section className="bg-muted hero-pattern">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-20">
+        <section className="relative bg-muted hero-pattern overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/banner-inner.jpg?v=20261125"
+            alt=""
+            fill
+            className="object-cover object-center"
+            style={{ objectPosition: "center 46%" }}
+            unoptimized
+            priority
+          />
+        </div>
+          <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 py-16 md:py-20">
             <h1 className="text-3xl md:text-5xl font-bold">
               {t(dict, "contact.title1")}{" "}
               <span className="gradient-text">{t(dict, "contact.title2")}</span>
@@ -126,9 +138,26 @@ export default function ContactContent({ dict, locale }: Props) {
                         <Phone size={18} />
                       </div>
                       <div>
-                        <div className="text-sm font-medium">{t(dict, "contact.phoneWhatsApp")}</div>
+                        <div className="text-sm font-medium">Phone</div>
                         <div className="text-sm text-muted-foreground">
                           +86 130 6098 5132
+                        </div>
+                      </div>
+                    </a>
+
+                    <a
+                      href="https://wa.me/8618718916678"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-start gap-3 p-3 rounded-lg hover:bg-muted transition-colors"
+                    >
+                      <div className="w-10 h-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0">
+                        <MessageCircle size={18} />
+                      </div>
+                      <div>
+                        <div className="text-sm font-medium">WhatsApp</div>
+                        <div className="text-sm text-muted-foreground">
+                          +86 187 1891 6678
                         </div>
                       </div>
                     </a>

@@ -4,7 +4,7 @@
  * ★★★ 只需改这里一处，9 种语言的页面会同步更新 ★★★
  * 展位号确认后，把 IGAS_BOOTH 改成真实展位号即可（例如 "East Hall 4, Booth E4-018"）。
  */
-export const IGAS_BOOTH = "Booth TBA — to be announced";
+export const IGAS_BOOTH = "To Be Announced";
 
 export const IGAS_EVENT = {
   name: "IGAS 2027",
