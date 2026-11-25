@@ -42,7 +42,7 @@ const packagingIcons: Record<string, React.ReactNode> = {
 };
 
 const methodImages: Record<string, string> = {
-  candy: "/images/solutions/detail/candy-bags.png?v=20261125",
+  candy: "/images/solutions/detail/candy-bags.png?v=20261125b",
   "self-adhesive": "/images/solutions/detail/self-adhesive-bags.png",
   "four-sides": "/images/solutions/detail/four-sides-bags.png?v=20261119",
   banding: "/images/solutions/detail/banding.png?v=20261119",
